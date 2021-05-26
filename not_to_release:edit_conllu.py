@@ -100,7 +100,7 @@ def assign_upos(combined_list):
 #Note that particle_interrogative has two upos assignments!
 def upos_finder(list_of_sentences):
     upos_list = [{'adjective': 'ADJ'}, {'adjective_numeral': 'NUM'}, {'adjective_numeral_noun': 'ADJ'}, {'adective_pronominal': 'DET'}, 
-     {'noun': 'NOUN'}, {'noun_numeral': 'NUM'}, {'numeral': 'NUM'}, {'adverb': 'ADV'}, {'complementizer': 'SCONJ'}, 
+     {'noun': 'NOUN'}, {'noun_numeral': 'NUM'}, {'numeral': 'NUM'}, {'adverb': 'ADV'}, {'complementizer': 'SCONJ'},
      {'definite_article': 'DET'}, {'focus_particle': 'PART'}, {'interjection': 'INTJ'}, {'pronoun_independent': 'PRON'}, 
      {'pronoun_infix': 'PRON'}, {'pronoun_infix': 'PRON'}, {'pronoun_possessive': 'DET'}, {'pronoun_propword': 'PRON'}, 
      {'pronoun_quantifier': 'PRON'}, {'pronoun_relative': 'PRON'}, {'proper_noun': 'PROPN'}, {'verb': 'VERB'}, 
@@ -109,7 +109,7 @@ def upos_finder(list_of_sentences):
      {'particle_numerative': 'PART'}, {'particle_pronominal': 'PRON'}, {'particle_vocative': 'PART'}, {'preposition': 'ADP'}, 
      {'pronoun_anaphoric': 'PRON'}, {'pronoun_demonstrative_distal': 'PRON'}, {'particle_interrogative': 'PRON'}, {'particle_negative_main': 'PART'}, 
      {'particle_negative_subordinate': 'PART'}, {'auxiliary': 'AUX'}, {'pronoun_demonstrative_proximate': 'PRON'}, {'particle_discourse': 'ADV'},
-     {'verbal_noun': 'NOUN'}, {'abbreviation': 'CCONJ'}, {'particle_preverb': 'SCONJ'}, {'adjective_quantifier': 'ADJ'}]
+     {'verbal_noun': 'NOUN'}, {'abbreviation': 'CCONJ'}, {'particle_preverb': 'SCONJ'}, {'adjective_quantifier': 'DET'}]
     for sent in list_of_sentences:
         combo = list(itertools.product(sent, upos_list))
         assign_upos(combo)
@@ -201,3 +201,17 @@ def do_all_deprel(list_of_sentences):
     [analyse_complementiser(a_sentence) for a_sentence in list_of_sentences]
     subconj_finder(list_of_sentences)
     coordconj_finder(list_of_sentences)
+
+# ========================================================================================================================================================================================================
+
+# Part 4
+# This function might help to figure out if a word is mutated.
+
+def mutation_finder(sentence_num, a_sentence):
+    for word in a_sentence:
+        if word['form'].startswith('ch') or word['form'].startswith('th') or word['form'].startswith('ph'):
+            print(f"{word} in sentence {sentence_num+1} is lenited!")
+        elif word['form'].startswith('ng') or word['form'].startswith('nd') or word['form'].startswith('mb'):
+            print(f"{word} in sentence {sentence_num+1} is eclipsed!")
+        elif word['form'].startswith('nn') or word['form'].startswith('ll') or word['form'].startswith('rr'):
+            print(f"{word} in sentence {sentence_num+1} is geminated!")
