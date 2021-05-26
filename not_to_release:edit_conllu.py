@@ -97,7 +97,7 @@ def assign_upos(combined_list):
                 combined_list[count][0]['upos'] = value
             
 #Run this after analysing deprel (see next section).
-                
+#Note that particle_interrogative has two upos assignments!
 def upos_finder(list_of_sentences):
     upos_list = [{'adjective': 'ADJ'}, {'adjective_numeral': 'NUM'}, {'adjective_numeral_noun': 'ADJ'}, {'adective_pronominal': 'DET'}, 
      {'noun': 'NOUN'}, {'noun_numeral': 'NUM'}, {'numeral': 'NUM'}, {'adverb': 'ADV'}, {'complementizer': 'SCONJ'}, 
@@ -108,7 +108,8 @@ def upos_finder(list_of_sentences):
      {'particle_demonstrative_distal': 'DET'}, {'particle_demonstrative_proximate': 'DET'}, {'particle_interrogative': 'PART'}, 
      {'particle_numerative': 'PART'}, {'particle_pronominal': 'PRON'}, {'particle_vocative': 'PART'}, {'preposition': 'ADP'}, 
      {'pronoun_anaphoric': 'PRON'}, {'pronoun_demonstrative_distal': 'PRON'}, {'particle_interrogative': 'PRON'}, {'particle_negative_main': 'PART'}, 
-     {'particle_negative_subordinate': 'PART'}, {'auxiliary': 'AUX'}, {'pronoun_demonstrative_proximate': 'PRON'}]
+     {'particle_negative_subordinate': 'PART'}, {'auxiliary': 'AUX'}, {'pronoun_demonstrative_proximate': 'PRON'}, {'particle_discourse': 'ADV'},
+     {'verbal_noun': 'NOUN'}, {'abbreviation': 'CCONJ'}, {'particle_preverb': 'SCONJ'}]
     for sent in list_of_sentences:
         combo = list(itertools.product(sent, upos_list))
         assign_upos(combo)
@@ -163,11 +164,13 @@ def analyse_complementiser(a_sentence):
     for word in a_sentence:
         if word["xpos"] == "complementiser" or word['lemma'] == 'no·':
             word["deprel"] = "mark:prt"
+            word["upos"] = 'SCONJ'
 
 def analyse_coordconj(combined_list):
     for count, word in enumerate(combined_list):
         if combined_list[count][1] in combined_list[count][0]['lemma'] and combined_list[count][0]['xpos'] == "conjunction":
             combined_list[count][0]['deprel'] = 'cc'
+            combined_list[count][0]['upos'] = 'CCONJ'
 
 def coordconj_finder(list_of_sentences):
     cconjlist = ["ocus 2", "nó 1", "ná 4", "fa", "nach 6", "rodbo", "et", "uel"]
@@ -179,6 +182,7 @@ def analyse_subconj(combined_list):
     for count, word in enumerate(combined_list):
         if combined_list[count][1] in combined_list[count][0]['lemma'] and combined_list[count][0]['xpos'] == "conjunction":
             combined_list[count][0]['deprel'] = 'mark'
+            combined_list[count][0]['upos'] = 'SCONJ'
     
 def subconj_finder(list_of_sentences):
     sconjlist = ["amail 2", "ar 2", "a 6", "cía 2", "dég 2", "resíu", "úaire", "ma", "ó 2", "ol 2"]
