@@ -3,6 +3,7 @@
 
 """
 Created on Fri May 7 2021
+Updated Wed May 27 2021
 @author elliottlash
 DFG project
 Georg-August-Universität Göttingen
@@ -11,7 +12,6 @@ Sprachwissenschaftliches Seminar
 
 import csv
 import itertools
-import os
 import re
 import sys
 from collections import OrderedDict
@@ -160,18 +160,18 @@ def preprocessing(input_data):
 #The following functon makes an ordered dictionary whose values are sentences which consist of a list of dictionaries of word:feature pairs
 
 def make_dictionary_of_sentences_out_of(data):
-    sentencesOD = OrderedDict()
+    sentences_ordered_dict = OrderedDict()
     column_names = data[0] # Gets the column names
     all_rows = data[1:]  # gets the textual unit rows
     for row in all_rows: # Separates them into text_unit_id (id) and other values
         id = str(row[1])
         values = row # print(list(zip(column_names, values)))
-        sentenceDict = dict(zip(column_names, values)) # converts them into a dict # print(sentenceDict)
-        if id in sentencesOD: # checks if sentence has been added to the textual unit dictionary before and adds i
-            sentencesOD[id] = sentencesOD[id] + [sentenceDict]
+        sentence_dict = dict(zip(column_names, values)) # converts them into a dict # print(sentenceDict)
+        if id in sentences_ordered_dict: # checks if sentence has been added to the textual unit dictionary before and adds i
+            sentences_ordered_dict[id] = sentences_ordered_dict[id] + [sentence_dict]
         else: # otherwise creates a new textual unit dictionary and adds the sentence to the dictionary
-            sentencesOD[id] = [sentenceDict]
-    return sentencesOD
+            sentences_ordered_dict[id] = [sentence_dict]
+    return sentences_ordered_dict
 
 
 # ========================================================================================================================================================================================================
@@ -205,28 +205,28 @@ def build_list_of_verbs_and_associated_particles_in(a_sentence):
    
 
 def compare_verbs_relative_particles_and_infixed_pronouns_in(list_of_verbs, list_of_relparts, list_of_prons):
-	ans = []
-	for verb, relpart, pron in list(itertools.product(list_of_verbs, list_of_relparts, list_of_prons)):
-		if verb['Stressed_Unit'] == relpart['Stressed_Unit'] and relpart['Stressed_Unit'] == pron['Stressed_Unit']:
-			if pron['Morph'] in verb['Morph']:
-				if relpart['Lemma'] == 'len.rel.particle':
-					answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a lenited relative verb.'
-					ans.append(answ)
-					verb['Analysis'] =  verb['Analysis'] + 'len'
-				elif relpart['Lemma'] == 'nas.rel.particle':
-					answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a nasalized relative verb.'
-					ans.append(answ)
-					verb['Analysis'] =  verb['Analysis'] + 'nas'
-			elif pron['Morph'] not in verb['Morph']:
-				if relpart['Lemma'] == 'len.rel.particle':
-					answ = 'The pronoun ' + pron['Morph'] + ' which has ID number ' + pron['ID'] + ' is a lenited class C pronoun.'
-					ans.append(answ)
-					pron['Analysis'] =  pron['Analysis'] + '.len'
-				elif relpart['Lemma'] == 'nas.rel.particle':
-					answ = 'The pronoun ' + pron['Morph'] + ' which has ID number ' + pron['ID'] + ' is a nasalized class C pronoun.'
-					ans.append(answ)
-					pron['Analysis'] =  pron['Analysis'] + '.nas'
-	return ans
+    ans = []
+    for verb, relpart, pron in list(itertools.product(list_of_verbs, list_of_relparts, list_of_prons)):
+        if verb['Stressed_Unit'] == relpart['Stressed_Unit'] and relpart['Stressed_Unit'] == pron['Stressed_Unit']:
+            if pron['Morph'] in verb['Morph']:
+                if relpart['Lemma'] == 'len.rel.particle':
+                    answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a lenited relative verb.'
+                    ans.append(answ)
+                    verb['Analysis'] =  verb['Analysis'] + 'len'
+                elif relpart['Lemma'] == 'nas.rel.particle':
+                    answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a nasalized relative verb.'
+                    ans.append(answ)
+                    verb['Analysis'] =  verb['Analysis'] + 'nas'
+            elif pron['Morph'] not in verb['Morph']:
+                if relpart['Lemma'] == 'len.rel.particle':
+                    answ = 'The pronoun ' + pron['Morph'] + ' which has ID number ' + pron['ID'] + ' is a lenited class C pronoun.'
+                    ans.append(answ)
+                    pron['Analysis'] =  pron['Analysis'] + '.len'
+                elif relpart['Lemma'] == 'nas.rel.particle':
+                    answ = 'The pronoun ' + pron['Morph'] + ' which has ID number ' + pron['ID'] + ' is a nasalized class C pronoun.'
+                    ans.append(answ)
+                    pron['Analysis'] =  pron['Analysis'] + '.nas'
+    return ans
 
 
 def compare_verbs_and_relative_particles_in(list_of_verbs, list_of_relparts):
@@ -324,13 +324,13 @@ def look_for_relative_or_infixed_verbs_in_all(list_of_sentences):
 
 # The following function removes subelements of compounds. It works if the rows are in the following order: element 1 > element 2 > compound. 
 def compound_detector(list_of_sentences):
-	for sent in list_of_sentences.values():
-		for count, word in enumerate(sent):
-			if count+2 < len(sent):
-				if sent[count]['Morph'] in sent[count+2]['Morph'] and 'compos.' in sent[count]['Analysis']:
-					if sent[count+1]['Morph'] in sent[count+2]['Morph']:
-						sent.pop(count+1)
-					sent.pop(count)
+    for sent in list_of_sentences.values():
+        for count, word in enumerate(sent):
+            if count+2 < len(sent):
+                if sent[count]['Morph'] in sent[count+2]['Morph'] and 'compos.' in sent[count]['Analysis']:
+                    if sent[count+1]['Morph'] in sent[count+2]['Morph']:
+                        sent.pop(count+1)
+                    sent.pop(count)
                     
 # ========================================================================================================================================================================================================
 
@@ -565,7 +565,7 @@ def delete_null_values_in(input_data):
     x = "No_Features"
     for tok in input_data:
         for key, value in tok["feats"].copy().items():
-            if x != key and tok["feats"][key] == None:
+            if x != key and tok["feats"][key] is not None:
                 del tok["feats"][key]
 
 #The following function applies some of the above functions to the data to change the analysis of substantives (i.e. nouns and adjectives).
@@ -601,10 +601,10 @@ def change_preposition_analysis(input_data):
 #The following function combines the functions change_substantive_analysis, change_verb_analysis, change_preposition_and_possessive_analysis, and delete_null_values_in.
     
 def change_all_analyses(input_data):
-    new_substantives = [change_substantive_analysis(item) for item in input_data]
-    new_verbs = [change_verb_analysis(item) for item in input_data]
-    new_preps_and_poss = [change_preposition_analysis(item) for item in input_data]
-    null_feats = [delete_null_values_in(item) for item in input_data]
+    [change_substantive_analysis(item) for item in input_data]
+    [change_verb_analysis(item) for item in input_data]
+    [change_preposition_analysis(item) for item in input_data]
+    [delete_null_values_in(item) for item in input_data]
     output_data = [item.serialize() for item in input_data]
     return output_data
 
@@ -622,7 +622,7 @@ def read_in_with_columns(filename):
     with open(filename, encoding ='utf-8') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter =',', skipinitialspace=True)
         output_data = [row for row in csv_reader]
-        new_output = [row.pop(0) for row in output_data]
+        [row.pop(0) for row in output_data]
         preprocessing(output_data)
     return output_data
 
