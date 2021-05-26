@@ -73,8 +73,8 @@ def fill_deps_in(a_sentence):
 def do_all(list_of_sentences, fileout):
 #    [analyze_person_in_prepositions_and_possessives_in_(item) for item in list_of_sentences]
 #    [analyze_number_in_prepositions_and_possessives_in_(item) for item in list_of_sentences]
-    new1 = [delete_null_values_in(item) for item in list_of_sentences] #Right now this deletes too much info.
-    new2 = [fill_deps_in(item) for item in list_of_sentences]
+    [delete_null_values_in(item) for item in list_of_sentences] #Right now this deletes too much info.
+    [fill_deps_in(item) for item in list_of_sentences]
     new_conllu = [item.serialize() for item in list_of_sentences]
     file_out = open(fileout, 'w', encoding='utf-8')
     [file_out.write(item) for item in new_conllu]
