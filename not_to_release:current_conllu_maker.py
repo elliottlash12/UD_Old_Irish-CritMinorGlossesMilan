@@ -290,8 +290,8 @@ def remove_true_infixed_pronouns_in(sentence, list_of_verbs, list_of_pronouns):
         if pron['Stressed_Unit'] == verb['Stressed_Unit']:
             if pron['Morph'] in verb['Morph']:
                 sentence.remove(pron)
-	    #elif pron['Morph'] not in verb['Morph']:   >>> Only in interactive session
-            #    print(f"{pron['Morph']} not deleted.") >>> Only in interactive session
+        #elif pron['Morph'] not in verb['Morph']:   >>> Only in interactive session
+        #    print(f"{pron['Morph']} not deleted.") >>> Only in interactive session
 
 
 #This function deletes the dummy preverb when it is not an intrinsic part of a compound verb in secondary tenses.
@@ -301,8 +301,8 @@ def remove_dummy_preverb_in(sentence, list_of_verbs, list_of_dummy_preverbs):
         if prev['Stressed_Unit'] == verb['Stressed_Unit']:
             if verb['Morph'].startswith(prev['Morph']):
                 sentence.remove(prev)
-	    #else:   >>> Only in interactive session
-            #    print(f"{prev['Morph']} not deleted.") >>> Only in interactive session
+        #else:   >>> Only in interactive session
+        #    print(f"{prev['Morph']} not deleted.") >>> Only in interactive session
 
 #This function combines the function to build lists of verbs, relative particles and pronoun with the functions to compare these lists.
         
