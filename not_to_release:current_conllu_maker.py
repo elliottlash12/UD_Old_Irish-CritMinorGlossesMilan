@@ -88,45 +88,45 @@ def preprocess_1(input_data):
 # The function preprocess_2 replaces Null or "No" in any column with "_".
 
 def preprocess_2(input_data):
-	for item in input_data:
-		for i in range(len(item)):
-			if item[i] == "" or item[i] == "No":
-				item[i] = "_"
+    for item in input_data:
+        for i in range(len(item)):
+            if item[i] == "" or item[i] == "No":
+                item[i] = "_"
 
 
 # The function preprocess_3 checks a cell in the "Rel" column of CorPH to see if it contains "Yes" and then modifies cells in the Analysis column by adding "rel."
 # The function also replaces the contents of the cell in the "Rel" column with "_".
 
 def preprocess_3(input_data):
-	for item in input_data:
-		if item[6] == "Yes" and ".rel." not in item[5]:
-			item[5] = item[5] + "rel."
-		item[6] = "_"
+    for item in input_data:
+        if item[6] == "Yes" and ".rel." not in item[5]:
+            item[5] = item[5] + "rel."
+        item[6] = "_"
 
 
 # The function preprocess_4 checks a cell in the "Transitivity" column of CorPH to see if it contains either "trans." or "intrans." and then modifies cells in the Analysis column accordingly.
 # The function also replaces the contents of the cell in the "Transitivity" column with "_".
 
 def preprocess_4(input_data):
-	for item in input_data:
-		if item[7] == "trans." or item[7] == "intrans.":
-			item[5] = item[5] + item[7] 
-		item[7] = "_"
+    for item in input_data:
+        if item[7] == "trans." or item[7] == "intrans.":
+            item[5] = item[5] + item[7]
+        item[7] = "_"
 
 
 # The function preprocess_5 removes redundant or ambiguous information from the "Meaning" column.
 
 def preprocess_5(input_data):
-        for item in input_data:
-            for i in range(len(item)):
-                if 'definite article' in item[i]:
-                    item[i] = item[i].replace(', definite article', '', 1)
-                elif 'that ; substantivizing particle' in item[i]:
-                    item[i] = item[i].replace('that ; ', '', 1)
-                elif '; perfective augment' in item[i]:
-                    item[i] = item[i].replace('; perfective augment', '', 1)
-                elif  'the copula' in item[i]:
-                    item[i] = item[i].replace(', the copula', '', 1)
+    for item in input_data:
+        for i in range(len(item)):
+            if 'definite article' in item[i]:
+                item[i] = item[i].replace(', definite article', '', 1)
+            elif 'that ; substantivizing particle' in item[i]:
+                item[i] = item[i].replace('that ; ', '', 1)
+            elif '; perfective augment' in item[i]:
+                item[i] = item[i].replace('; perfective augment', '', 1)
+            elif  'the copula' in item[i]:
+                item[i] = item[i].replace(', the copula', '', 1)
 
 
 # The function preprocess_6 puts "Gloss=" before strings in the "Meaning" column.
@@ -160,18 +160,18 @@ def preprocessing(input_data):
 #The following functon makes an ordered dictionary whose values are sentences which consist of a list of dictionaries of word:feature pairs
 
 def make_dictionary_of_sentences_out_of(data):
-	sentencesOD = OrderedDict()
-	column_names = data[0] # Gets the column names
-	all_rows = data[1:]  # gets the textual unit rows
-	for row in all_rows: # Separates them into text_unit_id (id) and other values
-		id = str(row[1])
-		values = row # print(list(zip(column_names, values)))
-		sentenceDict = dict(zip(column_names, values)) # converts them into a dict # print(sentenceDict)
-		if id in sentencesOD: # checks if sentence has been added to the textual unit dictionary before and adds i
-			sentencesOD[id] = sentencesOD[id] + [sentenceDict]
-		else: # otherwise creates a new textual unit dictionary and adds the sentence to the dictionary
-			sentencesOD[id] = [sentenceDict]
-	return sentencesOD
+    sentencesOD = OrderedDict()
+    column_names = data[0] # Gets the column names
+    all_rows = data[1:]  # gets the textual unit rows
+    for row in all_rows: # Separates them into text_unit_id (id) and other values
+        id = str(row[1])
+        values = row # print(list(zip(column_names, values)))
+        sentenceDict = dict(zip(column_names, values)) # converts them into a dict # print(sentenceDict)
+        if id in sentencesOD: # checks if sentence has been added to the textual unit dictionary before and adds i
+            sentencesOD[id] = sentencesOD[id] + [sentenceDict]
+        else: # otherwise creates a new textual unit dictionary and adds the sentence to the dictionary
+            sentencesOD[id] = [sentenceDict]
+    return sentencesOD
 
 
 # ========================================================================================================================================================================================================
@@ -370,14 +370,7 @@ def remove_null_in(list_of_sentences):
             if word['Morph'] == '∅':
                 del sent[i]
 
-def remove_true_infixed_pronouns_in(sentence, list_of_verbs, list_of_pronouns):
-    for verb, pron in list(itertools.product(list_of_verbs, list_of_pronouns)):
-        if pron['Stressed_Unit'] == verb['Stressed_Unit']:
-            if pron['Morph'] in verb['Morph']:
-                sentence.remove(pron)
-	    #elif pron['Morph'] not in verb['Morph']:   >>> Only in interactive session
-            #    print(f"{pron['Morph']} not deleted.") >>> Only in interactive session
-    
+
 # This function combines the above three functions.
 
 def remove_all_extraneous_info_in(list_of_sentences):
@@ -400,40 +393,40 @@ def remove_all_extraneous_info_in(list_of_sentences):
 # The function case_analysis checks to see if any key in "Feats" contains "nom/acc/gen/dat" and creates a new key:value pair. 
 
 def case_analysis(input_data):
-	for tok in input_data:
-		for key in tok["feats"].copy().keys():
-			if key[0:3] == "nom":
-				tok["feats"]["Case"] = "Nom"
-			elif key[0:3] == "acc":
-				tok["feats"]["Case"] = "Acc"
-			elif key[0:3] == "gen":
-				tok["feats"]["Case"] = "Gen"
-			elif key[0:3] == "dat":
-				tok["feats"]["Case"] = "Dat"				
+    for tok in input_data:
+        for key in tok["feats"].copy().keys():
+            if key[0:3] == "nom":
+                tok["feats"]["Case"] = "Nom"
+            elif key[0:3] == "acc":
+                tok["feats"]["Case"] = "Acc"
+            elif key[0:3] == "gen":
+                tok["feats"]["Case"] = "Gen"
+            elif key[0:3] == "dat":
+                tok["feats"]["Case"] = "Dat"
 
 
 # The function number_analysis checks to see if any key in "Feats" contains "sg" or "pl" and creates a new key:value pair.
 				
 def number_analysis(input_data):
-	for tok in input_data:
-		for key in tok["feats"].copy().keys():
-			if key[4:6] == "sg":
-				tok["feats"]["Number"] = "Sing"
-			elif key[4:6] == "pl":
-				tok["feats"]["Number"] = "Plur"
+    for tok in input_data:
+        for key in tok["feats"].copy().keys():
+            if key[4:6] == "sg":
+                tok["feats"]["Number"] = "Sing"
+            elif key[4:6] == "pl":
+                tok["feats"]["Number"] = "Plur"
 
 
 # The functiongender_analysis checks to see if any key in "Feats" contains "ma/fe/ne" creates a new key:value pair.
     
 def gender_analysis(input_data):
-	for tok in input_data:
-		for key in tok["feats"].copy().keys():
-			if key[7:9] == "ma":
-				tok["feats"]["Gender"] = "Masc"
-			elif key[7:9] == "fe":
-				tok["feats"]["Gender"] = "Fem"
-			elif key[7:9] == "ne":
-				tok["feats"]["Gender"] = "Neut"
+    for tok in input_data:
+        for key in tok["feats"].copy().keys():
+            if key[7:9] == "ma":
+                tok["feats"]["Gender"] = "Masc"
+            elif key[7:9] == "fe":
+                tok["feats"]["Gender"] = "Fem"
+            elif key[7:9] == "ne":
+                tok["feats"]["Gender"] = "Neut"
 
 
 #The following funciton analyses  person in prepositions and possessives.
@@ -502,46 +495,46 @@ def verbal_person_analysis(input_data):
 # The function verbal_number_analysis checks to see if for rows whose "xpos" value is "verb" any key in "Feats" contains "sg" or "pl" and creates a new key:value pair.
 				
 def verbal_number_analysis(input_data):
-	for tok in input_data:
-		for key in tok["feats"].copy().keys():
-			if tok["xpos"] == "verb" and "sg" in key:
-				tok["feats"]["Number[Subj]"] = "Sing"
-			elif tok["xpos"] == "verb" and "pl" in key:
-				tok["feats"]["Number[Subj]"] = "Plur"
+    for tok in input_data:
+        for key in tok["feats"].copy().keys():
+            if tok["xpos"] == "verb" and "sg" in key:
+                tok["feats"]["Number[Subj]"] = "Sing"
+            elif tok["xpos"] == "verb" and "pl" in key:
+                tok["feats"]["Number[Subj]"] = "Plur"
 
 
 # The function tense_analysis checks to see if any key in "Feats" contains a tag for a tense or the imperative mood ("impv") and creates a new key:value pair.
 				
 def tense_analysis(input_data):
-	for tok in input_data:
-		for key in tok["feats"].copy().keys():
-			if "pres" in key:
-				tok["feats"]["Tense"] = "Pres"
-			elif "past" in key:
-				tok["feats"]["Tense"] = "Past"
-			elif "pret" in key:
-				tok["feats"]["Tense"] = "Pret"
-			elif "cond" in key:
-				tok["feats"]["Tense"] = "Cond"
-			elif "impf" in key:
-				tok["feats"]["Tense"] = "Impf"
-			elif "fut" in key:
-				tok["feats"]["Tense"] = "Fut"
-			elif "hab" in key:
-				tok["feats"]["Tense"] = "Hab"
-			elif "impv" in key:
-				tok["feats"]["Tense"] = "Pres"
+    for tok in input_data:
+        for key in tok["feats"].copy().keys():
+            if "pres" in key:
+                tok["feats"]["Tense"] = "Pres"
+            elif "past" in key:
+                tok["feats"]["Tense"] = "Past"
+            elif "pret" in key:
+                tok["feats"]["Tense"] = "Pret"
+            elif "cond" in key:
+                tok["feats"]["Tense"] = "Cond"
+            elif "impf" in key:
+                tok["feats"]["Tense"] = "Impf"
+            elif "fut" in key:
+                tok["feats"]["Tense"] = "Fut"
+            elif "hab" in key:
+                tok["feats"]["Tense"] = "Hab"
+            elif "impv" in key:
+                tok["feats"]["Tense"] = "Pres"
 
 
 # The function verbal_voice_analysis checks to see whether or not for rows whose "xpos" value is "verb" any key in "Feats" contains "pass" and creates a new key:value pair. 
 
 def voice_analysis(input_data):
-	for tok in input_data:
-		for key in tok["feats"].copy().keys():
-			if tok["xpos"] == "verb" and "pass" in key:
-				tok["feats"]["Voice"] = "Pass"
-			elif tok["xpos"] == "verb" and "pass" not in key:
-				tok["feats"]["Voice"] = "Act"
+    for tok in input_data:
+        for key in tok["feats"].copy().keys():
+            if tok["xpos"] == "verb" and "pass" in key:
+                tok["feats"]["Voice"] = "Pass"
+            elif tok["xpos"] == "verb" and "pass" not in key:
+                tok["feats"]["Voice"] = "Act"
 
 
 # The function mood_voice_analysis checks to see whether or not for rows whose "xpos" value is "verb" any key in "Feats" contains ".impv./.subj." or, in the case of the first key in the dictionary,
@@ -569,11 +562,11 @@ def finiteness_analysis(input_data):
 #This deletes keys with null values in the "feats" dictionary.
             
 def delete_null_values_in(input_data):
-	x = "No_Features"
-	for tok in input_data:
-		for key, value in tok["feats"].copy().items():
-			if x != key and tok["feats"][key] == None:
-				del word["feats"][key]
+    x = "No_Features"
+    for tok in input_data:
+        for key, value in tok["feats"].copy().items():
+            if x != key and tok["feats"][key] == None:
+                del tok["feats"][key]
 
 #The following function applies some of the above functions to the data to change the analysis of substantives (i.e. nouns and adjectives).
 
