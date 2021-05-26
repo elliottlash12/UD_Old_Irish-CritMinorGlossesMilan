@@ -61,7 +61,7 @@
 1	is	is 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	2	cop	2:cop	Gloss=to be
 2	sém	séim	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	0	root	0:root	Gloss=slender, slight, thin, narrow, smooth (non-aspirated), mild, lenient, not heavy or oppressive, direct; light, clear
 3	linn	la	ADP	preposition	Case=Acc|Person=1|Number=Plur	2	obl:prep	2:obl:prep	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-4	indiu	indíu	ADV	adverb	_	2	advmod	2:advmod	Gloss=today
+4	indiu	indíu	ADV	adverb	No_Feature=_	2	advmod	2:advmod	Gloss=today
 5	bloscad	bloscad	X	verbal_noun	Case=Nom|Number=Sing	2	csubj	2:csubj	Gloss=the act of crashing, bursting forth; shining; dazzlement, radiance
 6	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem	7	det	7:det	Gloss=the
 7	gréne	grían	NOUN	onoun	Case=Gen|Number=Sing	5	obj	5:obj	Gloss=sun
@@ -167,7 +167,7 @@
 1	is	is 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	2	cop	2:cop	Gloss=to be
 2	sém	séim	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	0	root	0:root	Gloss=slender, slight, thin, narrow, smooth (non-aspirated), mild, lenient, not heavy or oppressive, direct; light, clear
 3	dúnn	do 1	ADP	preposition	Case=Dat|Person=1|Number=Plur	2	obl:prep	2:obl:prep	Gloss=to, for, by etc.
-4	immurgu	immurgu	X	particle_discourse	_	2	advmod	2:advmod	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
+4	immurgu	immurgu	X	particle_discourse	No_Feature=_	2	advmod	2:advmod	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc	6	det	6:det	Gloss=the
 6	membrum	membrumm	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	2:nsubj	Gloss=parchment
 7	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	6	appos	6:appos	Gloss=substantivizing particle
@@ -260,7 +260,7 @@
 3	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=RelFin	1	acl:relcl	1:acl:relcl	Gloss=to be, to exist,
 4	nuall	núall	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	3:nsubj	Gloss=a loud noise; in pl: shouts, cries, acclamations, utterance
 5	do·rími	do·rími	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	0:root	Gloss=to enumerate, to mention; to tell, to relate; to count, to speak of, to account
-6	som	nota augens	PRON	particle_pronominal	_	5	nsubj	5:nsubj	Gloss=emphasising particle
+6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing	5	nsubj	5:nsubj	Gloss=emphasising particle
 7	sunt	sund	ADV	adverb	No_Features=_	5	advmod	5:advmod	Gloss=here, in this place; hither, to this place
 8	sís	sís	ADV	adverb	No_Features=_	5	advmod	5:advmod	Gloss=down, downwards, below, onwards, throughout
 
@@ -681,7 +681,7 @@
 21	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc	22	det	22:det	Gloss=the
 22	ndoine	duine	NOUN	noun	Case=Gen|Number=Plur	20	obj	20:obj	Gloss=person, human being
 23	7	ocus 2	X	conjunction	No_Features=_	25	cc	25:cc	Gloss=coordinating: and, since
-24	a	3pl.poss.pron.	DET	pronoun_possessive	_	25	obj:poss	25:obj:poss	Gloss=their
+24	a	3pl.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur	25	obj:poss	25:obj:poss	Gloss=their
 25	baithsed	baithsed	X	verbal_noun	Case=Acc|Number=Sing	20	conj	20:conj	Gloss=the act of baptising; baptism
 26	hí	i	ADP	preposition	Case=Dat	27	case	27:case	Gloss=in, into
 27	tosuch	tosach	NOUN	noun	Case=Dat|Number=Sing	18	obl	18:obl	Gloss=beginning, precedence
