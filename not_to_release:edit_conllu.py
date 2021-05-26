@@ -185,7 +185,7 @@ def subconj_finder(list_of_sentences):
     for a_sentence in list_of_sentences:
         combo = list(itertools.product(a_sentence, sconjlist))
         analyse_subconj(combo)
-ing
+
 def do_all_deprel(list_of_sentences):
     [analyse_copula(a_sentence) for a_sentence in list_of_sentences]
     [analyse_article(a_sentence) for a_sentence in list_of_sentences]
