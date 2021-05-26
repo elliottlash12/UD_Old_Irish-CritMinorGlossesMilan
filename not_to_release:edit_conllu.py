@@ -12,7 +12,7 @@ import os
 import re
 from conllu import parse
 
-os.chdir('/Users/elliottlash/Desktop/Göttingen Project/Ruby/Untagged/')
+os.chdir('/Users/elliottlash/Documents/GitHub/UD_Old_Irish-CritMinorGlosses/')
 
 #This function opens a file and creates a list of sentences. To run, write: f = 'x', new_sentences_list(f).
 def new_sentences_list(filename):
