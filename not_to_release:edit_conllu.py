@@ -34,7 +34,7 @@ def new_sentences_list(filename):
 def analyze_person_in_prepositions_and_possessives_in_(a_sentence):
     for word in a_sentence:
         for key in word["feats"].copy().keys():
-            if word["xpos"] == "preposition" or word["xpos"] == "pronoun_possessive":
+            if word["xpos"] == "preposition" or word["xpos"] == "pronoun_possessive" or word["xpos"] == "particle_pronominal":
                 if "1" in key:
                     word["feats"]["Person"] = "1"
                 elif "2" in key:
@@ -47,7 +47,7 @@ def analyze_person_in_prepositions_and_possessives_in_(a_sentence):
 def analyze_number_in_prepositions_and_possessives_in_(a_sentence):
     for word in a_sentence:
         for key in word["feats"].copy().keys():
-            if word["xpos"] == "preposition" or word["xpos"] == "pronoun_possessive":
+            if word["xpos"] == "preposition" or word["xpos"] == "pronoun_possessive" or word["xpos"] == "particle_pronominal":
                 if "sg." in key:
                     word["feats"]["Number"] = "Sing"
                 elif "pl." in key:
