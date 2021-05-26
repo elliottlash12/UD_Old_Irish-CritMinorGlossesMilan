@@ -114,7 +114,7 @@ def upos_finder(list_of_sentences):
 
 
 #The following function checks to see whether a word has been assigned a upos.
-def upos_is_X(list_of_sentences):
+def upos_is_x(list_of_sentences):
     for count, sent in enumerate(list_of_sentences):
         for word in sent:
             if word['upos'] == 'X':
