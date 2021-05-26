@@ -127,20 +127,20 @@ def upos_is_X(list_of_sentences):
 #The following functions fill deprel for various function words:
 
 def analyse_copula(sent):
-	for word in sent:
-		if word["lemma"] == "is 1":
-			word["xpos"] = "auxiliary" #Changes the xpos of the copula
-			word["deprel"] = "cop"
+    for word in sent:
+        if word["lemma"] == "is 1":
+            word["xpos"] = "auxiliary" #Changes the xpos of the copula
+            word["deprel"] = "cop"
 
 def analyse_article(sent):
-	for word in sent:
-		if word["lemma"] == "in 1":
-			word["deprel"] = 'det'
+    for word in sent:
+        if word["lemma"] == "in 1":
+            word["deprel"] = 'det'
 
 def analyse_prep(sent):
     for word in sent:
         if word["xpos"] == "preposition" and not word["feats"].copy().get("Person"):
-           word["deprel"] = "case"
+            word["deprel"] = "case"
            
 def analyse_number(sent):
     for word in sent:
@@ -220,9 +220,10 @@ def print_upos(combined_list):
                 but the POS '{combined_list[count][0]['xpos']}' in ChronHib.")
 
 def upos_checker(list_of_sentences, upos_list):
-	for sent in list_of_sentences:
-		combo = list(itertools.product(sent, upos_list))
-		print_upos(combo)
+    for sent in list_of_sentences:
+        combo = list(itertools.product(sent, upos_list))
+        print_upos(combo)
+
 #Prints out each sentence and its number.
 def number_sentences(list_of_sentences):
     for count, sent in enumerate(list_of_sentences):
