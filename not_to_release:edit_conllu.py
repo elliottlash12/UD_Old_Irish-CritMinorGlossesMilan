@@ -9,7 +9,6 @@ This will fix previously made conllu files.
 
 import itertools
 import os
-import re
 from conllu import parse
 
 os.chdir('/Users/elliottlash/Documents/GitHub/UD_Old_Irish-CritMinorGlosses/')
@@ -19,7 +18,7 @@ def new_sentences_list(filename):
     conllu_file = open(filename, "r", encoding="utf-8")
     data = conllu_file.read()
     parsed_data = parse(data)
-    sentences = [sent for sent in parsed_data]
+    sentences = [a_sentence for a_sentence in parsed_data]
     return sentences
 
 
@@ -117,8 +116,8 @@ def upos_finder(list_of_sentences):
 
 #The following function checks to see whether a word has been assigned a upos.
 def upos_is_x(list_of_sentences):
-    for count, sent in enumerate(list_of_sentences):
-        for word in sent:
+    for count, a_sentence in enumerate(list_of_sentences):
+        for word in a_sentence:
             if word['upos'] == 'X':
                 print(f"The word '{word}' which has xpos '{word['xpos']} in sentence number {count+1} has no upos.")
 			
@@ -128,40 +127,40 @@ def upos_is_x(list_of_sentences):
 # Part 3
 #The following functions fill deprel for various function words:
 
-def analyse_copula(sent):
-    for word in sent:
+def analyse_copula(a_sentence):
+    for word in a_sentence:
         if word["lemma"] == "is 1":
             word["xpos"] = "auxiliary" #Changes the xpos of the copula
             word["deprel"] = "cop"
 
-def analyse_article(sent):
-    for word in sent:
+def analyse_article(a_sentence):
+    for word in a_sentence:
         if word["lemma"] == "in 1":
             word["deprel"] = 'det'
 
-def analyse_prep(sent):
-    for word in sent:
+def analyse_prep(a_sentence):
+    for word in a_sentence:
         if word["xpos"] == "preposition" and not word["feats"].copy().get("Person"):
             word["deprel"] = "case"
            
-def analyse_number(sent):
-    for word in sent:
+def analyse_number(a_sentence):
+    for word in a_sentence:
         if word["xpos"] == "adjective_numeral":
            word["deprel"] = "nummod"
 
-def analyse_abbreviation(sent):
-    for word in sent:
+def analyse_abbreviation(a_sentence):
+    for word in a_sentence:
         if word["lemma"] == ".i.":
             word["xpos"] = "abbreviation"
             word["deprel"] = "cc"
 
-def analyse_negation(sent):
-    for word in sent:
+def analyse_negation(a_sentence):
+    for word in a_sentence:
         if word["xpos"] == "particle_negative_main" or word["xpos"] == "particle_negative_subordinate":
            word["deprel"] = "advmod:neg"
             
-def analyse_complementiser(sent):
-    for word in sent:
+def analyse_complementiser(a_sentence):
+    for word in a_sentence:
         if word["xpos"] == "complementiser" or word['lemma'] == 'no·':
             word["deprel"] = "mark:prt"
 
@@ -172,8 +171,8 @@ def analyse_coordconj(combined_list):
 
 def coordconj_finder(list_of_sentences):
     cconjlist = ["ocus 2", "nó 1", "ná 4", "fa", "nach 6", "rodbo", "et", "uel"]
-    for sent in list_of_sentences:
-        combo = list(itertools.product(sent, cconjlist))
+    for a_sentence in list_of_sentences:
+        combo = list(itertools.product(a_sentence, cconjlist))
         analyse_coordconj(combo)
         
 def analyse_subconj(combined_list):
@@ -183,20 +182,20 @@ def analyse_subconj(combined_list):
     
 def subconj_finder(list_of_sentences):
     sconjlist = ["amail 2", "ar 2", "a 6", "cía 2", "dég 2", "resíu", "úaire", "ma", "ó 2", "ol 2"]
-    for sent in list_of_sentences:
-        combo = list(itertools.product(sent, sconjlist))
+    for a_sentence in list_of_sentences:
+        combo = list(itertools.product(a_sentence, sconjlist))
         analyse_subconj(combo)
 
 
 def do_all_deprel(list_of_sentences):
-    [analyse_copula(sent) for sent in list_of_sentences]
-    [analyse_article(sent) for sent in list_of_sentences]
-    [analyse_prep(sent) for sent in list_of_sentences]
-    [analyse_abbreviation(sent) for sent in list_of_sentences]
-    [analyse_negation(sent) for sent in list_of_sentences]
-    [analyse_number(sent) for sent in list_of_sentences]
-    [analyse_copula(sent) for sent in list_of_sentences]
-    [analyse_complementiser(sent) for sent in list_of_sentences]
+    [analyse_copula(a_sentence) for a_sentence in list_of_sentences]
+    [analyse_article(a_sentence) for a_sentence in list_of_sentences]
+    [analyse_prep(a_sentence) for a_sentence in list_of_sentences]
+    [analyse_abbreviation(a_sentence) for a_sentence in list_of_sentences]
+    [analyse_negation(a_sentence) for a_sentence in list_of_sentences]
+    [analyse_number(a_sentence) for a_sentence in list_of_sentences]
+    [analyse_copula(a_sentence) for a_sentence in list_of_sentences]
+    [analyse_complementiser(a_sentence) for a_sentence in list_of_sentences]
     subconj_finder(list_of_sentences)
     coordconj_finder(list_of_sentences)
     
@@ -222,11 +221,11 @@ def print_upos(combined_list):
                 but the POS '{combined_list[count][0]['xpos']}' in ChronHib.")
 
 def upos_checker(list_of_sentences, upos_list):
-    for sent in list_of_sentences:
-        combo = list(itertools.product(sent, upos_list))
+    for a_sentence in list_of_sentences:
+        combo = list(itertools.product(a_sentence, upos_list))
         print_upos(combo)
 
 #Prints out each sentence and its number.
 def number_sentences(list_of_sentences):
-    for count, sent in enumerate(list_of_sentences):
-        print(count, sent)
+    for count, a_sentence in enumerate(list_of_sentences):
+        print(count, a_sentence)
