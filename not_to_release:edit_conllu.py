@@ -198,34 +198,3 @@ def do_all_deprel(list_of_sentences):
     [analyse_complementiser(a_sentence) for a_sentence in list_of_sentences]
     subconj_finder(list_of_sentences)
     coordconj_finder(list_of_sentences)
-    
-# ========================================================================================================================================================================================================
-
-# OLDER STUFF
-
-# The following two functions check to see if a word in a sentence has an xpos which corresponds to some upos \
-# in the list "upos_list".
-
-#Finds feat's dictionaries with only one key.
-def count_keys_in_feats_in(a_sentence):
-    for word in a_sentence:
-        for key, value in word["feats"].copy().items():
-            if len(word["feats"]) <= 1 and word["feats"][key] == None:
-                print(word, a_sentence)
-                
-def print_upos(combined_list):
-    for count, word in enumerate(combined_list):
-        if combined_list[count][0]['xpos'] in combined_list[count][1]:
-            for key in combined_list[count][1]:
-                print(f"The word '{combined_list[count][0]['form']}' has the upos '{combined_list[count][1][key]}' for Universal Dependencies \
-                but the POS '{combined_list[count][0]['xpos']}' in ChronHib.")
-
-def upos_checker(list_of_sentences, upos_list):
-    for a_sentence in list_of_sentences:
-        combo = list(itertools.product(a_sentence, upos_list))
-        print_upos(combo)
-
-#Prints out each sentence and its number.
-def number_sentences(list_of_sentences):
-    for count, a_sentence in enumerate(list_of_sentences):
-        print(count, a_sentence)
