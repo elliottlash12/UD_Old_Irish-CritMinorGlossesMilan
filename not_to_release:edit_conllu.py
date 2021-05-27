@@ -102,14 +102,15 @@ def upos_finder(list_of_sentences):
     upos_list = [{'adjective': 'ADJ'}, {'adjective_numeral': 'NUM'}, {'adjective_numeral_noun': 'ADJ'}, {'adective_pronominal': 'DET'}, 
      {'noun': 'NOUN'}, {'noun_numeral': 'NUM'}, {'numeral': 'NUM'}, {'adverb': 'ADV'}, {'complementizer': 'SCONJ'},
      {'definite_article': 'DET'}, {'focus_particle': 'PART'}, {'interjection': 'INTJ'}, {'pronoun_independent': 'PRON'}, 
-     {'pronoun_infix': 'PRON'}, {'pronoun_infix': 'PRON'}, {'pronoun_possessive': 'DET'}, {'pronoun_propword': 'PRON'}, 
+     {'pronoun_infixed': 'PRON'}, {'pronoun_infix': 'PRON'}, {'pronoun_possessive': 'DET'}, {'pronoun_propword': 'PRON'},
      {'pronoun_quantifier': 'PRON'}, {'pronoun_relative': 'PRON'}, {'proper_noun': 'PROPN'}, {'verb': 'VERB'}, 
      {'verbal_participle': 'ADJ'}, {'particle_anaphoric': 'PRON'}, {'particle_augment': 'PART'}, {'particle_comparative': 'SCONJ'},
      {'particle_demonstrative_distal': 'DET'}, {'particle_demonstrative_proximate': 'DET'}, {'particle_interrogative': 'PART'}, 
      {'particle_numerative': 'PART'}, {'particle_pronominal': 'PRON'}, {'particle_vocative': 'PART'}, {'preposition': 'ADP'}, 
      {'pronoun_anaphoric': 'PRON'}, {'pronoun_demonstrative_distal': 'PRON'}, {'particle_interrogative': 'PRON'}, {'particle_negative_main': 'PART'}, 
      {'particle_negative_subordinate': 'PART'}, {'auxiliary': 'AUX'}, {'pronoun_demonstrative_proximate': 'PRON'}, {'particle_discourse': 'ADV'},
-     {'verbal_noun': 'NOUN'}, {'abbreviation': 'CCONJ'}, {'particle_preverb': 'SCONJ'}, {'adjective_quantifier': 'DET'}]
+     {'verbal_noun': 'NOUN'}, {'abbreviation': 'CCONJ'}, {'particle_preverb': 'SCONJ'}, {'adjective_quantifier': 'DET'},
+     {'pronoun_emphatic': 'PRON'}]
     for sent in list_of_sentences:
         combo = list(itertools.product(sent, upos_list))
         assign_upos(combo)
@@ -215,3 +216,23 @@ def mutation_finder(sentence_num, a_sentence):
             print(f"{word} in sentence {sentence_num+1} is eclipsed!")
         elif word['form'].startswith('nn') or word['form'].startswith('ll') or word['form'].startswith('rr'):
             print(f"{word} in sentence {sentence_num+1} is geminated!")
+
+# ========================================================================================================================================================================================================
+
+# Part 5
+# Functions to assign values to the feature "PronType" in the feats column.
+
+def assign_value_to_prontype(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'pronoun_independent' or word['xpos'] == 'pronoun_possessive' or word['xpos'] == 'pronoun_suffixed' or word['xpos'] == 'pronoun_infixed' or word['xpos'] == 'particle_pronominal':
+            word['feats']['PronType'] = 'Prs'
+        elif word['xpos'] == 'definite_article':
+            word['feats']['PronType'] = 'Art'
+        elif word['xpos'] == 'pronoun_relative':
+            word['feats']['PronType'] = 'Rel'
+        elif word['xpos'] == 'pronoun_emphatic':
+            word['feats']['PronType'] = 'Emp'
+        elif word['lemma'] == 'cach' or word['lemma'] == 'cách':
+            word['feats']['PronType'] = 'Tot'
+        elif word['lemma'] == 'nech' or word['lemma'] == 'nach 1':
+            word['feats']['PronType'] = 'Ind'
