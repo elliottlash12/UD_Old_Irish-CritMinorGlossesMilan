@@ -110,7 +110,7 @@ def upos_finder(list_of_sentences):
      {'pronoun_anaphoric': 'PRON'}, {'pronoun_demonstrative_distal': 'PRON'}, {'particle_interrogative': 'PRON'}, {'particle_negative_main': 'PART'}, 
      {'particle_negative_subordinate': 'PART'}, {'auxiliary': 'AUX'}, {'pronoun_demonstrative_proximate': 'PRON'}, {'particle_discourse': 'ADV'},
      {'verbal_noun': 'NOUN'}, {'abbreviation': 'CCONJ'}, {'particle_preverb': 'SCONJ'}, {'adjective_quantifier': 'DET'},
-     {'pronoun_emphatic': 'PRON'}]
+     {'pronoun_emphatic': 'PRON'}, {'particle_focus': 'PART'}]
     for sent in list_of_sentences:
         combo = list(itertools.product(sent, upos_list))
         assign_upos(combo)
@@ -132,7 +132,7 @@ def upos_is_x(list_of_sentences):
 def analyse_copula(a_sentence):
     for word in a_sentence:
         if word["lemma"] == "is 1":
-            word["xpos"] = "auxiliary" #Changes the xpos of the copula
+            word["upos"] = "AUX" #Changes the xpos of the copula
             word["deprel"] = "cop"
 
 def analyse_article(a_sentence):
