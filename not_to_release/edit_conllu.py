@@ -255,3 +255,23 @@ def assign_value_to_prontype(a_sentence):
             word['feats']['PronType'] = 'Ind'
         elif word['xpos'] == 'pronoun_demonstrative_proximate' or word['xpos'] == 'pronoun_demonstrative_distal':
             word['feats']['PronType'] = 'Dem'
+
+#Note the following functions assume that the function assign_value_to_definite has already been applied to the data.
+#Also, it may be possible to tweak this functoin a bit to create a parser that assigns the index of a noun within the sentence list to the head column for a det.
+def build_list_of_nouns_and_det_in(a_sentence):
+    list_of_nouns = []
+    list_of_dets = []
+    for word in a_sentence:
+        if word['upos'] == 'NOUN':
+            list_of_nouns.append(word)
+        elif word['upos'] == 'DET':
+            list_of_dets.append(word)
+    return list_of_nouns, list_of_dets
+
+def assign_def_to_noun_in(list_of_sentences):
+    for count, sent in enumerate(list_of_sentences):
+        nouns, dets = build_list_of_nouns_and_det_in(sent)
+        for noun, det in list(itertools.product(nouns, dets)):
+            if det['feats'].get('Definite') and noun['id'] == det['head']:
+                print(f"The noun '{noun}' in sentence {count+1} is definite because it is associated with the article '{det}'.")#Replace this with an assignment.
+
