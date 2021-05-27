@@ -11,6 +11,8 @@ The data was taken from the Corpus Palaeohibernicum (CORPH) website: https://chr
 
 Conversion to CONLLU format was designed by Elliott Lash (Georg-August-Universität Göttingen). \
 Data from Corpus Palaeohibernicum was downloaded as csv files and then reformatted as CONLLU with two python scripts.
-Except for certain modifiers which were tagged automatically, deprels was added manually by Elliott Lash and Wai Ying (Ruby) Ku. 
+Except for certain modifiers which were tagged automatically, the head and deprel columns for each word were added manually by Elliott Lash and Wai Ying (Ruby) Ku. The deps column was filled in automatically.
+
+
 
 
