@@ -10,6 +10,7 @@ S0050: Turin Mark Commentary Minor Glosses (sentences 1—40).
 The data was taken from the Corpus Palaeohibernicum (CORPH) website: https://chronhib.maynoothuniversity.ie/chronhibWebsite/tables?page=0&limit=0&fprop=&fval=&dtable=text&ctable=text&search=false 
 
 Conversion to CONLLU format was designed by Elliott Lash (Georg-August-Universität Göttingen). \
-Tagging was done manually by Elliott Lash and Wai Ying (Ruby) Ku.
+Data from Corpus Palaeohibernicum was downloaded as csv files and then reformatted as CONLLU with two python scripts.
+Except for certain modifiers which were tagged automatically, deprels was added manually by Elliott Lash and Wai Ying (Ruby) Ku. 
 
 
