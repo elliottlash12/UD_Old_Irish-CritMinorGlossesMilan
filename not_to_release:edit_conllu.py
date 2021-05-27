@@ -220,7 +220,24 @@ def mutation_finder(sentence_num, a_sentence):
 # ========================================================================================================================================================================================================
 
 # Part 5
-# Functions to assign values to the feature "PronType" in the feats column.
+# Functions to assign values to the features in the feats column.
+
+def assign_value_to_definite(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'definite_article':
+            word['feats']['Definite'] = 'Def'
+
+def assign_value_to_poss(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'pronoun_possessive'#Remember to also add pronoun_independent here if the analysis is genitive.
+            word['feats']['Poss'] = 'Yes'
+
+def assign_value_to_deixis(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'pronoun_demonstrative_distal' or word['xpos'] == 'particle_demonstrative_distal':
+            word['feats']['Deixis'] = 'Remt'
+        elif word['xpos'] == 'pronoun_demonstrative_proximate' or word['xpos'] == 'particle_demonstrative_proximate':
+            word['feats']['Deixis'] = 'Prox'
 
 def assign_value_to_prontype(a_sentence):
     for word in a_sentence:
@@ -236,3 +253,5 @@ def assign_value_to_prontype(a_sentence):
             word['feats']['PronType'] = 'Tot'
         elif word['lemma'] == 'nech' or word['lemma'] == 'nach 1':
             word['feats']['PronType'] = 'Ind'
+        elif word['xpos'] == 'pronoun_demonstrative_proximate' or word['xpos'] == 'pronoun_demonstrative_distal':
+            word['feats']['PronType'] = 'Dem'
