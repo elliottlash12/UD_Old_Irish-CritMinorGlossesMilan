@@ -229,7 +229,7 @@ def assign_value_to_definite(a_sentence):
 
 def assign_value_to_poss(a_sentence):
     for word in a_sentence:
-        if word['xpos'] == 'pronoun_possessive'#Remember to also add pronoun_independent here if the analysis is genitive.
+        if word['xpos'] == 'pronoun_possessive':#Remember to also add pronoun_independent here if the analysis is genitive.
             word['feats']['Poss'] = 'Yes'
 
 def assign_value_to_deixis(a_sentence):
