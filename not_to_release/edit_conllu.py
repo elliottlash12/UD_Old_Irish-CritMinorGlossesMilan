@@ -132,7 +132,7 @@ def upos_is_x(list_of_sentences):
 def analyse_copula(a_sentence):
     for word in a_sentence:
         if word["lemma"] == "is 1":
-            word["upos"] = "AUX" #Changes the xpos of the copula
+            word["upos"] = "AUX" #Changes the upos of the copula
             word["deprel"] = "cop"
 
 def analyse_article(a_sentence):
