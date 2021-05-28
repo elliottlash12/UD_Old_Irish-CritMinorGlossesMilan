@@ -143,7 +143,7 @@ def analyse_article(a_sentence):
 def analyse_prep(a_sentence):
     for word in a_sentence:
         if word["xpos"] == "preposition" and not word["feats"].copy().get("Person"):
-            word["deprel"] = "case"
+            word["deprel"] = "case" #This assigns case even to potential mark:prt with verbal nouns.
            
 def analyse_number(a_sentence):
     for word in a_sentence:
