@@ -16,7 +16,7 @@ Tokenization, Lemmatization and morphological annotation is derived from the Cor
 
 # Acknowledgments
 
-The work for this database was funded by the Deutsche Forschungsgemeinschaft. \
+The work for this database was funded by the Deutsche Forschungsgemeinschaft.
 
 Thanks are due to Prof. David Stifter (Maynooth University) and the rest of the ChronHib team (https://chronhib.maynoothuniversity.ie/chronhibWebsite/meet-the-team) for creating CorPH, which has allowed easy conversion of the data to UD. Special acknowledgements are due to Godstime Osorobo (Maynooth University) for helping to develop some of the python code used in reformatting the data to CONLLU format, and Dustin Bowers (University of Arizona) for providing further input in the python code. The inspiration for converting the data to UD comes from Prof. Stavros Skopeteas (Georg-August-Universität Göttingen). Wai Ying (Ruby) Ku's work to the data has been of immense help.
 
