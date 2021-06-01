@@ -851,28 +851,28 @@
 # sent_id = S0050-46
 # text = .i. trisna foirthiu ailitherdi .i. nicon imruldatar cosa doine riam lar srotha iordanein
 # text_en = That is, through the foreign fords; that is, men's feet had not previously passed the bed of the river Jordan.
-1	.i.	.i.	X	abbreviation	No_Features=_	_	cc	X	Gloss=id est, it is
-2	tri	tre	ADP	preposition	acc.=_|Case=Acc	_	case	X	Gloss=through (time or space), by means of, be reason of
-3	sna	in 1	DET	definite_article	acc.pl.masc.=_|Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	foirthiu	forath	NOUN	noun	acc.pl.=_|Case=Acc|Number=Plur	_	_	X	Gloss=ford
-5	ailitherdi	ailitherdae	ADJ	adjective	acc.pl.masc.=_|Case=Acc|Number=Plur|Gender=Masc	_	_	X	Gloss=foreign
-6	.i.	.i.	X	abbreviation	No_Features=_	_	cc	X	Gloss=id est, it is
-7	nicon·	nicon	PART	particle_negative_main	No_Features=_	_	_	X	Gloss=not ever
-8	·imruldatar	imm·tét	VERB	verb	augm.3sg.pret.=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to circumambulate, to travel on, to traverse; to set forth, to come, to go (around), to depart
-9	cosa	cos	NOUN	noun	nom.pl.=_|Case=Nom|Number=Plur	_	_	X	Gloss=foot, leg of human being, animal, stem, support
-10	doine	duine	NOUN	noun	gen.pl.=_|Case=Gen|Number=Plur	_	_	X	Gloss=person, human being
-11	riam	re	ADP	preposition	3sg.neut.=_|Person=3|Number=Sing	_	_	X	Gloss=before, in front of
-12	lar	lár	NOUN	noun	acc.sg.=_|Case=Acc|Number=Sing	_	_	X	Gloss=floor, ground, surface
-13	srotha	sruth	NOUN	noun	gen.sg.=_|Case=Gen|Number=Sing	_	_	X	Gloss=stream, river, current, torrent
-14	iordanein	Iordanén	PROPN	proper_noun	gen.sg.=_|Case=Gen|Number=Sing	_	_	X	Gloss=Jordan ; The River Jordan
+1	.i.	.i.	X	abbreviation	No_Features=_	4	cc	X	Gloss=id est, it is
+2	tri	tre	ADP	preposition	acc.=_|Case=Acc	4	case	X	Gloss=through (time or space), by means of, be reason of
+3	sna	in 1	DET	definite_article	acc.pl.masc.=_|Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
+4	foirthiu	forath	NOUN	noun	acc.pl.=_|Case=Acc|Number=Plur	0	root	X	Gloss=ford
+5	ailitherdi	ailitherdae	ADJ	adjective	acc.pl.masc.=_|Case=Acc|Number=Plur|Gender=Masc	4	amod	X	Gloss=foreign
+6	.i.	.i.	X	abbreviation	No_Features=_	8	cc	X	Gloss=id est, it is
+7	nicon·	nicon	PART	particle_negative_main	No_Features=_	8	neg	X	Gloss=not ever
+8	·imruldatar	imm·tét	VERB	verb	augm.3sg.pret.=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	4	conj	X	Gloss=to circumambulate, to travel on, to traverse; to set forth, to come, to go (around), to depart
+9	cosa	cos	NOUN	noun	nom.pl.=_|Case=Nom|Number=Plur	8	nsubj	X	Gloss=foot, leg of human being, animal, stem, support
+10	doine	duine	NOUN	noun	gen.pl.=_|Case=Gen|Number=Plur	9	nmod	X	Gloss=person, human being
+11	riam	re	ADP	preposition	3sg.neut.=_|Person=3|Number=Sing	8	obl:prep	X	Gloss=before, in front of
+12	lar	lár	NOUN	noun	acc.sg.=_|Case=Acc|Number=Sing	8	obl	X	Gloss=floor, ground, surface
+13	srotha	sruth	NOUN	noun	gen.sg.=_|Case=Gen|Number=Sing	12	nmod	X	Gloss=stream, river, current, torrent
+14	iordanein	Iordanén	PROPN	proper_noun	gen.sg.=_|Case=Gen|Number=Sing	12	nmod	X	Gloss=Jordan ; The River Jordan
 
 # sent_id = S0050-47
 # text = .i. hitír Cannán
 # text_en = into the land [of] Canaan
-1	.i.	.i.	X	abbreviation	No_Features=_	_	cc	X	Gloss=id est, it is
-2	hi	i	ADP	preposition	acc.=_|Case=Acc	_	case	X	Gloss=in, into
-3	tír	tír	NOUN	noun	acc.sg.=_|Case=Acc|Number=Sing	_	_	X	Gloss=land; territory, country; earth, ground
-4	Cannán	Cannán	PROPN	proper_noun	acc.sg.=_|Case=Acc|Number=Sing	_	_	X	Gloss=Canaanites ; Canaan
+1	.i.	.i.	X	abbreviation	No_Features=_	3	cc	X	Gloss=id est, it is
+2	hi	i	ADP	preposition	acc.=_|Case=Acc	3	case	X	Gloss=in, into
+3	tír	tír	NOUN	noun	acc.sg.=_|Case=Acc|Number=Sing	0	root	X	Gloss=land; territory, country; earth, ground
+4	Cannán	Cannán	PROPN	proper_noun	acc.sg.=_|Case=Acc|Number=Sing	3	appos	X	Gloss=Canaanites ; Canaan
 
 # sent_id = S0050-48
 # text = delb
@@ -882,14 +882,14 @@
 # sent_id = S0050-49
 # text = tris in credo son gaibther ocin bathis
 # text_en = through the creed, that is, which is recited at the baptism
-1	tri	tre	ADP	preposition	acc.=_|Case=Acc	_	case	X	Gloss=through (time or space), by means of, be reason of
-2	sin	in 1	DET	definite_article	acc.sg.fem.=_|Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	credo	credō	VERB	verb	1sg.pres.ind.=_|Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=I believe
-4	son	-són	PRON	particle_anaphoric	nom.sg.neut.=_|Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=that (mentioned above) that is
-5	gaibther	gaibid	VERB	verb	3sg.pres.ind.pass.rel.=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
-6	oc	oc	ADP	preposition	dat.=_|Case=Dat	_	case	X	Gloss=at, by, besides, with (person)
-7	in	in 1	DET	definite_article	dat.sg.=_|Case=Dat|Number=Sing|Definite=Def|PronType=Art	_	det	X	Gloss=the
-8	bathis	baithes	NOUN	noun	dat.sg.=_|Case=Dat|Number=Sing	_	_	X	Gloss=baptism
+1	tri	tre	ADP	preposition	acc.=_|Case=Acc	3	case	X	Gloss=through (time or space), by means of, be reason of
+2	sin	in 1	DET	definite_article	acc.sg.fem.=_|Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	credo	credō	VERB	verb	1sg.pres.ind.=_|Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=I believe
+4	son	-són	PRON	particle_anaphoric	nom.sg.neut.=_|Case=Nom|Number=Sing|Gender=Neut	3	nsubj	X	Gloss=that (mentioned above) that is
+5	gaibther	gaibid	VERB	verb	3sg.pres.ind.pass.rel.=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	4	acl:relcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+6	oc	oc	ADP	preposition	dat.=_|Case=Dat	8	case	X	Gloss=at, by, besides, with (person)
+7	in	in 1	DET	definite_article	dat.sg.=_|Case=Dat|Number=Sing|Definite=Def|PronType=Art	8	det	X	Gloss=the
+8	bathis	baithes	NOUN	noun	dat.sg.=_|Case=Dat|Number=Sing	5	obl	X	Gloss=baptism
 
 # sent_id = S0050-50
 # text = serbaigthir
