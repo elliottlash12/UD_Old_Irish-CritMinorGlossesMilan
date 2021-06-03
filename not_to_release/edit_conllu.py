@@ -154,7 +154,7 @@ def analyse_abbreviation(a_sentence):
     for word in a_sentence:
         if word["lemma"] == ".i.":
             word["xpos"] = "abbreviation"
-	    word["upos"] = "CCONJ"
+            word["upos"] = "CCONJ"
             word["deprel"] = "cc"
 
 def analyse_negation(a_sentence):
