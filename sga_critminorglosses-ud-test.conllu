@@ -790,9 +790,9 @@
 12	chamull	camall	NOUN	noun	dat.sg.=_|Case=Dat|Number=Sing	10	obl	X	Gloss=camel
 13	for	for	ADP	preposition	dat.=_|Case=Dat	14	case	X	Gloss=upon, over, on
 14	a·	-(s)a·	PRON	pronoun_relative	No_Features=_|PronType=Rel	15	obl	X	Gloss=which, who, whose
-15	·mbói	ad·tá	VERB	verb	3sg.pret.rel.intrans.=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	9	acl:relcl	X	Gloss=to be, to exist,
+15	·mbói	ad·tá	VERB	verb	3sg.pret.rel.intrans.=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	13	acl:relcl	X	Gloss=to be, to exist,
 16	ar	ar 1	ADP	preposition	dat.=_|Case=Dat	17	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-17	omalldoit	umaldóit	NOUN	noun	dat.sg.=_|Case=Dat|Number=Sing	15	obl	X	Gloss=humility
+17	omalldoit	umaldóit	NOUN	noun	dat.sg.=_|Case=Dat|Number=Sing	9	obl	X	Gloss=humility
 18	spirto	spirut	NOUN	noun	gen.sg.=_|Case=Gen|Number=Sing	17	nmod	X	Gloss=spirit
 19	síc	sīc	ADV	adverb	No_Features=_	21	advmod	X	Gloss=thus, so, like that
 20	dano	danó	ADV	particle_discourse	No_Features=_	21	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
@@ -812,7 +812,7 @@
 34	·robae	ad·tá	VERB	verb	augm.3sg.pret.rel.intrans.=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	21	acl:relcl	X	Gloss=to be, to exist,
 35	in	in 1	DET	definite_article	acc.sg.fem.=_|Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	36	det	X	Gloss=the
 36	tan	tan	NOUN	noun	acc.sg.=_|Case=Acc|Number=Sing	21	obl:tmod	X	Gloss=time
-37	ad·condairc	ad·cí	VERB	verb	augm.3sg.pret.rel.trans.nas=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	36	acl:relcl	X	Gloss=to see, to observe
+37	ad·condairc	ad·cí	VERB	verb	augm.3sg.pret.rel.trans.nas=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	36	advcl	X	Gloss=to see, to observe
 38	sponsum	sponsus	NOUN	noun	acc.sg.=_|Case=Acc|Number=Sing	37	obj	X	Gloss=spouse
 39	.i.	.i.	X	abbreviation	No_Features=_	40	cc	X	Gloss=id est, it is
 40	christum	Christus	NOUN	noun	acc.sg.=_|Case=Acc|Number=Sing	38	conj	X	Gloss=Christ
@@ -828,9 +828,9 @@
 6	thall	tall	ADV	adverb	No_Features=_	5	advmod	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
 7	in	in 1	DET	definite_article	acc.sg.fem.=_|Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
 8	tan	tan	NOUN	noun	acc.sg.=_|Case=Acc|Number=Sing	3	obl:tmod	X	Gloss=time
-9	as·robrad	as·beir	VERB	verb	augm.3sg.pret.pass.nas=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	3	advcl	X	Gloss=to say, to speak, to call , mention
+9	as·robrad	as·beir	VERB	verb	augm.3sg.pret.pass.nas=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	8	advcl	X	Gloss=to say, to speak, to call , mention
 10	frie	fri	ADP	preposition	3sg.fem.=_|Person=3|Number=Sing	9	obl:prep	X	Gloss=towards, against, standard of comparison
-11	con·mberad	con·beir	VERB	verb	3sg.past.subj.rel.nas=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	9	acl:relcl	X	Gloss=to conceive, to beget, to bring forth
+11	con·mberad	con·beir	VERB	verb	3sg.past.subj.rel.nas=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	9	ccomp	X	Gloss=to conceive, to beget, to bring forth
 12	macc	macc 1	NOUN	noun	acc.sg.=_|Case=Acc|Number=Sing	11	obj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
 
 # sent_id = S0050-45
@@ -842,11 +842,11 @@
 4	etercert	etarcert	NOUN	verbal_noun	nom.sg.=_|Case=Nom|Number=Sing	0	root	X	Gloss=the act of interpreting, investigating, discussing; interpretation
 5	ind	in 1	DET	definite_article	gen.sg.masc.=_|Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	í	í 1	PRON	pronoun_propword	gen.sg.neut.=_|Case=Gen|Number=Sing|Gender=Neut	4	nmod	X	Gloss=substantivizing particle
-7	as	is 1	AUX	verb	3sg.pres.ind.rel.intrans.len=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	4	csubj:cop	X	Gloss=to be
-8	maria	Maria	PROPN	proper_noun	nom.sg.=_|Case=Nom|Number=Sing	7	nsubj	X	Gloss=Mary
-9	princeps	prīnceps	NOUN	noun	No_Features=_	8	appos	X	Gloss=first, foremost; leader, superior, prince
+7	as	is 1	AUX	verb	3sg.pres.ind.rel.intrans.len=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	8	cop	X	Gloss=to be
+8	maria	Maria	PROPN	proper_noun	nom.sg.=_|Case=Nom|Number=Sing	6	acl:relcl	X	Gloss=Mary
+9	princeps	prīnceps	NOUN	noun	No_Features=_	4	nsubj	X	Gloss=first, foremost; leader, superior, prince
 10	cum	cum 1	ADP	preposition	No_Features=_	11	case	X	Gloss=with
-11	deo	deus	PROPN	proper_noun	abl.sg.=_|Number=Sing	7	obl	X	Gloss=god, deity, God
+11	deo	deus	PROPN	proper_noun	abl.sg.=_|Number=Sing	9	nmod	X	Gloss=god, deity, God
 
 # sent_id = S0050-46
 # text = .i. trisna foirthiu ailitherdi .i. nicon imruldatar cosa doine riam lar srotha iordanein
@@ -862,9 +862,9 @@
 9	cosa	cos	NOUN	noun	nom.pl.=_|Case=Nom|Number=Plur	8	nsubj	X	Gloss=foot, leg of human being, animal, stem, support
 10	doine	duine	NOUN	noun	gen.pl.=_|Case=Gen|Number=Plur	9	nmod	X	Gloss=person, human being
 11	riam	re	ADP	preposition	3sg.neut.=_|Person=3|Number=Sing	8	obl:prep	X	Gloss=before, in front of
-12	lar	lár	NOUN	noun	acc.sg.=_|Case=Acc|Number=Sing	8	obl	X	Gloss=floor, ground, surface
+12	lar	lár	NOUN	noun	acc.sg.=_|Case=Acc|Number=Sing	8	obj	X	Gloss=floor, ground, surface
 13	srotha	sruth	NOUN	noun	gen.sg.=_|Case=Gen|Number=Sing	12	nmod	X	Gloss=stream, river, current, torrent
-14	iordanein	Iordanén	PROPN	proper_noun	gen.sg.=_|Case=Gen|Number=Sing	12	nmod	X	Gloss=Jordan ; The River Jordan
+14	iordanein	Iordanén	PROPN	proper_noun	gen.sg.=_|Case=Gen|Number=Sing	13	appos	X	Gloss=Jordan ; The River Jordan
 
 # sent_id = S0050-47
 # text = .i. hitír Cannán
@@ -886,7 +886,7 @@
 2	sin	in 1	DET	definite_article	acc.sg.fem.=_|Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	credo	credō	VERB	verb	1sg.pres.ind.=_|Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=I believe
 4	son	-són	PRON	particle_anaphoric	nom.sg.neut.=_|Case=Nom|Number=Sing|Gender=Neut	3	nsubj	X	Gloss=that (mentioned above) that is
-5	gaibther	gaibid	VERB	verb	3sg.pres.ind.pass.rel.=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	4	acl:relcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+5	gaibther	gaibid	VERB	verb	3sg.pres.ind.pass.rel.=_|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	3	acl:relcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 6	oc	oc	ADP	preposition	dat.=_|Case=Dat	8	case	X	Gloss=at, by, besides, with (person)
 7	in	in 1	DET	definite_article	dat.sg.=_|Case=Dat|Number=Sing|Definite=Def|PronType=Art	8	det	X	Gloss=the
 8	bathis	baithes	NOUN	noun	dat.sg.=_|Case=Dat|Number=Sing	5	obl	X	Gloss=baptism
