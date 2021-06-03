@@ -63,6 +63,57 @@ def analyze_gender_in_prepositions_and_possessives_in_(a_sentence):
                 elif "neut." in key:
                     word["feats"]["Number"] = "Neut"
                     
+def analyze_subcat_in_(a_sentence):
+    for word in a_sentence:
+        for key in word["feats"].copy().keys():
+            if ".trans." in key:
+                word["feats"]["Subcat"] = "Trans"
+            elif ".intrans." in key:
+                word["feats"]["Subcat"] = "Intrans"
+
+def analyze_object_pron_in_(a_sentence):
+    for word in a_sentence:
+        if word["feats"].copy().get("Person[Obj]"):
+            for key in word["feats"].copy().keys():
+                if ".A" in key:
+                    word["feats"]["PronType"] = "AInf"
+                elif ".B" in key:
+                    word["feats"]["PronType"] = "BInf"
+                elif ".C" in key:
+                    word["feats"]["PronType"] = "CInf"
+
+def analyze_augm_in_(a_sentence):
+    for word in a_sentence:
+        for key in word["feats"].copy().keys():
+            if "augm." in key:
+                word["feats"]["Aspect"] = "Perf"
+
+def analyze_voice_in_(a_sentence):
+    for word in a_sentence:
+        for key in word["feats"].copy().keys():
+            if word["xpos"] == "verb" and "pass" in key:
+                word["feats"]["Voice"] = "Pass"
+            elif word["xpos"] == "verb" and "pass" not in next(iter(word["feats"])):
+                word["feats"]["Voice"] = "Act"
+
+def analyze_rel_in(a_sentence):
+    for word in a_sentence:
+        for key in word["feats"].copy().keys():
+            if "rel" in key:
+                if "len" in key:
+                    word["feats"]["RelType"] = "Len"
+                elif "nas" in key:
+                    word["feats"]["RelType"] = "Nas"
+                elif "len" not in next(iter(word["feats"])) or "nas" not in next(iter(word["feats"])):
+                    word["feats"]["RelType"] = "Other"
+
+def fix_verbs(list_of_sentences):
+    [analyze_subcat_in_(sent) for sent in list_of_sentences]
+    [analyze_object_pron_in_(sent) for sent in list_of_sentences]
+    [analyze_augm_in_(sent) for sent in list_of_sentences]
+    [analyze_voice_in_(sent) for sent in list_of_sentences]
+    [analyze_rel_in(sent) for sent in list_of_sentences]
+	
 #This function deletes keys with null values in the "feats" dictionary.
 #What to do with the "No_Features=_" or the "_" case?
 def delete_null_values_in(a_sentence):
