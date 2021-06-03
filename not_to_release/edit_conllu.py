@@ -276,3 +276,16 @@ def assign_def_to_noun_in(list_of_sentences):
             if det['feats'].get('Definite') and noun['id'] == det['head']:
                 print(f"The noun '{noun}' in sentence {count+1} is definite because it is associated with the article '{det}'.")#Replace this with an assignment.
 
+#The following functions assign a value to the feature Case for prepositions:
+
+def case_finder(list_of_sentences):
+	prep_list=[{'a 7': 'Dat'}, {'acht 2': 'Acc'}, {'al': 'Acc'}, {'amail 1': 'Acc'}, {'ar 1': 'Acc/Dat'}, {'cen': 'Acc'}, {'cenmothá': 'Acc'}, {'co 1': 'Acc'}, {'co 2': 'Dat'}, {'co·rrici': 'Acc'}, {'co·rrici': 'Acc'}, {'coticci': 'Acc'}, {'di': 'Dat'}, {'do 1': 'Dat'}, {'dochumm': 'Gen'}, {'echtar': 'Acc'}, {'eter': 'Acc'}, {'fíad': 'Dat'}, {'fo': 'Acc/Dat'}, {'for': 'Acc/Dat'}, {'fri': 'Acc'}, {'fri': 'Acc'}, {'íar 1': 'Dat'}, {'íarmithá': 'Dat'}, {'imm': 'Acc'}, {'i': 'Acc/Dat'}, {'ingé 1': 'Acc'}, {'ís 1': 'Dat'}, {'la': 'Acc'}, {'ó 1': 'Dat'}, {'oc': 'Dat'}, {'ós 1': 'Dat'}, {'óthá': 'Dat'}, {'re': 'Dat'}, {'sech 1': 'Acc'}, {'tar 1': 'Acc'}, {'tre': 'Acc'}]
+	for sent in list_of_sentences:
+		combo = list(itertools.product(sent, prep_list))
+		assign_case(combo)
+
+def assign_case(combined_list):
+	for count, word in enumerate(combined_list):
+		if combined_list[count][0]['upos'] == 'ADP' and combined_list[count][0]['lemma'] in combined_list[count][1]:
+			for key, value in combined_list[count][1].items():
+				combined_list[count][0]['feats']['Case'] = value
