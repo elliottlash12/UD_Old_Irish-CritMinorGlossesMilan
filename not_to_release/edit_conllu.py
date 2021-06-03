@@ -52,6 +52,16 @@ def analyze_number_in_prepositions_and_possessives_in_(a_sentence):
                 elif "pl." in key:
                     word["feats"]["Number"] = "Plur"
 
+def analyze_gender_in_prepositions_and_possessives_in_(a_sentence):
+    for word in a_sentence:
+        for key in word["feats"].copy().keys():
+            if word["xpos"] == "preposition" or word["xpos"] == "pronoun_possessive" or word["xpos"] == "particle_pronominal":
+                if "masc." in key:
+                    word["feats"]["Gender"] = "Masc"
+                elif "fem." in key:
+                    word["feats"]["Number"] = "Fem"
+                elif "neut." in key:
+                    word["feats"]["Number"] = "Neut"
                     
 #This function deletes keys with null values in the "feats" dictionary.
 #What to do with the "No_Features=_" or the "_" case?
@@ -289,3 +299,13 @@ def assign_case(combined_list):
         if combined_list[count][0]['upos'] == 'ADP' and combined_list[count][0]['lemma'] in combined_list[count][1]:
             for key, value in combined_list[count][1].items():
                 combined_list[count][0]['feats']['Case'] = value
+
+def assign_person_to_pronouns(a_sentence):
+    for word in a_sentence:
+        if 'pron' in word['lemma'] and word['xpos'] == 'pronoun_independent' or word['xpos'] == 'pronoun_possessive':
+            if '1' in word['lemma']:
+                word['feats']['Person'] = '1'
+            elif '2' in word['lemma']:
+                word['feats']['Person'] = '2'
+            elif '3' in word['lemma']:
+                word['feats']['Person'] = '3'
