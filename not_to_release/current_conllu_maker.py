@@ -598,11 +598,11 @@ def analyze_object_pron_in_(a_sentence):
         if word["feats"].copy().get("Person[Obj]"):
             for key in word["feats"].copy().keys():
                 if ".A" in key:
-                    word["feats"]["PronType"] = "AInf"
+                    word["feats"]["PronType"] = "InfA"
                 elif ".B" in key:
-                    word["feats"]["PronType"] = "BInf"
+                    word["feats"]["PronType"] = "InfB"
                 elif ".C" in key:
-                    word["feats"]["PronType"] = "CInf"
+                    word["feats"]["PronType"] = "InfC"
 
 def analyze_augm_in_(a_sentence):
     for word in a_sentence:
