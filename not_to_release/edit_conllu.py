@@ -341,7 +341,7 @@ def assign_all_values(filename2, list_of_sentences):
     [analyse_negation(sent) for sent in list_of_sentences]
     [fill_deps_in(sent) for sent in list_of_sentences]
     case_finder(list_of_sentences)
-    [delete_null_values_in(sent) for sent in list_of_sentences]
+    [delete_null_values_in(sent) for sent in list_of_sentences] #Add to this something to delete "No_Features".
     with open(filename2, 'w', encoding='utf-8') as file_out:
         conllu_sentences = [item.serialize() for item in list_of_sentences]
         [file_out.write(item) for item in conllu_sentences]
@@ -387,3 +387,8 @@ def mutation_finder(sentence_num, a_sentence):
             print(f"{word} in sentence {sentence_num+1} is geminated!")
 
 # ========================================================================================================================================================================================================
+
+# Part 6. Outline for this file going forward:
+# Essentially the only functions that need to be carried forward are new_sentences_list(), fill_deps_in_(), a modified version of do_all(),
+# and a modified version of the assign_def_to_noun() function (along with build_a_list_of_nouns_and_dets_in().
+# Functions to change the Case feature of prepositions and to deal with No_Features are probably useful going forward.
