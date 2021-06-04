@@ -460,6 +460,10 @@ def analyze_number_in_prepositions_and_possessives_in_(input_data):
 
 
 #The following functions (case_finder and assign_case) assign a value to the feature Case for prepositions:
+#The function assign_case has the drawback that it assigns Acc/Dat to variable prepositions, rather than the actual case in the context.
+#It might be that for ambiguous instances, the case value should only be filled in if the feats has acc. or dat.
+# (i.e. if the analysis in CorPH already specifies the case). Another way is to use the feats of an associated noun,
+#after tagging head/deprels.
 
 def case_finder(a_sentence):
     prep_list=[{'a 7': 'Dat'}, {'acht 2': 'Acc'}, {'al': 'Acc'}, {'amail 1': 'Acc'}, {'ar 1': 'Acc/Dat'}, {'cen': 'Acc'}, {'cenmothá': 'Acc'}, {'co 1': 'Acc'}, {'co 2': 'Dat'}, {'co·rrici': 'Acc'}, {'co·rrici': 'Acc'}, {'coticci': 'Acc'}, {'di': 'Dat'}, {'do 1': 'Dat'}, {'dochumm': 'Gen'}, {'echtar': 'Acc'}, {'eter': 'Acc'}, {'fíad': 'Dat'}, {'fo': 'Acc/Dat'}, {'for': 'Acc/Dat'}, {'fri': 'Acc'}, {'fri': 'Acc'}, {'íar 1': 'Dat'}, {'íarmithá': 'Dat'}, {'imm': 'Acc'}, {'i': 'Acc/Dat'}, {'ingé 1': 'Acc'}, {'ís 1': 'Dat'}, {'la': 'Acc'}, {'ó 1': 'Dat'}, {'oc': 'Dat'}, {'ós 1': 'Dat'}, {'óthá': 'Dat'}, {'re': 'Dat'}, {'sech 1': 'Acc'}, {'tar 1': 'Acc'}, {'tre': 'Acc'}]
@@ -783,7 +787,9 @@ def analyse_article(a_sentence):
 def analyse_prep(a_sentence):
     for word in a_sentence:
         if word["xpos"] == "preposition" and not word["feats"].copy().get("Person"):
-            word["deprel"] = "case" #This assigns case even to potential mark:prt with verbal nouns.
+            word["deprel"] = "case" #This assigns 'case' even to potential mark:prt with verbal nouns.
+                                    #It also assigns 'case' to relative prepositiosn before verbs, even though in this instance
+                                    #the proper deprel is obl:prep.
            
 def analyse_number(a_sentence):
     for word in a_sentence:
