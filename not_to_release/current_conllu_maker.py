@@ -566,7 +566,7 @@ def delete_null_values_in(input_data):
     for tok in input_data:
         for key, value in tok["feats"].copy().items():
             if x != key and tok["feats"][key] is not None:
-                del tok["feats"][key]
+                del tok["feats"][key] #This deletes too much!
 
 #The following function applies some of the above functions to the data to change the analysis of substantives (i.e. nouns and adjectives).
 
@@ -604,7 +604,7 @@ def change_all_analyses(input_data):
     [change_substantive_analysis(item) for item in input_data]
     [change_verb_analysis(item) for item in input_data]
     [change_preposition_analysis(item) for item in input_data]
-    [delete_null_values_in(item) for item in input_data]
+    #[delete_null_values_in(item) for item in input_data]
     output_data = [item.serialize() for item in input_data]
     return output_data
 
