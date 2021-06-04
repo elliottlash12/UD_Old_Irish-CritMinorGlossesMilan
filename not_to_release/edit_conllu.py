@@ -9,6 +9,7 @@ This will fix previously made conllu files.
 
 import itertools
 import os
+import sys
 from conllu import parse
 
 os.chdir('/Users/elliottlash/Documents/GitHub/UD_Old_Irish-CritMinorGlosses/')
@@ -22,7 +23,6 @@ def new_sentences_list(filename):
     return sentences
 
 
-# ========================================================================================================================================================================================================
 # ========================================================================================================================================================================================================
 # Part 1: These functions will eventually be part of "current_conllu_maker.py".
 # At the moment, they are only really relevant for files that are only partially complete after "current_conllu_maker.py" runs.
@@ -124,7 +124,6 @@ def delete_null_values_in(a_sentence):
                 if x != key and word["feats"][key] is None:
                     del word["feats"][key]
 
-
 #This function fills the deps column in the conllu file.
 def fill_deps_in(a_sentence):
     for count, word in enumerate(a_sentence):
@@ -144,11 +143,8 @@ def do_all(list_of_sentences, fileout):
 
 
 # ========================================================================================================================================================================================================
-# ========================================================================================================================================================================================================
 
-
-# Part 2
-# The following functions should be used after "current_conllu_maker.py" has created a conllu_file.
+# Part 2.  The following functions should be used after "current_conllu_maker.py" has created a conllu_file.
 
 #The following functions (assign_upos and upos_finder) assign upos to a word in a sentence in a list of sentences.
 def assign_upos(combined_list):
@@ -187,8 +183,7 @@ def upos_is_x(list_of_sentences):
 
 # ========================================================================================================================================================================================================
 
-# Part 3
-#The following functions fill deprel for various function words:
+# Part 3. The following functions fill deprel for various function words:
 
 def analyse_copula(a_sentence):
     for word in a_sentence:
@@ -267,22 +262,7 @@ def do_all_deprel(list_of_sentences):
 
 # ========================================================================================================================================================================================================
 
-# Part 4
-# This function might help to figure out if a word is mutated.
-
-def mutation_finder(sentence_num, a_sentence):
-    for word in a_sentence:
-        if word['form'].startswith('ch') or word['form'].startswith('th') or word['form'].startswith('ph'):
-            print(f"{word} in sentence {sentence_num+1} is lenited!")
-        elif word['form'].startswith('ng') or word['form'].startswith('nd') or word['form'].startswith('mb'):
-            print(f"{word} in sentence {sentence_num+1} is eclipsed!")
-        elif word['form'].startswith('nn') or word['form'].startswith('ll') or word['form'].startswith('rr'):
-            print(f"{word} in sentence {sentence_num+1} is geminated!")
-
-# ========================================================================================================================================================================================================
-
-# Part 5
-# Functions to assign values to the features in the feats column.
+# Part 4. Functions to assign values to the features in the feats column.
 
 def assign_value_to_definite(a_sentence):
     for word in a_sentence:
@@ -318,6 +298,62 @@ def assign_value_to_prontype(a_sentence):
         elif word['xpos'] == 'pronoun_demonstrative_proximate' or word['xpos'] == 'pronoun_demonstrative_distal':
             word['feats']['PronType'] = 'Dem'
 
+def assign_person_to_pronouns(a_sentence):
+    for word in a_sentence:
+        if 'pron' in word['lemma'] and word['xpos'] == 'pronoun_independent' or word['xpos'] == 'pronoun_possessive':
+            if '1' in word['lemma']:
+                word['feats']['Person'] = '1'
+            elif '2' in word['lemma']:
+                word['feats']['Person'] = '2'
+            elif '3' in word['lemma']:
+                word['feats']['Person'] = '3'
+
+#The following functions assign a value to the feature Case for prepositions:
+
+def case_finder(list_of_sentences):
+    prep_list=[{'a 7': 'Dat'}, {'acht 2': 'Acc'}, {'al': 'Acc'}, {'amail 1': 'Acc'}, {'ar 1': 'Acc/Dat'}, {'cen': 'Acc'}, {'cenmothá': 'Acc'}, {'co 1': 'Acc'}, {'co 2': 'Dat'}, {'co·rrici': 'Acc'}, {'co·rrici': 'Acc'}, {'coticci': 'Acc'}, {'di': 'Dat'}, {'do 1': 'Dat'}, {'dochumm': 'Gen'}, {'echtar': 'Acc'}, {'eter': 'Acc'}, {'fíad': 'Dat'}, {'fo': 'Acc/Dat'}, {'for': 'Acc/Dat'}, {'fri': 'Acc'}, {'fri': 'Acc'}, {'íar 1': 'Dat'}, {'íarmithá': 'Dat'}, {'imm': 'Acc'}, {'i': 'Acc/Dat'}, {'ingé 1': 'Acc'}, {'ís 1': 'Dat'}, {'la': 'Acc'}, {'ó 1': 'Dat'}, {'oc': 'Dat'}, {'ós 1': 'Dat'}, {'óthá': 'Dat'}, {'re': 'Dat'}, {'sech 1': 'Acc'}, {'tar 1': 'Acc'}, {'tre': 'Acc'}]
+    for sent in list_of_sentences:
+        combo = list(itertools.product(sent, prep_list))
+        assign_case(combo)
+
+def assign_case(combined_list):
+    for count, word in enumerate(combined_list):
+        if combined_list[count][0]['upos'] == 'ADP' and combined_list[count][0]['lemma'] in combined_list[count][1]:
+            for key, value in combined_list[count][1].items():
+                combined_list[count][0]['feats']['Case'] = value
+
+# ========================================================================================================================================================================================================
+
+# Part 5. Putting it all together.
+
+def assign_all_values(filename2, list_of_sentences):
+    fix_verbs(list_of_sentences)
+    upos_finder(list_of_sentences)
+    [assign_value_to_definite(sent) for sent in list_of_sentences]
+    [assign_value_to_deixis(sent) for sent in list_of_sentences]
+    [assign_value_to_poss(sent) for sent in list_of_sentences]
+    [assign_value_to_prontype(sent) for sent in list_of_sentences]
+    [assign_person_to_pronouns(sent) for sent in list_of_sentences]
+    [analyse_copula(sent) for sent in list_of_sentences]
+    [analyze_gender_in_prepositions_and_possessives_in_(sent) for sent in list_of_sentences]
+    [analyze_number_in_prepositions_and_possessives_in_(sent) for sent in list_of_sentences]
+    [analyze_person_in_prepositions_and_possessives_in_(sent) for sent in list_of_sentences]
+    [analyse_negation(sent) for sent in list_of_sentences]
+    [fill_deps_in(sent) for sent in list_of_sentences]
+    case_finder(list_of_sentences)
+    [delete_null_values_in(sent) for sent in list_of_sentences]
+    with open(filename2, 'w', encoding='utf-8') as file_out:
+        conllu_sentences = [item.serialize() for item in list_of_sentences]
+        [file_out.write(item) for item in conllu_sentences]
+
+if __name__ == "__main__":
+    assign_all_values(sys.argv[2], new_sentences_list(sys.argv[1]))
+
+
+# ========================================================================================================================================================================================================
+
+# Part 6. Currently Unused Functions.
+
 #Note the following functions assume that the function assign_value_to_definite has already been applied to the data.
 #Note too that the functions assume that the head/deprel columns have been tagged.
 #Also, it may be possible to tweak this functoin a bit to create a parser that assigns the index of a noun within the sentence list to the head column for a det.
@@ -338,26 +374,16 @@ def assign_def_to_noun_in(list_of_sentences):
             if det['feats'].get('Definite') and noun['id'] == det['head']:
                 print(f"The noun '{noun}' in sentence {count+1} is definite because it is associated with the article '{det}'.")#Replace this with an assignment.
 
-#The following functions assign a value to the feature Case for prepositions:
 
-def case_finder(list_of_sentences):
-    prep_list=[{'a 7': 'Dat'}, {'acht 2': 'Acc'}, {'al': 'Acc'}, {'amail 1': 'Acc'}, {'ar 1': 'Acc/Dat'}, {'cen': 'Acc'}, {'cenmothá': 'Acc'}, {'co 1': 'Acc'}, {'co 2': 'Dat'}, {'co·rrici': 'Acc'}, {'co·rrici': 'Acc'}, {'coticci': 'Acc'}, {'di': 'Dat'}, {'do 1': 'Dat'}, {'dochumm': 'Gen'}, {'echtar': 'Acc'}, {'eter': 'Acc'}, {'fíad': 'Dat'}, {'fo': 'Acc/Dat'}, {'for': 'Acc/Dat'}, {'fri': 'Acc'}, {'fri': 'Acc'}, {'íar 1': 'Dat'}, {'íarmithá': 'Dat'}, {'imm': 'Acc'}, {'i': 'Acc/Dat'}, {'ingé 1': 'Acc'}, {'ís 1': 'Dat'}, {'la': 'Acc'}, {'ó 1': 'Dat'}, {'oc': 'Dat'}, {'ós 1': 'Dat'}, {'óthá': 'Dat'}, {'re': 'Dat'}, {'sech 1': 'Acc'}, {'tar 1': 'Acc'}, {'tre': 'Acc'}]
-    for sent in list_of_sentences:
-        combo = list(itertools.product(sent, prep_list))
-        assign_case(combo)
+# This function might help to figure out if a word is mutated.
 
-def assign_case(combined_list):
-    for count, word in enumerate(combined_list):
-        if combined_list[count][0]['upos'] == 'ADP' and combined_list[count][0]['lemma'] in combined_list[count][1]:
-            for key, value in combined_list[count][1].items():
-                combined_list[count][0]['feats']['Case'] = value
-
-def assign_person_to_pronouns(a_sentence):
+def mutation_finder(sentence_num, a_sentence):
     for word in a_sentence:
-        if 'pron' in word['lemma'] and word['xpos'] == 'pronoun_independent' or word['xpos'] == 'pronoun_possessive':
-            if '1' in word['lemma']:
-                word['feats']['Person'] = '1'
-            elif '2' in word['lemma']:
-                word['feats']['Person'] = '2'
-            elif '3' in word['lemma']:
-                word['feats']['Person'] = '3'
+        if word['form'].startswith('ch') or word['form'].startswith('th') or word['form'].startswith('ph'):
+            print(f"{word} in sentence {sentence_num+1} is lenited!")
+        elif word['form'].startswith('ng') or word['form'].startswith('nd') or word['form'].startswith('mb'):
+            print(f"{word} in sentence {sentence_num+1} is eclipsed!")
+        elif word['form'].startswith('nn') or word['form'].startswith('ll') or word['form'].startswith('rr'):
+            print(f"{word} in sentence {sentence_num+1} is geminated!")
+
+# ========================================================================================================================================================================================================
