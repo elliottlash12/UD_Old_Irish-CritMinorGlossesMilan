@@ -76,11 +76,11 @@ def analyze_object_pron_in_(a_sentence):
         if word["feats"].copy().get("Person[Obj]"):
             for key in word["feats"].copy().keys():
                 if ".A" in key:
-                    word["feats"]["PronType"] = "AInf"
+                    word["feats"]["PronType"] = "InfA"
                 elif ".B" in key:
-                    word["feats"]["PronType"] = "BInf"
+                    word["feats"]["PronType"] = "InfB"
                 elif ".C" in key:
-                    word["feats"]["PronType"] = "CInf"
+                    word["feats"]["PronType"] = "InfC"
 
 def analyze_augm_in_(a_sentence):
     for word in a_sentence:
@@ -319,6 +319,7 @@ def assign_value_to_prontype(a_sentence):
             word['feats']['PronType'] = 'Dem'
 
 #Note the following functions assume that the function assign_value_to_definite has already been applied to the data.
+#Note too that the functions assume that the head/deprel columns have been tagged.
 #Also, it may be possible to tweak this functoin a bit to create a parser that assigns the index of a noun within the sentence list to the head column for a det.
 def build_list_of_nouns_and_det_in(a_sentence):
     list_of_nouns = []
