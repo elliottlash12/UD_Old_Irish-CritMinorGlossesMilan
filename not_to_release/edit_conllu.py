@@ -388,7 +388,7 @@ def mutation_finder(sentence_num, a_sentence):
 
 # ========================================================================================================================================================================================================
 
-# Part 6. Outline for this file going forward:
+# Part 7. Outline for this file going forward:
 # Essentially the only functions that need to be carried forward are new_sentences_list(), fill_deps_in_(), a modified version of do_all(),
 # and a modified version of the assign_def_to_noun() function (along with build_a_list_of_nouns_and_dets_in().
 # Functions to change the Case feature of prepositions and to deal with No_Features are probably useful going forward.
