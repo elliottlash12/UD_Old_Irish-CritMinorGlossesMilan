@@ -3,7 +3,7 @@
 
 """
 Created on Fri May 7 2021
-Updated Wed May 27 2021
+Updated Wed June 4 2021
 @author elliottlash
 DFG project
 Georg-August-Universität Göttingen
@@ -43,7 +43,7 @@ from io import open
 #
 #
 # If an interactive python session is required in order to test any function in this script, run this script in a python shell compatible with python 3.
-# At the command line type first os.chdir('/path to file/') and then data_file='name_of_csv_file'. The variable name "data_file" can be used in the functions in section 6 to read this file.
+# At the command line type first os.chdir('/path to file/') and then data_file='name_of_csv_file'. The variable name "data_file" can be used in the functions in Section 7 to read this file.
 # Note that all of the libraries in the import statements above need to be installed.
 #
 # ========================================================================================================================================================================================================
@@ -68,7 +68,9 @@ from io import open
 #
 # Section 5. Functions to convert the data to CONLLU format.
 #
-# Section 6. Automating the functions in Sections 1 - 5. 
+# Section 6. Functions to fill in the upos and deprels columns of a CONLLU file.
+#
+# Section 7. Automating the functions in Sections 1 - 5.
 #
 #
 # ========================================================================================================================================================================================================
