@@ -404,6 +404,10 @@ def head_of_article(current_sentence, list_of_dets, list_of_nouns):
         if det['Stressed_Unit'] in noun['Stressed_Unit']:
             det['_'] = str(current_sentence.index(noun) + 1)
 
+#The function head_of_preposition assigns the index of a noun that shares its stressed unit with a preposition to the head column of the preposition.
+#It attempts to prohibit erroneous assignment by ignoring already seen items. Hopefully the numbere of "elif" and "else" statements will be enough
+#to cover all possible cases. It might be prudent to add this kind of functionality to head_of_article as well.
+
 def head_of_preposition(current_sentence, list_of_preps, list_of_nouns):
     finished_nouns = []
     finished_preps = []
