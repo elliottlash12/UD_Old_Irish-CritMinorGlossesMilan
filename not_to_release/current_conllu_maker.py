@@ -380,7 +380,58 @@ def remove_all_extraneous_info_in(list_of_sentences):
     remove_preverbs_in(list_of_sentences)
     remove_null_in(list_of_sentences)
 
+# ========================================================================================================================================================================================================
 
+#Interim Testing Section: Functions to automatically add an index to the "Head" column of a CONLLU file.
+
+def list_of_dets_and_nouns_in(a_sentence):
+    list_of_dets = []
+    list_of_nouns = []
+    list_of_preps = []
+    list_of_nominal_pos = ['noun', 'pronoun_demonstrative_distal', 'pronoun_demonstrative_proximate', 'verbal_noun', 'proper_noun', 'adjective_pronominal', 'pronoun_propword']
+    list_of_determiner_pos = ['definite_article', 'adjective_quantifier', 'adjective_numeral', 'pronoun_possessive']
+    for word in a_sentence:
+        if word['Part_Of_Speech'] in list_of_nominal_pos:
+            list_of_nouns.append(word)
+        elif word['Part_Of_Speech'] in list_of_determiner_pos:
+            list_of_dets.append(word)
+        elif word['Part_Of_Speech'] == 'preposition':
+            list_of_preps.append(word)
+    return list_of_dets, list_of_nouns, list_of_preps
+
+def head_of_article(current_sentence, list_of_dets, list_of_nouns):
+    for det, noun in list(itertools.product(list_of_dets, list_of_nouns)):
+        if det['Stressed_Unit'] in noun['Stressed_Unit']:
+            det['_'] = str(current_sentence.index(noun) + 1)
+
+def head_of_preposition(current_sentence, list_of_preps, list_of_nouns):
+    finished_nouns = []
+    finished_preps = []
+    ignore_list = []
+    combo=list(itertools.product(list_of_preps, list_of_nouns))
+    for c in combo:
+        if c[0]['Stressed_Unit'] in c[1]['Stressed_Unit']:
+            if not ignore_list:
+                c[0]['_'] = str(current_sentence.index(c[1]) + 1)
+                finished_preps.append(c[0])
+                finished_nouns.append(c[1])
+                ignore_list.append(c)
+            elif c[0] in finished_preps:
+                ignore_list.append(c)
+            elif c[1] in finished_nouns:
+                ignore_list.append(c)
+            else:
+                c[0]['_'] = str(current_sentence.index(c[1]) + 1)
+        
+def find_head_in(a_sentence, list_of_dets, list_of_nouns, list_of_preps):
+    head_of_article(a_sentence, list_of_dets, list_of_nouns)
+    head_of_preposition(a_sentence, list_of_preps, list_of_nouns)
+
+def assign_head_in(list_of_sentences):
+    for sent in list_of_sentences.values():
+        dets, nouns, preps = list_of_dets_and_nouns_in(sent)
+        find_head_in(sent, dets, nouns, preps)
+        
 # ========================================================================================================================================================================================================
 
 
@@ -876,6 +927,7 @@ def automation(filename):
     look_for_relative_or_infixed_verbs_in_all(sentences)
     remove_all_extraneous_info_in(sentences)
     compound_detector(sentences)
+    assign_head_in(sentences)
     return sentences
 
 
@@ -894,7 +946,7 @@ def write_out(filename, sentences):
                     file_out.write('# text_en = {}'.format(word['Translation'])+'\n') # Third line of the header for each sentence.
                     tuid = word['Text_Unit_ID']
                     cnt = 1
-                file_out.write(str(cnt)+"\t"+"\t".join([word['Morph']]+[word['Lemma']]+["X"]+[word['Part_Of_Speech']]+[word['Analysis']]+['_']+['_']+["X"]+[word['Gloss=Meaning']])+'\n') # This creates the correct order of the ten CONLLU columns for each word in a sentence.
+                file_out.write(str(cnt)+"\t"+"\t".join([word['Morph']]+[word['Lemma']]+["X"]+[word['Part_Of_Speech']]+[word['Analysis']]+[word['_']]+['_']+["X"]+[word['Gloss=Meaning']])+'\n') # This creates the correct order of the ten CONLLU columns for each word in a sentence.
                 cnt += 1
             file_out.write('\n')
     return                    
