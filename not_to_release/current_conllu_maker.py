@@ -135,8 +135,10 @@ def preprocess_5(input_data):
 #It is possible that what really needs to happen here is to make the string in the "Meaning" column into a value in a key:value pair with the key "Gloss".
 
 def preprocess_6(input_data):
-    for item in input_data:
+    for item in itertools.islice(input_data, 1, None):
+        analysis = "Analysis="
         gloss = "Gloss="
+        item[5] = analysis + item[5]
         item[9] = gloss + item[9]
 
 
@@ -306,6 +308,7 @@ def remove_dummy_preverb_in(sentence, list_of_verbs, list_of_dummy_preverbs):
         #else:   >>> Only in interactive session
         #    print(f"{prev['Morph']} not deleted.") >>> Only in interactive session
 
+
 #This function combines the function to build lists of verbs, relative particles and pronoun with the functions to compare these lists.
         
 def look_for_relative_or_infixed_verbs_in_all(list_of_sentences):
@@ -323,6 +326,7 @@ def look_for_relative_or_infixed_verbs_in_all(list_of_sentences):
         rel_answers.append([count, rel_answer])
         pron_answers.append([count, pron_answer])
 #    return rel_answers, pron_answers >>> Only in interactive sessions
+
 
 # The following function removes subelements of compounds. It works if the rows are in the following order: element 1 > element 2 > compound. 
 def compound_detector(list_of_sentences):
@@ -399,14 +403,27 @@ def list_of_dets_and_nouns_in(a_sentence):
             list_of_preps.append(word)
     return list_of_dets, list_of_nouns, list_of_preps
 
+
 def head_of_article(current_sentence, list_of_dets, list_of_nouns):
     for det, noun in list(itertools.product(list_of_dets, list_of_nouns)):
         if det['Stressed_Unit'] in noun['Stressed_Unit']:
             det['_'] = str(current_sentence.index(noun) + 1)
+            if det['Part_Of_Speech'] == 'definite_article':
+                noun['Analysis'] = noun['Analysis'] + 'Def'
+
 
 #The function head_of_preposition assigns the index of a noun that shares its stressed unit with a preposition to the head column of the preposition.
 #It attempts to prohibit erroneous assignment by ignoring already seen items. Hopefully the numbere of "elif" and "else" statements will be enough
 #to cover all possible cases. It might be prudent to add this kind of functionality to head_of_article as well.
+
+def case_check(prep, noun):
+    if 'acc.' in noun['Analysis'] and 'No_Features' in prep['Analysis']:
+        prep['Analysis'] = prep['Analysis'] + 'acc.'
+    elif 'dat.' in noun['Analysis'] and 'No_Features' in prep['Analysis']:
+        prep['Analysis'] = prep['Analysis'] + 'dat.'
+    elif 'gen.' in noun['Analysis'] and 'No_Features' in prep['Analysis']:
+        prep['Analysis'] = prep['Analysis'] + 'gen.'
+
 
 def head_of_preposition(current_sentence, list_of_preps, list_of_nouns):
     finished_nouns = []
@@ -417,6 +434,7 @@ def head_of_preposition(current_sentence, list_of_preps, list_of_nouns):
         if c[0]['Stressed_Unit'] in c[1]['Stressed_Unit']:
             if not ignore_list:
                 c[0]['_'] = str(current_sentence.index(c[1]) + 1)
+                case_check(c[0], c[1])
                 finished_preps.append(c[0])
                 finished_nouns.append(c[1])
                 ignore_list.append(c)
@@ -426,16 +444,20 @@ def head_of_preposition(current_sentence, list_of_preps, list_of_nouns):
                 ignore_list.append(c)
             else:
                 c[0]['_'] = str(current_sentence.index(c[1]) + 1)
-        
+                case_check(c[0], c[1])
+
+
 def find_head_in(a_sentence, list_of_dets, list_of_nouns, list_of_preps):
     head_of_article(a_sentence, list_of_dets, list_of_nouns)
     head_of_preposition(a_sentence, list_of_preps, list_of_nouns)
+
 
 def assign_head_in(list_of_sentences):
     for sent in list_of_sentences.values():
         dets, nouns, preps = list_of_dets_and_nouns_in(sent)
         find_head_in(sent, dets, nouns, preps)
-        
+
+
 # ========================================================================================================================================================================================================
 
 
@@ -447,74 +469,100 @@ def assign_head_in(list_of_sentences):
 # The specific goal is to make sure that the "Feats" column consists of a series of key:value pairs, where key = the name of a feature and value = a value for that feature.
 
 
+#Section 5.1. Analysis of Substantives (Nouns and Adjectives)
+
 # The function case_analysis checks to see if any key in "Feats" contains "nom/acc/gen/dat" and creates a new key:value pair. 
 
-def case_analysis(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if key[0:3] == "nom":
-                tok["feats"]["Case"] = "Nom"
-            elif key[0:3] == "acc":
-                tok["feats"]["Case"] = "Acc"
-            elif key[0:3] == "gen":
-                tok["feats"]["Case"] = "Gen"
-            elif key[0:3] == "dat":
-                tok["feats"]["Case"] = "Dat"
+def analyze_case_in_(a_sentence):
+    for word in a_sentence:
+        if 'nom' in word['feats']['Analysis'][0:3]:
+            word['feats']['Case'] = 'Nom'
+        elif 'acc' in word['feats']['Analysis'][0:3]:
+            word['feats']['Case'] = 'Acc'
+        elif 'gen' in word['feats']['Analysis'][0:3]:
+            word['feats']['Case'] = 'Gen'
+        elif 'dat' in word['feats']['Analysis'][0:3]:
+            word['feats']["Case"] = 'Dat'
 
 
 # The function number_analysis checks to see if any key in "Feats" contains "sg" or "pl" and creates a new key:value pair.
 				
-def number_analysis(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if key[4:6] == "sg":
-                tok["feats"]["Number"] = "Sing"
-            elif key[4:6] == "pl":
-                tok["feats"]["Number"] = "Plur"
+def analyze_number_in_(a_sentence):
+    for word in a_sentence:
+        if 'sg' in word['feats']['Analysis'][4:6]:
+            word['feats']['Number'] = 'Sing'
+        elif 'pl' in word['feats']['Analysis'][4:6]:
+            word['feats']['Number'] = 'Plur'
 
 
-# The functiongender_analysis checks to see if any key in "Feats" contains "ma/fe/ne" creates a new key:value pair.
+# The following functions checks to see if the key 'Analysis' in "Feats" contains "ma/fe/ne" creates a new key:value pair.
     
-def gender_analysis(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if key[7:9] == "ma":
-                tok["feats"]["Gender"] = "Masc"
-            elif key[7:9] == "fe":
-                tok["feats"]["Gender"] = "Fem"
-            elif key[7:9] == "ne":
-                tok["feats"]["Gender"] = "Neut"
+def analyze_gender_in_(a_sentence):
+    for word in a_sentence:
+        if 'ma' in word['feats']['Analysis'][7:9]:
+            word['feats']['Gender'] = 'Masc'
+        elif 'fe' in word['feats']['Analysis'][7:9]:
+            word['feats']['Gender'] = 'Fem'
+        elif 'ne' in word['feats']['Analysis'][7:9]:
+            word['feats']['Gender'] = 'Neut'
 
 
-#The following funciton analyses  person in prepositions and possessives.
+#The following function analyzes definiteness in nouns and the definite article.
+
+def analyze_definiteness_in_(a_sentence):
+    for word in a_sentence:
+        if 'Def' in word['feats']['Analysis']:
+            word['feats']['Definite'] = 'Def'
+        elif word['xpos'] == 'definite_article':
+            word['feats']['Definite'] = 'Def'
+
+
+#Section 5.4. Analysis of Verbs
+
+#Section 5.2. Analysis of Prepositions
+
+#The following function analyses  person in prepositions and possessives.
 #Note that this could be expanded to cover all pronouns.
 				
-def analyze_person_in_prepositions_and_possessives_in_(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if tok["xpos"] == "preposition" or tok["xpos"]== "pronoun_possessive" or tok["xpos"] == "particle_pronominal":
-                if "1" in key:
-                    tok["feats"]["Person"] = "1" 
-                elif "2" in key:
-                    tok["feats"]["Person"] = "2"
-                elif "3" in key:
-                    tok["feats"]["Person"] = "3"
+def analyze_person_in_prepositions_and_possessives_in_(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'preposition' or word['xpos']== 'pronoun_possessive' or word['xpos'] == 'particle_pronominal':
+            if '1' in word['feats']['Analysis']:
+                word['feats']['Person'] = '1'
+            elif '2' in word['feats']['Analysis']:
+                word['feats']['Person'] = '2'
+            elif '3' in word['feats']['Analysis']:
+                word['feats']['Person'] = '3'
 
 
-#The following funciton analyses number in prepositions and possessives.
+#The following function analyses number in prepositions and possessives.
 #Note that this could be expanded to cover all pronouns.
                     
-def analyze_number_in_prepositions_and_possessives_in_(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if tok["xpos"] == "preposition" or tok["xpos"]== "pronoun_possessive" or tok["xpos"] == "particle_pronominal":
-                if "sg." in key:
-                    tok["feats"]["Number"] = "Sing"
-                elif "pl." in key:
-                    tok["feats"]["Number"] = "Plur"
+def analyze_number_in_prepositions_and_possessives_in_(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'preposition' or word['xpos']== 'pronoun_possessive' or word['xpos'] == 'particle_pronominal':
+            if 'sg.' in word['feats']['Analysis']:
+                word['feats']['Number'] = 'Sing'
+            elif 'pl.' in word['feats']['Analysis']:
+                word['feats']['Number'] = 'Plur'
+            elif 'du.' in word['feats']['Analysis']:
+                word['feats']['Number'] = 'Dual'
 
 
-#The following functions (case_finder and assign_case) assign a value to the feature Case for prepositions:
+#The following function analyses gender in prepositions and possessives.
+
+def analyze_gender_in_prepositions_and_possessives_in_(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'preposition' or word['xpos']== 'pronoun_possessive' or word['xpos'] == 'particle_pronominal':
+            if 'masc.' in word['feats']['Analysis']:
+                word['feats']['Gender'] = 'Masc'
+            elif 'fem.' in word['feats']['Analysis']:
+                word['feats']['Gender'] = 'Fem'
+            elif 'neut.' in word['feats']['Analysis']:
+                word['feats']['Gender'] = 'Neut'
+
+
+#The following three functions assign a value to the feature Case for prepositions.
 #The function assign_case has the drawback that it assigns Acc/Dat to variable prepositions, rather than the actual case in the context.
 #It might be that for ambiguous instances, the case value should only be filled in if the feats has acc. or dat.
 # (i.e. if the analysis in CorPH already specifies the case). Another way is to use the feats of an associated noun,
@@ -527,102 +575,108 @@ def case_finder(a_sentence):
 
 def assign_case(combined_list):
     for count, word in enumerate(combined_list):
-        if combined_list[count][0]['xpos'] == 'preposition' and combined_list[count][0]['lemma'] in combined_list[count][1]:
+        if combined_list[count][0]['lemma'] in combined_list[count][1]:
             for key, value in combined_list[count][1].items():
                 combined_list[count][0]['feats']['Case'] = value
-                
-def analyze_gender_in_prepositions_and_possessives_in_(a_sentence):
+
+def analyze_case_in_prepositions_in_(a_sentence):
     for word in a_sentence:
-        for key in word["feats"].copy().keys():
-            if word["xpos"] == "preposition" or word["xpos"] == "pronoun_possessive" or word["xpos"] == "particle_pronominal":
-                if "masc." in key:
-                    word["feats"]["Gender"] = "Masc"
-                elif "fem." in key:
-                    word["feats"]["Number"] = "Fem"
-                elif "neut." in key:
-                    word["feats"]["Number"] = "Neut"
-                    
+        if word['xpos'] == 'preposition':
+            if 'acc.' in word['feats']['Analysis']:
+                word['feats']['Case'] = 'Acc'
+            elif 'dat.' in word['feats']['Analysis']:
+                word['feats']['Case'] = 'Dat'
+            elif 'gen.' in word['feats']['Analysis']:
+                word['feats']['Case'] = "Gen"
+            elif not word['feats'].copy().get('Case'):
+                case_finder(a_sentence)
+
+
+#Section 5.3. Analysis of Verbs
+
 # The functions verbal_infixed_person_analysis and verbal_infixed_number_analysis deal with the features of infixed pronouns.
 
-def verbal_infixed_person_analysis(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if tok["xpos"] == "verb" and "obj1" in key:
-                tok["feats"]["Person[Obj]"] = "1"
-            elif tok["xpos"] == "verb" and "obj2" in key:
-                tok["feats"]["Person[Obj]"] = "2"
-            elif tok["xpos"] == "verb" and "obj3" in key:
-                tok["feats"]["Person[Obj]"] = "3"
+def verbal_infixed_person_analysis(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'verb':
+            if 'obj1' in word['feats']['Analysis']:
+                word['feats']['Person[Obj]'] = '1'
+            elif 'obj2' in word['feats']['Analysis']:
+                 word['feats']['Person[Obj]'] = '2'
+            elif 'obj3' in word['feats']['Analysis']:
+                 word['feats']['Person[Obj]'] = '3'
 
-def verbal_infixed_number_analysis(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if tok["xpos"] == "verb" and re.findall("obj[123]sg", key):
-                tok["feats"]["Number[Obj]"] = "Sing"
-            elif tok["xpos"] == "verb" and re.findall("obj[123]pl", key):
-                tok["feats"]["Number[Obj]"] = "Plur"
+
+def verbal_infixed_number_analysis(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'verb':
+            if re.findall('obj[123]sg', word['feats']['Analysis']):
+               word['feats']['Number[Obj]'] = 'Sing'
+            elif re.findall('obj[123]pl', word['feats']['Analysis']):
+                word['feats']['Number[Obj]'] = 'Plur'
 
 
 #The verbal_person_analysis checks to see if for rows whose "xpos" value is "verb" any key in "Feats" contains "1/2/3" and creates a new key:value pair.
 # Because the analysis of the verb will contain two instances of 1/2/3 in the case of transitive verbs with infixed pronouns, there may be some functionality issues here!				
 		
-def verbal_person_analysis(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if tok["xpos"] == "verb" and "1" in key:
-                tok["feats"]["Person[Subj]"] = "1"
-            elif tok["xpos"] == "verb" and "2" in key:
-                tok["feats"]["Person[Subj]"] = "2"
-            elif tok["xpos"] == "verb" and "3" in key:
-                tok["feats"]["Person[Subj]"] = "3"
+def verbal_person_analysis(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'verb':
+            if '1' in word['feats']['Analysis']:
+                word['feats']['Person[Subj]'] = '1'
+            elif '2' in word['feats']['Analysis']:
+                word['feats']['Person[Subj]'] = '2'
+            elif '3' in word['feats']['Analysis']:
+                word['feats']['Person[Subj]'] = '3'
 
 
 # The function verbal_number_analysis checks to see if for rows whose "xpos" value is "verb" any key in "Feats" contains "sg" or "pl" and creates a new key:value pair.
 				
-def verbal_number_analysis(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if tok["xpos"] == "verb" and "sg" in key:
-                tok["feats"]["Number[Subj]"] = "Sing"
-            elif tok["xpos"] == "verb" and "pl" in key:
-                tok["feats"]["Number[Subj]"] = "Plur"
+def verbal_number_analysis(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'verb':
+            if 'sg' in word['feats']['Analysis']:
+                word['feats']['Number[Subj]'] = 'Sing'
+            elif 'pl' in word['feats']['Analysis']:
+                word['feats']['Number[Subj]'] = 'Plur'
 
 
 # The function tense_analysis checks to see if any key in "Feats" contains a tag for a tense or the imperative mood ("impv") and creates a new key:value pair.
 				
-def tense_analysis(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if "pres" in key:
-                tok["feats"]["Tense"] = "Pres"
-            elif "past" in key:
-                tok["feats"]["Tense"] = "Past"
-            elif "pret" in key:
-                tok["feats"]["Tense"] = "Pret"
-            elif "cond" in key:
-                tok["feats"]["Tense"] = "Cond"
-            elif "impf" in key:
-                tok["feats"]["Tense"] = "Impf"
-            elif "fut" in key:
-                tok["feats"]["Tense"] = "Fut"
-            elif "hab" in key:
-                tok["feats"]["Tense"] = "Hab"
-            elif "impv" in key:
-                tok["feats"]["Tense"] = "Pres"
+def tense_analysis(a_sentence):
+    for word in a_sentence:
+        if 'pres' in word['feats']['Analysis']:
+            word['feats']['Tense'] = 'Pres'
+        elif 'past' in word['feats']['Analysis']:
+            word['feats']['Tense'] = 'Past'
+        elif 'pret' in word['feats']['Analysis']:
+            word['feats']['Tense'] = 'Pret'
+        elif 'cond' in word['feats']['Analysis']:
+            word['feats']['Tense'] = 'Cond'
+        elif 'impf' in word['feats']['Analysis']:
+            word['feats']['Tense'] = 'Impf'
+        elif 'fut' in word['feats']['Analysis']:
+            word['feats']['Tense'] = 'Fut'
+        elif 'hab' in word['feats']['Analysis']:
+            word['feats']['Tense'] = 'Hab'
+        elif 'impv' in word['feats']['Analysis']:
+            word['feats']['Tense'] = 'Pres'
 
 
-# The function verbal_voice_analysis checks to see whether or not for rows whose "xpos" value is "verb" any key in "Feats" contains "pass" and creates a new key:value pair. 
+# The function verbal_voice_analysis checks to see whether or not for rows whose "xpos" value is "verb" the "Analysis" key
+# in the "Feats" contains "pass" and creates a new key:value pair.
 
-def voice_analysis(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if tok["xpos"] == "verb" and "pass" in key:
-                tok["feats"]["Voice"] = "Pass"
-            elif tok["xpos"] == "verb" and "pass" not in key:
-                tok["feats"]["Voice"] = "Act"
+def voice_analysis(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'verb':
+            if 'pass' in word['feats']['Analysis']:
+                word['feats']['Voice'] = 'Pass'
+            elif 'pass' not in word['feats']['Analysis']:
+                word['feats']['Voice'] = 'Act'
 
 
-# The function mood_voice_analysis checks to see whether or not for rows whose "xpos" value is "verb" any key in "Feats" contains ".impv./.subj." or, in the case of the first key in the dictionary,
+# The function mood_voice_analysis checks to see whether or not for rows whose "xpos" value is "verb" the "Analysis" key
+# in "Feats" contains ".impv./.subj." or, in the case of the first key in the dictionary,
 # neither of them and creates a new key:value pair.
     
 def mood_analysis(input_data):
@@ -637,45 +691,46 @@ def mood_analysis(input_data):
                                 tok["feats"]["Mood"] = "Ind"
                                 
 
-# The function finitness_analysis checks to see if there is a key called "Tense" in "Feats". If so, it creates a new key:value pair.
+# The following function checks to see if there is a key called "Tense" in "Feats". If so, it creates a new key:value pair.
 
-def finiteness_analysis(input_data):
-    for tok in input_data:
-        if tok["feats"].copy().get("Tense"):
-            tok["feats"]["VerbForm"] = "Fin"
+def finiteness_analysis(a_sentence):
+    for word in a_sentence:
+        if word['feats'].copy().get('Tense'):
+            word['feats']['VerbForm'] = 'Fin'
+
+
+# The following function creates the key:value pair "Subcat:Trans/Intrans" in "Feats".
 
 def analyze_subcat_in_(a_sentence):
     for word in a_sentence:
-        for key in word["feats"].copy().keys():
-            if ".trans." in key:
-                word["feats"]["Subcat"] = "Trans"
-            elif ".intrans." in key:
-                word["feats"]["Subcat"] = "Intrans"
+        if '.trans.' in word['feats']['Analysis']:
+            word['feats']['Subcat'] = 'Trans'
+        elif '.intrans.' in word['feats']['Analysis']:
+            word['feats']['Subcat'] = 'Intrans'
+
+
+# The following function analyzes the classification of infixed pronouns in compound verbs.
 
 def analyze_object_pron_in_(a_sentence):
     for word in a_sentence:
-        if word["feats"].copy().get("Person[Obj]"):
-            for key in word["feats"].copy().keys():
-                if ".A" in key:
-                    word["feats"]["PronType"] = "InfA"
-                elif ".B" in key:
-                    word["feats"]["PronType"] = "InfB"
-                elif ".C" in key:
-                    word["feats"]["PronType"] = "InfC"
+        if word['feats'].copy().get('Person[Obj]'):
+            if '.A' in word['feats']['Analysis']:
+                word['feats']['PronType'] = 'InfA'
+            elif '.B' in word['feats']['Analysis']:
+                word['feats']['PronType'] = 'InfB'
+            elif '.C' in word['feats']['Analysis']:
+                word['feats']['PronType'] = 'InfC'
+
+
+# The following function analyzes augmented verbs.
 
 def analyze_augm_in_(a_sentence):
     for word in a_sentence:
-        for key in word["feats"].copy().keys():
-            if "augm." in key:
-                word["feats"]["Aspect"] = "Perf"
+        if 'augm.' in word['feats']['Analysis']:
+            word['feats']['Aspect'] = 'Perf'
 
-def analyze_voice_in_(a_sentence):
-    for word in a_sentence:
-        for key in word["feats"].copy().keys():
-            if word["xpos"] == "verb" and "pass" in key:
-                word["feats"]["Voice"] = "Pass"
-            elif word["xpos"] == "verb" and "pass" not in next(iter(word["feats"])):
-                word["feats"]["Voice"] = "Act"
+
+# The following function analyzes relative verbs.
 
 def analyze_rel_in(a_sentence):
     for word in a_sentence:
@@ -688,24 +743,30 @@ def analyze_rel_in(a_sentence):
                 elif "len" not in next(iter(word["feats"])) or "nas" not in next(iter(word["feats"])):
                     word["feats"]["RelType"] = "Other"
 
-def assign_value_to_definite(a_sentence):
-    for word in a_sentence:
-        if word['xpos'] == 'definite_article':
-            word['feats']['Definite'] = 'Def'
 
-def assign_value_to_poss(a_sentence):
+#Section 5.4. Analysis of other items
+
+#The following function creates the feature value pair Poss:Yes for possessive pronouns.
+
+def analyze_value_of_poss(a_sentence):
     for word in a_sentence:
         if word['xpos'] == 'pronoun_possessive':#Remember to also add pronoun_independent here if the analysis is genitive.
             word['feats']['Poss'] = 'Yes'
 
-def assign_value_to_deixis(a_sentence):
+
+#The following function analyzes the demonstrative pronouns.
+
+def analyze_value_of_deixis(a_sentence):
     for word in a_sentence:
         if word['xpos'] == 'pronoun_demonstrative_distal' or word['xpos'] == 'particle_demonstrative_distal':
             word['feats']['Deixis'] = 'Remt'
         elif word['xpos'] == 'pronoun_demonstrative_proximate' or word['xpos'] == 'particle_demonstrative_proximate':
             word['feats']['Deixis'] = 'Prox'
 
-def assign_value_to_prontype(a_sentence):
+
+#The following function analyzes various types of pronouns, quantifiers, and the article.
+
+def analyze_value_of_prontype(a_sentence):
     for word in a_sentence:
         if word['xpos'] == 'pronoun_independent' or word['xpos'] == 'pronoun_possessive' or word['xpos'] == 'pronoun_suffixed' or word['xpos'] == 'pronoun_infixed' or word['xpos'] == 'particle_pronominal':
             word['feats']['PronType'] = 'Prs'
@@ -722,7 +783,10 @@ def assign_value_to_prontype(a_sentence):
         elif word['xpos'] == 'pronoun_demonstrative_proximate' or word['xpos'] == 'pronoun_demonstrative_distal':
             word['feats']['PronType'] = 'Dem'
 
-def assign_person_to_pronouns(a_sentence):
+
+#The following function analyzes the person of pronouns.
+
+def analyze_person_of_pronouns(a_sentence):
     for word in a_sentence:
         if 'pron' in word['lemma'] and word['xpos'] == 'pronoun_independent' or word['xpos'] == 'pronoun_possessive':
             if '1' in word['lemma']:
@@ -733,16 +797,19 @@ def assign_person_to_pronouns(a_sentence):
                 word['feats']['Person'] = '3'
                 
 
-#The following function applies some of the above functions to the data to change the analysis of substantives (i.e. nouns and adjectives).
+#Section 5.5. Putting it all together.
+
+#The following function groups all of the functions that apply to substantives (i.e. nouns and adjectives) together.
 
 def change_substantive_analysis(input_data):
-    case_analysis(input_data)
-    number_analysis(input_data)
-    gender_analysis(input_data)
+    analyze_case_in_(input_data)
+    analyze_number_in_(input_data)
+    analyze_gender_in_(input_data)
+    analyze_definiteness_in_(input_data)
     return input_data
 
 
-#The following function applies some of the above functions to the data to change the analysis of verbs.
+#The following function groups all of the functions that apply to verbs together.
 
 def change_verb_analysis(input_data):
     verbal_infixed_person_analysis(input_data)
@@ -756,24 +823,26 @@ def change_verb_analysis(input_data):
     analyze_subcat_in_(input_data)
     analyze_object_pron_in_(input_data)
     analyze_augm_in_(input_data)
-    analyze_voice_in_(input_data)
     analyze_rel_in(input_data)
     return input_data
 
-#The following function applies some of the above functions to the data to change the analysis of prepositions and possessives.
+
+#The following function groups all of the functions that apply to prepositions and possessives together.
 
 def change_preposition_analysis(input_data):
     analyze_person_in_prepositions_and_possessives_in_(input_data)
     analyze_number_in_prepositions_and_possessives_in_(input_data)
     analyze_gender_in_prepositions_and_possessives_in_(input_data)
+    analyze_case_in_prepositions_in_(input_data)
     return input_data
 
+
+# The following function groups all the functions that apply to other items together.
 def change_other_analyses(input_data):
-    assign_value_to_definite(input_data)
-    assign_value_to_poss(input_data)
-    assign_value_to_deixis(input_data)
-    assign_value_to_prontype(input_data)
-    assign_person_to_pronouns(input_data)
+    analyze_value_of_poss(input_data)
+    analyze_value_of_deixis(input_data)
+    analyze_value_of_prontype(input_data)
+    analyze_person_of_pronouns(input_data)
 
 
 #This deletes keys with null values in the "feats" dictionary.
@@ -788,14 +857,14 @@ def delete_null_values_in(a_sentence):
                     
 #The following function combines the functions change_substantive_analysis, change_verb_analysis, change_preposition_and_possessive_analysis, change_other_analyses, and delete_null_values_in.
     
-def change_all_analyses(input_data):
-    [change_substantive_analysis(item) for item in input_data]
-    [change_verb_analysis(item) for item in input_data]
-    [change_preposition_analysis(item) for item in input_data]
-    [case_finder(item) for item in input_data]
-    [change_other_analyses(item) for item in input_data]
-    [delete_null_values_in(item) for item in input_data]
-    output_data = [item.serialize() for item in input_data]
+def change_all_analyses(list_of_sentences):
+    [change_substantive_analysis(item) for item in list_of_sentences]
+    [change_verb_analysis(item) for item in list_of_sentences]
+    [change_preposition_analysis(item) for item in list_of_sentences]
+ #   [case_finder(item) for item in input_data]
+    [change_other_analyses(item) for item in list_of_sentences]
+    [delete_null_values_in(item) for item in list_of_sentences]
+    output_data = [item.serialize() for item in list_of_sentences]
     return output_data
 
 # ========================================================================================================================================================================================================
@@ -828,80 +897,109 @@ def upos_finder(list_of_sentences):
         combo = list(itertools.product(sent, upos_list))
         assign_upos(combo)
 
-def analyse_copula(a_sentence):
-    for word in a_sentence:
-        if word["lemma"] == "is 1":
-            word["upos"] = "AUX" #Changes the upos of the copula
-            word["deprel"] = "cop"
 
-def analyse_article(a_sentence):
-    for word in a_sentence:
-        if word["lemma"] == "in 1":
-            word["deprel"] = 'det'
+# This function assigns a deprel and upos to the copula.
 
-def analyse_prep(a_sentence):
+def assign_deprel_to_copula_in_(a_sentence):
     for word in a_sentence:
-        if word["xpos"] == "preposition" and not word["feats"].copy().get("Person"):
-            word["deprel"] = "case" #This assigns 'case' even to potential mark:prt with verbal nouns.
+        if word['lemma'] == 'is 1':
+            word['upos'] = 'AUX'
+            word['deprel'] = 'cop'
+
+
+# This function assigns a deprel to the article.
+
+def assign_deprel_to_article_in_(a_sentence):
+    for word in a_sentence:
+        if word['lemma'] == 'in 1':
+            word['deprel'] = 'det'
+
+
+# This function assigns a deprel to the prepositions.
+
+def assign_deprel_to_preposition_in_(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'preposition' and not word['feats'].copy().get('Person'):
+            word['deprel'] = 'case' #This assigns 'case' even to potential mark:prt with verbal nouns.
                                     #It also assigns 'case' to relative prepositiosn before verbs, even though in this instance
                                     #the proper deprel is obl:prep.
-           
-def analyse_number(a_sentence):
-    for word in a_sentence:
-        if word["xpos"] == "adjective_numeral":
-           word["deprel"] = "nummod"
 
-def analyse_abbreviation(a_sentence):
-    for word in a_sentence:
-        if word["lemma"] == ".i.":
-            word["xpos"] = "abbreviation"
-            word["upos"] = "CCONJ"
-            word["deprel"] = "cc"
 
-def analyse_negation(a_sentence):
-    for word in a_sentence:
-        if word["xpos"] == "particle_negative_main" or word["xpos"] == "particle_negative_subordinate":
-           word["deprel"] = "advmod:neg"
-            
-def analyse_complementiser(a_sentence):
-    for word in a_sentence:
-        if word["xpos"] == "complementiser" or word['lemma'] == 'no·':
-            word["deprel"] = "mark:prt"
-            word["upos"] = 'SCONJ'
+# This function assigns a deprel to numerals that modify nouns.
 
-def analyse_coordconj(combined_list):
+def assign_deprel_to_numeral_in_(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'adjective_numeral':
+           word['deprel'] = 'nummod'
+
+
+# This function assigns a deprel, upos, and xpos to the abbreviation .i..
+
+def assign_deprel_to_abbreviation_in_(a_sentence):
+    for word in a_sentence:
+        if word['lemma'] == '.i.':
+            word['xpos'] = 'abbreviation'
+            word['upos'] = 'CCONJ'
+            word['deprel'] = 'cc'
+
+
+# This function assigns a deprel to negative particles.
+
+def assign_deprel_to_negation_in_(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'particle_negative_main' or word['xpos'] == 'particle_negative_subordinate':
+           word['deprel'] = 'advmod:neg'
+
+
+# This function assigns a deprel complementizers and the particle "no", when the latter is not incorporated into a verb.
+
+def assign_deprel_to_complementizer_in_(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'complementiser' or word['lemma'] == 'no·':
+            word['deprel'] = 'mark:prt'
+            word['upos'] = 'SCONJ'
+
+
+# This following two functions assigns a deprel and upos to coordinate conjunctions.
+
+def assign_deprel_to_coordinate_conjunction_in_(combined_list):
     for count, word in enumerate(combined_list):
-        if combined_list[count][1] in combined_list[count][0]['lemma'] and combined_list[count][0]['xpos'] == "conjunction":
+        if combined_list[count][1] in combined_list[count][0]['lemma'] and combined_list[count][0]['xpos'] == 'conjunction':
             combined_list[count][0]['deprel'] = 'cc'
             combined_list[count][0]['upos'] = 'CCONJ'
 
 def coordconj_finder(list_of_sentences):
-    cconjlist = ["ocus 2", "nó 1", "ná 4", "fa", "nach 6", "rodbo", "et", "uel"]
+    cconjlist = ['ocus 2', 'nó 1', 'ná 4', 'fa', 'nach 6', 'rodbo', 'et', 'uel']
     for a_sentence in list_of_sentences:
         combo = list(itertools.product(a_sentence, cconjlist))
-        analyse_coordconj(combo)
-        
-def analyse_subconj(combined_list):
+        assign_deprel_to_coordinate_conjunction_in_(combo)
+
+
+# This following two functions assigns a deprel and upos to subordinate conjunctions.
+
+def assign_deprel_to_subordinate_conjunction_in_(combined_list):
     for count, word in enumerate(combined_list):
-        if combined_list[count][1] in combined_list[count][0]['lemma'] and combined_list[count][0]['xpos'] == "conjunction":
+        if combined_list[count][1] in combined_list[count][0]['lemma'] and combined_list[count][0]['xpos'] == 'conjunction':
             combined_list[count][0]['deprel'] = 'mark'
             combined_list[count][0]['upos'] = 'SCONJ'
     
 def subconj_finder(list_of_sentences):
-    sconjlist = ["amail 2", "ar 2", "a 6", "cía 2", "dég 2", "resíu", "úaire", "ma", "ó 2", "ol 2"]
+    sconjlist = ['amail 2', 'ar 2', 'a 6', 'cía 2', 'dég 2', 'resíu', 'úaire', 'ma', 'ó 2', 'ol 2']
     for a_sentence in list_of_sentences:
         combo = list(itertools.product(a_sentence, sconjlist))
-        analyse_subconj(combo)
+        assign_deprel_to_subordinate_conjunction_in_(combo)
+
+
+# This following two functions assigns a deprel and upos to coordinate conjunctions.
 
 def do_all_deprel(list_of_sentences):
-    [analyse_copula(a_sentence) for a_sentence in list_of_sentences]
-    [analyse_article(a_sentence) for a_sentence in list_of_sentences]
-    [analyse_prep(a_sentence) for a_sentence in list_of_sentences]
-    [analyse_abbreviation(a_sentence) for a_sentence in list_of_sentences]
-    [analyse_negation(a_sentence) for a_sentence in list_of_sentences]
-    [analyse_number(a_sentence) for a_sentence in list_of_sentences]
-    [analyse_copula(a_sentence) for a_sentence in list_of_sentences]
-    [analyse_complementiser(a_sentence) for a_sentence in list_of_sentences]
+    [assign_deprel_to_copula_in_(a_sentence) for a_sentence in list_of_sentences]
+    [assign_deprel_to_article_in_(a_sentence) for a_sentence in list_of_sentences]
+    [assign_deprel_to_preposition_in_(a_sentence) for a_sentence in list_of_sentences]
+    [assign_deprel_to_abbreviation_in_(a_sentence) for a_sentence in list_of_sentences]
+    [assign_deprel_to_negation_in_(a_sentence) for a_sentence in list_of_sentences]
+    [assign_deprel_to_numeral_in_(a_sentence) for a_sentence in list_of_sentences]
+    [assign_deprel_to_complementizer_in_(a_sentence) for a_sentence in list_of_sentences]
     subconj_finder(list_of_sentences)
     coordconj_finder(list_of_sentences)
     
@@ -939,7 +1037,7 @@ def automation(filename):
 #The data is written to a file (in the intro to this script called "name_of_interim_output_file").
 
 def write_out(filename, sentences):
-    with open(filename, 'w',encoding='utf-8') as file_out:
+    with open(filename, 'w', encoding='utf-8') as file_out:
         tuid = ""
         cnt = 1
         for sent in list(sentences.values()):
@@ -950,7 +1048,7 @@ def write_out(filename, sentences):
                     file_out.write('# text_en = {}'.format(word['Translation'])+'\n') # Third line of the header for each sentence.
                     tuid = word['Text_Unit_ID']
                     cnt = 1
-                file_out.write(str(cnt)+"\t"+"\t".join([word['Morph']]+[word['Lemma']]+["X"]+[word['Part_Of_Speech']]+[word['Analysis']]+[word['_']]+['_']+["X"]+[word['Gloss=Meaning']])+'\n') # This creates the correct order of the ten CONLLU columns for each word in a sentence.
+                file_out.write(str(cnt)+"\t"+"\t".join([word['Morph']]+[word['Lemma']]+["X"]+[word['Part_Of_Speech']]+[word['Analysis']]+[word['_']]+['_']+["X"]+[word['Meaning']])+'\n') # This creates the correct order of the ten CONLLU columns for each word in a sentence.
                 cnt += 1
             file_out.write('\n')
     return                    
@@ -960,7 +1058,7 @@ def write_out(filename, sentences):
 #It writes the rearranged data to a new file (in the intro to this script called "name_of_final_output_file").
 
 def conlluit(filename1, filename2):
-    with open(filename1, "r", encoding="utf-8") as conllu_file:
+    with open(filename1, 'r', encoding='utf-8') as conllu_file:
         read_file = conllu_file.read()
         parsed_data = parse(read_file)
         conllu_sentences = [item for item in parsed_data]
