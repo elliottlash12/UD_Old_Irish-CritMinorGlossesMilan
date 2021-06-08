@@ -677,7 +677,7 @@ def voice_analysis(a_sentence):
 
 # The function mood_voice_analysis checks to see whether or not for rows whose "xpos" value is "verb" the "Analysis" key
 # in "Feats" contains ".impv./.subj." or, in the case of the first key in the dictionary,
-# neither of them and creates a new key:value pair.
+# neither of them and creates a new key:value pair. ##Return to this.
     
 def mood_analysis(input_data):
     for tok in input_data:
@@ -730,7 +730,7 @@ def analyze_augm_in_(a_sentence):
             word['feats']['Aspect'] = 'Perf'
 
 
-# The following function analyzes relative verbs.
+# The following function analyzes relative verbs. ##Return to this.
 
 def analyze_rel_in(a_sentence):
     for word in a_sentence:
