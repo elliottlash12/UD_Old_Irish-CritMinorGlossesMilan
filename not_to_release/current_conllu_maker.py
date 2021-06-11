@@ -1,3 +1,5 @@
+# Hello
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -56,13 +58,13 @@ from io import open
 #
 # Section 1. Functions to preprocess the data to change the contents of certain cells in various columns.
 #
-# Section 2. A function to convert the data into a dictionary of key:value pairs consisting of sentence_numbers:list_of_words. 
+# Section 2. A function to convert the data into a dictionary of key:value pairs consisting of sentence_numbers:list_of_words.
 #
 # Section 3. Functions to process the features of one word based on the features of another.
 #
 #    a. Functions to update the analysis of verbs based on the presence of relative particles.
 #    b. Functions to update the analysis of verbs based on the presence of infixed pronouns.
-#    c. Functions to remove subelements of compounds. 
+#    c. Functions to remove subelements of compounds.
 #
 # Section 4. Functions to remove extraneous information.
 #
@@ -76,7 +78,7 @@ from io import open
 # ========================================================================================================================================================================================================
 # ========================================================================================================================================================================================================
 
-#Section 1: Fuctions to preprocessing the data to change the contents of certain cells in various columns 
+#Section 1: Fuctions to preprocessing the data to change the contents of certain cells in various columns
 #********************************************************************************************************
 
 # The function preprocess_1 replaces any null cells in the "Analysis" in CorPH with "No_Features".
@@ -143,7 +145,7 @@ def preprocess_6(input_data):
 
 
 #The following function combines the previous six preprocessing functions into one.
-    
+
 def preprocessing(input_data):
     preprocess_1(input_data)
     preprocess_2(input_data)
@@ -203,10 +205,10 @@ def build_list_of_verbs_and_associated_particles_in(a_sentence):
             list_of_dummy_preverbs.append(word)
     return list_of_verbs, list_of_relparts, list_of_prons, list_of_dummy_preverbs
 
-    
+
 # The following functions compare a list of verbs to either a list of relative particles or a list of infixed pronouns.
 # The analysis of the verb or pronoun is updated according to features of the relative particle/pronoun.
-   
+
 
 def compare_verbs_relative_particles_and_infixed_pronouns_in(list_of_verbs, list_of_relparts, list_of_prons):
     ans = []
@@ -250,7 +252,7 @@ def compare_verbs_and_relative_particles_in(list_of_verbs, list_of_relparts):
 
 def compare_verbs_and_infixed_pronouns_in(list_of_verbs, list_of_prons):
     ans = []
-    for verb, pron in list(itertools.product(list_of_verbs, list_of_prons)): 
+    for verb, pron in list(itertools.product(list_of_verbs, list_of_prons)):
         if verb['Stressed_Unit'] == pron['Stressed_Unit'] and pron['Morph'] in verb['Morph']:
             if pron['Lemma'] == '1sg.inf.pron.':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
@@ -280,7 +282,7 @@ def compare_verbs_and_infixed_pronouns_in(list_of_verbs, list_of_prons):
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
                 ans.append(answ)
                 verb['Analysis'] = verb['Analysis'] + 'obj3sg.neut.' + pron['Analysis'] + ']'
-            elif pron['Lemma'] == '3pl.inf.pron.': 
+            elif pron['Lemma'] == '3pl.inf.pron.':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
                 ans.append(answ)
                 verb['Analysis'] = verb['Analysis'] + 'obj3pl.' + pron['Analysis'] + ']'
@@ -288,7 +290,7 @@ def compare_verbs_and_infixed_pronouns_in(list_of_verbs, list_of_prons):
 
 
 #This function deletes pronouns that are infixed between the first lexical preverb and the rest of the verb in compound verbs.
- 
+
 def remove_true_infixed_pronouns_in(sentence, list_of_verbs, list_of_pronouns):
     for verb, pron in list(itertools.product(list_of_verbs, list_of_pronouns)):
         if pron['Stressed_Unit'] == verb['Stressed_Unit']:
@@ -310,7 +312,7 @@ def remove_dummy_preverb_in(sentence, list_of_verbs, list_of_dummy_preverbs):
 
 
 #This function combines the function to build lists of verbs, relative particles and pronoun with the functions to compare these lists.
-        
+
 def look_for_relative_or_infixed_verbs_in_all(list_of_sentences):
     rel_answers = []
     pron_answers = []
@@ -320,7 +322,7 @@ def look_for_relative_or_infixed_verbs_in_all(list_of_sentences):
         if not prons:
             rel_answer = compare_verbs_and_relative_particles_in(verbs, relparts)
         else:
-            rel_answer = compare_verbs_relative_particles_and_infixed_pronouns_in(verbs, relparts, prons) 
+            rel_answer = compare_verbs_relative_particles_and_infixed_pronouns_in(verbs, relparts, prons)
         remove_true_infixed_pronouns_in(sent, verbs, prons)
         remove_dummy_preverb_in(sent, verbs, prevs)
         rel_answers.append([count, rel_answer])
@@ -328,7 +330,7 @@ def look_for_relative_or_infixed_verbs_in_all(list_of_sentences):
 #    return rel_answers, pron_answers >>> Only in interactive sessions
 
 
-# The following function removes subelements of compounds. It works if the rows are in the following order: element 1 > element 2 > compound. 
+# The following function removes subelements of compounds. It works if the rows are in the following order: element 1 > element 2 > compound.
 def compound_detector(list_of_sentences):
     for sent in list_of_sentences.values():
         for count, word in enumerate(sent):
@@ -337,7 +339,7 @@ def compound_detector(list_of_sentences):
                     if sent[count+1]['Morph'] in sent[count+2]['Morph']:
                         sent.pop(count+1)
                     sent.pop(count)
-                    
+
 # ========================================================================================================================================================================================================
 
 
@@ -354,16 +356,16 @@ def remove_relative_particles_in(list_of_sentences):
             if word['Part_Of_Speech'] == 'particle_relative':
                 del sent[i]
 
-                
+
 # This function removes preverbs and augments since this information is almost always incorporated into the verbal morph.
 
 def remove_preverbs_in(list_of_sentences):
     for sent in list_of_sentences.values():
         for i in reversed(range(len(sent))):
-            word = sent[i] 
+            word = sent[i]
             if word['Part_Of_Speech'] == 'particle_augment':
                del sent[i]
-            elif word['Part_Of_Speech'] == 'particle_preverb' and word['Lemma'] != 'no·': 
+            elif word['Part_Of_Speech'] == 'particle_preverb' and word['Lemma'] != 'no·':
                del sent[i] #This may remove too few preverbs. Specifically, some instances of no· should be removed.
 
 
@@ -471,7 +473,7 @@ def assign_head_in(list_of_sentences):
 
 #Section 5.1. Analysis of Substantives (Nouns and Adjectives)
 
-# The function case_analysis checks to see if any key in "Feats" contains "nom/acc/gen/dat" and creates a new key:value pair. 
+# The function case_analysis checks to see if any key in "Feats" contains "nom/acc/gen/dat" and creates a new key:value pair.
 
 def analyze_case_in_(a_sentence):
     for word in a_sentence:
@@ -486,7 +488,7 @@ def analyze_case_in_(a_sentence):
 
 
 # The function number_analysis checks to see if any key in "Feats" contains "sg" or "pl" and creates a new key:value pair.
-				
+
 def analyze_number_in_(a_sentence):
     for word in a_sentence:
         if 'sg' in word['feats']['Analysis'][4:6]:
@@ -496,7 +498,7 @@ def analyze_number_in_(a_sentence):
 
 
 # The following functions checks to see if the key 'Analysis' in "Feats" contains "ma/fe/ne" creates a new key:value pair.
-    
+
 def analyze_gender_in_(a_sentence):
     for word in a_sentence:
         if 'ma' in word['feats']['Analysis'][7:9]:
@@ -523,7 +525,7 @@ def analyze_definiteness_in_(a_sentence):
 
 #The following function analyses  person in prepositions and possessives.
 #Note that this could be expanded to cover all pronouns.
-				
+
 def analyze_person_in_prepositions_and_possessives_in_(a_sentence):
     for word in a_sentence:
         if word['xpos'] == 'preposition' or word['xpos']== 'pronoun_possessive' or word['xpos'] == 'particle_pronominal':
@@ -537,7 +539,7 @@ def analyze_person_in_prepositions_and_possessives_in_(a_sentence):
 
 #The following function analyses number in prepositions and possessives.
 #Note that this could be expanded to cover all pronouns.
-                    
+
 def analyze_number_in_prepositions_and_possessives_in_(a_sentence):
     for word in a_sentence:
         if word['xpos'] == 'preposition' or word['xpos']== 'pronoun_possessive' or word['xpos'] == 'particle_pronominal':
@@ -617,8 +619,8 @@ def verbal_infixed_number_analysis(a_sentence):
 
 
 #The verbal_person_analysis checks to see if for rows whose "xpos" value is "verb" any key in "Feats" contains "1/2/3" and creates a new key:value pair.
-# Because the analysis of the verb will contain two instances of 1/2/3 in the case of transitive verbs with infixed pronouns, there may be some functionality issues here!				
-		
+# Because the analysis of the verb will contain two instances of 1/2/3 in the case of transitive verbs with infixed pronouns, there may be some functionality issues here!
+
 def verbal_person_analysis(a_sentence):
     for word in a_sentence:
         if word['xpos'] == 'verb':
@@ -631,7 +633,7 @@ def verbal_person_analysis(a_sentence):
 
 
 # The function verbal_number_analysis checks to see if for rows whose "xpos" value is "verb" any key in "Feats" contains "sg" or "pl" and creates a new key:value pair.
-				
+
 def verbal_number_analysis(a_sentence):
     for word in a_sentence:
         if word['xpos'] == 'verb':
@@ -642,7 +644,7 @@ def verbal_number_analysis(a_sentence):
 
 
 # The function tense_analysis checks to see if any key in "Feats" contains a tag for a tense or the imperative mood ("impv") and creates a new key:value pair.
-				
+
 def tense_analysis(a_sentence):
     for word in a_sentence:
         if 'pres' in word['feats']['Analysis']:
@@ -678,7 +680,7 @@ def voice_analysis(a_sentence):
 # The function mood_voice_analysis checks to see whether or not for rows whose "xpos" value is "verb" the "Analysis" key
 # in "Feats" contains ".impv./.subj." or, in the case of the first key in the dictionary,
 # neither of them and creates a new key:value pair. ##Return to this.
-    
+
 def mood_analysis(input_data):
     for tok in input_data:
         for key in tok["feats"].copy().keys():
@@ -689,7 +691,7 @@ def mood_analysis(input_data):
                         tok["feats"]["Mood"] = "Subj"
                 elif (".impv." not in next(iter(tok["feats"]))) and (".subj." not in next(iter(tok["feats"]))):
                                 tok["feats"]["Mood"] = "Ind"
-                                
+
 
 # The following function checks to see if there is a key called "Tense" in "Feats". If so, it creates a new key:value pair.
 
@@ -795,7 +797,7 @@ def analyze_person_of_pronouns(a_sentence):
                 word['feats']['Person'] = '2'
             elif '3' in word['lemma']:
                 word['feats']['Person'] = '3'
-                
+
 
 #Section 5.5. Putting it all together.
 
@@ -846,7 +848,7 @@ def change_other_analyses(input_data):
 
 
 #This deletes keys with null values in the "feats" dictionary.
-            
+
 def delete_null_values_in(a_sentence):
     x = "No_Features"
     for word in a_sentence:
@@ -854,9 +856,9 @@ def delete_null_values_in(a_sentence):
             for key, value in word["feats"].copy().items():
                 if x != key and word["feats"][key] == "":
                     del word["feats"][key]
-                    
+
 #The following function combines the functions change_substantive_analysis, change_verb_analysis, change_preposition_and_possessive_analysis, change_other_analyses, and delete_null_values_in.
-    
+
 def change_all_analyses(list_of_sentences):
     [change_substantive_analysis(item) for item in list_of_sentences]
     [change_verb_analysis(item) for item in list_of_sentences]
@@ -879,17 +881,17 @@ def assign_upos(combined_list):
         if combined_list[count][0]['xpos'] in combined_list[count][1]:
             for key, value in combined_list[count][1].items():
                 combined_list[count][0]['upos'] = value
-                
+
 def upos_finder(list_of_sentences):
-    upos_list = [{'adjective': 'ADJ'}, {'adjective_numeral': 'NUM'}, {'adjective_numeral_noun': 'ADJ'}, {'adective_pronominal': 'DET'}, 
+    upos_list = [{'adjective': 'ADJ'}, {'adjective_numeral': 'NUM'}, {'adjective_numeral_noun': 'ADJ'}, {'adective_pronominal': 'DET'},
      {'noun': 'NOUN'}, {'noun_numeral': 'NUM'}, {'numeral': 'NUM'}, {'adverb': 'ADV'}, {'complementizer': 'SCONJ'},
-     {'definite_article': 'DET'}, {'focus_particle': 'PART'}, {'interjection': 'INTJ'}, {'pronoun_independent': 'PRON'}, 
+     {'definite_article': 'DET'}, {'focus_particle': 'PART'}, {'interjection': 'INTJ'}, {'pronoun_independent': 'PRON'},
      {'pronoun_infixed': 'PRON'}, {'pronoun_infix': 'PRON'}, {'pronoun_possessive': 'DET'}, {'pronoun_propword': 'PRON'},
-     {'pronoun_quantifier': 'PRON'}, {'pronoun_relative': 'PRON'}, {'proper_noun': 'PROPN'}, {'verb': 'VERB'}, 
+     {'pronoun_quantifier': 'PRON'}, {'pronoun_relative': 'PRON'}, {'proper_noun': 'PROPN'}, {'verb': 'VERB'},
      {'verbal_participle': 'ADJ'}, {'particle_anaphoric': 'PRON'}, {'particle_augment': 'PART'}, {'particle_comparative': 'SCONJ'},
-     {'particle_demonstrative_distal': 'DET'}, {'particle_demonstrative_proximate': 'DET'}, {'particle_interrogative': 'PART'}, 
-     {'particle_numerative': 'PART'}, {'particle_pronominal': 'PRON'}, {'particle_vocative': 'PART'}, {'preposition': 'ADP'}, 
-     {'pronoun_anaphoric': 'PRON'}, {'pronoun_demonstrative_distal': 'PRON'}, {'particle_interrogative': 'PRON'}, {'particle_negative_main': 'PART'}, 
+     {'particle_demonstrative_distal': 'DET'}, {'particle_demonstrative_proximate': 'DET'}, {'particle_interrogative': 'PART'},
+     {'particle_numerative': 'PART'}, {'particle_pronominal': 'PRON'}, {'particle_vocative': 'PART'}, {'preposition': 'ADP'},
+     {'pronoun_anaphoric': 'PRON'}, {'pronoun_demonstrative_distal': 'PRON'}, {'particle_interrogative': 'PRON'}, {'particle_negative_main': 'PART'},
      {'particle_negative_subordinate': 'PART'}, {'auxiliary': 'AUX'}, {'pronoun_demonstrative_proximate': 'PRON'}, {'particle_discourse': 'ADV'},
      {'verbal_noun': 'NOUN'}, {'abbreviation': 'CCONJ'}, {'particle_preverb': 'SCONJ'}, {'adjective_quantifier': 'DET'},
      {'pronoun_emphatic': 'PRON'}, {'particle_focus': 'PART'}]
@@ -982,7 +984,7 @@ def assign_deprel_to_subordinate_conjunction_in_(combined_list):
         if combined_list[count][1] in combined_list[count][0]['lemma'] and combined_list[count][0]['xpos'] == 'conjunction':
             combined_list[count][0]['deprel'] = 'mark'
             combined_list[count][0]['upos'] = 'SCONJ'
-    
+
 def subconj_finder(list_of_sentences):
     sconjlist = ['amail 2', 'ar 2', 'a 6', 'cía 2', 'dég 2', 'resíu', 'úaire', 'ma', 'ó 2', 'ol 2']
     for a_sentence in list_of_sentences:
@@ -1002,7 +1004,7 @@ def do_all_deprel(list_of_sentences):
     [assign_deprel_to_complementizer_in_(a_sentence) for a_sentence in list_of_sentences]
     subconj_finder(list_of_sentences)
     coordconj_finder(list_of_sentences)
-    
+
 # ========================================================================================================================================================================================================
 
 
@@ -1051,7 +1053,7 @@ def write_out(filename, sentences):
                 file_out.write(str(cnt)+"\t"+"\t".join([word['Morph']]+[word['Lemma']]+["X"]+[word['Part_Of_Speech']]+[word['Analysis']]+[word['_']]+['_']+["X"]+[word['Meaning']])+'\n') # This creates the correct order of the ten CONLLU columns for each word in a sentence.
                 cnt += 1
             file_out.write('\n')
-    return                    
+    return
 
 
 #The following function opens the CONLLU file and applies the change_all_analyses function to it.
