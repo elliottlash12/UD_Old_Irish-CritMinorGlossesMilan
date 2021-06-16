@@ -1063,20 +1063,20 @@ def automation(filename):
 # Output: [(1, 1, 2), (2, 3, 4), (3, 5, 7)] #the index 'tij' below indicates that the t-th word in the sentence is concatenated by the the i-th to j-th morphs in list_of_words.
 
 def check_concatenations(list_of_words, list_of_morphs):
-    words = [re.sub("[^0-9a-zA-Z]+", '', x) for x in list_of_words]
-    morphs = [re.sub("[^0-9a-zA-Z]+", '', x) for x in list_of_morphs]
-    word_y = 0
-    morph_y = 0
-    tij = []
-    accumulated = ''
+    words = [re.sub("[^0-9a-zA-Z]+", '', x) for x in list_of_words] # uses the regex library to remove all non-alphanumeric characters before comparison
+    morphs = [re.sub("[^0-9a-zA-Z]+", '', x) for x in list_of_morphs] # "
+    word_y = 0 # iterator
+    morph_y = 0 # "
+    tij = [] # initialization
+    accumulated = '' # empty accumulated string
     for j in range(len(morphs)): # loops over every morph
         accumulated += morphs[j]
         if accumulated == words[word_y]: # A concatenated string matches a word in a sentence.
             if morph_y != j:
-                tij.append((word_y, morph_y+1, j+1))
-            morph_y = j + 1
-            accumulated = ''
-            word_y += 1
+                tij.append((word_y, morph_y+1, j+1)) # a concatentated string is formed
+            morph_y = j + 1 # moves on to the next morph
+            accumulated = '' # resets the accumulated string
+            word_y += 1 # moves on to the next word
     return tij
 
 
@@ -1096,7 +1096,7 @@ def write_out(filename, sentences):
                 list_of_morphs.append(word['Morph'])
             tij = check_concatenations(list_of_words, list_of_morphs)
 
-            # The following function rearranges the data into a CONLLU-style format and prints the concatenated results upon condition.
+            # The following function rearranges the data into a CONLLU-style format, and if concatenated strings are found, prints the results (**currently only to the interim file**).
 
             for word in sent:
                 if word['Text_Unit_ID'] != tuid:
