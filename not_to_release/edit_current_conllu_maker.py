@@ -1057,6 +1057,10 @@ def automation(filename):
 
 # The following function removes all non-alphanumeric characters before comparison
 # and checks if a word in list_of_words can be formed by concatenating some of the morphs in list_of_morphs.
+# e.g.
+# Given list_of_words = abc def ghijk lmn
+# Given list_of_morphs = ab c d ef g hi jk lmn
+# Output: [(1, 1, 2), (2, 3, 4), (3, 5, 7)] #the index 'tij' below indicates that the t-th word in the sentence is concatenated by the the i-th to j-th morphs in list_of_words.
 
 def check_concatenations(list_of_words, list_of_morphs):
     words = [re.sub("[^0-9a-zA-Z]+", '', x) for x in list_of_words]
@@ -1065,7 +1069,7 @@ def check_concatenations(list_of_words, list_of_morphs):
     morph_y = 0
     tij = []
     accumulated = ''
-    for j in range(len(morphs)):
+    for j in range(len(morphs)): # loops over every morph
         accumulated += morphs[j]
         if accumulated == words[word_y]: # A concatenated string matches a word in a sentence.
             if morph_y != j:
