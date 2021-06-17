@@ -569,15 +569,22 @@ def analyze_gender_in_prepositions_and_possessives_in_(a_sentence):
 #after tagging head/deprels.
 
 def case_finder(a_sentence):
-    prep_list=[{'a 7': 'Dat'}, {'acht 2': 'Acc'}, {'al': 'Acc'}, {'amail 1': 'Acc'}, {'ar 1': 'Acc/Dat'}, {'cen': 'Acc'}, {'cenmothá': 'Acc'}, {'co 1': 'Acc'}, {'co 2': 'Dat'}, {'co·rrici': 'Acc'}, {'co·rrici': 'Acc'}, {'coticci': 'Acc'}, {'di': 'Dat'}, {'do 1': 'Dat'}, {'dochumm': 'Gen'}, {'echtar': 'Acc'}, {'eter': 'Acc'}, {'fíad': 'Dat'}, {'fo': 'Acc/Dat'}, {'for': 'Acc/Dat'}, {'fri': 'Acc'}, {'fri': 'Acc'}, {'íar 1': 'Dat'}, {'íarmithá': 'Dat'}, {'imm': 'Acc'}, {'i': 'Acc/Dat'}, {'ingé 1': 'Acc'}, {'ís 1': 'Dat'}, {'la': 'Acc'}, {'ó 1': 'Dat'}, {'oc': 'Dat'}, {'ós 1': 'Dat'}, {'óthá': 'Dat'}, {'re': 'Dat'}, {'sech 1': 'Acc'}, {'tar 1': 'Acc'}, {'tre': 'Acc'}]
+    prep_list=[{'a 7': 'Dat'}, {'acht 2': 'Acc'}, {'al': 'Acc'}, {'amail 1': 'Acc'}, {'ar 1': 'Acc/Dat'}, {'cen': 'Acc'}, {'cenmothá': 'Acc'},
+               {'co 1': 'Acc'}, {'co 2': 'Dat'}, {'co·rrici': 'Acc'}, {'co·rrici': 'Acc'}, {'coticci': 'Acc'}, {'di': 'Dat'}, {'do 1': 'Dat'},
+               {'dochumm': 'Gen'}, {'echtar': 'Acc'}, {'eter': 'Acc'}, {'fíad': 'Dat'}, {'fo': 'Acc/Dat'}, {'for': 'Acc/Dat'}, {'fri': 'Acc'},
+               {'fri': 'Acc'}, {'íar 1': 'Dat'}, {'íarmithá': 'Dat'}, {'imm': 'Acc'}, {'i': 'Acc/Dat'}, {'ingé 1': 'Acc'}, {'ís 1': 'Dat'},
+               {'la': 'Acc'}, {'ó 1': 'Dat'}, {'oc': 'Dat'}, {'ós 1': 'Dat'}, {'óthá': 'Dat'}, {'re': 'Dat'}, {'sech 1': 'Acc'}, {'tar 1': 'Acc'}, {'tre': 'Acc'}]
     combo = list(itertools.product(a_sentence, prep_list))
     assign_case(combo)
 
 def assign_case(combined_list):
-    for count, word in enumerate(combined_list):
-        if combined_list[count][0]['lemma'] in combined_list[count][1]:
-            for key, value in combined_list[count][1].items():
-                combined_list[count][0]['feats']['Case'] = value
+    for word in combined_list:
+        if word[0]['xpos'] == 'preposition' and not word[0]['feats'].copy().get('Case'):
+                if word[0]['lemma'] in word[1].keys():
+                    value = list(word[1].values())
+                    word[0]['feats']['Case'] = value[0]
+                    break
+            
 
 def analyze_case_in_prepositions_in_(a_sentence):
     for word in a_sentence:
@@ -587,10 +594,15 @@ def analyze_case_in_prepositions_in_(a_sentence):
             elif 'dat.' in word['feats']['Analysis']:
                 word['feats']['Case'] = 'Dat'
             elif 'gen.' in word['feats']['Analysis']:
-                word['feats']['Case'] = "Gen"
+                word['feats']['Case'] = "Gen" 
             elif not word['feats'].copy().get('Case'):
                 case_finder(a_sentence)
 
+def latin_check(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'preposition':
+            if not word['feats'].copy().get('Case'):
+                word['feats']['Case'] = "Unk" 
 
 #Section 5.3. Analysis of Verbs
 
@@ -832,6 +844,7 @@ def change_preposition_analysis(input_data):
     analyze_number_in_prepositions_and_possessives_in_(input_data)
     analyze_gender_in_prepositions_and_possessives_in_(input_data)
     analyze_case_in_prepositions_in_(input_data)
+    latin_check(input_data)
     return input_data
 
 
@@ -847,7 +860,7 @@ def change_other_analyses(input_data):
             
 def delete_null_values_in(a_sentence):
     for word in a_sentence:
-        if 'No_Features' in word['feats']['Analysis']:
+        if 'No_Features' in word['feats']['Analysis'] and len(word['feats'].keys()) == 1:
             word['feats'] = '_'
         else:
             del word['feats']['Analysis']
@@ -858,7 +871,6 @@ def change_all_analyses(list_of_sentences):
     [change_substantive_analysis(item) for item in list_of_sentences]
     [change_verb_analysis(item) for item in list_of_sentences]
     [change_preposition_analysis(item) for item in list_of_sentences]
- #   [case_finder(item) for item in input_data]
     [change_other_analyses(item) for item in list_of_sentences]
     [delete_null_values_in(item) for item in list_of_sentences]
     output_data = [item.serialize() for item in list_of_sentences]
