@@ -574,10 +574,12 @@ def case_finder(a_sentence):
     assign_case(combo)
 
 def assign_case(combined_list):
-    for count, word in enumerate(combined_list):
-        if combined_list[count][0]['lemma'] in combined_list[count][1]:
-            for key, value in combined_list[count][1].items():
-                combined_list[count][0]['feats']['Case'] = value
+    for word in combined_list:
+        if word[0]['xpos'] == 'preposition' and not word[0]['feats'].copy().get('Case'):
+                if word[0]['lemma'] in word[1].keys():
+                    value = list(word[1].values())
+                    word[0]['feats']['Case'] = value[0]
+                    break
 
 def analyze_case_in_prepositions_in_(a_sentence):
     for word in a_sentence:
@@ -587,10 +589,15 @@ def analyze_case_in_prepositions_in_(a_sentence):
             elif 'dat.' in word['feats']['Analysis']:
                 word['feats']['Case'] = 'Dat'
             elif 'gen.' in word['feats']['Analysis']:
-                word['feats']['Case'] = "Gen"
+                word['feats']['Case'] = 'Gen'
             elif not word['feats'].copy().get('Case'):
                 case_finder(a_sentence)
 
+def latin_check(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'preposition':
+            if not word['feats'].copy().get('Case'):
+                word['feats']['Case'] = 'Unk'
 
 #Section 5.3. Analysis of Verbs
 
@@ -679,16 +686,15 @@ def voice_analysis(a_sentence):
 # in "Feats" contains ".impv./.subj." or, in the case of the first key in the dictionary,
 # neither of them and creates a new key:value pair. ##Return to this.
     
-def mood_analysis(input_data):
-    for tok in input_data:
-        for key in tok["feats"].copy().keys():
-            if tok["xpos"] == "verb":
-                if ".impv." in key:
-                        tok["feats"]["Mood"] = "Impv"
-                elif ".subj." in key:
-                        tok["feats"]["Mood"] = "Subj"
-                elif (".impv." not in next(iter(tok["feats"]))) and (".subj." not in next(iter(tok["feats"]))):
-                                tok["feats"]["Mood"] = "Ind"
+def mood_analysis(a_sentence):
+    for word in a_sentence:
+        if word['xpos'] == 'verb':
+            if '.impv.' in word['feats']['Analysis']:
+                word['feats']['Mood'] = 'Impv'
+            elif '.subj.' in word['feats']['Analysis']:
+                word['feats']['Mood'] = 'Subj'
+            elif ('.impv.' not in word['feats']['Analysis']) and ('.subj.' not in word['feats']['Analysis']):
+                word['feats']['Mood'] = 'Ind'
                                 
 
 # The following function checks to see if there is a key called "Tense" in "Feats". If so, it creates a new key:value pair.
@@ -730,18 +736,17 @@ def analyze_augm_in_(a_sentence):
             word['feats']['Aspect'] = 'Perf'
 
 
-# The following function analyzes relative verbs. ##Return to this.
+# The following function analyzes relative verbs.
 
 def analyze_rel_in(a_sentence):
     for word in a_sentence:
-        for key in word["feats"].copy().keys():
-            if "rel" in key:
-                if "len" in key:
-                    word["feats"]["RelType"] = "Len"
-                elif "nas" in key:
-                    word["feats"]["RelType"] = "Nas"
-                elif "len" not in next(iter(word["feats"])) or "nas" not in next(iter(word["feats"])):
-                    word["feats"]["RelType"] = "Other"
+        if 'rel' in word['feats']['Analysis']:
+            if 'len' in word['feats']['Analysis']:
+                word['feats']['RelType'] = 'Len'
+            elif 'nas' in word['feats']['Analysis']:
+                word['feats']['RelType'] = 'Nas'
+            elif 'len' not in word['feats']['Analysis'] or 'nas' not in word['feats']['Analysis']:
+                word['feats']['RelType'] = 'Other'
 
 
 #Section 5.4. Analysis of other items
@@ -834,6 +839,7 @@ def change_preposition_analysis(input_data):
     analyze_number_in_prepositions_and_possessives_in_(input_data)
     analyze_gender_in_prepositions_and_possessives_in_(input_data)
     analyze_case_in_prepositions_in_(input_data)
+    latin_check(input_data)
     return input_data
 
 
@@ -848,12 +854,11 @@ def change_other_analyses(input_data):
 #This deletes keys with null values in the "feats" dictionary.
             
 def delete_null_values_in(a_sentence):
-    x = "No_Features"
     for word in a_sentence:
-        if word["feats"] is not None:
-            for key, value in word["feats"].copy().items():
-                if x != key and word["feats"][key] == "":
-                    del word["feats"][key]
+        if 'No_Features' in word['feats']['Analysis'] and len(word['feats'].keys()) == 1:
+            word['feats'] = '_'
+        else:
+            del word['feats']['Analysis']
                     
 #The following function combines the functions change_substantive_analysis, change_verb_analysis, change_preposition_and_possessive_analysis, change_other_analyses, and delete_null_values_in.
     
@@ -861,7 +866,6 @@ def change_all_analyses(list_of_sentences):
     [change_substantive_analysis(item) for item in list_of_sentences]
     [change_verb_analysis(item) for item in list_of_sentences]
     [change_preposition_analysis(item) for item in list_of_sentences]
- #   [case_finder(item) for item in input_data]
     [change_other_analyses(item) for item in list_of_sentences]
     [delete_null_values_in(item) for item in list_of_sentences]
     output_data = [item.serialize() for item in list_of_sentences]
@@ -911,7 +915,7 @@ def assign_deprel_to_copula_in_(a_sentence):
 
 def assign_deprel_to_article_in_(a_sentence):
     for word in a_sentence:
-        if word['lemma'] == 'in 1':
+        if word['lemma'] == 'in 1' or word['xpos'] == 'adjective_quantifier':
             word['deprel'] = 'det'
 
 
