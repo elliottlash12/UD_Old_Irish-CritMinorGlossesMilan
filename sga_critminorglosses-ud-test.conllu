@@ -899,65 +899,65 @@
 # sent_id = S0050-51
 # text = .i. airndib múcnae 7 airndib ecmailt ánétach 7 ambiad 7 andeug innaní prithchite hiris 7 condib trianuile ṁbethaid ón dano 7 nib cuit ree ·
 # text_en = that is, that the raiment and the food and the drink of those who preach the faith should be austere and should be unusual and, moreover, that it should be so through their whole life, moreover, and not for some time
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	air	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-3	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	múcnae	múcnae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=austere, strict, stern, crossgrained, surly
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	air	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-7	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-8	ecmailt	écmailt	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=insolent; unquiet, restless, unusual, unaccustomed
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	air	ara	SCONJ	complementiser	_	4	mark:prt	X	Gloss=in order that, so that
+3	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	múcnae	múcnae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=austere, strict, stern, crossgrained, surly
+5	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
+6	air	ara	SCONJ	complementiser	_	8	mark:prt	X	Gloss=in order that, so that
+7	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+8	ecmailt	écmailt	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	4	conj	X	Gloss=insolent; unquiet, restless, unusual, unaccustomed
 9	á	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	nétach	étach	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=raiment, garment, clothing, covering
-11	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+10	nétach	étach	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	4	nsubj	X	Gloss=raiment, garment, clothing, covering
+11	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
 12	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	mbiad	biäd	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=food
-14	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-15	a	3pl.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	16	_	X	Gloss=their
-16	ndeug	deug	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=drink
+13	mbiad	biäd	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	10	conj	X	Gloss=food
+14	7	ocus 2	CCONJ	conjunction	_	16	cc	X	Gloss=coordinating: and, since
+15	a	3pl.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	16	nmod:poss	X	Gloss=their
+16	ndeug	deug	NOUN	noun	Case=Nom|Number=Sing	10	conj	X	Gloss=drink
 17	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	18	det	X	Gloss=the
-18	ní	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc|Definite=Def	_	_	X	Gloss=substantivizing particle
-19	prithchite	pridchaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to preach, to teach
-20	hiris	ires	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=faith, religion, belief
-21	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-22	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-23	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-24	tri	tre	ADP	preposition	Case=Acc	_	case	X	Gloss=through (time or space), by means of, be reason of
-25	a	3pl.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	_	_	X	Gloss=their
-26	nuile	uile	DET	adjective_quantifier	Case=Acc|Number=Sing	_	det	X	Gloss=all, every, the whole
-27	ṁbethaid	bethu	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=life, existence, food, nourishment, property
-28	ón	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=that (mentioned above) that is
-29	dano	danó	ADV	particle_discourse	_	_	_	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
-30	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-31	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-32	b	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-33	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=portion, part, share; a matter of, a mere
-34	ree	ré	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
+18	ní	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc|Definite=Def	10	nmod	X	Gloss=substantivizing particle
+19	prithchite	pridchaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	18	acl:relcl	X	Gloss=to preach, to teach
+20	hiris	ires	NOUN	noun	Case=Acc|Number=Sing	19	obj	X	Gloss=faith, religion, belief
+21	7	ocus 2	CCONJ	conjunction	_	27	cc	X	Gloss=coordinating: and, since
+22	co	co 4	SCONJ	complementiser	_	27	mark:prt	X	Gloss=so that, until (+independent, leniting)
+23	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	27	cop	X	Gloss=to be
+24	tri	tre	ADP	preposition	Case=Acc	27	case	X	Gloss=through (time or space), by means of, be reason of
+25	a	3pl.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	27	nmod:poss	X	Gloss=their
+26	nuile	uile	DET	adjective_quantifier	Case=Acc|Number=Sing	27	det	X	Gloss=all, every, the whole
+27	ṁbethaid	bethu	NOUN	noun	Case=Acc|Number=Sing	4	conj	X	Gloss=life, existence, food, nourishment, property
+28	ón	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	27	discourse	X	Gloss=that (mentioned above) that is
+29	dano	danó	ADV	particle_discourse	_	33	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
+30	7	ocus 2	CCONJ	conjunction	_	33	cc	X	Gloss=coordinating: and, since
+31	ni	ní 3	PART	particle_negative_main	_	32	advmod:neg	X	Gloss=not
+32	b	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	33	cop	X	Gloss=to be
+33	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	27	conj	X	Gloss=portion, part, share; a matter of, a mere
+34	ree	ré	NOUN	noun	Case=Gen|Number=Sing	33	nmod	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
 
 # sent_id = S0050-52
 # text = .i. ammedón indomuin . ut iudei . 7 assa immechtraib ut gentes .
 # text_en = that is, out of the midst of the world, as Jews, and from its extremities, as Gentiles
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	a	a 7	ADP	preposition	Case=Dat	3	case	X	Gloss=out of, from
-3	mmedón	medón	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=middle, center, midst
+3	mmedón	medón	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=middle, center, midst
 4	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	domuin	domun 1	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	_	_	X	Gloss=world, the Earth
-6	ut	ut	X	conjunction	_	_	_	X	Gloss=that, so that
-7	iudei	Iūdaeus	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=Jew
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+5	domuin	domun 1	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	3	nmod	X	Gloss=world, the Earth
+6	ut	ut	X	conjunction	_	3	mark	X	Gloss=that, so that
+7	iudei	Iūdaeus	NOUN	noun	Case=Nom|Number=Plur	3	conj	X	Gloss=Jew
+8	7	ocus 2	CCONJ	conjunction	_	11	cc	X	Gloss=coordinating: and, since
 9	ass	a 7	ADP	preposition	Case=Dat	11	case	X	Gloss=out of, from
-10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	11	_	X	Gloss=his, its
-11	immechtraib	immechtar	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=extremity, outside, end, edge
-12	ut	ut	X	conjunction	_	_	_	X	Gloss=that, so that
-13	gentes	gens	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=Roman clan, tribe, family, people
+10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	11	nmod:poss	X	Gloss=his, its
+11	immechtraib	immechtar	NOUN	noun	Case=Dat|Number=Plur	3	conj	X	Gloss=extremity, outside, end, edge
+12	ut	ut	X	conjunction	_	11	mark	X	Gloss=that, so that
+13	gentes	gens	NOUN	noun	Case=Nom|Number=Plur	11	conj	X	Gloss=Roman clan, tribe, family, people
 
 # sent_id = S0050-53
 # text = .i. indegaid nísu
 # text_en = that is, after Jesus
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	i	i	ADP	preposition	Case=Acc	3	case	X	Gloss=in, into
-3	ndegaid	degaid	NOUN	verbal_noun	Case=Dat|Number=Sing	_	_	X	Gloss=the act of pursuing; pursuit, search (i ndegaid)
-4	nísu	Ísu	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Jesus
+3	ndegaid	degaid	NOUN	verbal_noun	Case=Dat|Number=Sing	0	root	X	Gloss=the act of pursuing; pursuit, search (i ndegaid)
+4	nísu	Ísu	PROPN	proper_noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=Jesus
 
 # sent_id = S0050-54
 # text = .i. hi comtherchomruc natuade
