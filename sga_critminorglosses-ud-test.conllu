@@ -998,25 +998,25 @@
 # sent_id = S0050-57
 # text = .i. ciabatar degtacrae les
 # text_en = That is, although he had good arguments
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	cia	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	batar	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-4	degtacrae	dag-thacrae	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=good argument
-5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	cia	cía 2	SCONJ	conjunction	_	3	mark	X	Gloss=concessive and explicative: even, although
+3	batar	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+4	degtacrae	dag-thacrae	NOUN	noun	Case=Nom|Number=Plur	3	obj	X	Gloss=good argument
+5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0050-58
 # text = .i. innerchoimded
 # text_en = that is, the excuse
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	nerchoimded	airchoimted	NOUN	verbal_noun	Case=Acc|Number=Sing|Definite=Def	_	_	X	Gloss=the act of excusing
+3	nerchoimded	airchoimted	NOUN	verbal_noun	Case=Acc|Number=Sing|Definite=Def	0	root	X	Gloss=the act of excusing
 
 # sent_id = S0050-59
 # text = .i. sulib noteimligtis
 # text_en = that is, with eyes that were becoming dim
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	sulib	súil	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=eye
-3	no·teimligtis	teimligidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to grow dark; to darken, to cast a shadow over
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	sulib	súil	NOUN	noun	Case=Dat|Number=Plur	3	obl	X	Gloss=eye
+3	no·teimligtis	teimligidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to grow dark; to darken, to cast a shadow over
 
 # sent_id = S0050-60
 # text = octabairt bendachtae foir hirriucht éssu ·
