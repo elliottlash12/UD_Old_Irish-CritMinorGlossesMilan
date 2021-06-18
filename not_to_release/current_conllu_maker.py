@@ -1098,5 +1098,5 @@ Fix the compounding issue with prefixes.
 Rembember that the remove dummy preverb function currently assumes that it always starts the verbal morph. Hopefully that is true.
 Remember to fix the relative function so that it doesn't necessarily assume that "rel" is in analysis.
 Remember to add a function to make verbal nouns have the feature VerbForm=Vnoun
-Figure out RelFin
+Remember to recheck act and pass assignment.
 """
