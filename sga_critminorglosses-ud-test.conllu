@@ -972,10 +972,10 @@
 # text = .i. is forrae fadisin doroacht
 # text_en = That is, it is on itself [vengeance] has been taken.
 1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
-3	forrae	for	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	5	obl:prep	X	Gloss=upon, over, on
-4	fadisin	fadesin	PRON	pronoun_emphatic	PronType=Emp	5	nsubj	X	Gloss=self
-5	do·roacht	do·roïch	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to reach, to come, to arrive; to happen, to arise
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	forrae	for	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	4	case	X	Gloss=upon, over, on
+4	fadisin	fadesin	PRON	pronoun_emphatic	PronType=Emp	0	root	X	Gloss=self
+5	do·roacht	do·roïch	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin	4	csubj:cleft	X	Gloss=to reach, to come, to arrive; to happen, to arise
 
 # sent_id = S0050-56
 # text = .i. ni duchoscrad intempuil storidi ralasom 7 dia adchumtuch aithirriuch
@@ -987,7 +987,7 @@
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	tempuil	tempul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	4	nmod	X	Gloss=temple, church
 7	storidi	stoiride	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc	6	nmod	X	Gloss=historical, material, actual
-8	ra·la	fo·ceird	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	6	acl:relcl	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
+8	ra·la	fo·ceird	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	6	csubj:cleft	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
 9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
 10	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
 11	di	di	ADP	preposition	Case=Dat	13	case	X	Gloss=away, from, cause or reason, by
@@ -1001,7 +1001,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	cia	cía 2	SCONJ	conjunction	_	3	mark	X	Gloss=concessive and explicative: even, although
 3	batar	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
-4	degtacrae	dag-thacrae	NOUN	noun	Case=Nom|Number=Plur	3	obj	X	Gloss=good argument
+4	degtacrae	dag-thacrae	NOUN	noun	Case=Nom|Number=Plur	3	nsubj	X	Gloss=good argument
 5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0050-58
@@ -1015,8 +1015,8 @@
 # text = .i. sulib noteimligtis
 # text_en = that is, with eyes that were becoming dim
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
-2	sulib	súil	NOUN	noun	Case=Dat|Number=Plur	3	obl	X	Gloss=eye
-3	no·teimligtis	teimligidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to grow dark; to darken, to cast a shadow over
+2	sulib	súil	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=eye
+3	no·teimligtis	teimligidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	acl:relcl	X	Gloss=to grow dark; to darken, to cast a shadow over
 
 # sent_id = S0050-60
 # text = octabairt bendachtae foir hirriucht éssu ·
