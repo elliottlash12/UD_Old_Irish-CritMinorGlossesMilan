@@ -983,18 +983,18 @@
 # text_en = That is, it is not of the destruction of the historical (i.e. literal [?]) Temple that he has put it, nor of its rebuilding again.
 1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2	ni	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
-3	du	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
-4	choscrad	coscrad	NOUN	verbal_noun	Case=Dat|Number=Sing	0	root	X	Gloss=the act of overthrowing, destroying, hacking, tearing apart, disturbing
+3	du	do 1	ADP	preposition	Case=Dat	4	mark:prt	X	Gloss=to, for, by etc.
+4	choscrad	coscrad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of overthrowing, destroying, hacking, tearing apart, disturbing
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	tempuil	tempul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	4	nmod	X	Gloss=temple, church
 7	storidi	stoiride	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc	6	nmod	X	Gloss=historical, material, actual
 8	ra·la	fo·ceird	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	6	csubj:cleft	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
 9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
 10	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
-11	di	di	ADP	preposition	Case=Dat	13	case	X	Gloss=away, from, cause or reason, by
-12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	13	nmod:poss	X	Gloss=his, its
-13	adchumtuch	athchumtach	NOUN	verbal_noun	Case=Dat|Number=Sing	4	conj	X	Gloss=the act of rebuilding
-14	aithirriuch	aitherrach	NOUN	verbal_noun	Case=Dat|Number=Sing	13	advcl	X	Gloss=the act of repeating; repetition
+11	di	di	ADP	preposition	Case=Dat	13	mark:prt	X	Gloss=away, from, cause or reason, by
+12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	13	obj	X	Gloss=his, its
+13	adchumtuch	athchumtach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of rebuilding
+14	aithirriuch	aitherrach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	13	advcl	X	Gloss=the act of repeating; repetition
 
 # sent_id = S0050-57
 # text = .i. ciabatar degtacrae les
@@ -1024,7 +1024,7 @@
 # text_en = giving a benediction to him in Esau's form
 1	oc	oc	ADP	preposition	Case=Dat	2	case	X	Gloss=at, by, besides, with (person)
 2	tabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing	0	root	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
-3	bendachtae	bendacht	NOUN	verbal_noun	Case=Gen|Number=Sing	2	xcomp	X	Gloss=the act of blessing
+3	bendachtae	bendacht	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of blessing
 4	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	2	obl:prep	X	Gloss=upon, over, on
 5	hi	i	ADP	preposition	Case=Dat	6	case	X	Gloss=in, into
 6	rriucht	richt	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss= form, shape, guise; condition, plight
@@ -1059,7 +1059,7 @@
 8	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	9	obl:prep	X	Gloss=as, like
 9	beith	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	3	csubj:cleft	X	Gloss=to be, to exist,
 10	ær	1pl.poss.pron.	DET	pronoun_possessive	Person=1|Number=Plur|Poss=Yes|PronType=Prs	11	nmod:poss	X	Gloss=our
-11	creitem	creitem	NOUN	verbal_noun	Case=Nom|Number=Sing	9	nsubj	X	Gloss=the act of believing; belief, faith, (Christian) religion
+11	creitem	creitem	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	9	nsubj	X	Gloss=the act of believing; belief, faith, (Christian) religion
 12	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	11	nmod	X	Gloss=emphasising particle
 13	co	co 4	SCONJ	complementiser	_	15	mark:prt	X	Gloss=so that, until (+independent, leniting)
 14	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	15	cop	X	Gloss=to be
@@ -1074,7 +1074,7 @@
 23	.i.	.i.	CCONJ	abbreviation	_	26	cc	X	Gloss=id est, it is
 24	co	co 4	SCONJ	complementiser	_	26	mark:prt	X	Gloss=so that, until (+independent, leniting)
 25	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	26	cop	X	Gloss=to be
-26	cretem	creitem	NOUN	verbal_noun	Case=Nom|Number=Sing	3	conj	X	Gloss=the act of believing; belief, faith, (Christian) religion
+26	cretem	creitem	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of believing; belief, faith, (Christian) religion
 27	cetheora	cethir	NOUN	noun	Case=Gen|Number=Plur|Gender=Fem	26	nummod	X	Gloss=four-footed animal, beast ; four
 28	persann	persan	NOUN	noun	Case=Gen|Number=Plur	26	nmod	X	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
 29	linn	la	ADP	preposition	Person=1|Number=Plur|Case=Acc	26	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
