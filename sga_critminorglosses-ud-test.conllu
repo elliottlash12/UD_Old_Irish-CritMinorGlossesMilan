@@ -1126,28 +1126,28 @@
 # sent_id = S0050-66
 # text = .i. honaib buillib
 # text_en = that is, from the blows
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	buillib	builne	NOUN	noun	Case=Dat|Number=Plur|Definite=Def	_	_	X	Gloss=blow, strike, chime of a bell
+4	buillib	builne	NOUN	noun	Case=Dat|Number=Plur|Definite=Def	0	root	X	Gloss=blow, strike, chime of a bell
 
 # sent_id = S0050-67
 # text = .i. is hosuidib ropu esartae
 # text_en = That is, it is by these that he has been smitten.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be
-3	ho	ó 1	ADP	preposition	Case=Dat	_	case	X	Gloss=from, out of, by
-4	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-5	ropu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-6	esartae	esartae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=cut down, beaten, smitten, perpetrated
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
+4	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Neut	0	root	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+5	ropu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	4	cop	X	Gloss=to be
+6	esartae	esartae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	4	csubj:cleft	X	Gloss=cut down, beaten, smitten, perpetrated
 
 # sent_id = S0050-68
 # text = .i. a bas pene
 # text_en = that is, oh death of punishment
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-3	bas	bás	NOUN	verbal_noun	Number=Sing	_	_	X	Gloss=the act of dying; death
-4	pene	pían	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=penalty, punishment, torment, pain
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	a	a 1	PART	particle_vocative	_	3	case:voc	X	Gloss=O! ; oh
+3	bas	bás	NOUN	verbal_noun	Number=Sing	0	root	X	Gloss=the act of dying; death
+4	pene	pían	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=penalty, punishment, torment, pain
 
 # sent_id = S0050-69
 # text = .i. amind
