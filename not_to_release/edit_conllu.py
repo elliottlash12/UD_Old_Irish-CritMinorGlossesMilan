@@ -50,9 +50,25 @@ os.chdir('/Users/elliottlash/Documents/GitHub/UD_Old_Irish-CritMinorGlosses/')
 # data_file = 'test.conllu')
 # new_sentences = new_sentences_list(data_file)
 # new_sentences[0].metada['text']
-# 'ishúar allaa nísiu deithbirsón gaimred'
+# '.i. airndib múcnae 7 airndib ecmailt ánétach 7 ambiad 7 andeug innaní prithchite hiris 7 condib trianuile ṁbethaid ón dano 7 nib cuit ree ·'
+
+# The metadata can also be saved to a variable: text=new_sentences[0].metada['text']
+# The string in the variable text can now be split by typing text.split()
+# To access the attributes of words, one needs to type word['attribute'] where 'attribute' can be one of the following:
+# 'id' = the line number associated with the word.
+# 'form' = the word itself.
+# 'lemma' = the form of the word that is found as the dictionary headword.
+# 'upos' = the universal dependencies approved part of speech, e.g. VERB for verbs, ADP for prepositions, PART for particles, etc.
+# 'xpos' = the ChronHib-derived part of speech as found on the CorPH website.
+# 'feats' = A dict of attribute:value pairs that specify the morphological makeup of the word, e.g. adjective might have the following attribute:value pairs: Case:Nom,Number:Sing,Gender:Neut
+# 'head' = The head/governor of the current word
+# 'deprel' = The deprel that is assigned to the current word to tag its function in relation to the head.
+# 'deps' = The combination of head and deprel in the schema head:deprel.
+# 'misc' = Usually has a gloss in this treebank.
 #
-# The text metadata can also be saved to a variable: text=new_sentences[0].metada['text']
+# For example if the first sentence in the list new_sentences is new_sentences[0] (see above for the string corresponding to the text of new_sentences[0]),
+# the first word is new_sentences[0][0] and the form of that word is new_sentences[0][0]['form'], which corresponds to the string '.i.'.
+#
 
 # ========================================================================================================================================================================================================
 # ========================================================================================================================================================================================================
