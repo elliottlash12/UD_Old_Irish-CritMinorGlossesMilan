@@ -20,7 +20,7 @@ os.chdir('/Users/elliottlash/Documents/GitHub/UD_Old_Irish-CritMinorGlosses/')
 
 #This function opens a file and creates a list of sentences. To run, write: f = 'x', new_sentences_list(f).
 def new_sentences_list(filename):
-    conllu_file = open(filename, "r", encoding="utf-8")
+    conllu_file = open(filename, 'r', encoding='utf-8')
     data = conllu_file.read()
     parsed_data = parse(data)
     sentences = [a_sentence for a_sentence in parsed_data]
@@ -29,12 +29,12 @@ def new_sentences_list(filename):
 
 #This function fills the deps column in the conllu file.
 def fill_deps_in(a_sentence):
-    for count, word in enumerate(a_sentence):
-        a_sentence[count]["deps"] = f'{a_sentence[count]["head"]}:{a_sentence[count]["deprel"]}'
+    for word in a_sentence:
+        word['deps'] = f"{word['head']}:{word['deprel']}"
 
 
 #The following function combines the main editing functions and creates a new conllu file.
-def do_all(list_of_sentences, fileout):
+def do_all(fileout, list_of_sentences):
     [fill_deps_in(item) for item in list_of_sentences]
     new_conllu = [item.serialize() for item in list_of_sentences]
     file_out = open(fileout, 'w', encoding='utf-8')
