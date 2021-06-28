@@ -3,7 +3,11 @@
 
 """
 
-This will fix previously made conllu files.
+Updated Mon June 28 2021
+@author elliottlash
+DFG project
+Georg-August-Universität Göttingen
+Sprachwissenschaftliches Seminar
 
 """
 
@@ -14,6 +18,45 @@ from conllu import parse
 
 os.chdir('/Users/elliottlash/Documents/GitHub/UD_Old_Irish-CritMinorGlosses/')
 
+# ========================================================================================================================================================================================================
+# ========================================================================================================================================================================================================
+#
+#
+#****************** About the project ******************
+#*******************************************************
+#
+#
+# This python script edits conllu files.
+
+#
+# To run this script put it in a folder with the csv file and use Terminal (on a Mac). Navigate to the directory with the python script and the csv file.
+# Then type the following at the commandline:
+#
+#                       python3 name_of_py_script name_of_csv_file current_conllu_file new_conllu_file
+#
+#
+# If an interactive python session is required in order to test any function in this script, run this script in a python shell compatible with python 3
+# (N.B. ignore the Traceback error referring to do_all(sys.argv[2], new_sentences_list(sys.argv[1])).
+#
+# At the command line type first os.chdir('/path to file/') and then data_file='name_of_conllu_file'. The variable name "data_file" can be used in the functions
+# in Section 1 to read this file. Note that all of the libraries in the import statements above need to be installed.
+#
+# Important: sentence metadata (newdoc id, sent_id, text, text_en) can be accessed by typing current_sentence.metada['key'],
+# where 'key' = 'newdoc id', 'sent_id', 'text', 'text_en'.
+#
+# For example, given 'test.conllu', running the script in an interactive session proceeds as follows:
+#
+# os.chdir('/path to file/'
+# data_file = 'test.conllu')
+# new_sentences = new_sentences_list(data_file)
+# new_sentences[0].metada['text']
+# 'ishúar allaa nísiu deithbirsón gaimred'
+#
+# The text metadata can also be saved to a variable: text=new_sentences[0].metada['text']
+
+# ========================================================================================================================================================================================================
+# ========================================================================================================================================================================================================
+#
 # ========================================================================================================================================================================================================
 
 # Part 1. Editing the deps column in conllu file.
