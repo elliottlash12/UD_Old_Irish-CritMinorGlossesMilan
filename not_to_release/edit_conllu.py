@@ -16,7 +16,7 @@ os.chdir('/Users/elliottlash/Documents/GitHub/UD_Old_Irish-CritMinorGlosses/')
 
 # ========================================================================================================================================================================================================
 
-# Part 1. Editing the conllu file in the deps column.
+# Part 1. Editing the deps column in conllu file.
 
 #This function opens a file and creates a list of sentences. To run, write: f = 'x', new_sentences_list(f).
 def new_sentences_list(filename):
