@@ -589,6 +589,7 @@ def assign_case(combined_list):
                     word[0]['feats']['Case'] = value[0]
                     break
 
+
 def analyze_case_in_prepositions_in_(a_sentence):
     for word in a_sentence:
         if isinstance(word['id'], int):
@@ -1185,12 +1186,14 @@ if __name__ == "__main__":
 # ========================================================================================================================================================================================================
 
 """
-May 7 update below
-Remember to continue to incorporate post-conllu file editing functions.
+Jun 18 update below
 Also remember that csv files downloaded from CorPH will be in the wrong order if they contain more than 9 sentences. This is because the sentence portion of
 Text_Unit_ID has no leading zeroes so that S000X-1 is followed by S000X-10. S000X-10 will also be followed by S000X-100 in texts with more than 99 sentences.
 There is a rather laborious workaround for this in libreoffice. Perhaps, sorting can occur during the conllu editing process.
 Remeber to delete Index!
 Fix the compounding issue with prefixes.
 Rembember that the remove dummy preverb function currently assumes that it always starts the verbal morph. Hopefully that is true.
+Remember to fix the relative function so that it doesn't necessarily assume that "rel" is in analysis.
+Remember to add a function to make verbal nouns have the feature VerbForm=Vnoun
+Remember to recheck act and pass assignment.
 """
