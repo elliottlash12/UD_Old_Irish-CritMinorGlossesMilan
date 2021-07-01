@@ -972,29 +972,29 @@
 # sent_id = S0050-55
 # text = .i. is forrae fadisin doroacht
 # text_en = That is, it is on itself [vengeance] has been taken.
-1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-3	forrae	for	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	4	case	X	Gloss=upon, over, on
-4	fadisin	fadesin	PRON	pronoun_emphatic	PronType=Emp	0	root	X	Gloss=self
-5	do·roacht	do·roïch	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin	4	csubj:cleft	X	Gloss=to reach, to come, to arrive; to happen, to arise
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	5:cc	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	4:cop	Gloss=to be
+3	forrae	for	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	4	case	4:case	Gloss=upon, over, on
+4	fadisin	fadesin	PRON	pronoun_emphatic	PronType=Emp	0	root	0:root	Gloss=self
+5	do·roacht	do·roïch	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	csubj:cleft	4:csubj:cleft	Gloss=to reach, to come, to arrive; to happen, to arise
 
 # sent_id = S0050-56-verbalnouns?
 # text = .i. ni duchoscrad intempuil storidi ralasom 7 dia adchumtuch aithirriuch
 # text_en = That is, it is not of the destruction of the historical (i.e. literal [?]) Temple that he has put it, nor of its rebuilding again.
-1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
-2	ni	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
-3	du	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
-4	choscrad	coscrad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of overthrowing, destroying, hacking, tearing apart, disturbing
-5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	tempuil	tempul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	4	nmod	X	Gloss=temple, church
-7	storidi	stoiride	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc	6	nmod	X	Gloss=historical, material, actual
-8	ra·la	fo·ceird	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	6	csubj:cleft	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
-9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
-10	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
-11	di	di	ADP	preposition	Case=Dat	13	case	X	Gloss=away, from, cause or reason, by
-12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	13	nmod:poss	X	Gloss=his, its
-13	adchumtuch	athchumtach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of rebuilding
-14	aithirriuch	aitherrach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	13	advcl	X	Gloss=the act of repeating; repetition
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	4:cc	Gloss=id est, it is
+2	ni	ní 3	PART	particle_negative_main	_	4	advmod:neg	4:advmod:neg	Gloss=not
+3	du	do 1	ADP	preposition	Case=Dat	4	case	4:case	Gloss=to, for, by etc.
+4	choscrad	coscrad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	0:root	Gloss=the act of overthrowing, destroying, hacking, tearing apart, disturbing
+5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	6:det	Gloss=the
+6	tempuil	tempul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	4	nmod	4:nmod	Gloss=temple, church
+7	storidi	stoiride	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc	6	nmod	6:nmod	Gloss=historical, material, actual
+8	ra·la	fo·ceird	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf|Subcat=Trans	6	csubj:cleft	6:csubj:cleft	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nsubj	8:nsubj	Gloss=emphasising particle
+10	7	ocus 2	CCONJ	conjunction	_	13	cc	13:cc	Gloss=coordinating: and, since
+11	di	di	ADP	preposition	Case=Dat	13	case	13:case	Gloss=away, from, cause or reason, by
+12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	13	nmod:poss	13:nmod:poss	Gloss=his, its
+13	adchumtuch	athchumtach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	conj	4:conj	Gloss=the act of rebuilding
+14	aithirriuch	aitherrach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	13	advcl	13:advcl	Gloss=the act of repeating; repetition
 
 # sent_id = S0050-57
 # text = .i. ciabatar degtacrae les
@@ -1159,6 +1159,6 @@
 # sent_id = S0050-70
 # text = .i. adcotadsamni
 # text_en = That is, we obtained.
-1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
-2	ad·cotadsam	ad·cota	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to get, to obtain, to receive
-3	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	2:cc	Gloss=id est, it is
+2	ad·cotadsam	ad·cota	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Unk	0	root	0:root	Gloss=to get, to obtain, to receive
+3	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	2	nsubj	2:nsubj	Gloss=emphasising particle
