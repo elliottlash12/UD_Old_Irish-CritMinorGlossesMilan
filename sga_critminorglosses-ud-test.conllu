@@ -935,7 +935,7 @@
 33	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	27	conj	X	Gloss=portion, part, share; a matter of, a mere
 34	ree	ré	NOUN	noun	Case=Gen|Number=Sing	33	nmod	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
 
-# sent_id = S0050-52
+# sent_id = S0050-52-ellipsis?
 # text = .i. ammedón indomuin . ut iudei . 7 assa immechtraib ut gentes .
 # text_en = that is, out of the midst of the world, as Jews, and from its extremities, as Gentiles
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
@@ -957,7 +957,7 @@
 # text_en = that is, after Jesus
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	i	i	ADP	preposition	Case=Acc	3	case	X	Gloss=in, into
-3	ndegaid	degaid	NOUN	verbal_noun	Case=Dat|Number=Sing	0	root	X	Gloss=the act of pursuing; pursuit, search (i ndegaid)
+3	ndegaid	degaid	NOUN	verbal_noun	Case=Acc|Number=Sing|VerForm=VNoun	0	root	X	Gloss=the act of pursuing; pursuit, search (i ndegaid)
 4	nísu	Ísu	PROPN	proper_noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=Jesus
 
 # sent_id = S0050-54
@@ -978,7 +978,7 @@
 4	fadisin	fadesin	PRON	pronoun_emphatic	PronType=Emp	0	root	X	Gloss=self
 5	do·roacht	do·roïch	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin	4	csubj:cleft	X	Gloss=to reach, to come, to arrive; to happen, to arise
 
-# sent_id = S0050-56
+# sent_id = S0050-56-verbalnouns?
 # text = .i. ni duchoscrad intempuil storidi ralasom 7 dia adchumtuch aithirriuch
 # text_en = That is, it is not of the destruction of the historical (i.e. literal [?]) Temple that he has put it, nor of its rebuilding again.
 1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
@@ -991,8 +991,8 @@
 8	ra·la	fo·ceird	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	6	csubj:cleft	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
 9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
 10	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
-11	di	di	ADP	preposition	Case=Dat	13	mark:prt	X	Gloss=away, from, cause or reason, by
-12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	13	obj	X	Gloss=his, its
+11	di	di	ADP	preposition	Case=Dat	13	case	X	Gloss=away, from, cause or reason, by
+12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	13	nmod:poss	X	Gloss=his, its
 13	adchumtuch	athchumtach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of rebuilding
 14	aithirriuch	aitherrach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	13	advcl	X	Gloss=the act of repeating; repetition
 
@@ -1010,7 +1010,7 @@
 # text_en = that is, the excuse
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	nerchoimded	airchoimted	NOUN	verbal_noun	Case=Acc|Number=Sing|Definite=Def	0	root	X	Gloss=the act of excusing
+3	nerchoimded	airchoimted	NOUN	verbal_noun	Case=Acc|Number=Sing|Definite=Def|VerbForm=VNoun	0	root	X	Gloss=the act of excusing
 
 # sent_id = S0050-59
 # text = .i. sulib noteimligtis
@@ -1019,11 +1019,11 @@
 2	sulib	súil	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=eye
 3	no·teimligtis	teimligidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	acl:relcl	X	Gloss=to grow dark; to darken, to cast a shadow over
 
-# sent_id = S0050-60
+# sent_id = S0050-60-check bendachtae!
 # text = octabairt bendachtae foir hirriucht éssu ·
 # text_en = giving a benediction to him in Esau's form
 1	oc	oc	ADP	preposition	Case=Dat	2	case	X	Gloss=at, by, besides, with (person)
-2	tabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing	0	root	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+2	tabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
 3	bendachtae	bendacht	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of blessing
 4	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	2	obl:prep	X	Gloss=upon, over, on
 5	hi	i	ADP	preposition	Case=Dat	6	case	X	Gloss=in, into
@@ -1040,13 +1040,13 @@
 5	iar	íar 1	ADP	preposition	Case=Dat	6	case	X	Gloss=after, behind, across, along, beyond, according to
 6	tain	tan	NOUN	noun	Case=Dat|Number=Sing	2	obl:tmod	X	Gloss=time
 7	quando	quandō	ADV	adverb	_	8	mark	X	Gloss=when
-8	dixit	dīcō	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	6	advcl	X	Gloss=to say, to declare, to call
+8	dixit	dīcō	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	2	advcl	X	Gloss=to say, to declare, to call
 9	in	in (Lat)	ADP	preposition	Case=Unk	10	case	X	Gloss=in, into
 10	semine	semen	NOUN	noun	Number=Sing	8	obl	X	Gloss=seed
 11	tuo	tuus	DET	pronoun_possessive	Number=Sing|Gender=Neut|Poss=Yes|PronType=Prs	10	nmod:poss	X	Gloss=your
 12	reliqua	reliqua	NOUN	noun	_	11	appos	X	Gloss=the rest, remainder
 
-# sent_id = S0050-62
+# sent_id = S0050-62-possible ellipsis/ is line 28 obj or nmod of 26?
 # text = .i. inchethardataid .i. arnap samlid beith ær creitemni condib sain persan maic de 7 maic duini linn .i. condib cretem cet[h]eora persann linn .i. persan athar 7 maicc de 7 maicc duini . 7 spiurto noib . .
 # text_en = That is, the quaternity (set of four), namely, that our belief should not be thus, that we should deem different the person of the Son of God and (that) of the Son of Man; that is, so that it should be a belief in four persons with us, namely, the person of the Father, and (the person) of the Son of God and (the person) of the Son of Man, and (the person) of the Holy Spirit.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
@@ -1138,7 +1138,7 @@
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 3	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 4	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Neut	0	root	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-5	ropu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	4	cop	X	Gloss=to be
+5	ropu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	6	cop	X	Gloss=to be
 6	esartae	esartae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	4	csubj:cleft	X	Gloss=cut down, beaten, smitten, perpetrated
 
 # sent_id = S0050-68
