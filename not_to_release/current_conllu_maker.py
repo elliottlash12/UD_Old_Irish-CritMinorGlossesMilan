@@ -333,7 +333,7 @@ def compound_detector(list_of_sentences):
     for sent in list_of_sentences.values():
         for count, word in enumerate(sent):
             if count+2 < len(sent):
-                if sent[count]['Morph'] in sent[count+2]['Morph'] and 'compos.' in sent[count]['Analysis']:
+                if sent[count]['Morph'] in sent[count+2]['Morph'] and ('compos.' in sent[count]['Analysis'] or sent[count]['Part_Of_Speech'] == 'particle_prefix'):
                     if sent[count+1]['Morph'] in sent[count+2]['Morph']:
                         sent.pop(count+1)
                     sent.pop(count)
