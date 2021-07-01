@@ -976,7 +976,7 @@
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	4:cop	Gloss=to be
 3	forrae	for	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	4	case	4:case	Gloss=upon, over, on
 4	fadisin	fadesin	PRON	pronoun_emphatic	PronType=Emp	0	root	0:root	Gloss=self
-5	do·roacht	do·roïch	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin	4	csubj:cleft	4:csubj:cleft	Gloss=to reach, to come, to arrive; to happen, to arise
+5	do·roacht	do·roïch	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	csubj:cleft	4:csubj:cleft	Gloss=to reach, to come, to arrive; to happen, to arise
 
 # sent_id = S0050-56-verbalnouns?
 # text = .i. ni duchoscrad intempuil storidi ralasom 7 dia adchumtuch aithirriuch
@@ -988,7 +988,7 @@
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	6:det	Gloss=the
 6	tempuil	tempul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	4	nmod	4:nmod	Gloss=temple, church
 7	storidi	stoiride	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc	6	nmod	6:nmod	Gloss=historical, material, actual
-8	ra·la	fo·ceird	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	6	csubj:cleft	6:csubj:cleft	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
+8	ra·la	fo·ceird	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf|Subcat=Trans	6	csubj:cleft	6:csubj:cleft	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
 9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nsubj	8:nsubj	Gloss=emphasising particle
 10	7	ocus 2	CCONJ	conjunction	_	13	cc	13:cc	Gloss=coordinating: and, since
 11	di	di	ADP	preposition	Case=Dat	13	case	13:case	Gloss=away, from, cause or reason, by
@@ -1160,6 +1160,6 @@
 # text = .i. adcotadsamni
 # text_en = That is, we obtained.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	2:cc	Gloss=id est, it is
-2	ad·cotadsam	ad·cota	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	0:root	Gloss=to get, to obtain, to receive
+2	ad·cotadsam	ad·cota	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Unk	0	root	0:root	Gloss=to get, to obtain, to receive
 3	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	2	nsubj	2:nsubj	Gloss=emphasising particle
 
