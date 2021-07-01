@@ -95,9 +95,9 @@ def fill_deps_in(a_sentence):
 #The following function combines the main editing functions and creates a new conllu file.
 def do_all(fileout, list_of_sentences):
     [fill_deps_in(item) for item in list_of_sentences]
-    new_conllu = [item.serialize() for item in list_of_sentences]
-    file_out = open(fileout, 'w', encoding='utf-8')
-    [file_out.write(item) for item in new_conllu]
+    with open(fileout, 'w', encoding='utf-8') as file_out:
+        conllu_sentences = [item.serialize() for item in list_of_sentences]
+        [file_out.write(item) for item in conllu_sentences]
     return list_of_sentences
 
 if __name__ == "__main__":
