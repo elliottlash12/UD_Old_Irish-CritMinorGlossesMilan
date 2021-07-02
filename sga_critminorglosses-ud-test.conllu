@@ -1166,37 +1166,38 @@
 # sent_id = S0050-71
 # text = .i. air ni rabæ inspiurt nóib les intansin ·
 # text_en = That is, for the Holy Spirit has not been with him then.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	·rabæ	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to be, to exist,
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	air	ar 2	SCONJ	conjunction	_	4	mark	X	Gloss=causal: since, for; final: so that
+3	ni·	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+4	·rabæ	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	0	X	Gloss=to be, to exist,
 5-6	inspiurt	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	spiurt	spirut	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=spirit
-7	nóib	nóeb	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=holy, sacred, saintly
-8	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+6	spiurt	spirut	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	4	nsubj	X	Gloss=spirit
+7	nóib	nóeb	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	6	amod	X	Gloss=holy, sacred, saintly
+8	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 9-11	intansin	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	_	_	X	Gloss=time
-11	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
+10	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	4	obl:tmod	X	Gloss=time
+11	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	10	det	X	Gloss=that, those
 
 # sent_id = S0050-72
 # text = .i. dofarlaic don .
 # text_en = That is, he has yielded ground.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	do·farlaic	do·léici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to release, to let go; to let come, to let loose; to throw, to cast; to leave, to abandon
-3	don	dú	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=place, spot
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	do·farlaic	do·léici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to release, to let go; to let come, to let loose; to throw, to cast; to leave, to abandon
+3	don	dú	NOUN	noun	Case=Acc|Number=Sing	2	obj	X	Gloss=place, spot
 
 # sent_id = S0050-73
 # text = .i. dég robói in spiurt nóib less
 # text_en = that is, because the Holy Spirit has been with him
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	dég	dég 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: because of
-3	ro·bói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to be, to exist,
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	dég	dég 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: because of
+3	ro·bói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to be, to exist,
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	spiurt	spirut	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=spirit
-6	nóib	nóeb	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=holy, sacred, saintly
-7	less	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+5	spiurt	spirut	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	3	nsubj	X	Gloss=spirit
+6	nóib	nóeb	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	5	amod	X	Gloss=holy, sacred, saintly
+7	less	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+
 
 # sent_id = S0050-74
 # text = .i. infogitled .i. peccati ·
