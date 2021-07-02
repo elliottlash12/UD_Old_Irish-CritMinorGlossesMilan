@@ -1198,52 +1198,51 @@
 6	nóib	nóeb	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	5	amod	X	Gloss=holy, sacred, saintly
 7	less	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
-
 # sent_id = S0050-74
 # text = .i. infogitled .i. peccati ·
 # text_en = that is, the titillation, namely, of sin
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3_	cc	X	Gloss=id est, it is
 2-3	infogitled	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	fogitled	fogitled	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=titillation
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	peccati	peccātum	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=sin
+3	fogitled	fogitled	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	0	root	X	Gloss=titillation
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	peccati	peccātum	NOUN	noun	Case=Gen|Number=Sing	3	conj	X	Gloss=sin
 
 # sent_id = S0050-75
 # text = .i. comchétbaid són ocdenum inpectho
 # text_en = that is, that (is) consent in the commission of sin
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	comchétbaid	comchétbaid	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=consent, agreement, accord
-3	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=that (mentioned above) that is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	comchétbaid	comchétbaid	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=consent, agreement, accord
+3	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Fem	2	nsubj	X	Gloss=that (mentioned above) that is
 4-5	ocdenum	_	_	_	_	_	_	_	_
 4	oc	oc	ADP	preposition	Case=Dat	5	case	X	Gloss=at, by, besides, with (person)
-5	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
+5	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
 6-7	inpectho	_	_	_	_	_	_	_	_
 6	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	pectho	peccad	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	_	_	X	Gloss=sin
+7	pectho	peccad	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	5	nmod	X	Gloss=sin
 
 # sent_id = S0050-76
 # text = .i. istrífer robói intris diltud dosom .i. ishé ingnim mad du rúin
 # text_en = That is, it is through a man the third denial was to him; that is, this is the deed [if it be] according to the /mystical [meaning].
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	istrífer	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 3	trí	tre	ADP	preposition	Case=Acc	4	case	X	Gloss=through (time or space), by means of, be reason of
-4	fer	fer 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=man, person, pl. inhabitants
-5	ro·bói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to be, to exist,
+4	fer	fer 1	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=man, person, pl. inhabitants
+5	ro·bói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	4	csubj:cleft	X	Gloss=to be, to exist,
 6	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	trisdiltud	tresdíltud	NOUN	verbal_noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=the act of denying for the third time; third denial
-8	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
-9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
-10	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-11	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-12	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
+7	trisdiltud	tresdíltud	NOUN	verbal_noun	Case=Nom|Number=Sing|Definite=Def	5	nsubj	X	Gloss=the act of denying for the third time; third denial
+8	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	9	case	X	Gloss=to, for, by etc.
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	5	obl	X	Gloss=emphasising particle
+10	.i.	.i.	CCONJ	abbreviation	_	14	cc	X	Gloss=id est, it is
+11	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	14	cop	X	Gloss=to be
+12	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	14	nmod	X	Gloss=he, him, it
 13	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	14	det	X	Gloss=the
-14	gnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-15	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-16	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+14	gnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|Definite=Def	4	conj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+15	ma	ma	SCONJ	conjunction	_	18	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+16	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	18	cop	X	Gloss=to be
 17	du	do 1	ADP	preposition	Case=Dat	18	case	X	Gloss=to, for, by etc.
-18	rúin	rún	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=mystery, secret
+18	rúin	rún	NOUN	noun	Case=Dat|Number=Sing	14	advcl	X	Gloss=mystery, secret
 
 # sent_id = S0050-77
 # text = .i. ishé ingním son
