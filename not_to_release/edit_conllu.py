@@ -110,7 +110,7 @@ def check_concatenations2(list_of_words, list_of_morphs):
             accumulated = '' # resets the accumulated string
             word_y += 1 # moves on to the next word
         elif accumulated.casefold() != words[word_y].casefold():
-            if j+1 < len(morphs) and morphs[j+1] != 'n' or morphs[j+1] != 'm' and accumulated == 'inna' or accumulated == 'na' or accumulated == 'a':
+            if j+1 < len(morphs) and (morphs[j+1] != 'n' or morphs[j+1] != 'm') and (accumulated == 'inna' or accumulated == 'na' or accumulated == 'a'):
                 accumulatedalternative1 = accumulated + 'n' #nasalizing
                 accumulatedalternative2 = accumulated + 'm'
                 if accumulatedalternative1.casefold() == words[word_y].casefold() or accumulatedalternative2.casefold() == words[word_y].casefold():
