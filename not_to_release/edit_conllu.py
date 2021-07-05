@@ -14,6 +14,7 @@ Sprachwissenschaftliches Seminar
 import itertools
 import os
 import sys
+import re
 from conllu import parse
 
 os.chdir('/Users/elliottlash/Documents/GitHub/UD_Old_Irish-CritMinorGlosses/')
@@ -91,10 +92,120 @@ def fill_deps_in(a_sentence):
     for word in a_sentence:
         word['deps'] = f"{word['head']}:{word['deprel']}"
 
+# This function is an augmented version of check_concatenations from current_conllu_maker.
+def check_concatenations2(list_of_words, list_of_morphs):
+    words = [re.sub("[^0-9a-zA-Z_À-ÿ]+", '', x) for x in list_of_words] # uses the regex library to remove all non-alphanumeric characters before comparison
+    morphs = [re.sub("[^0-9a-zA-Z_À-ÿ]+", '', x) for x in list_of_morphs] # "
+    word_y = 0 # iterator
+    morph_y = 0 # "
+    tij = [] # initialization
+    accumulated = '' # empty accumulated string
+    accumulatedlist = []
+    for j in range(len(morphs)): # loops over every morph
+        accumulated += morphs[j]
+        if accumulated.casefold() == words[word_y].casefold(): # A concatenated string matches a word in a sentence.
+            if morph_y != j:
+                tij.append((word_y, morph_y+1, j+1)) # a concatentated string is formed
+            morph_y = j + 1 # moves on to the next morph
+            accumulated = '' # resets the accumulated string
+            word_y += 1 # moves on to the next word
+        elif accumulated.casefold() != words[word_y].casefold():
+            accumulatedalternative1 = accumulated + 'n' #nasalizing
+            accumulatedalternative2 = accumulated + 'm'
+            if accumulatedalternative1.casefold() == words[word_y].casefold() or accumulatedalternative2.casefold() == words[word_y].casefold():
+                if morph_y != j:
+                    tij.append((word_y, morph_y+1, j+1))
+                morph_y = j + 1
+                accumulatedalternative1 = ''
+                accumulatedalternative2 = ''
+                accumulated = ''
+                word_y += 1
+            elif accumulatedalternative1 != words[word_y].casefold() or accumulatedalternative2 != words[word_y].casefold() and (accumulated.startswith('nd') or accumulated.startswith('ng') or accumulated.startswith('mb')):
+                accumulatedalternative3 = accumulated[1:] #nasalized
+                if accumulatedalternative3.casefold() == words[word_y].casefold():
+                    if morph_y != j:
+                        tij.append((word_y, morph_y+1, j+1))
+                    morph_y = j + 1
+                    accumulatedalternative3 = ''
+                    accumulated = ''
+                    word_y += 1
+                elif accumulatedalternative3 != words[word_y].casefold():
+                    if 'ss' in accumulated: #copula
+                        accumulatedalternative4 = 'i' + accumulated[2:]
+                        if accumulatedalternative4.casefold() == words[word_y].casefold():
+                            if morph_y != j:
+                                tij.append((word_y, morph_y+1, j+1))
+                            morph_y = j + 1
+                            accumulatedalternative4 = ''
+                            accumulated = ''
+                            word_y += 1
+                    elif 'ss' not in accumulated:
+                        if words[word_y].endswith('s'): #stray s at end
+                            accumulatedalternative5 = accumulated + 's'
+                            if accumulatedalternative5.casefold() == words[word_y].casefold():
+                                if morph_y != j:
+                                    tij.append((word_y, morph_y+1, j+1))
+                                morph_y = j + 1
+                                accumulatedalternative5 = ''
+                                accumulated = ''
+                                word_y += 1
+#                            elif accumulatedalternative5 != words[word_y].casefold():
+#                                accumulatedlist.append((accumulated, words[word_y]))
+    return tij, #accumulatedlist
+
+#This function actually inserts chunks into rows in a conllu sentence.
+def insert_chunks(sent):
+	cnt = 1
+	list_of_words = None
+	list_of_morphs = []
+	for word in sent:
+		list_of_words = sent.metadata['text'].split()
+		list_of_morphs.append(word['form'])
+	tij = check_concatenations2(list_of_words, list_of_morphs) #add acclist if nec.
+	for word in sent:
+		if tij != []:
+			t, i, j = tij[0]
+			if cnt == i:
+				cdict={'id': (i, '-', j), 'form': list_of_words[t]}
+				sent.insert(i-1, cdict)
+				tij.pop(0)
+		cnt += 1
+	return #acclist
+
+#The following four functions rearrange the inserted chunk.
+def reassignids(sent):
+    for word in sent:
+        if isinstance(word['id'], tuple):
+            word['interim'] = word['id']
+            word['id'] = word['id'][0]
+    return
+
+def get_id(word):
+    return word.get('id')
+
+def sortsent(sent):
+    return sent.sort(key=get_id)
+
+def reassignids_again(sent):
+	for word in sent:
+		if word.get('interim'):
+			word['id'] = word['interim']
+			del word['interim']
+		else:
+			continue
+
+def automate_insertion(list_of_sentences):
+    for sent in list_of_sentences:
+        insert_chunks(sent) # add x= if nec. (this is the accumulated list
+        reassignids(sent)
+        sortsent(sent)
+        reassignids_again(sent)
+    return list_of_sentences #, x (the accumulated list)
 
 #The following function combines the main editing functions and creates a new conllu file.
 def do_all(fileout, list_of_sentences):
     [fill_deps_in(item) for item in list_of_sentences]
+    automate_insertion(list_of_sentences)
     with open(fileout, 'w', encoding='utf-8') as file_out:
         conllu_sentences = [item.serialize() for item in list_of_sentences]
         [file_out.write(item) for item in conllu_sentences]
