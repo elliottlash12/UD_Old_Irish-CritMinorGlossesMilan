@@ -110,67 +110,66 @@ def check_concatenations2(list_of_words, list_of_morphs):
             accumulated = '' # resets the accumulated string
             word_y += 1 # moves on to the next word
         elif accumulated.casefold() != words[word_y].casefold():
-            accumulatedalternative1 = accumulated + 'n' #nasalizing
-            accumulatedalternative2 = accumulated + 'm'
-            if accumulatedalternative1.casefold() == words[word_y].casefold() or accumulatedalternative2.casefold() == words[word_y].casefold():
-                if morph_y != j:
-                    tij.append((word_y, morph_y+1, j+1))
-                morph_y = j + 1
-                accumulatedalternative1 = ''
-                accumulatedalternative2 = ''
-                accumulated = ''
-                word_y += 1
-            elif accumulatedalternative1 != words[word_y].casefold() or accumulatedalternative2 != words[word_y].casefold() and (accumulated.startswith('nd') or accumulated.startswith('ng') or accumulated.startswith('mb')):
-                accumulatedalternative3 = accumulated[1:] #nasalized
-                if accumulatedalternative3.casefold() == words[word_y].casefold():
+            if j+1 < len(morphs) and morphs[j+1] != 'n' or morphs[j+1] != 'm' and accumulated == 'inna' or accumulated == 'na' or accumulated == 'a':
+                accumulatedalternative1 = accumulated + 'n' #nasalizing
+                accumulatedalternative2 = accumulated + 'm'
+                if accumulatedalternative1.casefold() == words[word_y].casefold() or accumulatedalternative2.casefold() == words[word_y].casefold():
                     if morph_y != j:
                         tij.append((word_y, morph_y+1, j+1))
                     morph_y = j + 1
-                    accumulatedalternative3 = ''
+                    accumulatedalternative1 = ''
+                    accumulatedalternative2 = ''
                     accumulated = ''
                     word_y += 1
-                elif accumulatedalternative3 != words[word_y].casefold():
-                    if 'ss' in accumulated: #copula
-                        accumulatedalternative4 = 'i' + accumulated[2:]
-                        if accumulatedalternative4.casefold() == words[word_y].casefold():
-                            if morph_y != j:
-                                tij.append((word_y, morph_y+1, j+1))
-                            morph_y = j + 1
-                            accumulatedalternative4 = ''
-                            accumulated = ''
-                            word_y += 1
-                    elif 'ss' not in accumulated:
-                        if words[word_y].endswith('s'): #stray s at end
-                            accumulatedalternative5 = accumulated + 's'
-                            if accumulatedalternative5.casefold() == words[word_y].casefold():
+                elif accumulatedalternative1 != words[word_y].casefold() or accumulatedalternative2 != words[word_y].casefold() and (accumulated.startswith('nd') or accumulated.startswith('ng') or accumulated.startswith('mb')):
+                    accumulatedalternative3 = accumulated[1:] #nasalized
+                    if accumulatedalternative3.casefold() == words[word_y].casefold():
+                        if morph_y != j:
+                            tij.append((word_y, morph_y+1, j+1))
+                        morph_y = j + 1
+                        accumulatedalternative3 = ''
+                        accumulated = ''
+                        word_y += 1
+                    elif accumulatedalternative3 != words[word_y].casefold():
+                        if 'ss' in accumulated: #copula
+                            accumulatedalternative4 = 'i' + accumulated[2:]
+                            if accumulatedalternative4.casefold() == words[word_y].casefold():
                                 if morph_y != j:
                                     tij.append((word_y, morph_y+1, j+1))
                                 morph_y = j + 1
-                                accumulatedalternative5 = ''
+                                accumulatedalternative4 = ''
                                 accumulated = ''
                                 word_y += 1
-#                            elif accumulatedalternative5 != words[word_y].casefold():
-#                                accumulatedlist.append((accumulated, words[word_y]))
-    return tij #, accumulatedlist
+                        elif 'ss' not in accumulated:
+                            if words[word_y].endswith('s'): #stray s at end
+                                accumulatedalternative5 = accumulated + 's'
+                                if accumulatedalternative5.casefold() == words[word_y].casefold():
+                                    if morph_y != j:
+                                        tij.append((word_y, morph_y+1, j+1))
+                                    morph_y = j + 1
+                                    accumulatedalternative5 = ''
+                                    accumulated = ''
+                                    word_y += 1
+    return tij #, accumulatedlist elif accumulatedalternative5 != words[word_y].casefold(): ccumulatedlist.append((accumulated, words[word_y]))
 
-#This function actually inserts chunks into rows in a conllu sentence.
+# This function actually inserts chunks into rows in a conllu sentence.
 def insert_chunks(sent):
-	cnt = 1
-	list_of_words = None
-	list_of_morphs = []
-	for word in sent:
-		list_of_words = sent.metadata['text'].split()
-		list_of_morphs.append(word['form'])
-	tij = check_concatenations2(list_of_words, list_of_morphs) #add acclist if nec.
-	for word in sent:
-		if tij != []:
-			t, i, j = tij[0]
-			if cnt == i:
-				cdict={'id': (i, '-', j), 'form': list_of_words[t]}
-				sent.insert(i-1, cdict)
-				tij.pop(0)
-		cnt += 1
-	return #acclist
+    cnt = 1
+    list_of_words = None
+    list_of_morphs = []
+    for word in sent:
+        list_of_words = sent.metadata['text'].split()
+        list_of_morphs.append(word['form'])
+    tij = check_concatenations2(list_of_words, list_of_morphs) #add acclist if nec.
+    for word in sent:
+        if tij != []:
+            t, i, j = tij[0]
+            if cnt == i:
+                cdict={'id': (i, '-', j), 'form': list_of_words[t]}
+                sent.insert(i-1, cdict)
+                tij.pop(0)
+        cnt += 1
+    return #acclist
 
 #The following four functions rearrange the inserted chunk.
 def reassignids(sent):
@@ -187,12 +186,12 @@ def sortsent(sent):
     return sent.sort(key=get_id)
 
 def reassignids_again(sent):
-	for word in sent:
-		if word.get('interim'):
-			word['id'] = word['interim']
-			del word['interim']
-		else:
-			continue
+    for word in sent:
+        if word.get('interim'):
+            word['id'] = word['interim']
+            del word['interim']
+        else:
+            continue
 
 def automate_insertion(list_of_sentences):
     for sent in list_of_sentences:
