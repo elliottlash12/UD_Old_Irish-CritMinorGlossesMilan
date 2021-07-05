@@ -151,7 +151,7 @@ def check_concatenations2(list_of_words, list_of_morphs):
                                 word_y += 1
 #                            elif accumulatedalternative5 != words[word_y].casefold():
 #                                accumulatedlist.append((accumulated, words[word_y]))
-    return tij, #accumulatedlist
+    return tij #, accumulatedlist
 
 #This function actually inserts chunks into rows in a conllu sentence.
 def insert_chunks(sent):
