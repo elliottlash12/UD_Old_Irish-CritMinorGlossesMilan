@@ -1307,21 +1307,21 @@
 # sent_id = S0050-83
 # text = [.i.] [in]linn l[ech]daigthe
 # text_en = that is, the limpid fluid
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	[in]linn	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	linn	lind 1	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=pool, lake, sea, ocean
-4	lechdaigthe	lechdaigthe	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=liquid
+3	linn	lind 1	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	0	root	X	Gloss=pool, lake, sea, ocean
+4	lechdaigthe	lechdaigthe	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	3	amod	X	Gloss=liquid
 
 # sent_id = S0050-84
 # text = .i. inna brodscuad anglana .i. doninola as[cech]... frie
 # text_en = that is, the unclean refuse, namely, which it collects from every ... to it
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	brodscuad	brodscuad	NOUN	noun	Case=Nom|Number=Plur|Gender=Neut|Definite=Def	_	_	X	Gloss=refuse, rubbish
-4	anglana	anglan	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut	_	_	X	Gloss=impure
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	do·ninola	do·inóla	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	_	_	X	Gloss=to gather, to collect, to assemble,to muster
+3	brodscuad	brodscuad	NOUN	noun	Case=Nom|Number=Plur|Gender=Neut|Definite=Def	0	root	X	Gloss=refuse, rubbish
+4	anglana	anglan	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut	3	amod	X	Gloss=impure
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	do·ninola	do·inóla	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	3	conj	X	Gloss=to gather, to collect, to assemble,to muster
 7-8	as[cech]...	_	_	_	_	_	_	_	_
 7	as	a 7	ADP	preposition	Case=Dat	_	case	X	Gloss=out of, from
 8	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|PronType=Tot	_	det	X	Gloss=every, each, all, any
@@ -1330,23 +1330,23 @@
 # sent_id = S0050-85
 # text = .i. honglaini inchamul... inna ilslogu .i. na ilflistim .. hoglaini inchamul
 # text_en = That is, with the jawbone of the camel (he laid low) the many hosts, namely, the many Philistines with the camel's jawbone.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	honglaini	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 3	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	glaini	glaine 2	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	_	_	X	Gloss=jawbone, jaw
+4	glaini	glaine 2	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	0	root	X	Gloss=jawbone, jaw
 5-6	inchamul	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	15	det	X	Gloss=the
-6	chamul	camall	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	_	_	X	Gloss=camel
+6	chamul	camall	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	4	nmod	X	Gloss=camel
 7	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	ilslogu	il-ṡlóig	NOUN	noun	Case=Acc|Number=Plur|Definite=Def	_	_	X	Gloss=many hosts
-9	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+8	ilslogu	il-ṡlóig	NOUN	noun	Case=Acc|Number=Plur|Definite=Def	_	obj	X	Gloss=many hosts
+9	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
 10	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	ilflistim	Il-ḟlistim	NOUN	noun	Case=Acc|Number=Plur|Definite=Def	_	_	X	Gloss=many Philistines
+11	ilflistim	Il-ḟlistim	NOUN	noun	Case=Acc|Number=Plur|Definite=Def	4	conj	X	Gloss=many Philistines
 12	ho	ó 1	ADP	preposition	Case=Dat	13	case	X	Gloss=from, out of, by
-13	glaini	glaine 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=jawbone, jaw
+13	glaini	glaine 2	NOUN	noun	Case=Dat|Number=Sing	11	obl	X	Gloss=jawbone, jaw
 14	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	15	det	X	Gloss=the
-15	chamul	camall	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	_	_	X	Gloss=camel
+15	chamul	camall	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	13	nmod	X	Gloss=camel
 
 # sent_id = S0050-86
 # text = .i. ba bés leusom dobertis daboc leu dochum tempuil 7 noleicthe indalanái fon díthrub co pecad in popuil 7 dobertis maldachta foir 7 no[o]ircthe didiu [an]d op[opul] tarcenn ap[ecthae] indaile
