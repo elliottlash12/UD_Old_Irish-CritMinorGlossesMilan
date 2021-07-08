@@ -1216,10 +1216,10 @@
 3	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Fem	2	nsubj	X	Gloss=that (mentioned above) that is
 4-5	ocdenum	_	_	_	_	_	_	_	_
 4	oc	oc	ADP	preposition	Case=Dat	5	case	X	Gloss=at, by, besides, with (person)
-5	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
+5	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of doing, making, creating; deed, work, activity
 6-7	inpectho	_	_	_	_	_	_	_	_
 6	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	pectho	peccad	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	5	nmod	X	Gloss=sin
+7	pectho	peccad	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	5	obj	X	Gloss=sin
 
 # sent_id = S0050-76
 # text = .i. istrífer robói intris diltud dosom .i. ishé ingnim mad du rúin
@@ -1247,34 +1247,34 @@
 # sent_id = S0050-77
 # text = .i. ishé ingním son
 # text_en = That is, that is the deed.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	ishé	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+3	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	5	nmod	X	Gloss=he, him, it
 4-5	ingním	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	gním	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-6	son	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=that (mentioned above) that is
+5	gním	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|Definite=Def	0	root	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+6	son	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	5	nsubj	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0050-78
 # text = .i. dorigni petur
 # text_en = that is, which Peter has made
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	_	_	X	Gloss=to do, to make
-3	petur	Petar	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Peter
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	0	root	X	Gloss=to do, to make
+3	petur	Petar	PROPN	proper_noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=Peter
 
 # sent_id = S0050-79
 # text = .i. intan nonnguirtherni
 # text_en = that is, when we are warmed
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	intan	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	_	_	X	Gloss=time
+3	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	0	root	X	Gloss=time
 4-7	nonnguirtherni	_	_	_	_	_	_	_	_
-4	no	no·	SCONJ	particle_preverb	_	_	mark:prt	X	Gloss=empty particle
+4	no	no·	SCONJ	particle_preverb	_	6	mark:prt	X	Gloss=empty particle
 5	nn·	1pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=we, us, ourselves
-6	·guirther	guirid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelForm=Nas	_	_	X	Gloss=to warm, to burn
-7	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+6	·guirther	guirid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelForm=Nas	3	acl:relcl	X	Gloss=to warm, to burn
+7	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	6	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0050-80
 # text = .i. echtar comairbirt mbiuth pecthæ hirobammar
