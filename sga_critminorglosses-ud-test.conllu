@@ -1279,30 +1279,30 @@
 # sent_id = S0050-80
 # text = .i. echtar comairbirt mbiuth pecthæ hirobammar
 # text_en = that is, outside the practice of the sins wherein we had been
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	echtar	echtar	ADP	preposition	Case=Acc	3	case	X	Gloss=outside, without
-3	comairbirt	comairbert	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=mode, manner of life; sustenance
-4	mbiuth	biuth	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=world
-5	pecthæ	peccad	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=sin
+3	comairbirt	comairbert	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=mode, manner of life; sustenance
+4	mbiuth	biuth	NOUN	noun	Case=Dat|Number=Sing	3	nmod	X	Gloss=world
+5	pecthæ	peccad	NOUN	noun	Case=Gen|Number=Plur	4	nmod	X	Gloss=sin
 6-7	hirobammar	_	_	_	_	_	_	_	_
-6	hi·	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-7	ro·bammar	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
+6	hi·	i	ADP	preposition	Case=Dat	7	case	X	Gloss=in, into
+7	ro·bammar	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to be, to exist,
 
 # sent_id = S0050-81
 # text = .i. is ed [ainm] setche samsóin
 # text_en = That is, this is the name of Samson's wife.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	_	_	X	Gloss=it
-4	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=name, noun (gramm)
-5	setche	séitig	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=wife
-6	samsóin	Samsón	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Samson
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	4	nmod	X	Gloss=it
+4	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=name, noun (gramm)
+5	setche	séitig	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=wife
+6	samsóin	Samsón	PROPN	proper_noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=Samson
 
 # sent_id = S0050-82
 # text = .i. síthal
 # text_en = that is, bucket
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	síthal	síthal	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=a vessel for drawing water, a bucket
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	síthal	síthal	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=a vessel for drawing water, a bucket
 
 # sent_id = S0050-83
 # text = [.i.] [in]linn l[ech]daigthe
