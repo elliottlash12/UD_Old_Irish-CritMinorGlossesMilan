@@ -1120,7 +1120,7 @@ def automation(filename):
 #     return tij
 
 def remove_special_chars(word):
-    special_chars = ['[', ']', '.', '·']
+    special_chars = ['[', ']', '.', '·', '<', '>']
     word_2 = ''
     for c in word:
         if c not in special_chars:
