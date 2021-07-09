@@ -1130,14 +1130,14 @@ def remove_special_chars(word):
 def check_concatenations(list_of_words, list_of_morphs):
     # words = [re.sub("[^0-9a-zA-Z]+", '', x) for x in list_of_words] # uses the regex library to remove all non-alphanumeric characters before comparison
     # morphs = [re.sub("[^0-9a-zA-Z]+", '', x) for x in list_of_morphs] # "
-    words = [remove_special_chars(word) for word in list_of_words]
+    words = [remove_special_chars(word) for word in list_of_words] # list_of_words = ['a·bc', '.', '[e]f']  # words = ['abc', '', 'ef']
     morphs = [remove_special_chars(morph) for morph in list_of_morphs]
-    words_2 = []
+    words_2 = [] 
     list_of_words_2 = [] 
     for i in range(len(words)):
         if words[i] != '':
-            words_2.append(words[i])
-            list_of_words_2.append(list_of_words[i])
+            words_2.append(words[i]) # words_2 = ['abc', 'ef']
+            list_of_words_2.append(list_of_words[i]) # list_of_words_2 = ['a·bc', '[e]f']
 
     word_y = 0 # iterator
     morph_y = 0 # "
