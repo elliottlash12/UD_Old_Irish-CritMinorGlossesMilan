@@ -403,7 +403,7 @@ def changeid(sent):
 
             elif w['upos'] == 'PUNCT': #If the current word is a punctuation mark
 
-                changepunct(sent) 
+                changepunct(sent)
                 punctseen.append(w) #Add the punctuation mark to the list of punctuation marks.
 
         elif punctseen != []: #Checks if at least one punctuation mark has been seen.
