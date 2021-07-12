@@ -3,11 +3,14 @@
 
 """
 
-Updated Mon June 28 2021
+Updated Mon Jul 12 2021
 @author elliottlash
 DFG project
 Georg-August-Universität Göttingen
 Sprachwissenschaftliches Seminar
+
+This will add concatenated strings and punctuation in new rows of an alreaady processed conllu file.
+
 
 """
 
@@ -76,7 +79,7 @@ os.chdir('/Users/elliottlash/Documents/GitHub/UD_Old_Irish-CritMinorGlosses/')
 #
 # ========================================================================================================================================================================================================
 
-# Part 1. Editing the deps column in conllu file.
+# Part 1. Editing the deps column in conllu file and adding extra lines for punctuations and concatenated morphs.
 
 #This function opens a file and creates a list of sentences. To run, write: f = 'x', new_sentences_list(f).
 def new_sentences_list(filename):
@@ -92,125 +95,369 @@ def fill_deps_in(a_sentence):
     for word in a_sentence:
         word['deps'] = f"{word['head']}:{word['deprel']}"
 
-# This function is an augmented version of check_concatenations from current_conllu_maker.
-def check_concatenations2(list_of_words, list_of_morphs):
+
+#The following function moves various counters  (morph_y, word_y) forward and resets test strings (accalt and acc)
+
+def iteratorformorphs(morph_y, word_y, j, acc, accalt=None):
+
+    morph_y = j+1
+    accalt=''
+    acc=''
+    word_y +=1
+
+    return morph_y, word_y, acc
+
+
+#The following function combines the iteratorformorphs functionality with conditional statements that test whether certain
+#counters are the same. The first conditional is the simple case for most concatenations. The second conditional is used
+#whenever for certain exceptional cases which otherwise would fail to meet the criteria for concatenations. It is used especially
+#for when a punctuation mark is found in the text string that is not in the list of morphs.
+
+def tijappend(morph_y, tij, word_y, j, morphs, acc, accalt=None):
+
+    if morph_y != j:
+
+        tij.append((word_y, morph_y+1, j+1)) # a concatenated string is formed
+
+    elif morph_y == j and acc != morphs[j]:
+
+        tij.append((word_y, morph_y+2, j+1))
+
+    #Consider replacing the following with the iteratorformorphs function.
+    morph_y = j+1 # moves on to the next morph
+    accalt = ''
+    acc = '' # resets the accumulated string
+    word_y += 1 # moves on to the next word
+
+    return morph_y, word_y, acc, tij
+
+
+#The following function iterates over morphs in a list of morphs and words in text string and tests whether an accumulated string made up of one or more of the morphs is the same a word in the
+#text string. There are various exceptional cases that are also dealt with if the accumulated string does not match a word.
+
+def check_concatenations3(list_of_words, list_of_morphs, sentence):
+
     words = [re.sub("[^0-9a-zA-Z_À-ÿ]+", '', x) for x in list_of_words] # uses the regex library to remove all non-alphanumeric characters before comparison
-    morphs = [re.sub("[^0-9a-zA-Z_À-ÿ]+", '', x) for x in list_of_morphs] # "
+    morphs = [re.sub("[^0-9a-zA-Z_À-ÿ]+", '', x[0]) for x in list_of_morphs] # "
     word_y = 0 # iterator
     morph_y = 0 # "
     tij = [] # initialization
     accumulated = '' # empty accumulated string
-    accumulatedlist = []
-    for j in range(len(morphs)): # loops over every morph
-        accumulated += morphs[j]
-        if accumulated.casefold() == words[word_y].casefold(): # A concatenated string matches a word in a sentence.
-            if morph_y != j:
-                tij.append((word_y, morph_y+1, j+1)) # a concatentated string is formed
-            morph_y = j + 1 # moves on to the next morph
-            accumulated = '' # resets the accumulated string
-            word_y += 1 # moves on to the next word
-        elif accumulated.casefold() != words[word_y].casefold():
-            if j+1 < len(morphs) and (morphs[j+1] != 'n' or morphs[j+1] != 'm') and (accumulated == 'inna' or accumulated == 'na' or accumulated == 'a'):
-                accumulatedalternative1 = accumulated + 'n' #nasalizing
-                accumulatedalternative2 = accumulated + 'm'
-                if accumulatedalternative1.casefold() == words[word_y].casefold() or accumulatedalternative2.casefold() == words[word_y].casefold():
-                    if morph_y != j:
-                        tij.append((word_y, morph_y+1, j+1))
-                    morph_y = j + 1
-                    accumulatedalternative1 = ''
-                    accumulatedalternative2 = ''
-                    accumulated = ''
-                    word_y += 1
-                elif accumulatedalternative1 != words[word_y].casefold() or accumulatedalternative2 != words[word_y].casefold() and (accumulated.startswith('nd') or accumulated.startswith('ng') or accumulated.startswith('mb')):
-                    accumulatedalternative3 = accumulated[1:] #nasalized
-                    if accumulatedalternative3.casefold() == words[word_y].casefold():
-                        if morph_y != j:
-                            tij.append((word_y, morph_y+1, j+1))
-                        morph_y = j + 1
-                        accumulatedalternative3 = ''
-                        accumulated = ''
-                        word_y += 1
-                    elif accumulatedalternative3 != words[word_y].casefold():
-                        if 'ss' in accumulated: #copula
-                            accumulatedalternative4 = 'i' + accumulated[2:]
-                            if accumulatedalternative4.casefold() == words[word_y].casefold():
-                                if morph_y != j:
-                                    tij.append((word_y, morph_y+1, j+1))
-                                morph_y = j + 1
-                                accumulatedalternative4 = ''
-                                accumulated = ''
-                                word_y += 1
-                        elif 'ss' not in accumulated:
-                            if words[word_y].endswith('s'): #stray s at end
-                                accumulatedalternative5 = accumulated + 's'
-                                if accumulatedalternative5.casefold() == words[word_y].casefold():
-                                    if morph_y != j:
-                                        tij.append((word_y, morph_y+1, j+1))
-                                    morph_y = j + 1
-                                    accumulatedalternative5 = ''
-                                    accumulated = ''
-                                    word_y += 1
-    return tij #, accumulatedlist elif accumulatedalternative5 != words[word_y].casefold(): ccumulatedlist.append((accumulated, words[word_y]))
+    currentact = []
 
-# This function actually inserts chunks into rows in a conllu sentence.
+    for j in range(len(morphs)): # loops over every morph
+
+        accumulated += morphs[j]
+        currentact.append(({'accumulated':accumulated, 'current_morph':morphs[j], 'currentword':words[word_y], 'word_y':word_y, 'morph_y':morph_y, 'j':j})) #This keeps track of all the morphs and words that pass through the iterator.
+
+        if accumulated.casefold() == words[word_y].casefold(): # Test to see if a concatenated string matches a word in a sentence.
+
+            morph_y, word_y, accumulated, tij = tijappend(morph_y, tij, word_y, j, morphs, accumulated)
+
+        elif accumulated.casefold() != words[word_y].casefold(): # Introduces various tests if no match is found.
+
+            if len(accumulated.casefold()) <= len(words[word_y].casefold()) - 2: #This is the most general case of no match.
+                pass
+
+            elif j+1 < len(morphs) and (morphs[j+1] != 'n' or morphs[j+1] != 'm') and (accumulated == 'inna' or accumulated == 'na' or accumulated == 'a'): #Nasalizing Test
+
+                accumulated1 = accumulated + 'n' #is this strictly necessary?
+                accumulated2 = accumulated + 'm' #is this strictly necessary?
+
+                morph_y, word_y, accumulated = iteratorformorphs(morph_y, word_y, j, accumulated1, accumulated2)
+
+            elif accumulated.startswith('nd') or accumulated.startswith('ng') or accumulated.startswith('mb'): #Nasalized Test
+
+                accumulated3 = accumulated[1:] #is this strictly necessary?
+
+                morph_y, word_y, accumulated = iteratorformorphs(morph_y, word_y, j, accumulated3)
+
+            elif 'ss' in accumulated: #Copula Test
+
+                accumulated4 = 'i' + accumulated[2:]
+
+                if accumulated4.casefold() == words[word_y].casefold():
+
+                    morph_y, word_y, accumulated, tij = tijappend(morph_y, tij, word_y, j, morphs, accumulated4)
+
+            elif words[word_y].endswith('s'): #Trailing s Test
+
+                accumulated5 = accumulated + 's' #is this strictly necessary?
+
+                morph_y, word_y, accumulated = iteratorformorphs(morph_y, word_y, j, accumulated5)
+
+            elif accumulated.startswith('s') and words[word_y] == accumulated[1:]: #Prefixed s Test
+
+                accumulated6 = accumulated[1:] #is this strictly necessary?
+
+                morph_y, word_y, accumulated = iteratorformorphs(morph_y, word_y, j, accumulated6)
+
+            elif words[word_y] == 'rp' or words[word_y] == 'pp' or words[word_y] == 'cp': #Tests to see if the current word is a punctuation mark.
+
+                punctuation = {'id' : morph_y+1, 'form' : words[word_y], 'lemma' : words[word_y], 'upos' : 'PUNCT', 'xpos' : 'punctuation'} #Prepares a conllu-version of a punctuation mark
+                sentence.insert(morph_y, punctuation) #Inserts punctuation marks into the sentence.
+
+                if accumulated == words[word_y+1]: #Tests whether the accumulated morphs are the same as the next word. This is necessary because the accumulated morph will never correspond to the current word, which is the punctuation mark.
+                    morph_y = j+1
+                    word_y += 2
+                    accumulated = ''
+                elif accumulated != words[word_y+1]: #Tests whether the accumulated morph is not the same as the next word. This might happen if the next word is a new chunk (a concatenated string of words).
+                    morph_y = j+1
+                    word_y += 1
+
+    return tij, currentact
+
+#The above function does not add trailing punctuation. It's probably because they are beyond range(len(morphs)).
+#There is still some issue with sentence count 67. There are also data problems in count 58, 52, 47, 46, 29.
+
+
+#The following function finds punctuation marks in a text string.
+
+def getpunct(sent):
+
+    sentencestring = sent.metadata['text'] #Gets the text string.
+    punctlist = [('.', 'p'), (',', 'c'), ('·', 'r')] #The list of main punctuation marks and their alphanumeric "equivalent".
+    newstring = re.sub(' ([.,·]) ', r' \1punct ', sentencestring) #Substitutes the punctuation marks in a string with interim alphanumeric characters for search purposes.
+    finallist = []
+
+    for w in newstring.split(): #Iterates through a string
+
+        if w.endswith('punct'): #Finds punctuation marks
+
+            wstart = w[:-5] #Gets rid of the interim marker of punctuation (i.e. "punct")
+
+            for p in punctlist: #Goes through the list of punctuation marks
+
+                if p[0] == wstart: #Checks if the current punctuation mark in the text string is the same as the current item in the list of punctuation marks.
+
+                    w = p[1] + 'p' #Creates a alphanumeric version of the punctuation mark.
+
+        finallist.append(w) #Creates a list of words which includes the alphanumeric versions of punctuation marks.
+
+    return finallist
+
+
+#The following function goes through the list of sentences and inserts chunks (concatenated strings).
+
 def insert_chunks(sent):
+
     cnt = 1
     list_of_words = None
     list_of_morphs = []
-    for word in sent:
-        list_of_words = sent.metadata['text'].split()
-        list_of_morphs.append(word['form'])
-    tij = check_concatenations2(list_of_words, list_of_morphs) #add acclist if nec.
-    for word in sent:
-        if tij != []:
-            t, i, j = tij[0]
-            if cnt == i:
-                cdict={'id': (i, '-', j), 'form': list_of_words[t]}
-                sent.insert(i-1, cdict)
-                tij.pop(0)
-        cnt += 1
-    return #acclist
 
-#The following four functions rearrange the inserted chunk.
-def reassignids(sent):
     for word in sent:
+
+        list_of_words = getpunct(sent) #Creates a list of words with alphanumeric versions of punctuation marks.
+        list_of_morphs.append((word['form'], word['id'])) #Creates a list of morphs.
+
+    tij, currentact = check_concatenations3(list_of_words, list_of_morphs, sent)
+
+    for word in sent:
+
+        if tij != []:
+
+            t, i, j = tij[0]
+
+            if cnt == i:
+
+                cdict={'id': (i, '-', j), 'form': list_of_words[t]}
+                sent.insert(i-1, cdict) #Inserts concatenated strings.
+                tij.pop(0)
+
+        cnt += 1
+
+    return currentact
+
+
+#The following function creates interim ids for newly added concatenated string. This is necessary because concatenated strings always have a tuple as an id but this is not conducive to comparison
+#with the original morphs in a list of morphs which have integer ids. The specific comparison that needs ids to be integers is the sorting function below.
+
+def reassignids(sent):
+
+    for word in sent:
+
         if isinstance(word['id'], tuple):
+
             word['interim'] = word['id']
             word['id'] = word['id'][0]
+
     return
+
+
+#The following function finds the id number for a morph in a list of morphs.
 
 def get_id(word):
     return word.get('id')
 
+
+#The following function uses the id numbers of morphs in a list of morphs to sort the list into numeric ascending order .
+
 def sortsent(sent):
     return sent.sort(key=get_id)
 
-def reassignids_again(sent):
+
+#The following function iterates through morphs in a list of morphs to find concatenated morphs and their component parts.
+#The point of this to ensure that the concatenated morphs are actually in the right place in the sentence. There could be occasions where a concatenated morph has been
+#inserted into the wrong place and will need to be shifted.
+
+def checkchunkorder(sent):
+
+    chunk=[] #This will be a list consisting of the concatenated morph and its supposed subelements.
+    allchunks=[] #This will be a list consisting of all the concatenated morphs and their subelements in a sentence.
+    dif = None #A counter.
+
     for word in sent:
-        if word.get('interim'):
-            word['id'] = word['interim']
-            del word['interim']
+
+        if word.get('interim'): #Gets morphs that are concatenated morphs - only concatenated morphs have the key "interim" because of the reassignids function.
+
+            dif = abs(word['interim'][2] - word['interim'][0]) #Assigns the difference between the two parts of interim to the counter. The two parts of interim define a range of elements that ought to be subparts of the concatenated morphs. The difference between the two can be used to tell the iterator how many words to add to the chunk list.
+            chunk.append(word) #Adds the concatenate morph to the chunk list.
+
+        elif dif != None and dif >= 0 and not word.get('interim'): #Checks whether the counter is an integer and if it is larger than or equal to 0 and if the current word is a normal morph.
+
+            dif -= 1 #Decreases the counter
+            chunk.append(word) #Appends the word to the chunk list.
+
+            if dif < 0: #Checks if the counter is less than 0. This means that the range of words for a given chunk has already been looked at.
+
+                allchunks.append(chunk) #Appends the chunk list (consisting of the concatenated morph and its subelement) to the list of all chunks in a sentence.
+                chunk = [] #Empties the current chunk. #consider also adding dif == None here?
+
+        elif dif == None: #If an integer has not been assigned to the counter, then there is no need to add anything to a chunk list. This happens if there are no chunks in a given stretch of the list.
+
+            pass
+
+    return allchunks
+
+
+#The following function will use the information gathered in the previous function to change the order of stray concatenate morphs.
+
+def changechunkorder(allchunks, sentence):
+
+    lastid = None #The id of the last subelement of a chunk.
+    searchlen = None
+    badindex = None
+
+    for chunk in allchunks:  #Iterates through the list of all the chunks in a sentence
+
+        accumulated, firstword, *_, lastword = chunk #Assigns the subelements of a chunk to various variables.
+
+        accumulated_string = re.sub("[^0-9a-zA-Z_À-ÿ]+", '', str(accumulated['form'])) #Makes an alphanumeric test string out of the various variables
+        firstword_string = re.sub("[^0-9a-zA-Z_À-ÿ]+", '', str(firstword['form']))
+        lastword_string = re.sub("[^0-9a-zA-Z_À-ÿ]+", '', str(lastword['form']))
+
+        if firstword_string not in accumulated_string and lastword_string not in accumulated_string: #Finds chunks that are not really chunks; basically if the first morph in the chunk is not in the accumulated string (the concatenated morph) and the last morph in the chunk is not in the accumulated string, this is a false chunk. The accumulated string will need to be shifted to the position where its subelements actually are in the sentence.
+
+            lastid = chunk[0]['interim'][2] #Assigns the final element of the interim id to lastid. #consider changing to "accumulated".
+            badindex = sentence.index(chunk[0]) #Gets the current location of the accumulated string in the sentence — Note that this is the wrong location. #consider changing to "accumulated".
+            searchlen = len(chunk)-2 #Sets a search length. Basically this will be used to find the first submember of a concatenated morph.
+
         else:
-            continue
+
+            pass
+
+    for cnt, word in enumerate(sentence): #Goes through morphs in a sentence.
+
+        if  word['id'] == lastid: #Finds the final submember of a concatentated morph
+
+            firstid = sentence.index(sentence[cnt-searchlen]) #Gets the id of the first submember of a concatenated morph.
+            newword = sentence.pop(badindex) #Removes the wrongly placed concatenated morph from the sentence.
+            sentence.insert(firstid, newword) #Reinserts the concatenated into the sentence.
+
+            break #Ends the loop.
+
+        else:
+
+            pass
+
+def changepunct(sent):
+    
+    punctlist = [('.', 'pp'), (',', 'cp'), ('·', 'rp')]
+    
+    for w in sent:
+
+        if w['upos'] == 'PUNCT':
+
+            for p in punctlist:
+                
+                if w['form'] in p[1]:
+                    
+                    w['form'] = p[0]
+                    w['lemma'] = p[0]
+
+
+#The following function changes ids of morphs in the sentence. This is necessary because sentences might have a newly inserted punctuation mark that messes up the original id numbers.
+
+def changeid(sent):
+    #Remember to replace with original punctuation after changings ids.
+    
+    punctseen=[] #A list of the punctuation marks that have been seen by the loop.
+
+    for c, w in enumerate(sent): #Goes through morphs in a sentence.
+
+        if punctseen == []: #Checks whether no punctuation marks have been seen yet.
+
+            if w['upos'] != 'PUNCT': #If the current word is not a punctuation mark
+                
+                pass #Do nothing
+
+            elif w['upos'] == 'PUNCT': #If the current word is a punctuation mark
+
+                changepunct(sent) 
+                punctseen.append(w) #Add the punctuation mark to the list of punctuation marks.
+
+        elif punctseen != []: #Checks if at least one punctuation mark has been seen.
+
+            if len(punctseen) >= 1 and isinstance(w['id'], int): #Consider removing isinstance.
+                
+                if w['upos'] == 'PUNCT':
+
+                    w['id'] += len(punctseen)
+                    changepunct(sent)
+                    punctseen.append(w)
+
+                elif w['upos'] != 'PUNCT':
+                    
+                     w['id'] += len(punctseen)
+                     
+    return sent, punctseen
+
+def changechunkids(sent):
+    chunks = checkchunkorder(sent)
+    for chunk in chunks:
+        chunk[0]['id'] = (chunk[1]['id'], '-', chunk[-1]['id'])
+        del chunk[0]['interim']
+
 
 def automate_insertion(list_of_sentences):
+
     for sent in list_of_sentences:
-        insert_chunks(sent) # add x= if nec. (this is the accumulated list
+
+        accumulatedlist = insert_chunks(sent)
         reassignids(sent)
         sortsent(sent)
-        reassignids_again(sent)
-    return list_of_sentences #, x (the accumulated list)
+        allchunks=checkchunkorder(sent)
+        changechunkorder(allchunks, sent)
+        sent,punctseen=changeid(sent)
+        changechunkids(sent)
 
-#The following function combines the main editing functions and creates a new conllu file.
+    return list_of_sentences, accumulatedlist
+
+
 def do_all(fileout, list_of_sentences):
-    [fill_deps_in(item) for item in list_of_sentences]
+
+    [fill_deps_in(sent) for sent in list_of_sentences]
     automate_insertion(list_of_sentences)
+
     with open(fileout, 'w', encoding='utf-8') as file_out:
+
         conllu_sentences = [item.serialize() for item in list_of_sentences]
         [file_out.write(item) for item in conllu_sentences]
+
     return list_of_sentences
 
 if __name__ == "__main__":
+
     do_all(sys.argv[2], new_sentences_list(sys.argv[1])) ### CHANGE!
 
 
