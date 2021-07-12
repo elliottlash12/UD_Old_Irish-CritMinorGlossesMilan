@@ -1351,83 +1351,83 @@
 # sent_id = S0050-86
 # text = .i. ba bés leusom dobertis daboc leu dochum tempuil 7 noleicthe indalanái fon díthrub co pecad in popuil 7 dobertis maldachta foir 7 no[o]ircthe didiu [an]d op[opul] tarcenn ap[ecthae] indaile
 # text_en = That is, it was a custom they had: two he-goats used to be brought by them to the Temple and one of the two of them was let go to the wilderness with the sin of the people and curses were put upon him and the other, however, was slain there by the people for its sins.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	bés	bés 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	bés	bés 1	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
 4-5	leusom	_	_	_	_	_	_	_	_
-4	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-5	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-6	do·bertis	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+4	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	5	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+5	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	3	obl	X	Gloss=emphasising particle
+6	do·bertis	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	3	parataxis	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 7-8	daboc	_	_	_	_	_	_	_	_
 7	da	da	NUM	adjective_numeral	Case=Nom|Gender=Masc	8	nummod	X	Gloss=two
-8	boc	bocc	NOUN	noun	Case=Nom	_	_	X	Gloss=he-goat, buck
-9	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+8	boc	bocc	NOUN	noun	Case=Nom	6	nsubj	X	Gloss=he-goat, buck
+9	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	6	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 10	dochum	dochumm	ADP	preposition	Case=Gen	11	case	X	Gloss=to, towards, in order to
-11	tempuil	tempul	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=temple, church
-12	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-13	no·leicthe	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to leave (behind), to allow to remain; to let go, to release
+11	tempuil	tempul	NOUN	noun	Case=Gen|Number=Sing	6	obl	X	Gloss=temple, church
+12	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
+13	no·leicthe	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	6	conj	X	Gloss=to leave (behind), to allow to remain; to let go, to release
 14-16	indalanái	_	_	_	_	_	_	_	_
 14	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	15	det	X	Gloss=the
-15	ala	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Neut|Definite=Def	_	_	X	Gloss=the other, one another ; else; second
-16	nái	3pl.indp.pron.	PRON	pronoun_independent	Case=Gen|PronType=Prs|Person=3	_	_	X	Gloss=they, them
+15	ala	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Neut|Definite=Def	13	nsubj	X	Gloss=the other, one another ; else; second
+16	nái	3pl.indp.pron.	PRON	pronoun_independent	Case=Gen|PronType=Prs|Person=3	15	nmod	X	Gloss=they, them
 17-18	fon	_	_	_	_	_	_	_	_
 17	fo	fo	ADP	preposition	Case=Dat	19	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
 18	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	19	det	X	Gloss=the
-19	díthrub	díthreb	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	_	_	X	Gloss=wilderness, desert
+19	díthrub	díthreb	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	13	obl	X	Gloss=wilderness, desert
 20	co	co 2	ADP	preposition	Case=Dat	21	case	X	Gloss=with, general accompaniment, connection, attendant circumstances
-21	pecad	peccad	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=sin
+21	pecad	peccad	NOUN	noun	Case=Dat|Number=Sing	13	obl	X	Gloss=sin
 22	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	23	det	X	Gloss=the
-23	popuil	popul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	_	_	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
-24	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-25	do·bertis	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-26	maldachta	maldacht	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=curse, malediction
-27	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=upon, over, on
-28	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-29	no·oircthe	orgaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to kill, to despoil, to slay
-30	didiu	didiu	ADV	particle_discourse	_	_	_	X	Gloss=in logical sequence, drawing a conclusion: therefore, then; referring to preceding, introducing additional detail or explanation; hence
-31	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=in, into
+23	popuil	popul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	21	nmod	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+24	7	ocus 2	CCONJ	conjunction	_	25	cc	X	Gloss=coordinating: and, since
+25	do·bertis	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	13	conj	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+26	maldachta	maldacht	NOUN	noun	Case=Nom|Number=Plur	25	nsubj	X	Gloss=curse, malediction
+27	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	25	obl:prep	X	Gloss=upon, over, on
+28	7	ocus 2	CCONJ	conjunction	_	29	cc	X	Gloss=coordinating: and, since
+29	no·oircthe	orgaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	6	conj	X	Gloss=to kill, to despoil, to slay
+30	didiu	didiu	ADV	particle_discourse	_	29	advmod	X	Gloss=in logical sequence, drawing a conclusion: therefore, then; referring to preceding, introducing additional detail or explanation; hence
+31	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	29	obl:prep	X	Gloss=in, into
 32-33	op[opul]	_	_	_	_	_	_	_	_
 32	o	ó 1	ADP	preposition	Case=Dat	33	case	X	Gloss=from, out of, by
-33	popul	popul	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+33	popul	popul	NOUN	noun	Case=Dat|Number=Sing	29	obl	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
 34-35	tarcenn	_	_	_	_	_	_	_	_
 34	tar	tar 1	ADP	preposition	Case=Acc	35	case	X	Gloss=over, across, covering
-35	cenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=head; end-point, termination, exchange, purchase
+35	cenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	29	obl	X	Gloss=head; end-point, termination, exchange, purchase
 36-37	ap[ecthae]	_	_	_	_	_	_	_	_
-36	a	3pl.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	37	_	X	Gloss=their
-37	pecthae	peccad	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=sin
+36	a	3pl.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	37	nmod:poss	X	Gloss=their
+37	pecthae	peccad	NOUN	noun	Case=Gen|Number=Plur	33	nmod	X	Gloss=sin
 38-39	indaile	_	_	_	_	_	_	_	_
 38	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	39	det	X	Gloss=the
-39	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Neut|Definite=Def	_	_	X	Gloss=other, another, else, second
+39	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Neut|Definite=Def	29	nsubj	X	Gloss=other, another, else, second
 
 # sent_id = S0050-87
 # text = .i. [es]fóite .i. is airi asberthe emisarius don buc stóridiu .i. airindí asfóite fon díthrub
 # text_en = That is, which is sent; that is, it is for this that the historical (i.e. “literal” [?]) he-goat used to be called emissarius, namely, because [of the fact that] it used to be sent to the wilderness.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	[es]fóite	_	_	_	_	_	_	_	_
-2	es	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	_	cop	X	Gloss=to be
-3	fóite	foíte	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=sent
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-6	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	_	_	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-7	as·berthe	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to say, to speak, to call , mention
-8	emisarius	emissarius	NOUN	noun	_	_	_	X	Gloss=emissary, envoy
+2	es	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	3	cop	X	Gloss=to be
+3	fóite	foíte	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	0	root	X	Gloss=sent
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
+6	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	3	conj	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+7	as·berthe	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	6	csubj:cleft	X	Gloss=to say, to speak, to call , mention
+8	emisarius	emissarius	NOUN	noun	_	7	obj	X	Gloss=emissary, envoy
 9-10	don	_	_	_	_	_	_	_	_
 9	do	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
 10	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	buc	bocc	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	_	_	X	Gloss=he-goat, buck
-12	stóridiu	stoiride	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=historical, material, actual
-13	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-14-15	airindí	_	_	_	_	_	_	_	_
+11	buc	bocc	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	7	obl	X	Gloss=he-goat, buck
+12	stóridiu	stoiride	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc	11	amod	X	Gloss=historical, material, actual
+13	.i.	.i.	CCONJ	abbreviation	_	16	cc	X	Gloss=id est, it is
+14-16	airindí	_	_	_	_	_	_	_	_
 14	air	ar 1	ADP	preposition	Case=Dat	16	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 15	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	16	det	X	Gloss=the
-16-18	asfóite	_	_	_	_	_	_	_	_
-16	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut|Definite=Def	_	_	X	Gloss=substantivizing particle
-17	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	cop	X	Gloss=to be
-18	fóite	foíte	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=sent
+16	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut|Definite=Def	6	conj	X	Gloss=substantivizing particle
+17-18	asfóite	_	_	_	_	_	_	_	_
+17	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	18	cop	X	Gloss=to be
+18	fóite	foíte	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	16	csubj:cleft	X	Gloss=sent
 19-20	fon	_	_	_	_	_	_	_	_
 19	fo	fo	ADP	preposition	Case=Dat	21	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
 20	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	21	det	X	Gloss=the
-21	díthrub	díthreb	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	_	_	X	Gloss=wilderness, desert
+21	díthrub	díthreb	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	18	obl	X	Gloss=wilderness, desert
 
 # sent_id = S0050-88
 # text = adchos[a]ire .i. adchois maldacht in popoil foir
