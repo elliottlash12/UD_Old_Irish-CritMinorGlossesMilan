@@ -1432,26 +1432,26 @@
 # sent_id = S0050-88
 # text = adchos[a]ire .i. adchois maldacht in popoil foir
 # text_en = averter, namely, the one who averts on himself the curse of the people
-1	adchosaire	adchosaire	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=averter
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	ad·chois	adchois [?]	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	_	_	X	Gloss=??
-4	maldacht	maldacht	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=curse, malediction
+1	adchosaire	adchosaire	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=averter
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	ad·chois	adchois [?]	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	1	conj	X	Gloss=??
+4	maldacht	maldacht	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=curse, malediction
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	popoil	popul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	_	_	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
-7	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=upon, over, on
+6	popoil	popul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	4	nmod	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+7	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	X	Gloss=upon, over, on
 
 # sent_id = S0050-89
 # text = .i. ishé tíntud indí as barabas magister eorum
 # text_en = That is, “their master” is the interpretation of the [word] which is “Barabas”.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	ishé	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-4	tíntud	tintúd	NOUN	verbal_noun	Case=Nom|Number=Sing	_	_	X	Gloss=the act of returning, translating; conversion, translation, recalling
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	4	nmod	X	Gloss=he, him, it
+4	tíntud	tintúd	NOUN	verbal_noun	Case=Nom|Number=Sing	0	root	X	Gloss=the act of returning, translating; conversion, translation, recalling
+5-6	indí	_	_	_	_	_	_	_	_
 5	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6-7	as	_	_	_	_	_	_	_	_
-6	í	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Neut|Definite=Def	_	_	X	Gloss=substantivizing particle
-7	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	_	cop	X	Gloss=to be
-8	barabas	Barabbas	PROPN	proper_noun	_	_	_	X	Gloss=Barabas
-9	magister	magister	NOUN	noun	_	_	_	X	Gloss=teacher, master
-10	eorum	is (Lat)	PRON	pronoun_independent	Case=Gen|Number=Plur|Gender=Masc|PronType=Prs	_	_	X	Gloss=he, it, him, she, her, they, them
+6	í	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Neut|Definite=Def	4	nmod	X	Gloss=substantivizing particle
+7	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	8	cop	X	Gloss=to be
+8	barabas	Barabbas	PROPN	proper_noun	_	6	acl:relcl	X	Gloss=Barabas
+9	magister	magister	NOUN	noun	_	4	nsubj	X	Gloss=teacher, master
+10	eorum	is (Lat)	PRON	pronoun_independent	Case=Gen|Number=Plur|Gender=Masc|PronType=Prs	9	nmod	X	Gloss=he, it, him, she, her, they, them
