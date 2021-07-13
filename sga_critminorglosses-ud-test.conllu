@@ -1410,7 +1410,7 @@
 5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
 6	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	3	conj	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 7	as·berthe	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	6	csubj:cleft	X	Gloss=to say, to speak, to call , mention
-8	emisarius	emissarius	NOUN	noun	_	7	obj	X	Gloss=emissary, envoy
+8	emisarius	emissarius	NOUN	noun	_	7	nsubj	X	Gloss=emissary, envoy
 9-10	don	_	_	_	_	_	_	_	_
 9	do	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
 10	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
@@ -1423,7 +1423,7 @@
 16	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut|Definite=Def	6	conj	X	Gloss=substantivizing particle
 17-18	asfóite	_	_	_	_	_	_	_	_
 17	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	18	cop	X	Gloss=to be
-18	fóite	foíte	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	16	csubj:cleft	X	Gloss=sent
+18	fóite	foíte	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	16	acl	X	Gloss=sent
 19-20	fon	_	_	_	_	_	_	_	_
 19	fo	fo	ADP	preposition	Case=Dat	21	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
 20	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	21	det	X	Gloss=the
@@ -1454,4 +1454,4 @@
 7	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	8	cop	X	Gloss=to be
 8	barabas	Barabbas	PROPN	proper_noun	_	6	acl:relcl	X	Gloss=Barabas
 9	magister	magister	NOUN	noun	_	4	nsubj	X	Gloss=teacher, master
-10	eorum	is (Lat)	PRON	pronoun_independent	Case=Gen|Number=Plur|Gender=Masc|PronType=Prs	9	nmod	X	Gloss=he, it, him, she, her, they, them
+10	eorum	is (Lat)	PRON	pronoun_independent	Case=Gen|Number=Plur|Gender=Masc|PronType=Prs	9	nmod:poss	X	Gloss=he, it, him, she, her, they, them
