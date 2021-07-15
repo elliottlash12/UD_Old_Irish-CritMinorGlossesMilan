@@ -481,9 +481,9 @@
 7	preceptae	preicept	NOUN	noun	Case=Gen|Number=Sing	6	nmod	6:nmod	Gloss=act of teaching or preaching
 8	Iohain	Ioäin	PROPN	proper_noun	Case=Gen|Number=Sing	7	nmod	7:nmod	Gloss=John (the Baptist)
 9	7	ocus 2	CCONJ	conjunction	_	12	cc	12:cc	Gloss=coordinating: and, since
-10	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	12	cop	12:cop	Gloss=to be
-11	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	12	nmod	12:nmod	Gloss=it
-12	tosach	tosach	NOUN	noun	Case=Nom|Number=Sing	5	conj	5:conj	Gloss=beginning, precedence
+10	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	11	cop	11:cop	Gloss=to be
+11	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	5	conj	5:conj	Gloss=it
+12	tosach	tosach	NOUN	noun	Case=Nom|Number=Sing	11	nsubj	11:nsubj	Gloss=beginning, precedence
 13	preceptae	preicept	NOUN	noun	Case=Gen|Number=Sing	12	nmod	12:nmod	Gloss=act of teaching or preaching
 14	Críst	Críst	PROPN	proper_noun	Case=Gen|Number=Sing	13	nmod	13:nmod	Gloss=the Anointed, Jesus Christ
 
@@ -1262,3 +1262,196 @@
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	0	root	X	Gloss=to do, to make
 3	petur	Petar	PROPN	proper_noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=Peter
+
+# sent_id = S0050-79-infixed pronoun
+# text = .i. intan nonnguirtherni
+# text_en = that is, when we are warmed
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2-3	intan	_	_	_	_	_	_	_	_
+2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	0	root	X	Gloss=time
+4-7	nonnguirtherni	_	_	_	_	_	_	_	_
+4	no	no·	SCONJ	particle_preverb	_	6	mark:prt	X	Gloss=empty particle
+5	nn·	1pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	6	inf:obj	X	Gloss=we, us, ourselves
+6	·guirther	guirid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelForm=Nas	3	acl:relcl	X	Gloss=to warm, to burn
+7	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	6	nsubj	X	Gloss=emphasising particle
+
+# sent_id = S0050-80
+# text = .i. echtar comairbirt mbiuth pecthæ hirobammar
+# text_en = that is, outside the practice of the sins wherein we had been
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	echtar	echtar	ADP	preposition	Case=Acc	3	case	X	Gloss=outside, without
+3	comairbirt	comairbert	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=mode, manner of life; sustenance
+4	mbiuth	biuth	NOUN	noun	Case=Dat|Number=Sing	3	nmod	X	Gloss=world
+5	pecthæ	peccad	NOUN	noun	Case=Gen|Number=Plur	3	nmod	X	Gloss=sin
+6-7	hirobammar	_	_	_	_	_	_	_	_
+6	hi·	i	ADP	preposition	Case=Dat	7	obl:prep	X	Gloss=in, into
+7	ro·bammar	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to be, to exist,
+
+# sent_id = S0050-81
+# text = .i. is ed [ainm] setche samsóin
+# text_en = That is, this is the name of Samson's wife.
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	0	root	X	Gloss=it
+4	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=name, noun (gramm)
+5	setche	séitig	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=wife
+6	samsóin	Samsón	PROPN	proper_noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=Samson
+
+# sent_id = S0050-82
+# text = .i. síthal
+# text_en = that is, bucket
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	síthal	síthal	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=a vessel for drawing water, a bucket
+
+# sent_id = S0050-83
+# text = [.i.] [in]linn l[ech]daigthe
+# text_en = that is, the limpid fluid
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2-3	[in]linn	_	_	_	_	_	_	_	_
+2	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	linn	lind 1	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	0	root	X	Gloss=pool, lake, sea, ocean
+4	lechdaigthe	lechdaigthe	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	3	amod	X	Gloss=liquid
+
+# sent_id = S0050-84-false ellipsis
+# text = .i. inna brodscuad anglana .i. doninola as[cech]... frie
+# text_en = that is, the unclean refuse, namely, which it collects from every ... to it
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	brodscuad	brodscuad	NOUN	noun	Case=Nom|Number=Plur|Gender=Neut|Definite=Def	0	root	X	Gloss=refuse, rubbish
+4	anglana	anglan	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut	3	amod	X	Gloss=impure
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	do·ninola	do·inóla	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	3	conj	X	Gloss=to gather, to collect, to assemble,to muster
+7-8	as[cech]...	_	_	_	_	_	_	_	_
+7	as	a 7	ADP	preposition	Case=Dat	8	case	X	Gloss=out of, from
+8	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|PronType=Tot	6	det	X	Gloss=every, each, all, any
+9	frie	fri	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	6	obl:prep	X	Gloss=towards, against, standard of comparison
+
+# sent_id = S0050-85-false ellipsis
+# text = .i. honglaini inchamul... inna ilslogu .i. na ilflistim .. hoglaini inchamul
+# text_en = That is, with the jawbone of the camel (he laid low) the many hosts, namely, the many Philistines with the camel's jawbone.
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2-4	honglaini	_	_	_	_	_	_	_	_
+2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
+3	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
+4	glaini	glaine 2	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	0	root	X	Gloss=jawbone, jaw
+5-6	inchamul	_	_	_	_	_	_	_	_
+5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
+6	chamul	camall	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	4	nmod	X	Gloss=camel
+7	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
+8	ilslogu	il-ṡlóig	NOUN	noun	Case=Acc|Number=Plur|Definite=Def	4	orphan	X	Gloss=many hosts
+9	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
+10	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
+11	ilflistim	Il-ḟlistim	NOUN	noun	Case=Acc|Number=Plur|Definite=Def	8	conj	X	Gloss=many Philistines
+12	ho	ó 1	ADP	preposition	Case=Dat	13	case	X	Gloss=from, out of, by
+13	glaini	glaine 2	NOUN	noun	Case=Dat|Number=Sing	11	orphan	X	Gloss=jawbone, jaw
+14	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	15	det	X	Gloss=the
+15	chamul	camall	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	13	nmod	X	Gloss=camel
+
+# sent_id = S0050-86
+# text = .i. ba bés leusom dobertis daboc leu dochum tempuil 7 noleicthe indalanái fon díthrub co pecad in popuil 7 dobertis maldachta foir 7 no[o]ircthe didiu [an]d op[opul] tarcenn ap[ecthae] indaile
+# text_en = That is, it was a custom they had: two he-goats used to be brought by them to the Temple and one of the two of them was let go to the wilderness with the sin of the people and curses were put upon him and the other, however, was slain there by the people for its sins.
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	bés	bés 1	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
+4-5	leusom	_	_	_	_	_	_	_	_
+4	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	5	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+5	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	3	obl	X	Gloss=emphasising particle
+6	do·bertis	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	3	parataxis	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+7-8	daboc	_	_	_	_	_	_	_	_
+7	da	da	NUM	adjective_numeral	Case=Nom|Gender=Masc	8	nummod	X	Gloss=two
+8	boc	bocc	NOUN	noun	Case=Nom	6	nsubj	X	Gloss=he-goat, buck
+9	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	6	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+10	dochum	dochumm	ADP	preposition	Case=Gen	11	case	X	Gloss=to, towards, in order to
+11	tempuil	tempul	NOUN	noun	Case=Gen|Number=Sing	6	obl	X	Gloss=temple, church
+12	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
+13	no·leicthe	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	6	conj	X	Gloss=to leave (behind), to allow to remain; to let go, to release
+14-16	indalanái	_	_	_	_	_	_	_	_
+14	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	15	det	X	Gloss=the
+15	ala	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Neut|Definite=Def	13	nsubj	X	Gloss=the other, one another ; else; second
+16	nái	3pl.indp.pron.	PRON	pronoun_independent	Case=Gen|PronType=Prs|Person=3	15	nmod	X	Gloss=they, them
+17-18	fon	_	_	_	_	_	_	_	_
+17	fo	fo	ADP	preposition	Case=Dat	19	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+18	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	19	det	X	Gloss=the
+19	díthrub	díthreb	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	13	obl	X	Gloss=wilderness, desert
+20	co	co 2	ADP	preposition	Case=Dat	21	case	X	Gloss=with, general accompaniment, connection, attendant circumstances
+21	pecad	peccad	NOUN	noun	Case=Dat|Number=Sing	13	obl	X	Gloss=sin
+22	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	23	det	X	Gloss=the
+23	popuil	popul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	21	nmod	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+24	7	ocus 2	CCONJ	conjunction	_	25	cc	X	Gloss=coordinating: and, since
+25	do·bertis	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	13	conj	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+26	maldachta	maldacht	NOUN	noun	Case=Nom|Number=Plur	25	nsubj	X	Gloss=curse, malediction
+27	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	25	obl:prep	X	Gloss=upon, over, on
+28	7	ocus 2	CCONJ	conjunction	_	29	cc	X	Gloss=coordinating: and, since
+29	no·oircthe	orgaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	6	conj	X	Gloss=to kill, to despoil, to slay
+30	didiu	didiu	ADV	particle_discourse	_	29	advmod	X	Gloss=in logical sequence, drawing a conclusion: therefore, then; referring to preceding, introducing additional detail or explanation; hence
+31	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	29	obl:prep	X	Gloss=in, into
+32-33	op[opul]	_	_	_	_	_	_	_	_
+32	o	ó 1	ADP	preposition	Case=Dat	33	case	X	Gloss=from, out of, by
+33	popul	popul	NOUN	noun	Case=Dat|Number=Sing	29	obl	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+34-35	tarcenn	_	_	_	_	_	_	_	_
+34	tar	tar 1	ADP	preposition	Case=Acc	35	case	X	Gloss=over, across, covering
+35	cenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	29	obl	X	Gloss=head; end-point, termination, exchange, purchase
+36-37	ap[ecthae]	_	_	_	_	_	_	_	_
+36	a	3pl.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	37	nmod:poss	X	Gloss=their
+37	pecthae	peccad	NOUN	noun	Case=Gen|Number=Plur	33	nmod	X	Gloss=sin
+38-39	indaile	_	_	_	_	_	_	_	_
+38	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	39	det	X	Gloss=the
+39	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Neut|Definite=Def	29	nsubj	X	Gloss=other, another, else, second
+
+# sent_id = S0050-87
+# text = .i. [es]fóite .i. is airi asberthe emisarius don buc stóridiu .i. airindí asfóite fon díthrub
+# text_en = That is, which is sent; that is, it is for this that the historical (i.e. “literal” [?]) he-goat used to be called emissarius, namely, because [of the fact that] it used to be sent to the wilderness.
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2-3	[es]fóite	_	_	_	_	_	_	_	_
+2	es	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	3	cop	X	Gloss=to be
+3	fóite	foíte	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	0	root	X	Gloss=sent
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
+6	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	3	conj	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+7	as·berthe	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	6	csubj:cleft	X	Gloss=to say, to speak, to call , mention
+8	emisarius	emissarius	NOUN	noun	_	7	nsubj	X	Gloss=emissary, envoy
+9-10	don	_	_	_	_	_	_	_	_
+9	do	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
+10	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
+11	buc	bocc	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	7	obl	X	Gloss=he-goat, buck
+12	stóridiu	stoiride	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc	11	amod	X	Gloss=historical, material, actual
+13	.i.	.i.	CCONJ	abbreviation	_	16	cc	X	Gloss=id est, it is
+14-16	airindí	_	_	_	_	_	_	_	_
+14	air	ar 1	ADP	preposition	Case=Dat	16	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+15	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	16	det	X	Gloss=the
+16	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut|Definite=Def	6	conj	X	Gloss=substantivizing particle
+17-18	asfóite	_	_	_	_	_	_	_	_
+17	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	18	cop	X	Gloss=to be
+18	fóite	foíte	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	16	acl	X	Gloss=sent
+19-20	fon	_	_	_	_	_	_	_	_
+19	fo	fo	ADP	preposition	Case=Dat	21	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+20	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	21	det	X	Gloss=the
+21	díthrub	díthreb	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	18	obl	X	Gloss=wilderness, desert
+
+# sent_id = S0050-88
+# text = adchos[a]ire .i. adchois maldacht in popoil foir
+# text_en = averter, namely, the one who averts on himself the curse of the people
+1	adchosaire	adchosaire	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=averter
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	ad·chois	adchois [?]	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	1	conj	X	Gloss=??
+4	maldacht	maldacht	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=curse, malediction
+5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
+6	popoil	popul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	4	nmod	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+7	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	X	Gloss=upon, over, on
+
+# sent_id = S0050-89
+# text = .i. ishé tíntud indí as barabas magister eorum
+# text_en = That is, “their master” is the interpretation of the [word] which is “Barabas”.
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2-3	ishé	_	_	_	_	_	_	_	_
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	4	nmod	X	Gloss=he, him, it
+4	tíntud	tintúd	NOUN	verbal_noun	Case=Nom|Number=Sing	0	root	X	Gloss=the act of returning, translating; conversion, translation, recalling
+5-6	indí	_	_	_	_	_	_	_	_
+5	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
+6	í	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Neut|Definite=Def	4	nmod	X	Gloss=substantivizing particle
+7	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	8	cop	X	Gloss=to be
+8	barabas	Barabbas	PROPN	proper_noun	_	6	acl:relcl	X	Gloss=Barabas
+9	magister	magister	NOUN	noun	_	4	nsubj	X	Gloss=teacher, master
+10	eorum	is (Lat)	PRON	pronoun_independent	Case=Gen|Number=Plur|Gender=Masc|PronType=Prs	9	nmod:poss	X	Gloss=he, it, him, she, her, they, them
