@@ -419,7 +419,12 @@ def changeid(sent):
                 elif w['upos'] != 'PUNCT':
                     
                      w['id'] += len(punctseen)
-                     
+
+                     if isinstance(w['head'], int):
+
+                        w['head'] += len(punctseen)
+
+
     return sent, punctseen
 
 def changechunkids(sent):
@@ -446,8 +451,8 @@ def automate_insertion(list_of_sentences):
 
 def do_all(fileout, list_of_sentences):
 
-    [fill_deps_in(sent) for sent in list_of_sentences]
     automate_insertion(list_of_sentences)
+    [fill_deps_in(sent) for sent in list_of_sentences]
 
     with open(fileout, 'w', encoding='utf-8') as file_out:
 
