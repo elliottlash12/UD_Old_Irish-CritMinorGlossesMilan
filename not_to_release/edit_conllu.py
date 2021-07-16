@@ -392,18 +392,21 @@ def changeid(sent):
     #Remember to replace with original punctuation after changings ids.
     
     punctseen=[] #A list of the punctuation marks that have been seen by the loop.
+    headseen=[] #remember to remove
 
     for c, w in enumerate(sent): #Goes through morphs in a sentence.
 
         if punctseen == []: #Checks whether no punctuation marks have been seen yet.
 
             if w['upos'] != 'PUNCT': #If the current word is not a punctuation mark
-                
-                pass #Do nothing
 
+                if isinstance (w['head'], int):
+                    currenthead = [w['head'], w['head']]
+                    headseen.append(currenthead)
+                    
             elif w['upos'] == 'PUNCT': #If the current word is a punctuation mark
 
-                changepunct(sent)
+                changepunct(sent) 
                 punctseen.append(w) #Add the punctuation mark to the list of punctuation marks.
 
         elif punctseen != []: #Checks if at least one punctuation mark has been seen.
@@ -420,12 +423,30 @@ def changeid(sent):
                     
                      w['id'] += len(punctseen)
 
-                     if isinstance(w['head'], int):
+                     if isinstance(w['head'], int) and w['head'] < punctseen[0]['id']:
 
-                        w['head'] += len(punctseen)
+                        currenthead = [w['head'], w['head']]
+                        headseen.append(currenthead)
+                        
+                     elif isinstance(w['head'], int) and w['head'] >= punctseen[0]['id']:
 
-
-    return sent, punctseen
+                         for head in headseen:
+                             intlist = []
+                             
+                             if w['head'] == head[0]:
+                                 
+                                 w['head'] = head[1]
+                                 break
+                                
+                             elif w['head'] != head[0]:
+                                 
+                                 newhead = [w['head'], w['head'] + len(punctseen)]
+                                 w['head'] = newhead[1]
+                                 headseen.append(newhead)
+                                 break
+                             
+                                 
+    return sent, punctseen, headseen #remember to remove headseen
 
 def changechunkids(sent):
     chunks = checkchunkorder(sent)
@@ -433,7 +454,16 @@ def changechunkids(sent):
         chunk[0]['id'] = (chunk[1]['id'], '-', chunk[-1]['id'])
         del chunk[0]['interim']
 
-
+def testing(sent):
+    accumulatedlist = insert_chunks(sent)
+    reassignids(sent)
+    sortsent(sent)
+    allchunks=checkchunkorder(sent)
+    changechunkorder(allchunks, sent)
+    sent,punctseen,headseen=changeid(sent)
+    changechunkids(sent)
+    return accumulatedlist,allchunks,punctseen,headseen
+    
 def automate_insertion(list_of_sentences):
 
     for sent in list_of_sentences:
@@ -443,7 +473,7 @@ def automate_insertion(list_of_sentences):
         sortsent(sent)
         allchunks=checkchunkorder(sent)
         changechunkorder(allchunks, sent)
-        sent,punctseen=changeid(sent)
+        sent,punctseen,headseen=changeid(sent)
         changechunkids(sent)
 
     return list_of_sentences, accumulatedlist
