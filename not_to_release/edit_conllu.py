@@ -402,7 +402,7 @@ def changeid(sent):
 
                 if isinstance (w['head'], int):
                     currenthead = [w['head'], w['head']]
-                    headseen.append(currenthead)
+                    headseen.append(currenthead) #Adds the current head (a pair consisting of the word's head value twice) to the list of heads.
                     
             elif w['upos'] == 'PUNCT': #If the current word is a punctuation mark
 
@@ -423,28 +423,38 @@ def changeid(sent):
                     
                      w['id'] += len(punctseen)
 
-                     if isinstance(w['head'], int) and w['head'] < punctseen[0]['id']:
+                     if isinstance(w['head'], int) and w['head'] < punctseen[0]['id']: #Checks to see if the head is before the first punctuation mark.
 
                         currenthead = [w['head'], w['head']]
                         headseen.append(currenthead)
                         
-                     elif isinstance(w['head'], int) and w['head'] >= punctseen[0]['id']:
+                     elif isinstance(w['head'], int) and w['head'] >= punctseen[0]['id']: #Checks to see if the head is after the first punctuation mark.
 
                          for head in headseen:
-                             intlist = []
-                             
-                             if w['head'] == head[0]:
+
+                             if w['head'] == head[0]: #If the head of the current word is already in the list of heads
                                  
-                                 w['head'] = head[1]
+                                 w['head'] = head[1] #Change the head of the current word to the second value in the current head pair, where the head pair = value 1,value2.
                                  break
                                 
-                             elif w['head'] != head[0]:
-                                 
-                                 newhead = [w['head'], w['head'] + len(punctseen)]
-                                 w['head'] = newhead[1]
-                                 headseen.append(newhead)
+                             elif w['head'] != head[0] and w['head'] > headseen[-1][0]: #If the head of the current word is not in the list of heads and it is larger than value of the first member of the last pair in the list of heads.
+                                                                                        #This ensures that current word's head value is sequentially after all of the heads in the list of heads.
+                                 newhead = [w['head'], w['head'] + len(punctseen)]      #The new head pair is the old head value of the current word and that plus the current length of punctseen.
+                                 w['head'] = newhead[1]                                 #The new head value of the current words is the second member of the pair defined in newhead.
+                                 headseen.append(newhead)                               #newhead is added to the list of heads.
                                  break
-                             
+
+                             elif w['head'] != head[0] and w['head'] < headseen[-1][0]: #This checks to see if the head of the current word is sequentially before all of the heads in the list of heads.
+
+                                 for p in punctseen:                                    #Goes through punctseeen.
+
+                                     if p['id'] > w['head']:                            #Finds a punctuation mark with an id greater than the head of the current word.
+
+                                        newhead = [w['head'], w['head'] + (punctseen.index(p) + 1)] #Makes the new head a pair
+                                        w['head'] = newhead[1]
+                                        headseen.append(newhead)
+                                        break
+                                 break
                                  
     return sent, punctseen, headseen #remember to remove headseen
 
