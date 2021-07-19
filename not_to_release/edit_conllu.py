@@ -93,7 +93,8 @@ def new_sentences_list(filename):
 #This function fills the deps column in the conllu file.
 def fill_deps_in(a_sentence):
     for word in a_sentence:
-        word['deps'] = f"{word['head']}:{word['deprel']}"
+        if isinstance(word['id'], int):
+            word['deps'] = f"{word['head']}:{word['deprel']}"
 
 
 #The following function moves various counters  (morph_y, word_y) forward and resets test strings (accalt and acc)
