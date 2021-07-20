@@ -93,7 +93,7 @@ def new_sentences_list(filename):
 #This function fills the deps column in the conllu file.
 def fill_deps_in(a_sentence):
     for word in a_sentence:
-        if isinstance(word['id'], int):
+        if isinstance(word['id'], int) and 'PUNCT' not in word['upos']:
             word['deps'] = f"{word['head']}:{word['deprel']}"
 
 
@@ -144,13 +144,13 @@ def check_concatenations3(list_of_words, list_of_morphs, sentence):
     morph_y = 0 # "
     tij = [] # initialization
     accumulated = '' # empty accumulated string
-    currentact = []
+ #   currentact = []
 
     for j in range(len(morphs)): # loops over every morph
 
         accumulated += morphs[j]
-        currentact.append(({'accumulated':accumulated, 'current_morph':morphs[j], 'currentword':words[word_y], 'word_y':word_y, 'morph_y':morph_y, 'j':j})) #This keeps track of all the morphs and words that pass through the iterator.
-
+#        currentact.append(({'accumulated':accumulated, 'current_morph':morphs[j], 'currentword':words[word_y], 'word_y':word_y, 'morph_y':morph_y, 'j':j})) #This keeps track of all the morphs and words that pass through the iterator.
+#Insert currentact for testing.
         if accumulated.casefold() == words[word_y].casefold(): # Test to see if a concatenated string matches a word in a sentence.
 
             morph_y, word_y, accumulated, tij = tijappend(morph_y, tij, word_y, j, morphs, accumulated)
@@ -206,7 +206,7 @@ def check_concatenations3(list_of_words, list_of_morphs, sentence):
                     morph_y = j+1
                     word_y += 1
 
-    return tij, currentact
+    return tij #insert currentact for testing
 
 #The above function does not add trailing punctuation. It's probably because they are beyond range(len(morphs)).
 #There is still some issue with sentence count 67. There are also data problems in count 58, 52, 47, 46, 29.
@@ -221,19 +221,19 @@ def getpunct(sent):
     newstring = re.sub(' ([.,·]) ', r' \1punct ', sentencestring) #Substitutes the punctuation marks in a string with interim alphanumeric characters for search purposes.
     finallist = []
 
-    for w in newstring.split(): #Iterates through a string
+    for word in newstring.split(): #Iterates through a string
 
-        if w.endswith('punct'): #Finds punctuation marks
+        if word.endswith('punct'): #Finds punctuation marks
 
-            wstart = w[:-5] #Gets rid of the interim marker of punctuation (i.e. "punct")
+            wordstart = word[:-5] #Gets rid of the interim marker of punctuation (i.e. "punct")
 
-            for p in punctlist: #Goes through the list of punctuation marks
+            for punct in punctlist: #Goes through the list of punctuation marks
 
-                if p[0] == wstart: #Checks if the current punctuation mark in the text string is the same as the current item in the list of punctuation marks.
+                if punct[0] == wordstart: #Checks if the current punctuation mark in the text string is the same as the current item in the list of punctuation marks.
 
-                    w = p[1] + 'p' #Creates a alphanumeric version of the punctuation mark.
+                    word = punct[1] + 'p' #Creates a alphanumeric version of the punctuation mark.
 
-        finallist.append(w) #Creates a list of words which includes the alphanumeric versions of punctuation marks.
+        finallist.append(word) #Creates a list of words which includes the alphanumeric versions of punctuation marks.
 
     return finallist
 
@@ -251,7 +251,7 @@ def insert_chunks(sent):
         list_of_words = getpunct(sent) #Creates a list of words with alphanumeric versions of punctuation marks.
         list_of_morphs.append((word['form'], word['id'])) #Creates a list of morphs.
 
-    tij, currentact = check_concatenations3(list_of_words, list_of_morphs, sent)
+    tij = check_concatenations3(list_of_words, list_of_morphs, sent) #insert currentact for testing.
 
     for word in sent:
 
@@ -267,7 +267,7 @@ def insert_chunks(sent):
 
         cnt += 1
 
-    return currentact
+    return #insert currentact for testing.
 
 
 #The following function creates interim ids for newly added concatenated string. This is necessary because concatenated strings always have a tuple as an id but this is not conducive to comparison
@@ -371,131 +371,155 @@ def changechunkorder(allchunks, sentence):
 
             pass
 
+
+#The following function replaces placeholder punctuation marks with actual punctuation marks.
 def changepunct(sent):
     
     punctlist = [('.', 'pp'), (',', 'cp'), ('·', 'rp')]
     
-    for w in sent:
+    for word in sent:
 
-        if w['upos'] == 'PUNCT':
+        if word['upos'] == 'PUNCT':
 
-            for p in punctlist:
+            for punct in punctlist:
                 
-                if w['form'] in p[1]:
+                if word['form'] in punct[1]:
                     
-                    w['form'] = p[0]
-                    w['lemma'] = p[0]
+                    word['form'] = punct[0]
+                    word['lemma'] = punct[0]
+
+
+#The following function inserts 'old_head' and 'old_id' dictionary pairs.
+
+def assign_old_stuff(word):
+
+    if not word.get('interim'):
+
+        word['old_head'] = word['head']
+        word['old_id'] = word['id']
+
+    else:
+
+        pass
 
 
 #The following function changes ids of morphs in the sentence. This is necessary because sentences might have a newly inserted punctuation mark that messes up the original id numbers.
 
-def changeid(sent):
+def changeid2(sent):
     #Remember to replace with original punctuation after changings ids.
-    
-    punctseen=[] #A list of the punctuation marks that have been seen by the loop.
-    headseen=[] #remember to remove
 
-    for c, w in enumerate(sent): #Goes through morphs in a sentence.
+    punctseen=[] #A list of the punctuation marks that have been seen by the loop.
+
+    for word in sent: #Goes through morphs in a sentence.
 
         if punctseen == []: #Checks whether no punctuation marks have been seen yet.
 
-            if w['upos'] != 'PUNCT': #If the current word is not a punctuation mark
+            if word['upos'] != 'PUNCT': #If the current word is not a punctuation mark
 
-                if isinstance (w['head'], int):
-                    currenthead = [w['head'], w['head']]
-                    headseen.append(currenthead) #Adds the current head (a pair consisting of the word's head value twice) to the list of heads.
-                    
-            elif w['upos'] == 'PUNCT': #If the current word is a punctuation mark
+                assign_old_stuff(word)
 
-                changepunct(sent) 
-                punctseen.append(w) #Add the punctuation mark to the list of punctuation marks.
+            elif word['upos'] == 'PUNCT': #If the current word is a punctuation mark
+
+                changepunct(sent)
+                punctseen.append(word) #Add the punctuation mark to the list of punctuation marks.
 
         elif punctseen != []: #Checks if at least one punctuation mark has been seen.
 
-            if len(punctseen) >= 1 and isinstance(w['id'], int): #Consider removing isinstance.
-                
-                if w['upos'] == 'PUNCT':
+            if len(punctseen) >= 1 and isinstance(word['id'], int): #Consider removing isinstance.
 
-                    w['id'] += len(punctseen)
+                if word['upos'] == 'PUNCT':
+
+                    word['id'] += len(punctseen)
                     changepunct(sent)
-                    punctseen.append(w)
+                    punctseen.append(word)
 
-                elif w['upos'] != 'PUNCT':
-                    
-                     w['id'] += len(punctseen)
+                elif word['upos'] != 'PUNCT':
 
-                     if isinstance(w['head'], int) and w['head'] < punctseen[0]['id']: #Checks to see if the head is before the first punctuation mark.
+                    assign_old_stuff(word)
+                    word['id'] += len(punctseen)
 
-                        currenthead = [w['head'], w['head']]
-                        headseen.append(currenthead)
-                        
-                     elif isinstance(w['head'], int) and w['head'] >= punctseen[0]['id']: #Checks to see if the head is after the first punctuation mark.
+    return #insert sent and punctseen for testing
 
-                         for head in headseen:
 
-                             if w['head'] == head[0]: #If the head of the current word is already in the list of heads
-                                 
-                                 w['head'] = head[1] #Change the head of the current word to the second value in the current head pair, where the head pair = value 1,value2.
-                                 break
-                                
-                             elif w['head'] != head[0] and w['head'] >= headseen[-1][0]: #If the head of the current word is not in the list of heads and it is larger than value of the first member of the last pair in the list of heads.
-                                                                                        #This ensures that current word's head value is sequentially after all of the heads in the list of heads.
-                                 newhead = [w['head'], w['head'] + len(punctseen)]      #The new head pair is the old head value of the current word and that plus the current length of punctseen.
-                                 w['head'] = newhead[1]                                 #The new head value of the current words is the second member of the pair defined in newhead.
-                                 headseen.append(newhead)                               #newhead is added to the list of heads.
-                                 break
+#The following function changes the head dictionary pair.
 
-                             elif w['head'] != head[0] and w['head'] < headseen[-1][0]: #This checks to see if the head of the current word is sequentially before all of the heads in the list of heads.
+def change_head(sent):
 
-                                 for p in punctseen:                                    #Goes through punctseeen.
+    words = []
+    ignore_list = []
 
-                                     if p['id'] >= w['head']:                            #Finds a punctuation mark with an id greater than the head of the current word.
+    for word in sent:
 
-                                        newhead = [w['head'], w['head'] + (punctseen.index(p) + 1)] #Makes the new head a pair
-                                        w['head'] = newhead[1]
-                                        headseen.append(newhead)
-                                        break
+        if isinstance(word['head'], int):
 
-                                     elif p['id'] < w['head']:
+            words.append(word)
 
-                                        newhead = [w['head'], w['head'] + len(punctseen)]
-                                        w['head'] = newhead[1]
-                                        headseen.append(newhead)
-                                        break
+    combo=list(itertools.combinations(words, 2))
 
-                                 break
-                                 
-    return sent, punctseen, headseen #remember to remove headseen
+    for c in combo:
 
+        if c[0] in ignore_list:
+
+            pass
+
+        elif c[0] not in ignore_list:
+
+            if c[0]['old_head'] == c[1]['old_id']:
+
+                c[0]['head'] = c[1]['id']
+                ignore_list.append(c[0])
+
+#                print(c[0], c[1], '*****ab')
+
+            elif c[0]['old_id'] == c[1]['old_head']:
+
+                c[1]['head'] = c[0]['id']
+
+#                print(c[0], c[1], '*****ba')
+
+
+#The following function removes 'old_id' and 'old_head' dictionary pairs
+
+def del_old_stuff(sent):
+
+    for word in sent:
+
+        if word.get('old_id') or word.get('old_head'):
+
+            del word['old_id']
+            del word['old_head']
+
+#The following function changes ids of morphs in the sentence. This is necessary because sentences might have a newly inserted punctuation mark that messes up the original id numbers.
+
+
+#The following function removes the 'interim' dictionary pair from inserted chunks.
 def changechunkids(sent):
+
     chunks = checkchunkorder(sent)
+
     for chunk in chunks:
+
         chunk[0]['id'] = (chunk[1]['id'], '-', chunk[-1]['id'])
         del chunk[0]['interim']
 
-def testing(sent):
-    accumulatedlist = insert_chunks(sent)
-    reassignids(sent)
-    sortsent(sent)
-    allchunks=checkchunkorder(sent)
-    changechunkorder(allchunks, sent)
-    sent,punctseen,headseen=changeid(sent)
-    changechunkids(sent)
-    return accumulatedlist,allchunks,punctseen,headseen
     
 def automate_insertion(list_of_sentences):
 
+    accumulatedlist = []
+
     for sent in list_of_sentences:
 
-        accumulatedlist = insert_chunks(sent)
+        insert_chunks(sent) #insert accumulatedlist for testing)
         reassignids(sent)
         sortsent(sent)
-        allchunks=checkchunkorder(sent)
+        allchunks = checkchunkorder(sent)
         changechunkorder(allchunks, sent)
-        sent,punctseen,headseen=changeid(sent)
+        changeid2(sent) #insert sent,punctseen for testing
         changechunkids(sent)
+        change_head(sent)
+        del_old_stuff(sent)
 
-    return list_of_sentences, accumulatedlist
+    return list_of_sentences #insert accumulatedlist for testing
 
 
 def do_all(fileout, list_of_sentences):
@@ -551,6 +575,95 @@ def mutation_finder(sentence_num, a_sentence):
             print(f"{word} in sentence {sentence_num+1} is geminated!")
 
 
+def changeid(sent):
+    #Remember to replace with original punctuation after changings ids.
+
+    punctseen=[] #A list of the punctuation marks that have been seen by the loop.
+    headseen=[] #remember to remove
+
+    for c, w in enumerate(sent): #Goes through morphs in a sentence.
+
+        if punctseen == []: #Checks whether no punctuation marks have been seen yet.
+
+            if w['upos'] != 'PUNCT': #If the current word is not a punctuation mark
+
+                if isinstance (w['head'], int):
+                    currenthead = [w['head'], w['head']]
+                    headseen.append(currenthead) #Adds the current head (a pair consisting of the word's head value twice) to the list of heads.
+
+            elif w['upos'] == 'PUNCT': #If the current word is a punctuation mark
+
+                changepunct(sent)
+                punctseen.append(w) #Add the punctuation mark to the list of punctuation marks.
+
+        elif punctseen != []: #Checks if at least one punctuation mark has been seen.
+
+            if len(punctseen) >= 1 and isinstance(w['id'], int): #Consider removing isinstance.
+
+                if w['upos'] == 'PUNCT':
+
+                    w['id'] += len(punctseen)
+                    changepunct(sent)
+                    punctseen.append(w)
+
+                elif w['upos'] != 'PUNCT':
+
+                     w['id'] += len(punctseen)
+
+                     if isinstance(w['head'], int) and w['head'] < punctseen[0]['id']: #Checks to see if the head is before the first punctuation mark.
+
+                        currenthead = [w['head'], w['head']]
+                        headseen.append(currenthead)
+
+                     elif isinstance(w['head'], int) and w['head'] >= punctseen[0]['id']: #Checks to see if the head is after the first punctuation mark.
+
+                         for head in headseen:
+
+                             if w['head'] == head[0]: #If the head of the current word is already in the list of heads
+
+                                 w['head'] = head[1] #Change the head of the current word to the second value in the current head pair, where the head pair = value 1,value2.
+                                 break
+
+                             elif w['head'] != head[0] and w['head'] >= headseen[-1][0]: #If the head of the current word is not in the list of heads and it is larger than value of the first member of the last pair in the list of heads.
+                                                                                        #This ensures that current word's head value is sequentially after all of the heads in the list of heads.
+                                 newhead = [w['head'], w['head'] + len(punctseen)]      #The new head pair is the old head value of the current word and that plus the current length of punctseen.
+                                 w['head'] = newhead[1]                                 #The new head value of the current words is the second member of the pair defined in newhead.
+                                 headseen.append(newhead)                               #newhead is added to the list of heads.
+                                 break
+
+                             elif w['head'] != head[0] and w['head'] < headseen[-1][0]: #This checks to see if the head of the current word is sequentially before all of the heads in the list of heads.
+
+                                 for p in punctseen:                                    #Goes through punctseeen.
+
+                                     if p['id'] >= w['head']:                            #Finds a punctuation mark with an id greater than the head of the current word.
+
+                                        newhead = [w['head'], w['head'] + (punctseen.index(p) + 1)] #Makes the new head a pair
+                                        w['head'] = newhead[1]
+                                        headseen.append(newhead)
+                                        break
+
+                                     elif p['id'] < w['head']:
+
+                                        newhead = [w['head'], w['head'] + len(punctseen)]
+                                        w['head'] = newhead[1]
+                                        headseen.append(newhead)
+                                        break
+
+                                 break
+
+    return sent, punctseen, headseen #remember to remove headseen
+
+#def testing(sent):
+#
+#    accumulatedlist = insert_chunks(sent)
+#    reassignids(sent)
+#    sortsent(sent)
+#    allchunks = checkchunkorder(sent)
+#    changechunkorder(allchunks, sent)
+#    sent,punctseen = changeid2(sent)
+#    changechunkids(sent)
+#
+#    return accumulatedlist,allchunks,punctseen
 # ========================================================================================================================================================================================================
 # Part 3: Functions that have already been moved into current_conllu_maker.py
 
