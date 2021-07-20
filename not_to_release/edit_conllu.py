@@ -139,7 +139,7 @@ def tijappend(morph_y, tij, word_y, j, morphs, acc, accalt=None):
 def check_concatenations3(list_of_words, list_of_morphs, sentence):
 
     words = [re.sub("[^0-9a-zA-Z_À-ÿ]+", '', x) for x in list_of_words] # uses the regex library to remove all non-alphanumeric characters before comparison
-    morphs = [re.sub("[^0-9a-zA-Z_À-ÿ]+", '', x[0]) for x in list_of_morphs] # "
+    morphs = [re.sub("[^0-9a-zA-Z_À-ÿ]+", '', x[0]) for x in list_of_morphs] # " #This looks at the 'form' column for each morph in the list of morphs.
     word_y = 0 # iterator
     morph_y = 0 # "
     tij = [] # initialization
