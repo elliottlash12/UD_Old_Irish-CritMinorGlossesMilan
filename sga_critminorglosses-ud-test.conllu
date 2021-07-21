@@ -1732,30 +1732,30 @@
 # sent_id = S0050-99
 # text = .i. giulæ
 # text_en = that is, which adhered
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	giulæ	glenaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to adhere, to cleave (intrans) ; trans: to stick to
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	giulæ	glenaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to adhere, to cleave (intrans) ; trans: to stick to
 
 # sent_id = S0050-100
 # text = .i. tanic
 # text_en = That is, he came.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	tanic	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to approach, to come to
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	tanic	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to approach, to come to
 
 # sent_id = S0050-101
 # text = .i. cosinbrosnu resaigthiu · imbed naislinge ón adchondairc som
 # text_en = that is, with the sheaf dreamt of; the abundance of the vision, moreover, that he had beheld
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	cosinbrosnu	_	_	_	_	_	_	_	_
 2	co	co 2	ADP	preposition	Case=Dat	4	case	X	Gloss=with, general accompaniment, connection, attendant circumstances
 3	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	brosnu	brosnae	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	_	_	X	Gloss=bundle of firewood, fuel
-5	resaigthiu	resaigthe	ADJ	verbal_participle	Case=Dat|Number=Sing	_	_	X	Gloss=dreamt of
-6	·	·	PUNCT	punctuation	_	_	_	_	_
-7	imbed	imbed	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=large quantity, abundance, excess, amount, number
-8	naislinge	aislinge	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=vision, dream
-9	ón	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=that (mentioned above) that is
-10	ad·chondairc	ad·cí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	_	_	X	Gloss=to see, to observe
-11	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+4	brosnu	brosnae	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	0	root	X	Gloss=bundle of firewood, fuel
+5	resaigthiu	resaigthe	ADJ	verbal_participle	Case=Dat|Number=Sing	4	amod	X	Gloss=dreamt of
+6	·	·	PUNCT	punctuation	_	_	_	4:punct	_
+7	imbed	imbed	NOUN	noun	Case=Nom|Number=Sing	4	conj	X	Gloss=large quantity, abundance, excess, amount, number
+8	naislinge	aislinge	NOUN	noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=vision, dream
+9	ón	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	7	discourse	X	Gloss=that (mentioned above) that is
+10	ad·chondairc	ad·cí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	7	acl:relcl	X	Gloss=to see, to observe
+11	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	10	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0050-102
 # text = .i. tacmungad [cu]a adbran[n]
