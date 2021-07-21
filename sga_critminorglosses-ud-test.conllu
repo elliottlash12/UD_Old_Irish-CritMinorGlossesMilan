@@ -1760,58 +1760,58 @@
 # sent_id = S0050-102
 # text = .i. tacmungad [cu]a adbran[n]
 # text_en = that is, which reached to his ankle
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	tacmungad	do·acmaing	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to reach, to extend to; to encompass, to include
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	tacmungad	do·acmaing	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to reach, to extend to; to encompass, to include
 3-4	[cu]a	_	_	_	_	_	_	_	_
 3	cu	co 1	ADP	preposition	Case=Acc	5	case	X	Gloss=to, until, as far as, towards
-4	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	5	_	X	Gloss=his, its
-5	adbrann	odbrann	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=ankle
+4	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	5	nmod:poss	X	Gloss=his, its
+5	adbrann	odbrann	NOUN	noun	Case=Acc|Number=Sing	2	obl	X	Gloss=ankle
 
 # sent_id = S0050-103
 # text = .i. fuillechti .i. foselgatar abrathir a tunig som dofuil innaric doib 7 dosbertar dia athir iarum .
 # text_en = That is, smeared; that is, his brothers smeared his coat with blood, upon his being sold by them, and then they took it to his father.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	fuillechti	fuillechtae	ADJ	verbal_participle	Case=Acc|Number=Plur|Gender=Fem	_	_	X	Gloss=smeared, annointed
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	fo·selgatar	fo·slig	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to smear, to overlay
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	fuillechti	fuillechtae	ADJ	verbal_participle	Case=Acc|Number=Plur|Gender=Fem	0	root	X	Gloss=smeared, annointed
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	fo·selgatar	fo·slig	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	2	conj	X	Gloss=to smear, to overlay
 5-6	abrathir	_	_	_	_	_	_	_	_
-5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	brathir	bráthair	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=brother, kinsman, cousin , brother
-7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	8	_	X	Gloss=his, its
-8	tunig	tuinech	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=coat, mantle, covering
-9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+6	brathir	bráthair	NOUN	noun	Case=Nom|Number=Plur	4	nsubj	X	Gloss=brother, kinsman, cousin , brother
+7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	8	nmod:poss	X	Gloss=his, its
+8	tunig	tuinech	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=coat, mantle, covering
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	11	nmod	X	Gloss=emphasising particle
 10-11	dofuil	_	_	_	_	_	_	_	_
 10	do	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
-11	fuil	fuil	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=blood, an effusion of blood
+11	fuil	fuil	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=blood, an effusion of blood
 12-14	innaric	_	_	_	_	_	_	_	_
 12	in	i	ADP	preposition	Case=Dat	14	case	X	Gloss=in, into
-13	na	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	14	_	X	Gloss=his, its
-14	ric	reicc	NOUN	verbal_noun	Case=Dat|Number=Sing	_	_	X	Gloss=the act of selling, bartering
-15	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-16	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-17	dos·bertar	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+13	na	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	14	nmod:poss	X	Gloss=his, its
+14	ric	reicc	NOUN	verbal_noun	Case=Dat|Number=Sing	4	advcl	X	Gloss=the act of selling, bartering
+15	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	14	obl:prep	X	Gloss=to, for, by etc.
+16	7	ocus 2	CCONJ	conjunction	_	17	cc	X	Gloss=coordinating: and, since
+17	dos·bertar	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	4	conj	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 18-19	dia	_	_	_	_	_	_	_	_
 18	di	do 1	ADP	preposition	Case=Dat	20	case	X	Gloss=to, for, by etc.
-19	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	20	_	X	Gloss=his, its
-20	athir	athair	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=father
-21	iarum	íar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	_	_	X	Gloss=after, behind, across, along, beyond, according to
+19	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	20	nmod:poss	X	Gloss=his, its
+20	athir	athair	NOUN	noun	Case=Dat|Number=Sing	17	obl	X	Gloss=father
+21	iarum	íar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	17	obl:prep	X	Gloss=after, behind, across, along, beyond, according to
 
 # sent_id = S0050-104
 # text = .i. indnaithr humaithe thal conocabsa[t] maic israel in diserto
 # text_en = that is, that bronze serpent which the Children of Israel upraised in the desert
-1-2	.i.	_	_	_	_	_	_	_	_
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2-3	indnaithr	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	naithr	nathair	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=snake, serpent
-4	humaithe	umaide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=bronze, brazen, copper
-5	thal	tall	ADV	adverb	_	_	_	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
+3	naithr	nathair	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	0	root	X	Gloss=snake, serpent
+4	humaithe	umaide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	3	amod	X	Gloss=bronze, brazen, copper
+5	thal	tall	ADV	adverb	_	3	advmod	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
 6	th	t-	X	particle_prefix	_	_	_	X	Gloss=“at” + words denoting points on the compass, and words denoting location generally, adverbial prefix
 7	al	ol 1	ADV	adverb	_	_	_	X	Gloss=beyond, than
-8	con·ocabsat	con·ocaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	_	_	X	Gloss=to lift up, to raise, to exalt, to rise, to get up
-9	maic	macc 1	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-10	Israel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Israel
+8	con·ocabsat	con·ocaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	3	acl:relcl	X	Gloss=to lift up, to raise, to exalt, to rise, to get up
+9	maic	macc 1	NOUN	noun	Case=Nom|Number=Plur	8	nsubj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+10	Israel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	9	nmod	X	Gloss=Israel
 11	in	in (Lat)	ADP	preposition	Case=Unk	12	case	X	Gloss=in, into
-12	diserto	dēsertum	NOUN	noun	_	_	_	X	Gloss=desert, wasteland
+12	diserto	dēsertum	NOUN	noun	_	8	obl	X	Gloss=desert, wasteland
 
 # sent_id = S0050-105
 # text = .i. ṁbertatar intaisceltai tall atír tairngeri
