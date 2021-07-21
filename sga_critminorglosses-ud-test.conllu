@@ -1816,81 +1816,82 @@
 # sent_id = S0050-105
 # text = .i. ṁbertatar intaisceltai tall atír tairngeri
 # text_en = that is, which those spies brought out of the land of promise
-1-3	.i.	_	_	_	_	_	_	_	_
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ṁbertatar	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	_	_	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ṁbertatar	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	0	root	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
+3-4	intaisceltai	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	taisceltai	toiscélaid	NOUN	noun	Case=Nom|Number=Plur|Definite=Def	_	_	X	Gloss=observer; spy, scout
-5	tall	tall	ADV	adverb	_	_	_	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
+4	taisceltai	toiscélaid	NOUN	noun	Case=Nom|Number=Plur|Definite=Def	2	nsubj	X	Gloss=observer; spy, scout
+5	tall	tall	ADV	adverb	_	4	advmod	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
+6-7	atír	_	_	_	_	_	_	_	_
 6	a	a 7	ADP	preposition	Case=Dat	7	case	X	Gloss=out of, from
-7	tír	tír	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=land; territory, country; earth, ground
-8	tairngeri	tairngire	NOUN	verbal_noun	Case=Gen|Number=Sing	_	_	X	Gloss=the act of promising; prophecy
+7	tír	tír	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=land; territory, country; earth, ground
+8	tairngeri	tairngire	NOUN	verbal_noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=the act of promising; prophecy
 
 # sent_id = S0050-106
 # text = .i. donbial bed chuintechti .i. docer inbiail dia samthig issammuir 7 focaird eleseus asamthig inna diad 7 doluid inbiail arithissi archenn in samthige comboi impe
 # text_en = That is, to the ax-head that was to be sought; that is, the ax-head fell from its handle into the sea; and Elisha flung its handle after it and the ax-head came again to meet the handle and remained around it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	donbial	_	_	_	_	_	_	_	_
 2	do	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
 3	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	bial	biáil	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	_	_	X	Gloss=axe, hatchet
-5	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Len	_	cop	X	Gloss=to be
-6	chuintechti	cuindechtai	X	verbal_of_necessity	_	_	_	X	Gloss=to be asked for, to be sought
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-8	do·cer	do·tuit 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to fall, to perish
+4	bial	biáil	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	0	root	X	Gloss=axe, hatchet
+5	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Len	6	cop	X	Gloss=to be
+6	chuintechti	cuindechtai	X	verbal_of_necessity	_	4	csubj:cleft	X	Gloss=to be asked for, to be sought
+7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
+8	do·cer	do·tuit 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	conj	X	Gloss=to fall, to perish
 9-10	inbiail	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	28	det	X	Gloss=the
-10	biail	biáil	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=axe, hatchet
+10	biail	biáil	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	8	nsubj	X	Gloss=axe, hatchet
 11-12	dia	_	_	_	_	_	_	_	_
 11	di	di	ADP	preposition	Case=Dat	13	case	X	Gloss=away, from, cause or reason, by
-12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	13	_	X	Gloss=his, its
-13	samthig	samthach	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=axe; axe-handle
+12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	13	nmod:poss	X	Gloss=his, its
+13	samthig	samthach	NOUN	noun	Case=Dat|Number=Sing	8	obl	X	Gloss=axe; axe-handle
 14-16	issammuir	_	_	_	_	_	_	_	_
 14	i	i	ADP	preposition	Case=Acc	16	case	X	Gloss=in, into
 15	ssa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	16	det	X	Gloss=the
-16	mmuir	muir	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	_	_	X	Gloss=sea, tide
-17	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-18	fo·caird	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
-19	eleseus	Eliseus	PROPN	proper_noun	_	_	_	X	Gloss=Elisha
+16	mmuir	muir	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	8	obl	X	Gloss=sea, tide
+17	7	ocus 2	CCONJ	conjunction	_	18	cc	X	Gloss=coordinating: and, since
+18	fo·caird	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	4	conj	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
+19	eleseus	Eliseus	PROPN	proper_noun	_	18	nsubj	X	Gloss=Elisha
 20-21	asamthig	_	_	_	_	_	_	_	_
-20	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	21	_	X	Gloss=his, its
-21	samthig	samthach	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=axe; axe-handle
+20	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	21	nmod:poss	X	Gloss=his, its
+21	samthig	samthach	NOUN	noun	Case=Acc|Number=Sing	18	obj	X	Gloss=axe; axe-handle
 22-23	inna	_	_	_	_	_	_	_	_
 22	in	i	ADP	preposition	Case=Acc	24	case	X	Gloss=in, into
-23	na	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	24	_	X	Gloss=his, its
-24	diad	deäd	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=end, conclusion
-25	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-26	do·luid	do·tét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to come, to touch on, to mention, to go with, to apply to, in incident to, to submit to (with i rréir + gen)
+23	na	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	24	nmod:poss	X	Gloss=his, its
+24	diad	deäd	NOUN	noun	Case=Dat|Number=Sing	18	obl	X	Gloss=end, conclusion
+25	7	ocus 2	CCONJ	conjunction	_	26	cc	X	Gloss=coordinating: and, since
+26	do·luid	do·tét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	18	conj	X	Gloss=to come, to touch on, to mention, to go with, to apply to, in incident to, to submit to (with i rréir + gen)
 27-28	inbiail	_	_	_	_	_	_	_	_
 27	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	28	det	X	Gloss=the
-28	biail	biáil	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=axe, hatchet
+28	biail	biáil	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	26	nsubj	X	Gloss=axe, hatchet
 29-30	arithissi	_	_	_	_	_	_	_	_
-29	a	3sg.fem.poss.pron.	DET	pronoun_possessive	Person=3|Number=Sing|Gender=Fem|Poss=Yes|PronType=Prs	30	_	X	Gloss=her
-30	rithissi	fritheis	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=return track
+29	a	3sg.fem.poss.pron.	DET	pronoun_possessive	Person=3|Number=Sing|Gender=Fem|Poss=Yes|PronType=Prs	30	nmod:poss	X	Gloss=her
+30	rithissi	fritheis	NOUN	noun	Case=Acc|Number=Sing	26	obj	X	Gloss=return track
 31-32	archenn	_	_	_	_	_	_	_	_
 31	ar	ar 1	ADP	preposition	Case=Acc	32	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-32	chenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=head; end-point, termination, exchange, purchase
+32	chenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	26	obl	X	Gloss=head; end-point, termination, exchange, purchase
 33	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	34	det	X	Gloss=the
-34	samthige	samthach	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	_	_	X	Gloss=axe; axe-handle
+34	samthige	samthach	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	32	nmod	X	Gloss=axe; axe-handle
 35-36	comboi	_	_	_	_	_	_	_	_
-35	co·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-36	·mboi	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-37	impe	imm	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	_	_	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
+35	co·	co 4	SCONJ	complementiser	_	36	mark:prt	X	Gloss=so that, until (+independent, leniting)
+36	·mboi	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	26	conj	X	Gloss=to be, to exist,
+37	impe	imm	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	36	obl:prep	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
 
 # sent_id = S0050-107
 # text = .i. di chorcruinn dacer dul issammuir
 # text_en = That is, from casting the lot, it fell to him to go into the sea.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2	di	di	ADP	preposition	Case=Dat	3	case	X	Gloss=away, from, cause or reason, by
 3-4	chorcruinn	_	_	_	_	_	_	_	_
-3	chor	cor	NOUN	verbal_noun	Case=Dat|Number=Sing	_	_	X	Gloss=the act of putting
-4	cruinn	crann	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=tree, wood, mast, lot
-5	da·cer	do·tuit 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to fall, to perish
-6	dul	dul 1	NOUN	verbal_noun	Case=Nom|Number=Sing	_	_	X	Gloss=the act of going; occasion, time, turn, going
+3	chor	cor	NOUN	verbal_noun	Case=Dat|Number=Sing	5	advcl	X	Gloss=the act of putting
+4	cruinn	crann	NOUN	noun	Case=Gen|Number=Sing	3	obj	X	Gloss=tree, wood, mast, lot
+5	da·cer	do·tuit 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to fall, to perish
+6	dul	dul 1	NOUN	verbal_noun	Case=Nom|Number=Sing	5	xcomp	X	Gloss=the act of going; occasion, time, turn, going
 7-9	issammuir	_	_	_	_	_	_	_	_
 7	i	i	ADP	preposition	Case=Acc	9	case	X	Gloss=in, into
 8	ssa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	mmuir	muir	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	_	_	X	Gloss=sea, tide
+9	mmuir	muir	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	5	obl	X	Gloss=sea, tide
 
 # sent_id = S0050-108
 # text = .i. conéicnisset
