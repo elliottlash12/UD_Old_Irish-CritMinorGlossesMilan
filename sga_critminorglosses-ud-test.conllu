@@ -1700,33 +1700,34 @@
 # sent_id = S0050-96
 # text = .i. deus pater ɫ deacht maicc
 # text_en = that is, God, the father; or the Son's Divinity
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	deus	Deus	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=God
-3	pater	pater (Lat)	NOUN	noun	_	_	_	X	Gloss=father
-4	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-5	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=divinity, godhead
-6	maicc	macc 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	deus	Deus	PROPN	proper_noun	Case=Nom|Number=Sing	0	root	X	Gloss=God
+3	pater	pater (Lat)	NOUN	noun	_	2	appos	X	Gloss=father
+4	ɫ	nó 1	CCONJ	conjunction	_	5	cc	X	Gloss=disjunctive: or
+5	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	2	conj	X	Gloss=divinity, godhead
+6	maicc	macc 1	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
 
 # sent_id = S0050-97
 # text = .i. colinn crist madu ruin
 # text_en = that is, the body of Christ, [if it be] according to the secret/mystical (meaning)
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	colinn	colainn	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=flesh, body
-3	crist	Críst	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=the Anointed, Jesus Christ
-4	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-5	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	colinn	colainn	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=flesh, body
+3	crist	Críst	PROPN	proper_noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=the Anointed, Jesus Christ
+4-6 madu	_	_	_	_	_	_	_	_
+4	ma	ma	SCONJ	conjunction	_	7	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+5	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
 6	du	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	ruin	rún	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=mystery, secret
+7	ruin	rún	NOUN	noun	Case=Dat|Number=Sing	2	advcl	X	Gloss=mystery, secret
 
 # sent_id = S0050-98
 # text = .i. isindlosin
 # text_en = that is, on that day
-1-2	.i.	_	_	_	_	_	_	_	_
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2-5 isindlosin	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
 3	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	lo	laë	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	_	_	X	Gloss=day, daytime
-5	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
+4	lo	laë	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	0	root	X	Gloss=day, daytime
+5	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	4	det	X	Gloss=that, those
 
 # sent_id = S0050-99
 # text = .i. giulæ
