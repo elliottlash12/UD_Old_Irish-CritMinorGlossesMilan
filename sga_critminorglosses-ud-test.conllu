@@ -1625,40 +1625,40 @@
 # sent_id = S0050-90
 # text = nephfrithgabthe
 # text_en = unrestrained
-1	nephfrithgabthe	nebḟrithgabthae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=unopposed, unrestrained
+1	nephfrithgabthe	nebḟrithgabthae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	0	root	X	Gloss=unopposed, unrestrained
 
 # sent_id = S0050-91
 # text = .i. donaib caircib .i. ar is dilus bis forsnaib caircib dognither inchorcur buide
 # text_en = That is, of the crags; that is, for it is from a plant that lives on the crags the yellow purple is made.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	donaib	_	_	_	_	_	_	_	_
 2	do	di	ADP	preposition	Case=Dat	4	case	X	Gloss=away, from, cause or reason, by
 3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	caircib	carrac	NOUN	noun	Case=Dat|Number=Plur|Definite=Def	_	_	X	Gloss=rock, large stone ; rock
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	ar	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+4	caircib	carrac	NOUN	noun	Case=Dat|Number=Plur|Definite=Def	0	root	X	Gloss=rock, large stone ; rock
+5	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
+6	ar	ar 2	SCONJ	conjunction	_	9	mark	X	Gloss=causal: since, for; final: so that
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
 8-9	dilus	_	_	_	_	_	_	_	_
 8	di	di	ADP	preposition	Case=Dat	9	case	X	Gloss=away, from, cause or reason, by
-9	lus	lus	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=plant, herb, vegetable
-10	bis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+9	lus	lus	NOUN	noun	Case=Dat|Number=Sing	4	conj	X	Gloss=plant, herb, vegetable
+10	bis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	9	acl:relcl	X	Gloss=to be, to exist,
 11-12	forsnaib	_	_	_	_	_	_	_	_
 11	for	for	ADP	preposition	Case=Dat	13	case	X	Gloss=upon, over, on
 12	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	caircib	carrac	NOUN	noun	Case=Dat|Number=Plur|Definite=Def	_	_	X	Gloss=rock, large stone ; rock
-14	do·gnither	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to do, to make
+13	caircib	carrac	NOUN	noun	Case=Dat|Number=Plur|Definite=Def	10	obl	X	Gloss=rock, large stone ; rock
+14	do·gnither	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin	9	csubj:cleft	X	Gloss=to do, to make
 15-16	inchorcur	_	_	_	_	_	_	_	_
 15	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	16	det	X	Gloss=the
-16	chorcur	corcur	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=dye-plant, crimson cloth, the colour purple, lichen giving crimson dye
-17	buide	buide 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=yellow
+16	chorcur	corcur	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	14	nsubj	X	Gloss=dye-plant, crimson cloth, the colour purple, lichen giving crimson dye
+17	buide	buide 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	16	amod	X	Gloss=yellow
 
 # sent_id = S0050-92
 # text = .i. dodrolluind ... hitosuch
 # text_en = that is, which had denied him ... at first
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	dod·rolluind	do·sluindi	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA|Aspect=Perf|RelType=Other	_	_	X	Gloss=to deny (refuse to believe), to reject; to renounce; to refuse
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	dod·rolluind	do·sluindi	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA|Aspect=Perf|RelType=Other	0	root	X	Gloss=to deny (refuse to believe), to reject; to renounce; to refuse
 3	hi	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
-4	tosuch	tosach	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=beginning, precedence
+4	tosuch	tosach	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=beginning, precedence
 
 # sent_id = S0050-93
 # text = co itirdibither
