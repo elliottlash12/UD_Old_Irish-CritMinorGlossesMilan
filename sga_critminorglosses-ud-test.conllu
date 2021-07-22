@@ -1960,25 +1960,25 @@
 # sent_id = S0050-114
 # text = .i. roglan[ad] ade ho[a] [mulluch] so[m]
 # text_en = That is, it has been cleansed by his crown.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ro·glanad	glanaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to cleanse, to purify, to purge; gramm. to elide; to cleanse, to clear
-3	ade	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=that one, he, she, it, they
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ro·glanad	glanaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to cleanse, to purify, to purge; gramm. to elide; to cleanse, to clear
+3	ade	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Fem	2	nsubj	X	Gloss=that one, he, she, it, they
 4-5	ho[a]	_	_	_	_	_	_	_	_
 4	ho	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
-5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	mulluch	mullach	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=topmost part, top; crown of head ; hill
-7	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+6	mulluch	mullach	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=topmost part, top; crown of head ; hill
+7	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	6	nmod	X	Gloss=emphasising particle
 
 # sent_id = S0050-115
 # text = [in] [tu]aiscerd ón .i. rog[lan]ad són tria deis
 # text_en = The north, for instance; that is, it has been cleansed through his right.
 1	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	tuaiscerd	túaiscert	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	_	_	X	Gloss=north, left ; The North
-3	ón	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=that (mentioned above) that is
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	ro·glanad	glanaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to cleanse, to purify, to purge; gramm. to elide; to cleanse, to clear
-6	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=that (mentioned above) that is
+2	tuaiscerd	túaiscert	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	0	root	X	Gloss=north, left ; The North
+3	ón	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	2	discourse	X	Gloss=that (mentioned above) that is
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	ro·glanad	glanaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Aspect=Perf	2	conj	X	Gloss=to cleanse, to purify, to purge; gramm. to elide; to cleanse, to clear
+6	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	5	nsubj	X	Gloss=that (mentioned above) that is
 7-8	tria	_	_	_	_	_	_	_	_
-7	tri	tre	ADP	preposition	Case=Acc	_	case	X	Gloss=through (time or space), by means of, be reason of
-8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	_	_	X	Gloss=his, its
-9	deis	des	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem	_	_	X	Gloss=right (direction), south, just, meet
+7	tri	tre	ADP	preposition	Case=Acc	9	case	X	Gloss=through (time or space), by means of, be reason of
+8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	9	nmod:poss	X	Gloss=his, its
+9	deis	des	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem	5	obl	X	Gloss=right (direction), south, just, meet
