@@ -1896,44 +1896,44 @@
 # sent_id = S0050-108
 # text = .i. conéicnisset
 # text_en = That is, they forced.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	con·éicnisset	con·éicni	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to force, to compel
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	con·éicnisset	con·éicni	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to force, to compel
 
 # sent_id = S0050-109
 # text = .i. hicumcai no innecin .i. arecin nosbered
 # text_en = That is, in constraint or in compulsion; that is, (it is) by compulsion he carried it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	hicumcai	_	_	_	_	_	_	_	_
 2	hi	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
-3	cumcai	cumgae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=narrowness; narrow space; difficulty, distress
-4	no	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+3	cumcai	cumgae	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=narrowness; narrow space; difficulty, distress
+4	no	nó 1	CCONJ	conjunction	_	6	cc	X	Gloss=disjunctive: or
 5-6	innecin	_	_	_	_	_	_	_	_
 5	in	i	ADP	preposition	Case=Acc	6	case	X	Gloss=in, into
-6	necin	Danïél	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=Daniel, 'God is my judge', necessity, compulsion, force
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+6	necin	Danïél	PROPN	proper_noun	Case=Dat|Number=Sing	3	conj	X	Gloss=Daniel, 'God is my judge', necessity, compulsion, force
+7	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
 8-9	arecin	_	_	_	_	_	_	_	_
 8	ar	ar 1	ADP	preposition	Case=Dat	9	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-9	ecin	Danïél	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=Daniel, 'God is my judge', necessity, compulsion, force
-10	nos·bered	beirid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	_	_	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
+9	ecin	Danïél	PROPN	proper_noun	Case=Dat|Number=Sing	3	conj	X	Gloss=Daniel, 'God is my judge', necessity, compulsion, force
+10	nos·bered	beirid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	9	csubj:cleft	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
 
 # sent_id = S0050-110
 # text = .i. maldachtae air bu ainm leusom maladictus do c[ec]h óin bíth [hí] croi[ch]
 # text_en = That is, cursed; for maledictus was a name among them for every one who used to be on a cross.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	maldachtae	maldachtae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=cursed
-3	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-4	bu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-5	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=name, noun (gramm)
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	maldachtae	maldachtae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	0	root	X	Gloss=cursed
+3	air	ar 2	SCONJ	conjunction	_	5	mark	X	Gloss=causal: since, for; final: so that
+4	bu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+5	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing	2	conj	X	Gloss=name, noun (gramm)
 6-7	leusom	_	_	_	_	_	_	_	_
-6	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-7	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-8	maladictus	maledictus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=cursed
-9	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-10	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Masc|PronType=Tot	_	det	X	Gloss=every, each, all, any
-11	óin	óen	ADJ	adjective_numeral_noun	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
-12	bíth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+6	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	7	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+7	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	5	obl	X	Gloss=emphasising particle
+8	maladictus	maledictus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	5	amod	X	Gloss=cursed
+9	do	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
+10	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Masc|PronType=Tot	11	det	X	Gloss=every, each, all, any
+11	óin	óen	ADJ	adjective_numeral_noun	Case=Dat|Number=Sing|Gender=Masc	5	obl	X	Gloss=one, single, same, only, unique; as compound element 'great'
+12	bíth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	11	acl:relcl	X	Gloss=to be, to exist,
 13	hí	i	ADP	preposition	Case=Dat	14	case	X	Gloss=in, into
-14	croich	croch	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=the Cross
+14	croich	croch	NOUN	noun	Case=Dat|Number=Sing	12	obl	X	Gloss=the Cross
 
 # sent_id = S0050-111
 # text = .i. ceth[ar]aird
