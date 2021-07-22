@@ -1677,8 +1677,8 @@
 # text_en = That is, the firewood that he brought to offer himself, this is Christ with the shaft of his cross on himself.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	bronasnae	brosnae	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	0	root	X	Gloss=bundle of firewood, fuel
-4	do·mbert	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	3	csubj:cleft	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+3	bronasnae	brosnae	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	12	dislocated	X	Gloss=bundle of firewood, fuel
+4	do·mbert	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	3	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 5	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	4	nsubj	X	Gloss=that one, he, she, it, they
 6-7	dia	_	_	_	_	_	_	_	_
 6	di	di	ADP	preposition	Case=Dat	8	case	X	Gloss=away, from, cause or reason, by
@@ -1688,13 +1688,13 @@
 10-11	ishé	_	_	_	_	_	_	_	_
 10	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	12	cop	X	Gloss=to be
 11	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	12	nmod	X	Gloss=he, him, it
-12	crist	Críst	PROPN	proper_noun	Case=Nom|Number=Sing	3	conj	X	Gloss=the Anointed, Jesus Christ
+12	crist	Críst	PROPN	proper_noun	Case=Nom|Number=Sing	0	root	X	Gloss=the Anointed, Jesus Christ
 13-16	coc[runn][a][chr]uche	_	_	_	_	_	_	_	_
 13	co	co 2	ADP	preposition	Case=Dat	14	case	X	Gloss=with, general accompaniment, connection, attendant circumstances
 14	crunn	crann	NOUN	noun	Case=Dat|Number=Sing	12	obl	X	Gloss=tree, wood, mast, lot
 15	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	16	nmod:poss	X	Gloss=his, its
 16	chruche	croch	NOUN	noun	Case=Gen|Number=Sing	14	nmod	X	Gloss=the Cross
-17	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	17	case	X	Gloss=upon, over, on
+17	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	18	case	X	Gloss=upon, over, on
 18	fesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	12	obl	X	Gloss=self
 
 # sent_id = S0050-96
@@ -1779,13 +1779,13 @@
 6	brathir	bráthair	NOUN	noun	Case=Nom|Number=Plur	4	nsubj	X	Gloss=brother, kinsman, cousin , brother
 7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	8	nmod:poss	X	Gloss=his, its
 8	tunig	tuinech	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=coat, mantle, covering
-9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	11	nmod	X	Gloss=emphasising particle
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nmod	X	Gloss=emphasising particle
 10-11	dofuil	_	_	_	_	_	_	_	_
 10	do	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
 11	fuil	fuil	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=blood, an effusion of blood
 12-14	innaric	_	_	_	_	_	_	_	_
 12	in	i	ADP	preposition	Case=Dat	14	case	X	Gloss=in, into
-13	na	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	14	nmod:poss	X	Gloss=his, its
+13	na	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	14	obj:poss	X	Gloss=his, its
 14	ric	reicc	NOUN	verbal_noun	Case=Dat|Number=Sing	4	advcl	X	Gloss=the act of selling, bartering
 15	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	14	obl:prep	X	Gloss=to, for, by etc.
 16	7	ocus 2	CCONJ	conjunction	_	17	cc	X	Gloss=coordinating: and, since
@@ -1805,13 +1805,11 @@
 3	naithr	nathair	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	0	root	X	Gloss=snake, serpent
 4	humaithe	umaide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	3	amod	X	Gloss=bronze, brazen, copper
 5	thal	tall	ADV	adverb	_	3	advmod	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
-6	th	t-	X	particle_prefix	_	_	_	X	Gloss=“at” + words denoting points on the compass, and words denoting location generally, adverbial prefix
-7	al	ol 1	ADV	adverb	_	_	_	X	Gloss=beyond, than
-8	con·ocabsat	con·ocaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	3	acl:relcl	X	Gloss=to lift up, to raise, to exalt, to rise, to get up
-9	maic	macc 1	NOUN	noun	Case=Nom|Number=Plur	8	nsubj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-10	Israel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	9	nmod	X	Gloss=Israel
-11	in	in (Lat)	ADP	preposition	Case=Unk	12	case	X	Gloss=in, into
-12	diserto	dēsertum	NOUN	noun	_	8	obl	X	Gloss=desert, wasteland
+6	con·ocabsat	con·ocaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	3	acl:relcl	X	Gloss=to lift up, to raise, to exalt, to rise, to get up
+7	maic	macc 1	NOUN	noun	Case=Nom|Number=Plur	6	nsubj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+8	Israel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=Israel
+9	in	in (Lat)	ADP	preposition	Case=Unk	10	case	X	Gloss=in, into
+10	diserto	dēsertum	NOUN	noun	_	6	obl	X	Gloss=desert, wasteland
 
 # sent_id = S0050-105
 # text = .i. ṁbertatar intaisceltai tall atír tairngeri
@@ -1836,7 +1834,7 @@
 3	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
 4	bial	biáil	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	0	root	X	Gloss=axe, hatchet
 5	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Len	6	cop	X	Gloss=to be
-6	chuintechti	cuindechtai	X	verbal_of_necessity	_	4	csubj:cleft	X	Gloss=to be asked for, to be sought
+6	chuintechti	cuindechtai	X	verbal_of_necessity	_	4	acl:relcl	X	Gloss=to be asked for, to be sought
 7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 8	do·cer	do·tuit 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	conj	X	Gloss=to fall, to perish
 9-10	inbiail	_	_	_	_	_	_	_	_
@@ -1851,7 +1849,7 @@
 15	ssa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	16	det	X	Gloss=the
 16	mmuir	muir	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	8	obl	X	Gloss=sea, tide
 17	7	ocus 2	CCONJ	conjunction	_	18	cc	X	Gloss=coordinating: and, since
-18	fo·caird	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	4	conj	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
+18	fo·caird	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	8	conj	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
 19	eleseus	Eliseus	PROPN	proper_noun	_	18	nsubj	X	Gloss=Elisha
 20-21	asamthig	_	_	_	_	_	_	_	_
 20	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	21	nmod:poss	X	Gloss=his, its
@@ -1875,7 +1873,7 @@
 34	samthige	samthach	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	32	nmod	X	Gloss=axe; axe-handle
 35-36	comboi	_	_	_	_	_	_	_	_
 35	co·	co 4	SCONJ	complementiser	_	36	mark:prt	X	Gloss=so that, until (+independent, leniting)
-36	·mboi	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	26	conj	X	Gloss=to be, to exist,
+36	·mboi	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	26	ccomp	X	Gloss=to be, to exist,
 37	impe	imm	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	36	obl:prep	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
 
 # sent_id = S0050-107
