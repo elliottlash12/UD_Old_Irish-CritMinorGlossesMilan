@@ -348,7 +348,7 @@ def changechunkorder(allchunks, sentence):
         lastword_string = re.sub("[^0-9a-zA-Z_À-ÿ]+", '', str(lastword['form']))
 
         if firstword_string not in accumulated_string and lastword_string not in accumulated_string: #Finds chunks that are not really chunks; basically if the first morph in the chunk is not in the accumulated string (the concatenated morph) and the last morph in the chunk is not in the accumulated string, this is a false chunk. The accumulated string will need to be shifted to the position where its subelements actually are in the sentence.
-
+#the 'and' above should probably be 'or'
             lastid = chunk[0]['interim'][2] #Assigns the final element of the interim id to lastid. #consider changing to "accumulated".
             badindex = sentence.index(chunk[0]) #Gets the current location of the accumulated string in the sentence — Note that this is the wrong location. #consider changing to "accumulated".
             searchlen = len(chunk)-2 #Sets a search length. Basically this will be used to find the first submember of a concatenated morph.
