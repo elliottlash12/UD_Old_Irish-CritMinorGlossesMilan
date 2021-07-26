@@ -1220,12 +1220,19 @@ if __name__ == "__main__":
 # ========================================================================================================================================================================================================
 # ========================================================================================================================================================================================================
 # ========================================================================================================================================================================================================
-
 """
-Jun 26 update below
-Remember that the compound removal function currently assumes that the order is: element 1 > element 2 > whole compound. This may not always be true however.
+Jul 26 update below
+Also remember that csv files downloaded from CorPH will be in the wrong order if they contain more than 9 sentences. This is because the sentence portion of
+Text_Unit_ID has no leading zeroes so that S000X-1 is followed by S000X-10. S000X-10 will also be followed by S000X-100 in texts with more than 99 sentences.
+There is a rather laborious workaround for this in libreoffice. Perhaps, sorting can occur during the conllu editing process.
+Remeber to delete Index!
+Fix the compounding issue with prefixes.
 Rembember that the remove dummy preverb function currently assumes that it always starts the verbal morph. Hopefully that is true.
 Remember to fix the relative function so that it doesn't necessarily assume that "rel" is in analysis.
 Remember to add a function to make verbal nouns have the feature VerbForm=Vnoun
 Remember to recheck act and pass assignment.
+
+For proper functioning of check_concats, a "better" approach would be to create a simple conllu file first using the original write_out
+function and then use the functions in edit_conllu to insert concats and puncts.
+Eventually this functionality needs to be incorporated into conllu_maker, but it is actually quite difficult.
 """
