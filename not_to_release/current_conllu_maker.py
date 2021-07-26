@@ -411,6 +411,26 @@ def head_of_article(current_sentence, list_of_dets, list_of_nouns):
             if det['Part_Of_Speech'] == 'definite_article':
                 noun['Analysis'] = noun['Analysis'] + 'Def'
 
+def head_of_article2(current_sentence, list_of_dets, list_of_nouns):
+    finished_nouns = []
+    finished_dets = []
+    ignore_list = []
+    combo=list(itertools.product(list_of_dets, list_of_nouns))
+    for c in combo:
+        if c[0]['Stressed_Unit'] in c[1]['Stressed_Unit']:
+            if not ignore_list:
+                c[0]['_'] = str(current_sentence.index(c[1]) + 1)
+                case_check(c[0], c[1])
+                finished_dets.append(c[0])
+                finished_nouns.append(c[1])
+                ignore_list.append(c)
+            elif c[0] in finished_dets:
+                ignore_list.append(c)
+            elif c[1] in finished_nouns:
+                ignore_list.append(c)
+            else:
+                c[0]['_'] = str(current_sentence.index(c[1]) + 1)
+                case_check(c[0], c[1])
 
 #The function head_of_preposition assigns the index of a noun that shares its stressed unit with a preposition to the head column of the preposition.
 #It attempts to prohibit erroneous assignment by ignoring already seen items. Hopefully the numbere of "elif" and "else" statements will be enough
@@ -448,7 +468,7 @@ def head_of_preposition(current_sentence, list_of_preps, list_of_nouns):
 
 
 def find_head_in(a_sentence, list_of_dets, list_of_nouns, list_of_preps):
-    head_of_article(a_sentence, list_of_dets, list_of_nouns)
+    head_of_article2(a_sentence, list_of_dets, list_of_nouns) #testing head_of_article2
     head_of_preposition(a_sentence, list_of_preps, list_of_nouns)
 
 
