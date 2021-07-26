@@ -420,7 +420,6 @@ def head_of_article2(current_sentence, list_of_dets, list_of_nouns):
         if c[0]['Stressed_Unit'] in c[1]['Stressed_Unit']:
             if not ignore_list:
                 c[0]['_'] = str(current_sentence.index(c[1]) + 1)
-                case_check(c[0], c[1])
                 finished_dets.append(c[0])
                 finished_nouns.append(c[1])
                 ignore_list.append(c)
@@ -430,7 +429,11 @@ def head_of_article2(current_sentence, list_of_dets, list_of_nouns):
                 ignore_list.append(c)
             else:
                 c[0]['_'] = str(current_sentence.index(c[1]) + 1)
-                case_check(c[0], c[1])
+                finished_dets.append(c[0])
+                finished_nouns.append(c[1])
+                ignore_list.append(c)
+        else:
+            pass
 
 #The function head_of_preposition assigns the index of a noun that shares its stressed unit with a preposition to the head column of the preposition.
 #It attempts to prohibit erroneous assignment by ignoring already seen items. Hopefully the numbere of "elif" and "else" statements will be enough
