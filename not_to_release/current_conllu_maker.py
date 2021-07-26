@@ -1099,23 +1099,23 @@ def automation(filename):
 #The following function takes the processed output and rearranges the data into a CONLLU-style format.
 #The data is written to a file (in the intro to this script called "name_of_interim_output_file").
 
-# def write_out(filename, sentences):
-#     with open(filename, 'w', encoding='utf-8') as file_out:
-#         tuid = ""
-#         cnt = 1
-#         for sent in list(sentences.values()):
-#             print(sent)
-#             for word in sent:
-#                 if word['Text_Unit_ID'] != tuid:
-#                     file_out.write('\n'+'# sent_id = {}'.format(word['Text_Unit_ID'])+'\n') #First line of the header for each sentence. ###Try this: subholder.append(xxx)?
-#                     file_out.write('# text = {}'.format(word['Textual_Unit'])+'\n') # Second line of the header for each sentence.
-#                     file_out.write('# text_en = {}'.format(word['Translation'])+'\n') # Third line of the header for each sentence.
-#                     tuid = word['Text_Unit_ID']
-#                     cnt = 1
-#                 file_out.write(str(cnt)+"\t"+"\t".join([word['Morph']]+[word['Lemma']]+["X"]+[word['Part_Of_Speech']]+[word['Analysis']]+[word['_']]+['_']+["X"]+[word['Meaning']])+'\n') # This creates the correct order of the ten CONLLU columns for each word in a sentence.
-#                 cnt += 1
-#             file_out.write('\n')
-#     return
+def write_out1(filename, sentences):
+    with open(filename, 'w', encoding='utf-8') as file_out:
+        tuid = ""
+        cnt = 1
+        for sent in list(sentences.values()):
+            print(sent)
+            for word in sent:
+                if word['Text_Unit_ID'] != tuid:
+                    file_out.write('\n'+'# sent_id = {}'.format(word['Text_Unit_ID'])+'\n') #First line of the header for each sentence. ###Try this: subholder.append(xxx)?
+                    file_out.write('# text = {}'.format(word['Textual_Unit'])+'\n') # Second line of the header for each sentence.
+                    file_out.write('# text_en = {}'.format(word['Translation'])+'\n') # Third line of the header for each sentence.
+                    tuid = word['Text_Unit_ID']
+                    cnt = 1
+                file_out.write(str(cnt)+"\t"+"\t".join([word['Morph']]+[word['Lemma']]+["X"]+[word['Part_Of_Speech']]+[word['Analysis']]+[word['_']]+['_']+["X"]+[word['Meaning']])+'\n') # This creates the correct order of the ten CONLLU columns for each word in a sentence.
+                cnt += 1
+            file_out.write('\n')
+    return
 
 
 # The following function removes all non-alphanumeric characters before comparison
@@ -1199,7 +1199,7 @@ def conlluit(filename1, filename2):
 #The following statement enables the python script to be run at the command line.
 
 if __name__ == "__main__":
-    write_out(sys.argv[2], automation(sys.argv[1]))
+    write_out1(sys.argv[2], automation(sys.argv[1])) #testing write_out1
     conlluit(sys.argv[2], sys.argv[3])
 
 
