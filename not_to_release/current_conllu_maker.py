@@ -901,7 +901,7 @@ def change_all_analyses(list_of_sentences):
                 x = word['misc']['tuple'].split('-')
                 word['id'] = (int(x[0]), '-', int(x[1]))
 
-    [change_substantive_analysis(item) for item in list_of_sentences]
+    [change_substantive_analysis(item) for item in list_of_sentences] #Since there is already a loop through the list of sentences, the following statements could probably be simplified to "function(sent)".
     [change_verb_analysis(item) for item in list_of_sentences]
     [change_preposition_analysis(item) for item in list_of_sentences]
     [change_other_analyses(item) for item in list_of_sentences]
