@@ -1984,26 +1984,26 @@
 # sent_id = S0021-1
 # text = .i. opad fidei trinitatis .
 # text_en = that is, rejection of the faith of the Trinity
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	opad	opad	NOUN	verbal_noun	Case=Nom|Number=Sing	_	_	X	Gloss=the act of refusing, rejecting, declining; refusal, rejection
-3	fidei	fidēs	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=faith, belief; reliance; confidence, trust
-4	trinitatis	trīnitās	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=the number three; triad; trinity
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	opad	opad	NOUN	verbal_noun	Case=Nom|Number=Sing	0	root	X	Gloss=the act of refusing, rejecting, declining; refusal, rejection
+3	fidei	fidēs	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=faith, belief; reliance; confidence, trust
+4	trinitatis	trīnitās	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=the number three; triad; trinity
 
 # sent_id = S0021-2
 # text = .i. firinne apostolorum
 # text_en = that is, righteousness of the apostles
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	firinne	fírinne	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=truth; justice, righteousness
-3	apostolorum	apostolus	NOUN	noun	_	_	_	X	Gloss=messenger, apostle
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	firinne	fírinne	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=truth; justice, righteousness
+3	apostolorum	apostolus	NOUN	noun	_	2	nmod	X	Gloss=messenger, apostle
 
 # sent_id = S0021-3
 # text = et omnium iustorum bith ingabál mundo
 # text_en = and perpetual reproach of all just men for the world.
-1	et	et	CCONJ	conjunction	_	_	cc	X	Gloss=and
-2	omnium	omnis	DET	adjective_quantifier	Case=Gen|Number=Plur|Gender=Masc	_	det	X	Gloss=all, total, every
-3	iustorum	iūstus	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc	_	_	X	Gloss=just, rightful, lawful
-4	bithingabál	bith-ingabál	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=perpetual reproach
-5	mundo	mundus	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=the world, mankind
+1	et	et	CCONJ	conjunction	_	4	cc	X	Gloss=and
+2	omnium	omnis	DET	adjective_quantifier	Case=Gen|Number=Plur|Gender=Masc	4	det	X	Gloss=all, total, every
+3	iustorum	iūstus	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc	4	amod	X	Gloss=just, rightful, lawful
+4	bithingabál	bith-ingabál	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=perpetual reproach
+5	mundo	mundus	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=the world, mankind
 
 # sent_id = S0021-4
 # text = .i. in mess duchoaid fordiabul is hé rigas forru ut Augustinus dicit
