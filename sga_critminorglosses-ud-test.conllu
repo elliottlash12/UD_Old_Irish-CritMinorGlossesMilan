@@ -1643,7 +1643,7 @@
 11-12	forsnaib	_	_	_	_	_	_	_	_
 11	for	for	ADP	preposition	Case=Dat	13	case	X	Gloss=upon, over, on
 12	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	caircib	carrac	NOUN	noun	Case=Dat|Number=Plur|Definite=Def	10	obl	X	Gloss=rock, large stone ; rock
+13	caircib	carrac	NOUN	noun	Case=Dat|Number=Plur|Definite=Def	10	xcomp:pred	X	Gloss=rock, large stone ; rock
 14	do·gnither	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin	9	csubj:cleft	X	Gloss=to do, to make
 15-16	inchorcur	_	_	_	_	_	_	_	_
 15	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	16	det	X	Gloss=the
@@ -1682,7 +1682,7 @@
 6	di	di	ADP	preposition	Case=Dat	8	case	X	Gloss=away, from, cause or reason, by
 7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	8	obj:poss	X	Gloss=his, its
 8	edbairt	audpart	NOUN	verbal_noun	Case=Dat|Number=Sing	4	xcomp	X	Gloss=the act of offering; sacrifice
-9	fesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	5	nmod	X	Gloss=self
+9	fesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	8	nmod	X	Gloss=self
 10-11	ishé	_	_	_	_	_	_	_	_
 10	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	12	cop	X	Gloss=to be
 11	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	12	nmod	X	Gloss=he, him, it
@@ -1752,7 +1752,7 @@
 7	imbed	imbed	NOUN	noun	Case=Nom|Number=Sing	4	conj	X	Gloss=large quantity, abundance, excess, amount, number
 8	naislinge	aislinge	NOUN	noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=vision, dream
 9	ón	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	7	discourse	X	Gloss=that (mentioned above) that is
-10	ad·chondairc	ad·cí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	7	acl:relcl	X	Gloss=to see, to observe
+10	ad·chondairc	ad·cí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	8	acl:relcl	X	Gloss=to see, to observe
 11	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	10	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0050-102
@@ -1836,7 +1836,7 @@
 7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 8	do·cer	do·tuit 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	conj	X	Gloss=to fall, to perish
 9-10	inbiail	_	_	_	_	_	_	_	_
-9	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	28	det	X	Gloss=the
+9	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	10	det	X	Gloss=the
 10	biail	biáil	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	8	nsubj	X	Gloss=axe, hatchet
 11-12	dia	_	_	_	_	_	_	_	_
 11	di	di	ADP	preposition	Case=Dat	13	case	X	Gloss=away, from, cause or reason, by
@@ -1872,7 +1872,7 @@
 35-36	comboi	_	_	_	_	_	_	_	_
 35	co·	co 4	SCONJ	complementiser	_	36	mark:prt	X	Gloss=so that, until (+independent, leniting)
 36	·mboi	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	26	ccomp	X	Gloss=to be, to exist,
-37	impe	imm	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	36	obl:prep	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
+37	impe	imm	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	36	xcomp:pred	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
 
 # sent_id = S0050-107
 # text = .i. di chorcruinn dacer dul issammuir
@@ -1887,7 +1887,7 @@
 7-9	issammuir	_	_	_	_	_	_	_	_
 7	i	i	ADP	preposition	Case=Acc	9	case	X	Gloss=in, into
 8	ssa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	mmuir	muir	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	5	obl	X	Gloss=sea, tide
+9	mmuir	muir	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	6	obl	X	Gloss=sea, tide
 
 # sent_id = S0050-108
 # text = .i. conéicnisset
@@ -1909,7 +1909,7 @@
 7	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
 8-9	arecin	_	_	_	_	_	_	_	_
 8	ar	ar 1	ADP	preposition	Case=Dat	9	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-9	ecin	éicen	NOUN	noun	Case=Dat|Number=Sing	3	conj	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
+9	ecin	éicen	NOUN	noun	Case=Dat|Number=Sing	6	conj	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
 10	nos·bered	beirid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	9	csubj:cleft	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
 
 # sent_id = S0050-110
@@ -1923,13 +1923,13 @@
 6-7	leusom	_	_	_	_	_	_	_	_
 6	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	7	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 7	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	5	obl	X	Gloss=emphasising particle
-8	maladictus	maledictus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	5	amod	X	Gloss=cursed
+8	maladictus	maledictus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	5	nsubj	X	Gloss=cursed
 9	do	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
 10	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Masc|PronType=Tot	11	det	X	Gloss=every, each, all, any
 11	óin	óen	ADJ	adjective_numeral_noun	Case=Dat|Number=Sing|Gender=Masc	5	obl	X	Gloss=one, single, same, only, unique; as compound element 'great'
 12	bíth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	11	acl:relcl	X	Gloss=to be, to exist,
 13	hí	i	ADP	preposition	Case=Dat	14	case	X	Gloss=in, into
-14	croich	croch	NOUN	noun	Case=Dat|Number=Sing	12	obl	X	Gloss=the Cross
+14	croich	croch	NOUN	noun	Case=Dat|Number=Sing	12	xcomp:pred	X	Gloss=the Cross
 
 # sent_id = S0050-111
 # text = .i. ceth[ar]aird
