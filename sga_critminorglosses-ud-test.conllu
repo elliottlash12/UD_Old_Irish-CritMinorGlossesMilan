@@ -2008,44 +2008,44 @@
 # sent_id = S0021-4
 # text = .i. in mess duchoaid fordiabul is hé rigas forru ut Augustinus dicit
 # text_en = That is, the judgment that has gone upon the Devil, it is that which will go upon them, as Augustine says.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	mess	mes 1	NOUN	verbal_noun	Case=Nom|Number=Sing	_	_	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
-4	du·choaid	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	_	_	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+3	mess	mes 1	NOUN	verbal_noun	Case=Nom|Number=Sing	8	dislocated	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
+4	du·choaid	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	3	acl:relcl	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
 5-6	fordiabul	_	_	_	_	_	_	_	_
 5	for	for	ADP	preposition	Case=Acc	6	case	X	Gloss=upon, over, on
-6	diabul	Díabul 2	PROPN	proper_noun	Case=Acc|Number=Sing	_	_	X	Gloss=The Devil
-7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-8	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-9	rigas	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
-10	forru	for	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=upon, over, on
-11	ut	ut	X	conjunction	_	_	_	X	Gloss=that, so that
-12	Augustinus	Augustīnus	PROPN	proper_noun	_	_	_	X	Gloss=_
-13	dicit	dīcō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to say, to declare, to call
+6	diabul	Díabul 2	PROPN	proper_noun	Case=Acc|Number=Sing	4	obl	X	Gloss=The Devil
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+8	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	0	root	X	Gloss=he, him, it
+9	rigas	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	8	acl:relcl	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+10	forru	for	ADP	preposition	Person=3|Number=Plur|Case=Acc	9	obl:prep	X	Gloss=upon, over, on
+11	ut	ut	X	conjunction	_	13	mark	X	Gloss=that, so that
+12	Augustinus	Augustīnus	PROPN	proper_noun	_	13	nsubj	X	Gloss=_
+13	dicit	dīcō	VERB	verb	Voice=Act|Mood=Ind	8	advcl	X	Gloss=to say, to declare, to call
 
 # sent_id = S0021-5
 # text = inna rei file iter na secht ṅairṅdrecha ithé nime asbertar and
 # text_en = The spaces that are between the seven planets, these are the heavens which are mentioned here.
 1	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	rei	ré	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
-3	file	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-4	iter	eter	ADP	preposition	Case=Acc	_	case	X	Gloss=between, among; both...and...
-5	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-6	secht	secht 1	NUM	numeral	_	_	_	X	Gloss=seven
-7	ṅairṅdrecha	airndrethach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Fem	_	_	X	Gloss=erring, wandering about
+2	rei	ré	NOUN	noun	Case=Nom|Number=Plur	9	dislocated	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
+3	file	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to be, to exist,
+4	iter	eter	ADP	preposition	Case=Acc	7	case	X	Gloss=between, among; both...and...
+5	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
+6	secht	secht 1	NUM	numeral	_	7	nummod	X	Gloss=seven
+7	ṅairṅdrecha	airndrethach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Fem	3	xcomp:pred	X	Gloss=erring, wandering about
 8-9	ithé	_	_	_	_	_	_	_	_
-8	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-9	hé	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	_	_	X	Gloss=they, them
-10	nime	nem	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=heaven, the abode of the blessed, ceiling, sky
-11	as·bertar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelType=Len	_	_	X	Gloss=to say, to speak, to call , mention
-12	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	_	_	X	Gloss=in, into
+8	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
+9	hé	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	0	root	X	Gloss=they, them
+10	nime	nem	NOUN	noun	Case=Nom|Number=Plur	9	nsubj	X	Gloss=heaven, the abode of the blessed, ceiling, sky
+11	as·bertar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelType=Len	10	acl:relcl	X	Gloss=to say, to speak, to call , mention
+12	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	11	obl:prep	X	Gloss=in, into
 
 # sent_id = S0021-6
 # text = focoemallagsa
 # text_en = I have endured.
 1-2	focoemallagsa	_	_	_	_	_	_	_	_
-1	fo·coemallag	fo·loing	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to support, to sustain, to endure, to hold out; to bear;
-2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	fo·coemallag	fo·loing	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to support, to sustain, to endure, to hold out; to bear;
+2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	1	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-7
 # text = aní
