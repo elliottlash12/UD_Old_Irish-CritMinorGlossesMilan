@@ -2093,34 +2093,34 @@
 # text = itargénsa
 # text_en = I knew.
 1-2	itargénsa	_	_	_	_	_	_	_	_
-1	itar·gén	eter·gnin	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to find out, to learn, to know, to understand
-2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	itar·gén	eter·gnin	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to find out, to learn, to know, to understand
+2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	1	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-14
 # text = .i. dú adcosnainse
 # text_en = that is, the place to which I was striving
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	dú	dú	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=place, spot
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	dú	dú	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=place, spot
 3-4	adcosnainse	_	_	_	_	_	_	_	_
-3	ad·cosnain	ad·cosnai	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	_	_	X	Gloss=to make for, to strive, to seek
-4	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+3	ad·cosnain	ad·cosnai	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	2	acl:relcl	X	Gloss=to make for, to strive, to seek
+4	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-15
 # text = .i. intan forcain unam lineam et unam speram non docet deum
 # text_en = That is, when he teaches a line and a sphere, he does not teach [knowledge of] God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
 2-3	intan	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	tan	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
-4	for·cain	for·cain	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to teach
-5	unam	ūnus	ADJ	adjective_numeral_noun	Case=Acc|Number=Sing|Gender=Fem	_	_	X	Gloss=one, single, same
-6	lineam	līnea	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=linen thread; line, thread, string
-7	et	et	CCONJ	conjunction	_	_	cc	X	Gloss=and
-8	unam	ūnus	ADJ	adjective_numeral_noun	Case=Acc|Number=Sing|Gender=Fem	_	_	X	Gloss=one, single, same
-9	speram	sphaera	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=ball, globe, sphere
-10	non	nōn	X	particle_negative	_	_	_	X	Gloss=not
-11	docet	doceō	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to teach, to tell
-12	deum	deus	PROPN	proper_noun	Case=Acc|Number=Sing	_	_	X	Gloss=god, deity, God
+3	tan	tan	NOUN	noun	Case=Acc|Number=Sing	4	obl:tmod	X	Gloss=time
+4	for·cain	for·cain	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	11	advcl	X	Gloss=to teach
+5	unam	ūnus	ADJ	adjective_numeral_noun	Case=Acc|Number=Sing|Gender=Fem	6	nummod	X	Gloss=one, single, same
+6	lineam	līnea	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=linen thread; line, thread, string
+7	et	et	CCONJ	conjunction	_	9	cc	X	Gloss=and
+8	unam	ūnus	ADJ	adjective_numeral_noun	Case=Acc|Number=Sing|Gender=Fem	9	nummod	X	Gloss=one, single, same
+9	speram	sphaera	NOUN	noun	Case=Acc|Number=Sing	6	conj	X	Gloss=ball, globe, sphere
+10	non	nōn	X	particle_negative	11	advmod:neg	_	X	Gloss=not
+11	docet	doceō	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to teach, to tell
+12	deum	deus	PROPN	proper_noun	Case=Acc|Number=Sing	11	obj	X	Gloss=god, deity, God
 
 # sent_id = S0021-16
 # text = .i. doig
