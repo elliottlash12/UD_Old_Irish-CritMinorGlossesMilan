@@ -856,17 +856,17 @@
 6	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	5	appos	5:appos	Gloss=that one, those ones, the one in there ; that, those
 7-8	dofóisitin	_	_	_	_	_	_	_	_
 7	do	do 1	ADP	preposition	Case=Dat	8	mark:prt	8:mark:prt	Gloss=to, for, by etc.
-8	fóisitin	foísitiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	1	xcomp	1:xcomp	Gloss=the act of confessing; confession, profession, concession, avowal, acknowledgment
+8	fóisitin	foísitiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	1	xcomp:pred	1:xcomp:pred	Gloss=the act of confessing; confession, profession, concession, avowal, acknowledgment
 9	pecthae	peccad	NOUN	noun	Case=Gen|Number=Plur	8	obj	8:obj	Gloss=sin
 10	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	0:root	Gloss=to be, to exist,
 11	dano	danó	ADV	particle_discourse	_	10	advmod	10:advmod	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
 12-13	domolad	_	_	_	_	_	_	_	_
 12	do	do 1	ADP	preposition	Case=Dat	13	mark:prt	13:mark:prt	Gloss=to, for, by etc.
-13	molad	molad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	10	xcomp	10:xcomp	Gloss=the act of praising; song of praise, panegyric
+13	molad	molad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	10	xcomp:pred	10:xcomp:pred	Gloss=the act of praising; song of praise, panegyric
 14	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	0:root	Gloss=to be, to exist,
 15	dano	danó	ADV	particle_discourse	_	14	advmod	14:advmod	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
 16	do	do 1	ADP	preposition	Case=Dat	17	mark:prt	17:mark:prt	Gloss=to, for, by etc.
-17	atlugud	attlugud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	14	xcomp	14:xcomp	Gloss=the act of giving thanks, rejoicing (?); thanksgiving
+17	atlugud	attlugud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	14	xcomp:pred	14:xcomp:pred	Gloss=the act of giving thanks, rejoicing (?); thanksgiving
 18	buide	buide 2	NOUN	noun	Case=Gen|Number=Sing	17	obj	17:obj	Gloss=favor, gratitude, thanks; good-will
 19	do	do 1	ADP	preposition	Case=Dat	20	mark:prt	20:mark:prt	Gloss=to, for, by etc.
 20	foisitin	foísitiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	0	root	0:root	Gloss=the act of confessing; confession, profession, concession, avowal, acknowledgment
@@ -1143,7 +1143,7 @@
 2	cia	cía 2	SCONJ	conjunction	_	3	mark	3:mark	Gloss=concessive and explicative: even, although
 3	batar	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	0:root	Gloss=to be, to exist,
 4	degtacrae	dag-thacrae	NOUN	noun	Case=Nom|Number=Plur	3	nsubj	3:nsubj	Gloss=good argument
-5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	3:obl:prep	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	xcomp:pred	3:xcomp:pred	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0050-58
 # text = .i. innerchoimded
@@ -1338,7 +1338,7 @@
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	6:det	Gloss=the
 6	spiurt	spirut	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	4	nsubj	4:nsubj	Gloss=spirit
 7	nóib	nóeb	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	6	amod	6:amod	Gloss=holy, sacred, saintly
-8	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	obl:prep	4:obl:prep	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+8	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	xcomp:pred	4:xcomp:pred	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 9-11	intansin	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	10:det	Gloss=the
 10	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	4	obl:tmod	4:obl:tmod	Gloss=time
@@ -1360,7 +1360,7 @@
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	5:det	Gloss=the
 5	spiurt	spirut	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	3	nsubj	3:nsubj	Gloss=spirit
 6	nóib	nóeb	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	5	amod	5:amod	Gloss=holy, sacred, saintly
-7	less	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	3:obl:prep	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+7	less	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	xcomp:pred	3:xcomp:pred	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0050-74
 # text = .i. infogitled .i. peccati ·
@@ -1397,7 +1397,7 @@
 6	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	7:det	Gloss=the
 7	trisdiltud	tresdíltud	NOUN	verbal_noun	Case=Nom|Number=Sing|Definite=Def	5	nsubj	5:nsubj	Gloss=the act of denying for the third time; third denial
 8	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	9	case	9:case	Gloss=to, for, by etc.
-9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	5	obl	5:obl	Gloss=emphasising particle
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	5	xcomp:pred	5:xcomp:pred	Gloss=emphasising particle
 10	.i.	.i.	CCONJ	abbreviation	_	12	cc	12:cc	Gloss=id est, it is
 11	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	12	cop	12:cop	Gloss=to be
 12	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	4	conj	4:conj	Gloss=he, him, it
