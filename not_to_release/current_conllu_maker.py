@@ -217,20 +217,20 @@ def compare_verbs_relative_particles_and_infixed_pronouns_in(list_of_verbs, list
                 if relpart['Lemma'] == 'len.rel.particle':
                     answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a lenited relative verb.'
                     ans.append(answ)
-                    verb['Analysis'] =  verb['Analysis'] + 'len'
+                    verb['Analysis'] = verb['Analysis'] + 'len'
                 elif relpart['Lemma'] == 'nas.rel.particle':
                     answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a nasalized relative verb.'
                     ans.append(answ)
-                    verb['Analysis'] =  verb['Analysis'] + 'nas'
+                    verb['Analysis'] = verb['Analysis'] + 'nas'
             elif pron['Morph'] not in verb['Morph']:
                 if relpart['Lemma'] == 'len.rel.particle':
                     answ = 'The pronoun ' + pron['Morph'] + ' which has ID number ' + pron['ID'] + ' is a lenited class C pronoun.'
                     ans.append(answ)
-                    pron['Analysis'] =  pron['Analysis'] + '.len'
+                    pron['Analysis'] = pron['Analysis'] + '.len'
                 elif relpart['Lemma'] == 'nas.rel.particle':
                     answ = 'The pronoun ' + pron['Morph'] + ' which has ID number ' + pron['ID'] + ' is a nasalized class C pronoun.'
                     ans.append(answ)
-                    pron['Analysis'] =  pron['Analysis'] + '.nas'
+                    pron['Analysis'] = pron['Analysis'] + '.nas'
     return ans
 
 
@@ -241,11 +241,11 @@ def compare_verbs_and_relative_particles_in(list_of_verbs, list_of_relparts):
             if relpart['Lemma'] == 'len.rel.particle':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a lenited relative verb.'
                 ans.append(answ)
-                verb['Analysis'] =  verb['Analysis'] + 'len'
+                verb['Analysis'] = verb['Analysis'] + 'len'
             elif relpart['Lemma'] == 'nas.rel.particle':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a nasalized relative verb.'
                 ans.append(answ)
-                verb['Analysis'] =  verb['Analysis'] + 'nas'
+                verb['Analysis'] = verb['Analysis'] + 'nas'
     return ans
 
 
@@ -253,38 +253,39 @@ def compare_verbs_and_infixed_pronouns_in(list_of_verbs, list_of_prons):
     ans = []
     for verb, pron in list(itertools.product(list_of_verbs, list_of_prons)): 
         if verb['Stressed_Unit'] == pron['Stressed_Unit'] and pron['Morph'] in verb['Morph']:
+            pronanalysis = pron['Analysis'].split('=')
             if pron['Lemma'] == '1sg.inf.pron.':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
                 ans.append(answ)
-                verb['Analysis'] = verb['Analysis'] + 'obj1sg.' + pron['Analysis'] + ']'
+                verb['Analysis'] = verb['Analysis'] + 'obj1sg.' + pronanalysis[1] + '.'
             elif pron['Lemma'] == '2sg.inf.pron.':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
                 ans.append(answ)
-                verb['Analysis'] = verb['Analysis'] + 'obj2sg.' + pron['Analysis'] + ']'
+                verb['Analysis'] = verb['Analysis'] + 'obj2sg.' + pronanalysis[1] + '.'
             elif pron['Lemma'] == '1pl.inf.pron.':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
                 ans.append(answ)
-                verb['Analysis'] = verb['Analysis'] + 'obj1pl.' + pron['Analysis'] + ']'
+                verb['Analysis'] = verb['Analysis'] + 'obj1pl.' + pronanalysis[1] + '.'
             elif pron['Lemma'] == '2pl.inf.pron.':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
                 ans.append(answ)
-                verb['Analysis'] = verb['Analysis'] + 'obj2pl' + pron['Analysis'] + ']'
+                verb['Analysis'] = verb['Analysis'] + 'obj2pl' + pronanalysis[1] + '.'
             elif pron['Lemma'] == '3sg.masc.inf.pron.':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
                 ans.append(answ)
-                verb['Analysis'] = verb['Analysis'] + 'obj3sg.masc.' + pron['Analysis'] + ']'
+                verb['Analysis'] = verb['Analysis'] + 'obj3sg.masc.' + pronanalysis[1] + '.'
             elif pron['Lemma'] == '3sg.fem.inf.pron.':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
                 ans.append(answ)
-                verb['Analysis'] = verb['Analysis'] + 'obj3sg.fem.' + pron['Analysis'] + ']'
+                verb['Analysis'] = verb['Analysis'] + 'obj3sg.fem.' + pronanalysis[1] + '.'
             elif pron['Lemma'] == '3sg.neut.inf.pron.':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
                 ans.append(answ)
-                verb['Analysis'] = verb['Analysis'] + 'obj3sg.neut.' + pron['Analysis'] + ']'
+                verb['Analysis'] = verb['Analysis'] + 'obj3sg.neut.' + pronanalysis[1] + '.'
             elif pron['Lemma'] == '3pl.inf.pron.': 
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
                 ans.append(answ)
-                verb['Analysis'] = verb['Analysis'] + 'obj3pl.' + pron['Analysis'] + ']'
+                verb['Analysis'] = verb['Analysis'] + 'obj3pl.' + pronanalysis[1] + '.'
     return ans
 
 
@@ -792,7 +793,7 @@ def analyze_rel_in(a_sentence):
                     word['feats']['RelType'] = 'Len'
                 elif 'nas' in word['feats']['Analysis']:
                     word['feats']['RelType'] = 'Nas'
-                elif 'len' not in word['feats']['Analysis'] or 'nas' not in word['feats']['Analysis']:
+                elif 'len' not in word['feats']['Analysis'] or 'nas' not in word['feats']['Analysis']: #the or here maybe problematic
                     word['feats']['RelType'] = 'Other'
 
 
