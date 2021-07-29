@@ -2143,21 +2143,21 @@
 # sent_id = S0021-19
 # text = .i. doimcaisin dé
 # text_en = that is, to contemplate God
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	doimcaisin	_	_	_	_	_	_	_	_
 2	do	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
-3	imcaisin	immcaisiu	NOUN	verbal_noun	Case=Dat|Number=Sing	_	_	X	Gloss=the act of looking around, surveying, beholding, examining, contemplating; consideration, gaze, vision, eye, sight, sign, appearance
-4	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+3	imcaisin	immcaisiu	NOUN	verbal_noun	Case=Dat|Number=Sing	0	root	X	Gloss=the act of looking around, surveying, beholding, examining, contemplating; consideration, gaze, vision, eye, sight, sign, appearance
+4	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	3	obj	X	Gloss=god, deity, God
 
 # sent_id = S0021-20
 # text = uel ex intelligente .i. ondí itargnin
 # text_en = or from understanding, that is, from that which understands
-1	uel	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
+1	uel	uel	CCONJ	conjunction	_	3	cc	X	Gloss=or, even
 2	ex	ex	ADP	preposition	Case=Unk	3	case	X	Gloss=out of, from
-3	intelligente	intelligentia	NOUN	noun	_	_	_	X	Gloss=intelligence
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	intelligente	intelligentia	NOUN	noun	_	0	root	X	Gloss=intelligence
+4	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 5-7	ondí	_	_	_	_	_	_	_	_
 5	o	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
 6	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-8	itar·gnin	eter·gnin	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	_	_	X	Gloss=to find out, to learn, to know, to understand
+7	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	3	conj	X	Gloss=substantivizing particle
+8	itar·gnin	eter·gnin	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	7	acl:relcl	X	Gloss=to find out, to learn, to know, to understand
