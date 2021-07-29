@@ -1997,8 +1997,8 @@
 # text = et omnium iustorum bith ingabál mundo
 # text_en = and perpetual reproach of all just men for the world.
 1	et	et	CCONJ	conjunction	_	4	cc	X	Gloss=and
-2	omnium	omnis	DET	adjective_quantifier	Case=Gen|Number=Plur|Gender=Masc	4	det	X	Gloss=all, total, every
-3	iustorum	iūstus	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc	4	amod	X	Gloss=just, rightful, lawful
+2	omnium	omnis	DET	adjective_quantifier	Case=Gen|Number=Plur|Gender=Masc	3	det	X	Gloss=all, total, every
+3	iustorum	iūstus	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc	4	nmod	X	Gloss=just, rightful, lawful
 4	bithingabál	bith-ingabál	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=perpetual reproach
 5	mundo	mundus	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=the world, mankind
 
@@ -2014,7 +2014,7 @@
 6	diabul	Díabul 2	PROPN	proper_noun	Case=Acc|Number=Sing	4	obl	X	Gloss=The Devil
 7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
 8	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	0	root	X	Gloss=he, him, it
-9	rigas	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	8	acl:relcl	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+9	rigas	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	8	csubj:cleft	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
 10	forru	for	ADP	preposition	Person=3|Number=Plur|Case=Acc	9	obl:prep	X	Gloss=upon, over, on
 11	ut	ut	X	conjunction	_	13	mark	X	Gloss=that, so that
 12	Augustinus	Augustīnus	PROPN	proper_noun	_	13	nsubj	X	Gloss=_
@@ -2024,16 +2024,16 @@
 # text = inna rei file iter na secht ṅairṅdrecha ithé nime asbertar and
 # text_en = The spaces that are between the seven planets, these are the heavens which are mentioned here.
 1	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	rei	ré	NOUN	noun	Case=Nom|Number=Plur	9	dislocated	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
+2	rei	ré	NOUN	noun	Case=Nom|Number=Plur	10	dislocated	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
 3	file	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to be, to exist,
 4	iter	eter	ADP	preposition	Case=Acc	7	case	X	Gloss=between, among; both...and...
 5	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
 6	secht	secht 1	NUM	numeral	_	7	nummod	X	Gloss=seven
 7	ṅairṅdrecha	airndrethach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Fem	3	xcomp:pred	X	Gloss=erring, wandering about
 8-9	ithé	_	_	_	_	_	_	_	_
-8	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
-9	hé	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	0	root	X	Gloss=they, them
-10	nime	nem	NOUN	noun	Case=Nom|Number=Plur	9	nsubj	X	Gloss=heaven, the abode of the blessed, ceiling, sky
+8	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
+9	hé	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	10	nmod	X	Gloss=they, them
+10	nime	nem	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=heaven, the abode of the blessed, ceiling, sky
 11	as·bertar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelType=Len	10	acl:relcl	X	Gloss=to say, to speak, to call , mention
 12	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	11	obl:prep	X	Gloss=in, into
 
@@ -2074,11 +2074,11 @@
 # sent_id = S0021-11
 # text = .i. sechió óenrainn
 # text_en = that is, from whatever single part
-1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	sechió	_	_	_	_	_	_	_	_
-2	sechi	sechi	X	pronoun_indefinite	_	0	root	X	Gloss=whoever, whatever, whichever
+2	sechi	sechi	X	pronoun_indefinite	_	4	det	X	Gloss=whoever, whatever, whichever
 3	ó	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
-4	óenrainn	óenrann	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=single part, single portion
+4	óenrainn	óenrann	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=single part, single portion
 
 # sent_id = S0021-12
 # text = .i. hó
