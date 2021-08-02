@@ -1540,7 +1540,7 @@
 26	maldachta	maldacht	NOUN	noun	Case=Nom|Number=Plur	25	nsubj	25:nsubj	Gloss=curse, malediction
 27	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	25	obl:prep	25:obl:prep	Gloss=upon, over, on
 28	7	ocus 2	CCONJ	conjunction	_	29	cc	29:cc	Gloss=coordinating: and, since
-29	no·oircthe	orgaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	6	conj	6:conj	Gloss=to kill, to despoil, to slay
+29	no·oircthe	orgaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin	13	conj	13:conj	Gloss=to kill, to despoil, to slay
 30	didiu	didiu	ADV	particle_discourse	_	29	advmod	29:advmod	Gloss=in logical sequence, drawing a conclusion: therefore, then; referring to preceding, introducing additional detail or explanation; hence
 31	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	29	obl:prep	29:obl:prep	Gloss=in, into
 32-33	op[opul]	_	_	_	_	_	_	_	_
@@ -1551,7 +1551,7 @@
 35	cenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	29	obl	29:obl	Gloss=head; end-point, termination, exchange, purchase
 36-37	ap[ecthae]	_	_	_	_	_	_	_	_
 36	a	3pl.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	37	nmod:poss	37:nmod:poss	Gloss=their
-37	pecthae	peccad	NOUN	noun	Case=Gen|Number=Plur	33	nmod	33:nmod	Gloss=sin
+37	pecthae	peccad	NOUN	noun	Case=Gen|Number=Plur	35	nmod	35:nmod	Gloss=sin
 38-39	indaile	_	_	_	_	_	_	_	_
 38	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	39	det	39:det	Gloss=the
 39	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Neut|Definite=Def	29	nsubj	29:nsubj	Gloss=other, another, else, second
@@ -1647,7 +1647,7 @@
 # text = .i. dodrolluind ... hitosuch
 # text_en = that is, which had denied him ... at first
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	2:cc	Gloss=id est, it is
-2	dod·rolluind	do·sluindi	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA|Aspect=Perf|RelType=Other	0	root	0:root	Gloss=to deny (refuse to believe), to reject; to renounce; to refuse
+2	dod·rolluind	do·sluindi	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Len	0	root	0:root	Gloss=to deny (refuse to believe), to reject; to renounce; to refuse
 3	hi	i	ADP	preposition	Case=Dat	4	case	4:case	Gloss=in, into
 4	tosuch	tosach	NOUN	noun	Case=Dat|Number=Sing	2	obl	2:obl	Gloss=beginning, precedence
 
@@ -2156,4 +2156,3 @@
 6	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	7:det	Gloss=the
 7	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	3	conj	3:conj	Gloss=substantivizing particle
 8	itar·gnin	eter·gnin	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	7	acl:relcl	7:acl:relcl	Gloss=to find out, to learn, to know, to understand
-
