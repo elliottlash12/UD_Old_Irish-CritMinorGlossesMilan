@@ -12,7 +12,6 @@ Sprachwissenschaftliches Seminar
 
 import csv
 import itertools
-import os
 import re
 import sys
 from collections import OrderedDict
