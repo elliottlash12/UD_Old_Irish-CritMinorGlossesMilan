@@ -1625,7 +1625,8 @@ if __name__ == "__main__":
 """
 Jul 28 update below
 
-Fix the compounding issue with prefixes.
+Fix the compounding issue with prefixes. > This is basically done, but problems remain if the elements of a compound aren't
+in the proper order.
 
 Rembember that the remove dummy preverb function currently assumes that it always starts the verbal morph. Hopefully that is true.
 
