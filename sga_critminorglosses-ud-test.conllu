@@ -2326,35 +2326,35 @@
 # text = addomsuitersa
 # text_en = I am held fast.
 1-2	addomsuitersa	_	_	_	_	_	_	_	_
-1	addom·suiter	ad·suidi	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|PronType=InfA	_	_	X	Gloss=to hold back, to keep, to bind, to establish; to stop, detain; to fix, make permanent
-2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	addom·suiter	ad·suidi	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|PronType=InfA	0	root	X	Gloss=to hold back, to keep, to bind, to establish; to stop, detain; to fix, make permanent
+2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	1	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-37
 # text = ni nammá nádfoirmtigimse
 # text_en = It is not only that I do not envy
-1	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-2	nammá	nammá	PART	particle_focus	_	_	_	X	Gloss=only, merely
+1	ni	ní 3	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not
+2	nammá	nammá	PART	particle_focus	_	4	advmod	X	Gloss=only, merely
 3-5	nádfoirmtigimse	_	_	_	_	_	_	_	_
-3	nád·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
-4	·foirmtigim	foirmtigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to envy
-5	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+3	nád·	nád 1	PART	particle_negative_subordinate		4	advmod:neg	X	Gloss=that...not
+4	·foirmtigim	foirmtigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to envy
+5	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	4	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-38
 # text = níó ógai tantum acht is ó aithirgi 7 ó dligud lanamnasa
 # text_en = It is not from virginity only, but it is from repentance and from the law [or, lawful state (?)] of matrimony.
 1-2	níó	_	_	_	_	_	_	_	_
-1	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
+1	ní	ní 3	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not
 2	ó	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
-3	ógai	ógae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=wholeness, perfection, chastity, celibacy, virginity
-4	tantum	tantum	DET	adjective_quantifier	_	_	det	X	Gloss=so many, so great, only
-5	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+3	ógai	ógae	NOUN	noun	Case=Dat|Number=Sing	8	obl	X	Gloss=wholeness, perfection, chastity, celibacy, virginity
+4	tantum	tantum	DET	adjective_quantifier	_	3	det	X	Gloss=so many, so great, only
+5	acht	acht 1	PART	particle_focus	_	8	mark	X	Gloss=except, but, provided that, save that
+6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
 7	ó	ó 1	ADP	preposition	Case=Dat	8	case	X	Gloss=from, out of, by
-8	aithirgi	aithirge	NOUN	verbal_noun	Case=Dat|Number=Sing	_	_	X	Gloss=the act of repenting (of), regretting; penance
-9	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+8	aithirgi	aithirge	NOUN	verbal_noun	Case=Dat|Number=Sing	0	root	X	Gloss=the act of repenting (of), regretting; penance
+9	7	ocus 2	CCONJ	conjunction	_	11	cc	X	Gloss=coordinating: and, since
 10	ó	ó 1	ADP	preposition	Case=Dat	11	case	X	Gloss=from, out of, by
-11	dligud	dliged	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
-12	lanamnasa	lánamnus	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=partership; marriage
+11	dligud	dliged	NOUN	noun	Case=Dat|Number=Sing	8	conj	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
+12	lanamnasa	lánamnus	NOUN	noun	Case=Gen|Number=Sing	11	nmod	X	Gloss=partership; marriage
 
 # sent_id = S0021-39
 # text = amal ṁbís slántu cáich 7 ásonarte
