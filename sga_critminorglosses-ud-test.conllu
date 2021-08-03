@@ -2160,37 +2160,37 @@
 # sent_id = S0021-21
 # text = dede húambí intelligentia ex noscente et intelligibili ré
 # text_en = Two things from which intelligence arises: from something recognizable and intelligible.
-1	dede	déide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=double, consisting of two things, pair
+1	dede	déide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=double, consisting of two things, pair
 2-3	húambí	_	_	_	_	_	_	_	_
-2	húa·	ó 1	ADP	preposition	Case=Dat	_	case	X	Gloss=from, out of, by
-3	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-4	intelligentia	intelligentia	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=intelligence
-5	ex	ex	ADP	preposition	Case=Unk	_	case	X	Gloss=out of, from
-6	noscente	noscēns	ADJ	adjective	Number=Sing	_	_	X	Gloss=recognizable
-7	et	et	CCONJ	conjunction	_	_	cc	X	Gloss=and
-8	intelligibili	intelligibilis	ADJ	adjective	Number=Sing|Gender=Fem	_	_	X	Gloss=intelligible
-9	ré	res	NOUN	noun	Number=Sing	_	_	X	Gloss=thing
+2	húa·	ó 1	ADP	preposition	Case=Dat	1	obl:prep	X	Gloss=from, out of, by
+3	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	1	acl:relcl	X	Gloss=to be, to exist,
+4	intelligentia	intelligentia	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=intelligence
+5	ex	ex	ADP	preposition	Case=Unk	9	case	X	Gloss=out of, from
+6	noscente	noscēns	ADJ	adjective	Number=Sing	9	amod	X	Gloss=recognizable
+7	et	et	CCONJ	conjunction	_	7	cc	X	Gloss=and
+8	intelligibili	intelligibilis	ADJ	adjective	Number=Sing|Gender=Fem	6	conj	X	Gloss=intelligible
+9	ré	res	NOUN	noun	Number=Sing	1	obl	X	Gloss=thing
 
 # sent_id = S0021-22
 # text = .i. meit assochṫmacht
 # text_en = that is, as much as it is well able
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	meit	méit	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	meit	méit	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
 3-4	assochṫmacht	_	_	_	_	_	_	_	_
-3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	cop	X	Gloss=to be
-4	sochṫmacht	sochmacht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=capable, possible
+3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	4	cop	X	Gloss=to be
+4	sochṫmacht	sochmacht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	2	_	X	Gloss=capable, possible
 
 # sent_id = S0021-23
 # text = .i. nitartat sénsus breíc im anmin
 # text_en = That is, the sensus cannot deceive the soul
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	nitartat	_	_	_	_	_	_	_	_
-2	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·tartat	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-4	sénsus	sensus	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=perception, a feeling, understanding, reason
-5	breíc	bréc	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=falsehood, lie, deception
+2	ni·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·tartat	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+4	sénsus	sensus	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=perception, a feeling, understanding, reason
+5	breíc	bréc	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=falsehood, lie, deception
 6	im	imm	ADP	preposition	Case=Acc	7	case	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
-7	anmin	ainimm	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=soul (as opposed to the body)
+7	anmin	ainimm	NOUN	noun	Case=Acc|Number=Sing	3	obl	X	Gloss=soul (as opposed to the body)
 
 # sent_id = S0021-24
 # text = .i. inna dligeda anúas roráitsem
