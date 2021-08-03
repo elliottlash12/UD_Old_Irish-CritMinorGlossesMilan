@@ -2264,41 +2264,41 @@
 # text = do immoḟolung déesse duitsiu
 # text_en = to cause you indolence
 1	do	do 1	ADP	preposition	Case=Dat	2	case	X	Gloss=to, for, by etc.
-2	immoḟolung	immḟolang	NOUN	verbal_noun	Case=Dat|Number=Sing	_	_	X	Gloss=the act of causing, effecting, accomplishing, sustaining, supporting; effect
-3	déesse	deëss	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=idleness, inactivity, indolence; sloth, sluggishness
+2	immoḟolung	immḟolang	NOUN	verbal_noun	Case=Dat|Number=Sing	0	root	X	Gloss=the act of causing, effecting, accomplishing, sustaining, supporting; effect
+3	déesse	deëss	NOUN	noun	Case=Gen|Number=Sing	2	obj	X	Gloss=idleness, inactivity, indolence; sloth, sluggishness
 4-5	duitsiu	_	_	_	_	_	_	_	_
-4	duit	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
-5	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+4	duit	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	5	case	X	Gloss=to, for, by etc.
+5	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	2	obl	X	Gloss=emphasising particle
 
 # sent_id = S0021-31
 # text = clainde
 # text_en = of children
-1	clainde	cland	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=plant, offshoot, children, descedant, family, clan, offspring
+1	clainde	cland	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=plant, offshoot, children, descedant, family, clan, offspring
 
 # sent_id = S0021-32
 # text = cid arthucait cláinde dagné nech 7 niparétrud is mó is periculosius quam felicius
 # text_en = Although it may be for the sake of children [that] someone may do it and not for lust, it is more dangerous than productive.
 1-2	cid	_	_	_	_	_	_	_	_
-1	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-2	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	ci	cía 2	SCONJ	conjunction	_	4	mark	X	Gloss=concessive and explicative: even, although
+2	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 3-4	arthucait	_	_	_	_	_	_	_	_
 3	ar	ar 1	ADP	preposition	Case=Dat	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-4	thucait	tucait	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=cause, reason
-5	cláinde	cland	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=plant, offshoot, children, descedant, family, clan, offspring
-6	da·gné	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|PronType=InfA	_	_	X	Gloss=to do, to make
-7	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+4	thucait	tucait	NOUN	noun	Case=Dat|Number=Sing	14	advcl	X	Gloss=cause, reason
+5	cláinde	cland	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=plant, offshoot, children, descedant, family, clan, offspring
+6	da·gné	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|PronType=InfA	5	csubj:cleft	X	Gloss=to do, to make
+7	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	X	Gloss=anyone, one, someone
+8	7	ocus 2	CCONJ	conjunction	_	12	cc	X	Gloss=coordinating: and, since
 9-12	niparétrud	_	_	_	_	_	_	_	_
-9	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-10	p	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+9	ni	ní 3	PART	particle_negative_main	_	12	advmod:neg	X	Gloss=not
+10	p	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	12	cop	X	Gloss=to be
 11	ar	ar 1	ADP	preposition	Case=Dat	12	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-12	étrud	étrad	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=lust, concupiscence, fornication
-13	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-14	mó	mór	ADJ	adjective		_	_	X	Gloss=great, big, ample, tall, large
-15	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-16	periculosius	periculosus	ADJ	adjective		_	_	X	Gloss=dangerous
-17	quam	quam	X	conjunction	_	_	_	X	Gloss=how, than
-18	felicius	fēlīx	ADJ	adjective		_	_	X	Gloss=happy, lucky, fertile, auspicious
+12	étrud	étrad	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=lust, concupiscence, fornication
+13	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	14	cop	X	Gloss=to be
+14	mó	mór	ADJ	adjective		0	root	X	Gloss=great, big, ample, tall, large
+15	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	16	cop	X	Gloss=to be
+16	periculosius	periculosus	ADJ	adjective		14	conj	X	Gloss=dangerous
+17	quam	quam	X	conjunction	_	18	case	X	Gloss=how, than
+18	felicius	fēlīx	ADJ	adjective		16	obl	X	Gloss=happy, lucky, fertile, auspicious
 
 # sent_id = S0021-33
 # text = .i. ithesidi adrodamarsu
