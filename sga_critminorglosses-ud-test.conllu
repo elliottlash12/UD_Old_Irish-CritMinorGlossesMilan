@@ -2195,50 +2195,50 @@
 # sent_id = S0021-24
 # text = .i. inna dligeda anúas roráitsem
 # text_en = that is, the laws above that we have expressed
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	dligeda	dliged	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
-4	anúas	anúas	ADV	adverb	_	_	_	X	Gloss=from above, down
-5	ro·ráitsem	ráidid	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	_	_	X	Gloss=to speak, to say, to tell
+3	dligeda	dliged	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
+4	anúas	anúas	ADV	adverb	_	3	advmod	X	Gloss=from above, down
+5	ro·ráitsem	ráidid	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	3	acl:relcl	X	Gloss=to speak, to say, to tell
 
 # sent_id = S0021-25
 # text = .i. is huilliu de mo ḟreicsiu doneuch roradissu argaibim ceill for etargna nach reta infecht sa
 # text_en = That is, my hope is the greater from that which you have said, for I expect to know something this time.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	huilliu	oll	ADJ	adjective		_	_	X	Gloss=great, ample
-4	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
-5	mo	1sg.poss.pron.	DET	pronoun_possessive	Person=1|Number=Sing|Poss=Yes|PronType=Prs	6	_	X	Gloss=my
-6	ḟreicsiu	frescisiu	NOUN	verbal_noun	Case=Nom|Number=Sing	_	_	X	Gloss=the act of expecting, looking forward to, anticipating; expectation, hope
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	huilliu	oll	ADJ	adjective		0	root	X	Gloss=great, ample
+4	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	3	obl:prep	X	Gloss=away, from, cause or reason, by
+5	mo	1sg.poss.pron.	DET	pronoun_possessive	Person=1|Number=Sing|Poss=Yes|PronType=Prs	6	obj:poss	X	Gloss=my
+6	ḟreicsiu	frescisiu	NOUN	verbal_noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=the act of expecting, looking forward to, anticipating; expectation, hope
 7-8	doneuch	_	_	_	_	_	_	_	_
-7	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-8	neuch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Ind	_	_	X	Gloss=anyone, one, someone
+7	do	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
+8	neuch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Ind	3	obl	X	Gloss=anyone, one, someone
 9-10	roradissu	_	_	_	_	_	_	_	_
-9	ro·radis	ráidid	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	_	_	X	Gloss=to speak, to say, to tell
-10	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+9	ro·radis	ráidid	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	8	acl:relcl	X	Gloss=to speak, to say, to tell
+10	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	9	nsubj	X	Gloss=emphasising particle
 11-12	argaibim	_	_	_	_	_	_	_	_
-11	ar	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-12	gaibim	gaibid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
-13	ceill	cíall	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=sense, intelligence, mind, thought, meaning, interpretation, wisdom, good sense
+11	ar	ar 2	SCONJ	conjunction	_	12	mark	X	Gloss=causal: since, for; final: so that
+12	gaibim	gaibid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	3	advcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+13	ceill	cíall	NOUN	noun	Case=Acc|Number=Sing	12	obj	X	Gloss=sense, intelligence, mind, thought, meaning, interpretation, wisdom, good sense
 14	for	for	ADP	preposition	Case=Dat	15	case	X	Gloss=upon, over, on
-15	etargna	etargnae	NOUN	verbal_noun	Case=Acc|Number=Sing	_	_	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
-16	nach	nach 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc|PronType=Ind	_	_	X	Gloss=any, every, each, some, none
-17	reta	rét 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=thing
+15	etargna	etargnae	NOUN	verbal_noun	Case=Acc|Number=Sing	12	advcl	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
+16	nach	nach 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc|PronType=Ind	17	nmod	X	Gloss=any, every, each, some, none
+17	reta	rét 1	NOUN	noun	Case=Gen|Number=Sing	15	obj	X	Gloss=thing
 18-19	infecht	_	_	_	_	_	_	_	_
 18	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	19	det	X	Gloss=the
-19	fecht	fecht	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=journey, expedition, time, occasion, course
-20	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+19	fecht	fecht	NOUN	noun	Case=Acc|Number=Sing	12	advmod	X	Gloss=journey, expedition, time, occasion, course
+20	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	19	appos	X	Gloss=this, these
 
 # sent_id = S0021-26
 # text = .i. mo slántu fadéin 7 slántu amicorum
 # text_en = that is, my own well-being and the well-being of friends
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	mo	1sg.poss.pron.	DET	pronoun_possessive	Person=1|Number=Sing|Poss=Yes|PronType=Prs	3	_	X	Gloss=my
-3	slántu	slántu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss= health, well-being
-4	fadéin	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	slántu	slántu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss= health, well-being
-7	amicorum	amīcus	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=friend
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	mo	1sg.poss.pron.	DET	pronoun_possessive	Person=1|Number=Sing|Poss=Yes|PronType=Prs	3	nmod:poss	X	Gloss=my
+3	slántu	slántu	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss= health, well-being
+4	fadéin	fadesin	PRON	pronoun_emphatic	PronType=Emp	3	nmod	X	Gloss=self
+5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
+6	slántu	slántu	NOUN	noun	Case=Nom|Number=Sing	3	conj	X	Gloss= health, well-being
+7	amicorum	amīcus	NOUN	noun	Case=Gen|Number=Plur	6	nmod	X	Gloss=friend
 
 # sent_id = S0021-27
 # text = .i. cen failti
