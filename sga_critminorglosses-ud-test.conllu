@@ -2303,24 +2303,24 @@
 # sent_id = S0021-33
 # text = .i. ithesidi adrodamarsu
 # text_en = That is, it is them whom you have conceded.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	ithesidi	_	_	_	_	_	_	_	_
-2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	he	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	_	_	X	Gloss=they, them
-4	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur	_	_	X	Gloss=that one, he, she, it, they
+2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	he	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	0	root	X	Gloss=they, them
+4	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur	3	nsubj	X	Gloss=that one, he, she, it, they
 5-6	adrodamarsu	_	_	_	_	_	_	_	_
-5	ad·rodamar	ad·daim	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	_	_	X	Gloss=to acknowledge, to admit, to concede, to confess, grant; to avow, declare
-6	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	ad·rodamar	ad·daim	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	4	acl:relcl	X	Gloss=to acknowledge, to admit, to concede, to confess, grant; to avow, declare
+6	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-34
 # text = taudbartha
 # text_en = presented
-1	taudbartha	tedbarthae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=presented, applied, brought about
+1	taudbartha	tedbarthae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=presented, applied, brought about
 
 # sent_id = S0021-35
 # text = fasigthe
 # text_en = exhausted
-1	fasigthe	fásaigthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=made void, exhausted
+1	fasigthe	fásaigthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	0	root	X	Gloss=made void, exhausted
 
 # sent_id = S0021-36
 # text = addomsuitersa
