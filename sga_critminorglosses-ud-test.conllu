@@ -2359,42 +2359,42 @@
 # sent_id = S0021-39
 # text = amal ṁbís slántu cáich 7 ásonarte
 # text_en = as is the well-being of every one and his strength
-1	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-2	ṁbís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-3	slántu	slántu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss= health, well-being
-4	cáich	cách	PRON	pronoun_quantifier	Case=Gen|Number=Sing|Gender=Masc|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+1	amal	amail 2	SCONJ	conjunction	_	2	mark	X	Gloss=as, like; translating Latin ut
+2	ṁbís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be, to exist,
+3	slántu	slántu	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss= health, well-being
+4	cáich	cách	PRON	pronoun_quantifier	Case=Gen|Number=Sing|Gender=Masc|PronType=Tot	3	nmod	X	Gloss=every one, each one, any one, all
+5	7	ocus 2	CCONJ	conjunction	_	7	cc	X	Gloss=coordinating: and, since
 6-7	ásonarte	_	_	_	_	_	_	_	_
-6	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	7	_	X	Gloss=his, its
-7	sonarte	sonartae	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=strength, firmness, courage
+6	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=his, its
+7	sonarte	sonartae	NOUN	noun	Case=Nom|Number=Sing	3	conj	X	Gloss=strength, firmness, courage
 
 # sent_id = S0021-40
 # text = dunaib acubarthib
 # text_en = to the desirous ones
 1-2	dunaib	_	_	_	_	_	_	_	_
-1	du	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	acubarthib	accoborthae	ADJ	verbal_participle	Case=Dat|Number=Plur|Gender=Masc	_	_	X	Gloss=desired, desirous
+1	du	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
+2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	acubarthib	accoborthae	ADJ	verbal_participle	Case=Dat|Number=Plur|Gender=Masc	0	root	X	Gloss=desired, desirous
 
 # sent_id = S0021-41
 # text = .i. ius ordinis .i. fochosmailius inna reta corptha órdd isnaib retaib in tucht sin
 # text_en = That is, ius ordinis; that is, after the likeness of the corporeal things [is the] order in the things in that way.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ius	ius	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=law
-3	ordinis	ordō	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=methodical series, arrangement, order
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ius	ius	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=law
+3	ordinis	ordō	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=methodical series, arrangement, order
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5	fo	fo	ADP	preposition	Case=Dat	6	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-6	chosmalius	cosmailius	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=likeness, similarity, resemblance; comparison
+6	chosmalius	cosmailius	NOUN	noun	Case=Dat|Number=Sing	2	conj	X	Gloss=likeness, similarity, resemblance; comparison
 7	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	reta	rét 1	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=thing
-9	corptha	corpdae	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc	_	_	X	Gloss=corporeal, bodily, physical, actual
-10	órd	ord 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=order, sequence, class of persons
-11	i	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
+8	reta	rét 1	NOUN	noun	Case=Gen|Number=Plur	6	nmod	X	Gloss=thing
+9	corptha	corpdae	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc	6	amod	X	Gloss=corporeal, bodily, physical, actual
+10	órd	ord 1	NOUN	noun	Case=Nom|Number=Sing	6	nsubj	X	Gloss=order, sequence, class of persons
+11	i	i	ADP	preposition	Case=Dat	13	case	X	Gloss=in, into
 12	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	retaib	rét 1	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=thing
+13	retaib	rét 1	NOUN	noun	Case=Dat|Number=Plur	6	obl	X	Gloss=thing
 14	in	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	15	det	X	Gloss=the
-15	tucht	tucht	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=form, shape; manner, method
-16	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
+15	tucht	tucht	NOUN	noun	Case=Dat|Number=Sing	13	conj	X	Gloss=form, shape; manner, method
+16	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	15	appos	X	Gloss=that, those
 
 # sent_id = S0021-42
 # text = .i. dururgabsam
