@@ -2448,32 +2448,32 @@
 # sent_id = S0021-48
 # text = .i. issain donadbantar sensibus 7 amal ṁbís iarum
 # text_en = That is, how it is shown in the senses and as it is afterwards are different.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	issain	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
 3	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=different, distinct, separate, peculiar, special
-4	do·nadbantar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelType=Nas	_	_	X	Gloss=to show, to display, to demonstrate, to appear
-5	sensibus	sensus	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=perception, a feeling, understanding, reason
-6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-7	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-8	ṁbís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to be, to exist,
-9	iarum	íar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	_	_	X	Gloss=after, behind, across, along, beyond, according to
+4	do·nadbantar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelType=Nas	3	csubj	X	Gloss=to show, to display, to demonstrate, to appear
+5	sensibus	sensus	NOUN	noun	Case=Dat|Number=Plur	4	obl	X	Gloss=perception, a feeling, understanding, reason
+6	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
+7	amal	amail 2	SCONJ	conjunction	_	8	mark	X	Gloss=as, like; translating Latin ut
+8	ṁbís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	4	conj	X	Gloss=to be, to exist,
+9	iarum	íar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	8	obl:prep	X	Gloss=after, behind, across, along, beyond, according to
 
 # sent_id = S0021-49
 # text = .i. dús innadnutmaligetar
 # text_en = that is, to see if they are not unsteady
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	dús	dús	SCONJ	complementiser	_	_	mark:prt	X	Gloss=if, whether
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	dús	dús	SCONJ	complementiser	_	5	mark:prt	X	Gloss=if, whether
 3-5	innadnutmaligetar	_	_	_	_	_	_	_	_
-3	in	in 2	PRON	particle_interrogative	_	_	_	X	Gloss=question particle
-4	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
-5	·nutmaligetar	utmallaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Nas	_	_	X	Gloss=to be/become unsteady, to waver
+3	in	in 2	PRON	particle_interrogative	_	5	mark:prt	X	Gloss=question particle
+4	nad·	nád 1	PART	particle_negative_subordinate		5	advmod:neg	X	Gloss=that...not
+5	·nutmaligetar	utmallaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Nas	0	root	X	Gloss=to be/become unsteady, to waver
 
 # sent_id = S0021-50
 # text = dús innárdamar su
 # text_en = to see if you have conceded
-1	dús	dús	SCONJ	complementiser	_	_	mark:prt	X	Gloss=if, whether
+1	dús	dús	SCONJ	complementiser	_	3	mark:prt	X	Gloss=if, whether
 2-3	innárdamar	_	_	_	_	_	_	_	_
-2	in	in 2	PRON	particle_interrogative	_	_	_	X	Gloss=question particle
-3	·nárdamar	ad·daim	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to acknowledge, to admit, to concede, to confess, grant; to avow, declare
-4	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+2	in	in 2	PRON	particle_interrogative	_	3	mark:prt	X	Gloss=question particle
+3	·nárdamar	ad·daim	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to acknowledge, to admit, to concede, to confess, grant; to avow, declare
+4	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
