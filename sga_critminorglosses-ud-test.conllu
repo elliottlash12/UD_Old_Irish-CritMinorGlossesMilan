@@ -2178,7 +2178,7 @@
 2	meit	méit	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
 3-4	assochṫmacht	_	_	_	_	_	_	_	_
 3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	4	cop	X	Gloss=to be
-4	sochṫmacht	sochmacht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	2	_	X	Gloss=capable, possible
+4	sochṫmacht	sochmacht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	2	advcl	X	Gloss=capable, possible
 
 # sent_id = S0021-23
 # text = .i. nitartat sénsus breíc im anmin
@@ -2226,8 +2226,8 @@
 17	reta	rét 1	NOUN	noun	Case=Gen|Number=Sing	15	obj	X	Gloss=thing
 18-19	infecht	_	_	_	_	_	_	_	_
 18	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	19	det	X	Gloss=the
-19	fecht	fecht	NOUN	noun	Case=Acc|Number=Sing	12	advmod	X	Gloss=journey, expedition, time, occasion, course
-20	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	19	appos	X	Gloss=this, these
+19	fecht	fecht	NOUN	noun	Case=Acc|Number=Sing	15	obl:tmod	X	Gloss=journey, expedition, time, occasion, course
+20	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	19	det	X	Gloss=this, these
 
 # sent_id = S0021-26
 # text = .i. mo slántu fadéin 7 slántu amicorum
@@ -2255,7 +2255,7 @@
 # sent_id = S0021-29
 # text = cid indfretussa
 # text_en = even of the dowry
-1	cid	cid 2	PART	focus_particle	Tense=Pres|VerbForm=Fin	3	mark	X	Gloss=even
+1	cid	cid 2	PART	focus_particle	Tense=Pres|VerbForm=Fin	3	advmod:emph	X	Gloss=even
 2-3	indfretussa	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	fretussa	fretus	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=dowry
@@ -2263,7 +2263,7 @@
 # sent_id = S0021-30
 # text = do immoḟolung déesse duitsiu
 # text_en = to cause you indolence
-1	do	do 1	ADP	preposition	Case=Dat	2	case	X	Gloss=to, for, by etc.
+1	do	do 1	ADP	preposition	Case=Dat	2	mark:prt	X	Gloss=to, for, by etc.
 2	immoḟolung	immḟolang	NOUN	verbal_noun	Case=Dat|Number=Sing	0	root	X	Gloss=the act of causing, effecting, accomplishing, sustaining, supporting; effect
 3	déesse	deëss	NOUN	noun	Case=Gen|Number=Sing	2	obj	X	Gloss=idleness, inactivity, indolence; sloth, sluggishness
 4-5	duitsiu	_	_	_	_	_	_	_	_
@@ -2292,7 +2292,7 @@
 9	ni	ní 3	PART	particle_negative_main	_	12	advmod:neg	X	Gloss=not
 10	p	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	12	cop	X	Gloss=to be
 11	ar	ar 1	ADP	preposition	Case=Dat	12	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-12	étrud	étrad	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=lust, concupiscence, fornication
+12	étrud	étrad	NOUN	noun	Case=Dat|Number=Sing	4	conj	X	Gloss=lust, concupiscence, fornication
 13	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	14	cop	X	Gloss=to be
 14	mó	mór	ADJ	adjective		0	root	X	Gloss=great, big, ample, tall, large
 15	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	16	cop	X	Gloss=to be
@@ -2307,9 +2307,9 @@
 2-4	ithesidi	_	_	_	_	_	_	_	_
 2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
 3	he	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	0	root	X	Gloss=they, them
-4	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur	3	nsubj	X	Gloss=that one, he, she, it, they
+4	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur	3	appos	X	Gloss=that one, he, she, it, they
 5-6	adrodamarsu	_	_	_	_	_	_	_	_
-5	ad·rodamar	ad·daim	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	4	acl:relcl	X	Gloss=to acknowledge, to admit, to concede, to confess, grant; to avow, declare
+5	ad·rodamar	ad·daim	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	3	csubj:cleft	X	Gloss=to acknowledge, to admit, to concede, to confess, grant; to avow, declare
 6	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-34
@@ -2411,16 +2411,16 @@
 # text = ci forrásussa
 # text_en = even if I have advanced
 1	ci	cía 2	SCONJ	conjunction	_	2	mark	X	Gloss=concessive and explicative: even, although
-2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	0	root	X	Gloss=emphasising particle
-3	for·rásus	for·ása	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	2	acl	X	Gloss=to grow, increase
+2	for·rásus	for·ása	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to grow, increase
+3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-45
 # text = ate níchumgaim
 # text_en = No, I cannot do it.
-1	ate	ate	INTJ	interjection	_	0	root	X	Gloss=asseverative: truly, indeed, nay, no/nay
+1	ate	ate	INTJ	interjection	_	3	discourse	X	Gloss=asseverative: truly, indeed, nay, no/nay
 2-3	níchumgaim	_	_	_	_	_	_	_	_
 2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
-3	·chumgaim	con·icc	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	1	conj	X	Gloss=to can, to be capable of; to be able, to have power over
+3	·chumgaim	con·icc	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to can, to be capable of; to be able, to have power over
 
 # sent_id = S0021-46
 # text = .i. ni frithtáigsa
@@ -2443,7 +2443,7 @@
 6	brithemnacht	brithemnacht	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=judging, judgment, adjudication
 7	bess	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to be, to exist,
 8	in	in (Lat)	ADP	preposition	Case=Unk	9	case	X	Gloss=in, into
-9	mente	mens	NOUN	noun	Number=Sing	7	obl	X	Gloss=mind
+9	mente	mens	NOUN	noun	Number=Sing	7	xcomp:pred	X	Gloss=mind
 
 # sent_id = S0021-48
 # text = .i. issain donadbantar sensibus 7 amal ṁbís iarum
