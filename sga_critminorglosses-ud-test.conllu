@@ -2451,13 +2451,13 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	issain	_	_	_	_	_	_	_	_
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
-3	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=different, distinct, separate, peculiar, special
-4	do·nadbantar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelType=Nas	3	csubj	X	Gloss=to show, to display, to demonstrate, to appear
+3	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=different, distinct, separate, peculiar, special
+4	do·nadbantar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelType=Nas	3	csubj:subj	X	Gloss=to show, to display, to demonstrate, to appear
 5	sensibus	sensus	NOUN	noun	Case=Dat|Number=Plur	4	obl	X	Gloss=perception, a feeling, understanding, reason
 6	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
 7	amal	amail 2	SCONJ	conjunction	_	8	mark	X	Gloss=as, like; translating Latin ut
 8	ṁbís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	4	conj	X	Gloss=to be, to exist,
-9	iarum	íar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	8	obl:prep	X	Gloss=after, behind, across, along, beyond, according to
+9	iarum	íar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	8	xpred:comp	X	Gloss=after, behind, across, along, beyond, according to
 
 # sent_id = S0021-49
 # text = .i. dús innadnutmaligetar
@@ -2477,3 +2477,183 @@
 2	in	in 2	PRON	particle_interrogative	_	3	mark:prt	X	Gloss=question particle
 3	·nárdamar	ad·daim	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to acknowledge, to admit, to concede, to confess, grant; to avow, declare
 4	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
+
+# sent_id = S0021-51
+# text = .i. cachanim indegid álaile
+# text_en = that is, each soul after the other
+1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	i	i	ADP	preposition	Case=Acc	3	case	X	Gloss=in, into
+3	ndegid	degaid	NOUN	verbal_noun	Case=Dat|Number=Sing	_	_	X	Gloss=the act of pursuing; pursuit, search (i ndegaid)
+4	álaile	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Fem	_	_	X	Gloss=other, the other
+5	anim	ainimm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=soul (as opposed to the body)
+6	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Fem|PronType=Tot	5	det	X	Gloss=every, each, all, any
+
+# sent_id = S0021-52
+# text = innatmaisu
+# text_en = Do you concede?
+1-3	innatmaisu	_	_	_	_	_	_	_	_
+1	in	in 2	PRON	particle_interrogative	_	_	_	X	Gloss=question particle
+2	·natmai	ad·daim	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to acknowledge, to admit, to concede, to confess, grant; to avow, declare
+3	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+
+# sent_id = S0021-53
+# text = .i. lee fadeissne
+# text_en = that is, by herself
+1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	lee	la	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+3	fadeissne	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
+
+# sent_id = S0021-54
+# text = .i. dasachtaigte
+# text_en = that is, being crazy
+1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	dasachtaigte	dásachtaigthe	ADJ	verbal_participle	Case=Nom|Number=Sing	_	_	X	Gloss=being crazy
+
+# sent_id = S0021-55
+# text = dufórṅditer
+# text_en = They are represented.
+1	du·fórṅditer	do·foirndea	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to express, to signify, to determine, to mark out, to delineate
+
+# sent_id = S0021-56
+# text = cruthigtir
+# text_en = They are shaped.
+1	cruthigtir	cruthaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to create, to shape, to form, to produce, to prove, establish
+
+# sent_id = S0021-57
+# text = .i. nótríathleim
+# text_en = that is, or by leaping back
+1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2-4	nótríathleim	_	_	_	_	_	_	_	_
+2	nó	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+3	trí	tre	ADP	preposition	Case=Acc	4	case	X	Gloss=through (time or space), by means of, be reason of
+4	athleim	athléimm	NOUN	verbal_noun	Case=Acc|Number=Sing	_	_	X	Gloss=the act of re-leaping; second leap, rebound
+
+# sent_id = S0021-58
+# text = .i. fil in uisu
+# text_en = That is, there is in visu.
+1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+3	in	in (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=in, into
+4	uisu	uideō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to see
+
+# sent_id = S0021-59
+# text = .i. inna luiniche
+# text_en = that is, of the blackbird
+1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
+3	luiniche	lonach	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem	_	_	X	Gloss=associated with a blackbird
+
+# sent_id = S0021-60
+# text = cit
+# text_en = even
+1	cit	cid 2	PART	focus_particle	Tense=Pres|VerbForm=Fin	_	_	X	Gloss=even
+
+# sent_id = S0021-61
+# text = boltigme
+# text_en = that we smell
+1	boltigme	boltaigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to smell
+
+# sent_id = S0021-62
+# text = niconscithigfar
+# text_en = I will never become tired.
+1-2	niconscithigfar	_	_	_	_	_	_	_	_
+1	nicon·	nicon	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not ever
+2	·scithigfar	scíthaigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to become tired, to become fatigued, to become exhausted
+
+# sent_id = S0021-63
+# text = ócomteitarrestiss á nobís
+# text_en = by which they would have been comprehended by us.
+1-3	ócomteitarrestiss	_	_	_	_	_	_	_	_
+1	ó·	ó 1	ADP	preposition	Case=Dat	_	case	X	Gloss=from, out of, by
+2	∅·	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
+3	·comteitarrestiss	con·tetarrat	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to comprise, to comprehend; to contain
+4	á	ab (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
+5	nobís	nōs	PRON	pronoun_independent	PronType=Prs	_	_	X	Gloss=we, us
+
+# sent_id = S0021-64
+# text = cofrisdúna
+# text_en = so that it may shut up
+1-2	cofrisdúna	_	_	_	_	_	_	_	_
+1	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
+2	fris·dúna	fris·dúna	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to block, to shut up, to obstruct; to close
+
+# sent_id = S0021-65
+# text = ni congainedar ní óthucidib écsamlib nisi falsum tantum
+# text_en = Nothing is produced by unlike causes, save only something false.
+1	nicon·	nicon	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not ever
+2	·gainedar	gainithir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be born, to come to life, to be produced, to be derived, to be formed, to originate
+3	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
+4	ó	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
+5	thucidib	tucait	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=cause, reason
+6	écsamlib	écsamail	ADJ	adjective	Case=Dat|Number=Plur|Gender=Fem	_	_	X	Gloss=dissimilar, different, distinct, strange, uncommon, peculiar
+7	nisi	nisi	X	conjunction	_	_	_	X	Gloss=if not, unless, except
+8	falsum	falsus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=deceived, false
+9	tantum	tantum	DET	adjective_quantifier	_	_	det	X	Gloss=so many, so great, only
+
+# sent_id = S0021-66
+# text = .i. amal asrubartmar inna clocha bíte inelluch intalman
+# text_en = that is, as we have mentioned the stones that are in the mass of the earth
+1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
+3	as·rubartmar	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
+4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
+5	clocha	cloch	NOUN	noun	Case=Acc|Number=Plur|Gender=Fem	_	_	X	Gloss=stone, rock
+6	bíte	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+7-8	inelluch	_	_	_	_	_	_	_	_
+7	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
+8	nelluch	ellach	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=combination, composition ; joining, uniting; union
+9-10	intalman	_	_	_	_	_	_	_	_
+9	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
+10	talman	talam	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=earth, world; ground ; land
+
+# sent_id = S0021-67
+# text = bíte immuir
+# text_en = which are in the sea
+1	bíte	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+2-3	immuir	_	_	_	_	_	_	_	_
+2	i	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
+3	mmuir	muir	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=sea, tide
+
+# sent_id = S0021-68
+# text = .i. cidna fuirsirechta
+# text_en = that is, even the buffooneries
+1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2-3	cidna	_	_	_	_	_	_	_	_
+2	cid	cid 2	PART	focus_particle	Tense=Pres|VerbForm=Fin	_	_	X	Gloss=even
+3	na	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
+4	fuirsirechta	fuirsirecht	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=buffoonery
+
+# sent_id = S0021-69
+# text = .i. ni moa adcosnat bete in secundo genere innahí frisairet 7 sani quam dormientes .i. est furentes
+# text_en = That is, those who keep watch and the healthy ones strive to be in the second class not more than those who sleep. That is, it is the ones who are wild.
+1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
+3	moa	mór	ADJ	adjective		_	_	X	Gloss=great, big, ample, tall, large
+4	ad·cosnat	ad·cosnai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to make for, to strive, to seek
+5	bete	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to be, to exist,
+6	in	in (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=in, into
+7	secundo	secundus	ADJ	adjective_numeral_noun	Number=Sing|Gender=Neut	_	_	X	Gloss=second
+8	genere	genus	NOUN	noun	Number=Sing	_	_	X	Gloss=tribe, kindred
+9-10	innahí	_	_	_	_	_	_	_	_
+9	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
+10	hí	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Neut	_	_	X	Gloss=substantivizing particle
+11	fris·airet	fris·airi	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	_	_	X	Gloss=to keep vigil, to keep watch
+12	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+13	sani	sanis	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=healthy
+14	quam	quam	X	conjunction	_	_	_	X	Gloss=how, than
+15	dormientes	dormiens	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=sleeping
+16	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+17	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be
+18	furentes	furens	ADJ	adjective	Case=Nom|Number=Plur	_	_	X	Gloss=_
+
+# sent_id = S0021-70
+# text = arun méitse ni cuming
+# text_en = as far as this he cannot
+1-2	arun	_	_	_	_	_	_	_	_
+1	ar	ar 1	ADP	preposition	Case=Dat	3	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+2	un	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3-4	méitse	_	_	_	_	_	_	_	_
+3	méit	méit	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
+4	se	-se	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+5	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
+6	·cuming	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to can, to be capable of; to be able, to have power over
