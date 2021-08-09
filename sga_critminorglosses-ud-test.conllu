@@ -243,7 +243,7 @@
 4	láthair	láthar	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	2	obj	2:obj	Gloss=arrangement, disposition, interpretation, appointment, design; machination, wiles; vigour, energy, power; place, position, point, space
 5	aimserdi	aimserdae	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut	4	amod	4:amod	Gloss=belonging to time, temporal
 6	7	ocus 2	CCONJ	conjunction	_	7	cc	7:cc	Gloss=coordinating: and, since
-7	comalnad	comalnad	NOUN	verbal_noun	Case=Nom|Number=Sin|VerbForm=Vnoung	2	conj	2:conj	Gloss=the act of fulfilling
+7	comalnad	comalnad	NOUN	verbal_noun	Case=Nom|Number=Sin|VerbForm=Vnoun	2	conj	2:conj	Gloss=the act of fulfilling
 8	neich	ní 1	PRON	pronoun_quantifier	Case=Gen|Number=Sing	7	obj	7:obj	Gloss=something; nothing, anything ; not
 9	for·chain	for·cain	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	8	acl:rel	8:acl:rel	Gloss=to teach
 10-12	instoirsin	_	_	_	_	_	_	_	_
@@ -640,7 +640,7 @@
 13	sum	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	12	nsubj	12:nsubj	Gloss=emphasising particle
 14	riam	re	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	12	obl:prep	12:obl:prep	Gloss=before, in front of
 15	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	17	cop	17:cop	Gloss=to be
-16	do	do 1	ADP	preposition	Case=Dat	17	mark	17:mark	Gloss=to, for, by etc.
+16	do	do 1	ADP	preposition	Case=Dat	17	mark:prt	17:mark:prt	Gloss=to, for, by etc.
 17	imthrenugud	immthrénugud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	4	advcl	4:advcl	Gloss=the act of enjoining, assuring, confirming, commending
 18	ón	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	17	nsubj	17:nsubj	Gloss=that (mentioned above) that is
 19-20	asind	_	_	_	_	_	_	_	_
@@ -1015,7 +1015,7 @@
 # text_en = It is made bitter.
 1	serbaigthir	serbaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	0:root	Gloss=to become bitter; to make bitter
 
-# sent_id = S0050-51
+# sent_id = S0050-51 — ellipsis : nip cuit ree.
 # text = .i. airndib múcnae 7 airndib ecmailt ánétach 7 ambiad 7 andeug innaní prithchite hiris 7 condib trianuile ṁbethaid ón dano 7 nib cuit ree ·
 # text_en = that is, that the raiment and the food and the drink of those who preach the faith should be austere and should be unusual and, moreover, that it should be so through their whole life, moreover, and not for some time
 1	.i.	.i.	CCONJ	abbreviation	_	4	cc	4:cc	Gloss=id est, it is
@@ -1051,7 +1051,7 @@
 24-26	trianuile	_	_	_	_	_	_	_	_
 24	tri	tre	ADP	preposition	Case=Acc	27	case	27:case	Gloss=through (time or space), by means of, be reason of
 25	a	3pl.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Gloss=their
-26	nuile	uile	DET	adjective_quantifier	Case=Acc|Number=Sing	27	det	27:det	Gloss=all, every, the whole
+26	nuile	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing	27	amod	27:amod	Gloss=all, every, the whole
 27	ṁbethaid	bethu	NOUN	noun	Case=Acc|Number=Sing	4	conj	4:conj	Gloss=life, existence, food, nourishment, property
 28	ón	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	27	discourse	27:discourse	Gloss=that (mentioned above) that is
 29	dano	danó	ADV	particle_discourse	_	33	advmod	33:advmod	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
@@ -1091,7 +1091,7 @@
 2-3	indegaid	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Acc	3	case	3:case	Gloss=in, into
 3	ndegaid	degaid	NOUN	verbal_noun	Case=Acc|Number=Sing|VerForm=VNoun	0	root	0:root	Gloss=the act of pursuing; pursuit, search (i ndegaid)
-4	nísu	Ísu	PROPN	proper_noun	Case=Gen|Number=Sing	3	nmod	3:nmod	Gloss=Jesus
+4	nísu	Ísu	PROPN	proper_noun	Case=Gen|Number=Sing	3	obj	3:obj	Gloss=Jesus
 
 # sent_id = S0050-54
 # text = .i. hi comtherchomruc natuade
@@ -1118,7 +1118,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	4	cc	4:cc	Gloss=id est, it is
 2	ni	ní 3	PART	particle_negative_main	_	4	advmod:neg	4:advmod:neg	Gloss=not
 3-4	duchoscrad	_	_	_	_	_	_	_	_
-3	du	do 1	ADP	preposition	Case=Dat	4	case	4:case	Gloss=to, for, by etc.
+3	du	di	ADP	preposition	Case=Dat	4	case	4:case	Gloss=to, for, by etc.
 4	choscrad	coscrad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	0:root	Gloss=the act of overthrowing, destroying, hacking, tearing apart, disturbing
 5-6	intempuil	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	6:det	Gloss=the
@@ -1474,12 +1474,12 @@
 # text = .i. inna brodscuad anglana .i. doninola as[cech]... frie
 # text_en = that is, the unclean refuse, namely, which it collects from every ... to it
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	3:cc	Gloss=id est, it is
-2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	3:det	Gloss=the
+2	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	3	det	3:det	Gloss=the
 3	brodscuad	brodscuad	NOUN	noun	Case=Nom|Number=Plur|Gender=Neut|Definite=Def	0	root	0:root	Gloss=refuse, rubbish
 4	anglana	anglan	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut	3	amod	3:amod	Gloss=impure
 5	.i.	.i.	CCONJ	abbreviation	_	6	cc	6:cc	Gloss=id est, it is
 6	do·ninola	do·inóla	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	3	conj	3:conj	Gloss=to gather, to collect, to assemble,to muster
-7-8	as[cech]...	_	_	_	_	_	_	_	_
+7-8	as[cech]	_	_	_	_	_	_	_	_
 7	as	a 7	ADP	preposition	Case=Dat	8	case	8:case	Gloss=out of, from
 8	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|PronType=Tot	6	det	6:det	Gloss=every, each, all, any
 9	frie	fri	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	6	obl:prep	6:obl:prep	Gloss=towards, against, standard of comparison
@@ -2255,7 +2255,7 @@
 # sent_id = S0021-29
 # text = cid indfretussa
 # text_en = even of the dowry
-1	cid	cid 2	PART	focus_particle	Tense=Pres|VerbForm=Fin	3	advmod:emph	X	Gloss=even
+1	cid	cid 2	PART	particle_focus	Tense=Pres|VerbForm=Fin	3	advmod:emph	X	Gloss=even
 2-3	indfretussa	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	fretussa	fretus	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=dowry
@@ -2275,7 +2275,7 @@
 # text_en = of children
 1	clainde	cland	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=plant, offshoot, children, descedant, family, clan, offspring
 
-# sent_id = S0021-32
+# sent_id = S0021-32 - possible ellipses context: niparétrud
 # text = cid arthucait cláinde dagné nech 7 niparétrud is mó is periculosius quam felicius
 # text_en = Although it may be for the sake of children [that] someone may do it and not for lust, it is more dangerous than productive.
 1-2	cid	_	_	_	_	_	_	_	_
@@ -2326,17 +2326,17 @@
 # text = addomsuitersa
 # text_en = I am held fast.
 1-2	addomsuitersa	_	_	_	_	_	_	_	_
-1	addom·suiter	ad·suidi	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|PronType=InfA	0	root	X	Gloss=to hold back, to keep, to bind, to establish; to stop, detain; to fix, make permanent
+1	addom·suiter	ad·suidi	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelType=Nas|PronType=InfC	0	root	X	Gloss=to hold back, to keep, to bind, to establish; to stop, detain; to fix, make permanent
 2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	1	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-37
 # text = ni nammá nádfoirmtigimse
 # text_en = It is not only that I do not envy
 1	ni	ní 3	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not
-2	nammá	nammá	PART	particle_focus	_	4	advmod	X	Gloss=only, merely
+2	nammá	nammá	PART	particle_focus	_	0	root	X	Gloss=only, merely
 3-5	nádfoirmtigimse	_	_	_	_	_	_	_	_
 3	nád·	nád 1	PART	particle_negative_subordinate		4	advmod:neg	X	Gloss=that...not
-4	·foirmtigim	foirmtigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to envy
+4	·foirmtigim	foirmtigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	0	csubj:cleft	X	Gloss=to envy
 5	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	4	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-38
@@ -2345,12 +2345,12 @@
 1-2	níó	_	_	_	_	_	_	_	_
 1	ní	ní 3	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not
 2	ó	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
-3	ógai	ógae	NOUN	noun	Case=Dat|Number=Sing	8	obl	X	Gloss=wholeness, perfection, chastity, celibacy, virginity
-4	tantum	tantum	DET	adjective_quantifier	_	3	det	X	Gloss=so many, so great, only
-5	acht	acht 1	PART	particle_focus	_	8	mark	X	Gloss=except, but, provided that, save that
+3	ógai	ógae	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=wholeness, perfection, chastity, celibacy, virginity
+4	tantum	tantum	PART	particle_focus	_	3	adv:emph	X	Gloss=so many, so great, only
+5	acht	acht 1	CCONJ	conjunction	_	8	cc	X	Gloss=except, but, provided that, save that
 6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
 7	ó	ó 1	ADP	preposition	Case=Dat	8	case	X	Gloss=from, out of, by
-8	aithirgi	aithirge	NOUN	verbal_noun	Case=Dat|Number=Sing	0	root	X	Gloss=the act of repenting (of), regretting; penance
+8	aithirgi	aithirge	NOUN	verbal_noun	Case=Dat|Number=Sing	3	conj	X	Gloss=the act of repenting (of), regretting; penance
 9	7	ocus 2	CCONJ	conjunction	_	11	cc	X	Gloss=coordinating: and, since
 10	ó	ó 1	ADP	preposition	Case=Dat	11	case	X	Gloss=from, out of, by
 11	dligud	dliged	NOUN	noun	Case=Dat|Number=Sing	8	conj	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
@@ -2546,7 +2546,7 @@
 # sent_id = S0021-60
 # text = cit
 # text_en = even
-1	cit	cid 2	PART	focus_particle	Tense=Pres|VerbForm=Fin	_	_	X	Gloss=even
+1	cit	cid 2	PART	particle_focus	Tense=Pres|VerbForm=Fin	_	_	X	Gloss=even
 
 # sent_id = S0021-61
 # text = boltigme
@@ -2619,7 +2619,7 @@
 # text_en = that is, even the buffooneries
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-3	cidna	_	_	_	_	_	_	_	_
-2	cid	cid 2	PART	focus_particle	Tense=Pres|VerbForm=Fin	_	_	X	Gloss=even
+2	cid	cid 2	PART	particle_focus	Tense=Pres|VerbForm=Fin	_	_	X	Gloss=even
 3	na	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
 4	fuirsirechta	fuirsirecht	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=buffoonery
 
