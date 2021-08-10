@@ -760,7 +760,7 @@ def analyze_augm_in_(a_sentence):
 def analyze_rel_in(a_sentence):
     for word in a_sentence:
         if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
-            if 'rel' in word['feats']['Analysis']: #Why shouldn't 'nas' or 'len' also be referred to at this level?
+            if 'rel' in word['feats']['Analysis']: ###Why shouldn't 'nas' or 'len' also be referred to at this level? !!!! 
                 if 'len' in word['feats']['Analysis']:
                     word['feats']['RelType'] = 'Len'
                 elif 'nas' in word['feats']['Analysis']:
@@ -826,7 +826,21 @@ def analyze_person_of_pronouns(a_sentence):
                     word['feats']['Person'] = '3'
                 
 
-#Section 6.5. Putting it all together.
+#Section 6.5. Adjective Degree Analysis
+                    
+def analyze_adjective_degree_analysis(a_sentence):
+    for word in a_sentence:
+        if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
+            if word['feats']['Analysis'] == 'comp.':
+                word['feats']['Degree'] = 'Cmp'
+            elif word['feats']['Analysis'] == 'sup.':
+                word['feats']['Degree'] = 'Sup'
+            elif word['feats']['Analysis'] == 'equ.':
+                word['feats']['Degree'] = 'Equ'
+            elif word['xpos'] == 'adjective' and word['feats']['Analysis'] != 'comp.' and word['feats']['Analysis'] != 'sup.' and word['feats']['Analysis'] != 'equ.':
+                word['feats']['Degree'] = 'Pos'
+    
+#Section 6.6. Putting it all together.
 
 #The following function groups all of the functions that apply to substantives (i.e. nouns and adjectives) together.
 
@@ -865,8 +879,7 @@ def change_preposition_analysis(input_data):
     analyze_case_in_prepositions_in_(input_data)
     latin_check(input_data)
     return input_data
-
-
+    
 # The following function groups all the functions that apply to other items together.
 
 def change_other_analyses(input_data):
@@ -874,7 +887,7 @@ def change_other_analyses(input_data):
     analyze_value_of_deixis(input_data)
     analyze_value_of_prontype(input_data)
     analyze_person_of_pronouns(input_data)
-
+    analyze_adjective_degree_analysis(input_data)
 
 #This deletes keys with null values in the "feats" dictionary.
             
@@ -1622,17 +1635,19 @@ if __name__ == "__main__":
 # ========================================================================================================================================================================================================
 
 """
-Jul 28 update below
 
-Fix the compounding issue with prefixes. > This is basically done, but problems remain if the elements of a compound aren't
-in the proper order.
+Aug 10 update below
+
+Fix the compounding issue with prefixes. > This is basically done, but problems remain if the elements of a compound aren't in the proper order.
 
 Rembember that the remove dummy preverb function currently assumes that it always starts the verbal morph. Hopefully that is true.
 
-Remember to fix the relative function so that it doesn't necessarily assume that "rel" is in analysis.
+Remember to fix the relative function so that it doesn't necessarily assume that "rel" is in analysis. > Remember to fix this see comment in analyze_rel_in
 
 Remember to add a function to make verbal nouns have the feature VerbForm=Vnoun
 
 Remember to recheck act and pass assignment.
 
+Remember to figure out how to fix the problem relating to the deletion of the features of the subordinate negative. Also, add a version of the adjective degree function to edit_conllu to
+add degrees to previously seen texts.
 """
