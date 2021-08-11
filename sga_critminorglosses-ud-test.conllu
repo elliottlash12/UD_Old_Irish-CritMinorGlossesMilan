@@ -2481,27 +2481,27 @@
 # sent_id = S0021-51
 # text = .i. cachanim indegid álaile
 # text_en = that is, each soul after the other
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2	i	i	ADP	preposition	Case=Acc	3	case	X	Gloss=in, into
-3	ndegid	degaid	NOUN	verbal_noun	Case=Dat|Number=Sing	_	_	X	Gloss=the act of pursuing; pursuit, search (i ndegaid)
-4	álaile	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Fem	_	_	X	Gloss=other, the other
-5	anim	ainimm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=soul (as opposed to the body)
+3	ndegid	degaid	NOUN	verbal_noun	Case=Dat|Number=Sing	5	advcl	X	Gloss=the act of pursuing; pursuit, search (i ndegaid)
+4	álaile	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Fem	nmod	5	X	Gloss=other, the other
+5	anim	ainimm	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=soul (as opposed to the body)
 6	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Fem|PronType=Tot	5	det	X	Gloss=every, each, all, any
 
 # sent_id = S0021-52
 # text = innatmaisu
 # text_en = Do you concede?
 1-3	innatmaisu	_	_	_	_	_	_	_	_
-1	in	in 2	PRON	particle_interrogative	_	_	_	X	Gloss=question particle
-2	·natmai	ad·daim	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to acknowledge, to admit, to concede, to confess, grant; to avow, declare
-3	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	in	in 2	PRON	particle_interrogative	_	2	mark:prt	X	Gloss=question particle
+2	·natmai	ad·daim	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to acknowledge, to admit, to concede, to confess, grant; to avow, declare
+3	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-53
 # text = .i. lee fadeissne
 # text_en = that is, by herself
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	lee	la	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-3	fadeissne	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	lee	la	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	3	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+3	fadeissne	fadesin	PRON	pronoun_emphatic	PronType=Emp	0	root	X	Gloss=self
 
 # sent_id = S0021-54
 # text = .i. dasachtaigte
