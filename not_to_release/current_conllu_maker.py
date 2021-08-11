@@ -345,7 +345,7 @@ def remove_null_in(list_of_sentences):
     for sent in list_of_sentences.values():
         for i in reversed(range(len(sent))):
             word = sent[i]
-            if word['Morph'] == '∅':
+            if '∅' in word['Morph']:
                 del sent[i]
 
 
