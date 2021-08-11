@@ -2522,26 +2522,26 @@
 # sent_id = S0021-57
 # text = .i. nótríathleim
 # text_en = that is, or by leaping back
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	nótríathleim	_	_	_	_	_	_	_	_
-2	nó	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+2	nó	nó 1	CCONJ	conjunction	_	4	cc	X	Gloss=disjunctive: or
 3	trí	tre	ADP	preposition	Case=Acc	4	case	X	Gloss=through (time or space), by means of, be reason of
-4	athleim	athléimm	NOUN	verbal_noun	Case=Acc|Number=Sing	_	_	X	Gloss=the act of re-leaping; second leap, rebound
+4	athleim	athléimm	NOUN	verbal_noun	Case=Acc|Number=Sing	0	root	X	Gloss=the act of re-leaping; second leap, rebound
 
 # sent_id = S0021-58
 # text = .i. fil in uisu
 # text_en = That is, there is in visu.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-3	in	in (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=in, into
-4	uisu	uideō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to see
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be, to exist,
+3	in	in (Lat)	ADP	preposition	Case=Unk	4	obl:prep	X	Gloss=in, into
+4	uisu	uideō	VERB	verb	Voice=Act|Mood=Ind	2	xcomp:pred	X	Gloss=to see
 
 # sent_id = S0021-59
 # text = .i. inna luiniche
 # text_en = that is, of the blackbird
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	luiniche	lonach	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem	_	_	X	Gloss=associated with a blackbird
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	luiniche	lonach	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem	0	root	X	Gloss=associated with a blackbird
 
 # sent_id = S0021-60
 # text = cit
