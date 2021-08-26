@@ -2592,35 +2592,35 @@
 # sent_id = S0021-66
 # text = .i. amal asrubartmar inna clocha bíte inelluch intalman
 # text_en = that is, as we have mentioned the stones that are in the mass of the earth
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	as·rubartmar	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	3	mark	X	Gloss=as, like; translating Latin ut
+3	as·rubartmar	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to say, to speak, to call , mention
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	clocha	cloch	NOUN	noun	Case=Acc|Number=Plur|Gender=Fem	_	_	X	Gloss=stone, rock
-6	bíte	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+5	clocha	cloch	NOUN	noun	Case=Acc|Number=Plur|Gender=Fem	3	obj	X	Gloss=stone, rock
+6	bíte	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	acl:relcl	X	Gloss=to be, to exist,
 7-8	inelluch	_	_	_	_	_	_	_	_
 7	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
-8	nelluch	ellach	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=combination, composition ; joining, uniting; union
+8	nelluch	ellach	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=combination, composition ; joining, uniting; union
 9-10	intalman	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	talman	talam	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=earth, world; ground ; land
+10	talman	talam	NOUN	noun	Case=Gen|Number=Sing	8	nmod	X	Gloss=earth, world; ground ; land
 
 # sent_id = S0021-67
 # text = bíte immuir
 # text_en = which are in the sea
-1	bíte	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	bíte	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be, to exist,
 2-3	immuir	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
-3	mmuir	muir	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=sea, tide
+3	mmuir	muir	NOUN	noun	Case=Dat|Number=Sing	1	obl	X	Gloss=sea, tide
 
 # sent_id = S0021-68
 # text = .i. cidna fuirsirechta
 # text_en = that is, even the buffooneries
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	cidna	_	_	_	_	_	_	_	_
-2	cid	cid 2	PART	particle_focus	Tense=Pres|VerbForm=Fin	_	_	X	Gloss=even
+2	cid	cid 2	PART	particle_focus	Tense=Pres|VerbForm=Fin	4	advmod:emph	X	Gloss=even
 3	na	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	fuirsirechta	fuirsirecht	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=buffoonery
+4	fuirsirechta	fuirsirecht	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=buffoonery
 
 # sent_id = S0021-69
 # text = .i. ni moa adcosnat bete in secundo genere innahí frisairet 7 sani quam dormientes .i. est furentes
