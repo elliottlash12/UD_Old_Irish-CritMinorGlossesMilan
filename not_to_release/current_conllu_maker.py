@@ -760,7 +760,7 @@ def analyze_augm_in_(a_sentence):
 def analyze_rel_in(a_sentence):
     for word in a_sentence:
         if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
-            if 'rel' in word['feats']['Analysis']: ###Why shouldn't 'nas' or 'len' also be referred to at this level? !!!! 
+            if 'rel' in word['feats']['Analysis']: ###Why shouldn't 'nas' or 'len' also be referred to at this level? !!!! Basically, 'rel' should be confined to the final elif statement.
                 if 'len' in word['feats']['Analysis']:
                     word['feats']['RelType'] = 'Len'
                 elif 'nas' in word['feats']['Analysis']:
