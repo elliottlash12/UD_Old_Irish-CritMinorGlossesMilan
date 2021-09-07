@@ -610,6 +610,7 @@ def latin_check(a_sentence):
 #Section 6.3. Analysis of Verbs
 
 # The functions verbal_infixed_person_analysis and verbal_infixed_number_analysis deal with the features of infixed pronouns.
+# Create better regex for these?
 
 def verbal_infixed_person_analysis(a_sentence):
     for word in a_sentence:
@@ -635,7 +636,9 @@ def verbal_infixed_number_analysis(a_sentence):
 
 #The verbal_person_analysis checks to see if for rows whose "xpos" value is "verb" any key in "Feats" contains "1/2/3" and creates a new key:value pair.
 # Because the analysis of the verb will contain two instances of 1/2/3 in the case of transitive verbs with infixed pronouns, there may be some functionality issues here!				
-		
+# The above comment is correct. Instead of the approach in the function, the following regex needs to be implemented: pat=re.compile('(?<!obj)[123]((sg)|(pl))')
+# This regex finds 1,2, or 3 not preceded by obj, which is by definition the subject.
+
 def verbal_person_analysis(a_sentence):
     for word in a_sentence:
         if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
