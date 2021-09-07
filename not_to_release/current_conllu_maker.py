@@ -99,7 +99,7 @@ def preprocess_2(input_data):
 
 def preprocess_3(input_data):
     for item in input_data:
-        if item[6] == "Yes" and ".rel." not in item[5]:
+        if item[6] == "Yes" and ".rel." not in item[5]: #Perhaps also "Maybe" should trigger something like rel?
             item[5] = item[5] + "rel."
         item[6] = "_"
 
