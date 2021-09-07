@@ -222,7 +222,7 @@ def compare_verbs_and_relative_particles_in(list_of_verbs, list_of_relparts):
 def compare_verbs_and_infixed_pronouns_in(list_of_verbs, list_of_prons):
     ans = []
     for verb, pron in list(itertools.product(list_of_verbs, list_of_prons)): 
-        if verb['Stressed_Unit'] == pron['Stressed_Unit'] and pron['Morph'] in verb['Morph']:
+        if verb['Stressed_Unit'] == pron['Stressed_Unit'] and pron['Morph'] in verb['Morph']: #The second conjunct of this statement excludes cases where pron['Morph'] == '∅'!
             pronanalysis = pron['Analysis'].split('=')
             if pron['Lemma'] == '1sg.inf.pron.':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' has a ' + pron['Lemma'] + ' as direct object.'
