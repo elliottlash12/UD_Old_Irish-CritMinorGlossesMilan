@@ -2452,7 +2452,7 @@
 2-3	issain	_	_	_	_	_	_	_	_
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
 3	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=different, distinct, separate, peculiar, special
-4	do·nadbantar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelType=Nas	3	csubj:subj	X	Gloss=to show, to display, to demonstrate, to appear
+4	do·nadbantar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|RelType=Nas	3	csubj:cleft	X	Gloss=to show, to display, to demonstrate, to appear
 5	sensibus	sensus	NOUN	noun	Case=Dat|Number=Plur	4	obl	X	Gloss=perception, a feeling, understanding, reason
 6	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
 7	amal	amail 2	SCONJ	conjunction	_	8	mark	X	Gloss=as, like; translating Latin ut
@@ -2625,10 +2625,10 @@
 # sent_id = S0021-69
 # text = .i. ni moa adcosnat bete in secundo genere innahí frisairet 7 sani quam dormientes .i. est furentes
 # text_en = That is, those who keep watch and the healthy ones strive to be in the second class not more than those who sleep. That is, it is the ones who are wild.
-1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
-3	moa	mór	ADJ	adjective		4	advcl	X	Gloss=great, big, ample, tall, large
-4	ad·cosnat	ad·cosnai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	0	root	X	Gloss=to make for, to strive, to seek
+3	moa	mór	ADJ	adjective		0	root	X	Gloss=great, big, ample, tall, large
+4	ad·cosnat	ad·cosnai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	3	csubj:cleft	X	Gloss=to make for, to strive, to seek
 5	bete	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	4	ccomp	X	Gloss=to be, to exist,
 6	in	in (Lat)	ADP	preposition	Case=Unk	8	case	X	Gloss=in, into
 7	secundo	secundus	ADJ	adjective_numeral_noun	Number=Sing|Gender=Neut	8	nummod	X	Gloss=second
@@ -2640,7 +2640,7 @@
 12	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
 13	sani	sanis	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc	10	conj	X	Gloss=healthy
 14	quam	quam	X	conjunction	_	15	case	X	Gloss=how, than
-15	dormientes	dormiens	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc	4	obl	X	Gloss=sleeping
+15	dormientes	dormiens	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc	3	obl	X	Gloss=sleeping
 16	.i.	.i.	CCONJ	abbreviation	_	18	cc	X	Gloss=id est, it is
 17	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	18	cop	X	Gloss=to be
 18	furentes	furens	ADJ	adjective	Case=Nom|Number=Plur	0	root	X	Gloss=_
