@@ -4,7 +4,7 @@
 # text_en = This day is cold. That [is] clear. [It is] Winter.
 1-2	ishúar	_	_	_	_	_	_	_	_
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
-2	húar	úar 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	0	root	0:root	Gloss=cold, cool
+2	húar	úar 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=cold, cool
 3-4	allaa	_	_	_	_	_	_	_	_
 3	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	4:det	Gloss=the
 4	llaa	laë	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	2	nsubj	2:nsubj	Gloss=day, daytime
@@ -12,7 +12,7 @@
 5	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	4	appos	4:appos	Gloss=substantivizing particle
 6	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	5	appos	5:appos	Gloss=this, these
 7-8	deithbirsón	_	_	_	_	_	_	_	_
-7	deithbir	deithbir	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	0	root	0:root	Gloss=fitting, proper, reasonable, natural, lawful
+7	deithbir	deithbir	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=fitting, proper, reasonable, natural, lawful
 8	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	7	nsubj	7:nsubj	Gloss=that (mentioned above) that is
 9	gaimred	gaimred	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=winter
 
@@ -21,7 +21,7 @@
 # text_en = The light of the candle is not bright.
 1-2	nísorche	_	_	_	_	_	_	_	_
 1	ní	ní 3	PART	particle_negative_main	_	2	advmod:neg	2:advmod:neg	Gloss=not
-2	sorche	sorchae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	0	root	0:root	Gloss=bright, luminous, radiant
+2	sorche	sorchae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	0	root	0:root	Gloss=bright, luminous, radiant
 3	suilse	soilse	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	2:nsubj	Gloss=brightness, light
 4-5	indítharni	_	_	_	_	_	_	_	_
 4	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	5:det	Gloss=the
@@ -31,7 +31,7 @@
 # text = is nemnech ingáeth hísiu
 # text_en = This wind is poisonous.
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
-2	nemnech	neimnech	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	0	root	0:root	Gloss=poisonous, venomous, envenomed, deadly, dangerous, keen, instense; vindictive
+2	nemnech	neimnech	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	0	root	0:root	Gloss=poisonous, venomous, envenomed, deadly, dangerous, keen, instense; vindictive
 3-4	ingáeth	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	4:det	Gloss=the
 4	gáeth	gáeth 2	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	2	nsubj	2:nsubj	Gloss=wind
@@ -43,7 +43,7 @@
 # text = is lomm inmembrum nacailne hísiu
 # text_en = The parchment is bare at this annal.
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
-2	lomm	lomm	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	0	root	0:root	Gloss=bare, naked, smooth, exact
+2	lomm	lomm	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	0:root	Gloss=bare, naked, smooth, exact
 3-4	inmembrum	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	4:det	Gloss=the
 4	membrum	membrumm	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	2	nsubj	2:nsubj	Gloss=parchment
@@ -75,7 +75,7 @@
 # text_en = Today, the shining of the sun against the margins of the page is clear in our opinion.
 1-2	isém	_	_	_	_	_	_	_	_
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
-2	sém	séim	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	0	root	0:root	Gloss=slender, slight, thin, narrow, smooth (non-aspirated), mild, lenient, not heavy or oppressive, direct; light, clear
+2	sém	séim	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	0:root	Gloss=slender, slight, thin, narrow, smooth (non-aspirated), mild, lenient, not heavy or oppressive, direct; light, clear
 3	linn	la	ADP	preposition	Case=Acc|Person=1|Number=Plur	2	obl:prep	2:obl:prep	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 4	indiu	indíu	ADV	adverb	_	2	advmod	2:advmod	Gloss=today
 5	bloscad	bloscad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=Vnoun	2	csubj	2:csubj	Gloss=the act of crashing, bursting forth; shining; dazzlement, radiance
@@ -86,14 +86,14 @@
 8	fri	fri	ADP	preposition	Case=Acc	10	case	10:case	Gloss=towards, against, standard of comparison
 9	sinna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	10	det	10:det	Gloss=the
 10	margánu	margan	NOUN	noun	Case=Acc|Number=Plur|Definite=Def	5	obl	5:obl	Gloss=margin
-11	lethrati	lethraite	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut	10	amod	10:amod	Gloss=column, page
+11	lethrati	lethraite	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	10	amod	10:amod	Gloss=column, page
 
 # sent_id = S0023-7
 # text = ismithich dún tra intinnscital ní dodénum
 # text_en = It is time for us now to start to do something.
 1-2	ismithich	_	_	_	_	_	_	_	_
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
-2	mithich	mithich	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	0	root	0:root	Gloss=timely, seasonable
+2	mithich	mithich	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	0:root	Gloss=timely, seasonable
 3	dún	do 1	ADP	preposition	Case=Dat|Person=1|Number=Plur	2	obl:prep	2:obl:prep	Gloss=to, for, by etc.
 4	tra	trá	ADV	particle_discourse	_	2	advmod	2:advmod	Gloss=then, therefore, so, indeed, however, but
 5	intinnscital	intinnscetal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=Vnoun	2	csubj	2:csubj	Gloss=the act of beginning, undertaking; task, attempt
@@ -109,7 +109,7 @@
 2	ihesu	Ísu	PROPN	proper_noun	Case=Acc|Number=Sing	1	obj	1:obj	Gloss=Jesus
 3-4	achorcrich	_	_	_	_	_	_	_	_
 3	a	a 1	PART	particle_vocative	_	4	case:voc	4:case:voc	Gloss=O! ; oh
-4	chorcrich	Corcrach	ADJ	adjective	Number=Sing|Gender=Masc	1	vocative	1:vocative	Gloss=“Crimson One”
+4	chorcrich	Corcrach	ADJ	adjective	Number=Sing|Gender=Masc|Degree=Pos|Case=Voc	1	vocative	1:vocative	Gloss=“Crimson One”
 5-7	níscriphiphse	_	_	_	_	_	_	_	_
 5	ní·	ní 3	PART	particle_negative_main	_	6	advmod:neg	6:advmod:neg	Gloss=not
 6	·scriphiph	scríbaid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	0:root	Gloss=to write (down)
@@ -161,11 +161,11 @@
 # text_en = This beautiful parchment is spoiled.
 1-2	istriscach	_	_	_	_	_	_	_	_
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
-2	triscach	trescach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	0	root	0:root	Gloss=rubbishy, worthless, draffish, full of swine-wash
+2	triscach	trescach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	0:root	Gloss=rubbishy, worthless, draffish, full of swine-wash
 3-4	inmembrum	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	4:det	Gloss=the
 4	membrum	membrumm	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	2	nsubj	2:nsubj	Gloss=parchment
-5	alind	álaind	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	4	amod	4:amod	Gloss=beautiful, lovely, fine, splendid
+5	alind	álaind	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	4	amod	4:amod	Gloss=beautiful, lovely, fine, splendid
 6-7	hísiu	_	_	_	_	_	_	_	_
 6	hí	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	4	appos	4:appos	Gloss=substantivizing particle
 7	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	6	appos	6:appos	Gloss=this, these
@@ -187,7 +187,7 @@
 # text_en = Now, this parchment is, however, hairy!
 1-2	isfinnach	_	_	_	_	_	_	_	_
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
-2	finnach	findach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	0	root	0:root	Gloss=hairy, shaggy; overgrown with grass or scrub
+2	finnach	findach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	0:root	Gloss=hairy, shaggy; overgrown with grass or scrub
 3-4	inmembrum	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	4:det	Gloss=the
 4	membrum	membrumm	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	2	nsubj	2:nsubj	Gloss=parchment
@@ -202,7 +202,7 @@
 # text_en = This parchment is, however, thin for us.
 1-2	isém	_	_	_	_	_	_	_	_
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
-2	sém	séim	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	0	root	0:root	Gloss=slender, slight, thin, narrow, smooth (non-aspirated), mild, lenient, not heavy or oppressive, direct; light, clear
+2	sém	séim	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	0:root	Gloss=slender, slight, thin, narrow, smooth (non-aspirated), mild, lenient, not heavy or oppressive, direct; light, clear
 3	dúnn	do 1	ADP	preposition	Case=Dat|Person=1|Number=Plur	2	obl:prep	2:obl:prep	Gloss=to, for, by etc.
 4	immurgu	immurgu	ADV	particle_discourse	_	2	advmod	2:advmod	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
 5-6	inmembrum	_	_	_	_	_	_	_	_
@@ -217,7 +217,7 @@
 # text_en = Our spirit is heavy today in our opinion, however. I do not know what is wrong with me.
 1-2	istromm	_	_	_	_	_	_	_	_
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
-2	tromm	tromm 3	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	0	root	0:root	Gloss=heavy, grave, serious, great, mighty, severe
+2	tromm	tromm 3	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	0:root	Gloss=heavy, grave, serious, great, mighty, severe
 3-4	armenmae	_	_	_	_	_	_	_	_
 3	ar	1pl.poss.pron.	DET	pronoun_possessive	Person=1|Number=Plur|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Gloss=our
 4	menmae	menmae	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	2:nsubj	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
@@ -241,7 +241,7 @@
 3-4	indláthair	_	_	_	_	_	_	_	_
 3	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	4:det	Gloss=the
 4	láthair	láthar	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	2	obj	2:obj	Gloss=arrangement, disposition, interpretation, appointment, design; machination, wiles; vigour, energy, power; place, position, point, space
-5	aimserdi	aimserdae	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut	4	amod	4:amod	Gloss=belonging to time, temporal
+5	aimserdi	aimserdae	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	4	amod	4:amod	Gloss=belonging to time, temporal
 6	7	ocus 2	CCONJ	conjunction	_	7	cc	7:cc	Gloss=coordinating: and, since
 7	comalnad	comalnad	NOUN	verbal_noun	Case=Nom|Number=Sin|VerbForm=Vnoun	2	conj	2:conj	Gloss=the act of fulfilling
 8	neich	ní 1	PRON	pronoun_quantifier	Case=Gen|Number=Sing	7	obj	9:obj|7:obj	Gloss=something; nothing, anything ; not
@@ -331,7 +331,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	3:cc	Gloss=id est, it is
 2	amal	amail 1	ADP	preposition	Case=Acc	3	case	3:case	Gloss=as, like
 3	nathracha	nathair	NOUN	noun	Case=Acc|Number=Plur	0	root	0:root	Gloss=snake, serpent
-4	bodra	bodar	ADJ	adjective	Case=Acc|Number=Plur|Gender=Fem	3	amod	3:amod	Gloss=deaf
+4	bodra	bodar	ADJ	adjective	Case=Acc|Number=Plur|Gender=Fem|Degree=Pos	3	amod	3:amod	Gloss=deaf
 5	.i.	.i.	CCONJ	abbreviation	_	7	cc	7:cc	Gloss=id est, it is
 6	amal	amail 2	SCONJ	conjunction	_	7	mark	7:mark	Gloss=as, like; translating Latin ut
 7	du·ngniat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	3	conj	3:conj	Gloss=to do, to make
@@ -365,7 +365,7 @@
 8	anechtair	anechtair	ADV	adverb	_	6	advmod	6:advmod	Gloss=from outside
 9	7	ocus 2	CCONJ	conjunction	_	11	cc	11:cc	Gloss=coordinating: and, since
 10	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	11	cop	11:cop	Gloss=to be
-11	fás	fás	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	6	conj	6:conj	Gloss=empty, vain, futile, wanting
+11	fás	fás	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	6	conj	6:conj	Gloss=empty, vain, futile, wanting
 12	a	3sg.fem.poss.pron.	DET	pronoun_possessive	Person=3|Number=Sing|Gender=Fem|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Gloss=her
 13	inchrud	inchrod	NOUN	noun	Case=Nom|Number=Sing	11	nsubj	11:nsubj	Gloss=gear, equipment, funiture
 14-15	ammedón	_	_	_	_	_	_	_	_
@@ -381,7 +381,7 @@
 22	amal	amail 2	SCONJ	conjunction	_	23	mark	23:mark	Gloss=as, like; translating Latin ut
 23	mbís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	18	conj	18:conj	Gloss=to be, to exist,
 24	tegdís	tegdais	NOUN	noun	Case=Nom|Number=Sing	23	nsubj	23:nsubj	Gloss=house, dwelling, mansion
-25	fás	fás	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	23	xcomp:pred	23:xcomp:pred	Gloss=empty, vain, futile, wanting
+25	fás	fás	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	23	xcomp:pred	23:xcomp:pred	Gloss=empty, vain, futile, wanting
 26-27	[amm]edón	_	_	_	_	_	_	_	_
 26	a	a 7	ADP	preposition	Case=Dat	27	case	27:case	Gloss=out of, from
 27	mmedón	medón	NOUN	noun	Case=Dat|Number=Sing	25	obl	25:obl	Gloss=middle, center, midst
@@ -481,7 +481,7 @@
 3	di	di	ADP	preposition	Case=Dat	4	case	4:case	Gloss=away, from, cause or reason, by
 4	a	-(s)a·	PRON	pronoun_relative	PronType=Rel	6	obl	6:obl	Gloss=which, who, whose
 5	rbu	is 1	AUX	copula	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	cop	6:cop	Gloss=to be
-6	etarcnad	etargnad	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	2	acl:relcl	2:acl:relcl	Gloss=known, recognized, understood, known
+6	etarcnad	etargnad	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	2	acl:relcl	2:acl:relcl	Gloss=known, recognized, understood, known
 7	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	8:det	Gloss=the
 8	macc	macc 1	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	6	nsubj	6:nsubj	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
 9-10	hísin	_	_	_	_	_	_	_	_
@@ -612,7 +612,7 @@
 # text = .i. múcni .i. quasi per paustera
 # text_en = that is, austere, to wit, as if per paustera
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	2:cc	Gloss=id est, it is
-2	múcni	múcnae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut	0	root	0:root	Gloss=austere, strict, stern, crossgrained, surly
+2	múcni	múcnae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=austere, strict, stern, crossgrained, surly
 3	.i.	.i.	CCONJ	abbreviation	_	6	cc	6:cc	Gloss=id est, it is
 4	quasi	quasi	X	conjunction	_	6	mark	6:mark	Gloss=as if; about
 5	per	per	ADP	preposition	Case=Unk	6	case	6:case	Gloss=through, across, all over, during
@@ -648,7 +648,7 @@
 20	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	21	det	21:det	Gloss=the
 21	fetarlaici	fetarlaic	PROPN	proper_noun	Case=Dat|Number=Sing	17	obl	17:obl	Gloss=Old Testament
 22	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	23	cop	23:cop	Gloss=to be
-23	ninnun	inunn	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	17	ccomp	17:ccomp	Gloss=same, identical, alike, equal, the one
+23	ninnun	inunn	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	17	ccomp	17:ccomp	Gloss=same, identical, alike, equal, the one
 24	tosach	tosach	NOUN	noun	Case=Nom|Number=Sing	23	nsubj	23:nsubj	Gloss=beginning, precedence
 25	preceptae	preicept	NOUN	noun	Case=Gen|Number=Sing	24	nmod	24:nmod	Gloss=act of teaching or preaching
 26	iohain	Ioäin	PROPN	proper_noun	Case=Gen|Number=Sing	25	nmod	25:nmod	Gloss=John (the Baptist)
@@ -831,7 +831,7 @@
 17	tri	tre	ADP	preposition	Case=Acc	19	case	19:case	Gloss=through (time or space), by means of, be reason of
 18	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	19	det	19:det	Gloss=the
 19	mbrat	bratt	NOUN	noun	Case=Acc|Number=Sing|Definite=Def	16	obl	16:obl	Gloss=cloak, mantle, covering, cloth
-20	find	find	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc	19	amod	19:amod	Gloss=white, fair, bright, lustrous, handsome, blessed
+20	find	find	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	19	amod	19:amod	Gloss=white, fair, bright, lustrous, handsome, blessed
 
 # sent_id = S0050-40
 # text = .i. an dumbertis acoibsena
@@ -972,7 +972,7 @@
 2	tri	tre	ADP	preposition	Case=Acc	4	case	4:case	Gloss=through (time or space), by means of, be reason of
 3	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	4:det	Gloss=the
 4	foirthiu	forath	NOUN	noun	Case=Acc|Number=Plur|Definite=Def	0	root	0:root	Gloss=ford
-5	ailitherdi	ailitherdae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc	4	amod	4:amod	Gloss=foreign
+5	ailitherdi	ailitherdae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	4	amod	4:amod	Gloss=foreign
 6	.i.	.i.	CCONJ	abbreviation	_	8	cc	8:cc	Gloss=id est, it is
 7	nicon·	nicon	PART	particle_negative_main	_	8	advmod:neg	8:advmod:neg	Gloss=not ever
 8	·imruldatar	imm·tét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	4	conj	4:conj	Gloss=to circumambulate, to travel on, to traverse; to set forth, to come, to go (around), to depart
@@ -1022,12 +1022,12 @@
 2-3	airndib	_	_	_	_	_	_	_	_
 2	air	ara	SCONJ	complementiser	_	4	mark:prt	4:mark:prt	Gloss=in order that, so that
 3	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	4:cop	Gloss=to be
-4	múcnae	múcnae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	0	root	0:root	Gloss=austere, strict, stern, crossgrained, surly
+4	múcnae	múcnae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=austere, strict, stern, crossgrained, surly
 5	7	ocus 2	CCONJ	conjunction	_	8	cc	8:cc	Gloss=coordinating: and, since
 6-7	airndib	_	_	_	_	_	_	_	_
 6	air	ara	SCONJ	complementiser	_	8	mark:prt	8:mark:prt	Gloss=in order that, so that
 7	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	8	cop	8:cop	Gloss=to be
-8	ecmailt	écmailt	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	4	conj	4:conj	Gloss=insolent; unquiet, restless, unusual, unaccustomed
+8	ecmailt	écmailt	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	4	conj	4:conj	Gloss=insolent; unquiet, restless, unusual, unaccustomed
 9-10	ánétach	_	_	_	_	_	_	_	_
 9	á	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	10	det	10:det	Gloss=the
 10	nétach	étach	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	4	nsubj	4:nsubj	Gloss=raiment, garment, clothing, covering
@@ -1051,7 +1051,7 @@
 24-26	trianuile	_	_	_	_	_	_	_	_
 24	tri	tre	ADP	preposition	Case=Acc	27	case	27:case	Gloss=through (time or space), by means of, be reason of
 25	a	3pl.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	Gloss=their
-26	nuile	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing	27	amod	27:amod	Gloss=all, every, the whole
+26	nuile	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing|Gender=Masc|PronType=Tot	27	amod	27:amod	Gloss=all, every, the whole
 27	ṁbethaid	bethu	NOUN	noun	Case=Acc|Number=Sing	4	conj	4:conj	Gloss=life, existence, food, nourishment, property
 28	ón	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	27	discourse	27:discourse	Gloss=that (mentioned above) that is
 29	dano	danó	ADV	particle_discourse	_	33	advmod	33:advmod	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
@@ -1123,7 +1123,7 @@
 5-6	intempuil	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	6:det	Gloss=the
 6	tempuil	tempul	NOUN	noun	Case=Gen|Number=Sing|Definite=Def	4	nmod	4:nmod	Gloss=temple, church
-7	storidi	stoiride	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc	6	nmod	6:nmod	Gloss=historical, material, actual
+7	storidi	stoiride	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	6	nmod	6:nmod	Gloss=historical, material, actual
 8-9	ralasom	_	_	_	_	_	_	_	_
 8	ra·la	fo·ceird	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf|Subcat=Trans	6	csubj:cleft	6:csubj:cleft	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
 9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nsubj	8:nsubj	Gloss=emphasising particle
@@ -1210,7 +1210,7 @@
 13-14	condib	_	_	_	_	_	_	_	_
 13	co	co 4	SCONJ	complementiser	_	15	mark:prt	15:mark:prt	Gloss=so that, until (+independent, leniting)
 14	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	15	cop	15:cop	Gloss=to be
-15	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	11	ccomp	11:ccomp	Gloss=different, distinct, separate, peculiar, special
+15	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	11	ccomp	11:ccomp	Gloss=different, distinct, separate, peculiar, special
 16	persan	persan	NOUN	noun	Case=Nom|Number=Sing	15	nsubj	15:nsubj	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
 17	maic	macc 1	NOUN	noun	Case=Gen|Number=Sing	16	nmod	16:nmod	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
 18	de	día 2	NOUN	noun	Case=Gen|Number=Sing	17	nmod	17:nmod	Gloss=god, deity, God
@@ -1238,7 +1238,7 @@
 39	.	.	PUNCT	punctuation	_	41	punct	41:punct	_
 40	7	ocus 2	CCONJ	conjunction	_	41	cc	41:cc	Gloss=coordinating: and, since
 41	spiurto	spirut	NOUN	noun	Case=Gen|Number=Sing	31	conj	31:conj	Gloss=spirit
-42	noib	nóeb	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc	41	amod	41:amod	Gloss=holy, sacred, saintly
+42	noib	nóeb	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	41	amod	41:amod	Gloss=holy, sacred, saintly
 
 # sent_id = S0050-63
 # text = .i. e fethol .i. anétach sacaird ·
@@ -1330,7 +1330,7 @@
 5-6	inspiurt	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	6:det	Gloss=the
 6	spiurt	spirut	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	4	nsubj	4:nsubj	Gloss=spirit
-7	nóib	nóeb	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	6	amod	6:amod	Gloss=holy, sacred, saintly
+7	nóib	nóeb	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	6	amod	6:amod	Gloss=holy, sacred, saintly
 8	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	xcomp:pred	4:xcomp:pred	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 9-11	intansin	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	10:det	Gloss=the
@@ -1352,7 +1352,7 @@
 3	ro·bói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	0:root	Gloss=to be, to exist,
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	5:det	Gloss=the
 5	spiurt	spirut	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	3	nsubj	3:nsubj	Gloss=spirit
-6	nóib	nóeb	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	5	amod	5:amod	Gloss=holy, sacred, saintly
+6	nóib	nóeb	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	5	amod	5:amod	Gloss=holy, sacred, saintly
 7	less	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	xcomp:pred	3:xcomp:pred	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0050-74
@@ -1468,7 +1468,7 @@
 2-3	[in]linn	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	3:det	Gloss=the
 3	linn	lind 1	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	0	root	0:root	Gloss=pool, lake, sea, ocean
-4	lechdaigthe	lechdaigthe	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	3	amod	3:amod	Gloss=liquid
+4	lechdaigthe	lechdaigthe	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	3	amod	3:amod	Gloss=liquid
 
 # sent_id = S0050-84-false ellipsis
 # text = .i. inna brodscuad anglana .i. doninola as[cech]... frie
@@ -1476,7 +1476,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	3:cc	Gloss=id est, it is
 2	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	3	det	3:det	Gloss=the
 3	brodscuad	brodscuad	NOUN	noun	Case=Nom|Number=Plur|Gender=Neut|Definite=Def	0	root	6:obj|0:root	Gloss=refuse, rubbish
-4	anglana	anglan	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut	3	amod	3:amod	Gloss=impure
+4	anglana	anglan	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	3	amod	3:amod	Gloss=impure
 5	.i.	.i.	CCONJ	abbreviation	_	6	cc	6:cc	Gloss=id est, it is
 6	do·ninola	do·inóla	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	3	conj	3:conj	Gloss=to gather, to collect, to assemble,to muster
 7-8	as[cech]	_	_	_	_	_	_	_	_
@@ -1572,7 +1572,7 @@
 9	do	do 1	ADP	preposition	Case=Dat	11	case	11:case	Gloss=to, for, by etc.
 10	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	11:det	Gloss=the
 11	buc	bocc	NOUN	noun	Case=Dat|Number=Sing|Definite=Def	7	obl	7:obl	Gloss=he-goat, buck
-12	stóridiu	stoiride	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc	11	amod	11:amod	Gloss=historical, material, actual
+12	stóridiu	stoiride	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	11	amod	11:amod	Gloss=historical, material, actual
 13	.i.	.i.	CCONJ	abbreviation	_	16	cc	16:cc	Gloss=id est, it is
 14-16	airindí	_	_	_	_	_	_	_	_
 14	air	ar 1	ADP	preposition	Case=Dat	16	case	16:case	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
@@ -1641,7 +1641,7 @@
 15-16	inchorcur	_	_	_	_	_	_	_	_
 15	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	16	det	16:det	Gloss=the
 16	chorcur	corcur	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	14	nsubj	14:nsubj	Gloss=dye-plant, crimson cloth, the colour purple, lichen giving crimson dye
-17	buide	buide 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	16	amod	16:amod	Gloss=yellow
+17	buide	buide 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	16	amod	16:amod	Gloss=yellow
 
 # sent_id = S0050-92-quasi-ellipsis.
 # text = .i. dodrolluind ... hitosuch
@@ -1794,7 +1794,7 @@
 2-3	indnaithr	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	3:det	Gloss=the
 3	naithr	nathair	NOUN	noun	Case=Nom|Number=Sing|Definite=Def	0	root	6:obj|0:root	Gloss=snake, serpent
-4	humaithe	umaide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	3	amod	3:amod	Gloss=bronze, brazen, copper
+4	humaithe	umaide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	3	amod	3:amod	Gloss=bronze, brazen, copper
 5	thal	tall	ADV	adverb	_	3	advmod	3:advmod	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
 6	con·ocabsat	con·ocaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	3	acl:relcl	3:acl:relcl	Gloss=to lift up, to raise, to exalt, to rise, to get up
 7	maic	macc 1	NOUN	noun	Case=Nom|Number=Plur	6	nsubj	6:nsubj	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
@@ -1916,7 +1916,7 @@
 6-7	leusom	_	_	_	_	_	_	_	_
 6	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	7	case	7:case	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 7	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	5	obl	5:obl	Gloss=emphasising particle
-8	maladictus	maledictus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc	5	nsubj	5:nsubj	Gloss=cursed
+8	maladictus	maledictus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	5	nsubj	5:nsubj	Gloss=cursed
 9	do	do 1	ADP	preposition	Case=Dat	11	case	11:case	Gloss=to, for, by etc.
 10	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Masc|PronType=Tot	11	det	11:det	Gloss=every, each, all, any
 11	óin	óen	ADJ	adjective_numeral_noun	Case=Dat|Number=Sing|Gender=Masc	5	obl	5:obl	Gloss=one, single, same, only, unique; as compound element 'great'
@@ -1970,7 +1970,7 @@
 7-8	tria	_	_	_	_	_	_	_	_
 7	tri	tre	ADP	preposition	Case=Acc	9	case	9:case	Gloss=through (time or space), by means of, be reason of
 8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	9	nmod:poss	9:nmod:poss	Gloss=his, its
-9	deis	des	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem	5	obl	5:obl	Gloss=right (direction), south, just, meet
+9	deis	des	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem|Degree=Pos	5	obl	5:obl	Gloss=right (direction), south, just, meet
 
 # newdoc id = S0021
 # sent_id = S0021-1
@@ -1992,8 +1992,8 @@
 # text = et omnium iustorum bith ingabál mundo
 # text_en = and perpetual reproach of all just men for the world.
 1	et	et	CCONJ	conjunction	_	4	cc	4:cc	Gloss=and
-2	omnium	omnis	DET	adjective_quantifier	Case=Gen|Number=Plur|Gender=Masc	3	det	3:det	Gloss=all, total, every
-3	iustorum	iūstus	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc	4	nmod	4:nmod	Gloss=just, rightful, lawful
+2	omnium	omnis	DET	adjective_quantifier	Case=Gen|Number=Plur|Gender=Masc|PronType=Tot	3	det	3:det	Gloss=all, total, every
+3	iustorum	iūstus	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	4	nmod	4:nmod	Gloss=just, rightful, lawful
 4	bithingabál	bith-ingabál	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=perpetual reproach
 5	mundo	mundus	NOUN	noun	Case=Dat|Number=Sing	4	obl	4:obl	Gloss=the world, mankind
 
@@ -2024,7 +2024,7 @@
 4	iter	eter	ADP	preposition	Case=Acc	7	case	7:case	Gloss=between, among; both...and...
 5	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	7	det	7:det	Gloss=the
 6	secht	secht 1	NUM	numeral	_	7	nummod	7:nummod	Gloss=seven
-7	ṅairṅdrecha	airndrethach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Fem	3	xcomp:pred	3:xcomp:pred	Gloss=erring, wandering about
+7	ṅairṅdrecha	airndrethach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Fem|Degree=Pos	3	xcomp:pred	3:xcomp:pred	Gloss=erring, wandering about
 8-9	ithé	_	_	_	_	_	_	_	_
 8	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	cop	10:cop	Gloss=to be
 9	hé	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	10	nmod	10:nmod	Gloss=they, them
@@ -2178,7 +2178,7 @@
 2	meit	méit	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
 3-4	assochṫmacht	_	_	_	_	_	_	_	_
 3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	4	cop	X	Gloss=to be
-4	sochṫmacht	sochmacht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	2	advcl	X	Gloss=capable, possible
+4	sochṫmacht	sochmacht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	2	advcl	X	Gloss=capable, possible
 
 # sent_id = S0021-23
 # text = .i. nitartat sénsus breíc im anmin
@@ -2387,7 +2387,7 @@
 6	chosmalius	cosmailius	NOUN	noun	Case=Dat|Number=Sing	2	conj	X	Gloss=likeness, similarity, resemblance; comparison
 7	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
 8	reta	rét 1	NOUN	noun	Case=Gen|Number=Plur	6	nmod	X	Gloss=thing
-9	corptha	corpdae	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc	6	amod	X	Gloss=corporeal, bodily, physical, actual
+9	corptha	corpdae	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	6	amod	X	Gloss=corporeal, bodily, physical, actual
 10	órd	ord 1	NOUN	noun	Case=Nom|Number=Sing	6	nsubj	X	Gloss=order, sequence, class of persons
 11	i	i	ADP	preposition	Case=Dat	13	case	X	Gloss=in, into
 12	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	13	det	X	Gloss=the
@@ -2438,7 +2438,7 @@
 2-4	madfír	_	_	_	_	_	_	_	_
 2	ma	ma	SCONJ	conjunction	_	4	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
 3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-4	fír	fír	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem	0	root	X	Gloss=true, veracious, real
+4	fír	fír	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=true, veracious, real
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	brithemnacht	brithemnacht	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=judging, judgment, adjudication
 7	bess	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to be, to exist,
@@ -2451,7 +2451,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	issain	_	_	_	_	_	_	_	_
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
-3	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=different, distinct, separate, peculiar, special
+3	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=different, distinct, separate, peculiar, special
 4	do·nadbantar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	3	csubj:cleft	X	Gloss=to show, to display, to demonstrate, to appear
 5	sensibus	sensus	NOUN	noun	Case=Dat|Number=Plur	4	obl	X	Gloss=perception, a feeling, understanding, reason
 6	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
@@ -2541,7 +2541,7 @@
 # text_en = that is, of the blackbird
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	luiniche	lonach	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem	0	root	X	Gloss=associated with a blackbird
+3	luiniche	lonach	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=associated with a blackbird
 
 # sent_id = S0021-60
 # text = cit
@@ -2584,9 +2584,9 @@
 3	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	2	nsubj	X	Gloss=something; nothing, anything ; not
 4	ó	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
 5	thucidib	tucait	NOUN	noun	Case=Dat|Number=Plur	2	obl	X	Gloss=cause, reason
-6	écsamlib	écsamail	ADJ	adjective	Case=Dat|Number=Plur|Gender=Fem	5	amod	X	Gloss=dissimilar, different, distinct, strange, uncommon, peculiar
+6	écsamlib	écsamail	ADJ	adjective	Case=Dat|Number=Plur|Gender=Fem|Degee=Pos	5	amod	X	Gloss=dissimilar, different, distinct, strange, uncommon, peculiar
 7	nisi	nisi	X	conjunction	_	8	mark	X	Gloss=if not, unless, except
-8	falsum	falsus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut	2	advcl	X	Gloss=deceived, false
+8	falsum	falsus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	2	advcl	X	Gloss=deceived, false
 9	tantum	tantum	DET	adjective_quantifier	_	8	det	X	Gloss=so many, so great, only
 
 # sent_id = S0021-66
@@ -2638,7 +2638,7 @@
 10	hí	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Neut	4	nsubj	X	Gloss=substantivizing particle
 11	fris·airet	fris·airi	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	10	acl:relcl	X	Gloss=to keep vigil, to keep watch
 12	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
-13	sani	sanis	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc	10	conj	X	Gloss=healthy
+13	sani	sanis	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	10	conj	X	Gloss=healthy
 14	quam	quam	X	conjunction	_	15	case	X	Gloss=how, than
 15	dormientes	dormiens	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc	3	obl	X	Gloss=sleeping
 16	.i.	.i.	CCONJ	abbreviation	_	18	cc	X	Gloss=id est, it is
@@ -2656,3 +2656,4 @@
 4	se	-se	DET	particle_demonstrative_proximate	Deixis=Prox	3	appos	X	Gloss=this, these
 5	ni·	ní 3	PART	particle_negative_main	_	6	advmod:neg	X	Gloss=not
 6	·cuming	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Unk	0	root	X	Gloss=to can, to be capable of; to be able, to have power over
+
