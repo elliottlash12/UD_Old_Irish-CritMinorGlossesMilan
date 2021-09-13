@@ -731,8 +731,10 @@ def analyze_subcat_in_(a_sentence):
         if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
             if '.trans.' in word['feats']['Analysis']:
                 word['feats']['Subcat'] = 'Trans'
-            elif '.intrans.' in word['feats']['Analysis']:
+            elif '.intrans.' in word['feats']['Analysis'] or '.pass.' in word['feats']['Analysis']:
                 word['feats']['Subcat'] = 'Intrans'
+	    elif: 'unclear' in word['feats']['Analysis']:
+		word['feats']['Subcat'] = 'Unk'		
 
 
 # The following function analyzes the classification of infixed pronouns in compound verbs.
