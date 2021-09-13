@@ -829,7 +829,7 @@ def analyze_person_of_pronouns(a_sentence):
                     word['feats']['Person'] = '2'
                 elif '3' in word['lemma']:
                     word['feats']['Person'] = '3'
-                
+
 
 #Section 6.5. Adjective Degree Analysis
                     
