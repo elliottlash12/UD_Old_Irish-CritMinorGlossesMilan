@@ -2814,13 +2814,13 @@
 # text = niba animus dia nérbala
 # text_en = It will not be animus, if it dies.
 1-2	niba	_	_	_	_	_	_	_	_
-1	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-2	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	animus	animus	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=soul
-4	dia	día 1	SCONJ	complementiser	_	_	mark:prt	X	Gloss=when, if
+1	ni	ní 3	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not
+2	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	animus	animus	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=soul
+4	dia	día 1	SCONJ	complementiser	_	6	mark:prt	X	Gloss=when, if
 5-6	nérbala	_	_	_	_	_	_	_	_
-5	n·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
-6	·érbala	at·baill	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to die, to perish, to vanish
+5	n·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	6	nsubj	X	Gloss=it
+6	·érbala	at·baill	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	3	advcl	X	Gloss=to die, to perish, to vanish
 
 # sent_id = S0021-84
 # text = .i. praefocas .i. formuchi
@@ -2832,8 +2832,8 @@
 # sent_id = S0021-85
 # text = .i. fiu
 # text_en = that is, as
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=worthy, meet, fitting, honorable
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=worthy, meet, fitting, honorable
 
 # sent_id = S0021-86
 # text = utmallaigetar
