@@ -2768,47 +2768,47 @@
 # text = nínimgaibni
 # text_en = It does not evade us.
 1-4	nínimgaibni	_	_	_	_	_	_	_	_
-1	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-2	n·	1pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=we, us, ourselves
-3	·imgaib	imm·immgaib	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to avoid, to shun, to evade
-4	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+2	n·	1pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	3	inf:obj	X	Gloss=we, us, ourselves
+3	·imgaib	imm·immgaib	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to avoid, to shun, to evade
+4	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	3	obj	X	Gloss=emphasising particle
 
 # sent_id = S0021-81
 # text = iscián mór húas etargnaid dunni aní sin
 # text_en = It is long since that has been known to us.
 1-2	iscián	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	cián	cían	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
-3	mór	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=great, big, ample, tall, large
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	cián	cían	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
+3	mór	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	2	amod	X	Gloss=great, big, ample, tall, large
 4-5	húas	_	_	_	_	_	_	_	_
-4	hú	ó 2	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: since, after (with subordinate clause)
-5	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-6	etargnaid	etargnaid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=known, recognized, understood
+4	hú	ó 2	SCONJ	conjunction	_	6	mark	X	Gloss=temporal: since, after (with subordinate clause)
+5	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	cop	X	Gloss=to be
+6	etargnaid	etargnaid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	2	csubj:cleft	X	Gloss=known, recognized, understood
 7-8	dunni	_	_	_	_	_	_	_	_
-7	dun	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-8	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+7	dun	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	8	case	X	Gloss=to, for, by etc.
+8	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	6	obl	X	Gloss=emphasising particle
 9-10	aní	_	_	_	_	_	_	_	_
 9	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-11	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+10	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	6	nsubj	X	Gloss=substantivizing particle
+11	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	10	appos	X	Gloss=that one, those ones, the one in there ; that, those
 
 # sent_id = S0021-82
 # text = bés asberasu asnainm dosom animus ciatbela
 # text_en = Perhaps you would say that animus is a name for it, although it dies.
-1	bés	bés 2	ADV	adverb	_	_	_	X	Gloss=perhaps, maybe, in all probablity, doubtless, certainly, indeed
+1	bés	bés 2	ADV	adverb	_	2	advmod	X	Gloss=perhaps, maybe, in all probablity, doubtless, certainly, indeed
 2-3	asberasu	_	_	_	_	_	_	_	_
-2	as·bera	as·beir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to say, to speak, to call , mention
-3	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+2	as·bera	as·beir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	0	root	X	Gloss=to say, to speak, to call , mention
+3	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
 4-5	asnainm	_	_	_	_	_	_	_	_
-4	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-5	nainm	ainm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=name, noun (gramm)
+4	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
+5	nainm	ainm	NOUN	noun	Case=Nom|Number=Sing	2	csubj:cleft	X	Gloss=name, noun (gramm)
 6-7	dosom	_	_	_	_	_	_	_	_
-6	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	_	_	X	Gloss=to, for, by etc.
-7	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Neut|PronType=Prs	_	_	X	Gloss=emphasising particle
-8	animus	animus	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=soul
+6	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	7	case	X	Gloss=to, for, by etc.
+7	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Neut|PronType=Prs	5	obl	X	Gloss=emphasising particle
+8	animus	animus	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=soul
 9-10	ciatbela	_	_	_	_	_	_	_	_
-9	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-10	at·bela	at·baill	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|PronType=InfA	_	_	X	Gloss=to die, to perish, to vanish
+9	ci	cía 2	SCONJ	conjunction	_	10	mark	X	Gloss=concessive and explicative: even, although
+10	at·bela	at·baill	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|PronType=InfA	5	advcl	X	Gloss=to die, to perish, to vanish
 
 # sent_id = S0021-83
 # text = niba animus dia nérbala
