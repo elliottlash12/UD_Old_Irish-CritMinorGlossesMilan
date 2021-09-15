@@ -2660,45 +2660,45 @@
 # sent_id = S0021-71
 # text = fuirsire
 # text_en = a buffoon
-1	fuirsire	fuirsire	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=buffoon, mime
+1	fuirsire	fuirsire	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=buffoon, mime
 
 # sent_id = S0021-72
 # text = .i. est is uera pictura robaisin 7 robtarbai togaitig sidi
 # text_en = That is, “it is”; it is a true picture that that was, and these were deceptive cows.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	uera	uērus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=true, real
-5	pictura	pictura	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=picture
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	dislocated	X	Gloss=to be
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	uera	uērus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=true, real
+5	pictura	pictura	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=picture
 6-7	robaisin	_	_	_	_	_	_	_	_
-6	ro·bai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Nas	_	_	X	Gloss=to be, to exist,
-7	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+6	ro·bai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Nas	4	csubj:cleft	X	Gloss=to be, to exist,
+7	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	6	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
+8	7	ocus 2	CCONJ	conjunction	_	10	cc	X	Gloss=coordinating: and, since
 9-10	robtarbai	_	_	_	_	_	_	_	_
-9	robtar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-10	bai	bó	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=cow
-11	togaitig	togáethach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=deceitful, false
-12	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur	_	_	X	Gloss=that one, he, she, it, they
+9	robtar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	10	cop	X	Gloss=to be
+10	bai	bó	NOUN	noun	Case=Nom|Number=Plur	4	conj	X	Gloss=cow
+11	togaitig	togáethach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	10	amod	X	Gloss=deceitful, false
+12	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur	10	nsubj	X	Gloss=that one, he, she, it, they
 
 # sent_id = S0021-73
 # text = is ecen doneuch fosisedar dán inna grammatic continola innahuili doilbthi
 # text_en = That is, it is necessary for whoever professes the art of grammar that he should collect all the formations.
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	ecen	éicen	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	ecen	éicen	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
 3-4	doneuch	_	_	_	_	_	_	_	_
-3	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-4	neuch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
-5	fo·sisedar	fo·sisedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	_	_	X	Gloss=to confess, to acknowledge, to admit
-6	dán	dán	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=gift, bestowal, endowment, present; skill, science, artistic faculty, art, poem
+3	do	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
+4	neuch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Ind	2	obl	X	Gloss=anyone, one, someone
+5	fo·sisedar	fo·sisedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	4	acl:relcl	X	Gloss=to confess, to acknowledge, to admit
+6	dán	dán	NOUN	noun	Case=Acc|Number=Sing	5	obj	X	Gloss=gift, bestowal, endowment, present; skill, science, artistic faculty, art, poem
 7	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	grammatic	grammataicc	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=grammar, literary composition
+8	grammatic	grammataicc	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=grammar, literary composition
 9-10	continola	_	_	_	_	_	_	_	_
-9	con·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-10	·tinola	do·inóla	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to gather, to collect, to assemble,to muster
+9	con·	co 4	SCONJ	complementiser	_	10	mark:prt	X	Gloss=so that, until (+independent, leniting)
+10	·tinola	do·inóla	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	2	advcl	X	Gloss=to gather, to collect, to assemble,to muster
 11-12	innahuili	_	_	_	_	_	_	_	_
-11	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
-12	huili	uile	DET	adjective_quantifier	Case=Acc|Number=Plur|Gender=Masc|PronType=Tot	_	det	X	Gloss=all, every, the whole
-13	doilbthi	dolbud	NOUN	verbal_noun	Case=Acc|Number=Plur	_	_	X	Gloss=the act of forming, making; formation, invention, figure, witchcraft
+11	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
+12	huili	uile	DET	adjective_quantifier	Case=Acc|Number=Plur|Gender=Masc|PronType=Tot	13	amod	X	Gloss=all, every, the whole
+13	doilbthi	dolbud	NOUN	verbal_noun	Case=Acc|Number=Plur	10	obj	X	Gloss=the act of forming, making; formation, invention, figure, witchcraft
 
 # sent_id = S0021-74
 # text = duo .i. herchoilud fabulae 7 grammaticae
