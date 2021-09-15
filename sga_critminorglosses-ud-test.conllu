@@ -2703,28 +2703,28 @@
 # sent_id = S0021-74
 # text = duo .i. herchoilud fabulae 7 grammaticae
 # text_en = “two”, that is, the definition of fabula and of grammatica
-1	duo	duo	NUM	adjective_numeral	_	_	nummod	X	Gloss=two
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	herchoilud	érchoíliud	NOUN	verbal_noun	Case=Nom|Number=Sing	_	_	X	Gloss=the act of defining; definition, determination, decision, resolve, solution, legal pronouncement
-4	fabulae	fabula	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=fable, tale
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	grammaticae	grammatica	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=grammar, philology
+1	duo	duo	NUM	adjective_numeral	3	dislocated	nummod	X	Gloss=two
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	herchoilud	érchoíliud	NOUN	verbal_noun	Case=Nom|Number=Sing	0	root	X	Gloss=the act of defining; definition, determination, decision, resolve, solution, legal pronouncement
+4	fabulae	fabula	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=fable, tale
+5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
+6	grammaticae	grammatica	NOUN	noun	Case=Gen|Number=Sing	4	conj	X	Gloss=grammar, philology
 
 # sent_id = S0021-75
 # text = dudialecticc
 # text_en = to dialectic
 1-2	dudialecticc	_	_	_	_	_	_	_	_
 1	du	do 1	ADP	preposition	Case=Dat	2	case	X	Gloss=to, for, by etc.
-2	dialecticc	dialectaicc	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=dialectic(s)
+2	dialecticc	dialectaicc	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=dialectic(s)
 
 # sent_id = S0021-76
 # text = .i. nítarrastar aém
 # text_en = That is, he did not rest indeed.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	nítarrastar	_	_	_	_	_	_	_	_
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·tarrastar	do·airissedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to stand, to stay, to remain, to exist, to happen to be; to halt, to stop
-4	aém	ém	ADV	particle_discourse	_	_	_	X	Gloss=truly, indeed, in sooth, then
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·tarrastar	do·airissedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to stand, to stay, to remain, to exist, to happen to be; to halt, to stop
+4	aém	ém	ADV	particle_discourse	_	3	advmod	X	Gloss=truly, indeed, in sooth, then
 
 # sent_id = S0021-77
 # text = .i. naic
