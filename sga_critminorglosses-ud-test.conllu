@@ -2838,32 +2838,32 @@
 # sent_id = S0021-86
 # text = utmallaigetar
 # text_en = that they waver/are unsteady
-1	utmallaigetar	utmallaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to be/become unsteady, to waver
+1	utmallaigetar	utmallaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to be/become unsteady, to waver
 
 # sent_id = S0021-87
 # text = .i. frisbérsa
 # text_en = That is, I may oppose.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	frisbérsa	_	_	_	_	_	_	_	_
-2	fris·bér	fris·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to oppose, to resist, to obstruct
-3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+2	fris·bér	fris·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	0	root	X	Gloss=to oppose, to resist, to obstruct
+3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0021-88
 # text = ismebul elud rig nafirinne 7 chairte fridemun
 # text_en = It is a shame to shun the king of righteousness and [to make] a compact with the Devil.
 1-2	ismebul	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	mebul	mebul	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=shame, disgrace, deceit, treachery
-3	elud	élúd	NOUN	verbal_noun	Case=Nom|Number=Sing	_	_	X	Gloss=the act of going out, departing, escaping; elopement, evasion
-4	rig	rí	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=king
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	mebul	mebul	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=shame, disgrace, deceit, treachery
+3	elud	élúd	NOUN	verbal_noun	Case=Nom|Number=Sing	2	advcl	X	Gloss=the act of going out, departing, escaping; elopement, evasion
+4	rig	rí	NOUN	noun	Case=Gen|Number=Sing	3	obj	X	Gloss=king
 5-6	nafirinne	_	_	_	_	_	_	_	_
 5	na	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	firinne	fírinne	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=truth; justice, righteousness
+6	firinne	fírinne	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=truth; justice, righteousness
 7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
 8	chairte	cairde	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=pact, covenant, peace
 9-10	fridemun	_	_	_	_	_	_	_	_
 9	fri	fri	ADP	preposition	Case=Acc	10	case	X	Gloss=towards, against, standard of comparison
-10	demun	demun	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=demon, devil, evil spirit
+10	demun	demun	NOUN	noun	Case=Acc|Number=Sing	_	obl	X	Gloss=demon, devil, evil spirit
 
 # sent_id = S0021-89
 # text = adbar
