@@ -2885,28 +2885,28 @@
 # sent_id = S0021-92
 # text = .i. mórmessi
 # text_en = that is, to be estimated greatly
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	mórmessi	mór-meissi	X	verbal_of_necessity	_	_	_	X	Gloss=to be estimated greatly
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	mórmessi	mór-meissi	X	verbal_of_necessity	_	0	root	X	Gloss=to be estimated greatly
 
 # sent_id = S0021-93
 # text = .i. dinach follus
 # text_en = that is, to whom it is not clear
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	dinach	_	_	_	_	_	_	_	_
-2	di	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-3	nach	nach 3	PART	particle_negative_subordinate	RelType=Other	_	advmod:neg	X	Gloss=that not ; not
-4	follus	follus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=clear, plain, evident ; manifest, open
+2	di	di	ADP	preposition	Case=Dat	4	case	X	Gloss=away, from, cause or reason, by
+3	nach	nach 3	PART	particle_negative_subordinate	RelType=Other	4	advmod:neg	X	Gloss=that not ; not
+4	follus	follus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=clear, plain, evident ; manifest, open
 
 # sent_id = S0021-94
 # text = fritodéri ɫ frimeli
 # text_en = against misery or against disgrace
 1-2	fritodéri	_	_	_	_	_	_	_	_
 1	fri	fri	ADP	preposition	Case=Acc	2	case	X	Gloss=towards, against, standard of comparison
-2	todéri	toidéire	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=sadness, sorrow, plaintiveness
-3	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+2	todéri	toidéire	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=sadness, sorrow, plaintiveness
+3	ɫ	nó 1	CCONJ	conjunction	_	5	cc	X	Gloss=disjunctive: or
 4-5	frimeli	_	_	_	_	_	_	_	_
 4	fri	fri	ADP	preposition	Case=Acc	5	case	X	Gloss=towards, against, standard of comparison
-5	meli	mélae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=shame, disgrace, mortification
+5	meli	mélae	NOUN	noun	Case=Acc|Number=Sing	2	conj	X	Gloss=shame, disgrace, mortification
 
 # sent_id = S0021-95
 # text = indimthascarthithi
