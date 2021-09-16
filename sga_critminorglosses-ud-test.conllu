@@ -2931,29 +2931,29 @@
 # sent_id = S0021-98
 # text = .i. inna sethnaga
 # text_en = that is, the muscles
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	sethnaga	sethnach	NOUN	noun	Case=Nom|Number=Plur|Gender=Fem	_	_	X	Gloss=_
+3	sethnaga	sethnach	NOUN	noun	Case=Nom|Number=Plur|Gender=Fem	0	root	X	Gloss=_
 
 # sent_id = S0021-99
 # text = .i. niath sonairt
 # text_en = that is, of a mighty champion
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	niath	nía	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=champion, warrior
-3	sonairt	sonairt	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=strong, firm, robust
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	niath	nía	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=champion, warrior
+3	sonairt	sonairt	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	2	amod	X	Gloss=strong, firm, robust
 
 # sent_id = S0021-100
 # text = .i. insarta .i. inucht nachaili
 # text_en = that is, struck against, namely, into someone else's breast
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	insarta	insartae	ADJ	verbal_participle	Case=Nom|Number=Sing	_	_	X	Gloss=driven, cast out
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	insarta	insartae	ADJ	verbal_participle	Case=Nom|Number=Sing	0	root	X	Gloss=driven, cast out
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	inucht	_	_	_	_	_	_	_	_
 4	i	i	ADP	preposition	Case=Acc	5	case	X	Gloss=in, into
-5	nucht	ucht	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=breast, bosom; lap
+5	nucht	ucht	NOUN	noun	Case=Acc|Number=Sing	2	conj	X	Gloss=breast, bosom; lap
 6-7	nachaili	_	_	_	_	_	_	_	_
-6	nach	nach 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc|PronType=Ind	_	_	X	Gloss=any, every, each, some, none
-7	aili	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=other, another, else, second
+6	nach	nach 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc|PronType=Ind	5	nmod	X	Gloss=any, every, each, some, none
+7	aili	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	6	nmod	X	Gloss=other, another, else, second
 
 # sent_id = S0021-101
 # text = .i. tét fidbaicc
