@@ -3025,21 +3025,21 @@
 # sent_id = S0021-110
 # text = sigide imresin .i. uitium
 # text_en = pertinacity of the contest, that is, vitium
-1	sigide	sigide	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=pertinacity, obstinacy, persistance
-2	imresin	imbresan	NOUN	verbal_noun	Case=Gen|Number=Sing	_	_	X	Gloss=the act of contending, disputing; strife, feud, contention
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	uitium	uitium	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=crime, vice, fault
+1	sigide	sigide	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=pertinacity, obstinacy, persistance
+2	imresin	imbresan	NOUN	verbal_noun	Case=Gen|Number=Sing	1	nmod	X	Gloss=the act of contending, disputing; strife, feud, contention
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	uitium	uitium	NOUN	noun	Case=Nom|Number=Sing	1	conj	X	Gloss=crime, vice, fault
 
 # sent_id = S0021-111
 # text = fiu
 # text_en = as
-1	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=worthy, meet, fitting, honorable
+1	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=worthy, meet, fitting, honorable
 
 # sent_id = S0021-112
 # text = .i. ol
 # text_en = that is, because
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ol	ol 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, because, for, inasmuch as; that which; adversative relative with sodain: “which, however”
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ol	ol 2	SCONJ	conjunction	_	0	root	X	Gloss=causal: since, because, for, inasmuch as; that which; adversative relative with sodain: “which, however”
 
 # sent_id = S0021-113
 # text = saurus .i. odur
