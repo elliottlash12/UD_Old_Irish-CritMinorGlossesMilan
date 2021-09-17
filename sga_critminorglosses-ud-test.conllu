@@ -2666,17 +2666,17 @@
 # text = .i. est is uera pictura robaisin 7 robtarbai togaitig sidi
 # text_en = That is, “it is”; it is a true picture that that was, and these were deceptive cows.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
-2	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	dislocated	X	Gloss=to be
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-4	uera	uērus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=true, real
-5	pictura	pictura	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=picture
+2	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+4	uera	uērus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	5	amod	X	Gloss=true, real
+5	pictura	pictura	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=picture
 6-7	robaisin	_	_	_	_	_	_	_	_
-6	ro·bai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Nas	4	csubj:cleft	X	Gloss=to be, to exist,
+6	ro·bai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Nas	5	csubj:cleft	X	Gloss=to be, to exist,
 7	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	6	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
 8	7	ocus 2	CCONJ	conjunction	_	10	cc	X	Gloss=coordinating: and, since
 9-10	robtarbai	_	_	_	_	_	_	_	_
 9	robtar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	10	cop	X	Gloss=to be
-10	bai	bó	NOUN	noun	Case=Nom|Number=Plur	4	conj	X	Gloss=cow
+10	bai	bó	NOUN	noun	Case=Nom|Number=Plur	5	conj	X	Gloss=cow
 11	togaitig	togáethach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	10	amod	X	Gloss=deceitful, false
 12	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur	10	nsubj	X	Gloss=that one, he, she, it, they
 
