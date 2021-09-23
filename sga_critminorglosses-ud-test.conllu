@@ -2854,13 +2854,13 @@
 1-2	ismebul	_	_	_	_	_	_	_	_
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
 2	mebul	mebul	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=shame, disgrace, deceit, treachery
-3	elud	élúd	NOUN	verbal_noun	Case=Nom|Number=Sing	2	advcl	X	Gloss=the act of going out, departing, escaping; elopement, evasion
+3	elud	élúd	NOUN	verbal_noun	Case=Nom|Number=Sing	2	csubj	X	Gloss=the act of going out, departing, escaping; elopement, evasion
 4	rig	rí	NOUN	noun	Case=Gen|Number=Sing	3	obj	X	Gloss=king
 5-6	nafirinne	_	_	_	_	_	_	_	_
 5	na	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	firinne	fírinne	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=truth; justice, righteousness
 7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-8	chairte	cairde	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=pact, covenant, peace
+8	chairte	cairde	NOUN	noun	Case=Nom|Number=Sing	3	conj	X	Gloss=pact, covenant, peace
 9-10	fridemun	_	_	_	_	_	_	_	_
 9	fri	fri	ADP	preposition	Case=Acc	10	case	X	Gloss=towards, against, standard of comparison
 10	demun	demun	NOUN	noun	Case=Acc|Number=Sing	_	obl	X	Gloss=demon, devil, evil spirit
@@ -2893,7 +2893,7 @@
 # text_en = that is, to whom it is not clear
 1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	dinach	_	_	_	_	_	_	_	_
-2	di	di	ADP	preposition	Case=Dat	4	case	X	Gloss=away, from, cause or reason, by
+2	di	di	ADP	preposition	Case=Dat	4	obl:prep	X	Gloss=away, from, cause or reason, by
 3	nach	nach 3	PART	particle_negative_subordinate	RelType=Other	4	advmod:neg	X	Gloss=that not ; not
 4	follus	follus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=clear, plain, evident ; manifest, open
 
