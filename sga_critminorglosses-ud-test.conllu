@@ -2703,10 +2703,10 @@
 # sent_id = S0021-74
 # text = duo .i. herchoilud fabulae 7 grammaticae
 # text_en = “two”, that is, the definition of fabula and of grammatica
-1	duo	duo	NUM	adjective_numeral	3	dislocated	nummod	X	Gloss=two
+1	duo	duo	NUM	adjective_numeral	0	root	nummod	X	Gloss=two
 2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
-3	herchoilud	érchoíliud	NOUN	verbal_noun	Case=Nom|Number=Sing	0	root	X	Gloss=the act of defining; definition, determination, decision, resolve, solution, legal pronouncement
-4	fabulae	fabula	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=fable, tale
+3	herchoilud	érchoíliud	NOUN	verbal_noun	Case=Nom|Number=Sing	1	conj	X	Gloss=the act of defining; definition, determination, decision, resolve, solution, legal pronouncement
+4	fabulae	fabula	NOUN	noun	Case=Gen|Number=Sing	3	obj	X	Gloss=fable, tale
 5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
 6	grammaticae	grammatica	NOUN	noun	Case=Gen|Number=Sing	4	conj	X	Gloss=grammar, philology
 
@@ -2783,7 +2783,7 @@
 4-5	húas	_	_	_	_	_	_	_	_
 4	hú	ó 2	SCONJ	conjunction	_	6	mark	X	Gloss=temporal: since, after (with subordinate clause)
 5	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	cop	X	Gloss=to be
-6	etargnaid	etargnaid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	2	csubj:cleft	X	Gloss=known, recognized, understood
+6	etargnaid	etargnaid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	2	advcl	X	Gloss=known, recognized, understood
 7-8	dunni	_	_	_	_	_	_	_	_
 7	dun	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	8	case	X	Gloss=to, for, by etc.
 8	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	6	obl	X	Gloss=emphasising particle
