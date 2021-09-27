@@ -1016,7 +1016,7 @@ def tantum_fix(a_sentence):
 def uile_fix(a_sentence):
     for word in a_sentence:
         if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
-            if word['form'] == 'uile':
+            if word['lemma'] == 'uile':
                 word['upos'] = 'ADJ'
                 word['deprel'] = '_' #It is probably best to have this blank rather than 'amod', because there will be some cases when the word is not a modifier.
 
