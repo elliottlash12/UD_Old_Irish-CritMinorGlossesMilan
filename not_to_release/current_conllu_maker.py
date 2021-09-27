@@ -867,7 +867,7 @@ def verbal_noun_analysis(a_sentence):
     for word in a_sentence:
         if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
             if word['xpos'] == 'verbal_noun':
-                word['feat']['VerbForm'] = 'VNoun'
+                word['feats']['VerbForm'] = 'VNoun'
 
 #Section 6.7. Putting it all together.
 
