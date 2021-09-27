@@ -33,7 +33,7 @@ from io import open
 # The csv file draws data from the Morphology, Lemmata, and Sentences tables of CorPH. The following columns in these tables are used:
 #
 #                       |                       Morphology Table Columns                      |   Lemmata Table Columns |  Sentences Table Columns  |
-#                       | ID, Text_Unit_ID, Stressed_Unit, Morph, Lemma, Analysis, Rel, Trans | Part_Of_Speech, Meaning | Textual_Unit, Translation |
+#                       | Sort_Id, ID, Text_Unit_ID, Stressed_Unit, Morph, Lemma, Analysis, Rel, Trans | Part_Of_Speech, Meaning | Textual_Unit, Translation |
 #
 #
 # To run this script put it in a folder with the csv file and use Terminal (on a Mac). Navigate to the directory with the python script and the csv file.
