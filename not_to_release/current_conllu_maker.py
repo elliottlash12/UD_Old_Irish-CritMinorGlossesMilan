@@ -1668,6 +1668,8 @@ def insert_sentence_final_punctuation(list_of_sentences):
             suffix = '.'
         elif sent.metadata['text'].endswith('·'):
             suffix = '·'
+        else:
+            return
 
         punct = {'id': '_', 'form': suffix, 'lemma': suffix, 'upos': 'PUNCT', 'xpos': 'punctuation', 'feats': '_', 'head': '_', 'deprel': '_', 'deps': '_', 'misc': '_'}
 
