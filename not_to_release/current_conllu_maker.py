@@ -1497,15 +1497,15 @@ def changechunkids(sent):
 #******************************************************
 
 
-#The following functions opens a csv file, does some preprocessing (see section 1), and returns the data as a list.
+#The following functions opens a csv file, does some pre-processing (see section 1), and returns the data as a list.
 def proper_sort(data):
     for row in data:
-        if '-' in row[3]:
-            new=re.split('-', row[3])
-            row[0]=int(new[1])
-            row[1]=int(row[1])
-    headings=data.pop(0)
-    data = sorted(data)
+        if '-' in row[3]: #row[3] is the 'Text Unit Id column'
+            new=re.split('-', row[3]) #Splits Text Unit ID into Text Unit (e.g. 0050) and sentence number (e.g. 1)
+            row[0]=int(new[1]) #Puts the sentence number into the first position in the row so that the data can be sorted on by sentence number
+            row[1]=int(row[1]) #After creating row[0], row[1] is the Sort ID.
+    headings=data.pop(0) #Pops out the first row, which consists of column headings
+    data = sorted(data) #Sorts the data by sentence number.
     return data, headings
 
 def read_in_with_columns(filename):
@@ -1526,11 +1526,11 @@ def make_dictionary_of_sentences_out_of(data):
     sentences_ordered_dict = OrderedDict()
     column_names = data[0] # Gets the column names
     all_rows = data[1:]  # gets the textual unit rows
-    for row in all_rows: # Separates them into text_unit_id (id) and other values
+    for row in all_rows: # Separates them into text_unit_id (idn) and other values
         idn = str(row[1])
         values = row # print(list(zip(column_names, values)))
         sentence_dict = dict(zip(column_names, values)) # converts them into a dict # print(sentenceDict)
-        if idn in sentences_ordered_dict: # checks if sentence has been added to the textual unit dictionary before and adds i
+        if idn in sentences_ordered_dict: # checks if sentence has been added to the textual unit dictionary before and adds it
             sentences_ordered_dict[idn] = sentences_ordered_dict[idn] + [sentence_dict]
         else: # otherwise creates a new textual unit dictionary and adds the sentence to the dictionary
             sentences_ordered_dict[idn] = [sentence_dict]
