@@ -60,7 +60,7 @@ from io import open
 #
 #    a. Functions to update the analysis of verbs based on the presence of relative particles.
 #    b. Functions to update the analysis of verbs based on the presence of infixed pronouns.
-#    c. Functions to remove subelements of compounds. 
+#    c. Functions to remove sub-elements of compounds.
 #
 # Section 3. Functions to remove extraneous information.
 #
@@ -74,7 +74,7 @@ from io import open
 # ========================================================================================================================================================================================================
 # ========================================================================================================================================================================================================
 
-#Section 1: Functions to preprocessing the data to change the contents of certain cells in various columns
+#Section 1: Functions to pre-processing the data to change the contents of certain cells in various columns
 #********************************************************************************************************
 
 # The function preprocess_1 replaces any null cells in the "Analysis" in CorPH with "No_Features".
@@ -100,7 +100,7 @@ def preprocess_2(input_data):
 def preprocess_3(input_data):
     for item in input_data:
         if item[6] == "Yes" and ".rel." not in item[5]: #Perhaps also "Maybe" should trigger something like rel?
-            item[5] = item[5] + "rel."
+            item[5] += "rel."
         item[6] = "_"
 
 
@@ -140,7 +140,7 @@ def preprocess_6(input_data):
         item[9] = gloss + item[9]
 
 
-#The following function combines the previous six preprocessing functions into one.
+#The following function combines the previous six pre-processing functions into one.
     
 def preprocessing(input_data):
     preprocess_1(input_data)
@@ -187,20 +187,20 @@ def compare_verbs_relative_particles_and_infixed_pronouns_in(list_of_verbs, list
                 if relpart['Lemma'] == 'len.rel.particle':
                     answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a lenited relative verb.'
                     ans.append(answ)
-                    verb['Analysis'] = verb['Analysis'] + 'len'
+                    verb['Analysis'] += 'len'
                 elif relpart['Lemma'] == 'nas.rel.particle':
                     answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a nasalized relative verb.'
                     ans.append(answ)
-                    verb['Analysis'] = verb['Analysis'] + 'nas'
+                    verb['Analysis'] += 'nas'
             elif pron['Morph'] not in verb['Morph']:
                 if relpart['Lemma'] == 'len.rel.particle':
                     answ = 'The pronoun ' + pron['Morph'] + ' which has ID number ' + pron['ID'] + ' is a lenited class C pronoun.'
                     ans.append(answ)
-                    pron['Analysis'] = pron['Analysis'] + '.len'
+                    pron['Analysis'] += '.len'
                 elif relpart['Lemma'] == 'nas.rel.particle':
                     answ = 'The pronoun ' + pron['Morph'] + ' which has ID number ' + pron['ID'] + ' is a nasalized class C pronoun.'
                     ans.append(answ)
-                    pron['Analysis'] = pron['Analysis'] + '.nas'
+                    pron['Analysis'] += '.nas'
     return ans
 
 
@@ -211,11 +211,11 @@ def compare_verbs_and_relative_particles_in(list_of_verbs, list_of_relparts):
             if relpart['Lemma'] == 'len.rel.particle':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a lenited relative verb.'
                 ans.append(answ)
-                verb['Analysis'] = verb['Analysis'] + 'len'
+                verb['Analysis'] += 'len'
             elif relpart['Lemma'] == 'nas.rel.particle':
                 answ = 'The verb ' + verb['Morph'] + ' which has ID number ' + verb['ID'] + ' is a nasalized relative verb.'
                 ans.append(answ)
-                verb['Analysis'] = verb['Analysis'] + 'nas'
+                verb['Analysis'] += 'nas'
     return ans
 
 
@@ -300,7 +300,7 @@ def look_for_relative_or_infixed_verbs_in_all(list_of_sentences):
 #    return rel_answers, pron_answers >>> Only in interactive sessions
 
 
-# The following function removes subelements of compounds. It works if the rows are in the following order: element 1 > element 2 > compound. 
+# The following function removes sub-elements of compounds. It works if the rows are in the following order: element 1 > element 2 > compound.
 def compound_detector(list_of_sentences):
     for sent in list_of_sentences.values():
         for count, word in enumerate(sent):
@@ -379,12 +379,12 @@ def list_of_dets_and_nouns_in(a_sentence):
     return list_of_dets, list_of_nouns, list_of_preps
 
 
-def head_of_article(current_sentence, list_of_dets, list_of_nouns):
-    for det, noun in list(itertools.product(list_of_dets, list_of_nouns)):
-        if det['Stressed_Unit'] in noun['Stressed_Unit']:
-            det['_'] = str(current_sentence.index(noun) + 1)
-            if det['Part_Of_Speech'] == 'definite_article':
-                noun['Analysis'] = noun['Analysis'] + 'Def'
+#def head_of_article(current_sentence, list_of_dets, list_of_nouns):
+#    for det, noun in list(itertools.product(list_of_dets, list_of_nouns)):
+#        if det['Stressed_Unit'] in noun['Stressed_Unit']:
+#            det['_'] = str(current_sentence.index(noun) + 1)
+#            if det['Part_Of_Speech'] == 'definite_article':
+#                noun['Analysis'] = noun['Analysis'] + 'Def'
 
 def head_of_article2(current_sentence, list_of_dets, list_of_nouns):
     finished_nouns = []
@@ -392,23 +392,23 @@ def head_of_article2(current_sentence, list_of_dets, list_of_nouns):
     ignore_list = []
     combo=list(itertools.product(list_of_dets, list_of_nouns))
     for c in combo:
-        if c[0]['Stressed_Unit'] in c[1]['Stressed_Unit']:
-            if not ignore_list:
-                c[0]['_'] = str(current_sentence.index(c[1]) + 1)
+        if c[0]['Stressed_Unit'] in c[1]['Stressed_Unit']: #If the stressed units of the determiner and the noun are the same,
+            if not ignore_list: #If ignore_list is empty,
+                c[0]['_'] = str(current_sentence.index(c[1]) + 1) #the head of the determiner is the same as the index associated with the noun plus 1.
+                finished_dets.append(c[0]) #add the determiner to the finished_dets list
+                finished_nouns.append(c[1]) #add the noun to the finished_nouns list
+                ignore_list.append(c) #append the combo to the ignore_list
+            elif c[0] in finished_dets: #If ignore_list has something in it and the determiner is in the finished_dets list,
+                ignore_list.append(c) #add the combo to the ignore_list
+            elif c[1] in finished_nouns: #If ignore_list has something in it and the noun is in the list of finished_nouns,
+                ignore_list.append(c) #add the combo to the ignore_list
+            else: #otherwise - if the ignore_list is not empty but neither the determiner nor the noun has been seen before,
+                c[0]['_'] = str(current_sentence.index(c[1]) + 1) #do all the stuff mentioned above in the if not statement
                 finished_dets.append(c[0])
                 finished_nouns.append(c[1])
                 ignore_list.append(c)
-            elif c[0] in finished_dets:
-                ignore_list.append(c)
-            elif c[1] in finished_nouns:
-                ignore_list.append(c)
-            else:
-                c[0]['_'] = str(current_sentence.index(c[1]) + 1)
-                finished_dets.append(c[0])
-                finished_nouns.append(c[1])
-                ignore_list.append(c)
-        else:
-            pass
+        else: #if the stressed units don't match
+            pass #go on to the next combo.
 
 #The function head_of_preposition assigns the index of a noun that shares its stressed unit with a preposition to the head column of the preposition.
 #It attempts to prohibit erroneous assignment by ignoring already seen items. Hopefully the numbere of "elif" and "else" statements will be enough
@@ -416,11 +416,11 @@ def head_of_article2(current_sentence, list_of_dets, list_of_nouns):
 
 def case_check(prep, noun):
     if 'acc.' in noun['Analysis'] and 'No_Features' in prep['Analysis']:
-        prep['Analysis'] = prep['Analysis'] + 'acc.'
+        prep['Analysis'] += 'acc.'
     elif 'dat.' in noun['Analysis'] and 'No_Features' in prep['Analysis']:
-        prep['Analysis'] = prep['Analysis'] + 'dat.'
+        prep['Analysis'] += 'dat.'
     elif 'gen.' in noun['Analysis'] and 'No_Features' in prep['Analysis']:
-        prep['Analysis'] = prep['Analysis'] + 'gen.'
+        prep['Analysis'] += 'gen.'
 
 
 def head_of_preposition(current_sentence, list_of_preps, list_of_nouns):
@@ -609,59 +609,62 @@ def latin_check(a_sentence):
 
 #Section 6.3. Analysis of Verbs
 
-# The functions verbal_infixed_person_analysis and verbal_infixed_number_analysis deal with the features of infixed pronouns.
-# Create better regex for these?
+# The function verbal_infixed_analysis deals with the features of infixed pronouns. gender_finder and define_number are sub-functions found in the main function.
 
-def verbal_infixed_person_analysis(a_sentence):
-    for word in a_sentence:
-        if isinstance(word['id'], int):
-            if word['xpos'] == 'verb':
-                if 'obj1' in word['feats']['Analysis']:
-                    word['feats']['Person[Obj]'] = '1'
-                elif 'obj2' in word['feats']['Analysis']:
-                    word['feats']['Person[Obj]'] = '2'
-                elif 'obj3' in word['feats']['Analysis']:
-                    word['feats']['Person[Obj]'] = '3'
+def gender_finder(matched_obj):
+    if len(matched_obj.group()) > 7:
+        if 'm' in matched_obj.group()[7:9]:
+            return 'Masc'
+        elif 'f' in matched_obj.group()[7:9]:
+            return 'Fem'
+        elif 'n' in matched_obj.group()[7:9]:
+            return 'Neut'
+    elif len(matched_obj.group()) == 7:
+            pass
 
+def define_number(string):
+    if 'sg' in string:
+        return 'Sing'
+    elif 'pl' in string:
+        return 'Plur'
+    else:
+        pass
 
-def verbal_infixed_number_analysis(a_sentence):
-    for word in a_sentence:
-        if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
-            if word['xpos'] == 'verb':
-                if re.findall('obj[123]sg', word['feats']['Analysis']):
-                    word['feats']['Number[Obj]'] = 'Sing'
-                elif re.findall('obj[123]pl', word['feats']['Analysis']):
-                    word['feats']['Number[Obj]'] = 'Plur'
-
-
-#The verbal_person_analysis checks to see if for rows whose "xpos" value is "verb" any key in "Feats" contains "1/2/3" and creates a new key:value pair.
-# Because the analysis of the verb will contain two instances of 1/2/3 in the case of transitive verbs with infixed pronouns, there may be some functionality issues here!				
-# The above comment is correct. Instead of the approach in the function, the following regex needs to be implemented: pat=re.compile('(?<!obj)[123]((sg)|(pl))')
-# This regex finds 1,2, or 3 not preceded by obj, which is by definition the subject.
-
-def verbal_person_analysis(a_sentence):
+def verbal_infixed_analysis(a_sentence):
     for word in a_sentence:
         if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
             if word['xpos'] == 'verb':
-                if '1' in word['feats']['Analysis']:
-                    word['feats']['Person[Subj]'] = '1'
-                elif '2' in word['feats']['Analysis']:
-                    word['feats']['Person[Subj]'] = '2'
-                elif '3' in word['feats']['Analysis']:
-                    word['feats']['Person[Subj]'] = '3'
 
+                m = re.search('(obj)[123]((sg.)|(pl.))((masc)|(fem)|(neut)|())', word['feats']['Analysis'])
 
-# The function verbal_number_analysis checks to see if for rows whose "xpos" value is "verb" any key in "Feats" contains "sg" or "pl" and creates a new key:value pair.
-				
-def verbal_number_analysis(a_sentence):
+                if m:
+                    word['feats']['Person[Obj]'] = m.group()[3]
+
+                    number = define_number(m.group()[4:7])
+                    gender = gender_finder(m)
+
+                    if number or gender:
+                        word['feats']['Number[Obj]'] = number
+                        word['feats']['Gender[Obj]'] = gender
+                        if None == word['feats']['Gender[Obj]']:
+                            del word['feats']['Gender[Obj]']
+
+#The verbal_person_analysis checks deals with the features of the subject.
+
+def verbal_person_number_analysis(a_sentence):
     for word in a_sentence:
         if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
             if word['xpos'] == 'verb':
-                if 'sg' in word['feats']['Analysis']:
-                    word['feats']['Number[Subj]'] = 'Sing'
-                elif 'pl' in word['feats']['Analysis']:
-                    word['feats']['Number[Subj]'] = 'Plur'
-
+                m = re.search('(?<!obj)[123]((sg)|(pl))', word['feats']['Analysis'])
+                if m:
+                    word['feats']['Person[Subj]'] = m.group()[0]
+                    number = m.group()[1:3]
+                    if 'sg' in number:
+                        word['feats']['Number[Subj]'] = 'Sing'
+                    elif 'pl' in number:
+                        word['feats']['Number[Subj]'] = 'Plur'
+                    else:
+                        pass
 
 # The function tense_analysis checks to see if any key in "Feats" contains a tag for a tense or the imperative mood ("impv") and creates a new key:value pair.
 				
@@ -764,14 +767,26 @@ def analyze_augm_in_(a_sentence):
 
 def analyze_rel_in(a_sentence):
     for word in a_sentence:
-        if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
-            if 'rel' in word['feats']['Analysis']: ###Why shouldn't 'nas' or 'len' also be referred to at this level? !!!! Basically, 'rel' should be confined to the final elif statement.
-                if 'len' in word['feats']['Analysis']:
-                    word['feats']['RelType'] = 'Len'
-                elif 'nas' in word['feats']['Analysis']:
-                    word['feats']['RelType'] = 'Nas'
-                elif 'len' not in word['feats']['Analysis'] or 'nas' not in word['feats']['Analysis']: #the or here maybe problematic
-                    word['feats']['RelType'] = 'Other'
+        if isinstance(word['id'], int) and word['xpos'] == 'verb':
+            if 'len' in word['feats']['Analysis']:
+                word['feats']['RelType'] = 'Len'
+            elif 'nas' in word['feats']['Analysis']:
+                word['feats']['RelType'] = 'Nas'
+            elif 'rel' in word['feats']['Analysis'] and 'nas' not in word['feats']['Analysis'] and 'len' not in word['feats']['Analysis']:
+                word['feats']['RelType'] = 'Other'
+            else:
+                pass
+
+#def analyze_rel_in(a_sentence):
+#    for word in a_sentence:
+#        if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
+#            if 'rel' in word['feats']['Analysis']: ###Why shouldn't 'nas' or 'len' also be referred to at this level? !!!! Basically, 'rel' should be confined to the final elif statement.
+#                if 'len' in word['feats']['Analysis']:
+#                    word['feats']['RelType'] = 'Len'
+#                elif 'nas' in word['feats']['Analysis']:
+#                    word['feats']['RelType'] = 'Nas'
+#                elif 'len' not in word['feats']['Analysis'] or 'nas' not in word['feats']['Analysis']: #the or here maybe problematic
+#                    word['feats']['RelType'] = 'Other'
 
 
 #Section 6.4. Analysis of other items
@@ -844,8 +859,17 @@ def analyze_adjective_degree_analysis(a_sentence):
                 word['feats']['Degree'] = 'Equ'
             elif word['xpos'] == 'adjective' and word['feats']['Analysis'] != 'comp.' and word['feats']['Analysis'] != 'sup.' and word['feats']['Analysis'] != 'equ.':
                 word['feats']['Degree'] = 'Pos'
-    
-#Section 6.6. Putting it all together.
+
+
+#Section 6.6. Verbal Noun Analysis
+
+def verbal_noun_analysis(a_sentence):
+    for word in a_sentence:
+        if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
+            if word['xpos'] == 'verbal_noun':
+                word['feat']['VerbForm'] = 'VNoun'
+
+#Section 6.7. Putting it all together.
 
 #The following function groups all of the functions that apply to substantives (i.e. nouns and adjectives) together.
 
@@ -860,10 +884,8 @@ def change_substantive_analysis(input_data):
 #The following function groups all of the functions that apply to verbs together.
 
 def change_verb_analysis(input_data):
-    verbal_infixed_person_analysis(input_data)
-    verbal_infixed_number_analysis(input_data)
-    verbal_person_analysis(input_data)
-    verbal_number_analysis(input_data)
+    verbal_infixed_analysis(input_data)
+    verbal_person_number_analysis(input_data)
     tense_analysis(input_data)
     voice_analysis(input_data)
     mood_analysis(input_data)
@@ -872,6 +894,7 @@ def change_verb_analysis(input_data):
     analyze_object_pron_in_(input_data)
     analyze_augm_in_(input_data)
     analyze_rel_in(input_data)
+    verbal_noun_analysis(input_data)
     return input_data
 
 
@@ -884,7 +907,7 @@ def change_preposition_analysis(input_data):
     analyze_case_in_prepositions_in_(input_data)
     latin_check(input_data)
     return input_data
-    
+
 # The following function groups all the functions that apply to other items together.
 
 def change_other_analyses(input_data):
@@ -913,10 +936,10 @@ def change_all_analyses(list_of_sentences):
 
         for word in sent:
 
-            if word['upos'] != 'PUNCT' and word.get('misc', {}).get('tuple'):
+            if word['upos'] != 'PUNCT' and word.get('misc', {}).get('tuple'): #this finds chunks which are tagged with 'tuple' in 'misc' column
 
-                x = word['misc']['tuple'].split('-')
-                word['id'] = (int(x[0]), '-', int(x[1]))
+                x = word['misc']['tuple'].split('-') #splits up the tuple in the chunk's 'misc' column
+                word['id'] = (int(x[0]), '-', int(x[1])) #creates an id for chunks using the numbers in the tuple
 
     [change_substantive_analysis(item) for item in list_of_sentences] #Since there is already a loop through the list of sentences, the following statements could probably be simplified to "function(sent)".
     [change_verb_analysis(item) for item in list_of_sentences]
@@ -933,7 +956,6 @@ def change_all_analyses(list_of_sentences):
 
 #Section 7: Functions to fill in upos and deprel columns in a conllu file.
 #*************************************************************************
-
 
 #The following functions (assign_upos and upos_finder) assign upos to a word in a sentence in a list of sentences.
 
@@ -980,6 +1002,23 @@ def assign_deprel_to_article_in_(a_sentence):
             if word['lemma'] == 'in 1' or word['xpos'] == 'adjective_quantifier':
                 word['deprel'] = 'det'
 
+
+# This function fixes the deprel and upos associated with the item 'tantum'.
+
+def tantum_fix(a_sentence):
+    for word in a_sentence:
+        if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
+            if word['form'] == 'tantum':
+                word['upos'] = 'PART'
+                word['deprel'] = 'advmod:emph'
+
+
+def uile_fix(a_sentence):
+    for word in a_sentence:
+        if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
+            if word['form'] == 'uile':
+                word['upos'] = 'ADJ'
+                word['deprel'] = '_' #It is probably best to have this blank rather than 'amod', because there will be some cases when the word is not a modifier.
 
 # This function assigns a deprel to the prepositions.
 
@@ -1039,7 +1078,7 @@ def assign_deprel_to_coordinate_conjunction_in_(combined_list):
                 combined_list[count][0]['upos'] = 'CCONJ'
 
 def coordconj_finder(list_of_sentences):
-    cconjlist = ['ocus 2', 'nó 1', 'ná 4', 'fa', 'nach 6', 'rodbo', 'et', 'uel']
+    cconjlist = ['ocus 2', 'nó 1', 'ná 4', 'fa', 'nach 6', 'rodbo', 'et', 'uel', 'quam']
     for a_sentence in list_of_sentences:
         combo = list(itertools.product(a_sentence, cconjlist))
         assign_deprel_to_coordinate_conjunction_in_(combo)
@@ -1071,6 +1110,8 @@ def do_all_deprel(list_of_sentences):
     [assign_deprel_to_negation_in_(a_sentence) for a_sentence in list_of_sentences]
     [assign_deprel_to_numeral_in_(a_sentence) for a_sentence in list_of_sentences]
     [assign_deprel_to_complementizer_in_(a_sentence) for a_sentence in list_of_sentences]
+    [tantum_fix(a_sentence) for a_sentence in list_of_sentences]
+    [uile_fix(a_sentence) for a_sentence in list_of_sentences]
     subconj_finder(list_of_sentences)
     coordconj_finder(list_of_sentences)
     
@@ -1086,7 +1127,7 @@ def iteratorformorphs(morph_y, word_y, j, acc, accalt=None):
     morph_y = j+1
     accalt=''
     acc=''
-    word_y +=1
+    word_y += 1
 
     return morph_y, word_y, acc
 
@@ -1245,28 +1286,30 @@ def sortsent(sent):
 
 def checkchunkorder(sent): #There's a big issue with this: if the concatenated morph is second to last, then dif will never reach -1.
 
-    chunk=[] #This will be a list consisting of the concatenated morph and its supposed subelements.
-    allchunks=[] #This will be a list consisting of all the concatenated morphs and their subelements in a sentence.
+    chunk=[] #This will be a list consisting of the concatenated morph and its supposed sub-elements.
+    allchunks=[] #This will be a list consisting of all the concatenated morphs and their sub-elements in a sentence.
     dif = None #A counter.
 
     for word in sent:
 
         if word.get('interim'): #Gets morphs that are concatenated morphs - only concatenated morphs have the key "interim" because of the reassignids function.
 
-            dif = abs(word['interim'][2] - word['interim'][0]) #Assigns the difference between the two parts of interim to the counter. The two parts of interim define a range of elements that ought to be subparts of the concatenated morphs. The difference between the two can be used to tell the iterator how many words to add to the chunk list.
+            dif = abs(word['interim'][2] - word['interim'][0]) #Assigns the difference between the two parts of interim to the counter. The two parts of interim define a range of elements that ought to be sub-parts of the concatenated morphs. The difference between the two can be used to tell the iterator how many words to add to the chunk list.
             chunk.append(word) #Adds the concatenate morph to the chunk list.
 
-        elif dif != None and dif >= 0 and not word.get('interim'): #Checks whether the counter is an integer and if it is larger than or equal to 0 and if the current word is a normal morph.
+        elif isinstance(dif, int) and dif >= 0 and not word.get('interim'): #Checks whether the counter is an integer and if it is larger than or equal to 0 and if the current word is a normal morph.
+            #elif isinstance(dif, int) replaces elif dif != None
 
             dif -= 1 #Decreases the counter
             chunk.append(word) #Appends the word to the chunk list.
 
             if dif < 0: #Checks if the counter is less than 0. This means that the range of words for a given chunk has already been looked at.
 
-                allchunks.append(chunk) #Appends the chunk list (consisting of the concatenated morph and its subelement) to the list of all chunks in a sentence.
+                allchunks.append(chunk) #Appends the chunk list (consisting of the concatenated morph and its sub-element) to the list of all chunks in a sentence.
                 chunk = [] #Empties the current chunk. #consider also adding dif == None here?
 
-        elif dif == None: #If an integer has not been assigned to the counter, then there is no need to add anything to a chunk list. This happens if there are no chunks in a given stretch of the list.
+        elif not dif: #If an integer has not been assigned to the counter, then there is no need to add anything to a chunk list. This happens if there are no chunks in a given stretch of the list.
+            #note that elif not dif should be equivalent to elif dif == None
 
             pass
 
@@ -1293,7 +1336,7 @@ def changechunkorder(allchunks, sentence):
 
             lastid = chunk[0]['interim'][2] #Assigns the final element of the interim id to lastid. #consider changing to "accumulated".
             badindex = sentence.index(chunk[0]) #Gets the current location of the accumulated string in the sentence — Note that this is the wrong location. #consider changing to "accumulated".
-            searchlen = len(chunk)-2 #Sets a search length. Basically this will be used to find the first submember of a concatenated morph.
+            searchlen = len(chunk)-2 #Sets a search length. Basically this will be used to find the first sub-member of a concatenated morph.
 
         else:
 
@@ -1355,8 +1398,8 @@ def changeid2(sent):
 
     for word in sent: #Goes through morphs in a sentence.
 
-        if punctseen == []: #Checks whether no punctuation marks have been seen yet.
-
+        if not punctseen: #Checks whether no punctuation marks have been seen yet.
+        #if not punctseen should be the same as if punctseen == [1]
             if word['upos'] != 'PUNCT': #If the current word is not a punctuation mark
 
                 assign_old_stuff(word)
@@ -1366,7 +1409,8 @@ def changeid2(sent):
                 changepunct(sent)
                 punctseen.append(word) #Add the punctuation mark to the list of punctuation marks.
 
-        elif punctseen != []: #Checks if at least one punctuation mark has been seen.
+        elif punctseen: #Checks if at least one punctuation mark has been seen.
+        #elif punctseen should be the same as punctseen != []
 
             if len(punctseen) >= 1 and isinstance(word['id'], int): #Consider removing isinstance.
 
@@ -1483,13 +1527,13 @@ def make_dictionary_of_sentences_out_of(data):
     column_names = data[0] # Gets the column names
     all_rows = data[1:]  # gets the textual unit rows
     for row in all_rows: # Separates them into text_unit_id (id) and other values
-        id = str(row[1])
+        idn = str(row[1])
         values = row # print(list(zip(column_names, values)))
         sentence_dict = dict(zip(column_names, values)) # converts them into a dict # print(sentenceDict)
-        if id in sentences_ordered_dict: # checks if sentence has been added to the textual unit dictionary before and adds i
-            sentences_ordered_dict[id] = sentences_ordered_dict[id] + [sentence_dict]
+        if idn in sentences_ordered_dict: # checks if sentence has been added to the textual unit dictionary before and adds i
+            sentences_ordered_dict[idn] = sentences_ordered_dict[idn] + [sentence_dict]
         else: # otherwise creates a new textual unit dictionary and adds the sentence to the dictionary
-            sentences_ordered_dict[id] = [sentence_dict]
+            sentences_ordered_dict[idn] = [sentence_dict]
     return sentences_ordered_dict
 
 
@@ -1534,22 +1578,22 @@ def automation(filename):
 # Given list_of_morphs = ab c d ef g hi jk lmn
 # Output: [(1, 1, 2), (2, 3, 4), (3, 5, 7)] #the index 'tij' below indicates that the t-th word in the sentence is concatenated by the the i-th to j-th morphs in list_of_words.
 
-def check_concatenations(list_of_words, list_of_morphs):
-    words = [re.sub("[^0-9a-zA-Z]+", '', x) for x in list_of_words] # uses the regex library to remove all non-alphanumeric characters before comparison
-    morphs = [re.sub("[^0-9a-zA-Z]+", '', x) for x in list_of_morphs] # "
-    word_y = 0 # iterator
-    morph_y = 0 # "
-    tij = [] # initialization
-    accumulated = '' # empty accumulated string
-    for j in range(len(morphs)): # loops over every morph
-        accumulated += morphs[j]
-        if accumulated == words[word_y]: # A concatenated string matches a word in a sentence.
-            if morph_y != j:
-                tij.append((word_y, morph_y+1, j+1)) # a concatentated string is formed
-            morph_y = j + 1 # moves on to the next morph
-            accumulated = '' # resets the accumulated string
-            word_y += 1 # moves on to the next word
-    return tij
+#def check_concatenations(list_of_words, list_of_morphs):
+#    words = [re.sub("[^0-9a-zA-Z]+", '', x) for x in list_of_words] # uses the regex library to remove all non-alphanumeric characters before comparison
+#    morphs = [re.sub("[^0-9a-zA-Z]+", '', x) for x in list_of_morphs] # "
+#    word_y = 0 # iterator
+#    morph_y = 0 # "
+#    tij = [] # initialization
+#    accumulated = '' # empty accumulated string
+#    for j in range(len(morphs)): # loops over every morph
+#        accumulated += morphs[j]
+#        if accumulated == words[word_y]: # A concatenated string matches a word in a sentence.
+#            if morph_y != j:
+#                tij.append((word_y, morph_y+1, j+1)) # a concatentated string is formed
+#            morph_y = j + 1 # moves on to the next morph
+#            accumulated = '' # resets the accumulated string
+#            word_y += 1 # moves on to the next word
+#    return tij
 
 
 def write_out(filename, sentences):
@@ -1594,7 +1638,7 @@ def write_out(filename, sentences):
             allactlists.append(aclist)
     return allactlists
 
-def automate_rearrangment(list_of_sentences):
+def automate_rearrangement(list_of_sentences):
 
     for sent in list_of_sentences:
 
@@ -1609,6 +1653,30 @@ def automate_rearrangment(list_of_sentences):
 
     return list_of_sentences
 
+
+#The following function adds final punctuation.
+
+def insert_sentence_final_punctuation(list_of_sentences):
+
+    for sent in list_of_sentences:
+
+        if sent.metadata['text'].endswith('. . -'):
+            suffix = '. . -'
+        if sent.metadata['text'].endswith('. .'):
+            suffix = '. .'
+        elif sent.metadata['text'].endswith('.'):
+            suffix = '.'
+        elif sent.metadata['text'].endswith('·'):
+            suffix = '·'
+
+        punct = {'id': '_', 'form': suffix, 'lemma': suffix, 'upos': 'PUNCT', 'xpos': 'punctuation', 'feats': '_', 'head': '_', 'deprel': '_', 'deps': '_', 'misc': '_'}
+
+        sent.append(punct)
+
+        for count, word in enumerate(sent):
+            if word['id'] == '_':
+                word['id'] = sent[count-1]['id'] + 1
+
 #The following function opens the CONLLU file and applies the change_all_analyses function to it.
 #It writes the rearranged data to a new file (in the intro to this script called "name_of_final_output_file").
 
@@ -1620,7 +1688,8 @@ def conlluit(filename1, filename2):
         change_all_analyses(conllu_sentences)
         upos_finder(conllu_sentences)
         do_all_deprel(conllu_sentences)
-        automate_rearrangment(conllu_sentences)
+        automate_rearrangement(conllu_sentences)
+        insert_sentence_final_punctuation(conllu_sentences)
         conllu_sentences_with_feats = [item.serialize() for item in conllu_sentences]
         file_out = open(filename2, 'w', encoding='utf-8')
         [file_out.write(item) for item in conllu_sentences_with_feats]
