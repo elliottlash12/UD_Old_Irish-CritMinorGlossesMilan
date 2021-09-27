@@ -1078,7 +1078,7 @@ def assign_deprel_to_coordinate_conjunction_in_(combined_list):
                 combined_list[count][0]['upos'] = 'CCONJ'
 
 def coordconj_finder(list_of_sentences):
-    cconjlist = ['ocus 2', 'nó 1', 'ná 4', 'fa', 'nach 6', 'rodbo', 'et', 'uel', 'quam']
+    cconjlist = ['ocus 2', 'nó 1', 'ná 4', 'fa', 'nach 6', 'rodbo', 'et', 'uel']
     for a_sentence in list_of_sentences:
         combo = list(itertools.product(a_sentence, cconjlist))
         assign_deprel_to_coordinate_conjunction_in_(combo)
@@ -1094,7 +1094,7 @@ def assign_deprel_to_subordinate_conjunction_in_(combined_list):
                 combined_list[count][0]['upos'] = 'SCONJ'
     
 def subconj_finder(list_of_sentences):
-    sconjlist = ['amail 2', 'ar 2', 'a 6', 'cía 2', 'dég 2', 'resíu', 'úaire', 'ma', 'ó 2', 'ol 2']
+    sconjlist = ['amail 2', 'ar 2', 'a 6', 'cía 2', 'dég 2', 'resíu', 'úaire', 'ma', 'ó 2', 'ol 2', 'quam']
     for a_sentence in list_of_sentences:
         combo = list(itertools.product(a_sentence, sconjlist))
         assign_deprel_to_subordinate_conjunction_in_(combo)
