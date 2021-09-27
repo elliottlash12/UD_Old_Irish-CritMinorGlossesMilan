@@ -1167,7 +1167,7 @@ def check_concatenations3(list_of_words, list_of_morphs, sentence):
     for j in range(len(morphs)): # loops over every morph
 
         accumulated += morphs[j]
-        currentact.append(({'accumulated':accumulated, 'current_morph':morphs[j], 'currentword':words[word_y], 'word_y':word_y, 'morph_y':morph_y, 'j':j})) #This keeps track of all the morphs and words that pass through the iterator.
+        #currentact.append(({'accumulated':accumulated, 'current_morph':morphs[j], 'currentword':words[word_y], 'word_y':word_y, 'morph_y':morph_y, 'j':j})) #This keeps track of all the morphs and words that pass through the iterator.
         #Insert currentact for testing.
 
         if accumulated.casefold() == words[word_y].casefold(): # Test to see if a concatenated string matches a word in a sentence.
@@ -1224,7 +1224,7 @@ def check_concatenations3(list_of_words, list_of_morphs, sentence):
                     morph_y = j+1
                     word_y += 1
 
-    return tij, currentact #insert currentact for testing
+    return tij #, currentact #insert currentact for testing
 
 
 #The following function finds punctuation marks in a text string.
@@ -1600,7 +1600,7 @@ def write_out(filename, sentences):
     with open(filename, 'w', encoding='utf-8') as file_out:
         tuid = ""
         cnt = 1
-        allactlists = []
+        #allactlists = [] for testing
         for sent in list(sentences.values()):
 
             # The following function splits the sentence (second line of the header) into words and gets their morphs in preparation for generating concatenated results.
@@ -1611,7 +1611,7 @@ def write_out(filename, sentences):
                 if word['Text_Unit_ID'] != tuid:
                     list_of_words = getpunct(word)
                 list_of_morphs.append((word['Morph'],word['Text_Unit_ID'],word['Translation'],word['Textual_Unit']))
-            tij, aclist = check_concatenations3(list_of_words, list_of_morphs, sent)
+            tij = check_concatenations3(list_of_words, list_of_morphs, sent) #insert aclist before = for testing
 
             # The following function rearranges the data into a CONLLU-style format, and if concatenated strings are found, prints the results (**currently only to the interim file**).
 
@@ -1635,8 +1635,8 @@ def write_out(filename, sentences):
                 file_out.write(str(cnt)+"\t"+"\t".join([word['Morph']]+[word['Lemma']]+["X"]+[word['Part_Of_Speech']]+[word['Analysis']]+[word['_']]+['_']+["X"]+[word['Meaning']])+'\n') # This creates the correct order of the ten CONLLU columns for each word in a sentence.
                 cnt += 1
             file_out.write('\n')
-            allactlists.append(aclist)
-    return allactlists
+            #allactlists.append(aclist) for testing
+    return #allactlists for testing
 
 def automate_rearrangement(list_of_sentences):
 
