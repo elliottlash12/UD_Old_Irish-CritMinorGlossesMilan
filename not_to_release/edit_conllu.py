@@ -93,7 +93,7 @@ def new_sentences_list(filename):
 #This function fills the deps column in the conllu file.
 def fill_deps_in(a_sentence):
     for word in a_sentence:
-        if isinstance(word['id'], int) and 'PUNCT' not in word['upos']:
+        if isinstance(word['id'], int) and 'PUNCT' not in word['upos'] and len(word['deps']) < 2:
             word['deps'] = f"{word['head']}:{word['deprel']}"
 
 def do_all(fileout, list_of_sentences):
