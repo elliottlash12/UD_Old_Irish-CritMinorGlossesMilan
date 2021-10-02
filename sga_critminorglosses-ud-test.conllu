@@ -3289,24 +3289,24 @@
 # text = isí adéne
 # text_en = This is its speed.
 1-2	isí	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	í	3sg.fem.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Fem|PronType=Prs|Person=3	_	_	X	Gloss=she, her, it
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	í	3sg.fem.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Fem|PronType=Prs|Person=3	0	root	X	Gloss=she, her, it
 3-4	adéne	_	_	_	_	_	_	_	_
-3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=his, its
-4	déne	déine	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=swiftness, speed, impetuosity, vehemence
+3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	X	Gloss=his, its
+4	déne	déine	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=swiftness, speed, impetuosity, vehemence
 
 # sent_id = S0022-14
 # text = curu
 # text_en = curves
-1	curu	cor	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of putting
+1	curu	cor	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of putting
 
 # sent_id = S0022-15
 # text = isim suidib
 # text_en = It is about them.
 1-2	isim	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	im	imm	ADP	preposition	Case=Dat	_	case	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
-3	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+2	im	imm	ADP	preposition	Case=Dat	3	case	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
+3	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Neut	0	root	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 
 # sent_id = S0022-17
 # text = isli
