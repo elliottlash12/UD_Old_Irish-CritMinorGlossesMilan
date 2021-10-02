@@ -3225,46 +3225,46 @@
 # text_en = The seed that has been cast regularly into the unshapen mass, that is what is inserted into all elements until the end.
 1-2	asíl	_	_	_	_	_	_	_	_
 1	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	síl	síl	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=seed, origin, offspring; the seed of plants and animals
-3	in·rolad	in·lá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	_	_	X	Gloss=to cast in, to inlay
+2	síl	síl	NOUN	noun	Case=Nom|Number=Sing	10	dislocated	X	Gloss=seed, origin, offspring; the seed of plants and animals
+3	in·rolad	in·lá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	2	acl:relcl	X	Gloss=to cast in, to inlay
 4-5	hisin	_	_	_	_	_	_	_	_
-4	hi	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
+4	hi	i	ADP	preposition	Case=Acc	6	case	X	Gloss=in, into
 5	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	mais	mass	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=primordial mass, formless matter before creation; lump in general
-7	nécruthaigthi	écruthaigthe	ADJ	verbal_participle	Case=Acc|Number=Sing|Gender=Fem	_	_	X	Gloss=unshaped, formless
-8	statim	statim	ADV	adverb	_	_	_	X	Gloss=again, regularly
+6	mais	mass	NOUN	noun	Case=Acc|Number=Sing	3	obl	X	Gloss=primordial mass, formless matter before creation; lump in general
+7	nécruthaigthi	écruthaigthe	ADJ	verbal_participle	Case=Acc|Number=Sing|Gender=Fem	6	amod	X	Gloss=unshaped, formless
+8	statim	statim	ADV	adverb	_	3	advmod	X	Gloss=again, regularly
 9-10	ised	_	_	_	_	_	_	_	_
-9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-10	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	_	_	X	Gloss=it
+9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
+10	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	0	root	X	Gloss=it
 11-12	asesnaise	_	_	_	_	_	_	_	_
-11	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	_	cop	X	Gloss=to be
-12	esnaise	esnaisse	ADJ	verbal_participle	Case=Nom|Number=Sing	_	_	X	Gloss=inserted, grafted, ingrafted; put forth
-13	in	in (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=in, into
-14	omnia	omnis	DET	adjective_quantifier	Case=Acc|Number=Plur|Gender=Neut	_	det	X	Gloss=all, total, every
-15	elimenta	elementum	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=one of the four elements; basic principle, the alphabet
-16	usque	ūsque	ADV	adverb	_	_	_	X	Gloss=until, upto, up
+11	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	12	cop	X	Gloss=to be
+12	esnaise	esnaisse	ADJ	verbal_participle	Case=Nom|Number=Sing	10	acl	X	Gloss=inserted, grafted, ingrafted; put forth
+13	in	in (Lat)	ADP	preposition	Case=Unk	15	case	X	Gloss=in, into
+14	omnia	omnis	DET	adjective_quantifier	Case=Acc|Number=Plur|Gender=Neut	15	det	X	Gloss=all, total, every
+15	elimenta	elementum	NOUN	noun	Case=Nom|Number=Plur	12	obl	X	Gloss=one of the four elements; basic principle, the alphabet
+16	usque	ūsque	ADV	adverb	_	12	advmod	X	Gloss=until, upto, up
 17	in	in (Lat)	ADP	preposition	Case=Acc	18	case	X	Gloss=in, into
-18	finem	fīnis	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=limit, boundary
+18	finem	fīnis	NOUN	noun	Case=Acc|Number=Sing	12	obl	X	Gloss=limit, boundary
 
 # sent_id = S0022-8
 # text = dineoch asas á terra
 # text_en = of whatever grows from the earth
 1-2	dineoch	_	_	_	_	_	_	_	_
-1	di	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-2	neoch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
-3	asas	ásaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to grow, to arise, to develop
+1	di	di	ADP	preposition	Case=Dat	2	case	X	Gloss=away, from, cause or reason, by
+2	neoch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Ind	0	root	X	Gloss=anyone, one, someone
+3	asas	ásaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to grow, to arise, to develop
 4	á	ab (Lat)	ADP	preposition	Case=Unk	5	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
-5	terra	terra	NOUN	noun	Number=Sing	_	_	X	Gloss=land, earth
+5	terra	terra	NOUN	noun	Number=Sing	3	obl	X	Gloss=land, earth
 
 # sent_id = S0022-9
 # text = acht is in primo die són
 # text_en = But, that is on the first day.
-1	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	in	in (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=in, into
-4	primo	prīmus	ADJ	adjective_numeral_noun	Number=Sing	_	_	X	Gloss=first
-5	die	diēs	NOUN	noun	Number=Sing	_	_	X	Gloss=day
-6	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=that (mentioned above) that is
+1	acht	acht 1	CCONJ	conjunction	_	5	cc	X	Gloss=except, but, provided that, save that
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+3	in	in (Lat)	ADP	preposition	Case=Unk	5	case	X	Gloss=in, into
+4	primo	prīmus	ADJ	adjective_numeral_noun	Number=Sing	5	amod	X	Gloss=first
+5	die	diēs	NOUN	noun	Number=Sing	0	root	X	Gloss=day
+6	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	5	nsubj	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0022-10
 # text = cruind ab omni parte soluti
