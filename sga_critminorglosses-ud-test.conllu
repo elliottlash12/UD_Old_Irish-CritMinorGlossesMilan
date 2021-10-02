@@ -3269,21 +3269,21 @@
 # sent_id = S0022-10
 # text = cruind ab omni parte soluti
 # text_en = round, released from every part.
-1	cruind	cruind	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	_	_	X	Gloss=round, circular, globular, compact, precise
-2	ab	ab (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
-3	omni	omnis	DET	adjective_quantifier	Number=Sing	_	det	X	Gloss=all, total, every
-4	parte	pars	NOUN	noun	Number=Sing	_	_	X	Gloss=part, piece, share
-5	soluti	solutus	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=_
+1	cruind	cruind	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	0	root	X	Gloss=round, circular, globular, compact, precise
+2	ab	ab (Lat)	ADP	preposition	Case=Unk	4	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
+3	omni	omnis	DET	adjective_quantifier	Number=Sing	4	det	X	Gloss=all, total, every
+4	parte	pars	NOUN	noun	Number=Sing	1	obl	X	Gloss=part, piece, share
+5	soluti	solutus	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	4	amod	X	Gloss=_
 
 # sent_id = S0022-11
 # text = dú
 # text_en = place
-1	dú	dú	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=place, spot
+1	dú	dú	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=place, spot
 
 # sent_id = S0022-12
 # text = congaibet
 # text_en = which contain
-1	con·gaibet	con·gaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	_	_	X	Gloss=to contain, to include; to maintain, to preserve, to support, to uphold; to keep, to found, to set up, to settle
+1	con·gaibet	con·gaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	0	root	X	Gloss=to contain, to include; to maintain, to preserve, to support, to uphold; to keep, to found, to set up, to settle
 
 # sent_id = S0022-13
 # text = isí adéne
