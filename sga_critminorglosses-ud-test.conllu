@@ -3062,31 +3062,30 @@
 1	ar	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
 3	airchenn	airchenn	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=prominent, leading ; certain, definite, fixed
-4	mbes	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	3	csubj:cleft	X	Gloss=to be, to exist,
+4	mbes	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	3	ccomp	X	Gloss=to be, to exist,
 5	salt	salt	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=leap
 6-7	hiciunn	_	_	_	_	_	_	_	_
 6	hi	i	ADP	preposition	Case=Dat	7	case	X	Gloss=in, into
-7	ciunn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=head; end-point, termination, exchange, purchase
+7	ciunn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	4	xcomp:pred	X	Gloss=head; end-point, termination, exchange, purchase
 8	nóidécdi	noídécde	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	7	amod	X	Gloss=related to the number nineteen
 9-12	madindib	_	_	_	_	_	_	_	_
 9	ma	ma	SCONJ	conjunction	_	13	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
 10	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	13	cop	X	Gloss=to be
 11	i	i	ADP	preposition	Case=Dat	13	case	X	Gloss=in, into
 12	ndib	da	NUM	adjective_numeral	Case=Dat|Gender=Fem	13	nummod	X	Gloss=two
-13	ṅuarib	úar 2	NOUN	noun	Case=Dat	4	xcomp:pred	X	Gloss=hour, time, occasion; point of time
+13	ṅuarib	úar 2	NOUN	noun	Case=Dat	4	advcl	X	Gloss=hour, time, occasion; point of time
 14	deac	deëc	NUM	numeral	_	13	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
 15	nammá	nammá	PART	particle_focus	_	13	advmod:emph	X	Gloss=only, merely
 16	bas	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	17	cop	X	Gloss=to be
-17	laigu	bec	ADJ	adjective	Degree=Cmp	13	advcl	X	Gloss=small, little of size or quantity
+17	laigu	bec	ADJ	adjective	Degree=Cmp	13	csubj:cleft	X	Gloss=small, little of size or quantity
 18-19	cachmí	_	_	_	_	_	_	_	_
-18	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc|PronType=Tot	19	amod	X	Gloss=every, each, all, any
+18	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc|PronType=Tot	19	det	X	Gloss=every, each, all, any
 19	mí	mí	NOUN	noun	Case=Nom|Number=Sing	17	nsubj	X	Gloss=month
 20	aescai	éscae	NOUN	noun	Case=Gen|Number=Sing	19	nmod	X	Gloss= moon, month
 21-22	oldaas	_	_	_	_	_	_	_	_
 21	ol·	ol 3	X	conjunction	_	22	mark	X	Gloss=comparative: than
 22	·daas	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	17	advcl	X	Gloss=to be, to exist,
-23	ol·daas	ol·daäs	SCONJ	particle_comparative	Tense=Pres|VerbForm=Fin|Subcat=Intrans	24	case	X	Gloss=than (is)
-24	trichtaige	tríchtaige	NOUN	noun	Case=Nom|Number=Sing	22	obl	X	Gloss=a period of thirty days
+23	trichtaige	tríchtaige	NOUN	noun	Case=Nom|Number=Sing	22	nsubj	X	Gloss=a period of thirty days
 
 # sent_id = S0022-2
 # text = ised didiu slándliged salto noichtiche colleuth duárim inȩscu
