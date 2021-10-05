@@ -3157,18 +3157,18 @@
 2	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	0	root	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 3-4	isassu	_	_	_	_	_	_	_	_
 3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-4	assu	asae 2	ADJ	adjective	Degree=Cmp	2	conj	X	Gloss=easy, light
+4	assu	asae 2	ADJ	adjective	Degree=Cmp	2	csubj:cleft	X	Gloss=easy, light
 5-7	lasnarímairu	_	_	_	_	_	_	_	_
 5	la	la	ADP	preposition	Case=Acc	7	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 6	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
 7	rímairu	rímaire	NOUN	noun	Case=Acc|Number=Plur	4	obl	X	Gloss=computer
 8	di	da	NUM	adjective_numeral	Case=Nom|Gender=Fem	9	nummod	X	Gloss=two
-9	huáir	úar 2	NOUN	noun	Case=Nom	4	nsubj	X	Gloss=hour, time, occasion; point of time
+9	huáir	úar 2	NOUN	noun	Case=Nom	13	obj	X	Gloss=hour, time, occasion; point of time
 10	deac	deëc	NUM	numeral	_	9	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
-11	namma	nammá	PART	particle_focus	_	4	advmod:emph	X	Gloss=only, merely
+11	namma	nammá	PART	particle_focus	_	9	advmod:emph	X	Gloss=only, merely
 12-13	duthesbuith	_	_	_	_	_	_	_	_
 12	du	do 1	ADP	preposition	Case=Dat	13	mark:prt	X	Gloss=to, for, by etc.
-13	thesbuith	tesbuid	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	xcomp	X	Gloss=the act of being lacking, missing, absent; want, lack
+13	thesbuith	tesbuid	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	csubj	X	Gloss=the act of being lacking, missing, absent; want, lack
 14	iar	íar 1	ADP	preposition	Case=Dat	15	case	X	Gloss=after, behind, across, along, beyond, according to
 15	ndligud	dliged	NOUN	noun	Case=Dat|Number=Sing	13	obl	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
 16	slán	slán	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	15	amod	X	Gloss=whole, sound, unimpaired, healthy, safe, well
@@ -3182,9 +3182,9 @@
 22	iar	íar 1	ADP	preposition	Case=Dat	23	case	X	Gloss=after, behind, across, along, beyond, according to
 23	tain	tan	NOUN	noun	Case=Dat|Number=Sing	20	obl	X	Gloss=time
 24-25	duslúnd	_	_	_	_	_	_	_	_
-24	du	do 1	ADP	preposition	Case=Dat	25	case	X	Gloss=to, for, by etc.
-25	slúnd	slond	NOUN	noun	Case=Dat|Number=Sing	20	obl	X	Gloss=expression, signification ; act of expressing, mentioning, relating; indication
-26	comláinso	comláinius	NOUN	noun	Case=Gen|Number=Sing	25	nmod	X	Gloss=full moon, fullness, filling up, perfection
+24	du	do 1	ADP	preposition	Case=Dat	25	mark:prt	X	Gloss=to, for, by etc.
+25	slúnd	slond	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	20	csubj	X	Gloss=expression, signification ; act of expressing, mentioning, relating; indication
+26	comláinso	comláinius	NOUN	noun	Case=Gen|Number=Sing	25	obj	X	Gloss=full moon, fullness, filling up, perfection
 27-28	innatesbuithe	_	_	_	_	_	_	_	_
 27	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	28	det	X	Gloss=the
 28	tesbuithe	tesbuid	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	26	nmod	X	Gloss=the act of being lacking, missing, absent; want, lack
@@ -3193,15 +3193,14 @@
 30	naicniud	aicned	NOUN	noun	Case=Dat|Number=Sing	20	obl	X	Gloss=nature, inherent quality, essence
 31-32	aslaigu	_	_	_	_	_	_	_	_
 31	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	32	cop	X	Gloss=to be
-32	laigu	bec	ADJ	adjective	Degree=Cmp	20	conj	X	Gloss=small, little of size or quantity
+32	laigu	bec	ADJ	adjective	Degree=Cmp	28	acl:relcl	X	Gloss=small, little of size or quantity
 33-34	anésca	_	_	_	_	_	_	_	_
 33	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	34	det	X	Gloss=the
 34	nésca	éscae	NOUN	noun	Case=Nom|Number=Sing	32	nsubj	X	Gloss= moon, month
 35-36	oldoas	_	_	_	_	_	_	_	_
 35	ol·	ol 3	X	conjunction	_	36	mark	X	Gloss=comparative: than
 36	·doas	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	32	advcl	X	Gloss=to be, to exist,
-37	ol·doas	ol·daäs	SCONJ	particle_comparative	Tense=Pres|VerbForm=Fin|Subcat=Intrans	38	case	X	Gloss=than (is)
-38	trichtaige	tríchtaige	NOUN	noun	Case=Nom|Number=Sing	36	obl	X	Gloss=a period of thirty days
+37	trichtaige	tríchtaige	NOUN	noun	Case=Nom|Number=Sing	36	nsubj	X	Gloss=a period of thirty days
 
 # sent_id = S0022-6
 # text = Anísiu trá isécen remfuar bissext 7 emblesim
