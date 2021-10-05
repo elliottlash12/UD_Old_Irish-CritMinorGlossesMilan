@@ -3385,42 +3385,42 @@
 # sent_id = S0022-23
 # text = .i. foácbat .i. caelum
 # text_en = That is, they leave, namely, heaven.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	fo·ácbat	fo·ácaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to leave (behind), to relinquish
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	caelum	caelum	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=sky, heaven
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	fo·ácbat	fo·ácaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to leave (behind), to relinquish
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	caelum	caelum	NOUN	noun	Case=Acc|Number=Sing	2	conj	X	Gloss=sky, heaven
 
 # sent_id = S0022-24
 # text = isé multiplex motus inriuth retae inna airndrethcha in contrarium contra sé 7 arriuth aicneta fedesin
 # text_en = The multiplex modus is the course which the planets run in contrarium contra se, and their own natural course.
 1-2	isé	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	é	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-3	multiplex	multiplex	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	_	_	X	Gloss=_
-4	motus	motus	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=a movement, motion; advancement, progress
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+2	é	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	4	nmod	X	Gloss=he, him, it
+3	multiplex	multiplex	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	4	amod	X	Gloss=_
+4	motus	motus	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=a movement, motion; advancement, progress
 5-6	inriuth	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	riuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of running; a run, rapid course
-7	retae	reithid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to run, to hasten, to speed
-8	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
-9	airndrethcha	airndrethach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	_	_	X	Gloss=erring, wandering about
-10	in	in (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=in, into
-11	contrarium	contrarius	ADJ	adjective	Case=Acc|Number=Sing|Degree=Pos	_	_	X	Gloss=opposite, opposed, contrary
-12	contra	contrā	ADP	preposition	Case=Unk	_	case	X	Gloss=against, opposite
-13	sé	sē	X	pronoun_reflexive	_	_	_	X	Gloss=himself, herself, itself
-14	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+6	riuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	nsubj	X	Gloss=the act of running; a run, rapid course
+7	retae	reithid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	4	acl:relcl	X	Gloss=to run, to hasten, to speed
+8	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
+9	airndrethcha	airndrethach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	7	nsubj	X	Gloss=erring, wandering about
+10	in	in (Lat)	ADP	preposition	Case=Unk	11	case	X	Gloss=in, into
+11	contrarium	contrarius	ADJ	adjective	Case=Acc|Number=Sing|Degree=Pos	7	obl	X	Gloss=opposite, opposed, contrary
+12	contra	contrā	ADP	preposition	Case=Unk	13	case	X	Gloss=against, opposite
+13	sé	sē	X	pronoun_reflexive	_	7	obl	X	Gloss=himself, herself, itself
+14	7	ocus 2	CCONJ	conjunction	_	16	cc	X	Gloss=coordinating: and, since
 15-16	arriuth	_	_	_	_	_	_	_	_
-15	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	16	_	X	Gloss=his, its
-16	rriuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of running; a run, rapid course
-17	aicneta	aicnetae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=natural (i.e. not artificial), inherent quality, essence, spirited, courageous
-18	fedesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
+15	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	16	nmod:poss	X	Gloss=his, its
+16	rriuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of running; a run, rapid course
+17	aicneta	aicnetae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	16	amod	X	Gloss=natural (i.e. not artificial), inherent quality, essence, spirited, courageous
+18	fedesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	16	nmod	X	Gloss=self
 
 # sent_id = S0022-25
 # text = fot lai and
 # text_en = a day's length there
-1	fot	fot	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=length
-2	lai	laë	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=day, daytime
-3	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=in, into
+1	fot	fot	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=length
+2	lai	laë	NOUN	noun	Case=Gen|Number=Sing	1	nmod	X	Gloss=day, daytime
+3	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	1	obl:prep	X	Gloss=in, into
 
 # sent_id = S0022-26
 # text = isgnád bróen 7 fliuchaidatu ocaturcbáil 7 liafuined
