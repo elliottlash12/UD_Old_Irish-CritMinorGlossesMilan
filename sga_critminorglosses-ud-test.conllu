@@ -3598,58 +3598,58 @@
 # sent_id = S0022-36
 # text = cotaocbat
 # text_en = They raise themselves up.
-1	cota·ocbat	con·ocaib	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	_	_	X	Gloss=to lift up, to raise, to exalt, to rise, to get up
+1	cota·ocbat	con·ocaib	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	0	root	X	Gloss=to lift up, to raise, to exalt, to rise, to get up
 
 # sent_id = S0022-37
 # text = huare ní in óen diaithir doib
 # text_en = since they are not in one orbit
-1	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
-2	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
+1	huare	úaire	SCONJ	conjunction	_	4	mark	X	Gloss=causal; coordinating and subordinating: when, since
+2	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
 3	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
-4	nóendiaithir	óendíaithir	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=one orbit
-5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+4	nóendiaithir	óendíaithir	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=one orbit
+5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0022-38
 # text = .i. quasi dixisset testa són dano dintrichtigi lasindi huáir deac .i. fuar salto ascach óen ǽscu .i. cethir brottae 7 alarann deac brotto et VIImad rann cethorchat aili deac brotto
 # text_en = That is, as if he had said, ‘this, then, is lacking from the period of thirty days (i.e., the solar month) besides the twelve hours, namely, to find a leap out of every single lunar month, to wit, four moments and the twelfth part of a moment and the forty-seventh part of the twelfth [part] of a moment’.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	quasi	quasi	X	conjunction	_	_	_	X	Gloss=as if; about
-3	dixisset	dīcō	VERB	verb	Number=Plur|Person[Subj]=3|Number[Subj]=Sing|Voice=Act|Mood=Subj|Subcat=Trans	_	_	X	Gloss=to say, to declare, to call
-4	testa	do·esta	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be absent, to be lacking, to be wanting
-5	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=that (mentioned above) that is
-6	dano	danó	ADV	particle_discourse	_	_	_	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	quasi	quasi	X	conjunction	_	3	mark	X	Gloss=as if; about
+3	dixisset	dīcō	VERB	verb	Number=Plur|Person[Subj]=3|Number[Subj]=Sing|Voice=Act|Mood=Subj|Subcat=Trans	0	root	X	Gloss=to say, to declare, to call
+4	testa	do·esta	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	parataxis	X	Gloss=to be absent, to be lacking, to be wanting
+5	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	4	nsubj	X	Gloss=that (mentioned above) that is
+6	dano	danó	ADV	particle_discourse	_	4	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
 7-9	dintrichtigi	_	_	_	_	_	_	_	_
 7	di	di	ADP	preposition	Case=Dat	9	case	X	Gloss=away, from, cause or reason, by
 8	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	trichtigi	tríchtaige	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=a period of thirty days
+9	trichtigi	tríchtaige	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=a period of thirty days
 10-12	lasindi	_	_	_	_	_	_	_	_
 10	la	la	ADP	preposition	Case=Acc	13	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 11	sin	in 1	DET	definite_article	Case=Acc|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
-12	di	da	NUM	adjective_numeral	Case=Acc|Gender=Fem	_	nummod	X	Gloss=two
-13	huáir	úar 2	NOUN	noun	Case=Acc	_	_	X	Gloss=hour, time, occasion; point of time
-14	deac	deëc	NUM	numeral	_	_	_	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
-15	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-16	fuar	fuär	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of preparing, providing; provision
-17	salto	salt	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=leap
+12	di	da	NUM	adjective_numeral	Case=Acc|Gender=Fem	13	nummod	X	Gloss=two
+13	huáir	úar 2	NOUN	noun	Case=Acc	4	obl	X	Gloss=hour, time, occasion; point of time
+14	deac	deëc	NUM	numeral	_	13	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+15	.i.	.i.	CCONJ	abbreviation	_	16	cc	X	Gloss=id est, it is
+16	fuar	fuär	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of preparing, providing; provision
+17	salto	salt	NOUN	noun	Case=Gen|Number=Sing	16	obj	X	Gloss=leap
 18-19	ascach	_	_	_	_	_	_	_	_
 18	as	a 7	ADP	preposition	Case=Dat	20	case	X	Gloss=out of, from
 19	cach	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	20	det	X	Gloss=every, each, all, any
-20	óenǽscu	óenéscae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=single lunar month
-21	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-22	cethir	cethir	NOUN	noun	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=four-footed animal, beast ; four
-23	brottae	brothad	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=moment ; unit or small division of time
-24	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-25	ala	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=the other, one another ; else; second
-26	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=part, share, division, part (of speech), portion
-27	deac	deëc	NUM	numeral	_	_	_	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
-28	brotto	brothad	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=moment ; unit or small division of time
-29	et	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-30	VIImad	sechtmad	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing	_	_	X	Gloss=seventh
-31	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=part, share, division, part (of speech), portion
-32	cethorchat	cethorcho	NUM	noun_numeral	Case=Gen|Number=Sing	_	_	X	Gloss=forty
-33	aili	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=other, another, else, second
-34	deac	deëc	NUM	numeral	_	_	_	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
-35	brotto	brothad	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=moment ; unit or small division of time
+20	óenǽscu	óenéscae	NOUN	noun	Case=Dat|Number=Sing	16	obl	X	Gloss=single lunar month
+21	.i.	.i.	CCONJ	abbreviation	_	22	cc	X	Gloss=id est, it is
+22	cethir	cethir	NOUN	noun	Case=Nom|Number=Plur|Gender=Masc	16	conj	X	Gloss=four-footed animal, beast ; four
+23	brottae	brothad	NOUN	noun	Case=Nom|Number=Plur	22	appos	X	Gloss=moment ; unit or small division of time
+24	7	ocus 2	CCONJ	conjunction	_	25	cc	X	Gloss=coordinating: and, since
+25	ala	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	22	conj	X	Gloss=the other, one another ; else; second
+26	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	25	nsubj	X	Gloss=part, share, division, part (of speech), portion
+27	deac	deëc	NUM	numeral	_	26	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+28	brotto	brothad	NOUN	noun	Case=Gen|Number=Sing	26	nmod	X	Gloss=moment ; unit or small division of time
+29	et	ocus 2	CCONJ	conjunction	_	31	cc	X	Gloss=coordinating: and, since
+30	VIImad	sechtmad	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing	31	nummod	X	Gloss=seventh
+31	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	22	conj	X	Gloss=part, share, division, part (of speech), portion
+32	cethorchat	cethorcho	NUM	noun_numeral	Case=Gen|Number=Sing	31	nummod	X	Gloss=forty
+33	aili	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	31	nmod	X	Gloss=other, another, else, second
+34	deac	deëc	NUM	numeral	_	31	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+35	brotto	brothad	NOUN	noun	Case=Gen|Number=Sing	31	nmod	X	Gloss=moment ; unit or small division of time
 
 # sent_id = S0022-39
 # text = antúaid cachṅdiruch
