@@ -3654,41 +3654,36 @@
 # sent_id = S0022-39
 # text = antúaid cachṅdiruch
 # text_en = exactly straight from the north
-1	antúaid	antúaid	ADV	adverb	_	_	_	X	Gloss=from the north
+1	antúaid	antúaid	ADV	adverb	_	3	advmod	X	Gloss=from the north
 2-3	cachṅdiruch	_	_	_	_	_	_	_	_
-2	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Neut|PronType=Tot	_	det	X	Gloss=every, each, all, any
-3	ṅdiruch	díriuch	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=straight, direct; straightforward, upright, just, right
+2	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Neut|PronType=Tot	3	det	X	Gloss=every, each, all, any
+3	ṅdiruch	díriuch	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=straight, direct; straightforward, upright, just, right
 
 # sent_id = S0022-40
 # text = forláim deis aníartúaid donprímgáid biid circius
 # text_en = On the right hand from the northwest of the chief wind, there is Circius.
 1-2	forláim	_	_	_	_	_	_	_	_
 1	for	for	ADP	preposition	Case=Dat	2	case	X	Gloss=upon, over, on
-2	láim	lám	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=hand, arm
-3	deis	des	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=right (direction), south, just, meet
-4-5	aníartúaid	_	_	_	_	_	_	_	_
-4	aníar	aníar	ADV	adverb		_	_	X	Gloss=from behind, from the west
-5	túaid	túaid	ADV	adverb	_	_	_	X	Gloss=north
-6	aníartúaid	aníartúaid	ADV	adverb	_	_	_	X	Gloss=from the northwest
-7	do	do 1	ADP	preposition	Case=Dat	9	case	X	Gloss=to, for, by etc.
-8	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	prímgáid	prímgáeth	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=chief wind
-10	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-11	circius	Circius	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=a west-northwest wind
+2	láim	lám	NOUN	noun	Case=Dat|Number=Sing	8	advcl	X	Gloss=hand, arm
+3	deis	des	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	2	amod	X	Gloss=right (direction), south, just, meet
+4	aníartúaid	aníartúaid	ADV	adverb	_	2	advmod	X	Gloss=from the northwest
+5-7	donprímgáid	_	_	_	_	_	_	_	_
+5	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
+6	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
+7	prímgáid	prímgáeth	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=chief wind
+8	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+9	circius	Circius	NOUN	noun	Case=Nom|Number=Sing	8	nsubj	X	Gloss=a west-northwest wind
 
 # sent_id = S0022-41
 # text = forlaim chlí anairtuáid biid aquilo
 # text_en = On the left hand from the northeast, there is Aquilo.
 1-2	forlaim	_	_	_	_	_	_	_	_
 1	for	for	ADP	preposition	Case=Dat	2	case	X	Gloss=upon, over, on
-2	laim	lám	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=hand, arm
-3	chlí	clé	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=left
-4-5	anairtuáid	_	_	_	_	_	_	_	_
-4	anair	anair	ADV	adverb		_	_	X	Gloss=from the east, implying motion ; from the front, before; east of
-5	tuáid	túaid	ADV	adverb	_	_	_	X	Gloss=north
-6	anairtuáid	anairthúaid	ADV	adverb	_	_	_	X	Gloss=from the northeast
-7	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-8	Aquilo	aquilō	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=North wind, North
+2	laim	lám	NOUN	noun	Case=Dat|Number=Sing	5	advcl	X	Gloss=hand, arm
+3	chlí	clé	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	2	amod	X	Gloss=left
+4	anairtuáid	anairthúaid	ADV	adverb	_	2	advmod	X	Gloss=from the northeast
+5	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+6	Aquilo	aquilō	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=North wind, North
 
 # sent_id = S0022-42
 # text = hicontrachtu
