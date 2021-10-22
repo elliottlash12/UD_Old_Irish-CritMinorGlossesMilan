@@ -3433,12 +3433,12 @@
 5	fliuchaidatu	fliuchaidetu	NOUN	noun	Case=Nom|Number=Sing	2	conj	X	Gloss=wetness
 6-8	ocaturcbáil	_	_	_	_	_	_	_	_
 6	oc	oc	ADP	preposition	Case=Dat	8	case	X	Gloss=at, by, besides, with (person)
-7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	8	obj:poss	X	Gloss=his, its
+7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	8	nmod:poss	X	Gloss=his, its
 8	turcbáil	turcbál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of arising, emerging, raising, lifting, exacting; production
 9	7	ocus 2	CCONJ	conjunction	_	12	cc	X	Gloss=coordinating: and, since
 10-12	liafuined	_	_	_	_	_	_	_	_
 10	li	la	ADP	preposition	Case=Acc	12	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-11	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	12	obj:poss	X	Gloss=his, its
+11	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	12	nmod:poss	X	Gloss=his, its
 12	fuined	fuined	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	8	conj	X	Gloss=the act of setting, sinking
 
 # sent_id = S0022-27
@@ -3450,11 +3450,11 @@
 3	spatia	spatium	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=space
 4-5	narree	_	_	_	_	_	_	_	_
 4	na	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	rree	ré	NOUN	noun	Case=Nom|Number=Plur	3	nsubj	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
+5	rree	ré	NOUN	noun	Case=Nom|Number=Plur	3	nsubj	6:nsubj|3:nsubj	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
 6	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	acl:relcl	X	Gloss=to be, to exist,
 7	á	ab (Lat)	ADP	preposition	Case=Unk	8	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
 8	terra	terra	NOUN	noun	Number=Sing	6	xcomp:pred	X	Gloss=land, earth
-9	usque	ūsque	ADV	adverb	_	6	advmod	X	Gloss=until, upto, up
+9	usque	ūsque	ADV	adverb	_	12	advmod	X	Gloss=until, upto, up
 10	ad	ad (Lat)	ADP	preposition	Case=Acc	12	case	X	Gloss=to, towards, up to, for
 11	XII.	(Roman numerals)	NUM	numeral	_	12	nummod	X	Gloss=_
 12	signa	signum	NOUN	noun	Case=Acc|Number=Plur	6	obl	X	Gloss=mark, sign, miracle
