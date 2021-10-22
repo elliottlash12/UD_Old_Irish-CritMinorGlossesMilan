@@ -3814,28 +3814,28 @@
 # text = ita deich
 # text_en = They are ten.
 1-2	ita	_	_	_	_	_	_	_	_
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	a	a 3	PART	particle_numerative	_	_	_	X	Gloss=particle used before numerals in isolation
-3	deich	deich	NUM	numeral	_	_	_	X	Gloss=ten
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+2	a	a 3	PART	particle_numerative	_	3	mark:prt	X	Gloss=particle used before numerals in isolation
+3	deich	deich	NUM	numeral	_	0	root	X	Gloss=ten
 
 # sent_id = S0022-59
 # text = is fiche
 # text_en = It is twenty.
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	fiche	fiche	NUM	noun_numeral	Case=Nom|Number=Sing	_	_	X	Gloss=twenty
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+2	fiche	fiche	NUM	noun_numeral	Case=Nom|Number=Sing	0	root	X	Gloss=twenty
 
 # sent_id = S0022-60
 # text = lingidsem tar áes ṅesci beos ar chumbri
 # text_en = He skips over the age of the moon again for brevity's sake.
 1-2	lingidsem	_	_	_	_	_	_	_	_
-1	lingid	lingid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to leap, to jump
-2	sem	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	lingid	lingid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to leap, to jump
+2	sem	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	1	nsubj	X	Gloss=emphasising particle
 3	tar	tar 1	ADP	preposition	Case=Acc	4	case	X	Gloss=over, across, covering
-4	áes	áes 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=stage, period (of life); age, years (of person etc.)
-5	ṅesci	éscae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss= moon, month
-6	beos	beös	ADV	adverb	_	_	_	X	Gloss=still, yet, further, moreover, again, besides, also, in addition
+4	áes	áes 1	NOUN	noun	Case=Acc|Number=Sing	1	obl	X	Gloss=stage, period (of life); age, years (of person etc.)
+5	ṅesci	éscae	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss= moon, month
+6	beos	beös	ADV	adverb	_	1	advmod	X	Gloss=still, yet, further, moreover, again, besides, also, in addition
 7	ar	ar 1	ADP	preposition	Case=Acc	8	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-8	chumbri	cuimbre	NOUN	noun	Case=Dat	_	_	X	Gloss=brevity, shortness
+8	chumbri	cuimbre	NOUN	noun	Case=Dat	1	obl	X	Gloss=brevity, shortness
 
 # sent_id = S0022-61
 # text = tricha
