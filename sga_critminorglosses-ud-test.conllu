@@ -3787,28 +3787,28 @@
 # text_en = the second
 1-2	indaile	_	_	_	_	_	_	_	_
 1	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=other, another, else, second
+2	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	0	root	X	Gloss=other, another, else, second
 
 # sent_id = S0022-56
 # text = tenebit .i. cuit inna aine 7 inna aile
 # text_en = tenebit; that is, part of the one and of the other
-1	tenebit	teneō	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to hold, to possess, to guard, etc.
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=portion, part, share; a matter of, a mere
-4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
-5	aine	óen	ADJ	adjective_numeral_noun	Case=Gen|Number=Sing|Gender=Fem	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
-6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+1	tenebit	teneō	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to hold, to possess, to guard, etc.
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	1	conj	X	Gloss=portion, part, share; a matter of, a mere
+4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
+5	aine	óen	ADJ	adjective_numeral_noun	Case=Gen|Number=Sing|Gender=Fem	3	nmod	X	Gloss=one, single, same, only, unique; as compound element 'great'
+6	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
 7	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	aile	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Fem	_	_	X	Gloss=other, another, else, second
+8	aile	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Fem	5	conj	X	Gloss=other, another, else, second
 
 # sent_id = S0022-57
 # text = a óen fodeich
 # text_en = ten times one
-1	a	a 3	PART	particle_numerative	_	_	_	X	Gloss=particle used before numerals in isolation
-2	óen	óen	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
+1	a	a 3	PART	particle_numerative	_	2	mark:prt	X	Gloss=particle used before numerals in isolation
+2	óen	óen	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=one, single, same, only, unique; as compound element 'great'
 3-4	fodeich	_	_	_	_	_	_	_	_
-3	fo	fo	ADP	preposition	Case=Acc/Dat	_	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-4	deich	deich	NUM	numeral	_	_	_	X	Gloss=ten
+3	fo	fo	ADP	preposition	Case=Acc/Dat	4	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+4	deich	deich	NUM	numeral	_	2	obl	X	Gloss=ten
 
 # sent_id = S0022-58
 # text = ita deich
