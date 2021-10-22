@@ -3766,21 +3766,21 @@
 # text_en = behind (lit. “on the track”)
 1-2	diéis	_	_	_	_	_	_	_	_
 1	di	di	ADP	preposition	Case=Dat	2	case	X	Gloss=away, from, cause or reason, by
-2	éis	éis 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=track, trace
+2	éis	éis 2	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=track, trace
 
 # sent_id = S0022-53
 # text = huide laithi beos
 # text_en = a day's journey still
-1	huide	uide	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=journey, march
-2	laithi	laithe	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=day
-3	beos	beös	ADV	adverb	_	_	_	X	Gloss=still, yet, further, moreover, again, besides, also, in addition
+1	huide	uide	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=journey, march
+2	laithi	laithe	NOUN	noun	Case=Gen|Number=Sing	1	nmod	X	Gloss=day
+3	beos	beös	ADV	adverb	_	1	advmod	X	Gloss=still, yet, further, moreover, again, besides, also, in addition
 
 # sent_id = S0022-54
 # text = cipé
 # text_en = whatever [it be]
 1-2	cipé	_	_	_	_	_	_	_	_
-1	ci·	ce	PRON	particle_interrogative	_	_	_	X	Gloss=unstressed, used with the dependent form of the verb ; who, what, which
-2	·pé	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+1	ci·	ce	PRON	particle_interrogative	_	2	mark:prt	X	Gloss=unstressed, used with the dependent form of the verb ; who, what, which
+2	·pé	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
 
 # sent_id = S0022-55
 # text = indaile
