@@ -3739,12 +3739,12 @@
 # text = arit di húair in signo
 # text_en = For they are two hours in signo.
 1-2	arit	_	_	_	_	_	_	_	_
-1	ar	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	ar	ar 2	SCONJ	conjunction	_	4	mark	X	Gloss=causal: since, for; final: so that
+2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 3	di	da	NUM	adjective_numeral	Case=Nom|Gender=Fem	4	nummod	X	Gloss=two
-4	húair	úar 2	NOUN	noun	Case=Nom	_	_	X	Gloss=hour, time, occasion; point of time
+4	húair	úar 2	NOUN	noun	Case=Nom	0	root	X	Gloss=hour, time, occasion; point of time
 5	in	in (Lat)	ADP	preposition	Case=Unk	6	case	X	Gloss=in, into
-6	signo	signum	NOUN	noun	Number=Sing	_	_	X	Gloss=mark, sign, miracle
+6	signo	signum	NOUN	noun	Number=Sing	4	obl	X	Gloss=mark, sign, miracle
 
 # sent_id = S0022-50
 # text = dond lethtomus
@@ -3752,14 +3752,14 @@
 1-2	dond	_	_	_	_	_	_	_	_
 1	do	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
 2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	lethtomus	lettomus	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of measuring half the quantity; half-measure
+3	lethtomus	lettomus	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of measuring half the quantity; half-measure
 
 # sent_id = S0022-51
 # text = archiunn
 # text_en = ahead
 1-2	archiunn	_	_	_	_	_	_	_	_
 1	ar	ar 1	ADP	preposition	Case=Dat	2	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-2	chiunn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=head; end-point, termination, exchange, purchase
+2	chiunn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=head; end-point, termination, exchange, purchase
 
 # sent_id = S0022-52
 # text = diéis
