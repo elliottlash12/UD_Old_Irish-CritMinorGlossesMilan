@@ -3568,12 +3568,12 @@
 7	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	acl:relcl	X	Gloss=to be, to exist,
 8-9	indócbál	_	_	_	_	_	_	_	_
 8	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	ócbál	ócbál	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	7	xcomp:pred	X	Gloss=the act of rising
+9	ócbál	ócbál	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	7	nsubj	X	Gloss=the act of rising
 10-12	frisarind	_	_	_	_	_	_	_	_
 10	fri	fri	ADP	preposition	Case=Acc	12	case	X	Gloss=towards, against, standard of comparison
 11	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	12	det	X	Gloss=the
 12	rind	rind 2	NOUN	noun	Case=Acc|Number=Sing	9	obl	X	Gloss=star, constellation
-13	absidias	apsidia	NOUN	noun	Case=Acc|Number=Plur	1	dislocated	X	Gloss=_
+13	absidias	apsidia	NOUN	noun	Case=Acc|Number=Plur	1	appos	X	Gloss=_
 14	.i.	.i.	CCONJ	abbreviation	_	15	cc	X	Gloss=id est, it is
 15	circulos	circulus	NOUN	noun	Case=Acc|Number=Plur	13	conj	X	Gloss=circle, a circular figure, orbit
 16	.i.	.i.	CCONJ	abbreviation	_	18	cc	X	Gloss=id est, it is
@@ -3636,19 +3636,19 @@
 19	cach	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	20	det	X	Gloss=every, each, all, any
 20	óenǽscu	óenéscae	NOUN	noun	Case=Dat|Number=Sing	16	obl	X	Gloss=single lunar month
 21	.i.	.i.	CCONJ	abbreviation	_	22	cc	X	Gloss=id est, it is
-22	cethir	cethir	NOUN	noun	Case=Nom|Number=Plur|Gender=Masc	16	conj	X	Gloss=four-footed animal, beast ; four
-23	brottae	brothad	NOUN	noun	Case=Nom|Number=Plur	22	appos	X	Gloss=moment ; unit or small division of time
+22	cethir	cethir	NOUN	noun	Case=Nom|Number=Plur|Gender=Masc	23	nummod	X	Gloss=four-footed animal, beast ; four
+23	brottae	brothad	NOUN	noun	Case=Nom|Number=Plur	17	conj	X	Gloss=moment ; unit or small division of time
 24	7	ocus 2	CCONJ	conjunction	_	25	cc	X	Gloss=coordinating: and, since
-25	ala	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	22	conj	X	Gloss=the other, one another ; else; second
-26	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	25	nsubj	X	Gloss=part, share, division, part (of speech), portion
+25	ala	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	26	amod	X	Gloss=the other, one another ; else; second
+26	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	23	conj	X	Gloss=part, share, division, part (of speech), portion
 27	deac	deëc	NUM	numeral	_	26	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
 28	brotto	brothad	NOUN	noun	Case=Gen|Number=Sing	26	nmod	X	Gloss=moment ; unit or small division of time
 29	et	ocus 2	CCONJ	conjunction	_	31	cc	X	Gloss=coordinating: and, since
 30	VIImad	sechtmad	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing	31	nummod	X	Gloss=seventh
-31	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	22	conj	X	Gloss=part, share, division, part (of speech), portion
+31	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	23	conj	X	Gloss=part, share, division, part (of speech), portion
 32	cethorchat	cethorcho	NUM	noun_numeral	Case=Gen|Number=Sing	31	nummod	X	Gloss=forty
-33	aili	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	31	nmod	X	Gloss=other, another, else, second
-34	deac	deëc	NUM	numeral	_	31	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+33	aili	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	35	nmod	X	Gloss=other, another, else, second
+34	deac	deëc	NUM	numeral	_	35	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
 35	brotto	brothad	NOUN	noun	Case=Gen|Number=Sing	31	nmod	X	Gloss=moment ; unit or small division of time
 
 # sent_id = S0022-39
