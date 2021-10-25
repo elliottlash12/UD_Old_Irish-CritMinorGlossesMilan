@@ -3350,12 +3350,12 @@
 # text = isamlaid ém cotaucbat doib residentibus .i. sideribus .i. andusleicet inna rind .i. illís .i. ísli doib som infechtsa innahí ruptar ardda dun nai
 # text_en = It is thus, indeed, they raise themselves to them, to the residents, that is, to the stars; that is, when the planets sink (themselves), that is, to those. That is, the ones that were high to us [are] low to them now.
 1-2	isamlaid	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	4:cop	Gloss=to be
-2	amlaid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	4	case	4:case	Gloss=as, like
-3	ém	ém	ADV	particle_discourse	_	4	advmod	4:advmod	Gloss=truly, indeed, in sooth, then
-4	cota·ucbat	con·ocaib	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	0	root	0:root	Gloss=to lift up, to raise, to exalt, to rise, to get up
-5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	6	case	6:case	Gloss=to, for, by etc.
-6	residentibus	residens	ADJ	adjective	Case=Dat|Number=Plur|Degree=Pos	4	obl	4:obl	Gloss=_
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
+2	amlaid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	0	root	0:root	Gloss=as, like
+3	ém	ém	ADV	particle_discourse	_	2	advmod	2:advmod	Gloss=truly, indeed, in sooth, then
+4	cota·ucbat	con·ocaib	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	2	csubj:cleft	2:csubj:cleft	Gloss=to lift up, to raise, to exalt, to rise, to get up
+5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	obl:prep	4:obl:prep	Gloss=to, for, by etc.
+6	residentibus	residens	ADJ	adjective	Case=Dat|Number=Plur|Degree=Pos	5	appos	5:appos	Gloss=_
 7	.i.	.i.	CCONJ	abbreviation	_	8	cc	8:cc	Gloss=id est, it is
 8	sideribus	sidus	NOUN	noun	Case=Dat|Number=Plur	6	conj	6:conj	Gloss=constellation, star
 9	.i.	.i.	CCONJ	abbreviation	_	11	cc	11:cc	Gloss=id est, it is
@@ -3373,12 +3373,12 @@
 20-22	infechtsa	_	_	_	_	_	_	_	_
 20	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	21	det	21:det	Gloss=the
 21	fecht	fecht	NOUN	noun	Case=Acc|Number=Sing	17	obl:tmod	17:obl:tmod	Gloss=journey, expedition, time, occasion, course
-22	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	21	appos	21:appos	Gloss=this, these
+22	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	21	det	21:det	Gloss=this, these
 23-24	innahí	_	_	_	_	_	_	_	_
 23	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	24	det	24:det	Gloss=the
-24	hí	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Neut	17	nsubj	17:nsubj	Gloss=substantivizing particle
+24	hí	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Neut	17	nsubj	26:nsubj|17:nsubj	Gloss=substantivizing particle
 25	ruptar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	26	cop	26:cop	Gloss=to be
-26	ardda	ard 1	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	17	csubj:cleft	17:csubj:cleft	Gloss=high, elevated, lofty, high
+26	ardda	ard 1	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	24	acl:relcl	24:acl:relcl	Gloss=high, elevated, lofty, high
 27	dun	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	28	case	28:case	Gloss=to, for, by etc.
 28	nai	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	26	obl	26:obl	Gloss=emphasising particle
 
