@@ -3400,8 +3400,8 @@
 4	motus	motus	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=a movement, motion; advancement, progress
 5-6	inriuth	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	6:det	Gloss=the
-6	riuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	nsubj	4:nsubj	Gloss=the act of running; a run, rapid course
-7	retae	reithid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	4	acl:relcl	4:acl:relcl	Gloss=to run, to hasten, to speed
+6	riuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	nsubj	7:obj|4:nsubj	Gloss=the act of running; a run, rapid course
+7	retae	reithid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	6	acl:relcl	6:acl:relcl	Gloss=to run, to hasten, to speed
 8	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	9:det	Gloss=the
 9	airndrethcha	airndrethach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	7	nsubj	7:nsubj	Gloss=erring, wandering about
 10	in	in (Lat)	ADP	preposition	Case=Unk	11	case	11:case	Gloss=in, into
@@ -3411,7 +3411,7 @@
 14	7	ocus 2	CCONJ	conjunction	_	16	cc	16:cc	Gloss=coordinating: and, since
 15-16	arriuth	_	_	_	_	_	_	_	_
 15	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Gloss=his, its
-16	rriuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	conj	4:conj	Gloss=the act of running; a run, rapid course
+16	rriuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	6	conj	6:conj	Gloss=the act of running; a run, rapid course
 17	aicneta	aicnetae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	16	amod	16:amod	Gloss=natural (i.e. not artificial), inherent quality, essence, spirited, courageous
 18	fedesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	16	nmod	16:nmod	Gloss=self
 
