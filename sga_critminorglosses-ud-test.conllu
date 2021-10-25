@@ -3579,13 +3579,13 @@
 16	.i.	.i.	CCONJ	abbreviation	_	18	cc	X	Gloss=id est, it is
 17-18	fubíth	_	_	_	_	_	_	_	_
 17	fu	fo	ADP	preposition	Case=Dat	18	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-18	bíth	bith	NOUN	noun	Case=Dat|Number=Sing	13	conj	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
-19	do·ṅgniat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	18	acl:relcl	X	Gloss=to do, to make
+18	bíth	bith	NOUN	noun	Case=Dat|Number=Sing	13	mark	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+19	do·ṅgniat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	18	advcl	X	Gloss=to do, to make
 20	cercol	circul	NOUN	noun	Case=Acc|Number=Sing	19	obj	X	Gloss=circle, orbit, zone
 21-23	ocondocbáil	_	_	_	_	_	_	_	_
 21	oc	oc	ADP	preposition	Case=Dat	23	case	X	Gloss=at, by, besides, with (person)
 22	ond	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	23	det	X	Gloss=the
-23	ocbáil	ócbál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	19	advcl	X	Gloss=the act of rising
+23	ocbáil	ócbál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	19	obl	X	Gloss=the act of rising
 
 # sent_id = S0022-35
 # text = .i. gabalrínd ɫ diathre
@@ -3607,7 +3607,7 @@
 2	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
 3	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
 4	nóendiaithir	óendíaithir	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=one orbit
-5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	obl:prep	X	Gloss=to, for, by etc.
+5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	obl:prep:arg	X	Gloss=to, for, by etc.
 
 # sent_id = S0022-38
 # text = .i. quasi dixisset testa són dano dintrichtigi lasindi huáir deac .i. fuar salto ascach óen ǽscu .i. cethir brottae 7 alarann deac brotto et VIImad rann cethorchat aili deac brotto
@@ -3664,9 +3664,9 @@
 # text_en = On the right hand from the northwest of the chief wind, there is Circius.
 1-2	forláim	_	_	_	_	_	_	_	_
 1	for	for	ADP	preposition	Case=Dat	2	case	X	Gloss=upon, over, on
-2	láim	lám	NOUN	noun	Case=Dat|Number=Sing	8	advcl	X	Gloss=hand, arm
+2	láim	lám	NOUN	noun	Case=Dat|Number=Sing	8	dislocated	X	Gloss=hand, arm
 3	deis	des	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	2	amod	X	Gloss=right (direction), south, just, meet
-4	aníartúaid	aníartúaid	ADV	adverb	_	2	advmod	X	Gloss=from the northwest
+4	aníartúaid	aníartúaid	ADV	adverb	_	7	advmod	X	Gloss=from the northwest
 5-7	donprímgáid	_	_	_	_	_	_	_	_
 5	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
 6	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
