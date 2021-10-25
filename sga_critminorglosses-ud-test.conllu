@@ -3679,7 +3679,7 @@
 # text_en = On the left hand from the northeast, there is Aquilo.
 1-2	forlaim	_	_	_	_	_	_	_	_
 1	for	for	ADP	preposition	Case=Dat	2	case	X	Gloss=upon, over, on
-2	laim	lám	NOUN	noun	Case=Dat|Number=Sing	5	advcl	X	Gloss=hand, arm
+2	laim	lám	NOUN	noun	Case=Dat|Number=Sing	5	dislocated	X	Gloss=hand, arm
 3	chlí	clé	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	2	amod	X	Gloss=left
 4	anairtuáid	anairthúaid	ADV	adverb	_	2	advmod	X	Gloss=from the northeast
 5	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
@@ -3719,7 +3719,7 @@
 3	huare	úar 2	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=hour, time, occasion; point of time
 4	aequinocht	equinocht	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem|Degree=Pos	3	amod	X	Gloss=equinox
 5-6	indid	_	_	_	_	_	_	_	_
-5	i	i	ADP	preposition	Case=Dat	6	case	X	Gloss=in, into
+5	i	i	ADP	preposition	Case=Dat	6	obl:prep	X	Gloss=in, into
 6	ndid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	cop	X	Gloss=to be
 7	mailliu	mall	ADJ	adjective	Degree=Cmp	2	acl:relcl	X	Gloss=slow (in movement or action)
 8-9	atuile	_	_	_	_	_	_	_	_
@@ -3728,7 +3728,9 @@
 10-11	arcach	_	_	_	_	_	_	_	_
 10	ar	ar 1	ADP	preposition	Case=Dat	12	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 11	cach	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	12	det	X	Gloss=every, each, all, any
-12	óenlaithiu	óenlaithe	NOUN	noun	Case=Dat|Number=Sing	7	obl	X	Gloss=single day
+12-13	óenlaithiu	_	_	_	_	_	_	_	_
+12	óen	óen	NUM	adjective_numeral_noun	Case=Dat|Number=Sing|Gender=Neut	13	nummod	13:nummod	Gloss=one, single, same, only, unique; as compound element 'great'
+13	laithiu	laithe	NOUN	noun	Case=Dat|Number=Sing	7	obl	X	Gloss=day
 
 # sent_id = S0022-48
 # text = itarscarthar
@@ -3859,7 +3861,8 @@
 1	da	da	NUM	adjective_numeral	Case=Nom|Gender=Neut	2	nummod	X	Gloss=two
 2	llae	laë	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=day, daytime
 3	for	for	ADP	preposition	Case=Dat	4	case	X	Gloss=upon, over, on
-4	óenlittir	óenlitter	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=one letter
+4	óen	óen	NUM	adjective_numeral_noun	Case=Dat|Number=Sing|Gender=Fem	5	nummod	5:nummod	Gloss=one, single, same, only, unique; as compound element 'great'
+5	littir	litter	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=letter
 
 # sent_id = S0022-65
 # text = félire
