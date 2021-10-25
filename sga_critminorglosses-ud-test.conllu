@@ -99,7 +99,7 @@
 5	intinnscital	intinnscetal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=Vnoun	2	csubj	2:csubj	Gloss=the act of beginning, undertaking; task, attempt
 6	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing|Gender=Neut	8	obj	8:obj	Gloss=something; nothing, anything ; not
 7-8	dodénum	_	_	_	_	_	_	_	_
-7	do	do 1	ADP	preposition	Case=Dat	8	mark:prt	8:mark	Gloss=to, for, by etc.
+7	do	do 1	ADP	preposition	Case=Dat	8	mark:prt	8:mark:prt	Gloss=to, for, by etc.
 8	dénum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	5	xcomp	5:xcomp	Gloss=the act of doing, making, creating; deed, work, activity
 
 # sent_id = S0023-8
@@ -3059,812 +3059,813 @@
 # text = arisairchenn ṁbes salt hiciunn nóidécdi madindib ṅuarib deac nammá bas laigu cachmí aescai oldaas trichtaige
 # text_en = For it is certain that there should be a leap at the end of the nineteen-year cycle, if every lunar month is less by twelve hours only than a space of thirty days.
 1-3	arisairchenn	_	_	_	_	_	_	_	_
-1	ar	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
-3	airchenn	airchenn	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=prominent, leading ; certain, definite, fixed
-4	mbes	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	3	ccomp	X	Gloss=to be, to exist,
-5	salt	salt	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=leap
+1	ar	ar 2	SCONJ	conjunction	_	3	mark	3:mark	Gloss=causal: since, for; final: so that
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	3:cop	Gloss=to be
+3	airchenn	airchenn	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=prominent, leading ; certain, definite, fixed
+4	mbes	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	3	ccomp	3:ccomp	Gloss=to be, to exist,
+5	salt	salt	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	4:nsubj	Gloss=leap
 6-7	hiciunn	_	_	_	_	_	_	_	_
-6	hi	i	ADP	preposition	Case=Dat	7	case	X	Gloss=in, into
-7	ciunn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	4	xcomp:pred	X	Gloss=head; end-point, termination, exchange, purchase
-8	nóidécdi	noídécde	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	7	amod	X	Gloss=related to the number nineteen
+6	hi	i	ADP	preposition	Case=Dat	7	case	7:case	Gloss=in, into
+7	ciunn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	4	xcomp:pred	4:xcomp:pred	Gloss=head; end-point, termination, exchange, purchase
+8	nóidécdi	noídécde	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	7	amod	7:amod	Gloss=related to the number nineteen
 9-12	madindib	_	_	_	_	_	_	_	_
-9	ma	ma	SCONJ	conjunction	_	13	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-10	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	13	cop	X	Gloss=to be
-11	i	i	ADP	preposition	Case=Dat	13	case	X	Gloss=in, into
-12	ndib	da	NUM	adjective_numeral	Case=Dat|Gender=Fem	13	nummod	X	Gloss=two
-13	ṅuarib	úar 2	NOUN	noun	Case=Dat	4	advcl	X	Gloss=hour, time, occasion; point of time
-14	deac	deëc	NUM	numeral	_	13	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
-15	nammá	nammá	PART	particle_focus	_	13	advmod:emph	X	Gloss=only, merely
-16	bas	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	17	cop	X	Gloss=to be
-17	laigu	bec	ADJ	adjective	Degree=Cmp	13	csubj:cleft	X	Gloss=small, little of size or quantity
+9	ma	ma	SCONJ	conjunction	_	13	mark	13:mark	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+10	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	13	cop	13:cop	Gloss=to be
+11	i	i	ADP	preposition	Case=Dat	13	case	13:case	Gloss=in, into
+12	ndib	da	NUM	adjective_numeral	Case=Dat|Gender=Fem	13	nummod	13:nummod	Gloss=two
+13	ṅuarib	úar 2	NOUN	noun	Case=Dat	4	advcl	4:advcl	Gloss=hour, time, occasion; point of time
+14	deac	deëc	NUM	numeral	_	13	nummod	13:nummod	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+15	nammá	nammá	PART	particle_focus	_	13	advmod:emph	13:advmod:emph	Gloss=only, merely
+16	bas	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	17	cop	17:cop	Gloss=to be
+17	laigu	bec	ADJ	adjective	Degree=Cmp	13	csubj:cleft	13:csubj:cleft	Gloss=small, little of size or quantity
 18-19	cachmí	_	_	_	_	_	_	_	_
-18	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc|PronType=Tot	19	det	X	Gloss=every, each, all, any
-19	mí	mí	NOUN	noun	Case=Nom|Number=Sing	17	nsubj	X	Gloss=month
-20	aescai	éscae	NOUN	noun	Case=Gen|Number=Sing	19	nmod	X	Gloss= moon, month
+18	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc|PronType=Tot	19	det	19:det	Gloss=every, each, all, any
+19	mí	mí	NOUN	noun	Case=Nom|Number=Sing	17	nsubj	17:nsubj	Gloss=month
+20	aescai	éscae	NOUN	noun	Case=Gen|Number=Sing	19	nmod	19:nmod	Gloss= moon, month
 21-22	oldaas	_	_	_	_	_	_	_	_
-21	ol·	ol 3	X	conjunction	_	22	mark	X	Gloss=comparative: than
-22	·daas	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	17	advcl	X	Gloss=to be, to exist,
-23	trichtaige	tríchtaige	NOUN	noun	Case=Nom|Number=Sing	22	nsubj	X	Gloss=a period of thirty days
+21	ol·	ol 3	X	conjunction	_	22	mark	22:mark	Gloss=comparative: than
+22	·daas	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	17	advcl	17:advcl	Gloss=to be, to exist,
+23	trichtaige	tríchtaige	NOUN	noun	Case=Nom|Number=Sing	22	nsubj	22:nsubj	Gloss=a period of thirty days
 
 # sent_id = S0022-2
 # text = ised didiu slándliged salto noichtiche colleuth duárim inȩscu
 # text_en = Moreoever, the sound law of the leap is to reckon a period of twenty-nine days with a half in the moon.
 1-2	ised	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	4	nmod	X	Gloss=it
-3	didiu	didiu	ADV	particle_discourse	_	4	advmod	X	Gloss=in logical sequence, drawing a conclusion: therefore, then; referring to preceding, introducing additional detail or explanation; hence
-4	slándliged	slándliged	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of deserving soundness; sound law, proper law
-5	salto	salt	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=leap
-6	noichtiche	noíchtige	NOUN	noun	Case=Nom|Number=Sing	10	obj	X	Gloss=period of twenty-nine days
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	4:cop	Gloss=to be
+2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	4	nmod	4:nmod	Gloss=it
+3	didiu	didiu	ADV	particle_discourse	_	4	advmod	4:advmod	Gloss=in logical sequence, drawing a conclusion: therefore, then; referring to preceding, introducing additional detail or explanation; hence
+4	slándliged	slándliged	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	0:root	Gloss=the act of deserving soundness; sound law, proper law
+5	salto	salt	NOUN	noun	Case=Gen|Number=Sing	4	nmod	4:nmod	Gloss=leap
+6	noichtiche	noíchtige	NOUN	noun	Case=Nom|Number=Sing	10	obj	10:obj	Gloss=period of twenty-nine days
 7-8	colleuth	_	_	_	_	_	_	_	_
-7	co	co 2	ADP	preposition	Case=Dat	8	case	X	Gloss=with, general accompaniment, connection, attendant circumstances
-8	lleuth	leth	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
+7	co	co 2	ADP	preposition	Case=Dat	8	case	8:case	Gloss=with, general accompaniment, connection, attendant circumstances
+8	lleuth	leth	NOUN	noun	Case=Dat|Number=Sing	6	obl	6:obl	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
 9-10	duárim	_	_	_	_	_	_	_	_
-9	du	do 1	ADP	preposition	Case=Dat	10	mark:prt	X	Gloss=to, for, by etc.
-10	árim	áram	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	csubj	X	Gloss=the act of counting, reckoning, estimating; number, numeral, quantity, amount, sum
+9	du	do 1	ADP	preposition	Case=Dat	10	mark:prt	10:mark:prt	Gloss=to, for, by etc.
+10	árim	áram	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	csubj	4:csubj	Gloss=the act of counting, reckoning, estimating; number, numeral, quantity, amount, sum
 11-12	inȩscu	_	_	_	_	_	_	_	_
-11	i	i	ADP	preposition	Case=Dat	12	case	X	Gloss=in, into
-12	nȩscu	éscae	NOUN	noun	Case=Dat|Number=Sing	10	obl	X	Gloss= moon, month
+11	i	i	ADP	preposition	Case=Dat	12	case	12:case	Gloss=in, into
+12	nȩscu	éscae	NOUN	noun	Case=Dat|Number=Sing	10	obl	10:obl	Gloss= moon, month
 
 # sent_id = S0022-3
 # text = Ar mad iarnaicniud adrimther cutesbat dicachthrichtaigi di huáir deac 7 iiii brottae 7 unga 7 atom̃ niconbia salt etir
 # text_en = For if it be reckoned according to nature, so that to every period of thirty days may be wanting twelve hours and four movements and an ounce and an atom, there will be no leap at all.
-1	ar	ar 2	SCONJ	conjunction	_	5	mark	X	Gloss=causal: since, for; final: so that
+1	ar	ar 2	SCONJ	conjunction	_	5	mark	5:mark	Gloss=causal: since, for; final: so that
 2-3	mad	_	_	_	_	_	_	_	_
-2	ma	ma	SCONJ	conjunction	_	5	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+2	ma	ma	SCONJ	conjunction	_	5	mark	5:mark	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	5:cop	Gloss=to be
 4-5	iarnaicniud	_	_	_	_	_	_	_	_
-4	iar	íar 1	ADP	preposition	Case=Dat	5	case	X	Gloss=after, behind, across, along, beyond, according to
-5	naicniud	aicned	NOUN	noun	Case=Dat|Number=Sing	23	advcl	X	Gloss=nature, inherent quality, essence
-6	ad·rimther	ad·rími	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	csubj:cleft	X	Gloss=to count, to enumerate, to reckon
+4	iar	íar 1	ADP	preposition	Case=Dat	5	case	5:case	Gloss=after, behind, across, along, beyond, according to
+5	naicniud	aicned	NOUN	noun	Case=Dat|Number=Sing	23	advcl	23:advcl	Gloss=nature, inherent quality, essence
+6	ad·rimther	ad·rími	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	csubj:cleft	5:csubj:cleft	Gloss=to count, to enumerate, to reckon
 7-8	cutesbat	_	_	_	_	_	_	_	_
-7	cu·	co 4	SCONJ	complementiser	_	8	mark:prt	X	Gloss=so that, until (+independent, leniting)
-8	·tesbat	do·esta	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	6	advcl	X	Gloss=to be absent, to be lacking, to be wanting
+7	cu·	co 4	SCONJ	complementiser	_	8	mark:prt	8:mark:prt	Gloss=so that, until (+independent, leniting)
+8	·tesbat	do·esta	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	6	advcl	6:advcl	Gloss=to be absent, to be lacking, to be wanting
 9-11	dicachthrichtaigi	_	_	_	_	_	_	_	_
-9	di	di	ADP	preposition	Case=Dat	11	case	X	Gloss=away, from, cause or reason, by
-10	cach	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Fem|PronType=Tot	11	det	X	Gloss=every, each, all, any
-11	thrichtaigi	tríchtaige	NOUN	noun	Case=Dat|Number=Sing	8	obl	X	Gloss=a period of thirty days
-12	di	da	NUM	adjective_numeral	Case=Nom|Gender=Fem	13	nummod	X	Gloss=two
-13	huáir	úar 2	NOUN	noun	Case=Nom	8	nsubj	X	Gloss=hour, time, occasion; point of time
-14	deac	deëc	NUM	numeral	_	13	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
-15	7	ocus 2	CCONJ	conjunction	_	16	cc	X	Gloss=coordinating: and, since
-16	iiii	cethir	NOUN	noun	_	17	nummod	X	Gloss=four-footed animal, beast ; four
-17	brottae	brothad	NOUN	noun	Case=Nom|Number=Plur	13	conj	X	Gloss=moment ; unit or small division of time
-18	7	ocus 2	CCONJ	conjunction	_	19	cc	X	Gloss=coordinating: and, since
-19	unga	ungae	NOUN	noun	Case=Nom|Number=Sing	13	conj	X	Gloss=an ounce, technical term for the amount of a legal penalty
-20	7	ocus 2	CCONJ	conjunction	_	21	cc	X	Gloss=coordinating: and, since
-21	atom̃	atom	NOUN	noun	Case=Nom|Number=Sing	13	conj	X	Gloss=smallest division of time, small measure
+9	di	di	ADP	preposition	Case=Dat	11	case	11:case	Gloss=away, from, cause or reason, by
+10	cach	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Fem|PronType=Tot	11	det	11:det	Gloss=every, each, all, any
+11	thrichtaigi	tríchtaige	NOUN	noun	Case=Dat|Number=Sing	8	obl	8:obl	Gloss=a period of thirty days
+12	di	da	NUM	adjective_numeral	Case=Nom|Gender=Fem	13	nummod	13:nummod	Gloss=two
+13	huáir	úar 2	NOUN	noun	Case=Nom	8	nsubj	8:nsubj	Gloss=hour, time, occasion; point of time
+14	deac	deëc	NUM	numeral	_	13	nummod	13:nummod	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+15	7	ocus 2	CCONJ	conjunction	_	16	cc	16:cc	Gloss=coordinating: and, since
+16	iiii	cethir	NOUN	noun	_	17	nummod	17:nummod	Gloss=four-footed animal, beast ; four
+17	brottae	brothad	NOUN	noun	Case=Nom|Number=Plur	13	conj	13:conj	Gloss=moment ; unit or small division of time
+18	7	ocus 2	CCONJ	conjunction	_	19	cc	19:cc	Gloss=coordinating: and, since
+19	unga	ungae	NOUN	noun	Case=Nom|Number=Sing	13	conj	13:conj	Gloss=an ounce, technical term for the amount of a legal penalty
+20	7	ocus 2	CCONJ	conjunction	_	21	cc	21:cc	Gloss=coordinating: and, since
+21	atom̃	atom	NOUN	noun	Case=Nom|Number=Sing	13	conj	13:conj	Gloss=smallest division of time, small measure
 22-23	niconbia	_	_	_	_	_	_	_	_
-22	nicon·	nicon	PART	particle_negative_main	_	23	advmod:neg	X	Gloss=not ever
-23	·bia	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
-24	salt	salt	NOUN	noun	Case=Nom|Number=Sing	23	nsubj	X	Gloss=leap
-25	etir	etir	PART	particle_focus	_	23	advmod:emph	X	Gloss=at all
+22	nicon·	nicon	PART	particle_negative_main	_	23	advmod:neg	23:advmod:neg	Gloss=not ever
+23	·bia	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	0:root	Gloss=to be, to exist,
+24	salt	salt	NOUN	noun	Case=Nom|Number=Sing	23	nsubj	23:nsubj	Gloss=leap
+25	etir	etir	PART	particle_focus	_	23	advmod:emph	23:advmod:emph	Gloss=at all
 
 # sent_id = S0022-4
 # text = issaithrech immurgu.
 # text_en = It is laborious, however.
 1-2	issaithrech	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
-2	saithrech	sáethrach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=laborious, toilsome, industrious
-3	immurgu	immurgu	ADV	particle_discourse	_	2	advmod	X	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
+2	saithrech	sáethrach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=laborious, toilsome, industrious
+3	immurgu	immurgu	ADV	particle_discourse	_	2	advmod	2:advmod	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
 
 # sent_id = S0022-5
 # text = isairi isassu lasnarímairu di huáir deac namma duthesbuith iar ndligud slán salto conidécen salt iartain duslúnd comláinso innatesbuithe iarnaicniud aslaigu anésca oldoas trichtaige
 # text_en = It is therefore that the computists deem it easier that twelve hours only are lacking according to the sound law of the leap, so that a leap is necessary afterwards to express the filling up of the natural deficiency whereby the [lunar] month is less than an interval of thirty days.
 1-2	isairi	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
-2	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	0	root	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
+2	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	0	root	0:root	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 3-4	isassu	_	_	_	_	_	_	_	_
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-4	assu	asae 2	ADJ	adjective	Degree=Cmp	2	csubj:cleft	X	Gloss=easy, light
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	4:cop	Gloss=to be
+4	assu	asae 2	ADJ	adjective	Degree=Cmp	2	csubj:cleft	2:csubj:cleft	Gloss=easy, light
 5-7	lasnarímairu	_	_	_	_	_	_	_	_
-5	la	la	ADP	preposition	Case=Acc	7	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-6	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	rímairu	rímaire	NOUN	noun	Case=Acc|Number=Plur	4	obl	X	Gloss=computer
-8	di	da	NUM	adjective_numeral	Case=Nom|Gender=Fem	9	nummod	X	Gloss=two
-9	huáir	úar 2	NOUN	noun	Case=Nom	13	obj	X	Gloss=hour, time, occasion; point of time
-10	deac	deëc	NUM	numeral	_	9	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
-11	namma	nammá	PART	particle_focus	_	9	advmod:emph	X	Gloss=only, merely
+5	la	la	ADP	preposition	Case=Acc	7	case	7:case	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+6	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	7	det	7:det	Gloss=the
+7	rímairu	rímaire	NOUN	noun	Case=Acc|Number=Plur	4	obl	4:obl	Gloss=computer
+8	di	da	NUM	adjective_numeral	Case=Nom|Gender=Fem	9	nummod	9:nummod	Gloss=two
+9	huáir	úar 2	NOUN	noun	Case=Nom	13	obj	13:obj	Gloss=hour, time, occasion; point of time
+10	deac	deëc	NUM	numeral	_	9	nummod	9:nummod	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+11	namma	nammá	PART	particle_focus	_	9	advmod:emph	9:advmod:emph	Gloss=only, merely
 12-13	duthesbuith	_	_	_	_	_	_	_	_
-12	du	do 1	ADP	preposition	Case=Dat	13	mark:prt	X	Gloss=to, for, by etc.
-13	thesbuith	tesbuid	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	csubj	X	Gloss=the act of being lacking, missing, absent; want, lack
-14	iar	íar 1	ADP	preposition	Case=Dat	15	case	X	Gloss=after, behind, across, along, beyond, according to
-15	ndligud	dliged	NOUN	noun	Case=Dat|Number=Sing	13	obl	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
-16	slán	slán	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	15	amod	X	Gloss=whole, sound, unimpaired, healthy, safe, well
-17	salto	salt	NOUN	noun	Case=Gen|Number=Sing	15	nmod	X	Gloss=leap
+12	du	do 1	ADP	preposition	Case=Dat	13	mark:prt	13:mark:prt	Gloss=to, for, by etc.
+13	thesbuith	tesbuid	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	csubj	4:csubj	Gloss=the act of being lacking, missing, absent; want, lack
+14	iar	íar 1	ADP	preposition	Case=Dat	15	case	15:case	Gloss=after, behind, across, along, beyond, according to
+15	ndligud	dliged	NOUN	noun	Case=Dat|Number=Sing	13	obl	13:obl	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
+16	slán	slán	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	15	amod	15:amod	Gloss=whole, sound, unimpaired, healthy, safe, well
+17	salto	salt	NOUN	noun	Case=Gen|Number=Sing	15	nmod	15:nmod	Gloss=leap
 18-20	conidécen	_	_	_	_	_	_	_	_
-18	co	co 4	SCONJ	complementiser	_	20	mark:prt	X	Gloss=so that, until (+independent, leniting)
-19	nid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	20	cop	X	Gloss=to be
-20	écen	éicen	NOUN	noun	Case=Nom|Number=Sing	4	advcl	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
-21	salt	salt	NOUN	noun	Case=Nom|Number=Sing	20	nsubj	X	Gloss=leap
+18	co	co 4	SCONJ	complementiser	_	20	mark:prt	20:mark:prt	Gloss=so that, until (+independent, leniting)
+19	nid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	20	cop	20:cop	Gloss=to be
+20	écen	éicen	NOUN	noun	Case=Nom|Number=Sing	4	advcl	4:advcl	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
+21	salt	salt	NOUN	noun	Case=Nom|Number=Sing	20	nsubj	20:nsubj	Gloss=leap
 22-23	iartain	_	_	_	_	_	_	_	_
-22	iar	íar 1	ADP	preposition	Case=Dat	23	case	X	Gloss=after, behind, across, along, beyond, according to
-23	tain	tan	NOUN	noun	Case=Dat|Number=Sing	20	obl	X	Gloss=time
+22	iar	íar 1	ADP	preposition	Case=Dat	23	case	23:case	Gloss=after, behind, across, along, beyond, according to
+23	tain	tan	NOUN	noun	Case=Dat|Number=Sing	20	obl	20:obl	Gloss=time
 24-25	duslúnd	_	_	_	_	_	_	_	_
-24	du	do 1	ADP	preposition	Case=Dat	25	mark:prt	X	Gloss=to, for, by etc.
-25	slúnd	slond	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	20	csubj	X	Gloss=expression, signification ; act of expressing, mentioning, relating; indication
-26	comláinso	comláinius	NOUN	noun	Case=Gen|Number=Sing	25	obj	X	Gloss=full moon, fullness, filling up, perfection
+24	du	do 1	ADP	preposition	Case=Dat	25	mark:prt	25:mark:prt	Gloss=to, for, by etc.
+25	slúnd	slond	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	20	csubj	20:csubj	Gloss=expression, signification ; act of expressing, mentioning, relating; indication
+26	comláinso	comláinius	NOUN	noun	Case=Gen|Number=Sing	25	obj	25:obj	Gloss=full moon, fullness, filling up, perfection
 27-28	innatesbuithe	_	_	_	_	_	_	_	_
-27	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	28	det	X	Gloss=the
-28	tesbuithe	tesbuid	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	26	nmod	X	Gloss=the act of being lacking, missing, absent; want, lack
+27	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	28	det	28:det	Gloss=the
+28	tesbuithe	tesbuid	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	26	nmod	26:nmod	Gloss=the act of being lacking, missing, absent; want, lack
 29-30	iarnaicniud	_	_	_	_	_	_	_	_
-29	iar	íar 1	ADP	preposition	Case=Dat	30	case	X	Gloss=after, behind, across, along, beyond, according to
-30	naicniud	aicned	NOUN	noun	Case=Dat|Number=Sing	20	obl	X	Gloss=nature, inherent quality, essence
+29	iar	íar 1	ADP	preposition	Case=Dat	30	case	30:case	Gloss=after, behind, across, along, beyond, according to
+30	naicniud	aicned	NOUN	noun	Case=Dat|Number=Sing	20	obl	20:obl	Gloss=nature, inherent quality, essence
 31-32	aslaigu	_	_	_	_	_	_	_	_
-31	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	32	cop	X	Gloss=to be
-32	laigu	bec	ADJ	adjective	Degree=Cmp	28	acl:relcl	X	Gloss=small, little of size or quantity
+31	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	32	cop	32:cop	Gloss=to be
+32	laigu	bec	ADJ	adjective	Degree=Cmp	28	acl:relcl	28:acl:relcl	Gloss=small, little of size or quantity
 33-34	anésca	_	_	_	_	_	_	_	_
-33	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	34	det	X	Gloss=the
-34	nésca	éscae	NOUN	noun	Case=Nom|Number=Sing	32	nsubj	X	Gloss= moon, month
+33	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	34	det	34:det	Gloss=the
+34	nésca	éscae	NOUN	noun	Case=Nom|Number=Sing	32	nsubj	32:nsubj	Gloss= moon, month
 35-36	oldoas	_	_	_	_	_	_	_	_
-35	ol·	ol 3	X	conjunction	_	36	mark	X	Gloss=comparative: than
-36	·doas	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	32	advcl	X	Gloss=to be, to exist,
-37	trichtaige	tríchtaige	NOUN	noun	Case=Nom|Number=Sing	36	nsubj	X	Gloss=a period of thirty days
+35	ol·	ol 3	X	conjunction	_	36	mark	36:mark	Gloss=comparative: than
+36	·doas	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	32	advcl	32:advcl	Gloss=to be, to exist,
+37	trichtaige	tríchtaige	NOUN	noun	Case=Nom|Number=Sing	36	nsubj	36:nsubj	Gloss=a period of thirty days
 
 # sent_id = S0022-6
 # text = Anísiu trá isécen remfuar bissext 7 emblesim
 # text_en = This one, then, it is necessary to prepare the leap year and intercalated lunation.
-1	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
+1	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	2:det	Gloss=the
 2-4	Anísiu	_	_	_	_	_	_	_	_
-2	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	6	dislocated	X	Gloss=substantivizing particle
-3	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	2	appos	X	Gloss=this, these
-4	trá	trá	ADV	particle_discourse	_	6	advmod	X	Gloss=then, therefore, so, indeed, however, but
+2	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	6	dislocated	6:dislocated	Gloss=substantivizing particle
+3	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	2	appos	2:appos	Gloss=this, these
+4	trá	trá	ADV	particle_discourse	_	6	advmod	6:advmod	Gloss=then, therefore, so, indeed, however, but
 5-6	isécen	_	_	_	_	_	_	_	_
-5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
-6	écen	éicen	NOUN	noun	Case=Nom|Number=Sing|Gender=Masc	0	root	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
-7	remfuar	remḟuär	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	6	xcomp	X	Gloss=the act of preparing, making ready; preparation
-8	bissext	bissext	NOUN	noun	Case=Gen|Number=Sing	7	obj	X	Gloss=leap year (day)
-9	7	ocus 2	CCONJ	conjunction	_	10	cc	X	Gloss=coordinating: and, since
-10	emblesim	embleisim	NOUN	noun	Case=Gen|Number=Sing	8	conj	X	Gloss=intercalated lunation
+5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	6:cop	Gloss=to be
+6	écen	éicen	NOUN	noun	Case=Nom|Number=Sing|Gender=Masc	0	root	0:root	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
+7	remfuar	remḟuär	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	6	xcomp	6:xcomp	Gloss=the act of preparing, making ready; preparation
+8	bissext	bissext	NOUN	noun	Case=Gen|Number=Sing	7	obj	7:obj	Gloss=leap year (day)
+9	7	ocus 2	CCONJ	conjunction	_	10	cc	10:cc	Gloss=coordinating: and, since
+10	emblesim	embleisim	NOUN	noun	Case=Gen|Number=Sing	8	conj	8:conj	Gloss=intercalated lunation
 
 # sent_id = S0022-7
 # text = asíl inrolad hisin mais nécruthaigthi statim ised asesnaise in omnia elimenta usque in finem
 # text_en = The seed that has been cast regularly into the unshapen mass, that is what is inserted into all elements until the end.
 1-2	asíl	_	_	_	_	_	_	_	_
-1	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	síl	síl	NOUN	noun	Case=Nom|Number=Sing	10	dislocated	X	Gloss=seed, origin, offspring; the seed of plants and animals
-3	in·rolad	in·lá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	2	acl:relcl	X	Gloss=to cast in, to inlay
+1	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	2:det	Gloss=the
+2	síl	síl	NOUN	noun	Case=Nom|Number=Sing	10	dislocated	10:dislocated	Gloss=seed, origin, offspring; the seed of plants and animals
+3	in·rolad	in·lá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	2	acl:relcl	2:acl:relcl	Gloss=to cast in, to inlay
 4-5	hisin	_	_	_	_	_	_	_	_
-4	hi	i	ADP	preposition	Case=Acc	6	case	X	Gloss=in, into
-5	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	mais	mass	NOUN	noun	Case=Acc|Number=Sing	3	obl	X	Gloss=primordial mass, formless matter before creation; lump in general
-7	nécruthaigthi	écruthaigthe	ADJ	verbal_participle	Case=Acc|Number=Sing|Gender=Fem	6	amod	X	Gloss=unshaped, formless
-8	statim	statim	ADV	adverb	_	3	advmod	X	Gloss=again, regularly
+4	hi	i	ADP	preposition	Case=Acc	6	case	6:case	Gloss=in, into
+5	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	6:det	Gloss=the
+6	mais	mass	NOUN	noun	Case=Acc|Number=Sing	3	obl	3:obl	Gloss=primordial mass, formless matter before creation; lump in general
+7	nécruthaigthi	écruthaigthe	ADJ	verbal_participle	Case=Acc|Number=Sing|Gender=Fem	6	amod	6:amod	Gloss=unshaped, formless
+8	statim	statim	ADV	adverb	_	3	advmod	3:advmod	Gloss=again, regularly
 9-10	ised	_	_	_	_	_	_	_	_
-9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
-10	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	0	root	X	Gloss=it
+9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	cop	10:cop	Gloss=to be
+10	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	0	root	0:root	Gloss=it
 11-12	asesnaise	_	_	_	_	_	_	_	_
-11	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	12	cop	X	Gloss=to be
-12	esnaise	esnaisse	ADJ	verbal_participle	Case=Nom|Number=Sing	10	csubj:cleft	X	Gloss=inserted, grafted, ingrafted; put forth
-13	in	in (Lat)	ADP	preposition	Case=Unk	15	case	X	Gloss=in, into
-14	omnia	omnis	DET	adjective_quantifier	Case=Acc|Number=Plur|Gender=Neut	15	det	X	Gloss=all, total, every
-15	elimenta	elementum	NOUN	noun	Case=Nom|Number=Plur	12	obl	X	Gloss=one of the four elements; basic principle, the alphabet
-16	usque	ūsque	ADV	adverb	_	12	advmod	X	Gloss=until, upto, up
-17	in	in (Lat)	ADP	preposition	Case=Acc	18	case	X	Gloss=in, into
-18	finem	fīnis	NOUN	noun	Case=Acc|Number=Sing	12	obl	X	Gloss=limit, boundary
+11	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	12	cop	12:cop	Gloss=to be
+12	esnaise	esnaisse	ADJ	verbal_participle	Case=Nom|Number=Sing	10	csubj:cleft	10:csubj:cleft	Gloss=inserted, grafted, ingrafted; put forth
+13	in	in (Lat)	ADP	preposition	Case=Unk	15	case	15:case	Gloss=in, into
+14	omnia	omnis	DET	adjective_quantifier	Case=Acc|Number=Plur|Gender=Neut	15	det	15:det	Gloss=all, total, every
+15	elimenta	elementum	NOUN	noun	Case=Nom|Number=Plur	12	obl	12:obl	Gloss=one of the four elements; basic principle, the alphabet
+16	usque	ūsque	ADV	adverb	_	12	advmod	12:advmod	Gloss=until, upto, up
+17	in	in (Lat)	ADP	preposition	Case=Acc	18	case	18:case	Gloss=in, into
+18	finem	fīnis	NOUN	noun	Case=Acc|Number=Sing	12	obl	12:obl	Gloss=limit, boundary
 
 # sent_id = S0022-8
 # text = dineoch asas á terra
 # text_en = of whatever grows from the earth
 1-2	dineoch	_	_	_	_	_	_	_	_
-1	di	di	ADP	preposition	Case=Dat	2	case	X	Gloss=away, from, cause or reason, by
-2	neoch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Ind	0	root	X	Gloss=anyone, one, someone
-3	asas	ásaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to grow, to arise, to develop
-4	á	ab (Lat)	ADP	preposition	Case=Unk	5	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
-5	terra	terra	NOUN	noun	Number=Sing	3	obl	X	Gloss=land, earth
+1	di	di	ADP	preposition	Case=Dat	2	case	2:case	Gloss=away, from, cause or reason, by
+2	neoch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Ind	0	root	0:root	Gloss=anyone, one, someone
+3	asas	ásaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	2:acl:relcl	Gloss=to grow, to arise, to develop
+4	á	ab (Lat)	ADP	preposition	Case=Unk	5	case	5:case	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
+5	terra	terra	NOUN	noun	Number=Sing	3	obl	3:obl	Gloss=land, earth
 
 # sent_id = S0022-9
 # text = acht is in primo die són
 # text_en = But, that is on the first day.
-1	acht	acht 1	CCONJ	conjunction	_	5	cc	X	Gloss=except, but, provided that, save that
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
-3	in	in (Lat)	ADP	preposition	Case=Unk	5	case	X	Gloss=in, into
-4	primo	prīmus	ADJ	adjective_numeral_noun	Number=Sing	5	amod	X	Gloss=first
-5	die	diēs	NOUN	noun	Number=Sing	0	root	X	Gloss=day
-6	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	5	nsubj	X	Gloss=that (mentioned above) that is
+1	acht	acht 1	CCONJ	conjunction	_	5	cc	5:cc	Gloss=except, but, provided that, save that
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	5:cop	Gloss=to be
+3	in	in (Lat)	ADP	preposition	Case=Unk	5	case	5:case	Gloss=in, into
+4	primo	prīmus	ADJ	adjective_numeral_noun	Number=Sing	5	amod	5:amod	Gloss=first
+5	die	diēs	NOUN	noun	Number=Sing	0	root	0:root	Gloss=day
+6	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	5	nsubj	5:nsubj	Gloss=that (mentioned above) that is
 
 # sent_id = S0022-10
 # text = cruind ab omni parte soluti
 # text_en = round, released from every part.
-1	cruind	cruind	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	0	root	X	Gloss=round, circular, globular, compact, precise
-2	ab	ab (Lat)	ADP	preposition	Case=Unk	4	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
-3	omni	omnis	DET	adjective_quantifier	Number=Sing	4	det	X	Gloss=all, total, every
-4	parte	pars	NOUN	noun	Number=Sing	1	obl	X	Gloss=part, piece, share
-5	soluti	solutus	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	4	amod	X	Gloss=_
+1	cruind	cruind	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	0	root	0:root	Gloss=round, circular, globular, compact, precise
+2	ab	ab (Lat)	ADP	preposition	Case=Unk	4	case	4:case	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
+3	omni	omnis	DET	adjective_quantifier	Number=Sing	4	det	4:det	Gloss=all, total, every
+4	parte	pars	NOUN	noun	Number=Sing	1	obl	1:obl	Gloss=part, piece, share
+5	soluti	solutus	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	4	amod	4:amod	Gloss=_
 
 # sent_id = S0022-11
 # text = dú
 # text_en = place
-1	dú	dú	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=place, spot
+1	dú	dú	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=place, spot
 
 # sent_id = S0022-12
 # text = congaibet
 # text_en = which contain
-1	con·gaibet	con·gaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	0	root	X	Gloss=to contain, to include; to maintain, to preserve, to support, to uphold; to keep, to found, to set up, to settle
+1	con·gaibet	con·gaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	0	root	0:root	Gloss=to contain, to include; to maintain, to preserve, to support, to uphold; to keep, to found, to set up, to settle
 
 # sent_id = S0022-13
 # text = isí adéne
 # text_en = This is its speed.
 1-2	isí	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
-2	í	3sg.fem.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Fem|PronType=Prs|Person=3	0	root	X	Gloss=she, her, it
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
+2	í	3sg.fem.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Fem|PronType=Prs|Person=3	0	root	0:root	Gloss=she, her, it
 3-4	adéne	_	_	_	_	_	_	_	_
-3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	X	Gloss=his, its
-4	déne	déine	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=swiftness, speed, impetuosity, vehemence
+3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	4:nmod:poss	Gloss=his, its
+4	déne	déine	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	2:nsubj	Gloss=swiftness, speed, impetuosity, vehemence
 
 # sent_id = S0022-14
 # text = curu
 # text_en = curves
-1	curu	cor	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of putting
+1	curu	cor	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	0	root	0:root	Gloss=the act of putting
 
 # sent_id = S0022-15
 # text = isim suidib
 # text_en = It is about them.
 1-2	isim	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
-2	im	imm	ADP	preposition	Case=Dat	3	case	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
-3	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Neut	0	root	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	3:cop	Gloss=to be
+2	im	imm	ADP	preposition	Case=Dat	3	case	3:case	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
+3	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Neut	0	root	0:root	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 
 # sent_id = S0022-17
 # text = isli
 # text_en = low
-1	isli	ísel	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	0	root	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
+1	isli	ísel	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
 
 # sent_id = S0022-18
 # text = inísiul
 # text_en = beneath
 1-2	inísiul	_	_	_	_	_	_	_	_
-1	i	i	ADP	preposition	Case=Dat	2	case	X	Gloss=in, into
-2	nísiul	ísel	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
+1	i	i	ADP	preposition	Case=Dat	2	case	2:case	Gloss=in, into
+2	nísiul	ísel	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
 
 # sent_id = S0022-19
 # text = isindísli
 # text_en = into the declivity
 1-3	isindísli	_	_	_	_	_	_	_	_
-1	i	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
-2	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	ísli	ísle	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=lowness, declivity
+1	i	i	ADP	preposition	Case=Dat	3	case	3:case	Gloss=in, into
+2	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	3:det	Gloss=the
+3	ísli	ísle	NOUN	noun	Case=Dat|Number=Sing	0	root	0:root	Gloss=lowness, declivity
 
 # sent_id = S0022-20
 # text = tarsatarmthíagat
 # text_en = over which they cross
 1-3	tarsatarmthíagat	_	_	_	_	_	_	_	_
-1	tar	tar 1	ADP	preposition	Case=Acc	2	case	X	Gloss=over, across, covering
-2	sa·	-(s)a·	PRON	pronoun_relative	PronType=Rel	0	root	X	Gloss=which, who, whose
-3	·tarmthíagat	tarmi·tét	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to traverse; to transgress
+1	tar	tar 1	ADP	preposition	Case=Acc	2	case	2:case	Gloss=over, across, covering
+2	sa·	-(s)a·	PRON	pronoun_relative	PronType=Rel	0	root	0:root	Gloss=which, who, whose
+3	·tarmthíagat	tarmi·tét	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	2:acl:relcl	Gloss=to traverse; to transgress
 
 # sent_id = S0022-21
 # text = hisí mét asuidigthe g[l]obus terrae
 # text_en = This is the extent that the globe of the earth is situated.
 1-2	hisí	_	_	_	_	_	_	_	_
-1	his	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
-2	í	3sg.fem.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Fem|PronType=Prs|Person=3	3	nmod	X	Gloss=she, her, it
-3	mét	méit	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
-4	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	5	cop	X	Gloss=to be
-5	suidigthe	suidigthe	ADJ	verbal_participle	Case=Nom|Number=Sing	3	csubj:cleft	X	Gloss=established, set up, founded, proven
-6	globus	globus	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=globe
-7	terrae	terra	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=land, earth
+1	his	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	3:cop	Gloss=to be
+2	í	3sg.fem.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Fem|PronType=Prs|Person=3	3	nmod	3:nmod	Gloss=she, her, it
+3	mét	méit	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
+4	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	5	cop	5:cop	Gloss=to be
+5	suidigthe	suidigthe	ADJ	verbal_participle	Case=Nom|Number=Sing	3	csubj:cleft	3:csubj:cleft	Gloss=established, set up, founded, proven
+6	globus	globus	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	5:nsubj	Gloss=globe
+7	terrae	terra	NOUN	noun	Case=Gen|Number=Sing	6	nmod	6:nmod	Gloss=land, earth
 
 # sent_id = S0022-22
 # text = isamlaid ém cotaucbat doib residentibus .i. sideribus .i. andusleicet inna rind .i. illís .i. ísli doib som infechtsa innahí ruptar ardda dun nai
 # text_en = It is thus, indeed, they raise themselves to them, to the residents, that is, to the stars; that is, when the planets sink (themselves), that is, to those. That is, the ones that were high to us [are] low to them now.
 1-2	isamlaid	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-2	amlaid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	4	case	X	Gloss=as, like
-3	ém	ém	ADV	particle_discourse	_	4	advmod	X	Gloss=truly, indeed, in sooth, then
-4	cota·ucbat	con·ocaib	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	0	root	X	Gloss=to lift up, to raise, to exalt, to rise, to get up
-5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	6	case	X	Gloss=to, for, by etc.
-6	residentibus	residens	ADJ	adjective	Case=Dat|Number=Plur|Degree=Pos	4	obl	X	Gloss=_
-7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
-8	sideribus	sidus	NOUN	noun	Case=Dat|Number=Plur	6	conj	X	Gloss=constellation, star
-9	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	4:cop	Gloss=to be
+2	amlaid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	4	case	4:case	Gloss=as, like
+3	ém	ém	ADV	particle_discourse	_	4	advmod	4:advmod	Gloss=truly, indeed, in sooth, then
+4	cota·ucbat	con·ocaib	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	0	root	0:root	Gloss=to lift up, to raise, to exalt, to rise, to get up
+5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	6	case	6:case	Gloss=to, for, by etc.
+6	residentibus	residens	ADJ	adjective	Case=Dat|Number=Plur|Degree=Pos	4	obl	4:obl	Gloss=_
+7	.i.	.i.	CCONJ	abbreviation	_	8	cc	8:cc	Gloss=id est, it is
+8	sideribus	sidus	NOUN	noun	Case=Dat|Number=Plur	6	conj	6:conj	Gloss=constellation, star
+9	.i.	.i.	CCONJ	abbreviation	_	11	cc	11:cc	Gloss=id est, it is
 10-11	andusleicet	_	_	_	_	_	_	_	_
-10	a	a 6	SCONJ	conjunction	_	11	mark	X	Gloss=temporal: when, since
-11	ndus·leicet	do·léici	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	4	conj	X	Gloss=to release, to let go; to let come, to let loose; to throw, to cast; to leave, to abandon
-12	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	rind	rind 2	NOUN	noun	Case=Nom|Number=Plur	11	nsubj	X	Gloss=star, constellation
-14	.i.	.i.	CCONJ	abbreviation	_	15	cc	X	Gloss=id est, it is
-15	illís	ille	X	pronoun_demonstrative	Case=Dat|Number=Plur	11	conj	X	Gloss=he, she, it, that, this
-16	.i.	.i.	CCONJ	abbreviation	_	17	cc	X	Gloss=id est, it is
-17	ísli	ísel	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	0	root	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
-18	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	19	case	X	Gloss=to, for, by etc.
-19	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	17	obl	X	Gloss=emphasising particle
+10	a	a 6	SCONJ	conjunction	_	11	mark	11:mark	Gloss=temporal: when, since
+11	ndus·leicet	do·léici	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	4	conj	4:conj	Gloss=to release, to let go; to let come, to let loose; to throw, to cast; to leave, to abandon
+12	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	13	det	13:det	Gloss=the
+13	rind	rind 2	NOUN	noun	Case=Nom|Number=Plur	11	nsubj	11:nsubj	Gloss=star, constellation
+14	.i.	.i.	CCONJ	abbreviation	_	15	cc	15:cc	Gloss=id est, it is
+15	illís	ille	X	pronoun_demonstrative	Case=Dat|Number=Plur	11	conj	11:conj	Gloss=he, she, it, that, this
+16	.i.	.i.	CCONJ	abbreviation	_	17	cc	17:cc	Gloss=id est, it is
+17	ísli	ísel	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
+18	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	19	case	19:case	Gloss=to, for, by etc.
+19	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	17	obl	17:obl	Gloss=emphasising particle
 20-22	infechtsa	_	_	_	_	_	_	_	_
-20	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	21	det	X	Gloss=the
-21	fecht	fecht	NOUN	noun	Case=Acc|Number=Sing	17	obl:tmod	X	Gloss=journey, expedition, time, occasion, course
-22	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	21	appos	X	Gloss=this, these
+20	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	21	det	21:det	Gloss=the
+21	fecht	fecht	NOUN	noun	Case=Acc|Number=Sing	17	obl:tmod	17:obl:tmod	Gloss=journey, expedition, time, occasion, course
+22	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	21	appos	21:appos	Gloss=this, these
 23-24	innahí	_	_	_	_	_	_	_	_
-23	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	24	det	X	Gloss=the
-24	hí	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Neut	17	nsubj	X	Gloss=substantivizing particle
-25	ruptar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	26	cop	X	Gloss=to be
-26	ardda	ard 1	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	17	csubj:cleft	X	Gloss=high, elevated, lofty, high
-27	dun	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	28	case	X	Gloss=to, for, by etc.
-28	nai	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	26	obl	X	Gloss=emphasising particle
+23	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	24	det	24:det	Gloss=the
+24	hí	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Neut	17	nsubj	17:nsubj	Gloss=substantivizing particle
+25	ruptar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	26	cop	26:cop	Gloss=to be
+26	ardda	ard 1	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	17	csubj:cleft	17:csubj:cleft	Gloss=high, elevated, lofty, high
+27	dun	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	28	case	28:case	Gloss=to, for, by etc.
+28	nai	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	26	obl	26:obl	Gloss=emphasising particle
 
 # sent_id = S0022-23
 # text = .i. foácbat .i. caelum
 # text_en = That is, they leave, namely, heaven.
-1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
-2	fo·ácbat	fo·ácaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to leave (behind), to relinquish
-3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
-4	caelum	caelum	NOUN	noun	Case=Acc|Number=Sing	2	conj	X	Gloss=sky, heaven
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	2:cc	Gloss=id est, it is
+2	fo·ácbat	fo·ácaib	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	0:root	Gloss=to leave (behind), to relinquish
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	4:cc	Gloss=id est, it is
+4	caelum	caelum	NOUN	noun	Case=Acc|Number=Sing	2	conj	2:conj	Gloss=sky, heaven
 
 # sent_id = S0022-24
 # text = isé multiplex motus inriuth retae inna airndrethcha in contrarium contra sé 7 arriuth aicneta fedesin
 # text_en = The multiplex modus is the course which the planets run in contrarium contra se, and their own natural course.
 1-2	isé	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-2	é	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	4	nmod	X	Gloss=he, him, it
-3	multiplex	multiplex	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	4	amod	X	Gloss=_
-4	motus	motus	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=a movement, motion; advancement, progress
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	4:cop	Gloss=to be
+2	é	3sg.masc.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Masc|PronType=Prs|Person=3	4	nmod	4:nmod	Gloss=he, him, it
+3	multiplex	multiplex	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	4	amod	4:amod	Gloss=_
+4	motus	motus	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=a movement, motion; advancement, progress
 5-6	inriuth	_	_	_	_	_	_	_	_
-5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	riuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	nsubj	X	Gloss=the act of running; a run, rapid course
-7	retae	reithid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	4	acl:relcl	X	Gloss=to run, to hasten, to speed
-8	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	airndrethcha	airndrethach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	7	nsubj	X	Gloss=erring, wandering about
-10	in	in (Lat)	ADP	preposition	Case=Unk	11	case	X	Gloss=in, into
-11	contrarium	contrarius	ADJ	adjective	Case=Acc|Number=Sing|Degree=Pos	7	obl	X	Gloss=opposite, opposed, contrary
-12	contra	contrā	ADP	preposition	Case=Unk	13	case	X	Gloss=against, opposite
-13	sé	sē	X	pronoun_reflexive	_	7	obl	X	Gloss=himself, herself, itself
-14	7	ocus 2	CCONJ	conjunction	_	16	cc	X	Gloss=coordinating: and, since
+5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	6:det	Gloss=the
+6	riuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	nsubj	4:nsubj	Gloss=the act of running; a run, rapid course
+7	retae	reithid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	4	acl:relcl	4:acl:relcl	Gloss=to run, to hasten, to speed
+8	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	9:det	Gloss=the
+9	airndrethcha	airndrethach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	7	nsubj	7:nsubj	Gloss=erring, wandering about
+10	in	in (Lat)	ADP	preposition	Case=Unk	11	case	11:case	Gloss=in, into
+11	contrarium	contrarius	ADJ	adjective	Case=Acc|Number=Sing|Degree=Pos	7	obl	7:obl	Gloss=opposite, opposed, contrary
+12	contra	contrā	ADP	preposition	Case=Unk	13	case	13:case	Gloss=against, opposite
+13	sé	sē	X	pronoun_reflexive	_	7	obl	7:obl	Gloss=himself, herself, itself
+14	7	ocus 2	CCONJ	conjunction	_	16	cc	16:cc	Gloss=coordinating: and, since
 15-16	arriuth	_	_	_	_	_	_	_	_
-15	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	16	nmod:poss	X	Gloss=his, its
-16	rriuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of running; a run, rapid course
-17	aicneta	aicnetae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	16	amod	X	Gloss=natural (i.e. not artificial), inherent quality, essence, spirited, courageous
-18	fedesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	16	nmod	X	Gloss=self
+15	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Gloss=his, its
+16	rriuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	conj	4:conj	Gloss=the act of running; a run, rapid course
+17	aicneta	aicnetae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	16	amod	16:amod	Gloss=natural (i.e. not artificial), inherent quality, essence, spirited, courageous
+18	fedesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	16	nmod	16:nmod	Gloss=self
 
 # sent_id = S0022-25
 # text = fot lai and
 # text_en = a day's length there
-1	fot	fot	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=length
-2	lai	laë	NOUN	noun	Case=Gen|Number=Sing	1	nmod	X	Gloss=day, daytime
-3	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	1	obl:prep	X	Gloss=in, into
+1	fot	fot	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=length
+2	lai	laë	NOUN	noun	Case=Gen|Number=Sing	1	nmod	1:nmod	Gloss=day, daytime
+3	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	1	obl:prep	1:obl:prep	Gloss=in, into
 
 # sent_id = S0022-26
 # text = isgnád bróen 7 fliuchaidatu ocaturcbáil 7 liafuined
 # text_en = Rain and wetness is usual at their rising and with their setting.
 1-2	isgnád	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
-2	gnád	gnáth	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=customary, usual, familiar, well-known
-3	bróen	bróen	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=rain, moisture, drop(s)
-4	7	ocus 2	CCONJ	conjunction	_	5	cc	X	Gloss=coordinating: and, since
-5	fliuchaidatu	fliuchaidetu	NOUN	noun	Case=Nom|Number=Sing	2	conj	X	Gloss=wetness
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
+2	gnád	gnáth	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=customary, usual, familiar, well-known
+3	bróen	bróen	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	2:nsubj	Gloss=rain, moisture, drop(s)
+4	7	ocus 2	CCONJ	conjunction	_	5	cc	5:cc	Gloss=coordinating: and, since
+5	fliuchaidatu	fliuchaidetu	NOUN	noun	Case=Nom|Number=Sing	2	conj	2:conj	Gloss=wetness
 6-8	ocaturcbáil	_	_	_	_	_	_	_	_
-6	oc	oc	ADP	preposition	Case=Dat	8	case	X	Gloss=at, by, besides, with (person)
-7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	8	nmod:poss	X	Gloss=his, its
-8	turcbáil	turcbál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of arising, emerging, raising, lifting, exacting; production
-9	7	ocus 2	CCONJ	conjunction	_	12	cc	X	Gloss=coordinating: and, since
+6	oc	oc	ADP	preposition	Case=Dat	8	case	8:case	Gloss=at, by, besides, with (person)
+7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Gloss=his, its
+8	turcbáil	turcbál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	2:advcl	Gloss=the act of arising, emerging, raising, lifting, exacting; production
+9	7	ocus 2	CCONJ	conjunction	_	12	cc	12:cc	Gloss=coordinating: and, since
 10-12	liafuined	_	_	_	_	_	_	_	_
-10	li	la	ADP	preposition	Case=Acc	12	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-11	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	12	nmod:poss	X	Gloss=his, its
-12	fuined	fuined	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	8	conj	X	Gloss=the act of setting, sinking
+10	li	la	ADP	preposition	Case=Acc	12	case	12:case	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+11	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Gloss=his, its
+12	fuined	fuined	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	8	conj	8:conj	Gloss=the act of setting, sinking
 
 # sent_id = S0022-27
 # text = hité spatia narree fil á terra usque ad XII. signa
 # text_en = The spaces are the spaces which are from the earth up until the twelve signs [of the Zodiac].
 1-2	hité	_	_	_	_	_	_	_	_
-1	hit	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
-2	é	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	3	nmod	X	Gloss=they, them
-3	spatia	spatium	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=space
+1	hit	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	3:cop	Gloss=to be
+2	é	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	3	nmod	3:nmod	Gloss=they, them
+3	spatia	spatium	NOUN	noun	Case=Nom|Number=Plur	0	root	0:root	Gloss=space
 4-5	narree	_	_	_	_	_	_	_	_
-4	na	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
+4	na	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	5	det	5:det	Gloss=the
 5	rree	ré	NOUN	noun	Case=Nom|Number=Plur	3	nsubj	6:nsubj|3:nsubj	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
-6	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	acl:relcl	X	Gloss=to be, to exist,
-7	á	ab (Lat)	ADP	preposition	Case=Unk	8	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
-8	terra	terra	NOUN	noun	Number=Sing	6	xcomp:pred	X	Gloss=land, earth
-9	usque	ūsque	ADV	adverb	_	12	advmod	X	Gloss=until, upto, up
-10	ad	ad (Lat)	ADP	preposition	Case=Acc	12	case	X	Gloss=to, towards, up to, for
-11	XII.	(Roman numerals)	NUM	numeral	_	12	nummod	X	Gloss=_
-12	signa	signum	NOUN	noun	Case=Acc|Number=Plur	6	obl	X	Gloss=mark, sign, miracle
+6	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	acl:relcl	5:acl:relcl	Gloss=to be, to exist,
+7	á	ab (Lat)	ADP	preposition	Case=Unk	8	case	8:case	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
+8	terra	terra	NOUN	noun	Number=Sing	6	xcomp:pred	6:xcomp:pred	Gloss=land, earth
+9	usque	ūsque	ADV	adverb	_	12	advmod	12:advmod	Gloss=until, upto, up
+10	ad	ad (Lat)	ADP	preposition	Case=Acc	12	case	12:case	Gloss=to, towards, up to, for
+11	XII.	(Roman numerals)	NUM	numeral	_	12	nummod	12:nummod	Gloss=_
+12	signa	signum	NOUN	noun	Case=Acc|Number=Plur	6	obl	6:obl	Gloss=mark, sign, miracle
 
 # sent_id = S0022-28
 # text = hité soni . toni . comlana rɫ.
 # text_en = The soni [i.e. sounds] are complete toni [i.e. tones], etc.
 1-2	hité	_	_	_	_	_	_	_	_
-1	hit	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
-2	é	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	3	nmod	X	Gloss=they, them
-3	soni	sonus	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=sound, noise, speech
-4	.	.	PUNCT	punctuation	_	_	_	_	_
-5	toni	tonus	NOUN	noun	Case=Nom|Number=Plur	3	nsubj	X	Gloss=stretching, straining, strain, tension
-6	.	.	PUNCT	punctuation	_	_	_	_	_
-7	comlana	comlán	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	5	amod	X	Gloss=complete, perfect
-8	rɫ.	reliqua	NOUN	noun	Case=Nom|Number=Plur	3	appos	X	Gloss=the rest, remainder
+1	hit	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	3:cop	Gloss=to be
+2	é	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	3	nmod	3:nmod	Gloss=they, them
+3	soni	sonus	NOUN	noun	Case=Nom|Number=Plur	0	root	0:root	Gloss=sound, noise, speech
+4	.	.	PUNCT	punctuation	_	0	punct	0:punct	_
+5	toni	tonus	NOUN	noun	Case=Nom|Number=Plur	3	nsubj	3:nsubj	Gloss=stretching, straining, strain, tension
+6	.	.	PUNCT	punctuation	_	0	punct	0:punct	_
+7	comlana	comlán	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	5	amod	5:amod	Gloss=complete, perfect
+8	rɫ.	reliqua	NOUN	noun	Case=Nom|Number=Plur	3	appos	3:appos	Gloss=the rest, remainder
 
 # sent_id = S0022-29
 # text = hité interualla immurgu deferentiae 7 nitiagat saidai sech satuirn suas ut plinius dicit rɫ.
 # text_en = These, however, are the intervalla deferentiae; and they do not go up past Saturn, as Plinius says, etc.
 1-2	hité	_	_	_	_	_	_	_	_
-1	hit	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
-2	é	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	0	root	X	Gloss=they, them
-3	interualla	interuallum	NOUN	noun	Case=Nom|Number=Plur	2	nsubj	X	Gloss=open space, interval (of time, distance), difference
-4	immurgu	immurgu	ADV	particle_discourse	_	2	advmod	X	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
-5	deferentiae	dēferēns	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	3	amod	X	Gloss=_
-6	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
+1	hit	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
+2	é	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	0	root	0:root	Gloss=they, them
+3	interualla	interuallum	NOUN	noun	Case=Nom|Number=Plur	2	nsubj	2:nsubj	Gloss=open space, interval (of time, distance), difference
+4	immurgu	immurgu	ADV	particle_discourse	_	2	advmod	2:advmod	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
+5	deferentiae	dēferēns	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	3	amod	3:amod	Gloss=_
+6	7	ocus 2	CCONJ	conjunction	_	8	cc	8:cc	Gloss=coordinating: and, since
 7-8	nitiagat	_	_	_	_	_	_	_	_
-7	ni·	ní 3	PART	particle_negative_main	_	8	advmod:neg	X	Gloss=not
-8	·tiagat	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	conj	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
-9	saidai	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur	8	nsubj	X	Gloss=that one, he, she, it, they
-10	sech	sech 1	ADP	preposition	Case=Acc	11	case	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
-11	satuirn	Satuirn	PROPN	proper_noun	Case=Acc|Number=Sing	8	obl	X	Gloss=Saturn
-12	suas	súas	ADV	adverb	_	11	advmod	X	Gloss=up, upwards
-13	ut	ut	X	conjunction	_	15	mark	X	Gloss=that, so that
-14	plinius	Plinius	PROPN	proper_noun	Case=Nom|Number=Sing	15	nsubj	X	Gloss=Pliny
-15	dicit	dīcō	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	advcl	X	Gloss=to say, to declare, to call
-16	rɫ.	reliqua	NOUN	noun	Case=Nom|Number=Plur	15	appos	X	Gloss=the rest, remainder
+7	ni·	ní 3	PART	particle_negative_main	_	8	advmod:neg	8:advmod:neg	Gloss=not
+8	·tiagat	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	conj	2:conj	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+9	saidai	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur	8	nsubj	8:nsubj	Gloss=that one, he, she, it, they
+10	sech	sech 1	ADP	preposition	Case=Acc	11	case	11:case	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
+11	satuirn	Satuirn	PROPN	proper_noun	Case=Acc|Number=Sing	8	obl	8:obl	Gloss=Saturn
+12	suas	súas	ADV	adverb	_	11	advmod	11:advmod	Gloss=up, upwards
+13	ut	ut	X	conjunction	_	15	mark	15:mark	Gloss=that, so that
+14	plinius	Plinius	PROPN	proper_noun	Case=Nom|Number=Sing	15	nsubj	15:nsubj	Gloss=Pliny
+15	dicit	dīcō	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	advcl	8:advcl	Gloss=to say, to declare, to call
+16	rɫ.	reliqua	NOUN	noun	Case=Nom|Number=Plur	15	appos	15:appos	Gloss=the rest, remainder
 
 # sent_id = S0022-31
 # text = isécen corrobat indib sex interualla . VII. spatia 7 . VII. toni rɫ. lege plinium .
 # text_en = It is necessary that there be sex intervalla in them, VII. spatia and VII. toni, etc; read Pliny.
 1-2	isécen	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
-2	écen	éicen	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
+2	écen	éicen	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
 3-4	corrobat	_	_	_	_	_	_	_	_
-3	co·	co 4	SCONJ	complementiser	_	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
-4	·rrobat	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	2	ccomp	X	Gloss=to be, to exist,
-5	indib	i	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	xcomp:pred:prep	X	Gloss=in, into
-6	sex	sex	NUM	numeral	_	7	nummod	X	Gloss=six
-7	interualla	interuallum	NOUN	noun	Case=Nom|Number=Plur	4	nsubj	X	Gloss=open space, interval (of time, distance), difference
-8	.	.	PUNCT	punctuation	_	_	_	_	_
-9	VII.	secht 1	NUM	numeral	_	10	nummod	X	Gloss=seven
-10	spatia	spatium	NOUN	noun	Case=Nom|Number=Plur	7	conj	X	Gloss=space
-11	7	ocus 2	CCONJ	conjunction	_	14	cc	X	Gloss=coordinating: and, since
-12	.	.	PUNCT	punctuation	_	_	_	_	_
-13	VII.	secht 1	NUM	numeral	_	14	nummod	X	Gloss=seven
-14	toni	tonus	NOUN	noun	Case=Nom|Number=Plur	10	conj	X	Gloss=stretching, straining, strain, tension
-15	rɫ.	reliqua	NOUN	noun	Case=Nom|Number=Plur	7	appos	X	Gloss=the rest, remainder
-16	lege	lego	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Impv|VerbForm=Fin|Subcat=Trans	2	parataxis	X	Gloss=to read
-17	plinium	Plinius	PROPN	proper_noun	Case=Acc|Number=Sing	16	obj	X	Gloss=Pliny
+3	co·	co 4	SCONJ	complementiser	_	4	mark:prt	4:mark:prt	Gloss=so that, until (+independent, leniting)
+4	·rrobat	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	2	ccomp	2:ccomp	Gloss=to be, to exist,
+5	indib	i	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	xcomp:pred:prep	4:xcomp:pred:prep	Gloss=in, into
+6	sex	sex	NUM	numeral	_	7	nummod	7:nummod	Gloss=six
+7	interualla	interuallum	NOUN	noun	Case=Nom|Number=Plur	4	nsubj	4:nsubj	Gloss=open space, interval (of time, distance), difference
+8	.	.	PUNCT	punctuation	_	10	punct	10:punct	_
+9	VII.	secht 1	NUM	numeral	_	10	nummod	10:nummod	Gloss=seven
+10	spatia	spatium	NOUN	noun	Case=Nom|Number=Plur	7	conj	7:conj	Gloss=space
+11	7	ocus 2	CCONJ	conjunction	_	14	cc	14:cc	Gloss=coordinating: and, since
+12	.	.	PUNCT	punctuation	_	14	punct	14:punct	_
+13	VII.	secht 1	NUM	numeral	_	14	nummod	14:nummod	Gloss=seven
+14	toni	tonus	NOUN	noun	Case=Nom|Number=Plur	10	conj	10:conj	Gloss=stretching, straining, strain, tension
+15	rɫ.	reliqua	NOUN	noun	Case=Nom|Number=Plur	7	appos	7:appos	Gloss=the rest, remainder
+16	lege	lego	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Impv|VerbForm=Fin|Subcat=Trans	2	parataxis	2:parataxis	Gloss=to read
+17	plinium	Plinius	PROPN	proper_noun	Case=Acc|Number=Sing	16	obj	16:obj	Gloss=Pliny
 
 # sent_id = S0022-32
 # text = súas cáchdíríuch stationaria in superioribus .i. isnaib rendaib fail húas gréin
 # text_en = straight upwards, ... that is, in the constellations which are above the sun
-1	súas	súas	ADV	adverb	_	4	advmod	X	Gloss=up, upwards
+1	súas	súas	ADV	adverb	_	4	advmod	4:advmod	Gloss=up, upwards
 2-3	cáchdíríuch	_	_	_	_	_	_	_	_
-2	cách	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	4	det	X	Gloss=every, each, all, any
-3	díríuch	díriuch	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	4	amod	X	Gloss=straight, direct; straightforward, upright, just, right
-4	stationaria	stationārius	NOUN	noun	_	10	dislocated	X	Gloss=_
-5	in	in (Lat)	ADP	preposition	Case=Unk	6	case	X	Gloss=in, into
-6	superioribus	superior	ADJ	adjective	Number=Plur|Degree=Pos	4	obl	X	Gloss=higher, superior, previous
-7	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
+2	cách	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	4	det	4:det	Gloss=every, each, all, any
+3	díríuch	díriuch	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	4	amod	4:amod	Gloss=straight, direct; straightforward, upright, just, right
+4	stationaria	stationārius	NOUN	noun	_	10	dislocated	10:dislocated	Gloss=_
+5	in	in (Lat)	ADP	preposition	Case=Unk	6	case	6:case	Gloss=in, into
+6	superioribus	superior	ADJ	adjective	Number=Plur|Degree=Pos	4	obl	4:obl	Gloss=higher, superior, previous
+7	.i.	.i.	CCONJ	abbreviation	_	10	cc	10:cc	Gloss=id est, it is
 8-9	isnaib	_	_	_	_	_	_	_	_
-8	i	i	ADP	preposition	Case=Dat	10	case	X	Gloss=in, into
-9	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	rendaib	rind 2	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=star, constellation
-11	fail	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	10	acl:relcl	X	Gloss=to be, to exist,
-12	húas	ós 1	ADP	preposition	Case=Dat	13	case	X	Gloss=over, above
-13	gréin	grían	NOUN	noun	Case=Dat|Number=Sing	11	xcomp:pred	X	Gloss=sun
+8	i	i	ADP	preposition	Case=Dat	10	case	10:case	Gloss=in, into
+9	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	10	det	10:det	Gloss=the
+10	rendaib	rind 2	NOUN	noun	Case=Dat|Number=Plur	0	root	0:root	Gloss=star, constellation
+11	fail	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	10	acl:relcl	10:acl:relcl	Gloss=to be, to exist,
+12	húas	ós 1	ADP	preposition	Case=Dat	13	case	13:case	Gloss=over, above
+13	gréin	grían	NOUN	noun	Case=Dat|Number=Sing	11	xcomp:pred	11:xcomp:pred	Gloss=sun
 
 # sent_id = S0022-33
 # text = biduo .i. allaithe ṅ dedenach diud noichtich 7 phrím archiunn rɫ.
 # text_en = biduo (i.e. a period continuing for two days), that is, the last day [at] the end of a period of twenty-nine days and the first following, etc.
-1	biduo	biduus	ADJ	adjective	Case=Dat|Number=Sing|Degree=Pos	0	root	X	Gloss=continuing for two days
-2	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+1	biduo	biduus	ADJ	adjective	Case=Dat|Number=Sing|Degree=Pos	0	root	0:root	Gloss=continuing for two days
+2	.i.	.i.	CCONJ	abbreviation	_	4	cc	4:cc	Gloss=id est, it is
 3-4	allaithe	_	_	_	_	_	_	_	_
-3	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	llaithe	laithe	NOUN	noun	Case=Nom|Number=Sing	1	conj	X	Gloss=day
-5	ṅdedenach	dédenach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	4	amod	X	Gloss=last, final
-6	diud	deäd	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=end, conclusion
-7	noichtich	noíchtech	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	6	nmod	X	Gloss=related to the number twenty nine
-8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
-9	phrím	prím	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	4	conj	X	Gloss=first, primary, main
+3	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	4:det	Gloss=the
+4	llaithe	laithe	NOUN	noun	Case=Nom|Number=Sing	1	conj	1:conj	Gloss=day
+5	ṅdedenach	dédenach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	4	amod	4:amod	Gloss=last, final
+6	diud	deäd	NOUN	noun	Case=Dat|Number=Sing	4	obl	4:obl	Gloss=end, conclusion
+7	noichtich	noíchtech	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	6	nmod	6:nmod	Gloss=related to the number twenty nine
+8	7	ocus 2	CCONJ	conjunction	_	9	cc	9:cc	Gloss=coordinating: and, since
+9	phrím	prím	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	4	conj	4:conj	Gloss=first, primary, main
 10-11	archiunn	_	_	_	_	_	_	_	_
-10	ar	ar 1	ADP	preposition	Case=Dat	11	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-11	chiunn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	9	obl	X	Gloss=head; end-point, termination, exchange, purchase
-12	rɫ	reliqua	NOUN	noun	Case=Nom|Number=Plur	1	appos	X	Gloss=the rest, remainder
+10	ar	ar 1	ADP	preposition	Case=Dat	11	case	11:case	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+11	chiunn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	9	obl	9:obl	Gloss=head; end-point, termination, exchange, purchase
+12	rɫ	reliqua	NOUN	noun	Case=Nom|Number=Plur	1	appos	1:appos	Gloss=the rest, remainder
 
 # sent_id = S0022-34
 # text = nomen dunaib erdomdnaib imbí indócbál frisarind absidias .i. circulos .i. fubíth doṅgniat cercol ocondocbáil
 # text_en = A name for the depths wherein the rising-up is to the constellation. Absidias, namely circulos; that is, because they make a circle in the rising.
-1	nomen	nomen	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=name
+1	nomen	nomen	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=name
 2-3	dunaib	_	_	_	_	_	_	_	_
-2	du	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
-3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	domdnaib	domain	ADJ	adjective	Case=Dat|Number=Plur|Gender=Fem|Degree=Pos	1	obl	X	Gloss=deep. subst. bottom, depth, profound, intense, thoughtful
-5	erdom<d>naib	airdomain	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	4	amod	X	Gloss=very deep
+2	du	do 1	ADP	preposition	Case=Dat	4	case	4:case	Gloss=to, for, by etc.
+3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	4	det	4:det	Gloss=the
+4	domdnaib	domain	ADJ	adjective	Case=Dat|Number=Plur|Gender=Fem|Degree=Pos	1	obl	1:obl	Gloss=deep. subst. bottom, depth, profound, intense, thoughtful
+5	erdom<d>naib	airdomain	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	4	amod	4:amod	Gloss=very deep
 6-7	imbí	_	_	_	_	_	_	_	_
-6	i	i	ADP	preposition	Case=Dat	7	xcomp:pred:prep	X	Gloss=in, into
-7	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	acl:relcl	X	Gloss=to be, to exist,
+6	i	i	ADP	preposition	Case=Dat	7	xcomp:pred:prep	7:xcomp:pred:prep	Gloss=in, into
+7	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	acl:relcl	4:acl:relcl	Gloss=to be, to exist,
 8-9	indócbál	_	_	_	_	_	_	_	_
-8	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	ócbál	ócbál	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	7	nsubj	X	Gloss=the act of rising
+8	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	9:det	Gloss=the
+9	ócbál	ócbál	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	7	nsubj	7:nsubj	Gloss=the act of rising
 10-12	frisarind	_	_	_	_	_	_	_	_
-10	fri	fri	ADP	preposition	Case=Acc	12	case	X	Gloss=towards, against, standard of comparison
-11	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	12	det	X	Gloss=the
-12	rind	rind 2	NOUN	noun	Case=Acc|Number=Sing	9	obl	X	Gloss=star, constellation
-13	absidias	apsidia	NOUN	noun	Case=Acc|Number=Plur	1	appos	X	Gloss=_
-14	.i.	.i.	CCONJ	abbreviation	_	15	cc	X	Gloss=id est, it is
-15	circulos	circulus	NOUN	noun	Case=Acc|Number=Plur	13	conj	X	Gloss=circle, a circular figure, orbit
-16	.i.	.i.	CCONJ	abbreviation	_	18	cc	X	Gloss=id est, it is
+10	fri	fri	ADP	preposition	Case=Acc	12	case	12:case	Gloss=towards, against, standard of comparison
+11	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	12	det	12:det	Gloss=the
+12	rind	rind 2	NOUN	noun	Case=Acc|Number=Sing	9	obl	9:obl	Gloss=star, constellation
+13	absidias	apsidia	NOUN	noun	Case=Acc|Number=Plur	1	appos	1:appos	Gloss=_
+14	.i.	.i.	CCONJ	abbreviation	_	15	cc	15:cc	Gloss=id est, it is
+15	circulos	circulus	NOUN	noun	Case=Acc|Number=Plur	13	conj	13:conj	Gloss=circle, a circular figure, orbit
+16	.i.	.i.	CCONJ	abbreviation	_	18	cc	18:cc	Gloss=id est, it is
 17-18	fubíth	_	_	_	_	_	_	_	_
-17	fu	fo	ADP	preposition	Case=Dat	18	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-18	bíth	bith	NOUN	noun	Case=Dat|Number=Sing	13	mark	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
-19	do·ṅgniat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	18	advcl	X	Gloss=to do, to make
-20	cercol	circul	NOUN	noun	Case=Acc|Number=Sing	19	obj	X	Gloss=circle, orbit, zone
+17	fu	fo	ADP	preposition	Case=Dat	18	case	18:case	Gloss=under, of direction towards, into, through, on, about, beneath
+18	bíth	bith	NOUN	noun	Case=Dat|Number=Sing	13	mark	13:mark	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+19	do·ṅgniat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	18	advcl	18:advcl	Gloss=to do, to make
+20	cercol	circul	NOUN	noun	Case=Acc|Number=Sing	19	obj	19:obj	Gloss=circle, orbit, zone
 21-23	ocondocbáil	_	_	_	_	_	_	_	_
-21	oc	oc	ADP	preposition	Case=Dat	23	case	X	Gloss=at, by, besides, with (person)
-22	ond	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	23	det	X	Gloss=the
-23	ocbáil	ócbál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	19	obl	X	Gloss=the act of rising
+21	oc	oc	ADP	preposition	Case=Dat	23	case	23:case	Gloss=at, by, besides, with (person)
+22	ond	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	23	det	23:det	Gloss=the
+23	ocbáil	ócbál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	19	obl	19:obl	Gloss=the act of rising
 
 # sent_id = S0022-35
 # text = .i. gabalrínd ɫ diathre
 # text_en = that is, a pair of compasses, or orbits
-1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
-2	gabalrínd	gabulrind	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=pair of compasses, bow compass
-3	ɫ	nó 1	CCONJ	conjunction	_	4	cc	X	Gloss=disjunctive: or
-4	diathre	díaithir	NOUN	noun	Case=Gen|Number=Plur	2	conj	X	Gloss=orbit
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	2:cc	Gloss=id est, it is
+2	gabalrínd	gabulrind	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=pair of compasses, bow compass
+3	ɫ	nó 1	CCONJ	conjunction	_	4	cc	4:cc	Gloss=disjunctive: or
+4	diathre	díaithir	NOUN	noun	Case=Gen|Number=Plur	2	conj	2:conj	Gloss=orbit
 
 # sent_id = S0022-36
 # text = cotaocbat
 # text_en = They raise themselves up.
-1	cota·ocbat	con·ocaib	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	0	root	X	Gloss=to lift up, to raise, to exalt, to rise, to get up
+1	cota·ocbat	con·ocaib	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	0	root	0:root	Gloss=to lift up, to raise, to exalt, to rise, to get up
 
 # sent_id = S0022-37
 # text = huare ní in óen diaithir doib
 # text_en = since they are not in one orbit
-1	huare	úaire	SCONJ	conjunction	_	4	mark	X	Gloss=causal; coordinating and subordinating: when, since
-2	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
-3	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
-4	nóendiaithir	óendíaithir	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=one orbit
-5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	obl:prep:arg	X	Gloss=to, for, by etc.
+1	huare	úaire	SCONJ	conjunction	_	4	mark	4:mark	Gloss=causal; coordinating and subordinating: when, since
+2	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	3:advmod:neg	Gloss=not
+3	i	i	ADP	preposition	Case=Dat	4	case	4:case	Gloss=in, into
+4	nóendiaithir	óendíaithir	NOUN	noun	Case=Dat|Number=Sing	0	root	0:root	Gloss=one orbit
+5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	obl:prep:arg	4:obl:prep:arg	Gloss=to, for, by etc.
 
 # sent_id = S0022-38
 # text = .i. quasi dixisset testa són dano dintrichtigi lasindi huáir deac .i. fuar salto ascach óen ǽscu .i. cethir brottae 7 alarann deac brotto et VIImad rann cethorchat aili deac brotto
 # text_en = That is, as if he had said, ‘this, then, is lacking from the period of thirty days (i.e., the solar month) besides the twelve hours, namely, to find a leap out of every single lunar month, to wit, four moments and the twelfth part of a moment and the forty-seventh part of the twelfth [part] of a moment’.
-1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
-2	quasi	quasi	X	conjunction	_	3	mark	X	Gloss=as if; about
-3	dixisset	dīcō	VERB	verb	Number=Plur|Person[Subj]=3|Number[Subj]=Sing|Voice=Act|Mood=Subj|Subcat=Trans	0	root	X	Gloss=to say, to declare, to call
-4	testa	do·esta	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	parataxis	X	Gloss=to be absent, to be lacking, to be wanting
-5	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	4	nsubj	X	Gloss=that (mentioned above) that is
-6	dano	danó	ADV	particle_discourse	_	4	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	3:cc	Gloss=id est, it is
+2	quasi	quasi	X	conjunction	_	3	mark	3:mark	Gloss=as if; about
+3	dixisset	dīcō	VERB	verb	Number=Plur|Person[Subj]=3|Number[Subj]=Sing|Voice=Act|Mood=Subj|Subcat=Trans	0	root	0:root	Gloss=to say, to declare, to call
+4	testa	do·esta	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	parataxis	3:parataxis	Gloss=to be absent, to be lacking, to be wanting
+5	són	-són	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Neut	4	nsubj	4:nsubj	Gloss=that (mentioned above) that is
+6	dano	danó	ADV	particle_discourse	_	4	advmod	4:advmod	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
 7-9	dintrichtigi	_	_	_	_	_	_	_	_
-7	di	di	ADP	preposition	Case=Dat	9	case	X	Gloss=away, from, cause or reason, by
-8	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	trichtigi	tríchtaige	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=a period of thirty days
+7	di	di	ADP	preposition	Case=Dat	9	case	9:case	Gloss=away, from, cause or reason, by
+8	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	9:det	Gloss=the
+9	trichtigi	tríchtaige	NOUN	noun	Case=Dat|Number=Sing	4	obl	4:obl	Gloss=a period of thirty days
 10-12	lasindi	_	_	_	_	_	_	_	_
-10	la	la	ADP	preposition	Case=Acc	13	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-11	sin	in 1	DET	definite_article	Case=Acc|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
-12	di	da	NUM	adjective_numeral	Case=Acc|Gender=Fem	13	nummod	X	Gloss=two
-13	huáir	úar 2	NOUN	noun	Case=Acc	4	obl	X	Gloss=hour, time, occasion; point of time
-14	deac	deëc	NUM	numeral	_	13	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
-15	.i.	.i.	CCONJ	abbreviation	_	16	cc	X	Gloss=id est, it is
-16	fuar	fuär	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of preparing, providing; provision
-17	salto	salt	NOUN	noun	Case=Gen|Number=Sing	16	obj	X	Gloss=leap
+10	la	la	ADP	preposition	Case=Acc	13	case	13:case	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+11	sin	in 1	DET	definite_article	Case=Acc|Gender=Fem|Definite=Def|PronType=Art	13	det	13:det	Gloss=the
+12	di	da	NUM	adjective_numeral	Case=Acc|Gender=Fem	13	nummod	13:nummod	Gloss=two
+13	huáir	úar 2	NOUN	noun	Case=Acc	4	obl	4:obl	Gloss=hour, time, occasion; point of time
+14	deac	deëc	NUM	numeral	_	13	nummod	13:nummod	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+15	.i.	.i.	CCONJ	abbreviation	_	16	cc	16:cc	Gloss=id est, it is
+16	fuar	fuär	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	conj	4:conj	Gloss=the act of preparing, providing; provision
+17	salto	salt	NOUN	noun	Case=Gen|Number=Sing	16	obj	16:obj	Gloss=leap
 18-19	ascach	_	_	_	_	_	_	_	_
-18	as	a 7	ADP	preposition	Case=Dat	20	case	X	Gloss=out of, from
-19	cach	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	20	det	X	Gloss=every, each, all, any
-20	óenǽscu	óenéscae	NOUN	noun	Case=Dat|Number=Sing	16	obl	X	Gloss=single lunar month
-21	.i.	.i.	CCONJ	abbreviation	_	22	cc	X	Gloss=id est, it is
-22	cethir	cethir	NOUN	noun	Case=Nom|Number=Plur|Gender=Masc	23	nummod	X	Gloss=four-footed animal, beast ; four
-23	brottae	brothad	NOUN	noun	Case=Nom|Number=Plur	17	conj	X	Gloss=moment ; unit or small division of time
-24	7	ocus 2	CCONJ	conjunction	_	25	cc	X	Gloss=coordinating: and, since
-25	ala	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	26	amod	X	Gloss=the other, one another ; else; second
-26	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	23	conj	X	Gloss=part, share, division, part (of speech), portion
-27	deac	deëc	NUM	numeral	_	26	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
-28	brotto	brothad	NOUN	noun	Case=Gen|Number=Sing	26	nmod	X	Gloss=moment ; unit or small division of time
-29	et	ocus 2	CCONJ	conjunction	_	31	cc	X	Gloss=coordinating: and, since
-30	VIImad	sechtmad	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing	31	nummod	X	Gloss=seventh
-31	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	23	conj	X	Gloss=part, share, division, part (of speech), portion
-32	cethorchat	cethorcho	NUM	noun_numeral	Case=Gen|Number=Sing	31	nummod	X	Gloss=forty
-33	aili	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	35	nmod	X	Gloss=other, another, else, second
-34	deac	deëc	NUM	numeral	_	35	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
-35	brotto	brothad	NOUN	noun	Case=Gen|Number=Sing	31	nmod	X	Gloss=moment ; unit or small division of time
+18	as	a 7	ADP	preposition	Case=Dat	20	case	20:case	Gloss=out of, from
+19	cach	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	20	det	20:det	Gloss=every, each, all, any
+20	óenǽscu	óenéscae	NOUN	noun	Case=Dat|Number=Sing	16	obl	16:obl	Gloss=single lunar month
+21	.i.	.i.	CCONJ	abbreviation	_	22	cc	22:cc	Gloss=id est, it is
+22	cethir	cethir	NOUN	noun	Case=Nom|Number=Plur|Gender=Masc	23	nummod	23:nummod	Gloss=four-footed animal, beast ; four
+23	brottae	brothad	NOUN	noun	Case=Nom|Number=Plur	17	conj	17:conj	Gloss=moment ; unit or small division of time
+24	7	ocus 2	CCONJ	conjunction	_	25	cc	25:cc	Gloss=coordinating: and, since
+25	ala	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	26	amod	26:amod	Gloss=the other, one another ; else; second
+26	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	23	conj	23:conj	Gloss=part, share, division, part (of speech), portion
+27	deac	deëc	NUM	numeral	_	26	nummod	26:nummod	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+28	brotto	brothad	NOUN	noun	Case=Gen|Number=Sing	26	nmod	26:nmod	Gloss=moment ; unit or small division of time
+29	et	ocus 2	CCONJ	conjunction	_	31	cc	31:cc	Gloss=coordinating: and, since
+30	VIImad	sechtmad	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing	31	nummod	31:nummod	Gloss=seventh
+31	rann	rann 1	NOUN	noun	Case=Nom|Number=Sing	23	conj	23:conj	Gloss=part, share, division, part (of speech), portion
+32	cethorchat	cethorcho	NUM	noun_numeral	Case=Gen|Number=Sing	31	nummod	31:nummod	Gloss=forty
+33	aili	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	35	nmod	35:nmod	Gloss=other, another, else, second
+34	deac	deëc	NUM	numeral	_	35	nummod	35:nummod	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+35	brotto	brothad	NOUN	noun	Case=Gen|Number=Sing	31	nmod	31:nmod	Gloss=moment ; unit or small division of time
 
 # sent_id = S0022-39
 # text = antúaid cachṅdiruch
 # text_en = exactly straight from the north
-1	antúaid	antúaid	ADV	adverb	_	3	advmod	X	Gloss=from the north
+1	antúaid	antúaid	ADV	adverb	_	3	advmod	3:advmod	Gloss=from the north
 2-3	cachṅdiruch	_	_	_	_	_	_	_	_
-2	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Neut|PronType=Tot	3	det	X	Gloss=every, each, all, any
-3	ṅdiruch	díriuch	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=straight, direct; straightforward, upright, just, right
+2	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Neut|PronType=Tot	3	det	3:det	Gloss=every, each, all, any
+3	ṅdiruch	díriuch	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=straight, direct; straightforward, upright, just, right
 
 # sent_id = S0022-40
 # text = forláim deis aníartúaid donprímgáid biid circius
 # text_en = On the right hand from the northwest of the chief wind, there is Circius.
 1-2	forláim	_	_	_	_	_	_	_	_
-1	for	for	ADP	preposition	Case=Dat	2	case	X	Gloss=upon, over, on
-2	láim	lám	NOUN	noun	Case=Dat|Number=Sing	8	dislocated	X	Gloss=hand, arm
-3	deis	des	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	2	amod	X	Gloss=right (direction), south, just, meet
-4	aníartúaid	aníartúaid	ADV	adverb	_	7	advmod	X	Gloss=from the northwest
+1	for	for	ADP	preposition	Case=Dat	2	case	2:case	Gloss=upon, over, on
+2	láim	lám	NOUN	noun	Case=Dat|Number=Sing	8	dislocated	8:dislocated	Gloss=hand, arm
+3	deis	des	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	2	amod	2:amod	Gloss=right (direction), south, just, meet
+4	aníartúaid	aníartúaid	ADV	adverb	_	7	advmod	7:advmod	Gloss=from the northwest
 5-7	donprímgáid	_	_	_	_	_	_	_	_
-5	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-6	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	prímgáid	prímgáeth	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=chief wind
-8	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
-9	circius	Circius	NOUN	noun	Case=Nom|Number=Sing	8	nsubj	X	Gloss=a west-northwest wind
+5	do	do 1	ADP	preposition	Case=Dat	7	case	7:case	Gloss=to, for, by etc.
+6	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	7	det	7:det	Gloss=the
+7	prímgáid	prímgáeth	NOUN	noun	Case=Dat|Number=Sing	2	obl	2:obl	Gloss=chief wind
+8	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	0:root	Gloss=to be, to exist,
+9	circius	Circius	NOUN	noun	Case=Nom|Number=Sing	8	nsubj	8:nsubj	Gloss=a west-northwest wind
 
 # sent_id = S0022-41
 # text = forlaim chlí anairtuáid biid aquilo
 # text_en = On the left hand from the northeast, there is Aquilo.
 1-2	forlaim	_	_	_	_	_	_	_	_
-1	for	for	ADP	preposition	Case=Dat	2	case	X	Gloss=upon, over, on
-2	laim	lám	NOUN	noun	Case=Dat|Number=Sing	5	dislocated	X	Gloss=hand, arm
-3	chlí	clé	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	2	amod	X	Gloss=left
-4	anairtuáid	anairthúaid	ADV	adverb	_	2	advmod	X	Gloss=from the northeast
-5	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
-6	Aquilo	aquilō	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=North wind, North
+1	for	for	ADP	preposition	Case=Dat	2	case	2:case	Gloss=upon, over, on
+2	laim	lám	NOUN	noun	Case=Dat|Number=Sing	5	dislocated	5:dislocated	Gloss=hand, arm
+3	chlí	clé	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	2	amod	2:amod	Gloss=left
+4	anairtuáid	anairthúaid	ADV	adverb	_	2	advmod	2:advmod	Gloss=from the northeast
+5	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	0:root	Gloss=to be, to exist,
+6	Aquilo	aquilō	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	5:nsubj	Gloss=North wind, North
 
 # sent_id = S0022-42
 # text = hicontrachtu
 # text_en = into ebb-tibes
 1-2	hicontrachtu	_	_	_	_	_	_	_	_
-1	hi	i	ADP	preposition	Case=Acc	2	case	X	Gloss=in, into
-2	contrachtu	contracht	NOUN	noun	Case=Acc|Number=Plur	0	root	X	Gloss=neap-tide
+1	hi	i	ADP	preposition	Case=Acc	2	case	2:case	Gloss=in, into
+2	contrachtu	contracht	NOUN	noun	Case=Acc|Number=Plur	0	root	0:root	Gloss=neap-tide
 
 # sent_id = S0022-43
 # text = hirobartai
 # text_en = into flood-tides
 1-2	hirobartai	_	_	_	_	_	_	_	_
-1	hi	i	ADP	preposition	Case=Acc	2	case	X	Gloss=in, into
-2	robartai	robartae	NOUN	noun	Case=Acc|Number=Plur	0	root	X	Gloss=spring tide ; impetuous course; flood-tide
+1	hi	i	ADP	preposition	Case=Acc	2	case	2:case	Gloss=in, into
+2	robartai	robartae	NOUN	noun	Case=Acc|Number=Plur	0	root	0:root	Gloss=spring tide ; impetuous course; flood-tide
 
 # sent_id = S0022-44
 # text = arfuris
 # text_en = You shall hold.
-1	ar·furis	ar·fuirig	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to hold back, to restrain, to delay
+1	ar·furis	ar·fuirig	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	0:root	Gloss=to hold back, to restrain, to delay
 
 # sent_id = S0022-45
 # text = asetarscarthu
 # text_en = which is more remote
 1-2	asetarscarthu	_	_	_	_	_	_	_	_
-1	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	2	cop	X	Gloss=to be
-2	etarscarthu	etarscarthae	ADJ	verbal_participle	Degree=Cmp	0	root	X	Gloss=separated, divided
+1	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	2	cop	2:cop	Gloss=to be
+2	etarscarthu	etarscarthae	ADJ	verbal_participle	Degree=Cmp	0	root	0:root	Gloss=separated, divided
 
 # sent_id = S0022-46
 # text = teora cethramdin huare aequinocht indid mailliu atuile arcach óenlaithiu
 # text_en = three quarters of an equinoctial hour by which the flood is slower on every single day
-1	teora	trí	NUM	adjective_numeral	Case=Nom|Number=Plur|Gender=Fem	2	nummod	X	Gloss=three
-2	cethramdin	cethramthu	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=quarter, fourth part
-3	huare	úar 2	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=hour, time, occasion; point of time
-4	aequinocht	equinocht	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem|Degree=Pos	3	amod	X	Gloss=equinox
+1	teora	trí	NUM	adjective_numeral	Case=Nom|Number=Plur|Gender=Fem	2	nummod	2:nummod	Gloss=three
+2	cethramdin	cethramthu	NOUN	noun	Case=Nom|Number=Plur	0	root	0:root	Gloss=quarter, fourth part
+3	huare	úar 2	NOUN	noun	Case=Gen|Number=Sing	2	nmod	2:nmod	Gloss=hour, time, occasion; point of time
+4	aequinocht	equinocht	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem|Degree=Pos	3	amod	3:amod	Gloss=equinox
 5-6	indid	_	_	_	_	_	_	_	_
-5	i	i	ADP	preposition	Case=Dat	6	obl:prep	X	Gloss=in, into
-6	ndid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	cop	X	Gloss=to be
-7	mailliu	mall	ADJ	adjective	Degree=Cmp	2	acl:relcl	X	Gloss=slow (in movement or action)
+5	i	i	ADP	preposition	Case=Dat	6	obl:prep	6:obl:prep	Gloss=in, into
+6	ndid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	cop	7:cop	Gloss=to be
+7	mailliu	mall	ADJ	adjective	Degree=Cmp	2	acl:relcl	2:acl:relcl	Gloss=slow (in movement or action)
 8-9	atuile	_	_	_	_	_	_	_	_
-8	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	tuile	tuile	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	7	nsubj	X	Gloss=the act of flowing, flooding; abundance
+8	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	9	det	9:det	Gloss=the
+9	tuile	tuile	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	7	nsubj	7:nsubj	Gloss=the act of flowing, flooding; abundance
 10-11	arcach	_	_	_	_	_	_	_	_
-10	ar	ar 1	ADP	preposition	Case=Dat	12	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-11	cach	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	12	det	X	Gloss=every, each, all, any
+10	ar	ar 1	ADP	preposition	Case=Dat	12	case	12:case	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+11	cach	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	12	det	12:det	Gloss=every, each, all, any
 12-13	óenlaithiu	_	_	_	_	_	_	_	_
 12	óen	óen	NUM	adjective_numeral_noun	Case=Dat|Number=Sing|Gender=Neut	13	nummod	13:nummod	Gloss=one, single, same, only, unique; as compound element 'great'
-13	laithiu	laithe	NOUN	noun	Case=Dat|Number=Sing	7	obl	X	Gloss=day
+13	laithiu	laithe	NOUN	noun	Case=Dat|Number=Sing	7	obl	7:obl	Gloss=day
 
 # sent_id = S0022-48
 # text = itarscarthar
 # text_en = It is destroyed.
-1	itar·scarthar	eter·scara	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to separate, to divide, to leave, to dissolve, to depart from
+1	itar·scarthar	eter·scara	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	0:root	Gloss=to separate, to divide, to leave, to dissolve, to depart from
 
 # sent_id = S0022-49
 # text = arit di húair in signo
 # text_en = For they are two hours in signo.
 1-2	arit	_	_	_	_	_	_	_	_
-1	ar	ar 2	SCONJ	conjunction	_	4	mark	X	Gloss=causal: since, for; final: so that
-2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-3	di	da	NUM	adjective_numeral	Case=Nom|Gender=Fem	4	nummod	X	Gloss=two
-4	húair	úar 2	NOUN	noun	Case=Nom	0	root	X	Gloss=hour, time, occasion; point of time
-5	in	in (Lat)	ADP	preposition	Case=Unk	6	case	X	Gloss=in, into
-6	signo	signum	NOUN	noun	Number=Sing	4	obl	X	Gloss=mark, sign, miracle
+1	ar	ar 2	SCONJ	conjunction	_	4	mark	4:mark	Gloss=causal: since, for; final: so that
+2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	4:cop	Gloss=to be
+3	di	da	NUM	adjective_numeral	Case=Nom|Gender=Fem	4	nummod	4:nummod	Gloss=two
+4	húair	úar 2	NOUN	noun	Case=Nom	0	root	0:root	Gloss=hour, time, occasion; point of time
+5	in	in (Lat)	ADP	preposition	Case=Unk	6	case	6:case	Gloss=in, into
+6	signo	signum	NOUN	noun	Number=Sing	4	obl	4:obl	Gloss=mark, sign, miracle
 
 # sent_id = S0022-50
 # text = dond lethtomus
 # text_en = to the half-measure
 1-2	dond	_	_	_	_	_	_	_	_
-1	do	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
-2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	lethtomus	lettomus	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of measuring half the quantity; half-measure
+1	do	do 1	ADP	preposition	Case=Dat	3	case	3:case	Gloss=to, for, by etc.
+2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	3:det	Gloss=the
+3	lethtomus	lettomus	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	0:root	Gloss=the act of measuring half the quantity; half-measure
 
 # sent_id = S0022-51
 # text = archiunn
 # text_en = ahead
 1-2	archiunn	_	_	_	_	_	_	_	_
-1	ar	ar 1	ADP	preposition	Case=Dat	2	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-2	chiunn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=head; end-point, termination, exchange, purchase
+1	ar	ar 1	ADP	preposition	Case=Dat	2	case	2:case	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+2	chiunn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	0	root	0:root	Gloss=head; end-point, termination, exchange, purchase
 
 # sent_id = S0022-52
 # text = diéis
 # text_en = behind (lit. “on the track”)
 1-2	diéis	_	_	_	_	_	_	_	_
-1	di	di	ADP	preposition	Case=Dat	2	case	X	Gloss=away, from, cause or reason, by
-2	éis	éis 2	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=track, trace
+1	di	di	ADP	preposition	Case=Dat	2	case	2:case	Gloss=away, from, cause or reason, by
+2	éis	éis 2	NOUN	noun	Case=Dat|Number=Sing	0	root	0:root	Gloss=track, trace
 
 # sent_id = S0022-53
 # text = huide laithi beos
 # text_en = a day's journey still
-1	huide	uide	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=journey, march
-2	laithi	laithe	NOUN	noun	Case=Gen|Number=Sing	1	nmod	X	Gloss=day
-3	beos	beös	ADV	adverb	_	1	advmod	X	Gloss=still, yet, further, moreover, again, besides, also, in addition
+1	huide	uide	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=journey, march
+2	laithi	laithe	NOUN	noun	Case=Gen|Number=Sing	1	nmod	1:nmod	Gloss=day
+3	beos	beös	ADV	adverb	_	1	advmod	1:advmod	Gloss=still, yet, further, moreover, again, besides, also, in addition
 
 # sent_id = S0022-54
 # text = cipé
 # text_en = whatever [it be]
 1-2	cipé	_	_	_	_	_	_	_	_
-1	ci·	ce	PRON	particle_interrogative	_	2	xcomp:pred	X	Gloss=unstressed, used with the dependent form of the verb ; who, what, which
-2	·pé	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+1	ci·	ce	PRON	particle_interrogative	_	2	xcomp:pred	2:xcomp:pred	Gloss=unstressed, used with the dependent form of the verb ; who, what, which
+2	·pé	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	0:root	Gloss=to be, to exist,
 
 # sent_id = S0022-55
 # text = indaile
 # text_en = the second
 1-2	indaile	_	_	_	_	_	_	_	_
-1	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	0	root	X	Gloss=other, another, else, second
+1	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	2:det	Gloss=the
+2	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	0	root	0:root	Gloss=other, another, else, second
 
 # sent_id = S0022-56
 # text = tenebit .i. cuit inna aine 7 inna aile
 # text_en = tenebit; that is, part of the one and of the other
-1	tenebit	teneō	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to hold, to possess, to guard, etc.
-2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
-3	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	1	conj	X	Gloss=portion, part, share; a matter of, a mere
-4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	aine	óen	ADJ	adjective_numeral_noun	Case=Gen|Number=Sing|Gender=Fem	3	nmod	X	Gloss=one, single, same, only, unique; as compound element 'great'
-6	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
-7	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	aile	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Fem	5	conj	X	Gloss=other, another, else, second
+1	tenebit	teneō	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	0:root	Gloss=to hold, to possess, to guard, etc.
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	3:cc	Gloss=id est, it is
+3	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	1	conj	1:conj	Gloss=portion, part, share; a matter of, a mere
+4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	5:det	Gloss=the
+5	aine	óen	ADJ	adjective_numeral_noun	Case=Gen|Number=Sing|Gender=Fem	3	nmod	3:nmod	Gloss=one, single, same, only, unique; as compound element 'great'
+6	7	ocus 2	CCONJ	conjunction	_	8	cc	8:cc	Gloss=coordinating: and, since
+7	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	8:det	Gloss=the
+8	aile	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Fem	5	conj	5:conj	Gloss=other, another, else, second
 
 # sent_id = S0022-57
 # text = a óen fodeich
 # text_en = ten times one
-1	a	a 3	PART	particle_numerative	_	2	mark:prt	X	Gloss=particle used before numerals in isolation
-2	óen	óen	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=one, single, same, only, unique; as compound element 'great'
+1	a	a 3	PART	particle_numerative	_	2	mark:prt	2:mark:prt	Gloss=particle used before numerals in isolation
+2	óen	óen	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing|Gender=Neut	0	root	0:root	Gloss=one, single, same, only, unique; as compound element 'great'
 3-4	fodeich	_	_	_	_	_	_	_	_
-3	fo	fo	ADP	preposition	Case=Acc/Dat	4	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-4	deich	deich	NUM	numeral	_	2	obl	X	Gloss=ten
+3	fo	fo	ADP	preposition	Case=Acc/Dat	4	case	4:case	Gloss=under, of direction towards, into, through, on, about, beneath
+4	deich	deich	NUM	numeral	_	2	obl	2:obl	Gloss=ten
 
 # sent_id = S0022-58
 # text = ita deich
 # text_en = They are ten.
 1-2	ita	_	_	_	_	_	_	_	_
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
-2	a	a 3	PART	particle_numerative	_	3	mark:prt	X	Gloss=particle used before numerals in isolation
-3	deich	deich	NUM	numeral	_	0	root	X	Gloss=ten
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	3:cop	Gloss=to be
+2	a	a 3	PART	particle_numerative	_	3	mark:prt	3:mark:prt	Gloss=particle used before numerals in isolation
+3	deich	deich	NUM	numeral	_	0	root	0:root	Gloss=ten
 
 # sent_id = S0022-59
 # text = is fiche
 # text_en = It is twenty.
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
-2	fiche	fiche	NUM	noun_numeral	Case=Nom|Number=Sing	0	root	X	Gloss=twenty
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	3:cop	Gloss=to be
+2	fiche	fiche	NUM	noun_numeral	Case=Nom|Number=Sing	0	root	0:root	Gloss=twenty
 
 # sent_id = S0022-60
 # text = lingidsem tar áes ṅesci beos ar chumbri
 # text_en = He skips over the age of the moon again for brevity's sake.
 1-2	lingidsem	_	_	_	_	_	_	_	_
-1	lingid	lingid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to leap, to jump
-2	sem	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	1	nsubj	X	Gloss=emphasising particle
-3	tar	tar 1	ADP	preposition	Case=Acc	4	case	X	Gloss=over, across, covering
-4	áes	áes 1	NOUN	noun	Case=Acc|Number=Sing	1	obl	X	Gloss=stage, period (of life); age, years (of person etc.)
-5	ṅesci	éscae	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss= moon, month
-6	beos	beös	ADV	adverb	_	1	advmod	X	Gloss=still, yet, further, moreover, again, besides, also, in addition
-7	ar	ar 1	ADP	preposition	Case=Acc	8	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-8	chumbri	cuimbre	NOUN	noun	Case=Dat	1	obl	X	Gloss=brevity, shortness
+1	lingid	lingid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	0:root	Gloss=to leap, to jump
+2	sem	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	1	nsubj	1:nsubj	Gloss=emphasising particle
+3	tar	tar 1	ADP	preposition	Case=Acc	4	case	4:case	Gloss=over, across, covering
+4	áes	áes 1	NOUN	noun	Case=Acc|Number=Sing	1	obl	1:obl	Gloss=stage, period (of life); age, years (of person etc.)
+5	ṅesci	éscae	NOUN	noun	Case=Gen|Number=Sing	4	nmod	4:nmod	Gloss= moon, month
+6	beos	beös	ADV	adverb	_	1	advmod	1:advmod	Gloss=still, yet, further, moreover, again, besides, also, in addition
+7	ar	ar 1	ADP	preposition	Case=Acc	8	case	8:case	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+8	chumbri	cuimbre	NOUN	noun	Case=Dat	1	obl	1:obl	Gloss=brevity, shortness
 
 # sent_id = S0022-61
 # text = tricha
 # text_en = thirty
-1	tricha	trícha	NUM	noun_numeral	Case=Nom|Number=Sing	0	root	X	Gloss=thirty
+1	tricha	trícha	NUM	noun_numeral	Case=Nom|Number=Sing	0	root	0:root	Gloss=thirty
 
 # sent_id = S0022-62
 # text = is huathath
 # text_en = It is rare.
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
-2	huathath	úathad	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=gramm. singular, a small number, a few, rare
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	2:cop	Gloss=to be
+2	huathath	úathad	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	0:root	Gloss=gramm. singular, a small number, a few, rare
 
 # sent_id = S0022-63
 # text = nech
 # text_en = anyone
-1	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	0	root	X	Gloss=anyone, one, someone
+1	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	0	root	0:root	Gloss=anyone, one, someone
 
 # sent_id = S0022-64
 # text = da llae for óen littir
 # text_en = two days on one letter
-1	da	da	NUM	adjective_numeral	Case=Nom|Gender=Neut	2	nummod	X	Gloss=two
-2	llae	laë	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=day, daytime
-3	for	for	ADP	preposition	Case=Dat	4	case	X	Gloss=upon, over, on
+1	da	da	NUM	adjective_numeral	Case=Nom|Gender=Neut	2	nummod	2:nummod	Gloss=two
+2	llae	laë	NOUN	noun	Case=Nom|Number=Plur	0	root	0:root	Gloss=day, daytime
+3	for	for	ADP	preposition	Case=Dat	4	case	4:case	Gloss=upon, over, on
 4	óen	óen	NUM	adjective_numeral_noun	Case=Dat|Number=Sing|Gender=Fem	5	nummod	5:nummod	Gloss=one, single, same, only, unique; as compound element 'great'
-5	littir	litter	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=letter
+5	littir	litter	NOUN	noun	Case=Dat|Number=Sing	2	obl	2:obl	Gloss=letter
 
 # sent_id = S0022-65
 # text = félire
 # text_en = calendar
-1	félire	féilire	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=martyrology; calendar
+1	félire	féilire	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=martyrology; calendar
+
