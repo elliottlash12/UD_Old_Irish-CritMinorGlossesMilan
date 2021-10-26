@@ -4018,24 +4018,24 @@
 # sent_id = S0022-78
 # text = argumind innasén
 # text_en = the argument of the signs
-1	argumind	argumeint	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=argument, evidence, reason, subject, theme
+1	argumind	argumeint	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=argument, evidence, reason, subject, theme
 2-3	innasén	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	sén	sén 1	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=sign, omen, augury, portent; incantation, charm; favorable sign, blessing
+3	sén	sén 1	NOUN	noun	Case=Gen|Number=Plur	1	nmod	X	Gloss=sign, omen, augury, portent; incantation, charm; favorable sign, blessing
 
 # sent_id = S0022-79
 # text = sochide rodáscrib húan
 # text_en = [It is] many who have transcribed it from us.
-1	sochide	sochaide	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=multitude, crowd, host
-2	roda·scríb	scríbaid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Len	_	_	X	Gloss=to write (down)
-3	húan	ó 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	_	_	X	Gloss=from, out of, by
+1	sochide	sochaide	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=multitude, crowd, host
+2	roda·scríb	scríbaid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Len	1	acl:relcl	X	Gloss=to write (down)
+3	húan	ó 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	2	obl:prep	X	Gloss=from, out of, by
 
 # sent_id = S0022-80
 # text = cid áes díxnigedar
 # text_en = What age is it?
-1	cid	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-2	áes	áes 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=stage, period (of life); age, years (of person etc.)
-3	díxnigedar	díchsnigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to exist, to be, to be extant
+1	cid	cía 1	X	pronoun_interrogative	_	2	mark:prt	X	Gloss=who, what, which
+2	áes	áes 1	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=stage, period (of life); age, years (of person etc.)
+3	díxnigedar	díchsnigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	csubj:cleft	X	Gloss=to exist, to be, to be extant
 
 # sent_id = S0022-81
 # text = ambas cete .i. acht asrobarthar in mí
