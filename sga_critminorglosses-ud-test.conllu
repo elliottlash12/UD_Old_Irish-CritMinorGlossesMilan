@@ -3994,26 +3994,26 @@
 # sent_id = S0022-75
 # text = aes ṅesci kɫ ianuarii in primo anno
 # text_en = the age of the moon on the Calends of January in the first year
-1	aes	áes 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=stage, period (of life); age, years (of person etc.)
-2	ṅesci	éscae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss= moon, month
-3	kɫ	kalendae	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=Kalends, the calends, the first day of the month
-4	ianuarii	iānuārius	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=of January
-5	in	in (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=in, into
-6	primo	prīmus	ADJ	adjective_numeral_noun	Number=Sing	_	_	X	Gloss=first
-7	anno	annus	NOUN	noun	Number=Sing	_	_	X	Gloss=year
+1	aes	áes 1	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=stage, period (of life); age, years (of person etc.)
+2	ṅesci	éscae	NOUN	noun	Case=Gen|Number=Sing	1	nmod	X	Gloss= moon, month
+3	kɫ	kalendae	NOUN	noun	Case=Gen|Number=Plur	1	nmod	X	Gloss=Kalends, the calends, the first day of the month
+4	ianuarii	iānuārius	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	3	amod	X	Gloss=of January
+5	in	in (Lat)	ADP	preposition	Case=Unk	7	case	X	Gloss=in, into
+6	primo	prīmus	ADJ	adjective_numeral_noun	Number=Sing	7	amod	X	Gloss=first
+7	anno	annus	NOUN	noun	Number=Sing	1	obl	X	Gloss=year
 
 # sent_id = S0022-76
 # text = for XI
 # text_en = on the 22nd [of March]
-1	for	for	ADP	preposition	Case=Dat	_	case	X	Gloss=upon, over, on
-2	XI	(Roman numerals)	NUM	numeral	_	_	_	X	Gloss=_
+1	for	for	ADP	preposition	Case=Dat	2	case	X	Gloss=upon, over, on
+2	XI	(Roman numerals)	NUM	numeral	_	0	root	X	Gloss=_
 
 # sent_id = S0022-77
 # text = hifrithcheist
 # text_en = in objection
 1-2	hifrithcheist	_	_	_	_	_	_	_	_
 1	hi	i	ADP	preposition	Case=Dat	2	case	X	Gloss=in, into
-2	frithcheist	frithcheist	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=objection
+2	frithcheist	frithcheist	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=objection
 
 # sent_id = S0022-78
 # text = argumind innasén
