@@ -3873,16 +3873,16 @@
 # text = imbi
 # text_en = in which it is
 1-2	imbi	_	_	_	_	_	_	_	_
-1	i	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-2	·mbi	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	i	i	ADP	preposition	Case=Dat	2	xcomp:pred:prep	X	Gloss=in, into
+2	·mbi	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be, to exist,
 
 # sent_id = S0022-67
 # text = túas inochtur
 # text_en = up above
-1	túas	túas	ADV	adverb	_	_	_	X	Gloss=above-mentioned; in the north ; up
+1	túas	túas	ADV	adverb	_	3	advmod	X	Gloss=above-mentioned; in the north ; up
 2-3	inochtur	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
-3	nochtur	óchtar	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=upper part, high place
+3	nochtur	óchtar	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=upper part, high place
 
 # sent_id = S0022-68
 # text = dindleith ailiu
@@ -3890,8 +3890,8 @@
 1-3	dindleith	_	_	_	_	_	_	_	_
 1	di	di	ADP	preposition	Case=Dat	3	case	X	Gloss=away, from, cause or reason, by
 2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	leith	leth	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
-4	ailiu	aile 1	X	adjective_pronominal	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=other, another, else, second
+3	leith	leth	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
+4	ailiu	aile 1	X	adjective_pronominal	Case=Dat|Number=Sing|Gender=Neut	3	amod	X	Gloss=other, another, else, second
 
 # sent_id = S0022-69
 # text = crementum leissem
