@@ -3896,39 +3896,38 @@
 # sent_id = S0022-69
 # text = crementum leissem
 # text_en = Growth [is] with him.
-1	crementum	crementum	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=growth, increase
+1	crementum	crementum	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=growth, increase
 2-3	leissem	_	_	_	_	_	_	_	_
-2	leis	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-3	sem	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+2	leis	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+3	sem	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	1	obl	X	Gloss=emphasising particle
 
 # sent_id = S0022-70
 # text = hicoimthecht dugréin 7 escu inóenrínd
 # text_en = in the conjunction of sun and moon in one constellation
 1-2	hicoimthecht	_	_	_	_	_	_	_	_
 1	hi	i	ADP	preposition	Case=Dat	2	case	X	Gloss=in, into
-2	coimthecht	coimtecht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of going together, accompanying; agreement, unity
+2	coimthecht	coimtecht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of going together, accompanying; agreement, unity
 3-4	dugréin	_	_	_	_	_	_	_	_
 3	du	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
-4	gréin	grían	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=sun
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	escu	éscae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss= moon, month
-7	i	i	ADP	preposition	Case=Dat	9	case	X	Gloss=in, into
-8	rínd	rind 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=star, constellation
-9	nóenrind	óenrind	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=single star ; one constellation
+4	gréin	grían	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=sun
+5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
+6	escu	éscae	NOUN	noun	Case=Dat|Number=Sing	4	conj	X	Gloss= moon, month
+7	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
+8	nóenrind	óenrind	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=single star ; one constellation
 
 # sent_id = S0022-71
 # text = issí ide asmberse archinn
 # text_en = This is what I will say later on.
 1-2	issí	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	sí	3sg.fem.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Fem|PronType=Prs|Person=3	_	_	X	Gloss=she, her, it
-3	ide	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=that one, he, she, it, they
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+2	sí	3sg.fem.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Fem|PronType=Prs|Person=3	3	nmod	X	Gloss=she, her, it
+3	ide	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Fem	0	root	X	Gloss=that one, he, she, it, they
 4-5	asmberse	_	_	_	_	_	_	_	_
-4	as·mber	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	_	_	X	Gloss=to say, to speak, to call , mention
-5	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+4	as·mber	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	3	csubj:cleft	X	Gloss=to say, to speak, to call , mention
+5	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	4	nsubj	X	Gloss=emphasising particle
 6-7	archinn	_	_	_	_	_	_	_	_
 6	ar	ar 1	ADP	preposition	Case=Dat	7	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-7	chinn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=head; end-point, termination, exchange, purchase
+7	chinn	cenn 1	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=head; end-point, termination, exchange, purchase
 
 # sent_id = S0022-72
 # text = ní accomlatar epactœ XI kl. aprilis fri riaglóri in illo anno dothoscélad áis ésci bís for kl cachmís in primo anno
