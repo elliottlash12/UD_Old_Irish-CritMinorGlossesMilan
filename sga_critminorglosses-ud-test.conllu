@@ -4041,36 +4041,36 @@
 # text = ambas cete .i. acht asrobarthar in mí
 # text_en = when it is sung, that is, provided that the month is mentioned
 1-2	ambas	_	_	_	_	_	_	_	_
-1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	mbas	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	cop	X	Gloss=to be
-3	cete	ceite	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=to sing
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-6	as·robarthar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Nas	_	_	X	Gloss=to say, to speak, to call , mention
+1	a	a 6	SCONJ	conjunction	_	3	mark	X	Gloss=temporal: when, since
+2	mbas	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	3	cop	X	Gloss=to be
+3	cete	ceite	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=to sing
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	acht	acht 1	CCONJ	conjunction	_	6	cc	X	Gloss=except, but, provided that, save that
+6	as·robarthar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Nas	3	conj	X	Gloss=to say, to speak, to call , mention
 7	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	mí	mí	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=month
+8	mí	mí	NOUN	noun	Case=Nom|Number=Sing	6	nsubj	X	Gloss=month
 
 # sent_id = S0022-82
 # text = teora bliadni frithriagla namma leissem
 # text_en = He has only three irregular years.
 1	teora	trí	NUM	adjective_numeral	Case=Nom|Number=Plur|Gender=Fem	2	nummod	X	Gloss=three
-2	bliadni	blíadain	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=year
-3	frithriagla	frithríagol	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=irregularity
-4	namma	nammá	PART	particle_focus	_	_	_	X	Gloss=only, merely
+2	bliadni	blíadain	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=year
+3	frithriagla	frithríagol	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=irregularity
+4	namma	nammá	PART	particle_focus	_	1	advmod:emph	X	Gloss=only, merely
 5-6	leissem	_	_	_	_	_	_	_	_
-5	leis	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-6	sem	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	leis	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	2	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+6	sem	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0022-83
 # text = ar ni tosceli argumint acht bliadni sláin
 # text_en = For the argument only ascertains a whole year.
-1	ar	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-2	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·tosceli	do·scéulai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to find out, to ascertain
-4	argumint	argumeint	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=argument, evidence, reason, subject, theme
-5	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-6	bliadni	blíadain	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=year
-7	sláin	slán	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=whole, sound, unimpaired, healthy, safe, well
+1	ar	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
+2	ni·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·tosceli	do·scéulai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to find out, to ascertain
+4	argumint	argumeint	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=argument, evidence, reason, subject, theme
+5	acht	acht 1	CCONJ	conjunction	_	6	cc	X	Gloss=except, but, provided that, save that
+6	bliadni	blíadain	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=year
+7	sláin	slán	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem|Degree=Pos	6	amod	X	Gloss=whole, sound, unimpaired, healthy, safe, well
 
 # sent_id = S0022-84
 # text = utmalligthe
