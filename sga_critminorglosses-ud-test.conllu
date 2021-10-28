@@ -4324,28 +4324,28 @@
 # text_en = the second
 1-2	indaile	_	_	_	_	_	_	_	_
 1	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=other, another, else, second
+2	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem	0	root	X	Gloss=other, another, else, second
 
 # sent_id = S0022-112
 # text = cethir punct ocdiubeirt
 # text_en = four points in waning
-1	cethir	cethir	NOUN	noun	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=four-footed animal, beast ; four
-2	punct	punct	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=point
+1	cethir	cethir	NOUN	noun	Case=Nom|Number=Plur|Gender=Masc	2	nummod	X	Gloss=four-footed animal, beast ; four
+2	punct	punct	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=point
 3-4	ocdiubeirt	_	_	_	_	_	_	_	_
 3	oc	oc	ADP	preposition	Case=Dat	4	case	X	Gloss=at, by, besides, with (person)
-4	diubeirt	díupart	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=decreasing, depriving; deprivation, loss, waning (of the moon)
+4	diubeirt	díupart	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	obl	X	Gloss=decreasing, depriving; deprivation, loss, waning (of the moon)
 
 # sent_id = S0022-113
 # text = aesca bís commatain ostalam
 # text_en = a moon that is over the earth till morning
-1	aesca	éscae	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss= moon, month
-2	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	aesca	éscae	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss= moon, month
+2	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	1	csubj:cleft	X	Gloss=to be, to exist,
 3-4	commatain	_	_	_	_	_	_	_	_
 3	co	co 1	ADP	preposition	Case=Acc	4	case	X	Gloss=to, until, as far as, towards
-4	mmatain	matan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=morning ; Matins
+4	mmatain	matan	NOUN	noun	Case=Acc|Number=Sing	2	xcomp:pred	X	Gloss=morning ; Matins
 5-6	ostalam	_	_	_	_	_	_	_	_
 5	os	ós 1	ADP	preposition	Case=Dat	6	case	X	Gloss=over, above
-6	talam	talam	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=earth, world; ground ; land
+6	talam	talam	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=earth, world; ground ; land
 
 # sent_id = S0022-114
 # text = frecuirthe ceill
