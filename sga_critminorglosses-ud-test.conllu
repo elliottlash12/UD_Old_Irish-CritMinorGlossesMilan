@@ -4170,28 +4170,28 @@
 # sent_id = S0022-93
 # text = méit nánd rithbeir
 # text_en = as far as it does not oppose it
-1	méit	méit	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
+1	méit	méit	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
 2-3	nánd	_	_	_	_	_	_	_	_
-2	ná	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-3	nd·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
-4	·rithbeir	fris·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to oppose, to resist, to obstruct
+2	ná	ná 2	PART	particle_negative_subordinate		4	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+3	nd·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	4	inf:obj	X	Gloss=it
+4	·rithbeir	fris·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	1	advcl	X	Gloss=to oppose, to resist, to obstruct
 
 # sent_id = S0022-94
 # text = condib ó kl ianuarii
 # text_en = that it should be from the calends of January
 1-2	condib	_	_	_	_	_	_	_	_
-1	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-2	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	co	co 4	SCONJ	complementiser	_	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
+2	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 3	ó	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
-4	kl	kalendae	NOUN	noun	_	_	_	X	Gloss=Kalends, the calends, the first day of the month
-5	ianuarii	iānuārius	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=of January
+4	kl	kalendae	NOUN	noun	_	0	root	X	Gloss=Kalends, the calends, the first day of the month
+5	ianuarii	iānuārius	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	4	amod	X	Gloss=of January
 
 # sent_id = S0022-95
 # text = cid láe sechtmaine
 # text_en = What is the day of the week?
-1	cid	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-2	láe	laë	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=day, daytime
-3	sechtmaine	sechtmain	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=week
+1	cid	cía 1	X	pronoun_interrogative	_	2	mark:prt	X	Gloss=who, what, which
+2	láe	laë	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=day, daytime
+3	sechtmaine	sechtmain	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=week
 
 # sent_id = S0022-96
 # text = dofis cid lae sechtmaine forambí kl. caich mís cucenn cicuil griendi
