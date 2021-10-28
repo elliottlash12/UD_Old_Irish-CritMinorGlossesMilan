@@ -4257,22 +4257,22 @@
 # sent_id = S0022-102
 # text = acht deac archét
 # text_en = a hundred and eighteen
-1	acht	ocht	NUM	numeral	_	_	_	X	Gloss=eight
-2	deac	deëc	NUM	numeral	_	_	_	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+1	acht	ocht	NUM	numeral	_	0	root	X	Gloss=eight
+2	deac	deëc	NUM	numeral	_	1	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
 3-4	archét	_	_	_	_	_	_	_	_
-3	ar	ar 1	ADP	preposition	Case=Acc	_	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-4	chét	cét 1	NUM	noun_numeral	Case=Acc|Number=Plur	_	_	X	Gloss=hundred
+3	ar	ar 1	ADP	preposition	Case=Acc	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+4	chét	cét 1	NUM	noun_numeral	Case=Acc|Number=Plur	1	obl	X	Gloss=hundred
 
 # sent_id = S0022-103
 # text = fortét
 # text_en = It helps.
-1	for·tét	for·tét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Nas	_	_	X	Gloss=to help, to assist; to confirm, to corroborate, to take precedence, to prevail
+1	for·tét	for·tét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Nas	0	root	X	Gloss=to help, to assist; to confirm, to corroborate, to take precedence, to prevail
 
 # sent_id = S0022-104
 # text = in gnathugud
 # text_en = the custom
 1	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	gnathugud	gnáthugud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of using, practising; use, wont, custom
+2	gnathugud	gnáthugud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of using, practising; use, wont, custom
 
 # sent_id = S0022-105
 # text = it secht trichit
