@@ -4277,26 +4277,26 @@
 # sent_id = S0022-105
 # text = it secht trichit
 # text_en = They are seven thirties.
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	secht	secht 1	NUM	numeral	_	_	_	X	Gloss=seven
-3	trichit	trícha	NUM	noun_numeral	Case=Nom|Number=Plur	_	_	X	Gloss=thirty
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	secht	secht 1	NUM	numeral	_	0	root	X	Gloss=seven
+3	trichit	trícha	NUM	noun_numeral	Case=Nom|Number=Plur	2	nummod	X	Gloss=thirty
 
 # sent_id = S0022-106
 # text = inna deich ar dib cétaib
 # text_en = the two hundred and ten
-1	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
-2	deich	deich	NUM	numeral	_	_	_	X	Gloss=ten
-3	ar	ar 1	ADP	preposition	Case=Dat	_	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-4	dib	da	NUM	adjective_numeral	Case=Dat|Gender=Masc	_	nummod	X	Gloss=two
-5	cétaib	cét 1	NUM	noun_numeral	Case=Dat|Number=Plur	_	_	X	Gloss=hundred
+1	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
+2	deich	deich	NUM	numeral	_	0	root	X	Gloss=ten
+3	ar	ar 1	ADP	preposition	Case=Dat	5	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+4	dib	da	NUM	adjective_numeral	Case=Dat|Gender=Masc	5	nummod	X	Gloss=two
+5	cétaib	cét 1	NUM	noun_numeral	Case=Dat|Number=Plur	2	obl	X	Gloss=hundred
 
 # sent_id = S0022-107
 # text = itsecht ṅocht
 # text_en = They are seven eights.
 1-2	itsecht	_	_	_	_	_	_	_	_
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	secht	secht 1	NUM	numeral	_	_	_	X	Gloss=seven
-3	ṅocht	ocht	NUM	numeral	_	_	_	X	Gloss=eight
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	secht	secht 1	NUM	numeral	_	0	root	X	Gloss=seven
+3	ṅocht	ocht	NUM	numeral	_	2	nummod	X	Gloss=eight
 
 # sent_id = S0022-108
 # text = deeid
