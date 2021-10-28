@@ -4198,39 +4198,39 @@
 # text_en = to find out what day of the week it is on which the calends of every month are to the end of the solar cycle
 1-2	dofis	_	_	_	_	_	_	_	_
 1	do	do 1	ADP	preposition	Case=Dat	2	case	X	Gloss=to, for, by etc.
-2	fis	fius	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of finding out, ascertaining; knowledge, information, science
-3	cid	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-4	lae	laë	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=day, daytime
-5	sechtmaine	sechtmain	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=week
+2	fis	fius	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of finding out, ascertaining; knowledge, information, science
+3	cid	cía 1	X	pronoun_interrogative	_	2	ccomp	X	Gloss=who, what, which
+4	lae	laë	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=day, daytime
+5	sechtmaine	sechtmain	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=week
 6-8	forambí	_	_	_	_	_	_	_	_
-6	for	for	ADP	preposition	Case=Dat	_	case	X	Gloss=upon, over, on
-7	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-8	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-9	kl.	kalendae	NOUN	noun	_	_	_	X	Gloss=Kalends, the calends, the first day of the month
+6	for	for	ADP	preposition	Case=Dat	7	case	X	Gloss=upon, over, on
+7	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	8	xcomp:pred	X	Gloss=which, who, whose
+8	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	acl:relcl	X	Gloss=to be, to exist,
+9	kl.	kalendae	NOUN	noun	_	8	nsubj	X	Gloss=Kalends, the calends, the first day of the month
 10	caich	cach	DET	adjective_quantifier	Case=Gen|Number=Sing|Gender=Masc|PronType=Tot	11	det	X	Gloss=every, each, all, any
-11	mís	mí	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=month
+11	mís	mí	NOUN	noun	Case=Gen|Number=Sing	9	nmod	X	Gloss=month
 12-13	cucenn	_	_	_	_	_	_	_	_
 12	cu	co 1	ADP	preposition	Case=Acc	13	case	X	Gloss=to, until, as far as, towards
-13	cenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=head; end-point, termination, exchange, purchase
-14	cicuil	cicul	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=cycle, astronomical cycle
-15	griendi	gríandae	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=relating to the sun; sunny, brilliant
+13	cenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	8	obl	X	Gloss=head; end-point, termination, exchange, purchase
+14	cicuil	cicul	NOUN	noun	Case=Gen|Number=Sing	13	nmod	X	Gloss=cycle, astronomical cycle
+15	griendi	gríandae	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	14	amod	X	Gloss=relating to the sun; sunny, brilliant
 
 # sent_id = S0022-97
 # text = it saini riaglori inso
 # text_en = These are different regulars.
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	saini	sain	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=different, distinct, separate, peculiar, special
-3	riaglori	ríaglóir	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=regulator, director, ruler
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+2	saini	sain	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	3	amod	X	Gloss=different, distinct, separate, peculiar, special
+3	riaglori	ríaglóir	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=regulator, director, ruler
 4-5	inso	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Plur|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
+5	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Plur|Gender=Neut|Deixis=Prox|PronType=Dem	3	nsubj	X	Gloss=this one, these ones ; this, these
 
 # sent_id = S0022-98
 # text = cid lae sechtmaine
 # text_en = What is the day of the week?
-1	cid	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-2	lae	laë	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=day, daytime
-3	sechtmaine	sechtmain	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=week
+1	cid	cía 1	X	pronoun_interrogative	_	2	mark:prt	X	Gloss=who, what, which
+2	lae	laë	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=day, daytime
+3	sechtmaine	sechtmain	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=week
 
 # sent_id = S0022-99
 # text = [a]n du[c]uiredar bissext for nói kl
