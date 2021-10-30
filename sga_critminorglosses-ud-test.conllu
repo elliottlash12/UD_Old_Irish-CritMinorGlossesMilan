@@ -4174,7 +4174,7 @@
 # text_en = as far as it does not oppose it
 1	méit	méit	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
 2-3	nánd	_	_	_	_	_	_	_	_
-2	ná	ná 2	PART	particle_negative_subordinate		4	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+2	ná	ná 2	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
 3	nd·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	4	inf:obj	X	Gloss=it
 4	·rithbeir	fris·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	1	advcl	X	Gloss=to oppose, to resist, to obstruct
 
@@ -4230,8 +4230,8 @@
 # sent_id = S0022-98
 # text = cid lae sechtmaine
 # text_en = What is the day of the week?
-1	cid	cía 1	X	pronoun_interrogative	_	2	mark:prt	X	Gloss=who, what, which
-2	lae	laë	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=day, daytime
+1	cid	cía 1	X	pronoun_interrogative	_	0	root	X	Gloss=who, what, which
+2	lae	laë	NOUN	noun	Case=Nom|Number=Sing	1	nsubj	X	Gloss=day, daytime
 3	sechtmaine	sechtmain	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=week
 
 # sent_id = S0022-99
@@ -4279,9 +4279,9 @@
 # sent_id = S0022-105
 # text = it secht trichit
 # text_en = They are seven thirties.
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
-2	secht	secht 1	NUM	numeral	_	0	root	X	Gloss=seven
-3	trichit	trícha	NUM	noun_numeral	Case=Nom|Number=Plur	2	nummod	X	Gloss=thirty
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+2	secht	secht 1	NUM	numeral	_	3	nummod	X	Gloss=seven
+3	trichit	trícha	NUM	noun_numeral	Case=Nom|Number=Plur	0	root	X	Gloss=thirty
 
 # sent_id = S0022-106
 # text = inna deich ar dib cétaib
