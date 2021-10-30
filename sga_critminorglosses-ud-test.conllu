@@ -4296,9 +4296,9 @@
 # text = itsecht ṅocht
 # text_en = They are seven eights.
 1-2	itsecht	_	_	_	_	_	_	_	_
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
-2	secht	secht 1	NUM	numeral	_	0	root	X	Gloss=seven
-3	ṅocht	ocht	NUM	numeral	_	2	nummod	X	Gloss=eight
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+2	secht	secht 1	NUM	numeral	_	3	nummod	X	Gloss=seven
+3	ṅocht	ocht	NUM	numeral	_	0	root	X	Gloss=eight
 
 # sent_id = S0022-108
 # text = deeid
@@ -4335,7 +4335,7 @@
 2	punct	punct	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=point
 3-4	ocdiubeirt	_	_	_	_	_	_	_	_
 3	oc	oc	ADP	preposition	Case=Dat	4	case	X	Gloss=at, by, besides, with (person)
-4	diubeirt	díupart	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	obl	X	Gloss=decreasing, depriving; deprivation, loss, waning (of the moon)
+4	diubeirt	díupart	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=decreasing, depriving; deprivation, loss, waning (of the moon)
 
 # sent_id = S0022-113
 # text = aesca bís commatain ostalam
@@ -4371,9 +4371,9 @@
 # text = inchoiced fichet
 # text_en = the twenty-fifth
 1-2	inchoiced	_	_	_	_	_	_	_	_
-1	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	choiced	cóiced	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing	0	root	X	Gloss=fifth, subst. neut. a province
-3	fichet	fiche	NUM	noun_numeral	Case=Gen|Number=Sing	2	nummod	X	Gloss=twenty
+1	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
+2	choiced	cóiced	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing	3	amod	X	Gloss=fifth, subst. neut. a province
+3	fichet	fiche	NUM	noun_numeral	Case=Gen|Number=Sing	0	root	X	Gloss=twenty
 
 # sent_id = S0022-118
 # text = a coic indid óa quam xxx
@@ -4384,7 +4384,7 @@
 3	i	i	ADP	preposition	Case=Dat	4	obl:prep	X	Gloss=in, into
 4	ndid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
 5	óa	oëc	ADJ	adjective	Degree=Cmp	2	csubj:cleft	X	Gloss=young, small, less (in comparative)
-6	quam	quam	SCONJ	conjunction	_	7	mark	X	Gloss=how, than
+6	quam	quam	SCONJ	conjunction	_	7	case	X	Gloss=how, than
 7	xxx	trícha	NUM	noun_numeral	Case=Nom|Number=Sing	5	obl	X	Gloss=thirty
 
 # sent_id = S0022-119
