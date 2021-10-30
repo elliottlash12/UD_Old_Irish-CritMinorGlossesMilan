@@ -4035,9 +4035,9 @@
 # sent_id = S0022-80
 # text = cid áes díxnigedar
 # text_en = What age is it?
-1	cid	cía 1	X	pronoun_interrogative	_	2	mark:prt	X	Gloss=who, what, which
-2	áes	áes 1	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=stage, period (of life); age, years (of person etc.)
-3	díxnigedar	díchsnigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	csubj:cleft	X	Gloss=to exist, to be, to be extant
+1	cid	cía 1	X	pronoun_interrogative	_	0	root	X	Gloss=who, what, which
+2	áes	áes 1	NOUN	noun	Case=Nom|Number=Sing	1	nsubj	X	Gloss=stage, period (of life); age, years (of person etc.)
+3	díxnigedar	díchsnigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to exist, to be, to be extant
 
 # sent_id = S0022-81
 # text = ambas cete .i. acht asrobarthar in mí
@@ -4070,8 +4070,8 @@
 2	ni·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
 3	·tosceli	do·scéulai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to find out, to ascertain
 4	argumint	argumeint	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=argument, evidence, reason, subject, theme
-5	acht	acht 1	CCONJ	conjunction	_	6	cc	X	Gloss=except, but, provided that, save that
-6	bliadni	blíadain	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=year
+5	acht	acht 1	PART	particle_focus	_	6	advmod:emph	X	Gloss=except, but, provided that, save that
+6	bliadni	blíadain	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=year
 7	sláin	slán	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem|Degree=Pos	6	amod	X	Gloss=whole, sound, unimpaired, healthy, safe, well
 
 # sent_id = S0022-84
@@ -4106,7 +4106,7 @@
 9	bliadin	blíadain	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=year
 10	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	9	appos	X	Gloss=that, those
 11-12	hicuiretar	_	_	_	_	_	_	_	_
-11	hi	i	ADP	preposition	Case=Dat	12	case	X	Gloss=in, into
+11	hi	i	ADP	preposition	Case=Dat	12	obl:prep	X	Gloss=in, into
 12	·cuiretar	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	9	acl:relcl	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
 13	salt	salt	NOUN	noun	Case=Acc|Number=Sing	12	obj	X	Gloss=leap
 
