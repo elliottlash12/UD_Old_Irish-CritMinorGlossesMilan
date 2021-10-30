@@ -3989,8 +3989,8 @@
 # sent_id = S0022-74
 # text = cid aes ṅesci
 # text_en = What is the moon's age?
-1	cid	cía 1	X	pronoun_interrogative	_	2	mark:prt	X	Gloss=who, what, which
-2	aes	áes 1	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=stage, period (of life); age, years (of person etc.)
+1	cid	cía 1	X	pronoun_interrogative	_	0	root	X	Gloss=who, what, which
+2	aes	áes 1	NOUN	noun	Case=Nom|Number=Sing	1	nsubj	X	Gloss=stage, period (of life); age, years (of person etc.)
 3	ṅesci	éscae	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss= moon, month
 
 # sent_id = S0022-75
@@ -3998,7 +3998,7 @@
 # text_en = the age of the moon on the Calends of January in the first year
 1	aes	áes 1	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=stage, period (of life); age, years (of person etc.)
 2	ṅesci	éscae	NOUN	noun	Case=Gen|Number=Sing	1	nmod	X	Gloss= moon, month
-3	kɫ	kalendae	NOUN	noun	Case=Gen|Number=Plur	1	nmod	X	Gloss=Kalends, the calends, the first day of the month
+3	kɫ	kalendae	NOUN	noun	_	1	obl	X	Gloss=Kalends, the calends, the first day of the month
 4	ianuarii	iānuārius	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	3	amod	X	Gloss=of January
 5	in	in (Lat)	ADP	preposition	Case=Unk	7	case	X	Gloss=in, into
 6	primo	prīmus	ADJ	adjective_numeral_noun	Number=Sing	7	amod	X	Gloss=first
@@ -4029,7 +4029,7 @@
 # text = sochide rodáscrib húan
 # text_en = [It is] many who have transcribed it from us.
 1	sochide	sochaide	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=multitude, crowd, host
-2	roda·scríb	scríbaid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Len	1	acl:relcl	X	Gloss=to write (down)
+2	roda·scríb	scríbaid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Len	1	csubj:cleft	X	Gloss=to write (down)
 3	húan	ó 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	2	obl:prep	X	Gloss=from, out of, by
 
 # sent_id = S0022-80
