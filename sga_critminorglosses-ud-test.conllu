@@ -3912,8 +3912,10 @@
 4	gréin	grían	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=sun
 5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
 6	escu	éscae	NOUN	noun	Case=Dat|Number=Sing	4	conj	X	Gloss= moon, month
-7	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
-8	nóenrind	óenrind	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=single star ; one constellation
+7	i	i	ADP	preposition	Case=Dat	9	case	X	Gloss=in, into
+8-9	nóenrind	_	_	_	_	_	_	_	_
+8	óen	óen	NUM	adjective_numeral_noun	Case=Dat|Number=Sing|Gender=Neut	9	nummod	9:nummod	Gloss=one, single, same, only, unique; as compound element 'great'
+9	rind	rind 2	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=star, constellation
 
 # sent_id = S0022-71
 # text = issí ide asmberse archinn
@@ -3936,17 +3938,17 @@
 2	·accomlatar	ad·comla	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to join, to unite, to combine
 3	epactœ	epacht	NOUN	noun	Case=Nom|Number=Plur	2	nsubj	X	Gloss=difference in time between the solar and lunar calendar
 4	XI	(Roman numerals)	NUM	numeral	_	5	nummod	X	Gloss=_
-5	kl.	kalendae	NOUN	noun	_	2	obj	X	Gloss=Kalends, the calends, the first day of the month
+5	kl.	kalendae	NOUN	noun	_	2	obl	X	Gloss=Kalends, the calends, the first day of the month
 6	aprilis	aprīlis	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	5	amod	X	Gloss=of April
 7	fri	fri	ADP	preposition	Case=Acc	8	case	X	Gloss=towards, against, standard of comparison
 8	riaglóri	ríaglóir	NOUN	noun	Case=Acc|Number=Plur	2	obl	X	Gloss=regulator, director, ruler
 9	in	in (Lat)	ADP	preposition	Case=Unk	10	case	X	Gloss=in, into
-10	illo	ille	X	pronoun_demonstrative	Number=Sing	2	obl	X	Gloss=he, she, it, that, this
-11	anno	annus	NOUN	noun	Number=Sing	10	appos	X	Gloss=year
+10	illo	ille	X	pronoun_demonstrative	Number=Sing	11	det	X	Gloss=he, she, it, that, this
+11	anno	annus	NOUN	noun	Number=Sing	2	obl	X	Gloss=year
 12-13	dothoscélad	_	_	_	_	_	_	_	_
 12	do	do 1	ADP	preposition	Case=Dat	13	mark:prt	X	Gloss=to, for, by etc.
 13	thoscélad	toiscélad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of exploring, examining; divination
-14	áis	áes 1	NOUN	noun	Case=Gen|Number=Sing	13	obj	X	Gloss=stage, period (of life); age, years (of person etc.)
+14	áis	áes 1	NOUN	noun	Case=Gen|Number=Sing	13	obj	16:nsubj|13:obj	Gloss=stage, period (of life); age, years (of person etc.)
 15	ésci	éscae	NOUN	noun	Case=Gen|Number=Sing	14	nmod	X	Gloss= moon, month
 16	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	14	acl:relcl	X	Gloss=to be, to exist,
 17	for	for	ADP	preposition	Case=Dat	18	case	X	Gloss=upon, over, on
@@ -3964,7 +3966,7 @@
 1-2	ithe	_	_	_	_	_	_	_	_
 1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
 2	he	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	3	nmod	X	Gloss=they, them
-3	riaglóri	ríaglóir	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=regulator, director, ruler
+3	riaglóri	ríaglóir	NOUN	noun	Case=Nom|Number=Plur	0	root	6:nsubj|0:root	Gloss=regulator, director, ruler
 4-5	insin	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
 5	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	3	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
@@ -3972,7 +3974,7 @@
 7	fri	fri	ADP	preposition	Case=Acc	8	case	X	Gloss=towards, against, standard of comparison
 8	epacta	epacht	NOUN	noun	Case=Acc|Number=Plur	6	obl	X	Gloss=difference in time between the solar and lunar calendar
 9	XI.	(Roman numerals)	NUM	numeral	_	10	nummod	X	Gloss=_
-10	kl	kalendae	NOUN	noun	_	8	appos	X	Gloss=Kalends, the calends, the first day of the month
+10	kl	kalendae	NOUN	noun	_	6	obl	X	Gloss=Kalends, the calends, the first day of the month
 11	aprilis	aprīlis	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	10	amod	X	Gloss=of April
 12-13	hicach	_	_	_	_	_	_	_	_
 12	hi	i	ADP	preposition	Case=Dat	14	case	X	Gloss=in, into
