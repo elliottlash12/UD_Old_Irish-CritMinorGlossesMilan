@@ -4400,32 +4400,29 @@
 # text_en = [That] is, it is more than twelve hours, namely, eighteen hours.
 1	est	sum	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to be
 2-3	ismóu	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	móu	mór	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=great, big, ample, tall, large
-4-5	oldata	_	_	_	_	_	_	_	_
-4	ol·	ol 3	X	conjunction	_	_	_	X	Gloss=comparative: than
-5	·data	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to be, to exist,
-6	ol·data	ol·daäs	SCONJ	particle_comparative	Tense=Pres|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=than (is)
-7	xii	(Roman numerals)	NUM	numeral	_	_	_	X	Gloss=_
-8	horae	hōra	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=hour
-9	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-10	xuiii	(Roman numerals)	NUM	numeral	_	_	_	X	Gloss=_
-11	horae	hōra	NOUN	noun	_	_	_	X	Gloss=hour
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	móu	mór	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=great, big, ample, tall, large
+4	ol·data	ol·daäs	SCONJ	particle_comparative	Tense=Pres|VerbForm=Fin|Subcat=Intrans	6	case	X	Gloss=than (is)
+5	xii	(Roman numerals)	NUM	numeral	_	6	nummod	X	Gloss=_
+6	horae	hōra	NOUN	noun	Case=Nom|Number=Plur	3	obl	X	Gloss=hour
+7	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
+8	xuiii	(Roman numerals)	NUM	numeral	_	9	nummod	X	Gloss=_
+9	horae	hōra	NOUN	noun	_	3	conj	X	Gloss=hour
 
 # sent_id = S0022-121
 # text = niroig di húair deac
 # text_en = It does not reach twelve hours.
 1-2	niroig	_	_	_	_	_	_	_	_
-1	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-2	·roig	ro·saig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to extend, to attain, to reach; to arrive, to come to
+1	ni·	ní 3	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not
+2	·roig	ro·saig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to extend, to attain, to reach; to arrive, to come to
 3	di	da	NUM	adjective_numeral	Case=Acc|Gender=Fem	4	nummod	X	Gloss=two
-4	húair	úar 2	NOUN	noun	Case=Acc	_	_	X	Gloss=hour, time, occasion; point of time
-5	deac	deëc	NUM	numeral	_	_	_	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
+4	húair	úar 2	NOUN	noun	Case=Acc	2	obj	X	Gloss=hour, time, occasion; point of time
+5	deac	deëc	NUM	numeral	_	4	nummod	X	Gloss=-teen, expressing the addition of 10 to the units 1-9, Ten
 
 # sent_id = S0022-122
 # text = fodlaidi
 # text_en = to be divided
-1	fodlaidi	fodlaidi	X	verbal_of_necessity	_	_	_	X	Gloss=to be distributed, to be divided
+1	fodlaidi	fodlaidi	X	verbal_of_necessity	_	0	root	X	Gloss=to be distributed, to be divided
 
 # sent_id = S0022-123
 # text = donaurchain
