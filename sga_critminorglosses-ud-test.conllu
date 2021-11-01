@@ -4479,36 +4479,36 @@
 # sent_id = S0022-129
 # text = cinn chomair
 # text_en = opposite
-1	cinn	cenn 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=head; end-point, termination, exchange, purchase
-2	chomair	commar	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=??
+1	cinn	cenn 1	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=head; end-point, termination, exchange, purchase
+2	chomair	commar	NOUN	noun	Case=Gen|Number=Sing	1	nmod	X	Gloss=??
 
 # sent_id = S0022-130
 # text = anaslui grién foa fuined dosoí dond orient conaci anaescae
 # text_en = When the sun goes away to its setting, it turns to the east, so that you see the moon.
 1-2	anaslui	_	_	_	_	_	_	_	_
-1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	nas·lui	as·luí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to escape, to abscond, evade
-3	grién	grían	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=sun
+1	a	a 6	SCONJ	conjunction	_	2	mark	X	Gloss=temporal: when, since
+2	nas·lui	as·luí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	7	advcl	X	Gloss=to escape, to abscond, evade
+3	grién	grían	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=sun
 4-5	foa	_	_	_	_	_	_	_	_
 4	fo	fo	ADP	preposition	Case=Acc	6	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Sing|Gender=Fem|Poss=Yes|PronType=Prs	6	_	X	Gloss=his, its
-6	fuined	fuined	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of setting, sinking
-7	do·soí	do·soí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to turn, to change into (with in)
+5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Sing|Gender=Fem|Poss=Yes|PronType=Prs	6	obj:poss	X	Gloss=his, its
+6	fuined	fuined	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	2	obl	X	Gloss=the act of setting, sinking
+7	do·soí	do·soí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to turn, to change into (with in)
 8-9	dond	_	_	_	_	_	_	_	_
 8	do	do 1	ADP	preposition	Case=Dat	10	case	X	Gloss=to, for, by etc.
 9	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	orient	Orient	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=The East
+10	orient	Orient	PROPN	proper_noun	Case=Dat|Number=Sing	7	obl	X	Gloss=The East
 11-12	conaci	_	_	_	_	_	_	_	_
-11	co·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-12	·naci	ad·cí	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to see, to observe
+11	co·	co 4	SCONJ	complementiser	_	12	mark:prt	X	Gloss=so that, until (+independent, leniting)
+12	·naci	ad·cí	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	7	advcl	X	Gloss=to see, to observe
 13-14	anaescae	_	_	_	_	_	_	_	_
 13	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	14	det	X	Gloss=the
-14	naescae	éscae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss= moon, month
+14	naescae	éscae	NOUN	noun	Case=Acc|Number=Sing	12	obj	X	Gloss= moon, month
 
 # sent_id = S0022-131
 # text = tuascerddacha
 # text_en = northern
-1	tuascerddacha	túaiscertach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	_	_	X	Gloss=northern
+1	tuascerddacha	túaiscertach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	0	root	X	Gloss=northern
 
 # sent_id = S0022-132
 # text = sathuaid
