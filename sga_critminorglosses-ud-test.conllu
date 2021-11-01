@@ -4562,26 +4562,26 @@
 # sent_id = S0022-138
 # text = nélaib
 # text_en = by clouds
-1	nélaib	nél	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=cloud
+1	nélaib	nél	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=cloud
 
 # sent_id = S0022-139
 # text = inichtur aetheris 7 inochtur aeris
 # text_en = in the lower part of the ether and in the upper part of the air
 1-2	inichtur	_	_	_	_	_	_	_	_
 1	i	i	ADP	preposition	Case=Dat	2	case	X	Gloss=in, into
-2	nichtur	íchtur	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=lower part, bottom, furthermost part
-3	aetheris	aether	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=upper, pure, bright air; ether; evens
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+2	nichtur	íchtur	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=lower part, bottom, furthermost part
+3	aetheris	aether	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=upper, pure, bright air; ether; evens
+4	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
 5-6	inochtur	_	_	_	_	_	_	_	_
 5	i	i	ADP	preposition	Case=Dat	6	case	X	Gloss=in, into
-6	nochtur	óchtar	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=upper part, high place
-7	aeris	āēr	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=air
+6	nochtur	óchtar	NOUN	noun	Case=Dat|Number=Sing	2	conj	X	Gloss=upper part, high place
+7	aeris	āēr	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=air
 
 # sent_id = S0022-140
 # text = is forcanti
 # text_en = It is to be taught.
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	forcanti	forcantai	X	verbal_of_necessity	_	_	_	X	Gloss=to be taught
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	forcanti	forcantai	X	verbal_of_necessity	_	0	root	X	Gloss=to be taught
 
 # sent_id = S0022-141
 # text = sech
