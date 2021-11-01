@@ -4586,27 +4586,27 @@
 # sent_id = S0022-141
 # text = sech
 # text_en = past
-1	sech	sech 1	ADP	preposition	Case=Acc	_	case	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
+1	sech	sech 1	ADP	preposition	Case=Acc	0	root	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
 
 # sent_id = S0022-142
 # text = sírid inrindide ṅuile óhisul co huasal
 # text_en = It searched the whole Zodiac from low to high.
-1	sírid	sírid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to range, to wander/spread through; to seek out; to demand, to ask
+1	sírid	sírid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to range, to wander/spread through; to seek out; to demand, to ask
 2-3	inrindide	_	_	_	_	_	_	_	_
-2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	rindide	rindide	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=related to constellations
-4	nuile	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing	_	_	X	Gloss=all, every, the whole
-5	ó	ó 1	ADP	preposition	Case=Dat	_	case	X	Gloss=from, out of, by
-6	hisul	ísel	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
-7	co	co 1	ADP	preposition	Case=Acc	_	case	X	Gloss=to, until, as far as, towards
-8	huasal	úasal	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=high, elevated, lofty, noble, honourable
+2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	rindide	rindide	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	1	obj	X	Gloss=related to constellations
+4	nuile	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing	3	amod	X	Gloss=all, every, the whole
+5	ó	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
+6	hisul	ísel	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	1	obl	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
+7	co	co 1	ADP	preposition	Case=Acc	8	case	X	Gloss=to, until, as far as, towards
+8	huasal	úasal	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	1	obl	X	Gloss=high, elevated, lofty, noble, honourable
 
 # sent_id = S0022-143
 # text = intairinnud
 # text_en = the lowering
 1-2	intairinnud	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	tairinnud	tairinnud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of lowering, taking down, abating, humbling, descending, bowing down
+2	tairinnud	tairinnud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of lowering, taking down, abating, humbling, descending, bowing down
 
 # sent_id = S0022-144
 # text = cid arṅdid ísliu æscæ quam sol
