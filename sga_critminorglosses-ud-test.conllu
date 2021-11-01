@@ -4611,23 +4611,23 @@
 # sent_id = S0022-144
 # text = cid arṅdid ísliu æscæ quam sol
 # text_en = Why is the moon lower than the sun?
-1	cid	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-2	ar	ar 1	ADP	preposition	Case=Acc/Dat	_	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-3	ndid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-4	ísliu	ísel	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
-5	æscæ	éscae	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss= moon, month
-6	quam	quam	SCONJ	conjunction	_	_	mark	X	Gloss=how, than
-7	sol	sōl	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=sun
+1	cid	cía 1	X	pronoun_interrogative	_	0	root	X	Gloss=who, what, which
+2	ar	ar 1	ADP	preposition	Case=Acc/Dat	3	obl:prep	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+3	ndid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
+4	ísliu	ísel	ADJ	adjective	Degree=Cmp	1	acl:relcl	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
+5	æscæ	éscae	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss= moon, month
+6	quam	quam	SCONJ	conjunction	_	7	mark	X	Gloss=how, than
+7	sol	sōl	NOUN	noun	Case=Nom|Number=Sing	4	obl	X	Gloss=sun
 
 # sent_id = S0022-145
 # text = isliu
 # text_en = lower
-1	isliu	ísel	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
+1	isliu	ísel	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
 
 # sent_id = S0022-146
 # text = ardrigid
 # text_en = It appears.
-1	ardrigid	ardraigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to appear; to make manifest, to show clearly
+1	ardrigid	ardraigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to appear; to make manifest, to show clearly
 
 # sent_id = S0022-147
 # text = inmór
