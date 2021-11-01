@@ -4449,32 +4449,32 @@
 # sent_id = S0022-126
 # text = comscuchud suas ar ómun innasín
 # text_en = moving upwards for fear of the storms
-1	comscuchud	comscuchud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of moving, changing, shaking
-2	suas	súas	ADV	adverb	_	_	_	X	Gloss=up, upwards
+1	comscuchud	comscuchud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of moving, changing, shaking
+2	suas	súas	ADV	adverb	_	1	advmod	X	Gloss=up, upwards
 3	ar	ar 1	ADP	preposition	Case=Dat	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-4	ómun	omun	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=fear, the state of being afraid
+4	ómun	omun	NOUN	noun	Case=Dat|Number=Sing	1	obl	X	Gloss=fear, the state of being afraid
 5-6	innasín	_	_	_	_	_	_	_	_
 5	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	sín	sín 2	NOUN	noun	Case=Gen|Number=Plur|Gender=Masc	_	_	X	Gloss=storm
+6	sín	sín 2	NOUN	noun	Case=Gen|Number=Plur|Gender=Masc	4	nmod	X	Gloss=storm
 
 # sent_id = S0022-127
 # text = indecadib
 # text_en = in the Decades [of Augustine]
 1-2	indecadib	_	_	_	_	_	_	_	_
 1	i	i	ADP	preposition	Case=Dat	2	case	X	Gloss=in, into
-2	ndecadib	deccaid	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=a decade, set of ten psalms
+2	ndecadib	deccaid	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=a decade, set of ten psalms
 
 # sent_id = S0022-128
 # text = intan ṁbís inna arrad
 # text_en = when she is along with him
 1-2	intan	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	tan	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
-3	ṁbís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to be, to exist,
+2	tan	tan	NOUN	noun	Case=Acc|Number=Sing	3	obl:tmod	X	Gloss=time
+3	ṁbís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	0	root	X	Gloss=to be, to exist,
 4-5	inna	_	_	_	_	_	_	_	_
 4	in	i	ADP	preposition	Case=Dat	6	case	X	Gloss=in, into
-5	na	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	arrad	arrad	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=approximation ; side, company
+5	na	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+6	arrad	arrad	NOUN	noun	Case=Dat|Number=Sing	3	xcomp:pred	X	Gloss=approximation ; side, company
 
 # sent_id = S0022-129
 # text = cinn chomair
