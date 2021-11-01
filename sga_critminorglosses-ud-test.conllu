@@ -4532,32 +4532,32 @@
 # text = issed angné cetne foir oc diupirt intan adcither matin
 # text_en = It is the same appearance on it, while waning, [as] when it is seen in the morning.
 1-2	issed	_	_	_	_	_	_	_	_
-1	iss	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	_	_	X	Gloss=it
+1	iss	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	0	root	X	Gloss=it
 3-4	angné	_	_	_	_	_	_	_	_
 3	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	ngné	gné	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=kind, species, sort; form of outward appearance, countenance; face, aspect, way, manner
-5	cetne	cétnae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=same (with preceding noun), first (with following noun)
-6	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=upon, over, on
+4	ngné	gné	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=kind, species, sort; form of outward appearance, countenance; face, aspect, way, manner
+5	cetne	cétnae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	4	amod	X	Gloss=same (with preceding noun), first (with following noun)
+6	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	2	obl:prep	X	Gloss=upon, over, on
 7	oc	oc	ADP	preposition	Case=Dat	8	case	X	Gloss=at, by, besides, with (person)
-8	diupirt	díupart	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=decreasing, depriving; deprivation, loss, waning (of the moon)
+8	diupirt	díupart	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=decreasing, depriving; deprivation, loss, waning (of the moon)
 9-10	intan	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	tan	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
-11	ad·cither	ad·cí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to see, to observe
-12	matin	matan	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=morning ; Matins
+10	tan	tan	NOUN	noun	Case=Acc|Number=Sing	8	obl:tmod	X	Gloss=time
+11	ad·cither	ad·cí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	10	acl:relcl	X	Gloss=to see, to observe
+12	matin	matan	NOUN	noun	Case=Dat|Number=Sing	11	obl:prep	X	Gloss=morning ; Matins
 
 # sent_id = S0022-136
 # text = fride
 # text_en = by day
 1-2	fride	_	_	_	_	_	_	_	_
 1	fri	fri	ADP	preposition	Case=Acc	2	case	X	Gloss=towards, against, standard of comparison
-2	de	diä	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=day
+2	de	diä	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=day
 
 # sent_id = S0022-137
 # text = dinaurchain
 # text_en = that it portends
-1	di·naurchain	do·aurchain	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	_	_	X	Gloss=to foretell, to prophesy
+1	di·naurchain	do·aurchain	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	0	root	X	Gloss=to foretell, to prophesy
 
 # sent_id = S0022-138
 # text = nélaib
