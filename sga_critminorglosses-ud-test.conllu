@@ -4883,25 +4883,24 @@
 # sent_id = S0022-183
 # text = cluchidi
 # text_en = serving for play
-1	cluchidi	cluichide	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=serving for play
+1	cluchidi	cluichide	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=serving for play
 
 # sent_id = S0022-184
 # text = sechitat né
 # text_en = whichever they are
 1-2	sechitat	_	_	_	_	_	_	_	_
-1	sechi	sechi	X	pronoun_indefinite	_	_	_	X	Gloss=whoever, whatever, whichever
-2	tat	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	cop	X	Gloss=to be
-3	né	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	_	_	X	Gloss=they, them
+1	sechi	sechi	X	pronoun_indefinite	_	3	det	X	Gloss=whoever, whatever, whichever
+2	tat	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	3	cop	X	Gloss=to be
+3	né	3pl.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Plur|PronType=Prs|Person=3	0	root	X	Gloss=they, them
 
 # sent_id = S0022-185
 # text = oldaas dunni
 # text_en = than for us
 1-2	oldaas	_	_	_	_	_	_	_	_
-1	ol·	ol 3	X	conjunction	_	_	_	X	Gloss=comparative: than
-2	·daas	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to be, to exist,
-3	ol·daas	ol·daäs	SCONJ	particle_comparative	Tense=Pres|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=than (is)
-4	dun	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-5	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	ol·	ol 3	X	conjunction	_	2	mark	X	Gloss=comparative: than
+2	·daas	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	0	root	X	Gloss=to be, to exist,
+3	dun	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	4	case	X	Gloss=to, for, by etc.
+4	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	2	obl	X	Gloss=emphasising particle
 
 # sent_id = S0022-186
 # text = canopia, nomen dund egypt
