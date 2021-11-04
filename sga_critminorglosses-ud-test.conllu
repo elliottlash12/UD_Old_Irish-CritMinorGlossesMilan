@@ -4633,40 +4633,40 @@
 # text = inmór
 # text_en = greatly
 1-2	inmór	_	_	_	_	_	_	_	_
-1	in	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-2	mór	mór	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=great, big, ample, tall, large
+1	in	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
+2	mór	mór	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=great, big, ample, tall, large
 
 # sent_id = S0022-148
 # text = húaisliu
 # text_en = higher
-1	húaisliu	úasal	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=high, elevated, lofty, noble, honourable
+1	húaisliu	úasal	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=high, elevated, lofty, noble, honourable
 
 # sent_id = S0022-149
 # text = ind forid farus feminini generis est .i. farus .i. sossad asambí soillse ɫ grecum nomen est et interpretatur uisio lucis
 # text_en = The circular hanging lamps; farus is of the feminine gender; that is farus, namely, a station out of which is light; or it is a Greek name and it is interpreted as vision of light.
 1	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	forid	forad	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=mound, platform, seat of outlook, circular enclosure, circular hanging lamp
-3	farus	Pharus	NOUN	noun	_	_	_	X	Gloss=lighthouse
-4	feminini	fēminīnus	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=_
-5	generis	genus	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=tribe, kindred
-6	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-8	farus	Pharus	NOUN	noun	_	_	_	X	Gloss=lighthouse
-9	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-10	sossad	sosad	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=position ; station, abode, seat; rest, repose
+2	forid	forad	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=mound, platform, seat of outlook, circular enclosure, circular hanging lamp
+3	farus	Pharus	NOUN	noun	_	2	parataxis	X	Gloss=lighthouse
+4	feminini	fēminīnus	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	5	amod	X	Gloss=_
+5	generis	genus	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=tribe, kindred
+6	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
+8	farus	Pharus	NOUN	noun	_	3	conj	X	Gloss=lighthouse
+9	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
+10	sossad	sosad	NOUN	noun	Case=Nom|Number=Sing	8	conj	X	Gloss=position ; station, abode, seat; rest, repose
 11-13	asambí	_	_	_	_	_	_	_	_
-11	a	a 7	ADP	preposition	Case=Dat	_	case	X	Gloss=out of, from
-12	sa·	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-13	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-14	soillse	soilse	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=brightness, light
-15	ɫ	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-16	grecum	graecus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=Greek
-17	nomen	nomen	NOUN	noun	_	_	_	X	Gloss=name
-18	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be
-19	et	et	CCONJ	conjunction	_	_	cc	X	Gloss=and
-20	interpretatur	interpretor	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=_
-21	uisio	uīsiō	NOUN	noun	_	_	_	X	Gloss=vision, sight
-22	lucis	lux	NOUN	noun	_	_	_	X	Gloss=light
+11	a	a 7	ADP	preposition	Case=Dat	12	case	X	Gloss=out of, from
+12	sa·	-(s)a·	PRON	pronoun_relative	PronType=Rel	13	xcomp:pred	X	Gloss=which, who, whose
+13	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	10	acl:relcl	X	Gloss=to be, to exist,
+14	soillse	soilse	NOUN	noun	Case=Nom|Number=Sing	13	nsubj	X	Gloss=brightness, light
+15	ɫ	uel	CCONJ	conjunction	_	17	cc	X	Gloss=or, even
+16	grecum	graecus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	17	amod	X	Gloss=Greek
+17	nomen	nomen	NOUN	noun	_	3	conj	X	Gloss=name
+18	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	17	cop	X	Gloss=to be
+19	et	et	CCONJ	conjunction	_	20	cc	X	Gloss=and
+20	interpretatur	interpretor	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	3	conj	X	Gloss=_
+21	uisio	uīsiō	NOUN	noun	_	20	obl	X	Gloss=vision, sight
+22	lucis	lux	NOUN	noun	_	21	nmod	X	Gloss=light
 
 # sent_id = S0022-150
 # text = friscita comrici diib
