@@ -4905,22 +4905,22 @@
 # sent_id = S0022-186
 # text = canopia, nomen dund egypt
 # text_en = Canopea, [it is] a name of Egypt.
-1	canopia	canopia	PROPN	proper_noun	_	_	_	X	Gloss=Egypt
-2	nomen	nomen	NOUN	noun	_	_	_	X	Gloss=name
+1	canopia	canopia	PROPN	proper_noun	_	0	root	X	Gloss=Egypt
+2	nomen	nomen	NOUN	noun	_	1	appos	X	Gloss=name
 3-4	dund	_	_	_	_	_	_	_	_
 3	du	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
 4	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	egypt	Égept	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=Egypt
+5	egypt	Égept	PROPN	proper_noun	Case=Dat|Number=Sing	2	obl	X	Gloss=Egypt
 
 # sent_id = S0022-187
 # text = turgabthi
 # text_en = eastern (lit. raised up)
-1	turgabthi	turcabthae	ADJ	verbal_participle	Case=Nom|Number=Plur	_	_	X	Gloss=raised, brought forth, produced
+1	turgabthi	turcabthae	ADJ	verbal_participle	Case=Nom|Number=Plur	0	root	X	Gloss=raised, brought forth, produced
 
 # sent_id = S0022-188
 # text = donimchella
 # text_en = which goes around
-1	do·nimchella	do·immchella	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Nas	_	_	X	Gloss=to surround, to encompass
+1	do·nimchella	do·immchella	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Nas	0	root	X	Gloss=to surround, to encompass
 
 # sent_id = S0022-189
 # text = dicathi
