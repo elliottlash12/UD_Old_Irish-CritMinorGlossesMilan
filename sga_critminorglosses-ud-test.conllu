@@ -4671,24 +4671,24 @@
 # sent_id = S0022-150
 # text = friscita comrici diib
 # text_en = which you first meet of them
-1	fri	fri	ADP	preposition	Case=Acc	_	case	X	Gloss=towards, against, standard of comparison
-2	s	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-3	·comrici	con·ricc	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to meet, to encounter, to join
-4	diib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
+1	fri	fri	ADP	preposition	Case=Acc	2	case	X	Gloss=towards, against, standard of comparison
+2	s	-(s)a·	PRON	pronoun_relative	PronType=Rel	0	root	X	Gloss=which, who, whose
+3	·comrici	con·ricc	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to meet, to encounter, to join
+4	diib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	3	obl:prep	X	Gloss=away, from, cause or reason, by
 
 # sent_id = S0022-151
 # text = du hicumgabœ
 # text_en = place in which you may uplift
-1	du	dú	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=place, spot
+1	du	dú	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=place, spot
 2-3	hicumgabœ	_	_	_	_	_	_	_	_
-2	hi	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-3	·cumgabœ	con·gaib	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to contain, to include; to maintain, to preserve, to support, to uphold; to keep, to found, to set up, to settle
+2	hi	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
+3	·cumgabœ	con·gaib	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	1	acl:relcl	X	Gloss=to contain, to include; to maintain, to preserve, to support, to uphold; to keep, to found, to set up, to settle
 
 # sent_id = S0022-152
 # text = it tairismig
 # text_en = They are steady.
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	tairismig	tairismech	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=constant, steadfast, permanent
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	tairismig	tairismech	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	0	root	X	Gloss=constant, steadfast, permanent
 
 # sent_id = S0022-153
 # text = ondforas
