@@ -4851,19 +4851,19 @@
 # text = medonlai
 # text_en = of midday
 1-2	medonlai	_	_	_	_	_	_	_	_
-1	medon	medón	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=middle, center, midst
-2	lai	laë	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=day, daytime
+1	medon	medón	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=middle, center, midst
+2	lai	laë	NOUN	noun	Case=Gen|Number=Sing	1	nmod	X	Gloss=day, daytime
 
 # sent_id = S0022-178
 # text = friu antúaid
 # text_en = to the north of them
-1	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
-2	antúaid	antúaid	ADV	adverb	_	_	_	X	Gloss=from the north
+1	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc	2	obl:prep	X	Gloss=towards, against, standard of comparison
+2	antúaid	antúaid	ADV	adverb	_	0	root	X	Gloss=from the north
 
 # sent_id = S0022-179
 # text = nephfoscati
 # text_en = unshadowed
-1	nephfoscati	nebḟoscattae	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=shadowless, unshadowed
+1	nephfoscati	nebḟoscattae	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	0	root	X	Gloss=shadowless, unshadowed
 
 # sent_id = S0022-180
 # text = liathritœ
