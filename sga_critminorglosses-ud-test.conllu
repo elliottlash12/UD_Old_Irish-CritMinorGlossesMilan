@@ -5275,37 +5275,37 @@
 # text = annad torbanat
 # text_en = when they are not profitable
 1-2	annad	_	_	_	_	_	_	_	_
-1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	nnad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
-3	·torbanat	do·forban	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to come, to arrive, to happen to, to reach; to profit, to advantage, to help
+1	a	a 6	SCONJ	conjunction	_	3	mark	X	Gloss=temporal: when, since
+2	nnad·	nád 1	PART	particle_negative_subordinate		3	advmod:neg	X	Gloss=that...not
+3	·torbanat	do·forban	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	0	root	X	Gloss=to come, to arrive, to happen to, to reach; to profit, to advantage, to help
 
 # sent_id = S0022-242
 # text = athoscugud
 # text_en = its advance
 1-2	athoscugud	_	_	_	_	_	_	_	_
-1	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	2	_	X	Gloss=his, its
-2	thoscugud	tóscugud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of setting in motion; movement, succession
+1	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	2	nmod:poss	X	Gloss=his, its
+2	thoscugud	tóscugud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of setting in motion; movement, succession
 
 # sent_id = S0022-243
 # text = indílegthith .i. diabul
 # text_en = the exterminator; that is the devil
 1-2	indílegthith	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	dílegthith	dílegthaid	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=exterminator
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	diabul	Díabul 2	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=The Devil
+2	dílegthith	dílegthaid	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=exterminator
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	diabul	Díabul 2	PROPN	proper_noun	Case=Nom|Number=Sing	2	conj	X	Gloss=The Devil
 
 # sent_id = S0022-244
 # text = minchasc
 # text_en = Little Easter / Low Sunday
-1	minchasc	Minchasc	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Low Sunday; Little Easter
+1	minchasc	Minchasc	PROPN	proper_noun	Case=Nom|Number=Sing	0	root	X	Gloss=Low Sunday; Little Easter
 
 # sent_id = S0022-245
 # text = nahe
 # text_en = none of them
 1-2	nahe	_	_	_	_	_	_	_	_
-1	nah	nach 1	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Masc|PronType=Ind	_	_	X	Gloss=any, every, each, some, none
-2	e	3pl.indp.pron.	PRON	pronoun_independent	Case=Gen|PronType=Prs|Person=3	_	_	X	Gloss=they, them
+1	nah	nach 1	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Masc|PronType=Ind	2	det	X	Gloss=any, every, each, some, none
+2	e	3pl.indp.pron.	PRON	pronoun_independent	Case=Gen|PronType=Prs|Person=3	0	root	X	Gloss=they, them
 
 # sent_id = S0022-246
 # text = ecáin
