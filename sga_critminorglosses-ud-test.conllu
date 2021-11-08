@@ -4398,16 +4398,18 @@
 # sent_id = S0022-120
 # text = est ismóu oldata xii horae .i. xuiii horae
 # text_en = [That] is, it is more than twelve hours, namely, eighteen hours.
-1	est	sum	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to be
+1	est	sum	VERB	verb	Voice=Act|Mood=Ind	3	cc	X	Gloss=to be
 2-3	ismóu	_	_	_	_	_	_	_	_
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
 3	móu	mór	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=great, big, ample, tall, large
-4	ol·data	ol·daäs	SCONJ	particle_comparative	Tense=Pres|VerbForm=Fin|Subcat=Intrans	6	case	X	Gloss=than (is)
-5	xii	(Roman numerals)	NUM	numeral	_	6	nummod	X	Gloss=_
-6	horae	hōra	NOUN	noun	Case=Nom|Number=Plur	3	obl	X	Gloss=hour
-7	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
-8	xuiii	(Roman numerals)	NUM	numeral	_	9	nummod	X	Gloss=_
-9	horae	hōra	NOUN	noun	_	3	conj	X	Gloss=hour
+4-5	oldata	_	_	_	_	_	_	_	_
+4	ol·	ol 3	X	conjunction	_	5	mark	X	Gloss=comparative: than
+5	·data	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	3	advcl	X	Gloss=to be, to exist,
+6	xii	(Roman numerals)	NUM	numeral	_	7	nummod	X	Gloss=_
+7	horae	hōra	NOUN	noun	Case=Nom|Number=Plur	5	nsubj	X	Gloss=hour
+8	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
+9	xuiii	(Roman numerals)	NUM	numeral	_	10	nummod	X	Gloss=_
+10	horae	hōra	NOUN	noun	_	3	conj	X	Gloss=hour
 
 # sent_id = S0022-121
 # text = niroig di húair deac
@@ -4433,9 +4435,9 @@
 # text = arciric
 # text_en = for what then?
 1-3	arciric	_	_	_	_	_	_	_	_
-1	ar	ar 2	SCONJ	conjunction	_	2	mark	X	Gloss=causal: since, for; final: so that
-2	ci	ce	PRON	particle_interrogative	_	0	root	X	Gloss=unstressed, used with the dependent form of the verb ; who, what, which
-3	·ric	ro·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	2	csubj:cleft	X	Gloss=to reach, to attain, to arrive, come to
+1	ar	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
+2	ci	ce	PRON	particle_interrogative	_	3	obj	X	Gloss=unstressed, used with the dependent form of the verb ; who, what, which
+3	·ric	ro·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to reach, to attain, to arrive, come to
 
 # sent_id = S0022-125
 # text = inariaglaib coraib
@@ -4491,7 +4493,7 @@
 3	grién	grían	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=sun
 4-5	foa	_	_	_	_	_	_	_	_
 4	fo	fo	ADP	preposition	Case=Acc	6	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Sing|Gender=Fem|Poss=Yes|PronType=Prs	6	obj:poss	X	Gloss=his, its
+5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Sing|Gender=Fem|Poss=Yes|PronType=Prs	6	nmod:poss	X	Gloss=his, its
 6	fuined	fuined	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	2	obl	X	Gloss=the act of setting, sinking
 7	do·soí	do·soí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to turn, to change into (with in)
 8-9	dond	_	_	_	_	_	_	_	_
