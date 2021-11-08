@@ -4547,7 +4547,7 @@
 9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
 10	tan	tan	NOUN	noun	Case=Acc|Number=Sing	8	obl:tmod	X	Gloss=time
 11	ad·cither	ad·cí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	10	acl:relcl	X	Gloss=to see, to observe
-12	matin	matan	NOUN	noun	Case=Dat|Number=Sing	11	obl:prep	X	Gloss=morning ; Matins
+12	matin	matan	NOUN	noun	Case=Dat|Number=Sing	11	obl	X	Gloss=morning ; Matins
 
 # sent_id = S0022-136
 # text = fride
@@ -4618,7 +4618,7 @@
 3	ndid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
 4	ísliu	ísel	ADJ	adjective	Degree=Cmp	1	acl:relcl	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
 5	æscæ	éscae	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss= moon, month
-6	quam	quam	SCONJ	conjunction	_	7	mark	X	Gloss=how, than
+6	quam	quam	SCONJ	conjunction	_	7	case	X	Gloss=how, than
 7	sol	sōl	NOUN	noun	Case=Nom|Number=Sing	4	obl	X	Gloss=sun
 
 # sent_id = S0022-145
@@ -4648,10 +4648,10 @@
 # text_en = The circular hanging lamps; farus is of the feminine gender; that is farus, namely, a station out of which is light; or it is a Greek name and it is interpreted as vision of light.
 1	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
 2	forid	forad	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=mound, platform, seat of outlook, circular enclosure, circular hanging lamp
-3	farus	Pharus	NOUN	noun	_	2	parataxis	X	Gloss=lighthouse
+3	farus	Pharus	NOUN	noun	_	5	nsubj	X	Gloss=lighthouse
 4	feminini	fēminīnus	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	5	amod	X	Gloss=_
-5	generis	genus	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=tribe, kindred
-6	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+5	generis	genus	NOUN	noun	Case=Gen|Number=Sing	2	parataxis	X	Gloss=tribe, kindred
+6	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 8	farus	Pharus	NOUN	noun	_	3	conj	X	Gloss=lighthouse
 9	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
@@ -4663,11 +4663,11 @@
 14	soillse	soilse	NOUN	noun	Case=Nom|Number=Sing	13	nsubj	X	Gloss=brightness, light
 15	ɫ	uel	CCONJ	conjunction	_	17	cc	X	Gloss=or, even
 16	grecum	graecus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	17	amod	X	Gloss=Greek
-17	nomen	nomen	NOUN	noun	_	3	conj	X	Gloss=name
+17	nomen	nomen	NOUN	noun	_	8	conj	X	Gloss=name
 18	est	sum	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	17	cop	X	Gloss=to be
 19	et	et	CCONJ	conjunction	_	20	cc	X	Gloss=and
-20	interpretatur	interpretor	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	3	conj	X	Gloss=_
-21	uisio	uīsiō	NOUN	noun	_	20	obl	X	Gloss=vision, sight
+20	interpretatur	interpretor	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	17	conj	X	Gloss=_
+21	uisio	uīsiō	NOUN	noun	_	20	xcomp	X	Gloss=vision, sight
 22	lucis	lux	NOUN	noun	_	21	nmod	X	Gloss=light
 
 # sent_id = S0022-150
