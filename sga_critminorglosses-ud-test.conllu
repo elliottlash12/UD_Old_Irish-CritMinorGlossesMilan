@@ -5236,41 +5236,40 @@
 # sent_id = S0022-236
 # text = cit lina
 # text_en = What are the numbers?
-1	cit	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-2	t	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	lina	lín 1	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=number, full number, complement, multitude (of persons)
+1	cit	cía 1	X	pronoun_interrogative	_	0	root	X	Gloss=who, what, which
+2	lina	lín 1	NOUN	noun	Case=Nom|Number=Plur	1	nsubj	X	Gloss=number, full number, complement, multitude (of persons)
 
 # sent_id = S0022-237
 # text = itadáu coicat ar chét
 # text_en = They are a hundred and fifty-two.
 1-3	itadáu	_	_	_	_	_	_	_	_
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	a	a 3	PART	particle_numerative	_	_	_	X	Gloss=particle used before numerals in isolation
-3	dáu	da	NUM	adjective_numeral		_	nummod	X	Gloss=two
-4	coicat	cóeca	NUM	noun_numeral	Case=Gen	_	_	X	Gloss=fifty
-5	ar	ar 1	ADP	preposition	Case=Acc	_	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-6	chét	cét 1	NUM	noun_numeral	Case=Acc|Number=Plur	_	_	X	Gloss=hundred
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+2	a	a 3	PART	particle_numerative	_	3	mark:prt	X	Gloss=particle used before numerals in isolation
+3	dáu	da	NUM	adjective_numeral		0	root	X	Gloss=two
+4	coicat	cóeca	NUM	noun_numeral	Case=Gen	3	nummod	X	Gloss=fifty
+5	ar	ar 1	ADP	preposition	Case=Acc	6	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+6	chét	cét 1	NUM	noun_numeral	Case=Acc|Number=Plur	3	obl	X	Gloss=hundred
 
 # sent_id = S0022-238
 # text = it chethir chét
 # text_en = They are four hundred.
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	chethir	cethir	NOUN	noun	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=four-footed animal, beast ; four
-3	chét	cét 1	NUM	noun_numeral	Case=Nom|Number=Plur	_	_	X	Gloss=hundred
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+2	chethir	cethir	NOUN	noun	Case=Nom|Number=Plur|Gender=Masc	3	nummod	X	Gloss=four-footed animal, beast ; four
+3	chét	cét 1	NUM	noun_numeral	Case=Nom|Number=Plur	0	root	X	Gloss=hundred
 
 # sent_id = S0022-239
 # text = it secht cét
 # text_en = They are seven hundred.
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	secht	secht 1	NUM	numeral	_	_	_	X	Gloss=seven
-3	cét	cét 1	NUM	noun_numeral	Case=Nom|Number=Plur	_	_	X	Gloss=hundred
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+2	secht	secht 1	NUM	numeral	_	3	nummod	X	Gloss=seven
+3	cét	cét 1	NUM	noun_numeral	Case=Nom|Number=Plur	0	root	X	Gloss=hundred
 
 # sent_id = S0022-240
 # text = intrichit
 # text_en = the thirties
 1-2	intrichit	_	_	_	_	_	_	_	_
-1	in	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-2	trichit	trícha	NUM	noun_numeral	Case=Nom|Number=Plur	_	_	X	Gloss=thirty
+1	in	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
+2	trichit	trícha	NUM	noun_numeral	Case=Nom|Number=Plur	0	root	X	Gloss=thirty
 
 # sent_id = S0022-241
 # text = annad torbanat
