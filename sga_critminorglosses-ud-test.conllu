@@ -5310,22 +5310,22 @@
 # sent_id = S0022-246
 # text = ecáin
 # text_en = indecent
-1	ecáin	écaín	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	_	_	X	Gloss=rough, unseemly, indecent
+1	ecáin	écaín	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	0	root	X	Gloss=rough, unseemly, indecent
 
 # sent_id = S0022-247
 # text = blíadnide
 # text_en = year-old
-1	blíadnide	blíadnaide	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	_	_	X	Gloss=year-old, yearling, of a year
+1	blíadnide	blíadnaide	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	0	root	X	Gloss=year-old, yearling, of a year
 
 # sent_id = S0022-248
 # text = innahi atanessa
 # text_en = those which are nearer
 1-2	innahi	_	_	_	_	_	_	_	_
 1	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	hi	í 1	PRON	pronoun_propword	Case=Nom	_	_	X	Gloss=substantivizing particle
+2	hi	í 1	PRON	pronoun_propword	Case=Nom	0	root	X	Gloss=substantivizing particle
 3-4	atanessa	_	_	_	_	_	_	_	_
-3	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	_	cop	X	Gloss=to be
-4	nessa	ocus 1	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=near, close
+3	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	4	cop	X	Gloss=to be
+4	nessa	ocus 1	ADJ	adjective	Degree=Cmp	2	acl:relcl	X	Gloss=near, close
 
 # sent_id = S0022-249
 # text = onaib hi ata ireiv
@@ -5333,14 +5333,14 @@
 1-2	onaib	_	_	_	_	_	_	_	_
 1	o	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	hi	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-4	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	_	cop	X	Gloss=to be
-5	ireiv	ír	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=long, lasting, further, farther, longer; furthest, longest
+3	hi	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	0	root	X	Gloss=substantivizing particle
+4	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	5	cop	X	Gloss=to be
+5	ireiv	ír	ADJ	adjective	Degree=Cmp	3	acl:relcl	X	Gloss=long, lasting, further, farther, longer; furthest, longest
 
 # sent_id = S0022-250
 # text = nephchumtubartach
 # text_en = indubitable
-1	nephchumtubartach	nebchumdubartach	ADJ	adjective	Degree=Pos	_	_	X	Gloss=indubitable
+1	nephchumtubartach	nebchumdubartach	ADJ	adjective	Degree=Pos	0	root	X	Gloss=indubitable
 
 # sent_id = S0022-251
 # text = donaitni
