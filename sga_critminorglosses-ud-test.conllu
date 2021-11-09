@@ -5395,48 +5395,48 @@
 # text = amét lae fil issin dib bliadnib xxx ar .d.
 # text_en = as many days as there are in five hundred and thirty-two years
 1-2	amét	_	_	_	_	_	_	_	_
-1	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	2	_	X	Gloss=his, its
-2	mét	méit	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
-3	lae	laë	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=day, daytime
-4	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	2	nmod:poss	X	Gloss=his, its
+2	mét	méit	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
+3	lae	laë	NOUN	noun	Case=Gen|Number=Plur	2	nmod	X	Gloss=day, daytime
+4	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	advcl	X	Gloss=to be, to exist,
 5-6	issin	_	_	_	_	_	_	_	_
 5	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
 6	ssin	in 1	DET	definite_article	Case=Dat|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-7	dib	da	NUM	adjective_numeral	Case=Dat|Gender=Fem	_	nummod	X	Gloss=two
-8	bliadnib	blíadain	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=year
-9	xxx	trícha	NUM	noun_numeral	_	_	_	X	Gloss=thirty
-10	ar	ar 1	ADP	preposition	Case=Acc	_	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-11	.d.	cóeca	NUM	noun_numeral	_	_	_	X	Gloss=fifty
+7	dib	da	NUM	adjective_numeral	Case=Dat|Gender=Fem	8	nummod	X	Gloss=two
+8	bliadnib	blíadain	NOUN	noun	Case=Dat|Number=Plur	4	xcomp:pred	X	Gloss=year
+9	xxx	trícha	NUM	noun_numeral	_	8	nummod	X	Gloss=thirty
+10	ar	ar 1	ADP	preposition	Case=Acc	11	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+11	.d.	cóeca	NUM	noun_numeral	_	8	obl	X	Gloss=fifty
 
 # sent_id = S0022-257
 # text = amét lae fil isind nóidecdu
 # text_en = as many days as there are in the nineteen-year cycle
 1-2	amét	_	_	_	_	_	_	_	_
-1	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	2	_	X	Gloss=his, its
-2	mét	méit	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
-3	lae	laë	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=day, daytime
-4	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Person=3|Number=Plur|Poss=Yes|PronType=Prs	2	nmod:poss	X	Gloss=his, its
+2	mét	méit	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
+3	lae	laë	NOUN	noun	Case=Gen|Number=Plur	2	nmod	X	Gloss=day, daytime
+4	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	advcl	X	Gloss=to be, to exist,
 5-6	isind	_	_	_	_	_	_	_	_
-5	i	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-6	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-7	nóidecdu	noídécde	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=related to the number nineteen
+5	i	i	ADP	preposition	Case=Dat	7	case	X	Gloss=in, into
+6	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
+7	nóidecdu	noídécde	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	4	xcomp:pred	X	Gloss=related to the number nineteen
 
 # sent_id = S0022-258
 # text = issed fil and huile tre hilugud mís ind noidécdi cofo ocht fichet
 # text_en = This is all that is there through multiplying the months of the nineteen-year cycle as far as eight times twenty.
 1-2	issed	_	_	_	_	_	_	_	_
-1	iss	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	_	_	X	Gloss=it
-3	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-4	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	_	_	X	Gloss=in, into
-5	huile	uile	ADJ	adjective_quantifier	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=all, every, the whole
+1	iss	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	Case=Nom|Number=Sing|Gender=Neut|PronType=Prs|Person=3	0	root	X	Gloss=it
+3	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	csubj:cleft	X	Gloss=to be, to exist,
+4	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Dat	2	obl:prep	X	Gloss=in, into
+5	huile	uile	ADJ	adjective_quantifier	Case=Nom|Number=Sing|Gender=Neut	2	amod	X	Gloss=all, every, the whole
 6	tre	tre	ADP	preposition	Case=Acc	7	case	X	Gloss=through (time or space), by means of, be reason of
-7	hilugud	ílugud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of multiplying, increasing
-8	mís	mí	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=month
-9	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-10	noidécdi	noídécde	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=related to the number nineteen
+7	hilugud	ílugud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of multiplying, increasing
+8	mís	mí	NOUN	noun	Case=Gen|Number=Plur	7	obj	X	Gloss=month
+9	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
+10	noidécdi	noídécde	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	8	nmod	X	Gloss=related to the number nineteen
 11-12	cofo	_	_	_	_	_	_	_	_
-11	co	co 1	ADP	preposition	Case=Acc	_	case	X	Gloss=to, until, as far as, towards
-12	fo	fo	ADP	preposition	Case=Acc/Dat	_	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-13	ocht	ocht	NUM	numeral	_	_	_	X	Gloss=eight
-14	fichet	fiche	NUM	noun_numeral	Case=Gen|Number=Sing	_	_	X	Gloss=twenty
+11	co	co 1	ADP	preposition	Case=Acc	14	case	X	Gloss=to, until, as far as, towards
+12	fo	fo	ADP	preposition	Case=Acc/Dat	14	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+13	ocht	ocht	NUM	numeral	_	14	nummod	X	Gloss=eight
+14	fichet	fiche	NUM	noun_numeral	Case=Gen|Number=Sing	7	obl	X	Gloss=twenty
