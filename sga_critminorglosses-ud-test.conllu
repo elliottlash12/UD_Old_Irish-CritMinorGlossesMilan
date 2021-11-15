@@ -4863,8 +4863,8 @@
 # sent_id = S0022-178
 # text = friu antúaid
 # text_en = to the north of them
-1	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc	2	obl:prep	X	Gloss=towards, against, standard of comparison
-2	antúaid	antúaid	ADV	adverb	_	0	root	X	Gloss=from the north
+1	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc	0	root	X	Gloss=towards, against, standard of comparison
+2	antúaid	antúaid	ADV	adverb	_	2	advmod	X	Gloss=from the north
 
 # sent_id = S0022-179
 # text = nephfoscati
@@ -5140,7 +5140,7 @@
 7	do	do 1	ADP	preposition	Case=Dat	8	mark:prt	X	Gloss=to, for, by etc.
 8	molad	molad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of praising; song of praise, panegyric
 9	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	chicuil	cicul	NOUN	noun	Case=Gen|Number=Sing	8	nmod	11:nsubj|8:nmod	Gloss=cycle, astronomical cycle
+10	chicuil	cicul	NOUN	noun	Case=Gen|Number=Sing	8	obj	11:nsubj|8:obj	Gloss=cycle, astronomical cycle
 11	tucad	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	10	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 12	ó	ó 1	ADP	preposition	Case=Dat	13	case	X	Gloss=from, out of, by
 13	prospir	Prospir	PROPN	proper_noun	Case=Dat|Number=Sing	11	obl	X	Gloss=Prosperus
@@ -5169,8 +5169,8 @@
 # text_en = through taking away the leap
 1-2	trifoxal	_	_	_	_	_	_	_	_
 1	tri	tre	ADP	preposition	Case=Acc	2	case	X	Gloss=through (time or space), by means of, be reason of
-2	foxal	fochsal	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=taking away, removing, carrying off; abstracting (something from a person), abduction; exception
-3	salto	salt	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=leap
+2	foxal	fochsal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=taking away, removing, carrying off; abstracting (something from a person), abduction; exception
+3	salto	salt	NOUN	noun	Case=Gen|Number=Sing	2	obj	X	Gloss=leap
 
 # sent_id = S0022-226
 # text = andoforsat
