@@ -373,7 +373,7 @@ def remove_comparative_particle_in(list_of_sentences):
     for sent in list_of_sentences.values():
         for i in reversed(range(len(sent))):
             word = sent[i]
-            if word['Part_of_Speech'] and 'daäs' in word['Lemma']:
+            if word['Part_Of_Speech'] and 'daäs' in word['Lemma']:
                 del sent[i]
 
 
