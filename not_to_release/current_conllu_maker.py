@@ -1156,7 +1156,7 @@ def iteratorformorphs(morph_y, word_y, j, acc, accalt=None):
     morph_y = j+1
     accalt=''
     acc=''
-    word_y += 1
+    #word_y += 1 #Don't do anything here?
 
     return morph_y, word_y, acc
 
