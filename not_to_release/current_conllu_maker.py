@@ -1182,8 +1182,8 @@ def tijappend(morph_y, tij, word_y, j, morphs, acc, accalt=None):
 
 def check_concatenations3(list_of_words, list_of_morphs, sentence):
 
-    words = [re.sub("[^0-9a-zA-Z_À-ÿ]+", '', x) for x in list_of_words] # uses the regex library to remove all non-alphanumeric characters before comparison
-    morphs = [re.sub("[^0-9a-zA-Z_À-ÿ]+", '', x[0]) for x in list_of_morphs] # "
+    words = [re.sub("[^0-9a-zA-Z_À-ÿ_ǽ]+", '', x) for x in list_of_words] # uses the regex library to remove all non-alphanumeric characters before comparison
+    morphs = [re.sub("[^0-9a-zA-Z_À-ÿ_ǽ]+", '', x[0]) for x in list_of_morphs] # "
     (tuid, ) = set([x[1] for x in list_of_morphs])
     (translation, ) = set([x[2] for x in list_of_morphs])
     (textualunit, ) = set([x[3] for x in list_of_morphs])
