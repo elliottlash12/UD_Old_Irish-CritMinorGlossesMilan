@@ -313,7 +313,7 @@ def look_for_relative_or_infixed_verbs_in_all(list_of_sentences):
             rel_answer = compare_verbs_and_relative_particles_in(verbs, relparts)
         else:
             rel_answer = compare_verbs_relative_particles_and_infixed_pronouns_in(verbs, relparts, prons) 
-        remove_true_infixed_pronouns_in(sent, verbs, prons)
+        remove_true_infixed_pronouns_in2(sent, verbs, prons) #With second version of the function
         remove_dummy_preverb_in(sent, verbs, prevs)
         rel_answers.append([count, rel_answer])
         pron_answers.append([count, pron_answer])
