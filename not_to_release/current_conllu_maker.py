@@ -134,10 +134,8 @@ def preprocess_5(input_data):
 
 def preprocess_6(input_data):
     for item in itertools.islice(input_data, 1, None):
-        analysis = "Analysis="
-        gloss = "Gloss="
-        item[5] = analysis + item[5]
-        item[9] = gloss + item[9]
+        item[5] = "Analysis=" + item[5]
+        item[9] = "Gloss=" + item[9]
 
 
 #The following function combines the previous six pre-processing functions into one.
@@ -888,8 +886,7 @@ def analyze_adjective_degree_analysis(a_sentence):
                 word['feats']['Degree'] = 'Equ'
             elif word['xpos'] == 'adjective' and word['feats']['Analysis'] != 'comp.' and word['feats']['Analysis'] != 'sup.' and word['feats']['Analysis'] != 'equ.':
                 word['feats']['Degree'] = 'Pos'
-
-
+                                       
 #Section 6.6. Verbal Noun Analysis
 
 def verbal_noun_analysis(a_sentence):
@@ -898,7 +895,18 @@ def verbal_noun_analysis(a_sentence):
             if word['xpos'] == 'verbal_noun':
                 word['feats']['VerbForm'] = 'VNoun'
 
-#Section 6.7. Putting it all together.
+#Section 6.7. Typos Analysis
+
+def analyze_typos(a_sentence):
+    for word in a_sentence:
+        if isinstance(word['id'], int) and word['upos'] != 'PUNCT':
+            if 'typo' in word['feats']['Analysis'] and '£' in word['misc']['Gloss']:
+                word['feats']['Typo'] = 'Yes'
+                split = word['misc']['Gloss'].split('£')
+                word['misc']['Gloss'] = split[0]
+                word['misc']['CorrectForm'] = split[1]
+                
+#Section 6.8. Putting it all together.
 
 #The following function groups all of the functions that apply to substantives (i.e. nouns and adjectives) together.
 
@@ -945,7 +953,8 @@ def change_other_analyses(input_data):
     analyze_value_of_prontype(input_data)
     analyze_person_of_pronouns(input_data)
     analyze_adjective_degree_analysis(input_data)
-
+    analyze_typos(input_data)
+    
 #This deletes keys with null values in the "feats" dictionary.
             
 def delete_null_values_in(a_sentence):
@@ -1258,26 +1267,50 @@ def check_concatenations3(list_of_words, list_of_morphs, sentence):
 
 #The following function finds punctuation marks in a text string.
 
+def substitute_punctuation1(word):
+
+    match_num = []
+    
+    pats = pats = [re.compile('(\\. \\. -)$'),re.compile('(\\. \\.)$'),re.compile('(···)$'),re.compile('(\\.\\.\\.,)$'),re.compile('(··)$'),\
+                   re.compile('(\\.\\.,)$'),re.compile('( ̃\\.)$'),re.compile('(\\.\\.)$'),re.compile('(…)$'),re.compile('[.,·]$')]
+
+    matches = [re.search(pat, word) for pat in pats]
+
+    for match in matches:
+
+        if match: match_num.append((match.group(), matches.index(match)))
+
+    if match_num and len(match_num) > 1:
+
+        match_num.pop(1)
+
+        new_word = re.sub(match_num[0][0], ' ' + str(match_num[0][1]) + 'p', word)
+
+        return new_word
+    
+    else:
+        pass
+
 def getpunct(word):
 
-    sentencestring = word['Textual_Unit'] #Gets the text string.
     punctlist = [('.', 'p'), (',', 'c'), ('·', 'r')] #The list of main punctuation marks and their alphanumeric "equivalent".
-    newstring = re.sub('([.,·]) ', r' \1punct ', sentencestring) #Substitutes the punctuation marks in a string with interim alphanumeric characters for search purposes. #Note that I have removed the space before the punctuation character [Nov. 19 2021].
+    #newstring = re.sub('([.,·]) ', r' \1punct ', sentencestring)
+    newstring = re.sub('((?<!\\.i)(?<!\\[leg)(?<!rl)(?<!\\.id)(?<!ɫ)[.,·])\\s', r' \1punct ', word['Textual_Unit']) #Substitutes the punctuation marks in a string with interim alphanumeric characters for search purposes.
     finallist = []
 
-    for word in newstring.split(): #Iterates through a string
+    for new_word in re.sub('((?<!\\.i)(?<!\\[leg)(?<!rl)(?<!\\.id)(?<!ɫ)[.,·])\\s', r' \1punct ', word['Textual_Unit']).split(): #Iterates through a string
 
-        if word.endswith('punct'): #Finds punctuation marks
+        if new_word.endswith('punct'): #Finds punctuation marks
 
-            wordstart = word[:-5] #Gets rid of the interim marker of punctuation (i.e. "punct")
+            wordstart = new_word[:-5] #Gets rid of the interim marker of punctuation (i.e. "punct")
 
             for punct in punctlist: #Goes through the list of punctuation marks
 
                 if punct[0] == wordstart: #Checks if the current punctuation mark in the text string is the same as the current item in the list of punctuation marks.
 
-                    word = punct[1] + 'p' #Creates a alphanumeric version of the punctuation mark.
+                    new_word = punct[1] + 'p' #Creates a alphanumeric version of the punctuation mark.
 
-        finallist.append(word) #Creates a list of words which includes the alphanumeric versions of punctuation marks.
+        finallist.append(new_word) #Creates a list of words which includes the alphanumeric versions of punctuation marks.
 
     return finallist
 
@@ -1687,55 +1720,22 @@ def automate_rearrangement(list_of_sentences):
 
 def insert_sentence_final_punctuation2(list_of_sentences):
 
-    final_puncts=['. . -','. .','.','·','.,','···','...,','··','..,',' ̃.','..','…']
+    #final_puncts=['. . -','. .','.','·','.,','···','...,','··','..,',' ̃.','..','…']
+    
+#    for sent in list_of_sentences:
+#        for punct in final_puncts:
+#            if sent.metadata['text'].endswith(punct):
+#                sent.append({'id': '_', 'form': punct, 'lemma': punct, 'upos': 'PUNCT', 'xpos': 'punctuation', 'feats': '_', 'head': '_', 'deprel': '_', 'deps': '_', 'misc': '_'})
 
     for sent in list_of_sentences:
-        for punct in final_puncts:
-            if sent.metadata['text'].endswith(punct):
-                sent.append({'id': '_', 'form': punct, 'lemma': punct, 'upos': 'PUNCT', 'xpos': 'punctuation', 'feats': '_', 'head': '_', 'deprel': '_', 'deps': '_', 'misc': '_'})
-			
-def insert_sentence_final_punctuation(list_of_sentences):
-
-    for sent in list_of_sentences:
-
-        if sent.metadata['text'].endswith('. . -'):
-            suffix = '. . -'
-        elif sent.metadata['text'].endswith('. .'):
-            suffix = '. .'
-        elif sent.metadata['text'].endswith('.'):
-            suffix = '.'
-        elif sent.metadata['text'].endswith('·'):
-            suffix = '·'
-        elif sent.metadata['text'].endswith('.,'): #Added new punctuation marks starting here - Nov. 19 2021
-            suffix = '.,'
-        elif sent.metadata['text'].endswith('···'):
-            suffix = '···'
-        elif sent.metadata['text'].endswith('...,'):
-            suffix = '...,'
-        elif sent.metadata['text'].endswith('··'):
-            suffix = '··'
-        elif sent.metadata['text'].endswith('..,'):
-            suffix = '..,'
-        elif sent.metadata['text'].endswith(' ̃.'):
-            suffix = ' ̃.'
-        elif sent.metadata['text'].endswith('..'):
-            suffix = '..'
-        elif sent.metadata['text'].endswith('…'):
-            suffix = '…'
-        else:
-            return 
-
-        punct = {'id': '_', 'form': suffix, 'lemma': suffix, 'upos': 'PUNCT', 'xpos': 'punctuation', 'feats': '_', 'head': '_', 'deprel': '_', 'deps': '_', 'misc': '_'}
-
-        sent.append(punct)
+        m = re.search('(\\. \\. -)$|(\\. \\.)$|(···)$|(\\.\\.\\.,)$|(··)$|(\\.\\.,)$|( ̃\\.)$|(\\.\\.)$|(…)$|(\\.,)$|(?<!rl)[.,·]$', sent.metadata['text'])
+        if m:
+            sent.append({'id': '_', 'form': m.group(), 'lemma': m.group(), 'upos': 'PUNCT', 'xpos': 'punctuation', 'feats': '_', 'head': '_', 'deprel': '_', 'deps': '_', 'misc': '_'})
 
         for count, word in enumerate(sent):
             if word['id'] == '_':
                 word['id'] = sent[count-1]['id'] + 1
-
-    return list_of_sentences
-
-
+                
 #The following function opens the CONLLU file and applies the change_all_analyses function to it.
 #It writes the rearranged data to a new file (in the intro to this script called "name_of_final_output_file").
 
