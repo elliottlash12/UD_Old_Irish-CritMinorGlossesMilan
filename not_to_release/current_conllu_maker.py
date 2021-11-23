@@ -219,7 +219,7 @@ def compare_verbs_and_relative_particles_in(list_of_verbs, list_of_relparts):
     return ans
 
 
-def compare_verbs_and_infixed_pronouns_in(list_of_verbs, list_of_prons): #Get this under control by removing redundancies.
+def compare_verbs_and_infixed_pronouns_in(list_of_verbs, list_of_prons):
     ans = []
     for verb, pron in list(itertools.product(list_of_verbs, list_of_prons)): 
         if verb['Stressed_Unit'] == pron['Stressed_Unit'] and pron['Morph'] in verb['Morph']: #The second conjunct of this statement excludes cases where pron['Morph'] == '∅'!
@@ -269,26 +269,6 @@ def remove_true_infixed_pronouns_in(sentence, list_of_verbs, list_of_pronouns):
         #elif pron['Morph'] not in verb['Morph']:   >>> Only in interactive session
         #    print(f"{pron['Morph']} not deleted.") >>> Only in interactive session
 
-
-#The above function needs to be replaced by the following (probably can be paired down to bare minimum!):
-def remove_true_infixed_pronouns_in2(sentence, list_of_verbs, list_of_pronouns):
-    verb_ignore_list = []
-    pron_ignore_list = []
-    for verb, pron in list(itertools.product(list_of_verbs, list_of_pronouns)):
-	    if verb not in verb_ignore_list and pron not in pron_ignore_list:
-		    if pron['Stressed_Unit'] == verb['Stressed_Unit']:
-			    if pron['Morph'] in verb['Morph']:
-				    sentence.remove(pron)
-				    verb_ignore_list.append(verb)
-				    pron_ignore_list.append(pron)
-				    print(f"{pron['Morph']} deleted.", verb['ID'], verb['Morph'], pron['Text_Unit_ID'], verb_ignore_list, pron_ignore_list)
-			    elif pron['Morph'] not in verb['Morph']:
-				    print(f"{pron['Morph']} not deleted", verb['ID'], verb['Morph'], pron['Text_Unit_ID'])
-		    elif pron['Stressed_Unit'] != verb['Stressed_Unit']:
-			    print(pron['Morph'], verb['Morph'], 'no dice')
-    return verb_ignore_list, pron_ignore_list
-
-#Also consider fixing the remove_dummy_preverb_in() function — although this is possibly not as big of a problem.
 
 #This function deletes the dummy preverb when it is not an intrinsic part of a compound verb in secondary tenses.
 
