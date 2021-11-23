@@ -1262,7 +1262,7 @@ def getpunct(word):
 
     sentencestring = word['Textual_Unit'] #Gets the text string.
     punctlist = [('.', 'p'), (',', 'c'), ('·', 'r')] #The list of main punctuation marks and their alphanumeric "equivalent".
-    newstring = re.sub('([.,·]) ', r' \1punct ', sentencestring) #Substitutes the punctuation marks in a string with interim alphanumeric characters for search purposes. #Note that I have removed the space before the punctuation character [Nov. 19 2021].
+    newstring = re.sub(' ([.,·]) ', r' \1punct ', sentencestring) #Substitutes the punctuation marks in a string with interim alphanumeric characters for search purposes.
     finallist = []
 
     for word in newstring.split(): #Iterates through a string
@@ -1697,20 +1697,6 @@ def insert_sentence_final_punctuation(list_of_sentences):
             suffix = '.'
         elif sent.metadata['text'].endswith('·'):
             suffix = '·'
-        elif sent.metadata['text'].endswith('.,'): #Added new punctuation marks starting here - Nov. 19 2021
-            suffix = '.,'
-        elif sent.metadata['text'].endswith('···'):
-            suffix = '···'
-        elif sent.metadata['text'].endswith('...,'):
-            suffix = '...,'
-        elif sent.metadata['text'].endswith('··'):
-            suffix = '··'
-        elif sent.metadata['text'].endswith('..,'):
-            suffix = '..,'
-        elif sent.metadata['text'].endswith(' ̃.'):
-            suffix = ' ̃.'
-        elif sent.metadata['text'].endswith('..'):
-            suffix = '…'
         else:
             return
 
@@ -1721,9 +1707,6 @@ def insert_sentence_final_punctuation(list_of_sentences):
         for count, word in enumerate(sent):
             if word['id'] == '_':
                 word['id'] = sent[count-1]['id'] + 1
-
-    return list_of_sentences
-
 
 #The following function opens the CONLLU file and applies the change_all_analyses function to it.
 #It writes the rearranged data to a new file (in the intro to this script called "name_of_final_output_file").
