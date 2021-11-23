@@ -1712,13 +1712,18 @@ if __name__ == "__main__":
 
 """
 
-Nov 16 update below
+Aug 10 update below
 
 Fix the compounding issue with prefixes. > This is basically done, but problems remain if the elements of a compound aren't in the proper order.
 
 Rembember that the remove dummy preverb function currently assumes that it always starts the verbal morph. Hopefully that is true.
 
+Remember to fix the relative function so that it doesn't necessarily assume that "rel" is in analysis. > Remember to fix this see comment in analyze_rel_in
+
+Remember to add a function to make verbal nouns have the feature VerbForm=Vnoun
+
 Remember to recheck act and pass assignment.
 
-Remember to figure out how to fix the problem relating to the deletion of the features of the subordinate negative.
+Remember to figure out how to fix the problem relating to the deletion of the features of the subordinate negative. Also, add a version of the adjective degree function to edit_conllu to
+add degrees to previously seen texts.
 """
