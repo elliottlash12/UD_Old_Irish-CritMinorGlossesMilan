@@ -1685,22 +1685,13 @@ def automate_rearrangement(list_of_sentences):
 
 #The following function adds final punctuation.
 
-def insert_sentence_final_punctuation2(list_of_sentences):
-
-    final_puncts=['. . -','. .','.','·','.,','···','...,','··','..,',' ̃.','..','…']
-
-    for sent in list_of_sentences:
-        for punct in final_puncts:
-            if sent.metadata['text'].endswith(punct):
-                sent.append({'id': '_', 'form': punct, 'lemma': punct, 'upos': 'PUNCT', 'xpos': 'punctuation', 'feats': '_', 'head': '_', 'deprel': '_', 'deps': '_', 'misc': '_'})
-			
 def insert_sentence_final_punctuation(list_of_sentences):
 
     for sent in list_of_sentences:
 
         if sent.metadata['text'].endswith('. . -'):
             suffix = '. . -'
-        elif sent.metadata['text'].endswith('. .'):
+        if sent.metadata['text'].endswith('. .'):
             suffix = '. .'
         elif sent.metadata['text'].endswith('.'):
             suffix = '.'
@@ -1719,11 +1710,9 @@ def insert_sentence_final_punctuation(list_of_sentences):
         elif sent.metadata['text'].endswith(' ̃.'):
             suffix = ' ̃.'
         elif sent.metadata['text'].endswith('..'):
-            suffix = '..'
-        elif sent.metadata['text'].endswith('…'):
             suffix = '…'
         else:
-            return 
+            return
 
         punct = {'id': '_', 'form': suffix, 'lemma': suffix, 'upos': 'PUNCT', 'xpos': 'punctuation', 'feats': '_', 'head': '_', 'deprel': '_', 'deps': '_', 'misc': '_'}
 
@@ -1748,7 +1737,7 @@ def conlluit(filename1, filename2):
         upos_finder(conllu_sentences)
         do_all_deprel(conllu_sentences)
         automate_rearrangement(conllu_sentences)
-        insert_sentence_final_punctuation2(conllu_sentences)
+        insert_sentence_final_punctuation(conllu_sentences)
         conllu_sentences_with_feats = [item.serialize() for item in conllu_sentences]
         file_out = open(filename2, 'w', encoding='utf-8')
         [file_out.write(item) for item in conllu_sentences_with_feats]
