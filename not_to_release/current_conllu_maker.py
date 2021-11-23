@@ -281,11 +281,11 @@ def remove_true_infixed_pronouns_in2(sentence, list_of_verbs, list_of_pronouns):
 				    sentence.remove(pron)
 				    verb_ignore_list.append(verb)
 				    pron_ignore_list.append(pron)
-				    #print(f"{pron['Morph']} deleted.", verb['ID'], verb['Morph'], pron['Text_Unit_ID'], verb_ignore_list, pron_ignore_list) >> For interactive session
-			    #elif pron['Morph'] not in verb['Morph']:
-				    #print(f"{pron['Morph']} not deleted", verb['ID'], verb['Morph'], pron['Text_Unit_ID']) >> For interactive session
-		    #elif pron['Stressed_Unit'] != verb['Stressed_Unit']:
-			    #print(pron['Morph'], verb['Morph'], 'no dice') >> For interactive session
+				    print(f"{pron['Morph']} deleted.", verb['ID'], verb['Morph'], pron['Text_Unit_ID'], verb_ignore_list, pron_ignore_list)
+			    elif pron['Morph'] not in verb['Morph']:
+				    print(f"{pron['Morph']} not deleted", verb['ID'], verb['Morph'], pron['Text_Unit_ID'])
+		    elif pron['Stressed_Unit'] != verb['Stressed_Unit']:
+			    print(pron['Morph'], verb['Morph'], 'no dice')
     return verb_ignore_list, pron_ignore_list
 
 #Also consider fixing the remove_dummy_preverb_in() function — although this is possibly not as big of a problem.
@@ -368,22 +368,13 @@ def remove_null_in(list_of_sentences):
             if '∅' in word['Morph']:
                 del sent[i]
 
-# This function removes the comparative particle
-def remove_comparative_particle_in(list_of_sentences):
-    for sent in list_of_sentences.values():
-        for i in reversed(range(len(sent))):
-            word = sent[i]
-            if word['Part_of_Speech'] and 'daäs' in word['Lemma']:
-                del sent[i]
 
-
-# This function combines the above four functions.
+# This function combines the above three functions.
 
 def remove_all_extraneous_info_in(list_of_sentences):
     remove_relative_particles_in(list_of_sentences)
     remove_preverbs_in(list_of_sentences)
     remove_null_in(list_of_sentences)
-    remove_comparative_particle_in(list_of_sentences)
 
 # ========================================================================================================================================================================================================
 
