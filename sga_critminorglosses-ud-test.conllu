@@ -14967,16 +14967,16 @@
 # sent_id = S0006-842
 # text = .i. asberat nat he macc dǽ rogenair nach rochrochsat
 # text_en = i.e. they say that it is not the Son of God who was born, and that they did not crucify Him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	as·berat	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to say, to speak, to call , mention
-3	na	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-4	t	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-5	he	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-6	macc	macc 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-7	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
-8	ro·genair	gainithir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be born, to come to life, to be produced, to be derived, to be formed, to originate
-9	nach·	nach 3	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that not ; not
-10	ro·chrochsat	crochaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to crucify, to hang
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	as·berat	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to say, to speak, to call , mention
+3	na	ná 2	PART	particle_negative_subordinate		4	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+4	t	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
+5	he	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	2	csubj:cleft	X	Gloss=he, him, it
+6	macc	macc 1	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+7	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=god, deity, God
+8	ro·genair	gainithir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	6	acl:relcl	X	Gloss=to be born, to come to life, to be produced, to be derived, to be formed, to originate
+9	nach·	nach 3	PART	particle_negative_subordinate		10	advmod:neg	X	Gloss=that not ; not
+10	ro·chrochsat	crochaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	2	csubj:cleft	X	Gloss=to crucify, to hang
 
 # sent_id = S0006-843
 # text = testimonia .i. indfaissine rochet tall tobertar desmreta foilsi diarelad 7 diademnigud asnduchrist rocét de, ut dixit·· ex ore infantium rel.
@@ -15719,16 +15719,16 @@
 # sent_id = S0006-905
 # text = .i. amal rombói ingnae cáich issamlid rosnainmgestar som
 # text_en = i.e. as was the understanding of each, it was thus that he named them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	ro·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
-4	ingnae	ingnae	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of understanding, comprehending
-5	cáich	cách	PRON	pronoun_quantifier	Case=Gen|Number=Sing|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	3	mark	X	Gloss=as, like; translating Latin ut
+3	ro·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	8	advcl	X	Gloss=to be, to exist,
+4	ingnae	ingnae	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	csubj	X	Gloss=the act of understanding, comprehending
+5	cáich	cách	PRON	pronoun_quantifier	Case=Gen|Number=Sing|PronType=Tot	4	obj	X	Gloss=every one, each one, any one, all
 6-7	issamlid	_	_	_	_	_	_	_	_
-6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-7	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=as, like
-8	ros·nainmgestar	ainmmnigidir	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf|Typo=Yes	_	_	X	Gloss=to name|CorrectForm=ros·n-ainmnigestar-som
-9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+7	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	8	case	X	Gloss=as, like
+8	ros·nainmgestar	ainmmnigidir	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf|Typo=Yes	0	root	X	Gloss=to name|CorrectForm=ros·n-ainmnigestar-som
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	obj	X	Gloss=emphasising particle
 
 # sent_id = S0006-906
 # text = mothaigedar
@@ -16194,19 +16194,19 @@
 # sent_id = S0006-946
 # text = .i. ɔarrceoratar anarma doib· ocarndibierciud·
 # text_en = i.e. so that their weapons failed them as they pelted us.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	ɔarrceoratar	_	_	_	_	_	_	_	_
-2	ɔ	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	·arrceoratar	ara·chrin	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other|Typo=Yes	_	_	X	Gloss=to decay, to wither, to fail|CorrectForm=·arrcheoratar
+2	ɔ	co 4	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	·arrceoratar	ara·chrin	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other|Typo=Yes	0	root	X	Gloss=to decay, to wither, to fail|CorrectForm=·arrcheoratar
 4-5	anarma	_	_	_	_	_	_	_	_
-4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	_	X	Gloss=their
-5	narma	arm	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=armour, battle-equipment, panoply, etc., weapon
-6	doib	do 1	ADP	preposition	Case=Acc|Number=Plur	_	case	X	Gloss=to, for, by etc.
+4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	nmod:poss	X	Gloss=their
+5	narma	arm	NOUN	noun	Case=Nom|Number=Plur	3	nsubj	X	Gloss=armour, battle-equipment, panoply, etc., weapon
+6	doib	do 1	ADP	preposition	Case=Acc|Number=Plur	3	obl:prep	X	Gloss=to, for, by etc.
 7	·	·	PUNCT	punctuation	_	_	_	_	_
-8	oc	oc	ADP	preposition	Case=Dat	9	case	X	Gloss=at, by, besides, with (person)
+8	oc	oc	ADP	preposition	Case=Dat	10	case	X	Gloss=at, by, besides, with (person)
 9-10	ocarndibierciud·	_	_	_	_	_	_	_	_
-9	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	9	_	X	Gloss=our
-10	ndibierciud	díbirciud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of pelting, casting, hurling, throwing at
+9	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	10	nmod:poss	X	Gloss=our
+10	ndibierciud	díbirciud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of pelting, casting, hurling, throwing at
 11	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-947
