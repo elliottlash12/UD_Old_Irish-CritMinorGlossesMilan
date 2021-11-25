@@ -9992,16 +9992,16 @@
 # sent_id = S0006-407
 # text = .i. arasoirad són dinaib fochaidib
 # text_en = i.e. for his deliverance from the afflictions.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	arasoirad	_	_	_	_	_	_	_	_
 2	ar	ar 1	ADP	preposition	Case=Acc	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=his, its
-4	soirad	sóerad	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	_	_	X	Gloss=the act of freeing, delivering; deliverance
-5	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	obj:poss	X	Gloss=his, its
+4	soirad	sóerad	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	0	root	X	Gloss=the act of freeing, delivering; deliverance
+5	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 6-7	dinaib	_	_	_	_	_	_	_	_
 6	di	di	ADP	preposition	Case=Dat	8	case	X	Gloss=away, from, cause or reason, by
 7	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+8	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	4	advcl	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
 
 # sent_id = S0006-408
 # text = incéin naili
@@ -10344,16 +10344,16 @@
 # sent_id = S0006-440
 # text = .i. innafortacte dorigni· dia dosom
 # text_en = i.e. of the help that God wrought for him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innafortacte	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	fortacte	fortacht	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of aiding, helping
-4	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
+3	fortacte	fortacht	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of aiding, helping
+4	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	3	csubj:cleft	X	Gloss=to do, to make
 5	·	·	PUNCT	punctuation	_	_	_	_	_
-6	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
+6	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=god, deity, God
 7-8	dosom	_	_	_	_	_	_	_	_
-7	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
-8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+7	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	8	case	X	Gloss=to, for, by etc.
+8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	4	obl	X	Gloss=emphasising particle
 
 # sent_id = S0006-441
 # text = .i. eslabrae
@@ -11410,15 +11410,15 @@
 # sent_id = S0006-547
 # text = uel auditum .i. condamchloithersa ón·
 # text_en = uel auditum, i.e. so that You (sg) might hear me.
-1	uel	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	auditum	audiō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to hear, to listen to
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	uel	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
+2	auditum	audiō	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=to hear, to listen to
+3	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 4-7	condamchloithersa	_	_	_	_	_	_	_	_
-4	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-5	ndam·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=me, myself
-6	·chloither	ro·cluinethar	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to hear
-7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-8	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+4	co	co 4	SCONJ	complementiser	_	6	mark:prt	X	Gloss=so that, until (+independent, leniting)
+5	ndam·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	6	inf:obj	X	Gloss=me, myself
+6	·chloither	ro·cluinethar	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	2	conj	X	Gloss=to hear
+7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	6	obj	X	Gloss=emphasising particle
+8	ón	-ón	PRON	particle_anaphoric	_	6	discourse	X	Gloss=that (aforementioned)
 9	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-548
