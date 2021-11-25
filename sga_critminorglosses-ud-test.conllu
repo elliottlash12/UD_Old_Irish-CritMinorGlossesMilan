@@ -7336,16 +7336,16 @@
 # sent_id = S0006-142
 # text = .i. iarforbu ingnimo serc feidligtheo oco
 # text_en = i.e. after the completion of the action, the love of remaining at it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	iarforbu	_	_	_	_	_	_	_	_
 2	iar	íar 1	ADP	preposition	Case=Dat	3	case	X	Gloss=after, behind, across, along, beyond, according to
-3	forbu	forbae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of finishing, completing; end, termination, culmination
+3	forbu	forbae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of finishing, completing; end, termination, culmination
 4-5	ingnimo	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	gnimo	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-6	serc	serc	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of loving; love, affection
-7	feidligtheo	feidligud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of remaining, persisting, permanence
-8	oco	oc	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=at, by, besides, with (person)
+5	gnimo	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	nmod	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+6	serc	serc	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	nsubj	X	Gloss=the act of loving; love, affection
+7	feidligtheo	feidligud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	6	nmod	X	Gloss=the act of remaining, persisting, permanence
+8	oco	oc	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=at, by, besides, with (person)
 
 # sent_id = S0006-143
 # text = .i. ho burorbaither ingním olc nomaith feidligud oco iarum·
@@ -7489,16 +7489,16 @@
 # sent_id = S0006-159
 # text = .i. dintrindoti .i. neph cretem indi etir
 # text_en = i.e. of the Trinity, i.e. not believing in it at all.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	dintrindoti	_	_	_	_	_	_	_	_
 2	di	di	ADP	preposition	Case=Dat	4	case	X	Gloss=away, from, cause or reason, by
 3	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	trindoti	tríndoit	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=Trinity
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
-7	cretem	creitem	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of believing; belief, faith, (Christian) religion
-8	indi	i	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Dat	_	_	X	Gloss=in, into
-9	eitir	etir	PART	particle_focus	_	_	_	X	Gloss=at all
+4	trindoti	tríndoit	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=Trinity
+5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
+6	neph	neb-	X	particle_prefix		7	advmod:neg	X	Gloss=negative prefix ; non-, un-
+7	cretem	creitem	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of believing; belief, faith, (Christian) religion
+8	indi	i	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Dat	7	obl:prep	X	Gloss=in, into
+9	eitir	etir	PART	particle_focus	_	7	advmod:emph	X	Gloss=at all
 
 # sent_id = S0006-160
 # text = .i. trichomaitecht donaib ingraim[thidib]
@@ -7591,16 +7591,16 @@
 # sent_id = S0006-171
 # text = .i. hotírmai .i. conabítírim
 # text_en = i.e. from drought, i.e. so that it is not parched.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	hotírmai	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
-3	tírmai	tírmae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=dryness, drought
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	tírmai	tírmae	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=dryness, drought
+4	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 5-8	conabítírim	_	_	_	_	_	_	_	_
-5	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-6	na	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-7	bí	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-8	tírim	tírim	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=dry
+5	co	co 4	SCONJ	complementiser	_	8	mark:prt	X	Gloss=so that, until (+independent, leniting)
+6	na	ná 2	PART	particle_negative_subordinate		7	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+7	bí	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+8	tírim	tírim	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	3	conj	X	Gloss=dry
 
 # sent_id = S0006-172
 # text = intursitib
