@@ -6476,16 +6476,16 @@
 # sent_id = S0006-74
 # text = .i. cocarad chaingnimu dudenum
 # text_en = i.e. that he loved to do good deeds.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	cocarad	_	_	_	_	_	_	_	_
-2	co·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	·carad	caraid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to love
+2	co·	co 4	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	·carad	caraid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to love
 4-5	chaingnimu	_	_	_	_	_	_	_	_
-4	chain	caín	ADJ	adjective	Degree=Pos	_	_	X	Gloss=fine, good, beautiful, fair
-5	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+4	chain	caín	ADJ	adjective	Degree=Pos	5	amod	X	Gloss=fine, good, beautiful, fair
+5	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	3	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 6-7	dudenum	_	_	_	_	_	_	_	_
 6	du	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
+7	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of doing, making, creating; deed, work, activity
 
 # sent_id = S0006-75
 # text = .i. honaib idlaib .i. huare ishitilchaib ardaib· nobitis adi
@@ -6781,15 +6781,15 @@
 # text = ised inso indalanai
 # text_en = this is one of them (of the two).
 1-2	ised	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	4	nmod	X	Gloss=it
 3-4	inso	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
+4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	0	root	X	Gloss=this one, these ones ; this, these
 5-7	indalanai	_	_	_	_	_	_	_	_
 5	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	ala	aile 1	X	adjective_pronominal		_	_	X	Gloss=other, another, else, second
-7	nai	3pl.indp.pron.	PRON	pronoun_independent	Case=Gen|PronType=Prs|Person=3	_	_	X	Gloss=they, them
+6	ala	aile 1	X	adjective_pronominal		4	nsubj	X	Gloss=other, another, else, second
+7	nai	3pl.indp.pron.	PRON	pronoun_independent	Case=Gen|PronType=Prs|Person=3	6	nmod	X	Gloss=they, them
 
 # sent_id = S0006-102
 # text = .i. etarcni dǽ
@@ -7311,14 +7311,14 @@
 # text_en = by going forth, namely, to begin the action.
 1-2	hoescumlud	_	_	_	_	_	_	_	_
 1	ho	ó 1	ADP	preposition	Case=Dat	2	case	X	Gloss=from, out of, by
-2	escumlud	escumlúd	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of going forth; departure
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	escumlud	escumlúd	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of going forth; departure
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	dointinscitul	_	_	_	_	_	_	_	_
 4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
-5	intinscitul	intinnscetal	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=act of beginning
+5	intinscitul	intinnscetal	NOUN	noun	Case=Dat|Number=Sing	2	conj	X	Gloss=act of beginning
 6-7	ingnimo	_	_	_	_	_	_	_	_
 6	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	gnimo	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+7	gnimo	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	5	nmod	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-141
 # text = intan mbímmi ocaforbu són
