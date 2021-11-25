@@ -13011,18 +13011,18 @@
 # sent_id = S0006-670
 # text = mani ninád ndenamni acht is codug[n]em
 # text_en = if, i.e. it is not that we may not do, but it is so that we may do.
-1	mani	ma	SCONJ	conjunction	Typo=Yes	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb|CorrectForm=ma
+1	mani	ma	SCONJ	conjunction	Typo=Yes	4	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb|CorrectForm=ma
 2-3	ninád	_	_	_	_	_	_	_	_
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	nád·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	nád·	nád 1	PART	particle_negative_subordinate		4	advmod:neg	X	Gloss=that...not
 4-5	ndenamni	_	_	_	_	_	_	_	_
-4	·ndenam	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to do, to make
-5	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-6	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+4	·ndenam	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to do, to make
+5	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	4	nsubj	X	Gloss=emphasising particle
+6	acht	acht 1	CCONJ	conjunction	_	9	cc	X	Gloss=except, but, provided that, save that
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
 8-9	codug[n]em	_	_	_	_	_	_	_	_
-8	co	co 3	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
-9	du·gnem	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to do, to make
+8	co	co 3	SCONJ	complementiser	_	9	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
+9	du·gnem	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	conj	X	Gloss=to do, to make
 
 # sent_id = S0006-671
 # text = .i. cen frescsin .i. á íce trisindrochomairli dorat achitofel
@@ -14012,16 +14012,16 @@
 # sent_id = S0006-762
 # text = .i. doberthar digal forcechrain pectha bias leu
 # text_en = i.e. punishment will be inflicted on every part of sin that they have.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	do·berthar	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-3	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	do·berthar	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+3	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	csubj	X	Gloss=the act of avenging, punishing, vengeance
 4-6	forcechrain	_	_	_	_	_	_	_	_
 4	for	for	ADP	preposition	Case=Acc	6	case	X	Gloss=upon, over, on
 5	cech	cach	DET	adjective_quantifier	Case=Dat|PronType=Tot	6	det	X	Gloss=every, each, all, any
-6	rain	rann 1	NOUN	noun	Case=Dat	_	_	X	Gloss=part, share, division, part (of speech), portion
-7	pectha	peccad	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=sin
-8	bias	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-9	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+6	rain	rann 1	NOUN	noun	Case=Dat	2	obl	X	Gloss=part, share, division, part (of speech), portion
+7	pectha	peccad	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=sin
+8	bias	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to be, to exist,
+9	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	8	xcomp:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0006-763
 # text = cid
@@ -14719,16 +14719,16 @@
 # sent_id = S0006-815
 # text = .i. air doratad ermitiu feid deachtae dodoinacht maicc
 # text_en = i.e. for the honor of divinity was given to the humanity of the Son.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	do·ratad	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-4	ermitiu	airmitiu	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of revering; reverence, honor
-5	feid	fíad 5	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=honor, dignity, elevation; respect, reverence
-6	deachtae	deächt	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=divinity, godhead
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	air	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
+3	do·ratad	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+4	ermitiu	airmitiu	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	csubj	X	Gloss=the act of revering; reverence, honor
+5	feid	fíad 5	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=honor, dignity, elevation; respect, reverence
+6	deachtae	deächt	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=divinity, godhead
 7-8	dodoinacht	_	_	_	_	_	_	_	_
 7	do	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
-8	doinacht	doínacht	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=humanity (vs. deity), humanness, Manhood
-9	maicc	macc 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+8	doinacht	doínacht	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=humanity (vs. deity), humanness, Manhood
+9	maicc	macc 1	NOUN	noun	Case=Gen|Number=Sing	8	nmod	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
 
 # sent_id = S0006-816
 # text = .i. ishuaisliu cechduil an daratad dondoinach[t]
