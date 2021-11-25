@@ -12480,16 +12480,16 @@
 # sent_id = S0006-629
 # text = .i. ɔnabeth foraithmet dǽ hisuidiu
 # text_en = that there should be no memory of God therein.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	ɔnabeth	_	_	_	_	_	_	_	_
-2	ɔ	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	na·	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-4	·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-5	foraithmet	foraithmet	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of remembering, calling to mind; recollection
-6	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+2	ɔ	co 4	SCONJ	complementiser	_	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	na·	ná 2	PART	particle_negative_subordinate		4	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+4	·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+5	foraithmet	foraithmet	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	nsubj	X	Gloss=the act of remembering, calling to mind; recollection
+6	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=god, deity, God
 7-8	hisuidiu	_	_	_	_	_	_	_	_
-7	hi	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-8	suidiu	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+7	hi	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
+8	suidiu	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Sing|Gender=Masc	4	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 
 # sent_id = S0006-630
 # text = nad ndixnigedar nech
@@ -12608,16 +12608,16 @@
 # sent_id = S0006-640
 # text = .i. ni aithirgi hobriathraib nammá cengním
 # text_en = it is not repentance in words only without deed.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	aithirgi	aithirge	NOUN	verbal_noun	VerbForm=VNoun	_	_	X	Gloss=the act of repenting (of), regretting; penance
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	aithirgi	aithirge	NOUN	verbal_noun	VerbForm=VNoun	0	root	X	Gloss=the act of repenting (of), regretting; penance
 4-5	hobriathraib	_	_	_	_	_	_	_	_
 4	ho	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
-5	briathraib	bríathar	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=word,
-6	nammá	nammá	PART	particle_focus	_	_	_	X	Gloss=only, merely
+5	briathraib	bríathar	NOUN	noun	Case=Dat|Number=Plur	3	obl	X	Gloss=word,
+6	nammá	nammá	PART	particle_focus	_	5	advmod:emph	X	Gloss=only, merely
 7-8	cengním	_	_	_	_	_	_	_	_
 7	cen	cen	ADP	preposition	Case=Acc	8	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-8	gním	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+8	gním	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-641
 # text = issamlid inso asmbertar· ut
@@ -12852,16 +12852,16 @@
 # sent_id = S0006-657
 # text = .i. huare baferr inchomairle dombert side
 # text_en = i.e. because the counsel which he gave was better.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	huare	úaire	SCONJ	conjunction	_	4	mark	X	Gloss=causal; coordinating and subordinating: when, since
 3-4	baferr	_	_	_	_	_	_	_	_
-3	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-4	ferr	maith	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=good, right, noble
+3	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
+4	ferr	maith	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=good, right, noble
 5-6	inchomairle	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	chomairle	comairle	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=counsel, admonition, advice, plan, decision
-7	do·mbert	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-8	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
+6	chomairle	comairle	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	7:obj|4:nsubj	Gloss=counsel, admonition, advice, plan, decision
+7	do·mbert	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	6	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+8	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	7	nsubj	X	Gloss=that one, he, she, it, they
 
 # sent_id = S0006-658
 # text = dorimther ascelsa hílebraib ríg sudet qui legat
