@@ -10544,15 +10544,15 @@
 # text_en = the proof, to wit, that there was a law of the providence of God for him.
 1-2	inderbad	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	derbad	derbad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of proving, certifying
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	ro·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
-5	dliged	dliged	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
-6	remdeicsen	remdéicsiu	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of anticipating; providence, foresight, anticipation
-7	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+2	derbad	derbad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of proving, certifying
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	ro·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	2	conj	X	Gloss=to be, to exist,
+5	dliged	dliged	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
+6	remdeicsen	remdéicsiu	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	5	nmod	X	Gloss=the act of anticipating; providence, foresight, anticipation
+7	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=god, deity, God
 8-9	dosom	_	_	_	_	_	_	_	_
-8	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
-9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+8	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	9	case	X	Gloss=to, for, by etc.
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	4	xcomp:pred	X	Gloss=emphasising particle
 
 # sent_id = S0006-459
 # text = dinaib eulasaib nodonaib etarcnaib
@@ -10938,17 +10938,17 @@
 # sent_id = S0006-499
 # text = .i. nadfel dliged remdeicsen dǽ diadulib
 # text_en = i.e. that there is no law of providence of God for His creatures.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	nadfel	_	_	_	_	_	_	_	_
-2	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-3	·fel	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-4	dliged	dliged	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
-5	remdeicsen	remdéicsiu	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of anticipating; providence, foresight, anticipation
-6	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+2	nad·	nád 1	PART	particle_negative_subordinate	_	3	advmod:neg	X	Gloss=that...not
+3	·fel	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be, to exist,
+4	dliged	dliged	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
+5	remdeicsen	remdéicsiu	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	4	nmod	X	Gloss=the act of anticipating; providence, foresight, anticipation
+6	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=god, deity, God
 7-9	diadulib	_	_	_	_	_	_	_	_
 7	di	do 1	ADP	preposition	Case=Dat	9	case	X	Gloss=to, for, by etc.
-8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	9	_	X	Gloss=his, its
-9	dulib	dúil 1	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=element, being, creature, thing
+8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	9	nmod:poss	X	Gloss=his, its
+9	dulib	dúil 1	NOUN	noun	Case=Dat|Number=Plur	3	obl	X	Gloss=element, being, creature, thing
 
 # sent_id = S0006-500
 # text = .i. comberat áceill nerru
@@ -11103,16 +11103,16 @@
 # sent_id = S0006-514
 # text = uel si est .i. ní dixnigedar .i. sí pro non.
 # text_en = uel si est, i.e. there is not, i.e. si pro non.
-1	uel	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	si	(Latin letters and suffixes)	NOUN	noun	_	_	_	X	Gloss=_
-3	est	sum	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to be
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-6	·dixnigedar	díchsnigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to exist, to be, to be extant
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-8	sí	(Latin letters and suffixes)	NOUN	noun	_	_	_	X	Gloss=_
-9	pro	prō	ADP	preposition	Case=Unk	_	case	X	Gloss=for, on behalf of, before
-10	non	nōn	X	particle_negative	_	_	_	X	Gloss=not
+1	uel	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
+2	si	(Latin letters and suffixes)	NOUN	noun	_	0	root	X	Gloss=_
+3	est	sum	VERB	verb	Voice=Act|Mood=Ind	2	cop	X	Gloss=to be
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	ní·	ní 3	PART	particle_negative_main	_	6	advmod:neg	X	Gloss=not
+6	·dixnigedar	díchsnigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	conj	X	Gloss=to exist, to be, to be extant
+7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
+8	sí	(Latin letters and suffixes)	NOUN	noun	_	2	conj	X	Gloss=_
+9	pro	prō	ADP	preposition	Case=Unk	8	case	X	Gloss=for, on behalf of, before
+10	non	nōn	X	particle_negative	_	9	advmod:neg	X	Gloss=not
 11	.	.	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-515
