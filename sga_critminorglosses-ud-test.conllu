@@ -11703,17 +11703,17 @@
 # sent_id = S0006-563
 # text = ní ercheltar .i. conapad firdía mac
 # text_en = it is not taken away, i.e. that the Son should not be true God.
-1	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-2	·ercheltar	ar·cela	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to take away, to steal, to carry off
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	ní·	ní 3	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not
+2	·ercheltar	ar·cela	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to take away, to steal, to carry off
+3	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 4-6	conapad	_	_	_	_	_	_	_	_
-4	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-5	na	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-6	pad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
+4	co	co 4	SCONJ	complementiser	_	8	mark:prt	X	Gloss=so that, until (+independent, leniting)
+5	na	ná 2	PART	particle_negative_subordinate	_	8	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+6	pad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	8	cop	X	Gloss=to be
 7-8	firdía	_	_	_	_	_	_	_	_
-7	fir	fír	ADJ	adjective	Degree=Pos	_	_	X	Gloss=true, veracious, real
-8	día	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
-9	mac	macc 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+7	fir	fír	ADJ	adjective	Degree=Pos	5	amod	X	Gloss=true, veracious, real
+8	día	día 2	NOUN	noun	Case=Nom|Number=Sing	2	conj	X	Gloss=god, deity, God
+9	mac	macc 1	NOUN	noun	Case=Nom|Number=Sing	8	appos	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
 
 # sent_id = S0006-564
 # text = .i. combad chomaicsiu side dodia
@@ -12166,16 +12166,16 @@
 # sent_id = S0006-602
 # text = .i. ferc 7 digal nephmesraigthe india·
 # text_en = i.e. anger and punishment unmeasured in God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ferc	ferg	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=anger
-3	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-4	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ferc	ferg	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=anger
+3	7	ocus 2	CCONJ	conjunction	_	4	cc	X	Gloss=coordinating: and, since
+4	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of avenging, punishing, vengeance
 5-6	nephmesraigthe	_	_	_	_	_	_	_	_
-5	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
-6	mesraigthe	mesraigthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=moderate, temperate; measured, tempered, regulated
+5	neph	neb-	X	particle_prefix	_	6	advmod:neg	X	Gloss=negative prefix ; non-, un-
+6	mesraigthe	mesraigthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	4	amod	X	Gloss=moderate, temperate; measured, tempered, regulated
 7-8	india·	_	_	_	_	_	_	_	_
 7	i	i	ADP	preposition	Case=Acc	8	case	X	Gloss=in, into
-8	ndia	día 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=god, deity, God
+8	ndia	día 2	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=god, deity, God
 9	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-603
@@ -13304,17 +13304,17 @@
 # sent_id = S0006-697
 # text = .i. madugneu innaremeperthi .i. si feci rɫ
 # text_en = i.e. if I should do the aforementioned things.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	madugneu	_	_	_	_	_	_	_	_
-2	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-3	du·gneu	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to do, to make
+2	ma	ma	SCONJ	conjunction	_	3	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+3	du·gneu	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to do, to make
 4-5	innaremeperthi	_	_	_	_	_	_	_	_
-4	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-5	remeperthi	remeperthae	ADJ	verbal_participle	Case=Acc|Number=Plur|Gender=Neut	_	_	X	Gloss=aforesaid, above-mentioned
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-7	si	sī	X	conjunction	_	_	_	X	Gloss=if
-8	feci	faciō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to make, to construct, to do
-9	rɫ	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
+4	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
+5	remeperthi	remeperthae	ADJ	verbal_participle	Case=Acc|Number=Plur|Gender=Neut	3	obj	X	Gloss=aforesaid, above-mentioned
+6	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
+7	si	sī	X	conjunction	_	_	8	X	Gloss=if
+8	feci	faciō	VERB	verb	Voice=Act|Mood=Ind	3	conj	X	Gloss=to make, to construct, to do
+9	rɫ	reliqua	NOUN	noun	_	3	appos	X	Gloss=the rest, remainder
 
 # sent_id = S0006-698
 # text = .i. docomar
