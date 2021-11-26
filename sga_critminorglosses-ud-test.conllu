@@ -5641,17 +5641,17 @@
 # sent_id = S0006-16
 # text = .i. sechip hae beschordae hifius
 # text_en = whoever he may be who is proper (?) in knowledge.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	sechip	_	_	_	_	_	_	_	_
-2	sechi	sechi	X	pronoun_indefinite	Case=Nom|Number=Sing	_	_	X	Gloss=whoever, whatever, whichever
-3	p	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	hae	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
+2	sechi	sechi	X	pronoun_indefinite	Case=Nom|Number=Sing	4	det	X	Gloss=whoever, whatever, whichever
+3	p	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	hae	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=he, him, it
 5-6	beschordae	_	_	_	_	_	_	_	_
-5	bes	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Len	_	cop	X	Gloss=to be
-6	chordae	córdae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=proper
+5	bes	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Len	6	cop	X	Gloss=to be
+6	chordae	córdae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	4	ccomp	X	Gloss=proper
 7-8	hifius	_	_	_	_	_	_	_	_
 7	hi	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
-8	fius	fius	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of finding out, ascertaining; knowledge, information, science
+8	fius	fius	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	6	advcl	X	Gloss=the act of finding out, ascertaining; knowledge, information, science
 
 # sent_id = S0006-17
 # text = mbete
@@ -5807,17 +5807,17 @@
 # sent_id = S0006-28
 # text = .i. sechtmogo lacech fe(r) dincethrurso
 # text_en = seventy with each of these four
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	sechtmogo	sechtmogo	NUM	noun_numeral	Case=Nom|Number=Sing	_	_	X	Gloss=seventy
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	sechtmogo	sechtmogo	NUM	noun_numeral	Case=Nom|Number=Sing	0	root	X	Gloss=seventy
 3-4	lacech	_	_	_	_	_	_	_	_
 3	la	la	ADP	preposition	Case=Acc	5	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 4	cech	cach	DET	adjective_quantifier	Case=Acc|Number=Sing|Gender=Masc|PronType=Tot	5	det	X	Gloss=every, each, all, any
-5	fer	fer 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=man, person, pl. inhabitants
+5	fer	fer 1	NOUN	noun	Case=Acc|Number=Sing	2	obl	X	Gloss=man, person, pl. inhabitants
 6-9	dincethrurso	_	_	_	_	_	_	_	_
 6	di	di	ADP	preposition	Case=Dat	8	case	X	Gloss=away, from, cause or reason, by
 7	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	cethrur	cethrar	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=group of four
-9	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+8	cethrur	cethrar	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=group of four
+9	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	8	appos	X	Gloss=this, these
 
 # sent_id = S0006-29
 # text = .i. cenelae ciuil inso
@@ -6890,17 +6890,17 @@
 # sent_id = S0006-110
 # text = .i. isrét ard .i. foglaim innahirisse foirbthe
 # text_en = i.e. it is a high matter, i.e., the learning of perfect faith.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	isrét	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	rét	rét 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=thing
-4	ard	ard 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=high, elevated, lofty, high
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	foglaim	foglaimm	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of learning; knowledge
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	rét	rét 1	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=thing
+4	ard	ard 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	3	amod	X	Gloss=high, elevated, lofty, high
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	foglaim	foglaimm	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of learning; knowledge
 7-8	innahirisse	_	_	_	_	_	_	_	_
 7	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	hirisse	ires	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=faith, religion, belief
-9	foirbthe	foirbthe 1	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Fem	_	_	X	Gloss=completed, finished, perfect, religious, holy
+8	hirisse	ires	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=faith, religion, belief
+9	foirbthe	foirbthe 1	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Fem	8	amod	X	Gloss=completed, finished, perfect, religious, holy
 
 # sent_id = S0006-111
 # text = .i. isadblam .i. isreid foglaim inbesgnai
