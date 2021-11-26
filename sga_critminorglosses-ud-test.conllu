@@ -15515,17 +15515,17 @@
 # sent_id = S0006-889
 # text = file inepistlib ind apstail fri eperta indsailm
 # text_en = [the similarity of the words] which are in the epistles of the apostle to the expressions of the psalm.
-1	file	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	file	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be, to exist,
 2-3	inepistlib	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
-3	nepistlib	eipistil	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=epistle, letter
+3	nepistlib	eipistil	NOUN	noun	Case=Dat|Number=Plur	1	xcomp:pred	X	Gloss=epistle, letter
 4	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	apstail	apstal	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=apostle
+5	apstail	apstal	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=apostle
 6	fri	fri	ADP	preposition	Case=Acc	7	case	X	Gloss=towards, against, standard of comparison
-7	eperta	eipert	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of saying; speech, statement, word
+7	eperta	eipert	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	1	advcl	X	Gloss=the act of saying; speech, statement, word
 8-9	indsailm	_	_	_	_	_	_	_	_
 8	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	sailm	salm	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=psalm
+9	sailm	salm	NOUN	noun	Case=Gen|Number=Sing	7	obj	X	Gloss=psalm
 
 # sent_id = S0006-890
 # text = .i. isintepistil ad chorinteos
@@ -16625,16 +16625,16 @@
 # sent_id = S0006-986
 # text = .i. amal adnaigther fírbrithem beres digail cech ancridi··
 # text_en = i.e. as a just judge is feared who inflicts punishment for every wrong.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	ad·naigther	ad·ágathar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to fear, to dread, to stand in awe of
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	3	mark	X	Gloss=as, like; translating Latin ut
+3	ad·naigther	ad·ágathar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to fear, to dread, to stand in awe of
 4-5	fírbrithem	_	_	_	_	_	_	_	_
-4	fír	fír	ADJ	adjective	Degree=Pos	_	_	X	Gloss=true, veracious, real
-5	brithem	brithem	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=judge
-6	beres	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
-7	digail	dígal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
+4	fír	fír	ADJ	adjective	Degree=Pos	5	amod	X	Gloss=true, veracious, real
+5	brithem	brithem	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	6:nsubj|3:nsubj	Gloss=judge
+6	beres	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	5	acl:relcl	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
+7	digail	dígal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	6	xcomp	X	Gloss=the act of avenging, punishing, vengeance
 8	cech	cach	DET	adjective_quantifier	Case=Gen|Number=Sing|Gender=Neut|PronType=Tot	9	det	X	Gloss=every, each, all, any
-9	ancridi	ancride	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=wrong, injustice, injury, vengeance
+9	ancridi	ancride	NOUN	noun	Case=Gen|Number=Sing	7	obj	X	Gloss=wrong, injustice, injury, vengeance
 10	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-987
