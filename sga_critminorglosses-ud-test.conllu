@@ -5767,7 +5767,7 @@
 5-6	hofilisnib	_	_	_	_	_	_	_	_
 5	ho	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
 6	filisnib	Filistín	PROPN	proper_noun	Case=Dat|Number=Plur|Typo=Yes	4	obl	X	Gloss=Philistine|CorrectForm=filistínib
-7-8	dohirusam..,	_	_	_	_	_	_	_	_
+7-8	dohirusam	_	_	_	_	_	_	_	_
 7	do	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
 8	hirusam	Irusalem	PROPN	proper_noun	Case=Dat|Number=Sing|Typo=Yes	4	obl	X	Gloss=Jerusalem|CorrectForm=hirusalem
 9	..,	..,	PUNCT	punctuation	_	_	_	_	_
@@ -6462,12 +6462,10 @@
 2-3	aircia	_	_	_	_	_	_	_	_
 2	air	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
 3	cia	cía 1	X	pronoun_interrogative	_	0	root	X	Gloss=who, what, which
-4-5	salmscribdid	_	_	_	_	_	_	_	_
-4	salm	salm	NOUN	noun	_	3	nsubj	X	Gloss=psalm
-5	scribdid	scríbndid	NOUN	noun	Case=Nom|Number=Sing	4	appos	X	Gloss=writer
-6	ɔ·icfed	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	5	acl:relcl	X	Gloss=to can, to be capable of; to be able, to have power over
-7	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
-8	·	·	PUNCT	punctuation	_	_	_	_	_
+4	salmscribdid	salmscribndid	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	5:nsubj|3:nsubj	Gloss=psalmist
+5	ɔ·icfed	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	4	acl:relcl	X	Gloss=to can, to be capable of; to be able, to have power over
+6	són	-són	PRON	particle_anaphoric	_	5	obj	X	Gloss=that (mentioned above) that is
+7	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-73
 # text = .i. combad echtransom hochomrorcain
@@ -6492,10 +6490,10 @@
 3	·carad	caraid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to love
 4-5	chaingnimu	_	_	_	_	_	_	_	_
 4	chain	caín	ADJ	adjective	Degree=Pos	5	amod	X	Gloss=fine, good, beautiful, fair
-5	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	3	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+5	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	7	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 6-7	dudenum	_	_	_	_	_	_	_	_
 6	du	do 1	ADP	preposition	Case=Dat	7	mark:prt	X	Gloss=to, for, by etc.
-7	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of doing, making, creating; deed, work, activity
+7	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
 
 # sent_id = S0006-75
 # text = .i. honaib idlaib .i. huare ishitilchaib ardaib· nobitis adi
@@ -7328,7 +7326,7 @@
 5	intinscitul	intinnscetal	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=Vnoun	2	conj	X	Gloss=act of beginning
 6-7	ingnimo	_	_	_	_	_	_	_	_
 6	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	gnimo	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	5	nmod	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+7	gnimo	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	5	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-141
 # text = intan mbímmi ocaforbu són
@@ -7352,10 +7350,10 @@
 3	forbu	forbae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of finishing, completing; end, termination, culmination
 4-5	ingnimo	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	gnimo	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	nmod	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+5	gnimo	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 6	serc	serc	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	nsubj	X	Gloss=the act of loving; love, affection
-7	feidligtheo	feidligud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	6	nmod	X	Gloss=the act of remaining, persisting, permanence
-8	oco	oc	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=at, by, besides, with (person)
+7	feidligtheo	feidligud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	6	xcomp	X	Gloss=the act of remaining, persisting, permanence
+8	oco	oc	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	7	obl:prep	X	Gloss=at, by, besides, with (person)
 
 # sent_id = S0006-143
 # text = .i. ho burorbaither ingním olc nomaith feidligud oco iarum·
@@ -8110,7 +8108,7 @@
 2	narmtar	armaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to arm, to equip
 3-5	condegdligedaib	_	_	_	_	_	_	_	_
 3	co	co 2	ADP	preposition	Case=Dat	5	case	X	Gloss=with, general accompaniment, connection, attendant circumstances
-4	ndeg	dag-	X	particle_prefix	_	5	mark:prt	X	Gloss=good, noble, very
+4	ndeg	dag-	X	particle_prefix	_	5	amod	X	Gloss=good, noble, very
 5	dligedaib	dliged	NOUN	noun	Case=Dat|Number=Plur	2	obl	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
 6-8	diafrithuidecht·	_	_	_	_	_	_	_	_
 6	di	do 1	ADP	preposition	Case=Dat	8	mark:prt	X	Gloss=to, for, by etc.
@@ -8789,8 +8787,8 @@
 # sent_id = S0006-287
 # text = .i. airis dodoinacht maic is nomen iesus··
 # text_en = i.e. for it is to the humanity of the Son that Jesus is the name.
-9	air	ar 2	SCONJ	conjunction	_	5	mark	X	Gloss=causal: since, for; final: so that
 1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	air	ar 2	SCONJ	conjunction	_	5	mark	X	Gloss=causal: since, for; final: so that
 3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
 5	doinacht	doínacht	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=humanity (vs. deity), humanness, Manhood
@@ -10011,7 +10009,7 @@
 6-7	dinaib	_	_	_	_	_	_	_	_
 6	di	di	ADP	preposition	Case=Dat	8	case	X	Gloss=away, from, cause or reason, by
 7	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	4	advcl	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+8	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	4	obl	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
 
 # sent_id = S0006-408
 # text = incéin naili
@@ -10357,8 +10355,8 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innafortacte	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	fortacte	fortacht	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of aiding, helping
-4	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	3	csubj:cleft	X	Gloss=to do, to make
+3	fortacte	fortacht	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	4:nsubj|0:root	Gloss=the act of aiding, helping
+4	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to do, to make
 5	·	·	PUNCT	punctuation	_	_	_	_	_
 6	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=god, deity, God
 7-8	dosom	_	_	_	_	_	_	_	_
@@ -11113,15 +11111,15 @@
 # sent_id = S0006-514
 # text = uel si est .i. ní dixnigedar .i. sí pro non.
 # text_en = uel si est, i.e. there is not, i.e. si pro non.
-1	uel	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
-2	si	(Latin letters and suffixes)	NOUN	noun	_	0	root	X	Gloss=_
-3	est	sum	VERB	verb	Voice=Act|Mood=Ind	2	cop	X	Gloss=to be
+1	uel	uel	CCONJ	conjunction	_	3	cc	X	Gloss=or, even
+2	si	(Latin letters and suffixes)	SCONJ	conjunction	_	3	mark	X	Gloss=_
+3	est	sum	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=to be
 4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5	ní·	ní 3	PART	particle_negative_main	_	6	advmod:neg	X	Gloss=not
 6	·dixnigedar	díchsnigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	conj	X	Gloss=to exist, to be, to be extant
-7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
-8	sí	(Latin letters and suffixes)	NOUN	noun	_	2	conj	X	Gloss=_
-9	pro	prō	ADP	preposition	Case=Unk	8	case	X	Gloss=for, on behalf of, before
+7	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
+8	sí	(Latin letters and suffixes)	SCONJ	conjunction	_	9	mark	X	Gloss=_
+9	pro	prō	ADP	preposition	Case=Unk	3	conj	X	Gloss=for, on behalf of, before
 10	non	nōn	X	particle_negative	_	9	advmod:neg	X	Gloss=not
 11	.	.	PUNCT	punctuation	_	_	_	_	_
 
@@ -12498,7 +12496,7 @@
 6	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=god, deity, God
 7-8	hisuidiu	_	_	_	_	_	_	_	_
 7	hi	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
-8	suidiu	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Sing|Gender=Masc	4	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+8	suidiu	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Sing|Gender=Masc	4	xcomp:pred	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 
 # sent_id = S0006-630
 # text = nad ndixnigedar nech
@@ -14733,8 +14731,8 @@
 2	air	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
 3	do·ratad	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 4	ermitiu	airmitiu	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	csubj	X	Gloss=the act of revering; reverence, honor
-5	feid	fíad 5	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=honor, dignity, elevation; respect, reverence
-6	deachtae	deächt	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=divinity, godhead
+5	feid	fíad 5	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=honor, dignity, elevation; respect, reverence
+6	deachtae	deächt	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=divinity, godhead
 7-8	dodoinacht	_	_	_	_	_	_	_	_
 7	do	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
 8	doinacht	doínacht	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=humanity (vs. deity), humanness, Manhood
