@@ -8810,9 +8810,9 @@
 7	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
 8	ho	ó 1	ADP	preposition	Case=Dat	10	case	X	Gloss=from, out of, by
 9	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	anmim	ainm	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=name, noun (gramm)
-11	as·berr	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to say, to speak, to call , mention
-12	iesus	Iēsūs	PROPN	proper_noun	_	_	_	X	Gloss=Jesus
+10	anmim	ainm	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=name, noun (gramm)
+11	as·berr	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	acl:relcl	X	Gloss=to say, to speak, to call , mention
+12	iesus	Iēsūs	PROPN	proper_noun	_	11	nsubj	X	Gloss=Jesus
 
 # sent_id = S0006-289
 # text = .i. a foraitmit do dia
@@ -14741,18 +14741,18 @@
 # sent_id = S0006-816
 # text = .i. ishuaisliu cechduil an daratad dondoinach[t]
 # text_en = i.e. that which was given to the humanity is higher than every creature.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	ishuaisliu	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	huaisliu	úasal	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=high, elevated, lofty, noble, honourable
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	huaisliu	úasal	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=high, elevated, lofty, noble, honourable
 4-5	cechduil	_	_	_	_	_	_	_	_
 4	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Fem|PronType=Tot	5	det	X	Gloss=every, each, all, any
-5	duil	dúil 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=element, being, creature, thing
-6	a	a 4	PRON	pronoun_relative	Case=Nom|Number=Sing|PronType=Rel	_	_	X	Gloss=that, which
-7	nda·ratad	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+5	duil	dúil 1	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=element, being, creature, thing
+6	a	a 4	PRON	pronoun_relative	Case=Nom|Number=Sing|PronType=Rel	3	nsubj	7:nsubj|3:nsubj	Gloss=that, which
+7	nda·ratad	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	6	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 8	do	do 1	ADP	preposition	Case=Dat	10	case	X	Gloss=to, for, by etc.
 9	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	doinacht	doínacht	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=humanity (vs. deity), humanness, Manhood
+10	doinacht	doínacht	NOUN	noun	Case=Dat|Number=Sing	7	obl	X	Gloss=humanity (vs. deity), humanness, Manhood
 
 # sent_id = S0006-817
 # text = oinigthe
@@ -15038,16 +15038,16 @@
 # text_en = for the confirmation of this prophecy that it was said of Christ.
 1-2	ardemnigud	_	_	_	_	_	_	_	_
 1	ar	ar 1	ADP	preposition	Case=Acc	2	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-2	demnigud	deimnigud	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	_	_	X	Gloss=the act of confirming, making firm, securing, fortifying, proving, attesting
+2	demnigud	deimnigud	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	0	root	X	Gloss=the act of confirming, making firm, securing, fortifying, proving, attesting
 3-5	innafaithsinese	_	_	_	_	_	_	_	_
 3	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	faithsine	fáithsine	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=prophecy
-5	se	-se	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+4	faithsine	fáithsine	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=prophecy
+5	se	-se	DET	particle_demonstrative_proximate	Deixis=Prox	4	det	X	Gloss=this, these
 6-8	asnduchríst	_	_	_	_	_	_	_	_
-6	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
+6	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	8	cop	X	Gloss=to be
 7	ndu	di	ADP	preposition	Case=Dat	8	case	X	Gloss=away, from, cause or reason, by
-8	chríst	Críst	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=the Anointed, Jesus Christ
-9	ro·cét	canaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to sing, to recite, to chant; to speak, to tell, to announce, to utter
+8	chríst	Críst	PROPN	proper_noun	Case=Dat|Number=Sing	2	ccomp	X	Gloss=the Anointed, Jesus Christ
+9	ro·cét	canaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	8	csubj:cleft	X	Gloss=to sing, to recite, to chant; to speak, to tell, to announce, to utter
 10	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-846
