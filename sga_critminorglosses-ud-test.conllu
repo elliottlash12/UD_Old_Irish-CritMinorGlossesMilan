@@ -11462,17 +11462,17 @@
 # text = isecen dam són nondages daitsiu.,
 # text_en = this is necessary to me: that I ask You (sg) for them.
 1-2	isecen	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	ecen	éicen	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
-3	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
-4	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	ecen	éicen	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
+3	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	2	obl:prep	X	Gloss=to, for, by etc.
+4	són	-són	PRON	particle_anaphoric	_	2	nsubj	X	Gloss=that (mentioned above) that is
 5-7	nondages	_	_	_	_	_	_	_	_
-5	no	no·	SCONJ	particle_preverb	_	_	mark:prt	X	Gloss=empty particle
-6	nda·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=them
-7	·ges	guidid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to beseech, to pray to, to entreat; to desire
+5	no	no·	SCONJ	particle_preverb	_	7	mark:prt	X	Gloss=empty particle
+6	nda·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	7	inf:obj	X	Gloss=them
+7	·ges	guidid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	2	ccomp	X	Gloss=to beseech, to pray to, to entreat; to desire
 8-9	daitsiu.,	_	_	_	_	_	_	_	_
-8	dait	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
-9	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+8	dait	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	9	case	X	Gloss=to, for, by etc.
+9	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	7	obl	X	Gloss=emphasising particle
 10	.,	.,	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-550
@@ -11694,18 +11694,18 @@
 # sent_id = S0006-562
 # text = .i. asberat as ndia cloine macc olsodin as gó doib·
 # text_en = i.e. who say that the Son is a God of iniquity, which, however, is a lie on their part.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	as·berat	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
-3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-4	ndia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
-5	cloine	cloíne	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=uneveness, crookedness, slant; iniquity, perversion, wickedness, bias; evil deeds (in plural)
-6	macc	macc 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	as·berat	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	0	root	X	Gloss=to say, to speak, to call , mention
+3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
+4	ndia	día 2	NOUN	noun	Case=Nom|Number=Sing	2	csubj:cleft	X	Gloss=god, deity, God
+5	cloine	cloíne	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=uneveness, crookedness, slant; iniquity, perversion, wickedness, bias; evil deeds (in plural)
+6	macc	macc 1	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
 7-8	olsodin	_	_	_	_	_	_	_	_
-7	ol	ol 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, because, for, inasmuch as; that which; adversative relative with sodain: “which, however”
-8	sodin	suide 1	PRON	pronoun_anaphoric	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-9	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-10	gó	gáu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=falsehood, lie
-11	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+7	ol	ol 2	SCONJ	conjunction	_	10	mark	X	Gloss=causal: since, because, for, inasmuch as; that which; adversative relative with sodain: “which, however”
+8	sodin	suide 1	PRON	pronoun_anaphoric	Case=Nom|Number=Sing|Gender=Neut	4	discourse	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+9	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	10	cop	X	Gloss=to be
+10	gó	gáu	NOUN	noun	Case=Nom|Number=Sing	4	advcl	X	Gloss=falsehood, lie
+11	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	10	obl:prep	X	Gloss=to, for, by etc.
 12	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-563
@@ -12122,17 +12122,17 @@
 # text = nadnecmai .i. arna esngaba mod ácuindrech
 # text_en = that it may not come about, i.e. that the chastisement does not exceed measure.
 1-2	nadnecmai	_	_	_	_	_	_	_	_
-1	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-2	·necmai	ad·cumaing	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to strike, to happen
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	nad·	nád 1	PART	particle_negative_subordinate	_	2	advmod:neg	X	Gloss=that...not
+2	·necmai	ad·cumaing	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to strike, to happen
+3	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 4-5	arna	_	_	_	_	_	_	_	_
-4	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-5	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-6	·esngaba	as·ingaib	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to go beyond, to surpass, to exceed
-7	mod	mod	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=measure, limit; manner, mode, way, fashion
+4	ar	ara	SCONJ	complementiser	_	6	mark:prt	X	Gloss=in order that, so that
+5	na·	ná 2	PART	particle_negative_subordinate	_	6	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+6	·esngaba	as·ingaib	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	2	conj	X	Gloss=to go beyond, to surpass, to exceed
+7	mod	mod	NOUN	noun	Case=Acc|Number=Sing	6	obj	X	Gloss=measure, limit; manner, mode, way, fashion
 8-9	ácuindrech	_	_	_	_	_	_	_	_
 8	á	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	cuindrech	cuindrech	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of correcting, chastising, controlling
+9	cuindrech	cuindrech	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	6	nsubj	X	Gloss=the act of correcting, chastising, controlling
 
 # sent_id = S0006-598
 # text = onlondas
