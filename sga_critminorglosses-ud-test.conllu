@@ -7358,19 +7358,19 @@
 # sent_id = S0006-143
 # text = .i. ho burorbaither ingním olc nomaith feidligud oco iarum·
 # text_en = i.e. after the good or evil action has been finished, remaining at it afterwards.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ho	ó 2	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: since, after (with subordinate clause)
-3	bu·rorbaither	for·fen	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to complete, to finish, to bring to an end, to fulfill
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ho	ó 2	SCONJ	conjunction	_	3	mark	X	Gloss=temporal: since, after (with subordinate clause)
+3	bu·rorbaither	for·fen	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	9	advcl	X	Gloss=to complete, to finish, to bring to an end, to fulfill
 4-5	ingním	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	gním	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-6	olc	olc	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+5	gním	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	nsubj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+6	olc	olc	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	5	amod	X	Gloss=evil, bad, wrong
 7-8	nomaith	_	_	_	_	_	_	_	_
-7	no	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-8	maith	maith	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=good, right, noble
-9	feidligud	feidligud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of remaining, persisting, permanence
-10	oco	oc	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=at, by, besides, with (person)
-11	iarum	íarum	ADV	adverb	_	_	_	X	Gloss=thereafter, afterwards
+7	no	nó 1	CCONJ	conjunction	_	8	cc	X	Gloss=disjunctive: or
+8	maith	maith	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	6	conj	X	Gloss=good, right, noble
+9	feidligud	feidligud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of remaining, persisting, permanence
+10	oco	oc	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	9	obl:prep	X	Gloss=at, by, besides, with (person)
+11	iarum	íarum	ADV	adverb	_	9	advmod	X	Gloss=thereafter, afterwards
 12	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-144
@@ -8209,16 +8209,16 @@
 1-3	huandhulidettuid	_	_	_	_	_	_	_	_
 1	hua	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	hulidettuid	uilidetu	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=wholeness, universality, totality
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	hule	uile	ADJ	adjective_quantifier	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=all, every, the whole
+3	hulidettuid	uilidetu	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=wholeness, universality, totality
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	hule	uile	ADJ	adjective_quantifier	Case=Nom|Number=Sing|Gender=Neut	3	conj	X	Gloss=all, every, the whole
 6	ar	ar 1	ADP	preposition	Case=Acc	7	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-7	ráin	rann 1	NOUN	noun	Case=Dat	_	_	X	Gloss=part, share, division, part (of speech), portion
-8	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+7	ráin	rann 1	NOUN	noun	Case=Dat	5	obl	X	Gloss=part, share, division, part (of speech), portion
+8	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	9	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	5	obl	X	Gloss=emphasising particle
 10	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-12	siu	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+11	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	5	nsubj	X	Gloss=substantivizing particle
+12	siu	-so	DET	particle_demonstrative_proximate	Deixis=Prox	11	det	X	Gloss=this, these
 13	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-236
@@ -11194,19 +11194,19 @@
 # sent_id = S0006-523
 # text = .i. ciarubé cenní diib nirubai cenaib huli·
 # text_en = i.e. though he might be able to exist without some of them, he cannot exist without them all.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	ciarubé	_	_	_	_	_	_	_	_
-2	cia	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	ru·bé	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to be, to exist,
+2	cia	cía 2	SCONJ	conjunction	_	3	mark	X	Gloss=concessive and explicative: even, although
+3	ru·bé	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	8	advcl	X	Gloss=to be, to exist,
 4-5	cenní	_	_	_	_	_	_	_	_
-4	cen	cen	ADP	preposition	Case=Acc	_	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-5	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
-6	diib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
+4	cen	cen	ADP	preposition	Case=Acc	5	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
+5	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	3	obl	X	Gloss=something; nothing, anything ; not
+6	diib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	3	obl:prep	X	Gloss=away, from, cause or reason, by
 7-8	nirubai	_	_	_	_	_	_	_	_
-7	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-8	·rubai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to be, to exist,
-9	cenaib	cen	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-10	huli	uile	ADJ	adjective_quantifier	Case=Acc|Number=Plur|Gender=Neut	_	_	X	Gloss=all, every, the whole
+7	ni·	ní 3	PART	particle_negative_main	_	8	advmod:neg	X	Gloss=not
+8	·rubai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to be, to exist,
+9	cenaib	cen	ADP	preposition	Person=3|Number=Plur|Case=Acc	10	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
+10	huli	uile	ADJ	adjective_quantifier	Case=Acc|Number=Plur|Gender=Neut	8	obl	X	Gloss=all, every, the whole
 11	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-524
