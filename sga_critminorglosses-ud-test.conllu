@@ -12542,16 +12542,16 @@
 # text_en = the contrition that is upon them in hell only; they cannot work repentance.
 1-2	aconguin	_	_	_	_	_	_	_	_
 1	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	conguin	conguin	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of hounding; contrition, compunction
-3	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-4	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=upon, over, on
+2	conguin	conguin	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	3:nsubj|0:root	Gloss=the act of hounding; contrition, compunction
+3	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to be, to exist,
+4	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	3	xcomp:pred	X	Gloss=upon, over, on
 5	i	i	ADP	preposition	Case=Dat	6	case	X	Gloss=in, into
-6	niffiurn	ifern	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=hell, Hades, the infernal regions
-7	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-8	·cumcat	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to can, to be capable of; to be able, to have power over
-9	aithirgi	aithirge	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of repenting (of), regretting; penance
-10	ndo	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
-11	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
+6	niffiurn	ifern	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=hell, Hades, the infernal regions
+7	ní·	ní 3	PART	particle_negative_main	_	8	advmod:neg	X	Gloss=not
+8	·cumcat	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	2	parataxis	X	Gloss=to can, to be capable of; to be able, to have power over
+9	aithirgi	aithirge	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	8	xcomp	X	Gloss=the act of repenting (of), regretting; penance
+10	ndo	do 1	ADP	preposition	Case=Dat	11	mark:prt	X	Gloss=to, for, by etc.
+11	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	9	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
 
 # sent_id = S0006-635
 # text = foisiten
@@ -12874,15 +12874,15 @@
 # sent_id = S0006-658
 # text = dorimther ascelsa hílebraib ríg sudet qui legat
 # text_en = this story is related in the books of Kings.
-1	do·rimther	do·rími	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to enumerate, to mention; to tell, to relate; to count, to speak of, to account
+1	do·rimther	do·rími	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to enumerate, to mention; to tell, to relate; to count, to speak of, to account
 2-4	ascelsa	_	_	_	_	_	_	_	_
 2	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	scel	scél	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=story, tale, narration ; tiding, news
-4	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+3	scel	scél	NOUN	noun	Case=Nom|Number=Sing	1	nsubj	X	Gloss=story, tale, narration ; tiding, news
+4	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	3	det	X	Gloss=this, these
 5-6	hílebraib	_	_	_	_	_	_	_	_
 5	hí	i	ADP	preposition	Case=Dat	6	case	X	Gloss=in, into
-6	lebraib	lebor	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=book, volume
-7	ríg	rí	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=king
+6	lebraib	lebor	NOUN	noun	Case=Dat|Number=Plur	1	obl	X	Gloss=book, volume
+7	ríg	rí	NOUN	noun	Case=Gen|Number=Plur	6	nmod	X	Gloss=king
 8	sudet	sūdō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
 9	qui	quī	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=who, which
 10	legat	lego	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to read
@@ -13035,18 +13035,18 @@
 # sent_id = S0006-671
 # text = .i. cen frescsin .i. á íce trisindrochomairli dorat achitofel
 # text_en = i.e. without expectation, that is, of his salvation through the bad counsel that Achitophel gave.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	cen	cen	ADP	preposition	Case=Acc	3	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-3	frescsin	frescisiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of expecting, looking forward to, anticipating; expectation, hope
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	íce	ícc	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of healing, saving, curing, paying for, enduring; salvation, cure, redress, satisfaction, solution, answer (to a question or problem), requital, atonement, revenge, salvation
+3	frescsin	frescisiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of expecting, looking forward to, anticipating; expectation, hope
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+6	íce	ícc	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of healing, saving, curing, paying for, enduring; salvation, cure, redress, satisfaction, solution, answer (to a question or problem), requital, atonement, revenge, salvation
 7	tri	tre	ADP	preposition	Case=Acc	10	case	X	Gloss=through (time or space), by means of, be reason of
 8	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
-9	droch	droch-	X	particle_prefix	_	_	_	X	Gloss=evil, bad, wrong
-10	chomairli	comairle	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=counsel, admonition, advice, plan, decision
-11	do·rat	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-12	achitofel	Achitofel	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Achitophel
+9	droch	droch-	X	particle_prefix	_	10	amod	X	Gloss=evil, bad, wrong
+10	chomairli	comairle	NOUN	noun	Case=Acc|Number=Sing	6	obl	X	Gloss=counsel, admonition, advice, plan, decision
+11	do·rat	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	10	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+12	achitofel	Achitofel	PROPN	proper_noun	Case=Nom|Number=Sing	11	nsubj	X	Gloss=Achitophel
 
 # sent_id = S0006-672
 # text = .i. isanindarbae
