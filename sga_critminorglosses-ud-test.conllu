@@ -5941,20 +5941,20 @@
 # sent_id = S0006-37
 # text = .i. mad forcenn libuir nachmagen imbeth amen indib..
 # text_en = if every place in which amen is in them were the end of a book.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	mad	_	_	_	_	_	_	_	_
-2	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	forcenn	forcenn	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=end, final limit (generally of time or procedure), what is destined
-5	libuir	lebor	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=book, volume
+2	ma	ma	SCONJ	conjunction	_	4	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	forcenn	forcenn	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=end, final limit (generally of time or procedure), what is destined
+5	libuir	lebor	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=book, volume
 6-7	nachmagen	_	_	_	_	_	_	_	_
-6	nach	nach 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem|PronType=Ind	_	_	X	Gloss=any, every, each, some, none
-7	magen	maigen	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=spot, place, precinct
+6	nach	nach 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem|PronType=Ind	7	det	X	Gloss=any, every, each, some, none
+7	magen	maigen	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	9:obl|4:nsubj	Gloss=spot, place, precinct
 8-9	imbeth	_	_	_	_	_	_	_	_
-8	i	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-9	·mbeth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-10	amen	āmēn	ADV	adverb	_	_	_	X	Gloss=amen; so be it
-11	indib	i	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=in, into
+8	i	i	ADP	preposition	Case=Acc	9	obl:prep	X	Gloss=in, into
+9	·mbeth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	acl:relcl	X	Gloss=to be, to exist,
+10	amen	āmēn	ADV	adverb	_	9	nsubj	X	Gloss=amen; so be it
+11	indib	i	ADP	preposition	Person=3|Number=Plur|Case=Dat	9	obl:prep	X	Gloss=in, into
 12	..	..	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-38
@@ -6129,20 +6129,20 @@
 # sent_id = S0006-47
 # text = .i. denum tintuda inna firinne file isindebrae isinlaitin
 # text_en = i.e. to make a translation of the truth that is in the Hebrew into Latin.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	denum	dénum	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
-3	tintuda	tintúd	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of returning, translating; conversion, translation, recalling
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	denum	dénum	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of doing, making, creating; deed, work, activity
+3	tintuda	tintúd	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	obj	X	Gloss=the act of returning, translating; conversion, translation, recalling
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	firinne	fírinne	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=truth; justice, righteousness
-6	file	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+5	firinne	fírinne	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=truth; justice, righteousness
+6	file	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	acl:relcl	3	X	Gloss=to be, to exist,
 7-9	isindebrae	_	_	_	_	_	_	_	_
 7	i	i	ADP	preposition	Case=Dat	9	case	X	Gloss=in, into
 8	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	ebrae	Ebrae 2	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=Hebrew language
+9	ebrae	Ebrae 2	PROPN	proper_noun	Case=Dat|Number=Sing	6	obl	X	Gloss=Hebrew language
 10-12	isinlaitin	_	_	_	_	_	_	_	_
 10	i	i	ADP	preposition	Case=Acc	12	case	X	Gloss=in, into
 11	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	12	det	X	Gloss=the
-12	laitin	Laiten	PROPN	proper_noun	Case=Acc|Number=Sing	_	_	X	Gloss=Latin language
+12	laitin	Laiten	PROPN	proper_noun	Case=Acc|Number=Sing	2	obl	X	Gloss=Latin language
 
 # sent_id = S0006-48
 # text = .i. cidolc lamnaimtea
@@ -6337,20 +6337,20 @@
 # sent_id = S0006-65
 # text = .i. ciasidrubartsa nadtintaesiu allatin do gregaib·
 # text_en = i.e. although I have said you (sg) should not translate out of Latin for Greeks.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	ciasidrubartsa	_	_	_	_	_	_	_	_
-2	ci'	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	asid·rubart	as·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
-4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+2	ci'	cía 2	SCONJ	conjunction	_	3	mark	X	Gloss=concessive and explicative: even, although
+3	asid·rubart	as·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf	0	root	X	Gloss=to say, to speak, to call , mention
+4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
 5-7	nadtintaesiu	_	_	_	_	_	_	_	_
-5	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-6	·tintae	do·intaí	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to translate, to turn back, to return
-7	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	nad·	nád 1	PART	particle_negative_subordinate	_	6	advmod:neg	X	Gloss=that...not
+6	·tintae	do·intaí	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	parataxis	X	Gloss=to translate, to turn back, to return
+7	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	6	nsubj	X	Gloss=emphasising particle
 8-9	allatin	_	_	_	_	_	_	_	_
 8	a	a 7	ADP	preposition	Case=Dat	9	case	X	Gloss=out of, from
-9	llatin	Laiten	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=Latin language
+9	llatin	Laiten	PROPN	proper_noun	Case=Dat|Number=Sing	6	obl	X	Gloss=Latin language
 10	do	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
-11	gregaib	gréc 1	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=Greek (person)
+11	gregaib	gréc 1	NOUN	noun	Case=Dat|Number=Plur	6	obl	X	Gloss=Greek (person)
 12	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-66
