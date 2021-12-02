@@ -6929,20 +6929,20 @@
 # sent_id = S0006-112
 # text = .i. atá inaicniud chaich denum maith 7 imgabail uilc dodenum
 # text_en = i.e. it is in the nature of every (person) to do good and to avoid doing evil.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
 3-4	inaicniud	_	_	_	_	_	_	_	_
 3	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
-4	naicniud	aicned	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=nature, inherent quality, essence
-5	chaich	cách	PRON	pronoun_quantifier	Case=Gen|Number=Sing|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
-6	denum	dénum	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
-7	maith	maith	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=good, right, noble
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-9	imgabail	immgabál	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avoiding, evading
-10	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+4	naicniud	aicned	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=nature, inherent quality, essence
+5	chaich	cách	PRON	pronoun_quantifier	Case=Gen|Number=Sing|PronType=Tot	4	nmod	X	Gloss=every one, each one, any one, all
+6	denum	dénum	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
+7	maith	maith	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	6	obj	X	Gloss=good, right, noble
+8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+9	imgabail	immgabál	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	6	conj	X	Gloss=the act of avoiding, evading
+10	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	9	obj	X	Gloss=evil, bad, wrong
 11-12	dodenum	_	_	_	_	_	_	_	_
-11	do	do 1	ADP	preposition	Case=Dat	12	case	X	Gloss=to, for, by etc.
-12	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
+11	do	do 1	ADP	preposition	Case=Dat	12	mark:prt	X	Gloss=to, for, by etc.
+12	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	9	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
 
 # sent_id = S0006-113
 # text = latharde
@@ -7814,20 +7814,20 @@
 # sent_id = S0006-196
 # text = ɫ. nadnecmai andumenmarni .i. arnatomnammarni·
 # text_en = or, that it may not happen when we think, i.e. that we may not think.
-1	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+1	ɫ	nó 1	CCONJ	conjunction	_	3	cc	X	Gloss=disjunctive: or
 2-3	nadnecmai	_	_	_	_	_	_	_	_
-2	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-3	·necmai	ad·cumaing	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to strike, to happen
+2	nad·	nád 1	PART	particle_negative_subordinate	_	3	advmod:neg	X	Gloss=that...not
+3	·necmai	ad·cumaing	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Nas	0	root	X	Gloss=to strike, to happen
 4-6	andumenmarni	_	_	_	_	_	_	_	_
-4	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-5	ndu·menmar	do·moinethar	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Nas	_	_	X	Gloss=to think, to suppose, to conjecture
-6	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+4	a	a 6	SCONJ	conjunction	_	5	mark	X	Gloss=temporal: when, since
+5	ndu·menmar	do·moinethar	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Nas	3	advcl	X	Gloss=to think, to suppose, to conjecture
+6	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
+7	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
 8-11	arnatomnammarni·	_	_	_	_	_	_	_	_
-8	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-9	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-10	·tomnammar	do·moinethar	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to think, to suppose, to conjecture
-11	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+8	ar	ara	SCONJ	complementiser	_	10	mark:prt	X	Gloss=in order that, so that
+9	na·	ná 2	PART	particle_negative_subordinate	_	10	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+10	·tomnammar	do·moinethar	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	5	conj	X	Gloss=to think, to suppose, to conjecture
+11	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	10	nsubj	X	Gloss=emphasising particle
 12	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-197
@@ -8491,20 +8491,20 @@
 # sent_id = S0006-258
 # text = noch immurgu nírolsat som cumachtae ṅ dé diib calleic tri bas doinachtae crist.
 # text_en = and yet they nevertheless did not cast the power of God from them through the death of the Manhood of Christ.
-1	noch	noch 1	X	conjunction	_	_	_	X	Gloss=introduces a synonym or explanation: that is to say
-2	immurgu	immurgu	ADV	particle_discourse	_	_	_	X	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
+1	noch	noch 1	X	conjunction	_	4	mark	X	Gloss=introduces a synonym or explanation: that is to say
+2	immurgu	immurgu	ADV	particle_discourse	_	4	advmod	X	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
 3-4	nírolsat	_	_	_	_	_	_	_	_
-3	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	·rolsat	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
-5	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-6	cumachtae	cumachtae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=power, strength, might
-7	ṅdé	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
-8	diib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
-9	calleic	calléic	ADV	adverb	_	_	_	X	Gloss=adversative: nevertheless, however, for all that
+3	ní·	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+4	·rolsat	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
+5	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	4	nsubj	X	Gloss=emphasising particle
+6	cumachtae	cumachtae	NOUN	noun	Case=Acc|Number=Sing	5	obj	X	Gloss=power, strength, might
+7	ṅdé	día 2	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=god, deity, God
+8	diib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	obl:prep	X	Gloss=away, from, cause or reason, by
+9	calleic	calléic	ADV	adverb	_	4	advmod	X	Gloss=adversative: nevertheless, however, for all that
 10	tri	tre	ADP	preposition	Case=Acc	11	case	X	Gloss=through (time or space), by means of, be reason of
-11	bas	bás	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of dying; death
-12	doinachtae	doínacht	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=humanity (vs. deity), humanness, Manhood
-13	crist	Críst	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=the Anointed, Jesus Christ
+11	bas	bás	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	4	obl	X	Gloss=the act of dying; death
+12	doinachtae	doínacht	NOUN	noun	Case=Gen|Number=Sing	11	nmod	X	Gloss=humanity (vs. deity), humanness, Manhood
+13	crist	Críst	PROPN	proper_noun	Case=Gen|Number=Sing	12	nmod	X	Gloss=the Anointed, Jesus Christ
 14	.	.	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-259
