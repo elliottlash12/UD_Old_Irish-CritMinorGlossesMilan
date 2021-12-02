@@ -11323,19 +11323,19 @@
 # sent_id = S0006-538
 # text = dochuimlechtigthi .i. intan domberam armenmain intiu colleir
 # text_en = accomodated, i.e. when we give our mind to them diligently.
-1	dochuimlechtigthi	dochuimlechtigthe	ADJ	verbal_participle	Case=Acc|Number=Plur|Gender=Neut	_	_	X	Gloss=advantaged, accomodated
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	dochuimlechtigthi	dochuimlechtigthe	ADJ	verbal_participle	Case=Acc|Number=Plur|Gender=Neut	0	root	X	Gloss=advantaged, accomodated
+2	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 3-4	intan	_	_	_	_	_	_	_	_
-3	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	tan	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
-5	do·mberam	do·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+3	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
+4	tan	tan	NOUN	noun	Case=Acc|Number=Sing	5	obl:tmod	X	Gloss=time
+5	do·mberam	do·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	1	conj	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 6-7	armenmain	_	_	_	_	_	_	_	_
-6	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	7	_	X	Gloss=our
-7	menmain	menmae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
-8	intiu	i	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=in, into
+6	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	7	nmod:poss	X	Gloss=our
+7	menmain	menmae	NOUN	noun	Case=Acc|Number=Sing	5	obj	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
+8	intiu	i	ADP	preposition	Person=3|Number=Plur|Case=Acc	5	obl:prep	X	Gloss=in, into
 9-10	colleir	_	_	_	_	_	_	_	_
-9	co	co 1	ADP	preposition	Case=Acc	_	case	X	Gloss=to, until, as far as, towards
-10	lleir	léir	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=assiduous, zealous, careful, visible
+9	co	co 1	ADP	preposition	Case=Acc	10	case	X	Gloss=to, until, as far as, towards
+10	lleir	léir	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	5	obl	X	Gloss=assiduous, zealous, careful, visible
 
 # sent_id = S0006-539
 # text = dintecnatatu
@@ -11353,19 +11353,19 @@
 # sent_id = S0006-541
 # text = .i. manid óchomacnabud innam briathar ndoinde arrubart biuth
 # text_en = i.e. unless it is the usage of the human words that he has employed.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 2-4	manid	_	_	_	_	_	_	_	_
-2	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-3	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	ma	ma	SCONJ	conjunction	_	6	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+3	ni	ní 3	PART	particle_negative_main	_	6	advmod:neg	X	Gloss=not
+4	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
 5-6	óchomacnabud	_	_	_	_	_	_	_	_
 5	ó	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
-6	chomacnabud	comacnabad	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=usage, custom
+6	chomacnabud	comacnabad	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=usage, custom
 7	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	mbriathar	bríathar	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=word,
-9	ndoinde	doíndae	ADJ	adjective	Case=Gen|Number=Plur|Gender=Fem|Degree=Pos	_	_	X	Gloss=pertaining to man, human, mortal
-10	ar·rubart	ar·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to use, to employ; to live, to eat; to express, to derive, to enjoy
-11	biuth	bith	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+8	mbriathar	bríathar	NOUN	noun	Case=Gen|Number=Plur	6	nmod	X	Gloss=word,
+9	ndoinde	doíndae	ADJ	adjective	Case=Gen|Number=Plur|Gender=Fem|Degree=Pos	8	amod	X	Gloss=pertaining to man, human, mortal
+10	ar·rubart	ar·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	6	csubj:cleft	X	Gloss=to use, to employ; to live, to eat; to express, to derive, to enjoy
+11	biuth	bith	NOUN	noun	Case=Dat|Number=Sing	10	obl	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
 
 # sent_id = S0006-542
 # text = nongesmais
@@ -11375,19 +11375,19 @@
 # sent_id = S0006-543
 # text = .i. disamlathar .i. níscluinethar 7 nitabair indithim nintiu
 # text_en = i.e. he dissembles, i.e. he does not hear them and does not give heed to them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	di·samlathar	do·samlathar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to dissemble
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	di·samlathar	do·samlathar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to dissemble
+3	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 4-6	níscluinethar	_	_	_	_	_	_	_	_
-4	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-5	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=them
-6	·cluinethar	ro·cluinethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to hear
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+4	ní	ní 3	PART	particle_negative_main	_	6	advmod:neg	X	Gloss=not
+5	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	6	inf:obj	X	Gloss=them
+6	·cluinethar	ro·cluinethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	2	conj	X	Gloss=to hear
+7	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
 8-9	nitabair	_	_	_	_	_	_	_	_
-8	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-9	·tabair	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-10	indithim	indithem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of contemplating; attention, heed, intentness, contemplation
-11	nintiu	i	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=in, into
+8	ni·	ní 3	PART	particle_negative_main	_	9	advmod:neg	X	Gloss=not
+9	·tabair	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	6	conj	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+10	indithim	indithem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	9	xcomp	X	Gloss=the act of contemplating; attention, heed, intentness, contemplation
+11	nintiu	i	ADP	preposition	Person=3|Number=Plur|Case=Acc	10	obl:prep	X	Gloss=in, into
 
 # sent_id = S0006-544
 # text = todlaigthe
