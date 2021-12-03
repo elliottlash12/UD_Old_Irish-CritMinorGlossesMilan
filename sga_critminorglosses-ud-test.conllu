@@ -13906,20 +13906,20 @@
 # sent_id = S0006-753
 # text = .i. cen imned dofodaitin isinbiuth frecndairc dogrés··
 # text_en = i.e. without enduring afflictions in the present world for ever.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	cen	cen	ADP	preposition	Case=Acc	3	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-3	imned	imned	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
+3	imned	imned	NOUN	noun	Case=Acc|Number=Plur	0	root	X	Gloss=tribulation, anxiety, suffering, sorrow
 4-5	dofodaitin	_	_	_	_	_	_	_	_
-4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
-5	fodaitin	fodaitiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of bearing, enduring
+4	do	do 1	ADP	preposition	Case=Dat	5	mark:prt	X	Gloss=to, for, by etc.
+5	fodaitin	fodaitiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of bearing, enduring
 6-8	isinbiuth	_	_	_	_	_	_	_	_
 6	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
 7	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	biuth	bith	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
-9	frecndairc	frecndairc	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=gramm. present (tense)
+8	biuth	bith	NOUN	noun	Case=Dat|Number=Sing	5	obl	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+9	frecndairc	frecndairc	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	8	amod	X	Gloss=gramm. present (tense)
 10-11	dogrés··	_	_	_	_	_	_	_	_
 10	do	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
-11	grés	grés 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=continance, continuation, practice
+11	grés	grés 2	NOUN	noun	Case=Dat|Number=Sing	5	obl	X	Gloss=continance, continuation, practice
 12	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-754
@@ -16286,20 +16286,20 @@
 # sent_id = S0006-954
 # text = .i. digal dothabairt forsnapecdachdu 7 soirad innafirían
 # text_en = i.e. to inflict punishments on sinners and to deliver the righteous.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of avenging, punishing, vengeance
 3-4	dothabairt	_	_	_	_	_	_	_	_
-3	do	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
-4	thabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+3	do	do 1	ADP	preposition	Case=Dat	4	mark:prt	X	Gloss=to, for, by etc.
+4	thabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
 5-7	forsnapecdachdu	_	_	_	_	_	_	_	_
-5	for	for	ADP	preposition	Case=Acc	_	case	X	Gloss=upon, over, on
-6	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-7	pecdachdu	pecthach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos|Typo=Yes	_	_	X	Gloss=sinful, committing sin|CorrectForm=pecdachu
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-9	soirad	sóerad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of freeing, delivering; deliverance
+5	for	for	ADP	preposition	Case=Acc	7	case	X	Gloss=upon, over, on
+6	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
+7	pecdachdu	pecthach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos|Typo=Yes	4	obl	X	Gloss=sinful, committing sin|CorrectForm=pecdachu
+8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+9	soirad	sóerad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of freeing, delivering; deliverance
 10-11	innafirían	_	_	_	_	_	_	_	_
-10	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-11	firían	fírían	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=just, righteous, fitting, truthful
+10	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
+11	firían	fírían	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	9	obj	X	Gloss=just, righteous, fitting, truthful
 
 # sent_id = S0006-955
 # text = .i. tararcenni·
@@ -16395,20 +16395,20 @@
 # sent_id = S0006-962
 # text = nad comairlecea .i. arrambia soirad dinaib imnadaib imbia
 # text_en = that He would not permit, i.e. for it [i.e. populus] will have deliverance from the afflictions in which it will be.
-1	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-2	·comairlecea	con·airléici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to permit, to allow, to let go
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	nad·	nád 1	PART	particle_negative_subordinate	_	2	advmod:neg	X	Gloss=that...not
+2	·comairlecea	con·airléici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to permit, to allow, to let go
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	arrambia	_	_	_	_	_	_	_	_
-4	ar	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-5	ra·mbia	ad·tá	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfA|Aspect=Perf	_	_	X	Gloss=to be, to exist,
-6	soirad	sóerad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of freeing, delivering; deliverance
+4	ar	ar 2	SCONJ	conjunction	_	5	mark	X	Gloss=causal: since, for; final: so that
+5	ra·mbia	ad·tá	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfA|Aspect=Perf	2	conj	X	Gloss=to be, to exist,
+6	soirad	sóerad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	5	obj	X	Gloss=the act of freeing, delivering; deliverance
 7-8	dinaib	_	_	_	_	_	_	_	_
 7	di	di	ADP	preposition	Case=Dat	9	case	X	Gloss=away, from, cause or reason, by
 8	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	imnadaib	imned	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
+9	imnadaib	imned	NOUN	noun	Case=Dat|Number=Plur	5	obl	X	Gloss=tribulation, anxiety, suffering, sorrow
 10-11	imbia	_	_	_	_	_	_	_	_
-10	i	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-11	·mbia	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+10	i	i	ADP	preposition	Case=Acc	11	xcomp:pred:prep	X	Gloss=in, into
+11	·mbia	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	9	acl:relcl	X	Gloss=to be, to exist,
 
 # sent_id = S0006-963
 # text = ithé sidi etinbéso
