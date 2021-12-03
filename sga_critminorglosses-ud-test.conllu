@@ -9350,20 +9350,20 @@
 # sent_id = S0006-336
 # text = .i. insamlid insin robói aflaithemnacht indibsi·
 # text_en = i.e. is it thus that his rule was on you (pl)?
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	insamlid	_	_	_	_	_	_	_	_
-2	in	in 2	PRON	particle_interrogative	_	_	_	X	Gloss=question particle
-3	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=as, like
+2	in	in 2	PRON	particle_interrogative	_	5	mark:prt	X	Gloss=question particle
+3	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	5	case	X	Gloss=as, like
 4-5	insin	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-6	ro·bói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
+5	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	0	root	X	Gloss=that one, those ones, the one in there ; that, those
+6	ro·bói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	5	csubj:cleft	X	Gloss=to be, to exist,
 7-8	aflaithemnacht	_	_	_	_	_	_	_	_
-7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	_	X	Gloss=his, its
-8	flaithemnacht	flaithemnacht	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=rule, sovereignty; princedom
+7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	nmod:poss	X	Gloss=his, its
+8	flaithemnacht	flaithemnacht	NOUN	noun	Case=Nom|Number=Sing	6	nsubj	X	Gloss=rule, sovereignty; princedom
 9-10	indibsi·	_	_	_	_	_	_	_	_
-9	indib	i	ADP	preposition	Person=2|Number=Plur|Case=Acc	_	_	X	Gloss=in, into
-10	si	nota augens	PRON	particle_pronominal	Person=2|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+9	indib	i	ADP	preposition	Person=2|Number=Plur|Case=Acc	10	case	X	Gloss=in, into
+10	si	nota augens	PRON	particle_pronominal	Person=2|Number=Plur|PronType=Prs	6	obl	X	Gloss=emphasising particle
 11	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-337
@@ -12209,20 +12209,20 @@
 # sent_id = S0006-604
 # text = .i. armu sémise 7 mu mindchecht isnaib fochaidib
 # text_en = i.e. for my thinness and my misery in the tribulations.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	armu	_	_	_	_	_	_	_	_
 2	ar	ar 1	ADP	preposition	Case=Acc	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-3	mu	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	4	_	X	Gloss=my
+3	mu	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	4	nmod:poss	X	Gloss=my
 4-5	sémise	_	_	_	_	_	_	_	_
-4	sémi	séime	NOUN	noun	Case=Dat	_	_	X	Gloss=thinness, meagerness
-5	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-7	mu	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	8	_	X	Gloss=my
-8	mindchecht	mindchecht	NOUN	noun	Case=Dat	_	_	X	Gloss=misery, poverty, beggarly condition
+4	sémi	séime	NOUN	noun	Case=Dat	0	root	X	Gloss=thinness, meagerness
+5	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	4	nmod	X	Gloss=emphasising particle
+6	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
+7	mu	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	8	nmod:poss	X	Gloss=my
+8	mindchecht	mindchecht	NOUN	noun	Case=Dat	4	conj	X	Gloss=misery, poverty, beggarly condition
 9-10	isnaib	_	_	_	_	_	_	_	_
 9	i	i	ADP	preposition	Case=Dat	11	case	X	Gloss=in, into
 10	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+11	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	8	advcl	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
 
 # sent_id = S0006-605
 # text = nert
@@ -12358,20 +12358,20 @@
 # sent_id = S0006-615
 # text = .i. coni .i. pro ut ɫ. maní .i. pro sí
 # text_en = i.e. that not, i.e. pro ut, or if not, i.e. pro si.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	coni	_	_	_	_	_	_	_	_
-2	co	co 3	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
-3	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	pro	prō	ADP	preposition	Case=Unk	_	case	X	Gloss=for, on behalf of, before
-6	ut	ut	X	conjunction	_	_	_	X	Gloss=that, so that
-7	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+2	co	co 3	SCONJ	complementiser	_	0	root	X	Gloss=so that, until (+dependent, nasalising)
+3	ni	ní 3	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	pro	prō	ADP	preposition	Case=Unk	6	case	X	Gloss=for, on behalf of, before
+6	ut	ut	X	conjunction	_	2	conj	X	Gloss=that, so that
+7	ɫ	nó 1	CCONJ	conjunction	_	8	cc	X	Gloss=disjunctive: or
 8-9	maní	_	_	_	_	_	_	_	_
-8	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-9	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-10	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-11	pro	prō	ADP	preposition	Case=Unk	_	case	X	Gloss=for, on behalf of, before
-12	sí	(Latin letters and suffixes)	NOUN	noun	_	_	_	X	Gloss=_
+8	ma	ma	SCONJ	conjunction	_	6	conj	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+9	ní	ní 3	PART	particle_negative_main	_	8	advmod:neg	X	Gloss=not
+10	.i.	.i.	CCONJ	abbreviation	_	12	cc	X	Gloss=id est, it is
+11	pro	prō	ADP	preposition	Case=Unk	12	case	X	Gloss=for, on behalf of, before
+12	sí	(Latin letters and suffixes)	NOUN	noun	_	8	conj	X	Gloss=_
 
 # sent_id = S0006-616
 # text = amal as dundfercach
