@@ -1571,9 +1571,9 @@ def proper_sort(data):
     return data, headings
 
 def read_in_with_columns(filename):
-    with open(filename, encoding ='utf-8') as csv_file:
+    with open(filename, encoding ='utf-8') as csv_file: #with open(filename, 'rb', encoding='utf-8') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter =',', skipinitialspace=True)
-        output_data = [row for row in csv_reader]
+        output_data = [row for row in csv_reader] #somewhere here: for row in csv.reader(csv_file): row = [col.strip() for col in row -- this will remove whitespace after items in columns
         output_data, headings = proper_sort(output_data)
         output_data.insert(0, headings)
         [row.pop(0) for row in output_data]
