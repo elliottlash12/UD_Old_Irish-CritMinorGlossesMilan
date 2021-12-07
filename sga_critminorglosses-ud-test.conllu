@@ -7222,21 +7222,21 @@
 # sent_id = S0006-134
 # text = .i. conid sain int hí dianaiperr impius 7 peccator híc
 # text_en = i.e. that the persons called impius and peccator here are different.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	conid	_	_	_	_	_	_	_	_
-2	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	nid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-4	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=different, distinct, separate, peculiar, special
+2	co	co 4	SCONJ	complementiser	_	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	nid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
+4	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=different, distinct, separate, peculiar, special
 5	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	hí	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
+6	hí	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	4	nsubj	X	Gloss=substantivizing particle
 7-9	dianaiperr	_	_	_	_	_	_	_	_
-7	di	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-8	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-9	·naiperr	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
-10	impius	impius	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	_	_	X	Gloss=_
-11	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-12	peccator	peccātor	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=_
-13	híc	hīc 2	ADV	adverb	_	_	_	X	Gloss=here
+7	di	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
+8	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	9	obl	X	Gloss=which, who, whose
+9	·naiperr	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to say, to speak, to call , mention
+10	impius	impius	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	9	nsubj	X	Gloss=_
+11	7	ocus 2	CCONJ	conjunction	_	12	cc	X	Gloss=coordinating: and, since
+12	peccator	peccātor	NOUN	noun	Case=Nom|Number=Sing	10	conj	X	Gloss=_
+13	híc	hīc 2	ADV	adverb	_	9	advmod	X	Gloss=here
 
 # sent_id = S0006-135
 # text = ciahé
@@ -7672,21 +7672,21 @@
 # sent_id = S0006-180
 # text = ɫ. non lucrificarent .i. corpora .i. nitibertais piana foraib mani esersitis
 # text_en = or non lucrificarent, i.e. corpora, i.e. punishments would not be inflicted on them if they did not rise.
-1	ɫ.	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	non	nōn	X	particle_negative	_	_	_	X	Gloss=not
-3	lucrificarent	lucrificō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	corpora	corpus	NOUN	noun	_	_	_	X	Gloss=body
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	ɫ.	uel	CCONJ	conjunction	_	3	cc	X	Gloss=or, even
+2	non	nōn	X	particle_negative	_	3	advmod:neg	X	Gloss=not
+3	lucrificarent	lucrificō	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=_
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	corpora	corpus	NOUN	noun	_	3	conj	X	Gloss=body
+6	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 7-8	nitibertais	_	_	_	_	_	_	_	_
-7	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-8	·tibertais	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Cond|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-9	piana	pían	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=penalty, punishment, torment, pain
-10	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=upon, over, on
+7	ni·	ní 3	PART	particle_negative_main	_	8	advmod:neg	X	Gloss=not
+8	·tibertais	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Cond|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	conj	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+9	piana	pían	NOUN	noun	Case=Nom|Number=Plur	8	nsubj	X	Gloss=penalty, punishment, torment, pain
+10	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	8	obl:prep	X	Gloss=upon, over, on
 11-12	mani	_	_	_	_	_	_	_	_
-11	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-12	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-13	·esersitis	as·éirig	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to rise
+11	ma	ma	SCONJ	conjunction	_	13	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+12	ni·	ní 3	PART	particle_negative_main	_	13	advmod:neg	X	Gloss=not
+13	·esersitis	as·éirig	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	8	advcl	X	Gloss=to rise
 
 # sent_id = S0006-181
 # text = no indbadaigfitis .i. roptis imdai piana donaib anmanaib ceni esǽrsitis inchoirp aracenn·
@@ -11170,21 +11170,21 @@
 # sent_id = S0006-521
 # text = .i. ised trede insin as toisechem do duiniu .i. bairgen rl.
 # text_en = i.e. those are the three things which are foremost for man, namely, bread, etc.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	ised	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
-4	trede	tréide	NOUN	noun	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=three things ; triple, consisting of three things
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	4	nmod	X	Gloss=it
+4	trede	tréide	NOUN	noun	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=three things ; triple, consisting of three things
 5-6	insin	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-7	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-8	toisechem	toísech	ADJ	adjective	Degree=Sup	_	_	X	Gloss=first, former, prior, subst. leader, chief
+6	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	4	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
+7	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	8	cop	X	Gloss=to be
+8	toisechem	toísech	ADJ	adjective	Degree=Sup	4	csubj:cleft	X	Gloss=first, former, prior, subst. leader, chief
 9	do	do 1	ADP	preposition	Case=Dat	10	case	X	Gloss=to, for, by etc.
-10	duiniu	duine	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=person, human being
-11	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-12	bairgen	bairgen	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=bread, loaf
-13	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
+10	duiniu	duine	NOUN	noun	Case=Dat|Number=Sing	8	obl	X	Gloss=person, human being
+11	.i.	.i.	CCONJ	abbreviation	_	12	cc	X	Gloss=id est, it is
+12	bairgen	bairgen	NOUN	noun	Case=Nom|Number=Sing	8	conj	X	Gloss=bread, loaf
+13	rl.	reliqua	NOUN	noun	_	4	appos	X	Gloss=the rest, remainder
 
 # sent_id = S0006-522
 # text = iscensuidib
