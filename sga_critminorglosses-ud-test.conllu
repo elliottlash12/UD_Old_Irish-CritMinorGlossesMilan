@@ -6927,20 +6927,20 @@
 8	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	9	det	X	Gloss=the
 9	besgnai	bésgnae	NOUN	noun	Case=Gen|Number=Sing	7	obj	X	Gloss=custom, usage, discipline, morality;
 
-# sent_id = S0006-112
+# sent_id = S0006-112-Noun+do+VerbalNoun
 # text = .i. atá inaicniud chaich denum maith 7 imgabail uilc dodenum
 # text_en = i.e. it is in the nature of every (person) to do good and to avoid doing evil.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
 3-4	inaicniud	_	_	_	_	_	_	_	_
 3	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
-4	naicniud	aicned	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=nature, inherent quality, essence
+4	naicniud	aicned	NOUN	noun	Case=Dat|Number=Sing	2	xcomp:pred	X	Gloss=nature, inherent quality, essence
 5	chaich	cách	PRON	pronoun_quantifier	Case=Gen|Number=Sing|PronType=Tot	4	nmod	X	Gloss=every one, each one, any one, all
 6	denum	dénum	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
 7	maith	maith	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	6	obj	X	Gloss=good, right, noble
 8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
 9	imgabail	immgabál	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	6	conj	X	Gloss=the act of avoiding, evading
-10	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	9	obj	X	Gloss=evil, bad, wrong
+10	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	12	obj	X	Gloss=evil, bad, wrong
 11-12	dodenum	_	_	_	_	_	_	_	_
 11	do	do 1	ADP	preposition	Case=Dat	12	mark:prt	X	Gloss=to, for, by etc.
 12	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	9	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
@@ -9366,7 +9366,7 @@
 8	flaithemnacht	flaithemnacht	NOUN	noun	Case=Nom|Number=Sing	6	nsubj	X	Gloss=rule, sovereignty; princedom
 9-10	indibsi·	_	_	_	_	_	_	_	_
 9	indib	i	ADP	preposition	Person=2|Number=Plur|Case=Acc	10	case	X	Gloss=in, into
-10	si	nota augens	PRON	particle_pronominal	Person=2|Number=Plur|PronType=Prs	6	obl	X	Gloss=emphasising particle
+10	si	nota augens	PRON	particle_pronominal	Person=2|Number=Plur|PronType=Prs	6	xcomp:pred	X	Gloss=emphasising particle
 11	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-337
@@ -11179,7 +11179,7 @@
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	4	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
 7	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	8	cop	X	Gloss=to be
-8	toisechem	toísech	ADJ	adjective	Degree=Sup	4	csubj:cleft	X	Gloss=first, former, prior, subst. leader, chief
+8	toisechem	toísech	ADJ	adjective	Degree=Sup	4	acl:relcl	X	Gloss=first, former, prior, subst. leader, chief
 9	do	do 1	ADP	preposition	Case=Dat	10	case	X	Gloss=to, for, by etc.
 10	duiniu	duine	NOUN	noun	Case=Dat|Number=Sing	8	obl	X	Gloss=person, human being
 11	.i.	.i.	CCONJ	abbreviation	_	12	cc	X	Gloss=id est, it is
@@ -12441,7 +12441,7 @@
 6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	4	obl	X	Gloss=emphasising particle
 7	·	·	PUNCT	punctuation	_	_	_	_	_
 8-9	rongenisom	_	_	_	_	_	_	_	_
-8	ro·ngeni	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Nas	4	csubj:cleft	X	Gloss=to do
+8	ro·ngeni	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Nas	4	ccomp	X	Gloss=to do
 9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
 10	de	dag-	X	particle_prefix	_	11	amod	X	Gloss=good, noble, very
 11	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	8	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
@@ -13257,7 +13257,7 @@
 4-6	indegnimo	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
 5	de	dag-	X	particle_prefix	_	6	amod	X	Gloss=good, noble, very
-6	gnimo	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	obj	9:obj|3:obj	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+6	gnimo	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	obj	9:nsubj|3:obj	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 7	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
 8	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	9	cop	X	Gloss=to be
 9	ail	áil	NOUN	noun	Case=Nom|Number=Sing	6	acl:relcl	X	Gloss=the act of asking, request, wish ; hook, point
@@ -14087,7 +14087,7 @@
 7	salm	salm	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=psalm
 8	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	7	det	X	Gloss=this, these
 9-10	andurigni	_	_	_	_	_	_	_	_
-9	a	a 4	PRON	pronoun_relative	Case=Acc|Number=Sing|PronType=Rel	7	appos	10:obj|7:appos	Gloss=that, which
+9	a	a 4	PRON	pronoun_relative	Case=Acc|Number=Sing|PronType=Rel	3	obj	10:obj|3:obj	Gloss=that, which
 10	ndu·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	9	acl:relcl	X	Gloss=to do, to make
 11	abisolón	Abisolon	PROPN	proper_noun	Case=Nom|Number=Sing	10	nsubj	X	Gloss=Absalom
 12	fris	fri	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	10	obl:prep	X	Gloss=towards, against, standard of comparison
@@ -14453,7 +14453,7 @@
 3	ru·fessar	ro·finnadar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to know, to find out, to learn
 4-5	asfir	_	_	_	_	_	_	_	_
 4	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
-5	fir	fír	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	3	csubj:cleft	X	Gloss=true, veracious, real
+5	fir	fír	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	3	ccomp	X	Gloss=true, veracious, real
 6-7	aní	_	_	_	_	_	_	_	_
 6	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
 7	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	5	nsubj	8:obj|5:nsubj	Gloss=substantivizing particle
@@ -16285,20 +16285,20 @@
 1	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
 2	ærchoiltea	érchoíliud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	0:root	Gloss=the act of defining; definition, determination, decision, resolve, solution, legal pronouncement
 
-# sent_id = S0006-954
+# sent_id = S0006-954-Noun+do+VerbalNoun
 # text = .i. digal dothabairt forsnapecdachdu 7 soirad innafirían
 # text_en = i.e. to inflict punishments on sinners and to deliver the righteous.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
-2	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of avenging, punishing, vengeance
+2	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	xcomp	X	Gloss=the act of avenging, punishing, vengeance
 3-4	dothabairt	_	_	_	_	_	_	_	_
 3	do	do 1	ADP	preposition	Case=Dat	4	mark:prt	X	Gloss=to, for, by etc.
-4	thabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+4	thabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
 5-7	forsnapecdachdu	_	_	_	_	_	_	_	_
 5	for	for	ADP	preposition	Case=Acc	7	case	X	Gloss=upon, over, on
 6	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
 7	pecdachdu	pecthach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos|Typo=Yes	4	obl	X	Gloss=sinful, committing sin|CorrectForm=pecdachu
 8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
-9	soirad	sóerad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of freeing, delivering; deliverance
+9	soirad	sóerad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of freeing, delivering; deliverance
 10-11	innafirían	_	_	_	_	_	_	_	_
 10	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
 11	firían	fírían	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	9	obj	X	Gloss=just, righteous, fitting, truthful
