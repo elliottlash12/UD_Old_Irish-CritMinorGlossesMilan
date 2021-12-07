@@ -5855,21 +5855,21 @@
 # sent_id = S0006-32
 # text = cenelae ciuil inso 7 trimirucad disuidiu coneperr libro psalmorum
 # text_en = this (was) a kind of musical instrument, and from this it has been transferred and is given as a name to the Book of Psalms.
-1	cenelae	cenélae	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=kind, sort; race
-2	ciuil	céol	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=music
+1	cenelae	cenélae	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=kind, sort; race
+2	ciuil	céol	NOUN	noun	Case=Gen|Number=Sing	1	nmod	X	Gloss=music
 3-4	inso	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	trimi·rucad	tremi·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to transfer
+4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	1	nsubj	X	Gloss=this one, these ones ; this, these
+5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
+6	trimi·rucad	tremi·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	1	conj	X	Gloss=to transfer
 7-8	disuidiu	_	_	_	_	_	_	_	_
-7	di	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-8	suidiu	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+7	di	di	ADP	preposition	Case=Dat	8	case	X	Gloss=away, from, cause or reason, by
+8	suidiu	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Sing|Gender=Neut	6	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 9-10	coneperr	_	_	_	_	_	_	_	_
-9	co·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-10	·neperr	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to say, to speak, to call , mention
-11	libro	liber	NOUN	noun	_	_	_	X	Gloss=book
-12	psalmorum	psalmus	NOUN	noun	_	_	_	X	Gloss=psalm
+9	co·	co 4	SCONJ	complementiser	_	10	mark:prt	X	Gloss=so that, until (+independent, leniting)
+10	·neperr	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	6	advcl	X	Gloss=to say, to speak, to call , mention
+11	libro	liber	NOUN	noun	_	10	nsubj	X	Gloss=book
+12	psalmorum	psalmus	NOUN	noun	_	11	appos	X	Gloss=psalm
 
 # sent_id = S0006-33
 # text = .i. diess
@@ -6233,21 +6233,21 @@
 # sent_id = S0006-55
 # text = .i. sechis nascripturi mora són nítat lora sidi leu··
 # text_en = that is, the great Scriptures; they do not deem them sufficient.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	sech	sech 2	X	conjunction	_	5	cc	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-5	nascripturi	_	_	_	_	_	_	_	_
 4	na	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	scripturi	scriptuir	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=Scripture
-6	mora	mór	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	_	_	X	Gloss=great, big, ample, tall, large
-7	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+5	scripturi	scriptuir	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=Scripture
+6	mora	mór	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	5	amod	X	Gloss=great, big, ample, tall, large
+7	són	-són	PRON	particle_anaphoric	_	5	nsubj	X	Gloss=that (mentioned above) that is
 8-9	nítat	_	_	_	_	_	_	_	_
-8	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-9	tat	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-10	lora	loär	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	_	_	X	Gloss=great, ample, sufficient, competent
-11	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Fem	_	_	X	Gloss=that one, he, she, it, they
-12	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+8	ní	ní 3	PART	particle_negative_main	_	9	advmod:neg	X	Gloss=not
+9	tat	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
+10	lora	loär	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	5	parataxis	X	Gloss=great, ample, sufficient, competent
+11	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Fem	10	nsubj	X	Gloss=that one, he, she, it, they
+12	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	10	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 13	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-56
@@ -6499,21 +6499,21 @@
 # sent_id = S0006-75
 # text = .i. honaib idlaib .i. huare ishitilchaib ardaib· nobitis adi
 # text_en = i.e. from the idols, i.e. because they used to be in high hills.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	honaib	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	idlaib	ídal	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=idol ; heathen
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
+4	idlaib	ídal	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=idol ; heathen
+5	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
+6	huare	úaire	SCONJ	conjunction	_	9	mark	X	Gloss=causal; coordinating and subordinating: when, since
 7-9	ishitilchaib	_	_	_	_	_	_	_	_
-7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
 8	hi	i	ADP	preposition	Case=Dat	9	case	X	Gloss=in, into
-9	tilchaib	tulach 1	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=hill, mound
-10	ardaib	ard 1	ADJ	adjective	Case=Dat|Number=Plur|Gender=Fem|Degree=Pos	_	_	X	Gloss=high, elevated, lofty, high
+9	tilchaib	tulach 1	NOUN	noun	Case=Dat|Number=Plur	4	conj	X	Gloss=hill, mound
+10	ardaib	ard 1	ADJ	adjective	Case=Dat|Number=Plur|Gender=Fem|Degree=Pos	9	amod	X	Gloss=high, elevated, lofty, high
 11	·	·	PUNCT	punctuation	_	_	_	_	_
-12	no·bitis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-13	adi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
+12	no·bitis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	csubj:cleft	X	Gloss=to be, to exist,
+13	adi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	12	nsubj	X	Gloss=that one, he, she, it, they
 
 # sent_id = S0006-76
 # text = .i. idulís dano
