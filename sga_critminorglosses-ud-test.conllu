@@ -14551,21 +14551,21 @@
 # sent_id = S0006-808
 # text = .i. rolegsat canóin ftarlaici 7 nufiadnissi amal rundalegsamni· acht rondasaibset som tantum
 # text_en = i.e. they have read the Canon of the Old Testament and of the New Testament as we have read it, except that they have perverted it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ro·legsat	légaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to read, to study
-3	canóin	canóin	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=canon of Scripture, canonical text, Bible, book
-4	ftarlaici	fetarlaic	PROPN	proper_noun	Case=Gen|Number=Sing|Typo=Yes	_	_	X	Gloss=Old Testament|CorrectForm=fetarlaici
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	nufiadnissi	núḟiadnaise	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=New Testament
-7	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ro·legsat	légaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to read, to study
+3	canóin	canóin	NOUN	noun	Case=Acc|Number=Sing	2	obj	X	Gloss=canon of Scripture, canonical text, Bible, book
+4	ftarlaici	fetarlaic	PROPN	proper_noun	Case=Gen|Number=Sing|Typo=Yes	3	nmod	X	Gloss=Old Testament|CorrectForm=fetarlaici
+5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
+6	nufiadnissi	núḟiadnaise	NOUN	noun	Case=Gen|Number=Sing	4	conj	X	Gloss=New Testament
+7	amal	amail 2	SCONJ	conjunction	_	8	mark	X	Gloss=as, like; translating Latin ut
 8-9	rundalegsamni	_	_	_	_	_	_	_	_
-8	runda·legsam	légaid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	_	_	X	Gloss=to read, to study
-9	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+8	runda·legsam	légaid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	2	advcl	X	Gloss=to read, to study
+9	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
 10	·	·	PUNCT	punctuation	_	_	_	_	_
-11	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-12	ronda·saibset	sáebaid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	_	_	X	Gloss=to pervert, to deceive, to lead astray, to twist
-13	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-14	tantum	tantum	PART	adjective_quantifier	_	_	advmod:emph	X	Gloss=so many, so great, only
+11	acht	acht 1	CCONJ	conjunction	_	12	cc	X	Gloss=except, but, provided that, save that
+12	ronda·saibset	sáebaid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	2	conj	X	Gloss=to pervert, to deceive, to lead astray, to twist
+13	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	12	nsubj	X	Gloss=emphasising particle
+14	tantum	tantum	PART	adjective_quantifier	_	12	advmod:emph	X	Gloss=so many, so great, only
 
 # sent_id = S0006-809
 # text = asberat immurgu heritic asned dechur tabadar isindísin .i. etir deacht maic 7 athar· quod non uerum·
@@ -14821,21 +14821,21 @@
 # sent_id = S0006-823
 # text = hic est sensus .i. nolínfed preceupt asoscelai innule cuaird in talman
 # text_en = hic est sensus i.e. the preaching of His Gospel would fill the whole circuit of the earth.
-1	hic	hīc 1	X	pronoun_demonstrative	_	_	_	X	Gloss=this, these, that, those
-2	est	sum	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to be
-3	sensus	sensus	NOUN	noun	_	_	_	X	Gloss=perception, a feeling, understanding, reason
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	no·línfed	línaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to fill
-6	preceupt	preicept	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=act of teaching or preaching
+1	hic	hīc 1	X	pronoun_demonstrative	_	3	advmod	X	Gloss=this, these, that, those
+2	est	sum	VERB	verb	Voice=Act|Mood=Ind	3	cop	X	Gloss=to be
+3	sensus	sensus	NOUN	noun	_	0	root	X	Gloss=perception, a feeling, understanding, reason
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	no·línfed	línaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	3	conj	X	Gloss=to fill
+6	preceupt	preicept	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=act of teaching or preaching
 7-8	asoscelai	_	_	_	_	_	_	_	_
-7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	8	_	X	Gloss=his, its
-8	soscelai	soscélae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=good news, Gospel
+7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	8	nmod:poss	X	Gloss=his, its
+8	soscelai	soscélae	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=good news, Gospel
 9-10	innule	_	_	_	_	_	_	_	_
-9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-10	nule	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing|Gender=Masc	_	_	X	Gloss=all, every, the whole
-11	cuaird	cúaird	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=circuit, tour, visitation, journey ; circle, ring; circumference; globe (of heaven, earth); area, territory, district; inner space, enclosure
+9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
+10	nule	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing|Gender=Masc	11	amod	X	Gloss=all, every, the whole
+11	cuaird	cúaird	NOUN	noun	Case=Acc|Number=Sing	5	obj	X	Gloss=circuit, tour, visitation, journey ; circle, ring; circumference; globe (of heaven, earth); area, territory, district; inner space, enclosure
 12	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	talman	talam	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=earth, world; ground ; land
+13	talman	talam	NOUN	noun	Case=Gen|Number=Sing	11	nmod	X	Gloss=earth, world; ground ; land
 
 # sent_id = S0006-824
 # text = hónmachdad
@@ -16097,21 +16097,21 @@
 # sent_id = S0006-933
 # text = .i. hondasluch messidiu ɫ. brathnigthiu .i. brithemandu .i. fírbrithe son
 # text_en = i.e. by the judicial instigation, or judged, i.e. judicial, i.e. that is, of a true judge.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	hondasluch	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 3	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	asluch	aslach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of tempting, instigating, inducing
-5	messidiu	mesaide	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=pertaining to judgment, judicial
-6	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-7	brathnigthiu	bráthnaigthe	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=judged, decided, examined, determined
-8	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-9	brithemandu	brithemandae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=pertaining to judgment, judicial
-10	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+4	asluch	aslach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of tempting, instigating, inducing
+5	messidiu	mesaide	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	4	amod	X	Gloss=pertaining to judgment, judicial
+6	ɫ	nó 1	CCONJ	conjunction	_	7	cc	X	Gloss=disjunctive: or
+7	brathnigthiu	bráthnaigthe	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Masc	4	conj	X	Gloss=judged, decided, examined, determined
+8	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
+9	brithemandu	brithemandae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	7	conj	X	Gloss=pertaining to judgment, judicial
+10	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
 11-12	fírbrithe	_	_	_	_	_	_	_	_
-11	fír	fír	ADJ	adjective	Degree=Pos	_	_	X	Gloss=true, veracious, real
-12	brithe	brithem	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	_	_	X	Gloss=judge|CorrectForm=britheman
-13	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+11	fír	fír	ADJ	adjective	Degree=Pos	9	conj	X	Gloss=true, veracious, real
+12	brithe	brithem	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	11	nmod	X	Gloss=judge|CorrectForm=britheman
+13	son	-són	PRON	particle_anaphoric	_	11	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-934
 # text = sechis dondfírbrithemainsón
