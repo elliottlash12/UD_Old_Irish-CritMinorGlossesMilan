@@ -13002,22 +13002,22 @@
 # sent_id = S0006-669
 # text = .i. dodenum degnma .i. ɔdib degnim immefolngither de
 # text_en = i.e. to do good work, i.e. so that it may be a good deed that is produced from it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	dodenum	_	_	_	_	_	_	_	_
-2	do	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
-3	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
+2	do	do 1	ADP	preposition	Case=Dat	3	mark:prt	X	Gloss=to, for, by etc.
+3	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of doing, making, creating; deed, work, activity
 4-5	degnma	_	_	_	_	_	_	_	_
-4	de	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
-5	gnma	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Typo=Yes	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity|CorrectForm=gnima
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+4	de	dag-	X	particle_prefix	_	5	amod	X	Gloss=good, noble, very
+5	gnma	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Typo=Yes	3	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity|CorrectForm=gnima
+6	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
 7-8	ɔdib	_	_	_	_	_	_	_	_
-7	ɔ	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-8	dib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+7	ɔ	co 4	SCONJ	complementiser	_	10	mark:prt	X	Gloss=so that, until (+independent, leniting)
+8	dib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
 9-10	degnim	_	_	_	_	_	_	_	_
-9	de	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
-10	gnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-11	imme·folngither	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to cause, to produce, to make, to effect, to support
-12	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	10	_	X	Gloss=away, from, cause or reason, by
+9	de	dag-	X	particle_prefix	_	10	amod	X	Gloss=good, noble, very
+10	gnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+11	imme·folngither	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	10	acl:relcl	X	Gloss=to cause, to produce, to make, to effect, to support
+12	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	11	obl:prep	X	Gloss=away, from, cause or reason, by
 
 # sent_id = S0006-670
 # text = mani ninád ndenamni acht is codug[n]em
@@ -13117,22 +13117,22 @@
 # sent_id = S0006-680
 # text = .i. fortgellat agnimai sainemlaisom nadnderginisom anuilesin·
 # text_en = i.e. his excellent works attest that he did do not all that.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	fort·gellat	for·gella	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	_	_	X	Gloss=to attest, to testify
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	fort·gellat	for·gella	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	0	root	X	Gloss=to attest, to testify
 3-4	agnimai	_	_	_	_	_	_	_	_
-3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=his, its
-4	gnimai	gním	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	X	Gloss=his, its
+4	gnimai	gním	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	2	nsubj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 5-6	sainemlaisom	_	_	_	_	_	_	_	_
-5	sainemlai	sainemail	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=unique, distinctive, good, excellent
-6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	sainemlai	sainemail	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	4	amod	X	Gloss=unique, distinctive, good, excellent
+6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	2	obj	X	Gloss=emphasising particle
 7-9	nadnderginisom	_	_	_	_	_	_	_	_
-7	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-8	·ndergini	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
-9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+7	nad·	nád 1	PART	particle_negative_subordinate	_	8	advmod:neg	X	Gloss=that...not
+8	·ndergini	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	2	ccomp	X	Gloss=to do, to make
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
 10-12	anuilesin·	_	_	_	_	_	_	_	_
-10	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-11	nuile	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=all, every, the whole
-12	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
+10	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	11	det	X	Gloss=the
+11	nuile	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing|Gender=Neut	8	obj	X	Gloss=all, every, the whole
+12	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	11	det	X	Gloss=that, those
 13	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-681
@@ -13729,22 +13729,22 @@
 # sent_id = S0006-738
 # text = .i. cluasa dǽ diarneitsecht intan mbimmi· isnaib fochaidib
 # text_en = i.e. God’s ears (are) for hearing us when we are in tribulations.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	cluasa	clúas	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of hearing; ear
-3	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	cluasa	clúas	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of hearing; ear
+3	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=god, deity, God
 4-6	diarneitsecht	_	_	_	_	_	_	_	_
 4	di	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
-5	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	6	_	X	Gloss=our
-6	neitsecht	éitsecht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of hearing; faculty of hearing, listening
+5	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	6	nmod:poss	X	Gloss=our
+6	neitsecht	éitsecht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	obl	X	Gloss=the act of hearing; faculty of hearing, listening
 7-8	intan	_	_	_	_	_	_	_	_
 7	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	tan	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
-9	mbimmi	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+8	tan	tan	NOUN	noun	Case=Acc|Number=Sing	2	obl:tmod	X	Gloss=time
+9	mbimmi	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	8	advcl	X	Gloss=to be, to exist,
 10	·	·	PUNCT	punctuation	_	_	_	_	_
-11	i	i	ADP	preposition	Case=Dat	12	case	X	Gloss=in, into
-12	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	12	det	X	Gloss=the
-13	isnaib	_	_	_	_	_	_	_	tuple=12-11
-13	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+11-13	isnaib	_	_	_	_	_	_	_	_
+11	i	i	ADP	preposition	Case=Dat	13	case	X	Gloss=in, into
+12	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
+13	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	9	xcomp:pred	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
 
 # sent_id = S0006-739
 # text = rofitir didiu 7 etirgein ní dú ulc intí lasmbí indencae· ní fitir immurgu olc netir intí bís isindencae ut sunt infantes
