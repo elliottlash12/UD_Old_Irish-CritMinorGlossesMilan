@@ -15502,23 +15502,23 @@
 # sent_id = S0006-888
 # text = .i. deacht athar no maicc ciphé ade· ní foindarpaide· fo doinnacht macc
 # text_en = i.e. the divinity of the Father or of the Son, whichever it may be, it is not to be placed under the humanity of the Son.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=divinity, godhead
-3	athar	athair	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=father
-4	no	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-5	maicc	macc 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	8	dislocated	X	Gloss=divinity, godhead
+3	athar	athair	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=father
+4	no	nó 1	CCONJ	conjunction	_	5	cc	X	Gloss=disjunctive: or
+5	maicc	macc 1	NOUN	noun	Case=Gen|Number=Sing	2	conj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
 6-8	ciphé	_	_	_	_	_	_	_	_
-6	ci	ce	PRON	particle_interrogative	_	_	_	X	Gloss=unstressed, used with the dependent form of the verb ; who, what, which
-7	p	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-8	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-9	ade	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=that one, he, she, it, they
+6	ci	ce	PRON	particle_interrogative	_	8	mark:prt	X	Gloss=unstressed, used with the dependent form of the verb ; who, what, which
+7	p	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+8	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	12	advcl	X	Gloss=he, him, it
+9	ade	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Fem	8	appos	X	Gloss=that one, he, she, it, they
 10	·	·	PUNCT	punctuation	_	_	_	_	_
-11	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-12	foindarpaide	foindarbaidi	X	verbal_of_necessity	_	_	_	X	Gloss=to be relegated, to be subjected
+11	ní	ní 3	PART	particle_negative_main	_	12	advmod:neg	X	Gloss=not
+12	foindarpaide	foindarbaidi	X	verbal_of_necessity	_	0	root	X	Gloss=to be relegated, to be subjected
 13	·	·	PUNCT	punctuation	_	_	_	_	_
-14	fo	fo	ADP	preposition	Case=Acc	13	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-15	doinnacht	doínacht	NOUN	noun	Case=Dat	_	_	X	Gloss=humanity (vs. deity), humanness, Manhood
-16	macc	macc 1	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant|CorrectForm=maicc
+14	fo	fo	ADP	preposition	Case=Acc	15	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+15	doinnacht	doínacht	NOUN	noun	Case=Dat	12	obl	X	Gloss=humanity (vs. deity), humanness, Manhood
+16	macc	macc 1	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	15	nmod	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant|CorrectForm=maicc
 
 # sent_id = S0006-889 - not expression of governor of line 7
 # text = file inepistlib ind apstail fri eperta indsailm
@@ -15627,22 +15627,22 @@
 # text = issí arnires hisin atá mordechur etir deacht 7 doinacht
 # text_en = that is our faith; there is a great difference between divinity and humanity.
 1-2	issí	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	sí	3sg.fem.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=she, her, it
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	sí	3sg.fem.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=she, her, it
 3-4	arnires	_	_	_	_	_	_	_	_
-3	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	4	_	X	Gloss=our
-4	nires	ires	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=faith, religion, belief
+3	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	4	nmod:poss	X	Gloss=our
+4	nires	ires	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=faith, religion, belief
 5-6	hisin	_	_	_	_	_	_	_	_
-5	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=substantivizing particle
-6	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-7	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+5	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Fem	4	appos	X	Gloss=substantivizing particle
+6	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	5	appos	X	Gloss=that one, those ones, the one in there ; that, those
+7	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	parataxis	X	Gloss=to be, to exist,
 8-9	mordechur	_	_	_	_	_	_	_	_
-8	mor	mór	ADJ	adjective	Degree=Pos	_	_	X	Gloss=great, big, ample, tall, large
-9	dechur	dechor	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=condition of being different, dissimilarity, diversity
+8	mor	mór	ADJ	adjective	Degree=Pos	9	amod	X	Gloss=great, big, ample, tall, large
+9	dechur	dechor	NOUN	noun	Case=Nom|Number=Sing	7	nsubj	X	Gloss=condition of being different, dissimilarity, diversity
 10	etir	eter	ADP	preposition	Case=Acc	11	case	X	Gloss=between, among; both...and...
-11	deacht	deächt	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=divinity, godhead
-12	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-13	doinacht	doínacht	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=humanity (vs. deity), humanness, Manhood
+11	deacht	deächt	NOUN	noun	Case=Acc|Number=Sing	7	xcomp:pred	X	Gloss=divinity, godhead
+12	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
+13	doinacht	doínacht	NOUN	noun	Case=Acc|Number=Sing	11	conj	X	Gloss=humanity (vs. deity), humanness, Manhood
 
 # sent_id = S0006-899
 # text = ammór
@@ -16017,23 +16017,23 @@
 # sent_id = S0006-928
 # text = .i. asmenic mbis confitebor duatlugud bude· ciasu gnathiu dofoisitin··  sed non est híc
 # text_en = i.e. that it is frequently that confitebor is for giving thanks, although it is more common for confession, sed non est hic
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	asmenic	_	_	_	_	_	_	_	_
-2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-3	menic	meinicc	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=frequent, recurring, often
-4	mbis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-5	du	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
-6	atlugud	attlugud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving thanks, rejoicing (?); thanksgiving
-7	bude	buide 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=favor, gratitude, thanks; good-will
-8	cia	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-9	su	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-10	gnathiu	gnáth	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=customary, usual, familiar, well-known
-11	do	do 1	ADP	preposition	Case=Dat	12	case	X	Gloss=to, for, by etc.
-12	foisitin	foísitiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of confessing; confession, profession, concession, avowal, acknowledgment
-13	sed	sed	X	conjunction	_	_	_	X	Gloss=but
-14	non	nōn	X	particle_negative	_	_	_	X	Gloss=not
-15	est	sum	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to be
-16	híc	hīc 2	ADV	adverb	_	_	_	X	Gloss=here
+2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	cop	X	Gloss=to be
+3	menic	meinicc	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=frequent, recurring, often
+4	mbis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	csubj:cleft	X	Gloss=to be, to exist,
+5	du	do 1	ADP	preposition	Case=Dat	6	mark:prt	X	Gloss=to, for, by etc.
+6	atlugud	attlugud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	xcomp:pred	X	Gloss=the act of giving thanks, rejoicing (?); thanksgiving
+7	bude	buide 2	NOUN	noun	Case=Gen|Number=Sing	6	obj	X	Gloss=favor, gratitude, thanks; good-will
+8	cia	cía 2	SCONJ	conjunction	_	10	mark	X	Gloss=concessive and explicative: even, although
+9	su	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
+10	gnathiu	gnáth	ADJ	adjective	Degree=Cmp	3	advcl	X	Gloss=customary, usual, familiar, well-known
+11	do	do 1	ADP	preposition	Case=Dat	12	mark:prt	X	Gloss=to, for, by etc.
+12	foisitin	foísitiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	10	advcl	X	Gloss=the act of confessing; confession, profession, concession, avowal, acknowledgment
+13	sed	sed	X	conjunction	_	15	mark	X	Gloss=but
+14	non	nōn	X	particle_negative	_	15	advmod:neg	X	Gloss=not
+15	est	sum	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=to be
+16	híc	hīc 2	ADV	adverb	_	15	advmod	X	Gloss=here
 
 # sent_id = S0006-929
 # text = remfoiride
