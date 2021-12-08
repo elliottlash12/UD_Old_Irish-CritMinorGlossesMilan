@@ -10454,23 +10454,23 @@
 # sent_id = S0006-447
 # text = .i. ishé didiu ambés adi intí diib bes tresa orcaid alaile
 # text_en = i.e. this, then, is their custom: whichever of them is stronger slays the other.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	ishé	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-4	didiu	didiu	ADV	particle_discourse	_	_	_	X	Gloss=in logical sequence, drawing a conclusion: therefore, then; referring to preceding, introducing additional detail or explanation; hence
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=he, him, it
+4	didiu	didiu	ADV	particle_discourse	_	3	advmod	X	Gloss=in logical sequence, drawing a conclusion: therefore, then; referring to preceding, introducing additional detail or explanation; hence
 5-6	ambés	_	_	_	_	_	_	_	_
-5	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=their
-6	mbés	bés 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
-7	adi	-side	PRON	particle_anaphoric	Case=Gen|Number=Plur|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
+5	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=their
+6	mbés	bés 1	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
+7	adi	-side	PRON	particle_anaphoric	Case=Gen|Number=Plur|Gender=Masc	6	nmod	X	Gloss=that one, he, she, it, they
 8-9	intí	_	_	_	_	_	_	_	_
 8	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-10	diib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
-11	bes	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-12	tresa	trén	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=strong, gramm. substantive, subst.: strong man, hero
-13	orcaid	orgaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to kill, to despoil, to slay
-14	alaile	alaile	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Masc	_	_	X	Gloss=other, the other
+9	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	3	parataxis	X	Gloss=substantivizing particle
+10	diib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	9	obl:prep	X	Gloss=away, from, cause or reason, by
+11	bes	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	12	cop	X	Gloss=to be
+12	tresa	trén	ADJ	adjective	Degree=Cmp	9	acl:relcl	X	Gloss=strong, gramm. substantive, subst.: strong man, hero
+13	orcaid	orgaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	12	ccomp	X	Gloss=to kill, to despoil, to slay
+14	alaile	alaile	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Masc	13	obj	X	Gloss=other, the other
 
 # sent_id = S0006-448
 # text = nech
@@ -10765,23 +10765,23 @@
 # sent_id = S0006-482
 # text = .i. cenitormastar homéit istrom cenae ho aicniud ut sunt lapides
 # text_en = i.e. even if it were not increased in quantity, it is heavy without it (i.e. the increase) by nature, ut sunt lapides.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	cenitormastar	_	_	_	_	_	_	_	_
-2	ce	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	·tormastar	do·formaig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to add, to increase, to amplify (transitive)
+2	ce	cía 2	SCONJ	conjunction	_	4	mark	X	Gloss=concessive and explicative: even, although
+3	ni·	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+4	·tormastar	do·formaig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	8	advcl	X	Gloss=to add, to increase, to amplify (transitive)
 5-6	homéit	_	_	_	_	_	_	_	_
 5	ho	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
-6	méit	méit	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
+6	méit	méit	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
 7-8	istrom	_	_	_	_	_	_	_	_
-7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-8	trom	tromm 3	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=heavy, grave, serious, great, mighty, severe
-9	cenae	cen	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	_	_	X	Gloss=without, not having, -less, on this side, apart from, besides, except
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+8	trom	tromm 3	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=heavy, grave, serious, great, mighty, severe
+9	cenae	cen	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	8	obl:prep	X	Gloss=without, not having, -less, on this side, apart from, besides, except
 10	ho	ó 1	ADP	preposition	Case=Dat	11	case	X	Gloss=from, out of, by
-11	aicniud	aicned	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=nature, inherent quality, essence
-12	ut	ut	X	conjunction	_	_	_	X	Gloss=that, so that
-13	sunt	sum	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to be
-14	lapides	lapis	NOUN	noun	_	_	_	X	Gloss=stone, rock
+11	aicniud	aicned	NOUN	noun	Case=Dat|Number=Sing	8	obl	X	Gloss=nature, inherent quality, essence
+12	ut	ut	X	conjunction	_	14	mark	X	Gloss=that, so that
+13	sunt	sum	VERB	verb	Voice=Act|Mood=Ind	14	cop	X	Gloss=to be
+14	lapides	lapis	NOUN	noun	_	8	advcl	X	Gloss=stone, rock
 
 # sent_id = S0006-483
 # text = intomais il .i. intoimseo truim
@@ -12248,23 +12248,23 @@
 # sent_id = S0006-608
 # text = .i. cidnaimneda forodamarsa cose romferat dom aithirriuch·
 # text_en = i.e. even the afflictions that I have endured until now can suffice to me for my reformation.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-5	cidnaimneda	_	_	_	_	_	_	_	_
-2	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	ci	cía 2	SCONJ	conjunction	_	5	mark	X	Gloss=concessive and explicative: even, although
+3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4	na	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	imneda	imned	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
+5	imneda	imned	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=tribulation, anxiety, suffering, sorrow
 6-7	forodamarsa	_	_	_	_	_	_	_	_
-6	foro·damar	fo·daim	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to suffer, to endure
-7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+6	foro·damar	fo·daim	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	5	acl:relcl	X	Gloss=to suffer, to endure
+7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	6	nsubj	X	Gloss=emphasising particle
 8-9	cose	_	_	_	_	_	_	_	_
 8	co	co 1	ADP	preposition	Case=Acc	9	case	X	Gloss=to, until, as far as, towards
-9	se	sé 2	PRON	pronoun_demonstrative_proximate	Case=Acc|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this, these
-10	m·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=me, myself
-11	·ferat	feraid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to pour, to grant, to afford, to supply, to furnish, to suffice, to give
+9	se	sé 2	PRON	pronoun_demonstrative_proximate	Case=Acc|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	6	obl	X	Gloss=this, these
+10	m·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	11	inf:obj	X	Gloss=me, myself
+11	·ferat	feraid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	6	ccomp	X	Gloss=to pour, to grant, to afford, to supply, to furnish, to suffice, to give
 12	do	do 1	ADP	preposition	Case=Dat	14	case	X	Gloss=to, for, by etc.
-13	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	14	_	X	Gloss=my
-14	aithirriuch	aitherrach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of repeating; repetition
+13	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	14	nmod:poss	X	Gloss=my
+14	aithirriuch	aitherrach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	11	obl	X	Gloss=the act of repeating; repetition
 15	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-609
