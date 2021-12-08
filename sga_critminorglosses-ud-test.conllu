@@ -5620,23 +5620,23 @@
 # sent_id = S0006-15
 # text = .i. astormach hítintud septien istormach són dano hítintud teothis
 # text_en = i.e. what is an addition in the translation of the Septuagint, that is an addition in the translation of Theodotio as well.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	astormach	_	_	_	_	_	_	_	_
-2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	_	cop	X	Gloss=to be
-3	tormach	tórmach	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of increasing; addition
+2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	3	cop	X	Gloss=to be
+3	tormach	tórmach	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of increasing; addition
 4-5	hítintud	_	_	_	_	_	_	_	_
 4	hí	i	ADP	preposition	Case=Acc	5	case	X	Gloss=in, into
-5	tintud	tintúd	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of returning, translating; conversion, translation, recalling
-6	septien	Septién	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Septuagint
+5	tintud	tintúd	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	xcomp	X	Gloss=the act of returning, translating; conversion, translation, recalling
+6	septien	Septién	PROPN	proper_noun	Case=Gen|Number=Sing	5	obj	X	Gloss=Septuagint
 7-8	istormach	_	_	_	_	_	_	_	_
-7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-8	tormach	tórmach	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of increasing; addition
-9	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
-10	dano	danó	ADV	particle_discourse	_	_	_	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+8	tormach	tórmach	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	parataxis	X	Gloss=the act of increasing; addition
+9	són	-són	PRON	particle_anaphoric	_	8	nsubj	X	Gloss=that (mentioned above) that is
+10	dano	danó	ADV	particle_discourse	_	8	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
 11-12	hítintud	_	_	_	_	_	_	_	_
 11	hí	i	ADP	preposition	Case=Acc	12	case	X	Gloss=in, into
-12	tintud	tintúd	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of returning, translating; conversion, translation, recalling
-13	teothis	teothas ?	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Theodotio
+12	tintud	tintúd	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	8	advcl	X	Gloss=the act of returning, translating; conversion, translation, recalling
+13	teothis	teothas ?	PROPN	proper_noun	Case=Gen|Number=Sing	12	obj	X	Gloss=Theodotio
 
 # sent_id = S0006-16
 # text = .i. sechip hae beschordae hifius
@@ -6306,23 +6306,23 @@
 # sent_id = S0006-63
 # text = .i. nírecat greic les tintuda doib .i. airataat iltintudai leu cene
 # text_en = i.e. the Greeks do not need a translation for them(selves), i.e. for they have many translations already.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	nírecat	_	_	_	_	_	_	_	_
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·recat	ro·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to reach, to attain, to arrive, come to
-4	greic	gréc 1	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=Greek (person)
-5	les	les 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=relief, benefit, advantage, good, profit, interest, in compounds: substitute, not properly belonging, cause, case, affair, matter
-6	tintuda	tintúd	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of returning, translating; conversion, translation, recalling
-7	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-8	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·recat	ro·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to reach, to attain, to arrive, come to
+4	greic	gréc 1	NOUN	noun	Case=Nom|Number=Plur	3	nsubj	X	Gloss=Greek (person)
+5	les	les 1	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=relief, benefit, advantage, good, profit, interest, in compounds: substitute, not properly belonging, cause, case, affair, matter
+6	tintuda	tintúd	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	5	nmod	X	Gloss=the act of returning, translating; conversion, translation, recalling
+7	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	6	obl:prep	X	Gloss=to, for, by etc.
+8	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
 9-10	airataat	_	_	_	_	_	_	_	_
-9	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-10	a·taat	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+9	air	ar 2	SCONJ	conjunction	_	10	mark	X	Gloss=causal: since, for; final: so that
+10	a·taat	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	conj	X	Gloss=to be, to exist,
 11-12	iltintudai	_	_	_	_	_	_	_	_
-11	il	il 1	ADJ	adjective	Degree=Pos	_	_	X	Gloss=many, abundant, manifold, numerous
-12	tintudai	tintúd	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of returning, translating; conversion, translation, recalling
-13	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-14	cene	cen	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	_	_	X	Gloss=without, not having, -less, on this side, apart from, besides, except
+11	il	il 1	ADJ	adjective	Degree=Pos	12	amod	X	Gloss=many, abundant, manifold, numerous
+12	tintudai	tintúd	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	10	nsubj	X	Gloss=the act of returning, translating; conversion, translation, recalling
+13	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	10	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+14	cene	cen	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	10	obl:prep	X	Gloss=without, not having, -less, on this side, apart from, besides, except
 
 # sent_id = S0006-64
 # text = .i. anoratiandae nisin
@@ -7986,7 +7986,7 @@
 2	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	cumachtae	cumachtae	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=power, strength, might
 4	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	frithcathaigtho	frithchathugud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	4	nmod	X	Gloss=the act of contending against, opposing; resistance
+5	frithcathaigtho	frithchathugud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	nmod	X	Gloss=the act of contending against, opposing; resistance
 
 # sent_id = S0006-214
 # text = bid comsrithi .i. bid aisndissi·
@@ -9532,23 +9532,23 @@
 # sent_id = S0006-355
 # text = .i. douic nadegnimu arnaib foraiccib 7 inna dualchi arnaib pianaib·
 # text_en = i.e. he has put the good deeds for the rewards and the vices for the punishments.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	do·uic	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	do·uic	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 3-5	nadegnimu	_	_	_	_	_	_	_	_
 3	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-4	de	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
-5	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+4	de	dag-	X	particle_prefix	_	5	amod	X	Gloss=good, noble, very
+5	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	2	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 6-7	arnaib	_	_	_	_	_	_	_	_
 6	ar	ar 1	ADP	preposition	Case=Dat	8	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 7	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	foraiccib	fochraic	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun|Typo=Yes	_	_	X	Gloss=the act of rewarding; reward, recompense, payment, price|CorrectForm=fochraiccib
-9	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+8	foraiccib	fochraic	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun|Typo=Yes	2	obl	X	Gloss=the act of rewarding; reward, recompense, payment, price|CorrectForm=fochraiccib
+9	7	ocus 2	CCONJ	conjunction	_	11	cc	X	Gloss=coordinating: and, since
 10	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	dualchi	düálaig	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=vice, fault of character
+11	dualchi	düálaig	NOUN	noun	Case=Acc|Number=Plur	5	conj	X	Gloss=vice, fault of character
 12-13	arnaib	_	_	_	_	_	_	_	_
 12	ar	ar 1	ADP	preposition	Case=Dat	14	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 13	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	14	det	X	Gloss=the
-14	pianaib	pían	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=penalty, punishment, torment, pain
+14	pianaib	pían	NOUN	noun	Case=Dat|Number=Plur	11	obl	X	Gloss=penalty, punishment, torment, pain
 15	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-356-Noun+do+VerbalNoun
