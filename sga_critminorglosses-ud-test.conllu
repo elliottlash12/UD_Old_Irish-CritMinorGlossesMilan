@@ -5674,22 +5674,22 @@
 # sent_id = S0006-19
 # text = .i. ni feil titlu remib· ciasidciamni titlu recech oin salm·
 # text_en = i.e. there are no headings before them, although we see headings before every single psalm.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·feil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to be, to exist,
-4	titlu	titul	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=title, heading
-5	remib	re	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=before, in front of
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ni·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·feil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to be, to exist,
+4	titlu	titul	NOUN	noun	Case=Acc|Number=Plur	3	nsubj	X	Gloss=title, heading
+5	remib	re	ADP	preposition	Person=3|Number=Plur|Case=Dat	3	xcomp:pred	X	Gloss=before, in front of
 6	·	·	PUNCT	punctuation	_	_	_	_	_
-7	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
+7	ci	cía 2	SCONJ	conjunction	_	8	mark	X	Gloss=concessive and explicative: even, although
 8-9	ciasidciamni	_	_	_	_	_	_	_	_
-8	asid·ciam	ad·cí	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC	_	_	X	Gloss=to see, to observe
-9	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-10	titlu	titul	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=title, heading
+8	asid·ciam	ad·cí	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC	3	advcl	X	Gloss=to see, to observe
+9	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
+10	titlu	titul	NOUN	noun	Case=Acc|Number=Plur	8	obj	X	Gloss=title, heading
 11-12	recech	_	_	_	_	_	_	_	_
-11	re	re	ADP	preposition	Case=Dat	13	case	X	Gloss=before, in front of
-12	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Masc|PronType=Tot	13	det	X	Gloss=every, each, all, any
-13	oin	óen	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
-14	salm	salm	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=psalm
+11	re	re	ADP	preposition	Case=Dat	14	case	X	Gloss=before, in front of
+12	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Masc|PronType=Tot	14	det	X	Gloss=every, each, all, any
+13	oin	óen	ADJ	adjective_numeral_noun	_	14	nummod	X	Gloss=one, single, same, only, unique; as compound element 'great'
+14	salm	salm	NOUN	noun	Case=Dat|Number=Sing	8	obl	X	Gloss=psalm
 15	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-20
@@ -6823,22 +6823,22 @@
 # sent_id = S0006-104
 # text = .i. nísonartnaigedar nechtar de manibet andiis do imfolung foirbthetad
 # text_en = i.e. neither of the two strengthens, unless they both be present to cause perfection.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	nísonartnaigedar	_	_	_	_	_	_	_	_
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·sonartnaigedar	sonartnaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to strengthen, to confirm, to establish
-4	nechtar	nechtar	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=either, one of two
-5	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·sonartnaigedar	sonartnaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to strengthen, to confirm, to establish
+4	nechtar	nechtar	PRON	pronoun_quantifier	Case=Nom|Number=Sing	3	nsubj	X	Gloss=either, one of two
+5	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=away, from, cause or reason, by
 6-8	manibet	_	_	_	_	_	_	_	_
-6	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-7	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-8	·bet	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+6	ma	ma	SCONJ	conjunction	_	8	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+7	ni·	ní 3	PART	particle_negative_main	_	8	advmod:neg	X	Gloss=not
+8	·bet	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	3	advcl	X	Gloss=to be, to exist,
 9-10	andiis	_	_	_	_	_	_	_	_
-9	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	_	_	X	Gloss=their
-10	ndiis	diäs	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=pair, couple
-11	do	do 1	ADP	preposition	Case=Dat	12	case	X	Gloss=to, for, by etc.
-12	imfolung	immḟolang	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of causing, effecting, accomplishing, sustaining, supporting; effect
-13	foirbthetad	foirbthetu	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=perfection
+9	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	nmod:poss	X	Gloss=their
+10	ndiis	diäs	NOUN	noun	Case=Dat|Number=Sing	8	nsubj	X	Gloss=pair, couple
+11	do	do 1	ADP	preposition	Case=Dat	12	mark:prt	X	Gloss=to, for, by etc.
+12	imfolung	immḟolang	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	8	xcomp:pred	X	Gloss=the act of causing, effecting, accomplishing, sustaining, supporting; effect
+13	foirbthetad	foirbthetu	NOUN	noun	Case=Gen|Number=Sing	12	obj	X	Gloss=perfection
 
 # sent_id = S0006-105
 # text = nochonutangar
@@ -7006,22 +7006,22 @@
 # sent_id = S0006-119
 # text = .i. aisndís istrichaingnímu rosegar 7 arosailcther indhires foirbthe do engnu
 # text_en = i.e. (the) explanation: it is through good works that perfect faith is attained and is opened up to understanding.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	aisndís	aisndís	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	aisndís	aisndís	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
 3-6	istrichaingnímu	_	_	_	_	_	_	_	_
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
 4	tri	tre	ADP	preposition	Case=Acc	6	case	X	Gloss=through (time or space), by means of, be reason of
-5	chain	caín	ADJ	adjective	Degree=Pos	_	_	X	Gloss=fine, good, beautiful, fair
-6	gnímu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-7	ro·segar	ro·saig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to extend, to attain, to reach; to arrive, to come to
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-9	ar·osailcther	ar·osailci	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to open, to reveal
+5	chain	caín	ADJ	adjective	Degree=Pos	6	amod	X	Gloss=fine, good, beautiful, fair
+6	gnímu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	2	obl	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+7	ro·segar	ro·saig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	csubj:cleft	X	Gloss=to extend, to attain, to reach; to arrive, to come to
+8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+9	ar·osailcther	ar·osailci	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	conj	X	Gloss=to open, to reveal
 10-11	indhires	_	_	_	_	_	_	_	_
 10	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	hires	ires	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=faith, religion, belief
-12	foirbthe	foirbthe 1	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=completed, finished, perfect, religious, holy
-13	do	do 1	ADP	preposition	Case=Dat	14	case	X	Gloss=to, for, by etc.
-14	engnu	ingnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of understanding, comprehending
+11	hires	ires	NOUN	noun	Case=Nom|Number=Sing	9	nsubj	X	Gloss=faith, religion, belief
+12	foirbthe	foirbthe 1	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	11	amod	X	Gloss=completed, finished, perfect, religious, holy
+13	do	do 1	ADP	preposition	Case=Dat	14	mark:prt	X	Gloss=to, for, by etc.
+14	engnu	ingnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	9	advcl	X	Gloss=the act of understanding, comprehending
 
 # sent_id = S0006-120
 # text = ascongarar
