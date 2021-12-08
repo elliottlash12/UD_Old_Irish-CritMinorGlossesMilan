@@ -7137,20 +7137,20 @@
 # text_en = of the history, for history is that which is most desirable for us to understand.
 1-2	innastoir	_	_	_	_	_	_	_	_
 1	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	stoir	stoir	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=history, story, account, literal meaning; record, account, reputation
-3	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-4	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-5	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
+2	stoir	stoir	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=history, story, account, literal meaning; record, account, reputation
+3	air	ar 2	SCONJ	conjunction	_	5	mark	X	Gloss=causal: since, for; final: so that
+4	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+5	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	2	ccomp	X	Gloss=it
 6-7	asdulem	_	_	_	_	_	_	_	_
-6	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-7	dulem	dil 1	ADJ	adjective	Degree=Sup	_	_	X	Gloss=dear, beloved
-8	dún	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+6	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	cop	X	Gloss=to be
+7	dulem	dil 1	ADJ	adjective	Degree=Sup	2	acl:relcl	X	Gloss=dear, beloved
+8	dún	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	7	obl:prep	X	Gloss=to, for, by etc.
 9-10	doengnu	_	_	_	_	_	_	_	_
-9	do	do 1	ADP	preposition	Case=Dat	10	case	X	Gloss=to, for, by etc.
-10	engnu	ingnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of understanding, comprehending
+9	do	do 1	ADP	preposition	Case=Dat	10	mark:prt	X	Gloss=to, for, by etc.
+10	engnu	ingnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	7	advcl	X	Gloss=the act of understanding, comprehending
 11	·	·	PUNCT	punctuation	_	_	_	_	_
-12	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	12	det	X	Gloss=the
-13	stoir	stoir	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=history, story, account, literal meaning; record, account, reputation
+12	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
+13	stoir	stoir	NOUN	noun	Case=Nom|Number=Sing	10	nsubj	X	Gloss=history, story, account, literal meaning; record, account, reputation
 
 # sent_id = S0006-129
 # text = alléicfimme
@@ -7413,22 +7413,22 @@
 # sent_id = S0006-150
 # text = uel non exisse .i. iustus 7 biid non dano amal [sodin] frisugeserat .i. quod non sugeserat
 # text_en = and non also in that case is with suggesserat.
-1	uel	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	non	nōn	X	particle_negative	_	_	_	X	Gloss=not
-3	exisse	exeō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to go out, to depart
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	iustus	iūstus	ADJ	adjective	Degree=Pos	_	_	X	Gloss=just, rightful, lawful
-6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-7	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-8	dano	danó	ADV	particle_discourse	_	_	_	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
-9	amal	amail 1	ADP	preposition	Case=Acc	_	case	X	Gloss=as, like
-10	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-11	fri	fri	ADP	preposition	Case=Acc	_	case	X	Gloss=towards, against, standard of comparison
-12	sugeserat	suggerō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-13	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-14	quod	quī	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=who, which
-15	non	nōn	X	particle_negative	_	_	_	X	Gloss=not
-16	sugeserat	suggerō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
+1	uel	uel	CCONJ	conjunction	_	3	cc	X	Gloss=or, even
+2	non	nōn	X	particle_negative	_	3	advmod:neg	X	Gloss=not
+3	exisse	exeō	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=to go out, to depart
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	iustus	iūstus	ADJ	adjective	Degree=Pos	3	conj	X	Gloss=just, rightful, lawful
+6	7	ocus 2	CCONJ	conjunction	_	7	cc	X	Gloss=coordinating: and, since
+7	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	conj	X	Gloss=to be, to exist,
+8	dano	danó	ADV	particle_discourse	_	7	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
+9	amal	amail 1	ADP	preposition	Case=Acc	10	case	X	Gloss=as, like
+10	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	7	xcomp:pred	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+11	fri	fri	ADP	preposition	Case=Acc	12	case	X	Gloss=towards, against, standard of comparison
+12	sugeserat	suggerō	VERB	verb	Voice=Act|Mood=Ind	7	obl	X	Gloss=_
+13	.i.	.i.	CCONJ	abbreviation	_	16	cc	X	Gloss=id est, it is
+14	quod	quī	PRON	pronoun_relative	PronType=Rel	16	nsubj	X	Gloss=who, which
+15	non	nōn	X	particle_negative	_	16	advmod:neg	X	Gloss=not
+16	sugeserat	suggerō	VERB	verb	Voice=Act|Mood=Ind	3	conj	X	Gloss=_
 
 # sent_id = S0006-151
 # text = trissasuide
@@ -7691,22 +7691,22 @@
 # sent_id = S0006-181
 # text = no indbadaigfitis .i. roptis imdai piana donaib anmanaib ceni esǽrsitis inchoirp aracenn·
 # text_en = they would abound, i.e. punishments to the souls would be abundant, even if the bodies did not rise to meet them.
-1	no·indbadaigfitis	indbadaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be rich, to abound
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	roptis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-4	imdai	imdae 1	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	_	_	X	Gloss=many, abundant, manifold, numerous
-5	piana	pían	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=penalty, punishment, torment, pain
+1	no·indbadaigfitis	indbadaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be rich, to abound
+2	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+3	roptis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	4	cop	X	Gloss=to be
+4	imdai	imdae 1	ADJ	adjective	Case=Nom|Number=Plur|Gender=Fem|Degree=Pos	1	conj	X	Gloss=many, abundant, manifold, numerous
+5	piana	pían	NOUN	noun	Case=Nom|Number=Plur	4	nsubj	X	Gloss=penalty, punishment, torment, pain
 6	do	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
 7	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	anmanaib	ainimm	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=soul (as opposed to the body)
-9	ce	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-10	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-11	·esǽrsitis	as·éirig	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to rise
+8	anmanaib	ainimm	NOUN	noun	Case=Dat|Number=Plur	4	obl	X	Gloss=soul (as opposed to the body)
+9	ce	cía 2	SCONJ	conjunction	_	11	mark	X	Gloss=concessive and explicative: even, although
+10	ni·	ní 3	PART	particle_negative_main	_	11	advmod:neg	X	Gloss=not
+11	·esǽrsitis	as·éirig	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	advcl	X	Gloss=to rise
 12	in	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	choirp	corp	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=human body, corpse, dead body, body of Eucharist, Communion, bulk, mass, main or central part, text
+13	choirp	corp	NOUN	noun	Case=Nom|Number=Plur	11	nsubj	X	Gloss=human body, corpse, dead body, body of Eucharist, Communion, bulk, mass, main or central part, text
 14	ar	ar 1	ADP	preposition	Case=Acc	16	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-15	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	16	_	X	Gloss=their
-16	cenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=head; end-point, termination, exchange, purchase
+15	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	16	nmod:poss	X	Gloss=their
+16	cenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	11	obl	X	Gloss=head; end-point, termination, exchange, purchase
 17	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-182
