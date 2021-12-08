@@ -14241,22 +14241,22 @@
 # sent_id = S0006-788
 # text = .i. asrubartatar· nant he macc dæ rogenair iarcolain 7 nant hæ rocrochsat·
 # text_en = i.e. who said that it was not the Son of God who was born according to the flesh, and that is was not He whom they crucified.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	as·rubartatar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
-3	na	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	as·rubartatar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	0	root	X	Gloss=to say, to speak, to call , mention
+3	na	ná 2	PART	particle_negative_subordinate	_	5	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
 4	·	·	PUNCT	punctuation	_	_	_	_	_
-5	nt	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-6	he	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-7	macc	macc 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-8	dæ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
-9	ro·genair	gainithir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be born, to come to life, to be produced, to be derived, to be formed, to originate
-10	iar	íar 1	ADP	preposition	Case=Dat	_	case	X	Gloss=after, behind, across, along, beyond, according to
-11	colain	colainn	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=flesh, body
-12	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-13	na	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-14	nt	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-15	hæ	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-16	ro·crochsat	crochaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to crucify, to hang
+5	nt	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	cop	X	Gloss=to be
+6	he	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	2	ccomp	X	Gloss=he, him, it
+7	macc	macc 1	NOUN	noun	Case=Nom|Number=Sing	6	nsubj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+8	dæ	día 2	NOUN	noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=god, deity, God
+9	ro·genair	gainithir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	7	acl:relcl	X	Gloss=to be born, to come to life, to be produced, to be derived, to be formed, to originate
+10	iar	íar 1	ADP	preposition	Case=Dat	11	case	X	Gloss=after, behind, across, along, beyond, according to
+11	colain	colainn	NOUN	noun	Case=Dat|Number=Sing	9	obl	X	Gloss=flesh, body
+12	7	ocus 2	CCONJ	conjunction	_	15	cc	X	Gloss=coordinating: and, since
+13	na	ná 2	PART	particle_negative_subordinate	_	14	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+14	nt	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	15	cop	X	Gloss=to be
+15	hæ	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	6	conj	X	Gloss=he, him, it
+16	ro·crochsat	crochaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	15	acl:relcl	X	Gloss=to crucify, to hang
 17	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-789
@@ -14597,22 +14597,22 @@
 # sent_id = S0006-810
 # text = .i. is de rogabad insalmso dodechur etir deacht 7 doinach maicc
 # text_en = i.e. it is of this that this psalm was sung, of the difference between the divinity and the humanity of the Son.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
-4	ro·gabad	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	0	root	X	Gloss=away, from, cause or reason, by
+4	ro·gabad	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	3	ccomp	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 5-7	insalmso	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	salm	salm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=psalm
-7	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+6	salm	salm	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=psalm
+7	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	6	det	X	Gloss=this, these
 8-9	dodechur	_	_	_	_	_	_	_	_
 8	do	di	ADP	preposition	Case=Dat	9	case	X	Gloss=away, from, cause or reason, by
-9	dechur	dechor	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=condition of being different, dissimilarity, diversity
+9	dechur	dechor	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=condition of being different, dissimilarity, diversity
 10	etir	eter	ADP	preposition	Case=Acc	11	case	X	Gloss=between, among; both...and...
-11	deacht	deächt	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=divinity, godhead
-12	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-13	doinach	doínacht	NOUN	noun	Case=Acc|Number=Sing|Typo=Yes	_	_	X	Gloss=humanity (vs. deity), humanness, Manhood|CorrectForm=doinacht
-14	maicc	macc 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+11	deacht	deächt	NOUN	noun	Case=Acc|Number=Sing	4	obl	X	Gloss=divinity, godhead
+12	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
+13	doinach	doínacht	NOUN	noun	Case=Acc|Number=Sing|Typo=Yes	11	conj	X	Gloss=humanity (vs. deity), humanness, Manhood|CorrectForm=doinacht
+14	maicc	macc 1	NOUN	noun	Case=Gen|Number=Sing	13	nmod	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
 
 # sent_id = S0006-811
 # text = .i. indoinacht són
@@ -15847,22 +15847,22 @@
 # sent_id = S0006-916
 # text = .i. arascelatais árecin dofomair doib innabochtu 7 innadommu
 # text_en = i.e. they used to seize them by force to serve the poor and the needy.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	aras·celatais	ar·cela	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	_	_	X	Gloss=to take away, to steal, to carry off
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	aras·celatais	ar·cela	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	0	root	X	Gloss=to take away, to steal, to carry off
 3-4	árecin	_	_	_	_	_	_	_	_
 3	ár	ar 1	ADP	preposition	Case=Acc	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-4	ecin	éicen	NOUN	noun	Case=Dat	_	_	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
+4	ecin	éicen	NOUN	noun	Case=Dat	2	obl	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
 5-6	dofomair	_	_	_	_	_	_	_	_
 5	do	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
-6	fomair	fognam	NOUN	noun	Case=Dat|Number=Sing|Typo=Yes	_	_	X	Gloss=service|CorrectForm=fognam
-7	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+6	fomair	fognam	NOUN	noun	Case=Dat|Number=Sing|Typo=Yes	2	obl	X	Gloss=service|CorrectForm=fognam
+7	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	9	case	X	Gloss=to, for, by etc.
 8-9	innabochtu	_	_	_	_	_	_	_	_
-8	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-9	bochtu	bocht	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=poor
-10	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+8	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
+9	bochtu	bocht	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	2	obl	X	Gloss=poor
+10	7	ocus 2	CCONJ	conjunction	_	12	cc	X	Gloss=coordinating: and, since
 11-12	innadommu	_	_	_	_	_	_	_	_
-11	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-12	dommu	dommae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=poor, needy
+11	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	12	det	X	Gloss=the
+12	dommu	dommae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	9	conj	X	Gloss=poor, needy
 
 # sent_id = S0006-917
 # text = .i. dinaib cumachtgaib echtrannaib roadbartaigset donpopul 7 dicach disuidib immenetar· ocadbartugud dialailiu
