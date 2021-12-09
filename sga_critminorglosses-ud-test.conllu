@@ -2255,7 +2255,7 @@
 # sent_id = S0021-29
 # text = cid indfretussa
 # text_en = even of the dowry
-1	cid	cid 2	PART	particle_focus	Tense=Pres|VerbForm=Fin	3	advmod:emph	3:advmod:emph	Gloss=even
+1	cid	cid 2	PART	particle_focus	_	3	advmod:emph	3:advmod:emph	Gloss=even
 2-3	indfretussa	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	3:det	Gloss=the
 3	fretussa	fretus	NOUN	noun	Case=Gen|Number=Sing	0	root	0:root	Gloss=dowry
@@ -6756,7 +6756,7 @@
 7	reír	ríar 1	NOUN	noun	Case=Dat	0	root	X	Gloss=will, demand, claim, supplying needs, maintenance
 8	fesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	7	nmod	X	Gloss=self
 9-10	boisom	_	_	_	_	_	_	_	_
-9	boi	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	ccomp	X	Gloss=to be, to exist,
+9	boi	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	csubj:cleft	X	Gloss=to be, to exist,
 10	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	9	nsubj	X	Gloss=emphasising particle
 11-14	isintaim(sir)sin	_	_	_	_	_	_	_	_
 11	i	i	ADP	preposition	Case=Dat	13	case	X	Gloss=in, into
@@ -10991,7 +10991,7 @@
 2	ni	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
 3	fú	fo	ADP	preposition	Case=Acc	4	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
 4	indidit	indidit	NOUN	noun	Case=Dat	0	root	X	Gloss=affirmation, statement; gramm. indicative mood
-5	a·ta	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	ccomp	X	Gloss=to be, to exist,
+5	a·ta	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	csubj:cleft	X	Gloss=to be, to exist,
 6	irascemini	īrāscor	VERB	verb	Voice=Act|Mood=Ind	5	nsubj	X	Gloss=_
 7	sunt	sund	ADV	adverb	_	5	advmod	X	Gloss=here, in this place; hither, to this place
 8	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
@@ -11003,7 +11003,7 @@
 13	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	15	cop	X	Gloss=to be
 14-15	foimchomarc	_	_	_	_	_	_	_	_
 14	fo	fo	ADP	preposition	Case=Acc	15	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-15	imchomarc	immchomarc	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	10	conj	X	Gloss=the act of questioning; question, inquiry, interrogation
+15	imchomarc	immchomarc	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of questioning; question, inquiry, interrogation
 16	a·ta	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	15	csubj:cleft	X	Gloss=to be, to exist,
 17	·	·	PUNCT	punctuation	_	_	_	_	_
 
@@ -11699,7 +11699,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2	as·berat	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	0	root	X	Gloss=to say, to speak, to call , mention
 3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
-4	ndia	día 2	NOUN	noun	Case=Nom|Number=Sing	2	csubj:cleft	X	Gloss=god, deity, God
+4	ndia	día 2	NOUN	noun	Case=Nom|Number=Sing	2	ccomp	X	Gloss=god, deity, God
 5	cloine	cloíne	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=uneveness, crookedness, slant; iniquity, perversion, wickedness, bias; evil deeds (in plural)
 6	macc	macc 1	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
 7-8	olsodin	_	_	_	_	_	_	_	_
@@ -12515,11 +12515,11 @@
 2-3	combed	_	_	_	_	_	_	_	_
 2	co·	co 4	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+independent, leniting)
 3	·mbed	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
-4	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	5	mark:prt	X	Gloss=to, for, by etc.
-5	foraithmet	foraithmet	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	xcomp:pred	X	Gloss=the act of remembering, calling to mind; recollection
+4	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	xcomp:pred:prep	X	Gloss=to, for, by etc.
+5	foraithmet	foraithmet	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	nsubj	X	Gloss=the act of remembering, calling to mind; recollection
 6-7	bedtorbach	_	_	_	_	_	_	_	_
 6	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	cop	X	Gloss=to be
-7	torbach	torbach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	5	csubj:cleft	X	Gloss=profitable worker, beneficial
+7	torbach	torbach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	5	acl:relcl	X	Gloss=profitable worker, beneficial
 8	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
 9-11	trisangnetis	_	_	_	_	_	_	_	_
 9	tri	tre	ADP	preposition	Case=Acc	10	case	X	Gloss=through (time or space), by means of, be reason of
