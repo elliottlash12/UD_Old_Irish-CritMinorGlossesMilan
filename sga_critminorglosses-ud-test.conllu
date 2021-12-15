@@ -5676,7 +5676,7 @@
 2	ni·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
 3	·feil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to be, to exist,
 4	titlu	titul	NOUN	noun	Case=Acc|Number=Plur	3	nsubj	X	Gloss=title, heading
-5	remib	re	ADP	preposition	Person=3|Number=Plur|Case=Dat	3	xcomp:pred	X	Gloss=before, in front of
+5	remib	re	ADP	preposition	Person=3|Number=Plur|Case=Dat	3	xcomp:pred:prep	X	Gloss=before, in front of
 6	·	·	PUNCT	punctuation	_	_	_	_	_
 7	ci	cía 2	SCONJ	conjunction	_	8	mark	X	Gloss=concessive and explicative: even, although
 8-9	ciasidciamni	_	_	_	_	_	_	_	_
@@ -6820,7 +6820,7 @@
 2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
 3	·sonartnaigedar	sonartnaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to strengthen, to confirm, to establish
 4	nechtar	nechtar	PRON	pronoun_quantifier	Case=Nom|Number=Sing	3	nsubj	X	Gloss=either, one of two
-5	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=away, from, cause or reason, by
+5	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	4	obl:prep	X	Gloss=away, from, cause or reason, by
 6-8	manibet	_	_	_	_	_	_	_	_
 6	ma	ma	SCONJ	conjunction	_	8	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
 7	ni·	ní 3	PART	particle_negative_main	_	8	advmod:neg	X	Gloss=not
@@ -6995,7 +6995,7 @@
 1	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
 2	ndiuit	díüit	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=simple, sincere
 
-# sent_id = S0006-119
+# sent_id = S0006-119 - Noun do Verbal Noun, double VP
 # text = .i. aisndís istrichaingnímu rosegar 7 arosailcther indhires foirbthe do engnu
 # text_en = i.e. (the) explanation: it is through good works that perfect faith is attained and is opened up to understanding.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
@@ -7004,7 +7004,7 @@
 3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
 4	tri	tre	ADP	preposition	Case=Acc	6	case	X	Gloss=through (time or space), by means of, be reason of
 5	chain	caín	ADJ	adjective	Degree=Pos	6	amod	X	Gloss=fine, good, beautiful, fair
-6	gnímu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	2	obl	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+6	gnímu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	2	parataxis	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 7	ro·segar	ro·saig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	csubj:cleft	X	Gloss=to extend, to attain, to reach; to arrive, to come to
 8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
 9	ar·osailcther	ar·osailci	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	conj	X	Gloss=to open, to reveal
@@ -7124,7 +7124,7 @@
 # text_en = we enumerate.
 1	do·rímem	do·rími	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	0	root	0:root	Gloss=to enumerate, to mention; to tell, to relate; to count, to speak of, to account
 
-# sent_id = S0006-128
+# sent_id = S0006-128 - this sentence needs work
 # text = innastoir air is ed asdulem dún doengnu· instoir
 # text_en = of the history, for history is that which is most desirable for us to understand.
 1-2	innastoir	_	_	_	_	_	_	_	_
@@ -7684,7 +7684,7 @@
 5	piana	pían	NOUN	noun	Case=Nom|Number=Plur	4	nsubj	X	Gloss=penalty, punishment, torment, pain
 6	do	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
 7	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	anmanaib	ainimm	NOUN	noun	Case=Dat|Number=Plur	4	obl	X	Gloss=soul (as opposed to the body)
+8	anmanaib	ainimm	NOUN	noun	Case=Dat|Number=Plur	5	obl	X	Gloss=soul (as opposed to the body)
 9	ce	cía 2	SCONJ	conjunction	_	11	mark	X	Gloss=concessive and explicative: even, although
 10	ni·	ní 3	PART	particle_negative_main	_	11	advmod:neg	X	Gloss=not
 11	·esǽrsitis	as·éirig	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	advcl	X	Gloss=to rise
@@ -14533,7 +14533,7 @@
 8	runda·legsam	légaid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	2	advcl	X	Gloss=to read, to study
 9	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
 10	·	·	PUNCT	punctuation	_	_	_	_	_
-11	acht	acht 1	CCONJ	conjunction	_	12	cc	X	Gloss=except, but, provided that, save that
+11	acht	acht 1	CCONJ	conjunction	_	12	mark	X	Gloss=except, but, provided that, save that
 12	ronda·saibset	sáebaid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	2	conj	X	Gloss=to pervert, to deceive, to lead astray, to twist
 13	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	12	nsubj	X	Gloss=emphasising particle
 14	tantum	tantum	PART	adjective_quantifier	_	12	advmod:emph	X	Gloss=so many, so great, only
@@ -14797,10 +14797,10 @@
 3	sensus	sensus	NOUN	noun	_	0	root	X	Gloss=perception, a feeling, understanding, reason
 4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 5	no·línfed	línaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	3	conj	X	Gloss=to fill
-6	preceupt	preicept	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=act of teaching or preaching
+6	preceupt	preicept	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	5	csubj	X	Gloss=act of teaching or preaching
 7-8	asoscelai	_	_	_	_	_	_	_	_
 7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	8	nmod:poss	X	Gloss=his, its
-8	soscelai	soscélae	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=good news, Gospel
+8	soscelai	soscélae	NOUN	noun	Case=Gen|Number=Sing	6	obj	X	Gloss=good news, Gospel
 9-10	innule	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
 10	nule	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing|Gender=Masc	11	amod	X	Gloss=all, every, the whole
@@ -16076,10 +16076,10 @@
 7	brathnigthiu	bráthnaigthe	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Masc	4	conj	X	Gloss=judged, decided, examined, determined
 8	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
 9	brithemandu	brithemandae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	7	conj	X	Gloss=pertaining to judgment, judicial
-10	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
+10	.i.	.i.	CCONJ	abbreviation	_	12	cc	X	Gloss=id est, it is
 11-12	fírbrithe	_	_	_	_	_	_	_	_
-11	fír	fír	ADJ	adjective	Degree=Pos	9	conj	X	Gloss=true, veracious, real
-12	brithe	brithem	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	11	nmod	X	Gloss=judge|CorrectForm=britheman
+11	fír	fír	ADJ	adjective	Degree=Pos	12	amod	X	Gloss=true, veracious, real
+12	brithe	brithem	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	4	conj	X	Gloss=judge|CorrectForm=britheman
 13	son	-són	PRON	particle_anaphoric	_	11	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-934
