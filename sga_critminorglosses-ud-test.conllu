@@ -6759,24 +6759,24 @@
 # sent_id = S0006-99
 # text = .i. airdanimmart greim á aite
 # text_en = i.e. for the authority of his tutors restrained him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	airdanimmart	_	_	_	_	_	_	_	_
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	da·nimmart	do·immoirg	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	_	_	X	Gloss=to press, to compress, to gather, to collect, to subdue, to control
-4	greim	greimm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=grasp, authority, sway, power, bond, obligation, duty, service
-5	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	aite	aite 1	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=tutor, teacher
+2	air	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
+3	da·nimmart	do·immoirg	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	0	root	X	Gloss=to press, to compress, to gather, to collect, to subdue, to control
+4	greim	greimm	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=grasp, authority, sway, power, bond, obligation, duty, service
+5	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+6	aite	aite 1	NOUN	noun	Case=Gen|Number=Plur	4	nmod	X	Gloss=tutor, teacher
 
 # sent_id = S0006-100
 # text = .i. hires foirbthe 7 degnimai
 # text_en = i.e. perfect faith and good works.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	hires	ires	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=faith, religion, belief
-3	foirbthe	foirbthe 1	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=completed, finished, perfect, religious, holy
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	hires	ires	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=faith, religion, belief
+3	foirbthe	foirbthe 1	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	2	amod	X	Gloss=completed, finished, perfect, religious, holy
+4	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
 5-6	degnimai	_	_	_	_	_	_	_	_
-5	de	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
-6	gnimai	gním	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+5	de	dag-	X	particle_prefix	_	6	amod	X	Gloss=good, noble, very
+6	gnimai	gním	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	2	conj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-101
 # text = ised inso indalanai
@@ -6803,14 +6803,14 @@
 # text = ised inso anaill
 # text_en = this is the other.
 1-2	ised	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	4	nmod	X	Gloss=it
 3-4	inso	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
+4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	0	root	X	Gloss=this one, these ones ; this, these
 5-6	anaill	_	_	_	_	_	_	_	_
 5	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	naill	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=other, another, else, second
+6	naill	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Neut	4	nsubj	X	Gloss=other, another, else, second
 
 # sent_id = S0006-104
 # text = .i. nísonartnaigedar nechtar de manibet andiis do imfolung foirbthetad
