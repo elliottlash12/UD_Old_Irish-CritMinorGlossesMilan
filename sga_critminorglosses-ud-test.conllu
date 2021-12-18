@@ -16457,13 +16457,13 @@
 # sent_id = S0006-973
 # text = .i. sechis comnumgabthae són·
 # text_en = i.e. that is to say, that I might be occupied with.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	num·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=me, myself
-5	comnum·gabthae	con·gaib	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other|Typo=Yes	_	_	X	Gloss=to contain, to include; to maintain, to preserve, to support, to uphold; to keep, to found, to set up, to settle|CorrectForm=conum·gabthae
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+2	sech	sech 2	X	conjunction	_	5	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+4	num·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	5	inf:obj	X	Gloss=me, myself
+5	comnum·gabthae	con·gaib	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other|Typo=Yes	0	root	X	Gloss=to contain, to include; to maintain, to preserve, to support, to uphold; to keep, to found, to set up, to settle|CorrectForm=conum·gabthae
+6	són	-són	PRON	particle_anaphoric	_	5	nsubj	X	Gloss=that (mentioned above) that is
 7	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-974
@@ -16616,13 +16616,13 @@
 # text = innacomailte .i. indaísso noib·
 # text_en = of the quietists, i.e. of the saints.
 1-2	innacomailte	_	_	_	_	_	_	_	_
-1	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-2	comailte	comailt	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=peaceful, quiet, peacable
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
+2	comailte	comailt	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	0	root	X	Gloss=peaceful, quiet, peacable
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	indaísso	_	_	_	_	_	_	_	_
 4	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	aísso	áes 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=people, folk
-6	noib	nóeb	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=holy, sacred, saintly
+5	aísso	áes 2	NOUN	noun	Case=Gen|Number=Sing	2	conj	X	Gloss=people, folk
+6	noib	nóeb	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	5	amod	X	Gloss=holy, sacred, saintly
 7	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-988
@@ -16693,14 +16693,14 @@
 # sent_id = S0006-994
 # text = .i. horuccai 7 homebuil·
 # text_en = i.e. because of shame and because of disgrace.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	horuccai	_	_	_	_	_	_	_	_
-2	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
-3	ruccai	ruccae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=shame, disgrace
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+2	ho	ó 1	ADP	preposition	Case=Dat	3	obl:prep	X	Gloss=from, out of, by
+3	ruccai	ruccae	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=shame, disgrace
+4	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
 5-6	homebuil·	_	_	_	_	_	_	_	_
 5	ho	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
-6	mebuil	mebol	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=shame, disgrace, deceit, treachery, a cause of shame
+6	mebuil	mebol	NOUN	noun	Case=Dat|Number=Sing	3	conj	X	Gloss=shame, disgrace, deceit, treachery, a cause of shame
 7	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-995
