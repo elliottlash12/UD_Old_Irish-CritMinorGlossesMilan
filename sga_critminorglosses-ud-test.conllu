@@ -12736,13 +12736,13 @@
 # text = nochis ónmlithson
 # text_en = that is, from the grinding.
 1-2	nochis	_	_	_	_	_	_	_	_
-1	noch	noch 1	X	conjunction	_	_	_	X	Gloss=introduces a synonym or explanation: that is to say
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	noch	noch 1	X	conjunction	_	5	mark	X	Gloss=introduces a synonym or explanation: that is to say
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 3-6	ónmlithson	_	_	_	_	_	_	_	_
 3	ó	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
 4	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	mlith	mleth	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of grinding
-6	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+5	mlith	mleth	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of grinding
+6	son	-són	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-650
 # text = .i. huanaimtib
@@ -12939,13 +12939,13 @@
 # sent_id = S0006-664
 # text = .i. cofucrothad .i. co chonscarad
 # text_en = i.e. that he should shake, i.e. that he should destroy.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	cofucrothad	_	_	_	_	_	_	_	_
-2	co	co 3	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
-3	fu·crothad	fo·crotha	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to shake, to make quiver
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	co	co 3	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
-6	chon·scarad	con·scara	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to destroy, to kill, to break
+2	co	co 3	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
+3	fu·crothad	fo·crotha	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	0	root	X	Gloss=to shake, to make quiver
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	co	co 3	SCONJ	complementiser	_	6	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
+6	chon·scarad	con·scara	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	3	conj	X	Gloss=to destroy, to kill, to break
 
 # sent_id = S0006-665
 # text = fadéin
@@ -13211,14 +13211,14 @@
 # sent_id = S0006-689
 # text = .i. madugneu innahui remiærburt
 # text_en = i.e. if I would do everything that I have said previously.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	madugneu	_	_	_	_	_	_	_	_
-2	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-3	du·gneu	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to do, to make
+2	ma	ma	SCONJ	conjunction	_	3	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+3	du·gneu	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to do, to make
 4-5	innahui	_	_	_	_	_	_	_	_
-4	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-5	hui	uile	ADJ	adjective_quantifier	Case=Acc|Number=Plur|Gender=Neut|Typo=Yes	_	_	X	Gloss=all, every, the whole|CorrectForm=huili
-6	remi·ærburt	remi·eipir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to say beforehand, to say previously
+4	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
+5	hui	uile	ADJ	adjective_quantifier	Case=Acc|Number=Plur|Gender=Neut|Typo=Yes	3	obj	6:obj|3:obj	Gloss=all, every, the whole|CorrectForm=huili
+6	remi·ærburt	remi·eipir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	5	acl:relcl	X	Gloss=to say beforehand, to say previously
 
 # sent_id = S0006-690
 # text = .i. cenimfolang indegnimo són as ail lim
