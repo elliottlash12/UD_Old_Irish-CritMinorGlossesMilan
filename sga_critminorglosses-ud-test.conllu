@@ -9140,7 +9140,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2	cathraig	caithir	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=city
 3	tíre	tír	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=land; territory, country; earth, ground
-4	iudae	Iúdaei	PROPN	proper_noun	Case=Gen|Number=Plur	2	nmod	X	Gloss=Jews
+4	iudae	Iúdaei	PROPN	proper_noun	Case=Gen|Number=Plur	3	nmod	X	Gloss=Jews
 5-6	insin	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	2	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
@@ -9189,14 +9189,14 @@
 # sent_id = S0006-320
 # text = .i. sechis nocinned aimsirsón
 # text_en = i.e. that is, that it should determine time.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	no·cinned	cinnid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to descend (from), to be born, to define, to determine, to fix
+2	sech	sech 2	X	conjunction	_	4	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	no·cinned	cinnid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to descend (from), to be born, to define, to determine, to fix
 5-6	aimsirsón	_	_	_	_	_	_	_	_
-5	aimsir	aimser	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=point or period of time, hour, tense
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+5	aimsir	aimser	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=point or period of time, hour, tense
+6	són	-són	PRON	particle_anaphoric	_	4	nsubj	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-321
 # text = nítaircither
@@ -9404,12 +9404,12 @@
 # sent_id = S0006-344
 # text = .i. 7 andat [leg. anandat] secthi
 # text_en = i.e. and when they are not dried.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-3	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-4	na	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-5	ndat	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-6	secthi	secthae	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Neut	_	_	X	Gloss=stiffened, hardened, dried up
+1	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+2	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
+3	a	a 6	SCONJ	conjunction	_	6	mark	X	Gloss=temporal: when, since
+4	na	ná 2	PART	particle_negative_subordinate	_	6	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+5	ndat	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	cop	X	Gloss=to be
+6	secthi	secthae	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Neut	0	root	X	Gloss=stiffened, hardened, dried up
 
 # sent_id = S0006-345
 # text = .i. roth cruind forsandenat nacerda inlestrai nui  ɫ. cran cruín immuambiat ocuan denum
@@ -9469,14 +9469,14 @@
 # sent_id = S0006-349
 # text = .i. dund fognam hisin
 # text_en = i.e. to that service.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	dund	_	_	_	_	_	_	_	_
 2	du	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
 3	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	fognam	fognam	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=service
+4	fognam	fognam	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=service
 5-6	hisin	_	_	_	_	_	_	_	_
-5	hi	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-6	sin	sin	PRON	pronoun_demonstrative_distal	Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+5	hi	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Masc	4	appos	X	Gloss=substantivizing particle
+6	sin	sin	PRON	pronoun_demonstrative_distal	Deixis=Remt|PronType=Dem	5	appos	X	Gloss=that one, those ones, the one in there ; that, those
 
 # sent_id = S0006-350
 # text = docheniuil
@@ -13984,13 +13984,13 @@
 8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	7	nsubj	X	Gloss=emphasising particle
 9	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	7	obl:prep	X	Gloss=away, from, cause or reason, by
 10	·	·	PUNCT	punctuation	_	_	_	_	_
-11	tri	tre	ADP	preposition	Case=Acc	11	case	X	Gloss=through (time or space), by means of, be reason of
+11	tri	tre	ADP	preposition	Case=Acc	12	case	X	Gloss=through (time or space), by means of, be reason of
 12	æsnadud	esnádud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	7	advcl	X	Gloss=the act of delaying, postponing
 13-14	innadiglae	_	_	_	_	_	_	_	_
 13	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
 14	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	16	obj	X	Gloss=the act of avenging, punishing, vengeance
 15-16	dothabairt	_	_	_	_	_	_	_	_
-15	do	do 1	ADP	preposition	Case=Dat	15	mark:prt	X	Gloss=to, for, by etc.
+15	do	do 1	ADP	preposition	Case=Dat	16	mark:prt	X	Gloss=to, for, by etc.
 16	thabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	12	xcomp	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
 17	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	16	obl:prep	X	Gloss=upon, over, on
 
