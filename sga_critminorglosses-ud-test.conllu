@@ -11455,14 +11455,14 @@
 # sent_id = S0006-550
 # text = .i. ithéside cotammeicnigthersa
 # text_en = i.e. it is these by which I am compelled.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	ithéside	_	_	_	_	_	_	_	_
-2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	hé	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=they, them
-4	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Neut	_	_	X	Gloss=that one, he, she, it, they
+2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	hé	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=they, them
+4	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Neut	3	nsubj	X	Gloss=that one, he, she, it, they
 5-6	cotammeicnigthersa	_	_	_	_	_	_	_	_
-5	cotamm·eicnigther	con·éicnigedar	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfB|RelType=Other	_	_	X	Gloss=to compel, to force
-6	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	cotamm·eicnigther	con·éicnigedar	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfB|RelType=Other	4	acl:relcl	X	Gloss=to compel, to force
+6	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-551
 # text = .i. cenaéitsecht
@@ -12607,14 +12607,14 @@
 # text = issamlid inso asmbertar· ut
 # text_en = it is thus that they are said: ut.
 1-2	issamlid	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=as, like
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+2	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	case	X	Gloss=as, like
 3-4	inso	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	so	só	PRON	pronoun_demonstrative_proximate	Case=Acc|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
-5	as·mbertar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
+4	so	só	PRON	pronoun_demonstrative_proximate	Case=Acc|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	0	root	X	Gloss=this one, these ones ; this, these
+5	as·mbertar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	csubj:cleft	X	Gloss=to say, to speak, to call , mention
 6	·	·	PUNCT	punctuation	_	_	_	_	_
-7	ut	ut	X	conjunction	_	_	_	X	Gloss=that, so that
+7	ut	ut	X	conjunction	_	5	parataxis	X	Gloss=that, so that
 
 # sent_id = S0006-642
 # text = .i. cosindbiud .i. cosind epirt asingaib méit hic est {ordo} ut dicuntur tamen ad fletús ub[e]res indicandos {penitentis} etsi non dicuntur .i. ad tantos quantos .i. uerba sonant .i. robtar lugu nadǽr quam adfiadatar
@@ -12685,13 +12685,13 @@
 # text = huaitsiu fercach .i. anundá
 # text_en = by You (sg) angry, i.e. when You (sg) are.
 1-2	huaitsiu	_	_	_	_	_	_	_	_
-1	huait	ó 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	_	_	X	Gloss=from, out of, by
-2	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-3	fercach	fergach	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=angry, wrathful
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	huait	ó 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	_	2	X	Gloss=from, out of, by
+2	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	0	root	X	Gloss=emphasising particle
+3	fercach	fergach	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	2	amod	X	Gloss=angry, wrathful
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	anundá	_	_	_	_	_	_	_	_
-5	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-6	nundá	is 1	AUX	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
+5	a	a 6	SCONJ	conjunction	_	6	mark	X	Gloss=temporal: when, since
+6	nundá	is 1	AUX	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	conj	X	Gloss=to be
 
 # sent_id = S0006-647
 # text = .i. intimtrecht naicnedti frissarusuidiged cech sens
