@@ -14087,14 +14087,14 @@
 # sent_id = S0006-773
 # text = .i. ciabu olc ágnim
 # text_en = i.e. although his deed was evil.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	ciabu	_	_	_	_	_	_	_	_
-2	cia	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	bu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	olc	olc	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+2	cia	cía 2	SCONJ	conjunction	_	4	mark	X	Gloss=concessive and explicative: even, although
+3	bu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	olc	olc	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=evil, bad, wrong
 5-6	ágnim	_	_	_	_	_	_	_	_
-5	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	gnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+5	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+6	gnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	nsubj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-774
 # text = .i. oid menmain· foilsigidir som immurgu isindísiu inpeccad dorigeni agitofél·
@@ -15027,14 +15027,14 @@
 # sent_id = S0006-846
 # text = .i. inesamni no inroisri
 # text_en = i.e. the boldness or the angriness.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	inesamni	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	esamni	esamnae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=boldness, confidence
-4	no	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+3	esamni	esamnae	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=boldness, confidence
+4	no	nó 1	CCONJ	conjunction	_	6	cc	X	Gloss=disjunctive: or
 5-6	inroisri	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	roisri	roisre	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=anger, wrath, ardor
+6	roisri	roisre	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=anger, wrath, ardor
 
 # sent_id = S0006-847
 # text = conuruiccaiged
@@ -15055,13 +15055,13 @@
 # sent_id = S0006-849
 # text = .i. amal intabarthi .i. legis
 # text_en = i.e. as if of the given, i.e. legis.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	4	mark	X	Gloss=as, like; translating Latin ut
 3-4	intabarthi	_	_	_	_	_	_	_	_
-3	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	tabarthi	tabarthae	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Neut	_	_	X	Gloss=given
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	legis	lēx	NOUN	noun	_	_	_	X	Gloss=law
+3	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
+4	tabarthi	tabarthae	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Neut	0	root	X	Gloss=given
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	legis	lēx	NOUN	noun	_	4	conj	X	Gloss=law
 
 # sent_id = S0006-850
 # text = .i. innafrithtuidechtae·
