@@ -5693,14 +5693,14 @@
 # sent_id = S0006-20
 # text = .i. immidaircet 7 duaisilbter dopersain duaid
 # text_en = i.e. which suit and are ascribed to the person of David
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	immid·aircet	imm·airicc	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Len	_	_	X	Gloss=to be appropriate to; to concern, to suit; to happen
-3	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-4	du·aisilbter	do·aisilbi	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to present, to put forward, to set forth, to assign, to ascribe
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	immid·aircet	imm·airicc	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Len	0	root	X	Gloss=to be appropriate to; to concern, to suit; to happen
+3	7	ocus 2	CCONJ	conjunction	_	4	cc	X	Gloss=coordinating: and, since
+4	du·aisilbter	do·aisilbi	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	conj	X	Gloss=to present, to put forward, to set forth, to assign, to ascribe
 5-6	dopersain	_	_	_	_	_	_	_	_
 5	do	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
-6	persain	persan	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
-7	duaid	dúaid	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=David
+6	persain	persan	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
+7	duaid	dúaid	PROPN	proper_noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=David
 
 # sent_id = S0006-21
 # text = .i. huare rombu imaircide dopersin moysi· insalmso· isairilbed do ciasu iartain rocet.,
@@ -6186,7 +6186,7 @@
 3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
 4	ascadib	ascae	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=rival
 5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
-6	ab	ab (Lat)	ADP	preposition	Case=Unk	6	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
+6	ab	ab (Lat)	ADP	preposition	Case=Unk	7	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
 7	inimicis	inimīcus	NOUN	noun	_	4	conj	X	Gloss=enemy, foe
 
 # sent_id = S0006-53
@@ -6372,15 +6372,15 @@
 # sent_id = S0006-68
 # text = .i. iarnardbiu inna banflathasin
 # text_en = i.e. after the destruction of that queen.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	iarnardbiu	_	_	_	_	_	_	_	_
 2	iar	íar 1	ADP	preposition	Case=Dat	3	case	X	Gloss=after, behind, across, along, beyond, according to
-3	nardbiu	airdbe	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of cutting, slaying, smiting
+3	nardbiu	airdbe	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of cutting, slaying, smiting
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
 5-7	banflathasin	_	_	_	_	_	_	_	_
-5	ban	ben 1	NOUN	noun	_	_	_	X	Gloss=woman, female, wife
-6	flatha	flaith 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=a ruler, prince, chief, lord, lordship, sovereignty
-7	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
+5	ban	ben 1	NOUN	noun	_	3	obj	X	Gloss=woman, female, wife
+6	flatha	flaith 1	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=a ruler, prince, chief, lord, lordship, sovereignty
+7	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	5	det	X	Gloss=that, those
 
 # sent_id = S0006-69
 # text = .i. róoirdned
@@ -8618,14 +8618,14 @@
 # sent_id = S0006-274
 # text = .i. már ní són .i. diamru
 # text_en = i.e. greatly, i.e. of wonder.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	már	mór	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=great, big, ample, tall, large
-3	ní	ní 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=a thing
-4	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	már	mór	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=great, big, ample, tall, large
+3	ní	ní 2	NOUN	noun	Case=Dat|Number=Sing	2	nsubj	X	Gloss=a thing
+4	són	-són	PRON	particle_anaphoric	_	2	discourse	X	Gloss=that (mentioned above) that is
+5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 6-7	diamru	_	_	_	_	_	_	_	_
-6	di	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-7	amru	amrae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=wonderful, marvellous, extraordinary
+6	di	di	ADP	preposition	Case=Dat	7	case	X	Gloss=away, from, cause or reason, by
+7	amru	amrae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	2	conj	X	Gloss=wonderful, marvellous, extraordinary
 
 # sent_id = S0006-275
 # text = .i. didoinacht crist són
