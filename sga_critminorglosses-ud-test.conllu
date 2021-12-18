@@ -8600,13 +8600,13 @@
 # sent_id = S0006-272
 # text = .i. doinachtæ crist araroét indeacht
 # text_en = i.e. of the Manhood of Christ which the Godhead has assumed.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	doinachtæ	doínacht	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=humanity (vs. deity), humanness, Manhood
-3	crist	Críst	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=the Anointed, Jesus Christ
-4	ara·roét	ar·foím	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	_	_	X	Gloss=to accept, to receive, to assume, to take, to agree to, to consent; to submit to; to permit, allow
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	doinachtæ	doínacht	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=humanity (vs. deity), humanness, Manhood
+3	crist	Críst	PROPN	proper_noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=the Anointed, Jesus Christ
+4	ara·roét	ar·foím	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	2	acl:relcl	X	Gloss=to accept, to receive, to assume, to take, to agree to, to consent; to submit to; to permit, allow
 5-6	indeacht	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=divinity, godhead
+6	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=divinity, godhead
 
 # sent_id = S0006-273
 # text = .i. asindedar són
@@ -9025,13 +9025,13 @@
 # sent_id = S0006-308
 # text = .i. crete doneuch asberat som
 # text_en = i.e. who believe anything that they say.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	crete	creitid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to believe, to trust
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	crete	creitid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to believe, to trust
 3-4	doneuch	_	_	_	_	_	_	_	_
-3	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-4	neuch	ní 1	PRON	pronoun_quantifier	Case=Dat|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
-5	as·berat	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
-6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+3	do	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
+4	neuch	ní 1	PRON	pronoun_quantifier	Case=Dat|Number=Sing	2	obl	X	Gloss=something; nothing, anything ; not
+5	as·berat	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	4	csubj:cleft	X	Gloss=to say, to speak, to call , mention
+6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-309
 # text = nadfrithtaigat friusom
@@ -9119,13 +9119,13 @@
 # sent_id = S0006-312
 # text = .i. airndib tosach super sión
 # text_en = i.e. so that super Sion may be the beginning (of a clause).
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	airndib	_	_	_	_	_	_	_	_
-2	air	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-3	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	tosach	tosach	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=beginning, precedence
-5	super	super	ADP	preposition	Case=Unk	_	case	X	Gloss=above, over, on, upon, beyond, in addition to
-6	sión	Sïón	PROPN	proper_noun	_	_	_	X	Gloss=Zion
+2	air	ara	SCONJ	complementiser	_	4	mark:prt	X	Gloss=in order that, so that
+3	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	tosach	tosach	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=beginning, precedence
+5	super	super	ADP	preposition	Case=Unk	6	case	X	Gloss=above, over, on, upon, beyond, in addition to
+6	sión	Sïón	PROPN	proper_noun	_	4	obl	X	Gloss=Zion
 
 # sent_id = S0006-313
 # text = innafertae
