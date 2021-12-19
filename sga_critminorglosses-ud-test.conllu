@@ -12314,14 +12314,14 @@
 # sent_id = S0006-613
 # text = .i. pones .i. ciofut suidigfe
 # text_en = i.e. how long will You (sg) place?
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	pones	pōnō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to put, to place
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	pones	pōnō	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=to put, to place
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 4-6	ciofut	_	_	_	_	_	_	_	_
-4	ci'	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
+4	ci'	cía 1	X	pronoun_interrogative	_	2	conj	X	Gloss=who, what, which
 5	o	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
-6	fut	fot	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=length
-7	suidigfe	suidigidir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to place, to set up
+6	fut	fot	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=length
+7	suidigfe	suidigidir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	csubj:cleft	X	Gloss=to place, to set up
 
 # sent_id = S0006-614
 # text = .i. inforcennson
@@ -12378,11 +12378,11 @@
 # text_en = by the distribution, or by the giving.
 1	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	fodail	fodal	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=distributing, dividing, distinction, part, share, portion, class, category
-4	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+3	fodail	fodal	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=distributing, dividing, distinction, part, share, portion, class, category
+4	ɫ	nó 1	CCONJ	conjunction	_	7	cc	X	Gloss=disjunctive: or
 5	ho	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
 6	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	tindnacul	tindnacol	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of bestowing, handing over; gift
+7	tindnacul	tindnacol	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of bestowing, handing over; gift
 
 # sent_id = S0006-620
 # text = .i. retecht dochum bersabae
@@ -12776,14 +12776,14 @@
 # sent_id = S0006-654
 # text = .i. nírelic dia doib orcuin duaid
 # text_en = i.e. God did not let them slay David.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	nírelic	_	_	_	_	_	_	_	_
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·relic	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to leave (behind), to allow to remain; to let go, to release
-4	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
-5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-6	orcuin	orgun	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of slaying, murdering
-7	duaid	dúaid	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=David
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·relic	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to leave (behind), to allow to remain; to let go, to release
+4	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=god, deity, God
+5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	6	case	X	Gloss=to, for, by etc.
+6	orcuin	orgun	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of slaying, murdering
+7	duaid	dúaid	PROPN	proper_noun	Case=Gen|Number=Sing	6	obj	X	Gloss=David
 
 # sent_id = S0006-655
 # text = issí didiu introcaire .i. nacharomarbsom dia indigail neich dorigensat friduid issí indochraide huare nadrucsat diriug orcuin duid iarnaerbertad
