@@ -14126,14 +14126,14 @@
 # sent_id = S0006-776
 # text = .i. atcoisged amal bid hifrecndairc nobeth
 # text_en = i.e. he used to point him out as though it were present that he was.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	at·coisged	in·coisig	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB	_	_	X	Gloss=to signify, to indicate, to point out, to express
-3	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-4	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	at·coisged	in·coisig	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB	0	root	X	Gloss=to signify, to indicate, to point out, to express
+3	amal	amail 2	SCONJ	conjunction	_	6	mark	X	Gloss=as, like; translating Latin ut
+4	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
 5-6	hifrecndairc	_	_	_	_	_	_	_	_
-5	hi	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-6	frecndairc	frecndairc	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=gramm. present (tense)
-7	no·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+5	hi	i	ADP	preposition	Case=Acc	6	case	X	Gloss=in, into
+6	frecndairc	frecndairc	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	2	advcl	X	Gloss=gramm. present (tense)
+7	no·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	6	csubj:cleft	X	Gloss=to be, to exist,
 
 # sent_id = S0006-777
 # text = .i. atchomaing friagitofel
@@ -14903,15 +14903,15 @@
 # sent_id = S0006-836
 # text = .i. nochis hognimaib ón dano
 # text_en = i.e. that is, in deeds, moreover.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	nochis	_	_	_	_	_	_	_	_
-2	noch	noch 1	X	conjunction	_	_	_	X	Gloss=introduces a synonym or explanation: that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	noch	noch 1	X	conjunction	_	5	mark	X	Gloss=introduces a synonym or explanation: that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-5	hognimaib	_	_	_	_	_	_	_	_
 4	ho	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
-5	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-6	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
-7	dano	danó	ADV	particle_discourse	_	_	_	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
+5	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+6	ón	-ón	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (aforementioned)
+7	dano	danó	ADV	particle_discourse	_	5	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
 
 # sent_id = S0006-837
 # text = dondí inolaid·
@@ -15184,14 +15184,14 @@
 # sent_id = S0006-863
 # text = .i. is honair dorat deacht dodoinacht
 # text_en = i.e. it is honor that the divinity gave to the humanity.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	honair	onóir	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=honor, respect, reverence
-4	do·rat	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-5	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=divinity, godhead
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	honair	onóir	NOUN	noun	Case=Nom|Number=Sing	0	root	4:obj|0:root	Gloss=honor, respect, reverence
+4	do·rat	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+5	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=divinity, godhead
 6-7	dodoinacht	_	_	_	_	_	_	_	_
 6	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	doinacht	doínacht	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=humanity (vs. deity), humanness, Manhood
+7	doinacht	doínacht	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=humanity (vs. deity), humanness, Manhood
 
 # sent_id = S0006-864
 # text = cochutrummaigidir
