@@ -13037,15 +13037,15 @@
 # sent_id = S0006-673
 # text = .i. amal bid doíc agalair
 # text_en = i.e. as though it would be to heal his sickness.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
+3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-5	doíc	_	_	_	_	_	_	_	_
 4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
-5	íc	ícc	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of healing, saving, curing, paying for, enduring; salvation, cure, redress, satisfaction, solution, answer (to a question or problem), requital, atonement, revenge, salvation
+5	íc	ícc	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of healing, saving, curing, paying for, enduring; salvation, cure, redress, satisfaction, solution, answer (to a question or problem), requital, atonement, revenge, salvation
 6-7	agalair	_	_	_	_	_	_	_	_
-6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	7	_	X	Gloss=his, its
-7	galair	galar	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=sickness, disease, physical pain, mental suffering, distress, grief, damage
+6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=his, its
+7	galair	galar	NOUN	noun	Case=Gen|Number=Sing	5	obj	X	Gloss=sickness, disease, physical pain, mental suffering, distress, grief, damage
 
 # sent_id = S0006-674
 # text = trop inso
@@ -13250,15 +13250,15 @@
 # sent_id = S0006-692
 # text = .i. madudrignius ní donaib remeperthib
 # text_en = i.e. if I have done any of the aforementioned things.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	madudrignius	_	_	_	_	_	_	_	_
-2	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-3	dud·rignius	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf	_	_	X	Gloss=to do, to make
-4	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
+2	ma	ma	SCONJ	conjunction	_	3	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+3	dud·rignius	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf	0	root	X	Gloss=to do, to make
+4	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	3	obj	X	Gloss=something; nothing, anything ; not
 5-6	donaib	_	_	_	_	_	_	_	_
-5	do	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-6	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-7	remeperthib	remeperthae	ADJ	verbal_participle	Case=Dat|Number=Plur|Gender=Neut	_	_	X	Gloss=aforesaid, above-mentioned
+5	do	di	ADP	preposition	Case=Dat	7	case	X	Gloss=away, from, cause or reason, by
+6	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
+7	remeperthib	remeperthae	ADJ	verbal_participle	Case=Dat|Number=Plur|Gender=Neut	4	obl	X	Gloss=aforesaid, above-mentioned
 
 # sent_id = S0006-693
 # text = .i. nosilaiger
@@ -13913,14 +13913,14 @@
 # sent_id = S0006-755
 # text = .i. lasinmes firbrithemnachtae· dǽ·
 # text_en = i.e. with the decision of the just judgment of God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	lasinmes	_	_	_	_	_	_	_	_
 2	la	la	ADP	preposition	Case=Acc	4	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 3	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	mes	mes 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
-5	fir	fír	ADJ	adjective	Degree=Pos	_	_	X	Gloss=true, veracious, real
-6	brithemnachtæ	brithemnacht	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=judging, judgment, adjudication
-7	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+4	mes	mes 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
+5	fir	fír	ADJ	adjective	Degree=Pos	6	amod	X	Gloss=true, veracious, real
+6	brithemnachtæ	brithemnacht	NOUN	noun	Case=Gen|Number=Sing	4	obj	X	Gloss=judging, judgment, adjudication
+7	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=god, deity, God
 8	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-756
