@@ -11703,15 +11703,15 @@
 # sent_id = S0006-564
 # text = .i. combad chomaicsiu side dodia
 # text_en = i.e. that he was nearer to God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	combad	_	_	_	_	_	_	_	_
-2	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	mbad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-4	chomaicsiu	comocus	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=near, proximate, neighboring, equidistant; subst. relationship
-5	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
+2	co	co 4	SCONJ	complementiser	_	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	mbad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
+4	chomaicsiu	comocus	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=near, proximate, neighboring, equidistant; subst. relationship
+5	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	4	nsubj	X	Gloss=that one, he, she, it, they
 6-7	dodia	_	_	_	_	_	_	_	_
 6	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=god, deity, God
+7	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=god, deity, God
 
 # sent_id = S0006-565
 # text = cosecarthi
@@ -11847,15 +11847,15 @@
 # sent_id = S0006-576
 # text = .i. ac duguidiusiu adǽ
 # text_en = praying to You (sg), O God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2	ac	oc	ADP	preposition	Case=Dat	4	case	X	Gloss=at, by, besides, with (person)
 3-5	duguidiusiu	_	_	_	_	_	_	_	_
-3	du	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	4	_	X	Gloss=your (sg.)
-4	guidiu	guide	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Typo=Yes	_	_	X	Gloss=the act of praying; prayer|CorrectForm=guidi
-5	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+3	du	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	4	nmod:poss	X	Gloss=your (sg.)
+4	guidiu	guide	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Typo=Yes	0	root	X	Gloss=the act of praying; prayer|CorrectForm=guidi
+5	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	4	obl	X	Gloss=emphasising particle
 6-7	adǽ	_	_	_	_	_	_	_	_
-6	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-7	dǽ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+6	a	a 1	PART	particle_vocative	_	7	case:voc	X	Gloss=O! ; oh
+7	dǽ	día 2	NOUN	noun	Number=Sing	4	vocative	X	Gloss=god, deity, God
 
 # sent_id = S0006-577
 # text = cenfodrúbu
@@ -12138,15 +12138,15 @@
 # sent_id = S0006-601
 # text = .i. ɔroib mesar forsindigail
 # text_en = i.e. so that there may be measure on the punishment.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	ɔroib	_	_	_	_	_	_	_	_
-2	ɔ·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	·roib	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to be, to exist,
-4	mesar	mesar	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=measure, measurement, limit
+2	ɔ·	co 4	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	·roib	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to be, to exist,
+4	mesar	mesar	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=measure, measurement, limit
 5-7	forsindigail	_	_	_	_	_	_	_	_
 5	for	for	ADP	preposition	Case=Acc	7	case	X	Gloss=upon, over, on
 6	sin	in 1	DET	definite_article	Case=Dat|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	digail	dígal	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
+7	digail	dígal	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	3	xcomp:pred	X	Gloss=the act of avenging, punishing, vengeance
 
 # sent_id = S0006-602
 # text = .i. ferc 7 digal nephmesraigthe india·
