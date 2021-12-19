@@ -10763,13 +10763,13 @@
 # text_en = of much weight, i.e. of the heavy weight.
 1-2	intomais	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	tomais	tomus	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of weighing, measuring, considering; quantity, amount
-3	il	il 1	ADJ	adjective	Case=Gen|Number=Sing|Degree=Pos	_	_	X	Gloss=many, abundant, manifold, numerous
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	tomais	tomus	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of weighing, measuring, considering; quantity, amount
+3	il	il 1	ADJ	adjective	Case=Gen|Number=Sing|Degree=Pos	2	amod	X	Gloss=many, abundant, manifold, numerous
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	intoimseo	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	toimseo	tomus	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of weighing, measuring, considering; quantity, amount
-7	truim	tromm 3	ADJ	adjective	Case=Gen|Number=Sing|Degree=Pos	_	_	X	Gloss=heavy, grave, serious, great, mighty, severe
+6	toimseo	tomus	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of weighing, measuring, considering; quantity, amount
+7	truim	tromm 3	ADJ	adjective	Case=Gen|Number=Sing|Degree=Pos	6	amod	X	Gloss=heavy, grave, serious, great, mighty, severe
 
 # sent_id = S0006-484
 # text = astide
@@ -10779,14 +10779,14 @@
 # sent_id = S0006-485
 # text = rechti .i. rorecht homethi 7 inmairi
 # text_en = distended, i.e. it has been distended by fat and obesity.
-1	rechti	rechtae	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Neut	_	_	X	Gloss=stretched out
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	ro·recht	rigid 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to stretch, to direct, to rule
+1	rechti	rechtae	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Neut	0	root	X	Gloss=stretched out
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	ro·recht	rigid 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	1	conj	X	Gloss=to stretch, to direct, to rule
 4-5	homethi	_	_	_	_	_	_	_	_
 4	ho	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
-5	methi	méithe	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=fatness, obesity
-6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-7	inmairi	inmaire	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=fatness, obesity
+5	methi	méithe	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=fatness, obesity
+6	7	ocus 2	CCONJ	conjunction	_	7	cc	X	Gloss=coordinating: and, since
+7	inmairi	inmaire	NOUN	noun	Case=Dat|Number=Sing	5	conj	X	Gloss=fatness, obesity
 
 # sent_id = S0006-486
 # text = .i. lónaichthi .i. meíth··
@@ -10800,14 +10800,14 @@
 # sent_id = S0006-487
 # text = .i. impessi .i. homethi 7 inmairi·
 # text_en = i.e. surrounded, that is, by fat and obesity.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	impessi	impeise	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=surrounded, beset, besieged
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	impessi	impeise	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Masc	0	root	X	Gloss=surrounded, beset, besieged
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	homethi	_	_	_	_	_	_	_	_
 4	ho	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
-5	methi	méithe	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=fatness, obesity
-6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-7	inmairi	inmaire	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=fatness, obesity
+5	methi	méithe	NOUN	noun	Case=Dat|Number=Sing	2	conj	X	Gloss=fatness, obesity
+6	7	ocus 2	CCONJ	conjunction	_	7	cc	X	Gloss=coordinating: and, since
+7	inmairi	inmaire	NOUN	noun	Case=Dat|Number=Sing	5	conj	X	Gloss=fatness, obesity
 8	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-488
