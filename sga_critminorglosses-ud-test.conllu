@@ -14768,15 +14768,15 @@
 # sent_id = S0006-821
 # text = .i. ní nad dír dotrachtad int sailm
 # text_en = i.e. (it is) something that is not pertinent for a commentary on the psalm.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
-3	nad	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-4	dír	dír	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=belonging to, pertaining to; proper, suitable
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	0	root	4:nsubj|0:root	Gloss=something; nothing, anything ; not
+3	nad	nád 1	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=that...not
+4	dír	dír	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	2	acl:relcl	X	Gloss=belonging to, pertaining to; proper, suitable
 5-6	dotrachtad	_	_	_	_	_	_	_	_
-5	do	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
-6	trachtad	tráchtad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of discussing; commentary, interpretation
+5	do	do 1	ADP	preposition	Case=Dat	6	mark:prt	X	Gloss=to, for, by etc.
+6	trachtad	tráchtad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	advcl	X	Gloss=the act of discussing; commentary, interpretation
 7	int	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	sailm	salm	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=psalm
+8	sailm	salm	NOUN	noun	Case=Gen|Number=Sing	6	obj	X	Gloss=psalm
 
 # sent_id = S0006-822
 # text = .i. dotrachtad insailm
@@ -15684,15 +15684,15 @@
 # sent_id = S0006-904
 # text = .i. hítall .i. innaimsir innafetarlaice
 # text_en = i.e. then, i.e. in the time of the Old Testament.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	hítall	_	_	_	_	_	_	_	_
-2	hí	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-3	tall	tall	ADV	adverb	_	_	_	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	hí	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	0	root	X	Gloss=substantivizing particle
+3	tall	tall	ADV	adverb	_	2	advmod	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5	i	i	ADP	preposition	Case=Acc	6	case	X	Gloss=in, into
-6	naimsir	aimser	NOUN	noun	Case=Dat	_	_	X	Gloss=point or period of time, hour, tense
+6	naimsir	aimser	NOUN	noun	Case=Dat	2	conj	X	Gloss=point or period of time, hour, tense
 7	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	fetarlaice	fetarlaic	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Old Testament
+8	fetarlaice	fetarlaic	PROPN	proper_noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=Old Testament
 
 # sent_id = S0006-905
 # text = .i. amal rombói ingnae cáich issamlid rosnainmgestar som
@@ -15770,15 +15770,15 @@
 # sent_id = S0006-911
 # text = moab 7 ammon damacc loth maicc arán
 # text_en = Moab and Ammon [are] two sons of Lot the son of Haran.
-1	moab	Moab	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Moab
-2	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-3	ammon	ammon	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Ammon
+1	moab	Moab	PROPN	proper_noun	Case=Nom|Number=Sing	0	root	X	Gloss=Moab
+2	7	ocus 2	CCONJ	conjunction	_	3	cc	X	Gloss=coordinating: and, since
+3	ammon	ammon	PROPN	proper_noun	Case=Nom|Number=Sing	1	conj	X	Gloss=Ammon
 4-5	damacc	_	_	_	_	_	_	_	_
 4	da	da	NUM	adjective_numeral	Case=Nom|Gender=Masc	5	nummod	X	Gloss=two
-5	macc	macc 1	NOUN	noun	Case=Nom	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-6	loth	loth 2	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Lot
-7	maicc	macc 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-8	arán	aran	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Haran
+5	macc	macc 1	NOUN	noun	Case=Nom	1	nsubj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+6	loth	loth 2	PROPN	proper_noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=Lot
+7	maicc	macc 1	NOUN	noun	Case=Gen|Number=Sing	6	appos	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+8	arán	aran	PROPN	proper_noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=Haran
 
 # sent_id = S0006-912
 # text = iadumdu .i. cland essau
