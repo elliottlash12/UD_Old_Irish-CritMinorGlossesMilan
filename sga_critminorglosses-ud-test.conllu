@@ -7198,17 +7198,17 @@
 # sent_id = S0006-133
 # text = .i. iscoitchen docechtar de ainm· alaili·
 # text_en = i.e. common to each of them is the name of the other.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	iscoitchen	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	coitchen	coitchenn	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=common, general, usual, ordinary
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	coitchen	coitchenn	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=common, general, usual, ordinary
 4-5	docechtar	_	_	_	_	_	_	_	_
-4	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-5	cechtar	cechtar	PRON	pronoun_quantifier	Case=Dat|Number=Sing	_	_	X	Gloss=each of two, either
-6	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
-7	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=name, noun (gramm)
+4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
+5	cechtar	cechtar	PRON	pronoun_quantifier	Case=Dat|Number=Sing	3	obl	X	Gloss=each of two, either
+6	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=away, from, cause or reason, by
+7	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=name, noun (gramm)
 8	·	·	PUNCT	punctuation	_	_	_	_	_
-9	alaili	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=other, the other
+9	alaili	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	7	amod	X	Gloss=other, the other
 10	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-134
@@ -7625,10 +7625,10 @@
 # text_en = i.e. from where beatus uir is until non sic impí.
 1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2	hothá	óthá	ADP	preposition	Case=Dat	4	case	X	Gloss=from where is
-3	beatus	beātus	ADJ	adjective	Degree=Pos	3	amod	X	Gloss=happy, fortunate, blessed
+3	beatus	beātus	ADJ	adjective	Degree=Pos	4	amod	X	Gloss=happy, fortunate, blessed
 4	uir	uir	NOUN	noun	_	0	root	X	Gloss=man, person
-5	usque	ūsque	ADV	adverb	_	_	_	X	Gloss=until, upto, up
-6	non	nōn	X	particle_negative	_	_	_	X	Gloss=not
+5	usque	ūsque	ADV	adverb	_	7	advmod	X	Gloss=until, upto, up
+6	non	nōn	X	particle_negative	_	7	advmod:neg	X	Gloss=not
 7	sic	sīc	ADV	adverb	_	_	_	X	Gloss=thus, so, like that
 8	impí	impius	ADJ	adjective	Degree=Pos	_	_	X	Gloss=_
 9	·	·	PUNCT	punctuation	_	_	_	_	_
@@ -8010,7 +8010,7 @@
 3	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	0	root	6:nsubj|0:root	Gloss=substantivizing particle
 4-6	nodberat	_	_	_	_	_	_	_	_
 4	no	no·	SCONJ	particle_preverb	_	6	mark:prt	X	Gloss=empty particle
-5	d·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	inf:obj	X	Gloss=it
+5	d·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	6	inf:obj	X	Gloss=it
 6	·berat	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	3	acl:relcl	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
 7-8	duduaid·	_	_	_	_	_	_	_	_
 7	du	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
