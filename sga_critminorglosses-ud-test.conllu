@@ -8025,7 +8025,7 @@
 2	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	0	root	6:nsubj|0:root	Gloss=substantivizing particle
 4	no	no·	SCONJ	particle_preverb	_	6	mark:prt	X	Gloss=empty particle
-5	d·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	inf:obj	X	Gloss=it
+5	d·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	6	inf:obj	X	Gloss=it
 6	·berat	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	3	acl:relcl	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
 7	do	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
 8	sorbabel	Sorbabel	PROPN	proper_noun	Case=Dat|Number=Sing	6	obl	X	Gloss=Zorobabel
@@ -8718,15 +8718,15 @@
 # sent_id = S0006-284
 # text = nuaidi .i. ní nuae ṅdo anatrabsin
 # text_en = newish, i.e. that possession is not new to Him.
-1	nuaidi	nuaide	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=newish, rather new, novel
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	nuae	nuae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=new, recent, fresh
-5	ṅdo	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
+1	nuaidi	nuaide	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=newish, rather new, novel
+2	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+3	ní	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+4	nuae	nuae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	1	conj	X	Gloss=new, recent, fresh
+5	ṅdo	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	4	obl:prep	X	Gloss=to, for, by etc.
 6-8	anatrabsin	_	_	_	_	_	_	_	_
 6	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	natrab	atrab	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of inhabiting, living (in), dwelling, occupying; habitation, house, possession, locative case
-8	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
+7	natrab	atrab	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	nsubj	X	Gloss=the act of inhabiting, living (in), dwelling, occupying; habitation, house, possession, locative case
+8	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	7	det	X	Gloss=that, those
 
 # sent_id = S0006-285
 # text = nephimmaircide .i. ba nephimmaircide nad techtadsom dliged coimdemnachtae isnaib dulib doforsat 7 immanaccai
@@ -9251,15 +9251,15 @@
 # sent_id = S0006-325
 # text = .i. cenmitha laithe innafetarlaice .i. laithe nuaidnisi
 # text_en = i.e. besides the day of the Old Testament, i.e. the day of the New Testament.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	cenmitha	cenmothá 1	ADP	preposition	Case=Acc	_	case	X	Gloss=apart from, besides, in addition to
-3	laithe	laithe	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=day
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	cenmitha	cenmothá 1	ADP	preposition	Case=Acc	3	case	X	Gloss=apart from, besides, in addition to
+3	laithe	laithe	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=day
 4-5	innafetarlaice	_	_	_	_	_	_	_	_
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	fetarlaice	fetarlaic	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Old Testament
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-7	laithe	laithe	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=day
-8	nuaidnisi	núḟiadnaise	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	_	_	X	Gloss=New Testament|CorrectForm=nuadnisi
+5	fetarlaice	fetarlaic	PROPN	proper_noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=Old Testament
+6	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
+7	laithe	laithe	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=day
+8	nuaidnisi	núḟiadnaise	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	7	nmod	X	Gloss=New Testament|CorrectForm=nuadnisi
 
 # sent_id = S0006-326
 # text = .i. inpresenti .i. agein iarndoinacht
