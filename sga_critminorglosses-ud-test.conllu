@@ -10220,17 +10220,17 @@
 # sent_id = S0006-428
 # text = .i. nephfrithortai inneuch .i. hoduaid·
 # text_en = i.e. uninjured in anything, i.e. by David
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	nephfrithortai	_	_	_	_	_	_	_	_
-2	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
-3	frithortai	frithortae	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=injured, hurt
+2	neph	neb-	X	particle_prefix	_	3	advmod:neg	X	Gloss=negative prefix ; non-, un-
+3	frithortai	frithortae	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Masc	0	root	X	Gloss=injured, hurt
 4-5	inneuch	_	_	_	_	_	_	_	_
-4	i	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-5	nneuch	ní 1	PRON	pronoun_quantifier	Case=Dat|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+4	i	i	ADP	preposition	Case=Dat	5	case	X	Gloss=in, into
+5	nneuch	ní 1	PRON	pronoun_quantifier	Case=Dat|Number=Sing	3	obl	X	Gloss=something; nothing, anything ; not
+6	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 7-8	hoduaid·	_	_	_	_	_	_	_	_
 7	ho	ó 1	ADP	preposition	Case=Dat	8	case	X	Gloss=from, out of, by
-8	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=David
+8	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	3	conj	X	Gloss=David
 9	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-429
@@ -10868,15 +10868,15 @@
 # sent_id = S0006-492
 # text = .i. ní hodegnimson fadesin
 # text_en = i.e. that is not from his own good work.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
+1	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+2	ní	ní 3	PART	particle_negative_main	_	6	advmod:neg	X	Gloss=not
 3-7	hodegnimson	_	_	_	_	_	_	_	_
 3	ho	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
-4	'	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-5	de	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
-6	gnim	gním	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-7	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
-8	fadesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
+4	'	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+5	de	dag-	X	particle_prefix	_	6	amod	X	Gloss=good, noble, very
+6	gnim	gním	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+7	son	-són	PRON	particle_anaphoric	_	6	nsubj	X	Gloss=that (mentioned above) that is
+8	fadesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	7	nmod	X	Gloss=self
 
 # sent_id = S0006-493
 # text = indiadsin
@@ -13549,14 +13549,14 @@
 # sent_id = S0006-721
 # text = .i. ba he angnimsom molad dǽ
 # text_en = i.e. their work was the praise of God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	_	X	Gloss=their
-5	ngnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-7	molad	molad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of praising; song of praise, panegyric
-8	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+3	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	5	nmod	X	Gloss=he, him, it
+4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	nmod:poss	X	Gloss=their
+5	ngnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
+7	molad	molad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	5	xcomp	X	Gloss=the act of praising; song of praise, panegyric
+8	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	7	obj	X	Gloss=god, deity, God
 
 # sent_id = S0006-722
 # text = .i. bind
