@@ -16086,14 +16086,14 @@
 # text = sechis dondfírbrithemainsón
 # text_en = that it, to the true judge.
 1-2	sechis	_	_	_	_	_	_	_	_
-1	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	sech	sech 2	X	conjunction	_	6	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
 3-7	dondfírbrithemainsón	_	_	_	_	_	_	_	_
 3	do	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
 4	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-5	fír	fír	ADJ	adjective	Degree=Pos	_	_	X	Gloss=true, veracious, real
-6	brithemain	brithem	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=judge
-7	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+5	fír	fír	ADJ	adjective	Degree=Pos	6	amod	X	Gloss=true, veracious, real
+6	brithemain	brithem	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=judge
+7	són	-són	PRON	particle_anaphoric	_	6	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-935
 # text = .i. immes fira són
@@ -16299,14 +16299,14 @@
 # text = isnaib emechaib ɫ. honaib fortrommaib
 # text_en = in the opportunities, or from the oppressions.
 1-2	isnaib	_	_	_	_	_	_	_	_
-1	i	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-2	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	emechaib	éimech	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=opportune, convenient
-4	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+1	i	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
+2	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	emechaib	éimech	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	0	root	X	Gloss=opportune, convenient
+4	ɫ	nó 1	CCONJ	conjunction	_	7	cc	X	Gloss=disjunctive: or
 5-6	honaib	_	_	_	_	_	_	_	_
 5	ho	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
 6	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	fortrommaib	fortrommae	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=oppressive weight; oppression
+7	fortrommaib	fortrommae	NOUN	noun	Case=Dat|Number=Plur	3	conj	X	Gloss=oppressive weight; oppression
 
 # sent_id = S0006-959
 # text = timmartaib
