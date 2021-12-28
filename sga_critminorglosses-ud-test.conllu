@@ -6714,11 +6714,11 @@
 # sent_id = S0006-97
 # text = .i. isairi doralad arthuus insalmso·  quia isdobestaid infét
 # text_en = i.e. therefore was this psalm put first: because it speaks of morality.
-1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	isairi	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-3	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	obl:prep	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-4	do·ralad	do·cuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to put, to cast, to produce, to happens, to invites, to summons
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	0	root	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+4	do·ralad	do·cuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	3	csubj:cleft	X	Gloss=to put, to cast, to produce, to happens, to invites, to summons
 5-6	arthuus	_	_	_	_	_	_	_	_
 5	ar	ar 1	ADP	preposition	Case=Acc	6	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 6	thuus	tuüs	NOUN	noun	Case=Dat	4	obl	X	Gloss=beginning ; forefront, precedence
@@ -6731,7 +6731,7 @@
 12-14	isdobestaid	_	_	_	_	_	_	_	_
 12	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	14	cop	X	Gloss=to be
 13	do	di	ADP	preposition	Case=Dat	14	case	X	Gloss=away, from, cause or reason, by
-14	bestaid	béstatu	NOUN	noun	Case=Dat|Number=Sing|Typo=Yes	4	parataxis	X	Gloss=morals, morality|CorrectForm=bestataid
+14	bestaid	béstatu	NOUN	noun	Case=Dat|Number=Sing|Typo=Yes	3	dislocated	X	Gloss=morals, morality|CorrectForm=bestataid
 15	in·fét	in·fét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	14	csubj:cleft	X	Gloss=to tell, to relate, to point out, to make known
 
 # sent_id = S0006-98
@@ -10720,7 +10720,7 @@
 2-3	cid	_	_	_	_	_	_	_	_
 2	ci	cía 2	SCONJ	conjunction	_	4	mark	X	Gloss=concessive and explicative: even, although
 3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-4	trum	tromm 3	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=heavy, grave, serious, great, mighty, severe
+4	trum	tromm 3	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	12	advcl	X	Gloss=heavy, grave, serious, great, mighty, severe
 5	aicned	aicned	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=nature, inherent quality, essence
 6	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
 7	reto	rét 1	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=thing
@@ -10728,12 +10728,12 @@
 9	·tormastar	do·formaig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	advcl	X	Gloss=to add, to increase, to amplify (transitive)
 10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	11	nmod:poss	X	Gloss=his, its
 11	mét	méit	NOUN	noun	Case=Nom|Number=Sing	9	nsubj	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
-12	do·gní	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	9	ccomp	X	Gloss=to do, to make
+12	do·gní	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to do, to make
 13	trumai	trummae	NOUN	noun	Case=Acc|Number=Sing	12	obj	X	Gloss=heaviness, weight, severity, rigour; grief, sorrow
 14	ndo	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	12	obl:prep	X	Gloss=to, for, by etc.
 15	iarum	íarum	ADV	adverb	_	12	advmod	X	Gloss=thereafter, afterwards
 16	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	17	det	X	Gloss=the
-17	met	méit	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
+17	met	méit	NOUN	noun	Case=Nom|Number=Sing	12	nsubj	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
 18	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	17	det	X	Gloss=that, those
 19	..,	..,	PUNCT	punctuation	_	_	_	_	_
 
@@ -12708,7 +12708,7 @@
 8	cech	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc|PronType=Tot	9	det	X	Gloss=every, each, all, any
 9	sens	síans	NOUN	noun	Case=Nom|Number=Sing	7	nsubj	X	Gloss=sense, perception, perceptive faculty, meaning
 
-# sent_id = S0006-648
+# sent_id = S0006-648 - noch is construction
 # text = .i. asnidiset nochis forfiatson .i. ata dithrummai nafochaide insin..,
 # text_en = i.e. that they might explain, that is, that they might accomplish, i.e. it is because of the heaviness of the tribulations.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
@@ -12723,10 +12723,10 @@
 8	a·ta	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	conj	X	Gloss=to be, to exist,
 9-10	dithrummai	_	_	_	_	_	_	_	_
 9	di	di	ADP	preposition	Case=Dat	10	case	X	Gloss=away, from, cause or reason, by
-10	thrummai	trummae	NOUN	noun	Case=Dat|Number=Sing	8	obl	X	Gloss=heaviness, weight, severity, rigour; grief, sorrow
+10	thrummai	trummae	NOUN	noun	Case=Dat|Number=Sing	8	xcomp:pred	X	Gloss=heaviness, weight, severity, rigour; grief, sorrow
 11-12	nafochaide	_	_	_	_	_	_	_	_
 11	na	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	12	det	X	Gloss=the
-12	fochaide	fochaid	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	10	nmod	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+12	fochaide	fochaid	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	10	nsubj	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
 13-14	insin..,	_	_	_	_	_	_	_	_
 13	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	14	det	X	Gloss=the
 14	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	8	xcomp:pred	X	Gloss=that one, those ones, the one in there ; that, those
@@ -12879,7 +12879,7 @@
 3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 4	do·bert	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	2	conj	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 5	goiste	goiste	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=halter, noose
-6	imma	imm	ADP	preposition	Case=Acc	8	case	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
+6	imm	imm	ADP	preposition	Case=Acc	8	case	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
 7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	8	nmod:poss	X	Gloss=his, its
 8	bragait	brágae	NOUN	noun	Case=Acc|Number=Sing	4	obl	X	Gloss=neck, throat, gullet
 9	fadesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	8	nmod	X	Gloss=self
@@ -15133,13 +15133,12 @@
 9-11	asindeacht	_	_	_	_	_	_	_	_
 9	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	11	cop	X	Gloss=to be
 10	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	3	advcl	13:nsubj|3:advcl	Gloss=divinity, godhead
-12	da·	3sg.fem.inf.pron.	PRON	pronoun_infixed	PronType=Prs	13	inf:obj	X	Gloss=her
-13	fodar·aithmine	for·aithminedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other|Typo=Yes	11	acl:relcl	X	Gloss=to call to mind, to remember, to commemorate|CorrectForm=fodar·aithminedar
-14	7	ocus 2	CCONJ	conjunction	_	17	cc	X	Gloss=coordinating: and, since
-15	no	no·	SCONJ	particle_preverb	_	17	mark:prt	X	Gloss=empty particle
-16	da·	3sg.fem.inf.pron.	PRON	pronoun_infixed	PronType=Prs	17	inf:obj	X	Gloss=her
-17	·fortachtaigedar	fortachtaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	13	conj	X	Gloss=to help, to succor
+11	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	3	advcl	X	Gloss=divinity, godhead
+12	fodar·aithmine	for·aithminedar	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other|Typo=Yes	11	csubj:cleft	X	Gloss=to call to mind, to remember, to commemorate|CorrectForm=fodar·aithminedar
+13	7	ocus 2	CCONJ	conjunction	_	16	cc	X	Gloss=coordinating: and, since
+14	no	no·	SCONJ	particle_preverb	_	16	mark:prt	X	Gloss=empty particle
+15	da·	3sg.fem.inf.pron.	PRON	pronoun_infixed	PronType=Prs	16	inf:obj	X	Gloss=her
+16	·fortachtaigedar	fortachtaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	12	conj	X	Gloss=to help, to succor
 
 # sent_id = S0006-858
 # text = co mothaigid
