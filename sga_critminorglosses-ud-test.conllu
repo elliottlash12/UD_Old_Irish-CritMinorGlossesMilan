@@ -7620,7 +7620,7 @@
 2	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	0	root	3:nsubj|0:root	Gloss=substantivizing particle
 3	ɔid·narraig	con·rig	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	2	acl:relcl	X	Gloss=to bind, to tie, to constrain
 
-# sent_id = S0006-175
+# sent_id = S0006-175 - check usque non sic
 # text = .i. hothá beatus uir usque non sic impí·
 # text_en = i.e. from where beatus uir is until non sic impí.
 1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
@@ -7767,11 +7767,11 @@
 
 # sent_id = S0006-192
 # text = isánesíd
-# text_en = it is the death / in their death: essid = exitium (loanword; cf VKG i.218)
+# text_en = it is the death / in their death
 1-3	isánesíd	_	_	_	_	_	_	_	_
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
 2	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	nmod:poss	X	Gloss=their
-3	nesíd	esíd	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=unpeace, strife; dissension; hostility; destruction
+3	nesíd	esíd	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=unpeace, strife; dissension; hostility; destruction (essid = exitium (loanword; cf VKG i.218))
 
 # sent_id = S0006-193
 # text = .i. ní diltud esærgi asrubartsom
@@ -9676,7 +9676,7 @@
 4	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
 5	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=their
 6	naram	áram	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of counting, reckoning, estimating; number, numeral, quantity, amount, sum
-7	di	-side	PRON	particle_anaphoric	Case=Gen|Number=Plur|Gender=Masc	6	det	X	Gloss=that one, he, she, it, they
+7	di	-side	PRON	particle_anaphoric	Case=Gen|Number=Plur|Gender=Masc	6	nmod	X	Gloss=that one, he, she, it, they
 
 # sent_id = S0006-370
 # text = cid
@@ -10865,7 +10865,7 @@
 19	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	20	_	X	Gloss=his, its
 20	dulib	dúil 1	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=element, being, creature, thing
 
-# sent_id = S0006-492
+# sent_id = S0006-492 - figure out ' as form.
 # text = .i. ní hodegnimson fadesin
 # text_en = i.e. that is not from his own good work.
 1	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
@@ -10972,7 +10972,7 @@
 8	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
 9	irascemini	īrāscor	VERB	verb	Voice=Act|Mood=Ind	6	conj	X	Gloss=_
 10-11	fercaigthesi	_	_	_	_	_	_	_	_
-10	fercaigthe	fergaigidir	VERB	verb	Person[Subj]=2|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	dislocated	X	Gloss=to be angry
+10	fercaigthe	fergaigidir	VERB	verb	Person[Subj]=2|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	parataxis	X	Gloss=to be angry
 11	si	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Fem|PronType=Prs	10	nsubj	X	Gloss=emphasising particle
 12	acht	acht 1	CCONJ	conjunction	_	15	cc	X	Gloss=except, but, provided that, save that
 13	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	15	cop	X	Gloss=to be
