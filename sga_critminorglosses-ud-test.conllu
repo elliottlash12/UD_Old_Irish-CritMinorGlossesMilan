@@ -16788,17 +16788,6 @@
 4	dedi	déide	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=double, consisting of two things, pair
 5	remeperthi	remeperthae	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Neut	_	_	X	Gloss=aforesaid, above-mentioned
 
-# sent_id = S0006-1000
-# text = fobith indedi remeperthi
-# text_en = because of the two above-mentioned things.
-1-2	fobith	_	_	_	_	_	_	_	_
-1	fo	fo	ADP	preposition	Case=Acc	2	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-2	bith	bíth	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	_	_	X	Gloss=the act of striking, wounding, hacking; as causal conjunction: because ; lasting, permanent, perpetual, constant
-3-4	indedi	_	_	_	_	_	_	_	_
-3	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	dedi	déide	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=double, consisting of two things, pair
-5	remeperthi	remeperthae	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Neut	_	_	X	Gloss=aforesaid, above-mentioned
-
 # sent_id = S0006-1001
 # text = .i. airnaib mignimaib
 # text_en = i.e. for the evil deeds.
@@ -17391,14 +17380,14 @@
 # sent_id = S0006-1063
 # text = .i. conepred inninsciso
 # text_en = i.e. that he should utter this speech.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	conepred	_	_	_	_	_	_	_	_
-2	co·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	·nepred	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
+2	co·	co 4	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	·nepred	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to say, to speak, to call , mention
 4-6	inninsciso	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	ninsci	insce	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=saying, speech, statement, word
-6	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+5	ninsci	insce	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=saying, speech, statement, word
+6	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	5	det	X	Gloss=this, these
 
 # sent_id = S0006-1064
 # text = anas ndermatach
@@ -17459,13 +17448,13 @@
 # sent_id = S0006-1072
 # text = ailidi .i. echtranna donaib bochtaib
 # text_en = other i.e. alien to the poor.
-1	ailidi	ailide	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=other, second
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	echtranna	echtrann	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=strange, foreign
+1	ailidi	ailide	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut|Degree=Pos	0	root	X	Gloss=other, second
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	echtranna	echtrann	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut|Degree=Pos	1	conj	X	Gloss=strange, foreign
 4-5	donaib	_	_	_	_	_	_	_	_
-4	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-5	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-6	bochtaib	bocht	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=poor
+4	do	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
+5	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
+6	bochtaib	bocht	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	3	obl	X	Gloss=poor
 
 # sent_id = S0006-1073
 # text = .i. olsodin
@@ -17503,12 +17492,12 @@
 # sent_id = S0006-1077
 # text = is tri intleda 7 breíc dagniat·
 # text_en = it is through snares and deceit that they do it.
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
 2	tri	tre	ADP	preposition	Case=Acc	3	case	X	Gloss=through (time or space), by means of, be reason of
-3	intleda	intled	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of lying in wait, ambushing; snare, ambush
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-5	breíc	bréc	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=falsehood, lie, deception
-6	da·gniat	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	_	_	X	Gloss=to do, to make
+3	intleda	intled	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of lying in wait, ambushing; snare, ambush
+4	7	ocus 2	CCONJ	conjunction	_	5	cc	X	Gloss=coordinating: and, since
+5	breíc	bréc	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=falsehood, lie, deception
+6	da·gniat	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	5	csubj:cleft	X	Gloss=to do, to make
 7	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1078
