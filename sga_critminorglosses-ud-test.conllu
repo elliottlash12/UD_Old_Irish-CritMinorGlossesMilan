@@ -22803,12 +22803,12 @@
 # sent_id = S0006-1579
 # text = asrubartmar ɫ. is he[d] so sís
 # text_en = which we have mentioned, or, it is this below.
-1	as·rubartmar	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
-2	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	hed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
-5	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
-6	sís	sís	ADV	adverb	_	_	_	X	Gloss=down, downwards, below, onwards, throughout
+1	as·rubartmar	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	0	root	X	Gloss=to say, to speak, to call , mention
+2	ɫ	nó 1	CCONJ	conjunction	_	5	cc	X	Gloss=disjunctive: or
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+4	hed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	5	nmod	X	Gloss=it
+5	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	1	conj	X	Gloss=this one, these ones ; this, these
+6	sís	sís	ADV	adverb	_	5	advmod	X	Gloss=down, downwards, below, onwards, throughout
 
 # sent_id = S0006-1580
 # text = it lainni
@@ -22878,14 +22878,14 @@
 # sent_id = S0006-1588
 # text = .i. coicmíli ochtmugat archét
 # text_en = i.e. 185,000 (lit. eighty-five thousands upon one hundred (thousand))
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	coicmíli	_	_	_	_	_	_	_	_
-2	coic	cóic	NUM	numeral	_	_	_	X	Gloss=five
-3	míli	míle	NUM	noun_numeral	Case=Nom|Number=Plur	_	_	X	Gloss=thousand
-4	ochtmugat	ochtmogo	NUM	noun_numeral	Case=Gen|Number=Sing	_	_	X	Gloss=eighty
+2	coic	cóic	NUM	numeral	_	_	3	X	Gloss=five
+3	míli	míle	NUM	noun_numeral	Case=Nom|Number=Plur	0	root	X	Gloss=thousand
+4	ochtmugat	ochtmogo	NUM	noun_numeral	Case=Gen|Number=Sing	3	nummod	X	Gloss=eighty
 5-6	archét	_	_	_	_	_	_	_	_
-5	ar	ar 1	ADP	preposition	Case=Dat	_	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-6	chét	cét 1	NUM	noun_numeral	Case=Dat|Number=Sing	_	_	X	Gloss=hundred
+5	ar	ar 1	ADP	preposition	Case=Dat	6	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+6	chét	cét 1	NUM	noun_numeral	Case=Dat|Number=Sing	3	obl	X	Gloss=hundred
 
 # sent_id = S0006-1589
 # text = aschomart
@@ -23044,13 +23044,13 @@
 # sent_id = S0006-1609
 # text = .i. inam .i. hi cumachtæ
 # text_en = i.e. in (the) hand, i.e. into (the) power.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	inam	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
-3	nam	amm 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=band, host; human hand
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	nam	amm 2	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=band, host; human hand
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5	hi	i	ADP	preposition	Case=Acc	6	case	X	Gloss=in, into
-6	cumachtæ	cumachtae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=power, strength, might
+6	cumachtæ	cumachtae	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=power, strength, might
 
 # sent_id = S0006-1610
 # text = innannertae
