@@ -27274,13 +27274,13 @@
 # sent_id = S0006-1958
 # text = .i. naimfolngitis foirbthetaid són dam
 # text_en = i.e. that they should not cause perfection to me.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	naimfolngitis	_	_	_	_	_	_	_	_
-2	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-3	·imfolngitis	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to cause, to produce, to make, to effect, to support
-4	foirbthetaid	foirbthetu	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=perfection
-5	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
-6	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
+2	na·	ná 2	PART	particle_negative_subordinate	_	3	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+3	·imfolngitis	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	0	root	X	Gloss=to cause, to produce, to make, to effect, to support
+4	foirbthetaid	foirbthetu	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=perfection
+5	són	-són	PRON	particle_anaphoric	_	3	nsubj	X	Gloss=that (mentioned above) that is
+6	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	3	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-1959
 # text = .i. gabit don magistir són
@@ -27392,12 +27392,12 @@
 # sent_id = S0006-1970
 # text = .i. foditesiu ón
 # text_en = i.e. that is, under your protection.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2	fo	fo	ADP	preposition	Case=Dat	4	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-3	d	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	4	_	X	Gloss=your (sg.)
-4	dite	dítiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of protecting; protection, defense; covering, cover, shelter
-5	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-6	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+3	d	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	4	nmod:poss	X	Gloss=your (sg.)
+4	dite	dítiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of protecting; protection, defense; covering, cover, shelter
+5	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	4	nmod	X	Gloss=emphasising particle
+6	ón	-ón	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-1971
 # text = asinbela
@@ -27423,13 +27423,13 @@
 # sent_id = S0006-1973
 # text = .i. dauc cucai innasairse
 # text_en = i.e. he took it for himself, into his sermon.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	da·uc	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-3	cucai	co 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=to, until, as far as, towards
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	da·uc	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	0	root	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+3	cucai	co 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	2	obl:prep	X	Gloss=to, until, as far as, towards
 4-6	innasairse	_	_	_	_	_	_	_	_
 4	i	i	ADP	preposition	Case=Acc	6	case	X	Gloss=in, into
-5	nna	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	sairse	saírse	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=art, craftsmanship, workmanship, work
+5	nna	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+6	sairse	saírse	NOUN	noun	Case=Acc|Number=Sing	2	obl	X	Gloss=art, craftsmanship, workmanship, work
 
 # sent_id = S0006-1974
 # text = .i. intestiminso
