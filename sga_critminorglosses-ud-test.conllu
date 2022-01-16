@@ -26703,13 +26703,13 @@
 # text = nadndenat indidail inna hí
 # text_en = that the idols do not do those things.
 1-2	nadndenat	_	_	_	_	_	_	_	_
-1	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-2	·ndenat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to do, to make
+1	nad·	nád 1	PART	particle_negative_subordinate	_	2	advmod:neg	X	Gloss=that...not
+2	·ndenat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	0	root	X	Gloss=to do, to make
 3-4	indidail	_	_	_	_	_	_	_	_
 3	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	idail	ídal	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=idol ; heathen
+4	idail	ídal	NOUN	noun	Case=Nom|Number=Plur	2	nsubj	X	Gloss=idol ; heathen
 5	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	hí	í 1	PRON	pronoun_propword	Case=Acc|Number=Plur|Gender=Neut	_	_	X	Gloss=substantivizing particle
+6	hí	í 1	PRON	pronoun_propword	Case=Acc|Number=Plur|Gender=Neut	2	obj	X	Gloss=substantivizing particle
 
 # sent_id = S0006-1905
 # text = .i. huan inni ind nert rothecht
@@ -26862,13 +26862,13 @@
 # sent_id = S0006-1920
 # text = .i. adbartaigfersa .i. frissiurr són
 # text_en = i.e. I will be opposed, i.e. that is, I will offend.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	adbartaigfersa	_	_	_	_	_	_	_	_
-2	adbartaigfer	adbartaigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be opposed to (intrans)
-3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	friss·iurr	fris·oirg	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to molest, to offend, to injure
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+2	adbartaigfer	adbartaigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be opposed to (intrans)
+3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	friss·iurr	fris·oirg	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	2	conj	X	Gloss=to molest, to offend, to injure
+6	són	-són	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1921
 # text = .i. cen foraithmet ananmae etir són dam
@@ -27014,14 +27014,14 @@
 # sent_id = S0006-1931
 # text = .i. sechis natireson
 # text_en = i.e. that is, the lands.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	sech	sech 2	X	conjunction	_	5	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-6	natireson	_	_	_	_	_	_	_	_
 4	na	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	tire	tír	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=land; territory, country; earth, ground
-6	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+5	tire	tír	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=land; territory, country; earth, ground
+6	son	-són	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1932
 # text = .i. isnaib rugetrachtaib .i. anastech tire is ed [do]rat dam
