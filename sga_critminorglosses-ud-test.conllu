@@ -24530,12 +24530,12 @@
 # sent_id = S0006-1728
 # text = .i. de[n]ma maith 7 ergairi huilc
 # text_en = i.e. of the doing of good and the forbidding of evil.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	denma	dénum	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
-3	maith	maith	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=good, right, noble
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-5	ergairi	airgaire	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of prohibiting, preventing, hindering; check
-6	huilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	denma	dénum	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of doing, making, creating; deed, work, activity
+3	maith	maith	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	2	nmod	X	Gloss=good, right, noble
+4	7	ocus 2	CCONJ	conjunction	_	5	cc	X	Gloss=coordinating: and, since
+5	ergairi	airgaire	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of prohibiting, preventing, hindering; check
+6	huilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	5	nmod	X	Gloss=evil, bad, wrong
 
 # sent_id = S0006-1729
 # text = imda imgabam
@@ -24738,15 +24738,15 @@
 3	cho	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
 4	chocrichtatu	cocríchthetu	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=nearness, proximity
 
-# sent_id = S0006-1744
+# sent_id = S0006-1744 - reliqua
 # text = ní arbart biuth· æm ut rl.
 # text_en = he did not use [them] indeed ut etc.
-1	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-2	·arbart	ar·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to use, to employ; to live, to eat; to express, to derive, to enjoy
-3	biuth	bith	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+1	ní·	ní 3	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not
+2	·arbart	ar·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to use, to employ; to live, to eat; to express, to derive, to enjoy
+3	biuth	bith	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
 4	·	·	PUNCT	punctuation	_	_	_	_	_
-5	æm	ém	ADV	particle_discourse	_	_	_	X	Gloss=truly, indeed, in sooth, then
-6	ut	ut	X	conjunction	_	_	_	X	Gloss=that, so that
+5	æm	ém	ADV	particle_discourse	_	2	advmod	X	Gloss=truly, indeed, in sooth, then
+6	ut	ut	X	conjunction	_	7	mark	X	Gloss=that, so that
 7	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
 8	.	.	PUNCT	punctuation	_	_	_	_	_
 
@@ -24877,14 +24877,14 @@
 # sent_id = S0006-1759
 # text = .i. innabochtae imbiat som
 # text_en = i.e. of the poverty in which they are.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innabochtae	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	bochtae	bochtae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=poverty, want
+3	bochtae	bochtae	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=poverty, want
 4-5	imbiat	_	_	_	_	_	_	_	_
-4	i	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-5	·mbiat	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+4	i	i	ADP	preposition	Case=Acc	5	xcomp:pred:prep	X	Gloss=in, into
+5	·mbiat	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	acl:relcl	X	Gloss=to be, to exist,
+6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-1760
 # text = .i. is ed indas indfirseo beus átrefea hitabernacuil dé
