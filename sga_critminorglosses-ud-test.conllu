@@ -25932,13 +25932,13 @@
 # sent_id = S0006-1860
 # text = .i. frissians nebraide 7 serdae
 # text_en = i.e. than the Hebrew and Syrian meaning.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	frissians	_	_	_	_	_	_	_	_
 2	fri	fri	ADP	preposition	Case=Acc	3	case	X	Gloss=towards, against, standard of comparison
-3	ssians	síans	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=sense, perception, perceptive faculty, meaning
-4	nebraide	ebraide	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=Hebrew (language, person)
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	serdae	serdae	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=Syrian
+3	ssians	síans	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=sense, perception, perceptive faculty, meaning
+4	nebraide	ebraide	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	3	amod	X	Gloss=Hebrew (language, person)
+5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
+6	serdae	serdae	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	4	conj	X	Gloss=Syrian
 
 # sent_id = S0006-1861
 # text = .i. á brithe doiudaib
@@ -26371,13 +26371,13 @@
 # sent_id = S0006-1879
 # text = .i. coitchenn .i. fritimthrecht tuatae
 # text_en = i.e. common, i.e. to service of the laity.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	coitchenn	coitchenn	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=common, general, usual, ordinary
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	coitchenn	coitchenn	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=common, general, usual, ordinary
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	fritimthrecht	_	_	_	_	_	_	_	_
 4	fri	fri	ADP	preposition	Case=Acc	5	case	X	Gloss=towards, against, standard of comparison
-5	timthrecht	timmthirecht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of serving, ministering to; ministration
-6	tuatae	túatae	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=of the people, lay (vs. ecclestiastical)
+5	timthrecht	timmthirecht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of serving, ministering to; ministration
+6	tuatae	túatae	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	5	obj	X	Gloss=of the people, lay (vs. ecclestiastical)
 
 # sent_id = S0006-1880
 # text = is intimthrecht
@@ -26618,14 +26618,14 @@
 # sent_id = S0006-1900
 # text = amal fidnaderscaigthiu· rosnainmnigestar duaid
 # text_en = as if it were the distinguished ones. David named them.
-1	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
+1	amal	amail 2	SCONJ	conjunction	_	4	mark	X	Gloss=as, like; translating Latin ut
 2-4	fidnaderscaigthiu	_	_	_	_	_	_	_	_
-2	fid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	derscaigthiu	derscaigthe	ADJ	verbal_participle	Case=Acc|Number=Plur|Gender=Masc	_	_	X	Gloss=distinguished, excelling, conspicuous, excellent
+2	fid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
+4	derscaigthiu	derscaigthe	ADJ	verbal_participle	Case=Acc|Number=Plur|Gender=Masc	0	root	X	Gloss=distinguished, excelling, conspicuous, excellent
 5	·	·	PUNCT	punctuation	_	_	_	_	_
-6	ros·nainmnigestar	ainmmnigidir	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA|Aspect=Perf	_	_	X	Gloss=to name
-7	duaid	dúaid	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=David
+6	ros·nainmnigestar	ainmmnigidir	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA|Aspect=Perf	0	root	X	Gloss=to name
+7	duaid	dúaid	PROPN	proper_noun	Case=Nom|Number=Sing	6	nsubj	X	Gloss=David
 
 # sent_id = S0006-1901
 # text = .i. quasi sanctis combad mou de donadbastae molad dæ triachaingnímu .i. aforbris ade [leg. aforbrisiud ade]··
