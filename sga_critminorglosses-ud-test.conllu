@@ -17099,13 +17099,13 @@
 # sent_id = S0006-1029
 # text = etarrusuidige [leg. etarrusuidiged] .i. is ed duduccai immedon
 # text_en = it was placed between, i.e. it is that which he has put into the middle.
-1	etarru·suidiged	eter·suidigedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to place between, to insert
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
-5	dud·uccai	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|Aspect=Perf	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+1	etarru·suidiged	eter·suidigedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to place between, to insert
+2	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	1	conj	X	Gloss=it
+5	dud·uccai	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|Aspect=Perf	4	csubj:cleft	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 6	i	i	ADP	preposition	Case=Acc	7	case	X	Gloss=in, into
-7	mmedon	medón	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=middle, center, midst
+7	mmedon	medón	NOUN	noun	Case=Acc|Number=Sing	5	obl	X	Gloss=middle, center, midst
 
 # sent_id = S0006-1030
 # text = .i. cenfornaidm metarde són·
@@ -18260,13 +18260,13 @@
 # sent_id = S0006-1154
 # text = .i.  án imbai [leg. ámmbai] forlongais amal duaid
 # text_en = i.e. [the] band which was in exile like David.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ámm	amm 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=band, host; human hand
-3	bai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ámm	amm 2	NOUN	noun	Case=Nom|Number=Sing	0	root	3:nsubj|0:root	Gloss=band, host; human hand
+3	bai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to be, to exist,
 4	for	for	ADP	preposition	Case=Acc	5	case	X	Gloss=upon, over, on
-5	longais	longas	NOUN	noun	Case=Dat	_	_	X	Gloss=fleet, naval expedition, exile, band of sea-rovers
+5	longais	longas	NOUN	noun	Case=Dat	3	xcomp:pred	X	Gloss=fleet, naval expedition, exile, band of sea-rovers
 6	amal	amail 1	ADP	preposition	Case=Acc	7	case	X	Gloss=as, like
-7	duaid	dúaid	PROPN	proper_noun	Case=Acc|Number=Sing	_	_	X	Gloss=David
+7	duaid	dúaid	PROPN	proper_noun	Case=Acc|Number=Sing	3	obl	X	Gloss=David
 
 # sent_id = S0006-1155
 # text = .i. ácaratrad .i. nechbed chare do
@@ -18429,12 +18429,12 @@
 # text = huandluthi .i. fochosmailius dorche
 # text_en = by their density, i.e. after the manner of darkness.
 1	hua	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
-2	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	_	X	Gloss=their
-3	ndluthi	dlúthe	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=closeness, density, compactness
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	nmod:poss	X	Gloss=their
+3	ndluthi	dlúthe	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=closeness, density, compactness
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5	fo	fo	ADP	preposition	Case=Acc	6	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-6	chosmailius	cosmailius	NOUN	noun	Case=Dat	_	_	X	Gloss=likeness, similarity, resemblance; comparison
-7	dorche	dorchae	ADJ	adjective	Case=Gen|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=dark, gloomy, obscure
+6	chosmailius	cosmailius	NOUN	noun	Case=Dat	3	conj	X	Gloss=likeness, similarity, resemblance; comparison
+7	dorche	dorchae	ADJ	adjective	Case=Gen|Number=Plur|Gender=Neut|Degree=Pos	6	nmod	X	Gloss=dark, gloomy, obscure
 
 # sent_id = S0006-1170
 # text = nephéscide .i. fortchide
