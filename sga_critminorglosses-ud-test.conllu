@@ -22106,15 +22106,13 @@
 # sent_id = S0006-1513
 # text = .i. cid oín dune dugneth maith·
 # text_en = i.e. even one man who would do good.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2-3	cid	_	_	_	_	_	_	_	_
-2	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	oín	óen	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
-5	dune	duine	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=person, human being
-6	du·gneth	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to do, to make
-7	maith	maith	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=good, right, noble
-8	·	·	PUNCT	punctuation	_	_	_	_	_
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	cid	cid 2	PART	particle_focus	_	4	advmod:emph	4:advmod:emph	Gloss=even
+3	oín	óen	ADJ	adjective_numeral_noun	_	4	amod	X	Gloss=one, single, same, only, unique; as compound element 'great'
+4	dune	duine	NOUN	noun	Case=Nom|Number=Sing	0	root	5:nsubj|0:root	Gloss=person, human being
+5	du·gneth	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	4	acl:relcl	X	Gloss=to do, to make
+6	maith	maith	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	5	obj	X	Gloss=good, right, noble
+7	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1514
 # text = nírbu lour leusom buaduguth dib acht ánuile dílgent 7 ambrith indoiri· issí écmailte inchoscair insin
@@ -22228,17 +22226,17 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	do·retarracht	do·etarrat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to seize, to grasp, to encompass; to comprehend; to overtake
 
-# sent_id = S0006-1522
+# sent_id = S0006-1522 - line 2 - cc|mark
 # text = .i. sechis ni consechmallad nech són
 # text_en = i.e. that is, no one avoided.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	nicon·	nicon	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not ever
-5	·sechmallad	sechmo·ella	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to pass (by), to neglect; with following prep ó: to be lacking (in)
-6	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
-7	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+2	sech	sech 2	X	conjunction	_	5	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+4	nicon·	nicon	PART	particle_negative_main	_	5	advmod:neg	X	Gloss=not ever
+5	·sechmallad	sechmo·ella	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	0	root	X	Gloss=to pass (by), to neglect; with following prep ó: to be lacking (in)
+6	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	X	Gloss=anyone, one, someone
+7	són	-són	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1523
 # text = inchomchetbaid
@@ -22424,12 +22422,12 @@
 1-3	onchuirrigu	_	_	_	_	_	_	_	_
 1	o	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	chuirrigu	cuirrige	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=promise
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	chuirrigu	cuirrige	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=promise
+4	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 5-7	óntairgiriu	_	_	_	_	_	_	_	_
 5	ó	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
 6	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	tairgiriu	tairngire	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of promising; prophecy
+7	tairgiriu	tairngire	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of promising; prophecy
 
 # sent_id = S0006-1545
 # text = nobendachthar
