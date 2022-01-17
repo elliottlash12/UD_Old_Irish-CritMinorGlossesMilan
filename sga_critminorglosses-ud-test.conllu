@@ -25753,16 +25753,16 @@
 4	nimmaircidi	immaircide	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=suitable, fitting, appropriate, becoming
 5	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Neut	_	_	X	Gloss=that one, he, she, it, they
 
-# sent_id = S0006-1839
+# sent_id = S0006-1839 - missing 'adcælerauerunt'
 # text = ised inso les pro postea adcælerauerunt
 # text_en = he has this for postea adcelerauerunt.
 1-2	ised	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=it
 3-4	inso	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
-5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	2	nsubj	X	Gloss=this one, these ones ; this, these
+5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	2	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 6	pro	prō	ADP	preposition	Case=Unk	_	case	X	Gloss=for, on behalf of, before
 7	postea	posteā	ADV	adverb	_	_	_	X	Gloss=afterwards
 
@@ -26428,14 +26428,14 @@
 # sent_id = S0006-1885
 # text = derscaigthetaid .i. asainred techtas sech cách
 # text_en = preeminence, i.e. the peculiar property that it has beyond others.
-1	derscaigthetaid	derscaigthetu	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=excellence, preeminence
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	derscaigthetaid	derscaigthetu	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=excellence, preeminence
+2	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 3-4	asainred	_	_	_	_	_	_	_	_
 3	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	sainred	sainred	NOUN	noun	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=peculiar or belonging to (an individual), characteristic of; particular, special, set apart, peculiar property
-5	techtas	techtaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to have, to possess
-6	sech	sech 1	ADP	preposition	Case=Acc	_	case	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
-7	cách	cách	PRON	pronoun_quantifier	Case=Acc|Number=Plur|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
+4	sainred	sainred	NOUN	noun	Case=Nom|Number=Sing|Gender=Neut	1	conj	X	Gloss=peculiar or belonging to (an individual), characteristic of; particular, special, set apart, peculiar property
+5	techtas	techtaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	4	csubj:cleft	X	Gloss=to have, to possess
+6	sech	sech 1	ADP	preposition	Case=Acc	7	case	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
+7	cách	cách	PRON	pronoun_quantifier	Case=Acc|Number=Plur|PronType=Tot	5	obl	X	Gloss=every one, each one, any one, all
 
 # sent_id = S0006-1886
 # text = .i. holí
@@ -26599,14 +26599,13 @@
 # sent_id = S0006-1898
 # text = .i. innachenela cocrícthi inpopuil
 # text_en = i.e. the bordering nations of the people.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innachenela	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	chenela	cenél	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=kind, sort, type, kindred, race, tribe, nation, gramm. gender
-4	co	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
-5	cocrícthi	cocríchthae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=bordering, neighboring
+3	chenela	cenél	NOUN	noun	Case=Acc|Number=Plur	0	root	X	Gloss=kind, sort, type, kindred, race, tribe, nation, gramm. gender
+5	cocrícthi	cocríchthae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut|Degree=Pos	3	amod	X	Gloss=bordering, neighboring
 6	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	popuil	popul	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+7	popuil	popul	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
 
 # sent_id = S0006-1899
 # text = tríunu
