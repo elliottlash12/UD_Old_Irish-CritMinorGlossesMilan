@@ -24043,19 +24043,19 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	co	co 3	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
 
-# sent_id = S0006-1689
+# sent_id = S0006-1689 - line 2 - mark|cc
 # text = .i. sechis ond foirbthetaidson
 # text_en = i.e. that is, by the perfection.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	sech	sech 2	X	conjunction	_	6	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
 4-5	ond	_	_	_	_	_	_	_	_
 4	o	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
 5	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6-7	foirbthetaidson	_	_	_	_	_	_	_	_
-6	foirbthetaid	foirbthetu	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=perfection
-7	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+6	foirbthetaid	foirbthetu	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=perfection
+7	son	-són	PRON	particle_anaphoric	_	6	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1690
 # text = .i. acomairberte biuth
@@ -24209,13 +24209,13 @@
 # sent_id = S0006-1700
 # text = .i. amal bith espach nodeid
 # text_en = i.e. as if he were idle or sluggish.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	bith	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	es	es-	X	particle_prefix	_	_	_	X	Gloss=privative prefix
-5	esbach	esbach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=idle, unoccupied
-6	no	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-7	deid	deëid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=idle, unemployed; averse to toil or labour, inactive; careless, unconstrained, unembarrassed, undistressed, at ease
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
+3	bith	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+4	es	es-	X	particle_prefix	_	5	mark:prt	X	Gloss=privative prefix
+5	esbach	esbach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=idle, unoccupied
+6	no	nó 1	CCONJ	conjunction	_	7	cc	X	Gloss=disjunctive: or
+7	deid	deëid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	5	conj	X	Gloss=idle, unemployed; averse to toil or labour, inactive; careless, unconstrained, unembarrassed, undistressed, at ease
 
 # sent_id = S0006-1701
 # text = .i. anasrubart
@@ -24864,13 +24864,13 @@
 # sent_id = S0006-1758
 # text = ní adbartaigedar acht cotautaing 7 arasmuinethar feid·
 # text_en = he is not opposed, but he builds it up and honors it.
-1	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-2	·adbartaigedar	adbartaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be opposed to (intrans)
-3	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-4	cota·utaing	con·utaing	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	_	_	X	Gloss=to build, to construct, to embellish
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	aras·muinethar	ar·muinethar	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA	_	_	X	Gloss=to honour, to venerate
-7	feid	fíad 5	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=honor, dignity, elevation; respect, reverence
+1	ní·	ní 3	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not
+2	·adbartaigedar	adbartaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be opposed to (intrans)
+3	acht	acht 1	CCONJ	conjunction	_	4	cc	X	Gloss=except, but, provided that, save that
+4	cota·utaing	con·utaing	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	2	conj	X	Gloss=to build, to construct, to embellish
+5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
+6	aras·muinethar	ar·muinethar	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA	4	conj	X	Gloss=to honour, to venerate
+7	feid	fíad 5	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=honor, dignity, elevation; respect, reverence
 8	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1759
