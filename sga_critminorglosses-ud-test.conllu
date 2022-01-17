@@ -18465,13 +18465,13 @@
 # sent_id = S0006-1173
 # text = .i. cinidfil chairi linn
 # text_en = i.e. although there is no fault with us.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	·fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-4	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-5	d·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
-6	chairi	caire 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=crime, fault, sin
-7	linn	la	ADP	preposition	Person=1|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	ci	cía 2	SCONJ	conjunction	_	5	mark	X	Gloss=concessive and explicative: even, although
+3	ni	ní 3	PART	particle_negative_main	_	5	advmod:neg	X	Gloss=not
+4	d·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	5	inf:obj	X	Gloss=it
+5	·fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+6	chairi	caire 1	NOUN	noun	Case=Acc|Number=Sing	5	nsubj	X	Gloss=crime, fault, sin
+7	linn	la	ADP	preposition	Person=1|Number=Plur|Case=Acc	5	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0006-1174
 # text = .i. amal nadnairigther 7 nadfintar andugnither hisuidi síc ba imfortgidiu [leg. infortgidiu] 7 ba hitemul dugníth saul conamuntair intleda 7 erelca friduaid·
@@ -18632,15 +18632,15 @@
 # sent_id = S0006-1183
 # text = .i. tríthabairt indanmæ triuín fris
 # text_en = i.e. through adding the substantive to it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	tríthabairt	_	_	_	_	_	_	_	_
 2	trí	tre	ADP	preposition	Case=Acc	3	case	X	Gloss=through (time or space), by means of, be reason of
-3	thabairt	tabart 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+3	thabairt	tabart 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
 4-5	indanmæ	_	_	_	_	_	_	_	_
 4	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	anmæ	ainm	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=name, noun (gramm)
-6	triuín	trén	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=strong, gramm. substantive, subst.: strong man, hero
-7	fris	fri	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
+5	anmæ	ainm	NOUN	noun	Case=Gen|Number=Sing	3	obj	X	Gloss=name, noun (gramm)
+6	triuín	trén	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	5	amod	X	Gloss=strong, gramm. substantive, subst.: strong man, hero
+7	fris	fri	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	X	Gloss=towards, against, standard of comparison
 
 # sent_id = S0006-1184
 # text = co dubidctis
@@ -18685,14 +18685,14 @@
 # sent_id = S0006-1186
 # text = it hæ insin ata rechti corde
 # text_en = it is those that are recti corde.
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	hæ	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=they, them
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	hæ	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=they, them
 3-4	insin	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-5	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-6	rechti	rēctus	ADJ	verbal_participle	_	_	_	X	Gloss=_
-7	corde	cor	NOUN	verbal_noun	VerbForm=VNoun	_	_	X	Gloss=the act of putting
+4	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	2	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
+5	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	cop	X	Gloss=to be
+6	rechti	rēctus	ADJ	verbal_participle	_	2	csubj:cleft	X	Gloss=_
+7	corde	cor	NOUN	verbal_noun	VerbForm=VNoun	6	csubj	X	Gloss=the act of putting
 
 # sent_id = S0006-1187
 # text = .i. ma nubeth
