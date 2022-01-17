@@ -25524,14 +25524,14 @@
 # sent_id = S0006-1815
 # text = .i. sainaccuis do duaid sech cách
 # text_en = i.e. a special cause for David apart from any other.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	sainaccuis	_	_	_	_	_	_	_	_
-2	sain	sain	ADJ	adjective	Degree=Pos	_	_	X	Gloss=different, distinct, separate, peculiar, special
-3	accuis	accuis	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=cause, reason, ground, offence, crime; hatred, enmity, rancor; disease, poison, venom
+2	sain	sain	ADJ	adjective	Degree=Pos	3	amod	X	Gloss=different, distinct, separate, peculiar, special
+3	accuis	accuis	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=cause, reason, ground, offence, crime; hatred, enmity, rancor; disease, poison, venom
 4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
-5	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=David
-6	sech	sech 1	ADP	preposition	Case=Acc	_	case	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
-7	cách	cách	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
+5	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	3	obl	X	Gloss=David
+6	sech	sech 1	ADP	preposition	Case=Acc	7	case	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
+7	cách	cách	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Tot	3	obl	X	Gloss=every one, each one, any one, all
 
 # sent_id = S0006-1816
 # text = .i. amal aidlicen
@@ -25550,14 +25550,14 @@
 # sent_id = S0006-1818
 # text = .i. it bithdommaisidi dǽ gente
 # text_en = i.e. the gods of the Gentiles are ever-poor.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
 3-5	bithdommaisidi	_	_	_	_	_	_	_	_
-3	bith	bith	NOUN	noun	_	_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
-4	dommai	dommae	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=poor, needy
-5	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
-6	dǽ	día 2	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=god, deity, God
-7	gente	geinti	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=gentiles, heathens, the heathen Norsemen
+3	bith	bith	NOUN	noun	_	0	root	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+4	dommai	dommae	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	3	amod	X	Gloss=poor, needy
+5	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	3	_	X	Gloss=that one, he, she, it, they
+6	dǽ	día 2	NOUN	noun	Case=Nom|Number=Plur	3	_	X	Gloss=god, deity, God
+7	gente	geinti	NOUN	noun	Case=Gen|Number=Plur	7	nmod	X	Gloss=gentiles, heathens, the heathen Norsemen
 
 # sent_id = S0006-1819
 # text = .i. már
@@ -25666,15 +25666,15 @@
 # sent_id = S0006-1828
 # text = .i. indemilt .i. ocfrithorcuin dún
 # text_en = i.e. troublesomely, i.e. hurting us.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indemilt	_	_	_	_	_	_	_	_
-2	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	emilt	emilt	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=tedious, wearisome, irksome
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	emilt	emilt	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=tedious, wearisome, irksome
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	ocfrithorcuin	_	_	_	_	_	_	_	_
 5	oc	oc	ADP	preposition	Case=Dat	6	case	X	Gloss=at, by, besides, with (person)
-6	frithorcuin	frithorgun	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of molesting, harassing; offense, injury, annoyance
-7	dún	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+6	frithorcuin	frithorgun	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of molesting, harassing; offense, injury, annoyance
+7	dún	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	6	mark:prt	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-1829
 # text = anundagreinnsiu [leg. anindagreinnsiu] ádé
