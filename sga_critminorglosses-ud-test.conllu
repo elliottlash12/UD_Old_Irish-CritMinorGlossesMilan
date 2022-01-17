@@ -7278,7 +7278,7 @@
 14	cumscaigthe	cumscugud	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	10	conj	X	Gloss=the act of moving, changing; shift, mutation, transference, immutability
 15-16	inmenman	_	_	_	_	_	_	_	_
 15	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	16	det	X	Gloss=the
-16	menman	menmae	NOUN	noun	Case=Gen|Number=Sing	15	nmod	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
+16	menman	menmae	NOUN	noun	Case=Gen|Number=Sing	14	nmod	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
 17-19	frisnagnimu	_	_	_	_	_	_	_	_
 17	fri	fri	ADP	preposition	Case=Acc	19	case	X	Gloss=towards, against, standard of comparison
 18	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	19	det	X	Gloss=the
@@ -19784,13 +19784,13 @@
 # text = anguaigedar alaile acht is immalle guaigitir
 # text_en = when the one lies, but it is together that they lie.
 1-2	anguaigedar	_	_	_	_	_	_	_	_
-1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	nguaigedar	gúaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to lie
-3	alaile	alaile	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=other, the other
-4	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-6	immalle	immallé	ADV	adverb	_	_	_	X	Gloss=jointly, together, at the same time (lit. about their togetherness)
-7	guaigitir	gúaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to lie
+1	a	a 6	SCONJ	conjunction	_	2	mark	X	Gloss=temporal: when, since
+2	nguaigedar	gúaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to lie
+3	alaile	alaile	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Masc	2	nsubj	X	Gloss=other, the other
+4	acht	acht 1	CCONJ	conjunction	_	7	cc	X	Gloss=except, but, provided that, save that
+5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
+6	immalle	immallé	ADV	adverb	_	5	advmod	X	Gloss=jointly, together, at the same time (lit. about their togetherness)
+7	guaigitir	gúaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	conj	X	Gloss=to lie
 
 # sent_id = S0006-1284
 # text = inglé
@@ -20233,7 +20233,7 @@
 3	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
 4	du·gaithatar	do·gáetha	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to deceive, to begile
 
-# sent_id = S0006-1319
+# sent_id = S0006-1319 - missing 'mmiseriam'
 # text = arremiroid ammiseriam duthabairt arthuus
 # text_en = when he moved the “miseriam” forward in order to put [it] first.
 1-2	arremiroid	_	_	_	_	_	_	_	_
@@ -20405,14 +20405,14 @@
 # sent_id = S0006-1340
 # text = .i. interchoiliud inna diglae dæ son
 # text_en = i.e. that is, the determination of the vengeance of God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	interchoiliud	_	_	_	_	_	_	_	_
 2	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	erchoiliud	érchoíliud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of defining; definition, determination, decision, resolve, solution, legal pronouncement
+3	erchoiliud	érchoíliud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of defining; definition, determination, decision, resolve, solution, legal pronouncement
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
-6	dæ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
-7	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+5	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	obj	X	Gloss=the act of avenging, punishing, vengeance
+6	dæ	día 2	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=god, deity, God
+7	son	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1341
 # text = ɫ. animaduersarii .i. innadiglae 7 is ainmnid amal sodin iustitia
@@ -20570,15 +20570,15 @@
 # sent_id = S0006-1352
 # text = .i. is dusuidib ba inbesa
 # text_en = i.e. it is for them that it was the custom.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 3-4	dusuidib	_	_	_	_	_	_	_	_
-3	du	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-4	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Masc	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-5	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+3	du	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
+4	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Masc	0	root	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+5	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
 6-7	inbesa	_	_	_	_	_	_	_	_
 6	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	besa	bés 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
+7	besa	bés 1	NOUN	noun	Case=Gen|Number=Sing	4	csubj:cleft	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
 
 # sent_id = S0006-1353
 # text = .i. intsechtaitho [leg. intsechtaigtho] .i. innam mraithemnachtae
