@@ -25555,8 +25555,8 @@
 3-5	bithdommaisidi	_	_	_	_	_	_	_	_
 3	bith	bith	NOUN	noun	_	0	root	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
 4	dommai	dommae	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	3	amod	X	Gloss=poor, needy
-5	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	3	_	X	Gloss=that one, he, she, it, they
-6	dǽ	día 2	NOUN	noun	Case=Nom|Number=Plur	3	_	X	Gloss=god, deity, God
+5	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	3	nsubj	X	Gloss=that one, he, she, it, they
+6	dǽ	día 2	NOUN	noun	Case=Nom|Number=Plur	5	appos	X	Gloss=god, deity, God
 7	gente	geinti	NOUN	noun	Case=Gen|Number=Plur	7	nmod	X	Gloss=gentiles, heathens, the heathen Norsemen
 
 # sent_id = S0006-1819
@@ -25753,7 +25753,7 @@
 4	nimmaircidi	immaircide	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=suitable, fitting, appropriate, becoming
 5	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Neut	_	_	X	Gloss=that one, he, she, it, they
 
-# sent_id = S0006-1839 - missing 'adcælerauerunt'
+# sent_id = S0006-1839
 # text = ised inso les pro postea adcælerauerunt
 # text_en = he has this for postea adcelerauerunt.
 1-2	ised	_	_	_	_	_	_	_	_
@@ -25763,8 +25763,9 @@
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
 4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	2	nsubj	X	Gloss=this one, these ones ; this, these
 5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	2	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-6	pro	prō	ADP	preposition	Case=Unk	_	case	X	Gloss=for, on behalf of, before
-7	postea	posteā	ADV	adverb	_	_	_	X	Gloss=afterwards
+6	pro	prō	ADP	preposition	Case=Unk	7	case	X	Gloss=for, on behalf of, before
+7	postea	posteā	ADV	adverb	_	2	obl	X	Gloss=afterwards
+8	adcælerauerunt	adceleraverunt	VERB	verb	_	7	flat	X Gloss=to speed up, to make haste, to accelerate
 
 # sent_id = S0006-1840
 # text = .i. dorochratar forcul són
@@ -26880,14 +26881,14 @@
 7	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
 8	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
 
-# sent_id = S0006-1922 - line 5 - nmod|xcomp
+# sent_id = S0006-1922
 # text = .i. cid cuit aforaitmit [leg. aforaithmit] dam
 # text_en = i.e. even as to their recollection by me.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	cid	cid 2	PART	particle_focus	_	3	advmod:emph	X	Gloss=even
 3	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=portion, part, share; a matter of, a mere
 4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	obj:poss	X	Gloss=their
-5	foraithmit	foraithmet	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	nmod	X	Gloss=the act of remembering, calling to mind; recollection
+5	foraithmit	foraithmet	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	xcomp	X	Gloss=the act of remembering, calling to mind; recollection
 6	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	3	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-1923
