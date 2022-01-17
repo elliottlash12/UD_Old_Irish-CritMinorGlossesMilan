@@ -22491,12 +22491,12 @@
 1-3	ondfoít	_	_	_	_	_	_	_	_
 1	o	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	foít	foít	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of sending
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	do·immarnad	do·immna	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to command, to enjoin
+3	foít	foít	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of sending
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	do·immarnad	do·immna	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	3	conj	X	Gloss=to command, to enjoin
 6-7	hosenachrib	_	_	_	_	_	_	_	_
 6	ho	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
-7	senachrib	Sennacherib	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=Sennacherib
+7	senachrib	Sennacherib	PROPN	proper_noun	Case=Dat|Number=Sing	5	obl	X	Gloss=Sennacherib
 
 # sent_id = S0006-1552
 # text = nondoirtis
@@ -22507,14 +22507,14 @@
 # text = conifrithsuidiged .i. conifrithtaised
 # text_en = that he should not place against, i.e. that he should not oppose.
 1-3	conifrithsuidiged	_	_	_	_	_	_	_	_
-1	co	co 3	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
-2	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·frithsuidiged	fris·suidigedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to place over against, to oppose
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	co	co 3	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
+2	ni·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·frithsuidiged	fris·suidigedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	0	root	X	Gloss=to place over against, to oppose
+4	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 5-7	conifrithtaised	_	_	_	_	_	_	_	_
-5	co	co 3	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
-6	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-7	·frithtaised	fris·taít	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to come against, to be at variance with, to oppose
+5	co	co 3	SCONJ	complementiser	_	7	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
+6	ni·	ní 3	PART	particle_negative_main	_	7	advmod:neg	X	Gloss=not
+7	·frithtaised	fris·taít	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	3	conj	X	Gloss=to come against, to be at variance with, to oppose
 
 # sent_id = S0006-1554
 # text = .i. indoindid .i. acht ducoistis oinecht cosinríg combetis indoiri semper
@@ -22971,13 +22971,13 @@
 # sent_id = S0006-1601
 # text = .i. ni rurescesset tabairt catha do assarib
 # text_en = i.e. they did not hope for the giving of battle by the Assyrians.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	ru·rescesset	fris·accai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to look forward to, to hope; to expect, to await
-4	tabairt	tabart 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
-5	catha	cath	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=battle, fight, battalion
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	ru·rescesset	fris·accai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to look forward to, to hope; to expect, to await
+4	tabairt	tabart 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	xcomp	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+5	catha	cath	NOUN	noun	Case=Gen|Number=Sing	4	obj	X	Gloss=battle, fight, battalion
 6	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	assarib	Asar	PROPN	proper_noun	Case=Dat|Number=Plur	_	_	X	Gloss=Assyrian
+7	assarib	Asar	PROPN	proper_noun	Case=Dat|Number=Plur	4	obl	X	Gloss=Assyrian
 
 # sent_id = S0006-1602
 # text = oergail
