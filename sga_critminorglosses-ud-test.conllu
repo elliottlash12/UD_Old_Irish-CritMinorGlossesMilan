@@ -23285,14 +23285,14 @@
 # sent_id = S0006-1630
 # text = .i. ɔnairleicthea asindoiri ho chir·
 # text_en = i.e. they were released out of the captivity by Cyrus.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ɔ·nairleicthea	con·airléici	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to permit, to allow, to let go
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ɔ·nairleicthea	con·airléici	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to permit, to allow, to let go
 3-5	asindoiri	_	_	_	_	_	_	_	_
 3	a	a 7	ADP	preposition	Case=Dat	5	case	X	Gloss=out of, from
 4	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	doiri	doíre	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=slavery, bondage, captivity
+5	doiri	doíre	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=slavery, bondage, captivity
 6	ho	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
-7	chir	Cír	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=Cyrus
+7	chir	Cír	PROPN	proper_noun	Case=Dat|Number=Sing	2	obl	X	Gloss=Cyrus
 8	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1631
@@ -23499,14 +23499,14 @@
 # sent_id = S0006-1647
 # text = .i. air cia dunaib hi dofoirmsed
 # text_en = i.e. for about whom should he have added?
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	air	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
+3	cia	cía 1	X	pronoun_interrogative	_	0	root	7:obj|0:root	Gloss=who, what, which
 4-5	dunaib	_	_	_	_	_	_	_	_
 4	du	di	ADP	preposition	Case=Dat	6	case	X	Gloss=away, from, cause or reason, by
 5	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	hi	í 1	PRON	pronoun_propword	Case=Dat|Number=Plur|Gender=Masc	_	_	X	Gloss=substantivizing particle
-7	do·foirmsed	do·formaig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to add, to increase, to amplify (transitive)
+6	hi	í 1	PRON	pronoun_propword	Case=Dat|Number=Plur|Gender=Masc	3	obl	X	Gloss=substantivizing particle
+7	do·foirmsed	do·formaig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin	3	acl:relcl	X	Gloss=to add, to increase, to amplify (transitive)
 
 # sent_id = S0006-1648
 # text = int etarsuidigud
@@ -23697,15 +23697,15 @@
 # sent_id = S0006-1666
 # text = .i. demnigud arforcital hodesmrechtaib screptaire..,
 # text_en = i.e. to confirm our teachings by examples of Scripture.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	demnigud	deimnigud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of confirming, making firm, securing, fortifying, proving, attesting
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	demnigud	deimnigud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of confirming, making firm, securing, fortifying, proving, attesting
 3-4	arforcital	_	_	_	_	_	_	_	_
-3	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	4	_	X	Gloss=our
-4	forcital	forcetal	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of teaching, instructing, admonishing, learning, studying
+3	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	4	nmod:poss	X	Gloss=our
+4	forcital	forcetal	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	2	obj	X	Gloss=the act of teaching, instructing, admonishing, learning, studying
 5-6	hodesmrechtaib	_	_	_	_	_	_	_	_
 5	ho	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
-6	desmrechtaib	desimrecht	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=example, exemplar, pattern
-7	screptaire	scriptuir	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=Scripture
+6	desmrechtaib	desimrecht	NOUN	noun	Case=Dat|Number=Plur	2	obl	X	Gloss=example, exemplar, pattern
+7	screptaire	scriptuir	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=Scripture
 8	..,	..,	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1667
