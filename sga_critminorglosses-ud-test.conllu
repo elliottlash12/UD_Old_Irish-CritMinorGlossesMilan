@@ -20809,15 +20809,15 @@
 # sent_id = S0006-1380
 # text = .i. amal ataturcabthi inná epertasin·
 # text_en = i.e. as those sayings are brought forth.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	4	mark	X	Gloss=as, like; translating Latin ut
 3-4	ataturcabthi	_	_	_	_	_	_	_	_
-3	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-4	turcabthi	turcabthae	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Fem	_	_	X	Gloss=raised, brought forth, produced
+3	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
+4	turcabthi	turcabthae	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Fem	0	root	X	Gloss=raised, brought forth, produced
 5	inná	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6-7	epertasin·	_	_	_	_	_	_	_	_
-6	eperta	eipert	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of saying; speech, statement, word
-7	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
+6	eperta	eipert	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	4	nsubj	X	Gloss=the act of saying; speech, statement, word
+7	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	6	det	X	Gloss=that, those
 8	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1381
@@ -21525,14 +21525,14 @@
 # sent_id = S0006-1452
 # text = cia erat fritammiorsa .i. digal dé
 # text_en = how long will it afflict me, i.e. the vengance of God?
-1	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-2	erat	airet	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=length, interval, space (of time, sometimes of space)
+1	cia	cía 1	X	pronoun_interrogative	_	0	root	X	Gloss=who, what, which
+2	erat	airet	NOUN	noun	Case=Nom|Number=Sing	1	nsubj	3:nsubj|1:nsubj	Gloss=length, interval, space (of time, sometimes of space)
 3-4	fritammiorsa	_	_	_	_	_	_	_	_
-3	fritamm·ior	fris·oirg	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB|RelType=Other	_	_	X	Gloss=to molest, to offend, to injure
-4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
-7	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+3	fritamm·ior	fris·oirg	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB|RelType=Other	2	acl:relcl	X	Gloss=to molest, to offend, to injure
+4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	3	obj	X	Gloss=emphasising particle
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	1	conj	X	Gloss=the act of avenging, punishing, vengeance
+7	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	6	obj	X	Gloss=god, deity, God
 
 # sent_id = S0006-1453
 # text = nudamchrocha
@@ -21581,14 +21581,15 @@
 # sent_id = S0006-1457
 # text = .i. cennach frithorcuin huadauid doib som
 # text_en = i.e. without any offense from David to them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	cennach	_	_	_	_	_	_	_	_
-2	cen	cen	ADP	preposition	Case=Acc	3	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-3	nach	nach 1	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Fem|PronType=Ind	_	_	X	Gloss=any, every, each, some, none
-4	frithorcuin	frithorgun	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of molesting, harassing; offense, injury, annoyance
-5	hua	ó 1	ADP	preposition	Case=Dat	_	case	X	Gloss=from, out of, by
-6	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-7	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+2	cen	cen	ADP	preposition	Case=Acc	4	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
+3	nach	nach 1	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Fem|PronType=Ind	4	det	X	Gloss=any, every, each, some, none
+4	frithorcuin	frithorgun	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of molesting, harassing; offense, injury, annoyance
+5	hua	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
+6	dauid	Dāuīd	PROPN	proper_noun	_	4	obl	X	Gloss=_
+7	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	8	case	X	Gloss=to, for, by etc.
+8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	4	obl	X	Gloss=emphasising particle
 
 # sent_id = S0006-1458
 # text = ɫ. .i. cein nadṁbid fortacht dé desom ní boi ní nogabad díbsom tabart fochaide foir
