@@ -24827,15 +24827,15 @@
 # sent_id = S0006-1754
 # text = .i. nant ní les in sommae pecthach·
 # text_en = i.e. that the sinful rich man is nothing to him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	nant	_	_	_	_	_	_	_	_
-2	na	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-3	nt	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-4	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
-5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-6	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-7	sommae	sommae 2	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=rich, wealthy
-8	pecthach	pecthach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=sinful, committing sin
+2	na	ná 2	PART	particle_negative_subordinate	_	3	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+3	nt	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
+4	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	0	root	X	Gloss=something; nothing, anything ; not
+5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+6	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
+7	sommae	sommae 2	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	4	nsubj	X	Gloss=rich, wealthy
+8	pecthach	pecthach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	7	amod	X	Gloss=sinful, committing sin
 9	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1755
@@ -24978,16 +24978,16 @@
 # sent_id = S0006-1766
 # text = .i. indacraidecht .i. indrechtairecht indfuiilema [leg. fuillema]··
 # text_en = i.e. the litigation, i.e. the judicial exaction of the interest.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indacraidecht	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	acraidecht	acraidecht	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=litigation; legal action for recovery of a payment
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	acraidecht	acraidecht	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=litigation; legal action for recovery of a payment
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	indrechtairecht	_	_	_	_	_	_	_	_
 5	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	rechtairecht	rechtairecht	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=function of a rechtaire (steward, bailiff, administrator)
+6	rechtairecht	rechtairecht	NOUN	noun	Case=Nom|Number=Sing	3	conj	X	Gloss=function of a rechtaire (steward, bailiff, administrator)
 7	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	fuillema	fuillem	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of gaining; gain, profit, interest
+8	fuillema	fuillem	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	6	nmod	X	Gloss=the act of gaining; gain, profit, interest
 9	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1767
@@ -25652,14 +25652,14 @@
 # sent_id = S0006-1827
 # text = sancitís [leg. sanctís] linni tar ǽsi incethardai seo.
 # text_en = we have sanctís for these four things.
-1	sanctís	sanctus	ADJ	adjective	Degree=Pos	_	_	X	Gloss=sacred, holy, saintly
-2	lin	la	ADP	preposition	Person=1|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-3	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	sanctís	sanctus	ADJ	adjective	Degree=Pos	0	root	X	Gloss=sacred, holy, saintly
+2	lin	la	ADP	preposition	Person=1|Number=Plur|Case=Acc	1	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+3	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	1	nsubj	X	Gloss=emphasising particle
 4	tar	tar 1	ADP	preposition	Case=Acc	5	case	X	Gloss=over, across, covering
-5	ǽsi	éis 2	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=track, trace
-6	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-7	cethardai	cethardae	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=fourfold; subst.: four things
-8	seo	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+5	ǽsi	éis 2	NOUN	noun	Case=Acc|Number=Sing	1	obl	X	Gloss=track, trace
+6	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
+7	cethardai	cethardae	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	5	nmod	X	Gloss=fourfold; subst.: four things
+8	seo	-so	DET	particle_demonstrative_proximate	Deixis=Prox	7	det	X	Gloss=this, these
 9	.	.	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1828
