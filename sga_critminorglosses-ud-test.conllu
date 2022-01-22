@@ -20726,15 +20726,15 @@
 # text = isindigas .i. isindun daingen
 # text_en = in the elevated (place), i.e. in the strong fort.
 1-3	isindigas	_	_	_	_	_	_	_	_
-1	i	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-2	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	digas	dígas	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=high, elevated, lofty
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	i	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
+2	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	digas	dígas	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=high, elevated, lofty
+4	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 5-7	isindun	_	_	_	_	_	_	_	_
 5	i	i	ADP	preposition	Case=Dat	7	case	X	Gloss=in, into
 6	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	dun	dún	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=fort
-8	daingen	daingen	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=form, fast, strong,subst., a stronghold, fortress, enclosure, a strong body of troops, a bond, security
+7	dun	dún	NOUN	noun	Case=Dat|Number=Sing	3	conj	X	Gloss=fort
+8	daingen	daingen	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	7	amod	X	Gloss=form, fast, strong,subst., a stronghold, fortress, enclosure, a strong body of troops, a bond, security
 
 # sent_id = S0006-1371
 # text = .i. as huaisliu .i. fortachtae
@@ -21044,15 +21044,15 @@
 # sent_id = S0006-1413
 # text = .i. ní cuit broto acht is dogrés
 # text_en = i.e. it is not a passing moment; rather, it is forever.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=portion, part, share; a matter of, a mere
-4	broto	brothad	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=moment ; unit or small division of time
-5	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=portion, part, share; a matter of, a mere
+4	broto	brothad	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=moment ; unit or small division of time
+5	acht	acht 1	PART	particle_focus	_	8	cc	X	Gloss=except, but, provided that, save that
+6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
 7-8	dogrés	_	_	_	_	_	_	_	_
 7	do	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
-8	grés	grés 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=continance, continuation, practice
+8	grés	grés 2	NOUN	noun	Case=Dat|Number=Sing	3	conj	X	Gloss=continance, continuation, practice
 
 # sent_id = S0006-1414
 # text = ingulban .i. áconguin chridi
@@ -21196,16 +21196,16 @@
 # sent_id = S0006-1427
 # text = .i. corub mesraigthe dau fulach afercae
 # text_en = i.e. that the endurance of His wrath might be moderated for him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	corub	_	_	_	_	_	_	_	_
-2	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	rub	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-4	mesraigthe	mesraigthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=moderate, temperate; measured, tempered, regulated
-5	dau	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
-6	fulach	folach	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=bearing, supporting, enduring; bearing witness, testifying, testimony
+2	co	co 4	SCONJ	complementiser	_	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	rub	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	4	cop	X	Gloss=to be
+4	mesraigthe	mesraigthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=moderate, temperate; measured, tempered, regulated
+5	dau	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	4	obl:prep	X	Gloss=to, for, by etc.
+6	fulach	folach	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=bearing, supporting, enduring; bearing witness, testifying, testimony
 7-8	afercae	_	_	_	_	_	_	_	_
-7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	8	_	X	Gloss=his, its
-8	fercae	ferg	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=anger
+7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	8	nmod:poss	X	Gloss=his, its
+8	fercae	ferg	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=anger
 
 # sent_id = S0006-1428
 # text = .i. ní intuasailcthid .i. connabeth in fenem and ní ed 〈in〉insin asrubart som air mad ed asberad usquequo domine obliuisceris me namma· 7 ni taibred in finem and ised rogigsed amal sodin airnacomarleicthe hifochaid etir .i. ciofut dundamroimnifese achomdiu· .i. nachamdermainte etir 7 nach [leg. nacham] chommairlíc hífochaid ised nobiad sin· manibed in finem and huare rundgab són · and ised guides amal sodin arnach n dermanadar dia hiforcenn .i. nachomairlecea [leg. nach comairlecea] hipein nadful·
