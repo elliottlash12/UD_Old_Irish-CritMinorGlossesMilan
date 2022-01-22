@@ -21692,14 +21692,14 @@
 # text_en = i.e. for helping him and for delivering him.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-4	diafortacht	_	_	_	_	_	_	_	_
-2	di	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
-3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=his, its
-4	fortacht	fortacht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of aiding, helping
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+2	di	do 1	ADP	preposition	Case=Dat	4	mark:prt	X	Gloss=to, for, by etc.
+3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	obj:poss	X	Gloss=his, its
+4	fortacht	fortacht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of aiding, helping
+5	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
 6-8	diasoirad	_	_	_	_	_	_	_	_
-6	di	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
-7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	_	X	Gloss=his, its
-8	soirad	sóerad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of freeing, delivering; deliverance
+6	di	do 1	ADP	preposition	Case=Dat	8	mark:prt	X	Gloss=to, for, by etc.
+7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	obj:poss	X	Gloss=his, its
+8	soirad	sóerad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of freeing, delivering; deliverance
 
 # sent_id = S0006-1467
 # text = roithinech
@@ -21891,15 +21891,15 @@
 # sent_id = S0006-1486
 # text = rondabiad cech maith tri buith hicoimtecht sennachrib
 # text_en = that they would have every good thing through being in the company of Sennacherib.
-1	ronda·biad	ad·tá	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfC|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
-2	cech	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Neut|PronType=Tot	_	det	X	Gloss=every, each, all, any
-3	maith	maith	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=good, right, noble
+1	ronda·biad	ad·tá	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfC|Aspect=Perf|RelType=Other	0	root	X	Gloss=to be, to exist,
+2	cech	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Neut|PronType=Tot	3	det	X	Gloss=every, each, all, any
+3	maith	maith	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	1	nsubj	X	Gloss=good, right, noble
 4	tri	tre	ADP	preposition	Case=Acc	5	case	X	Gloss=through (time or space), by means of, be reason of
-5	buith	both 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of being, existing, being hungry
+5	buith	both 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	1	xcomp:pred	X	Gloss=the act of being, existing, being hungry
 6-7	hicoimtecht	_	_	_	_	_	_	_	_
 6	hi	i	ADP	preposition	Case=Dat	7	case	X	Gloss=in, into
-7	coimtecht	coimtecht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of going together, accompanying; agreement, unity
-8	sennachrib	Sennacherib	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Sennacherib
+7	coimtecht	coimtecht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	5	advcl	X	Gloss=the act of going together, accompanying; agreement, unity
+8	sennachrib	Sennacherib	PROPN	proper_noun	Case=Gen|Number=Sing	7	obj	X	Gloss=Sennacherib
 
 # sent_id = S0006-1487
 # text = codudursed
@@ -22336,14 +22336,14 @@
 # sent_id = S0006-1535
 # text = .i. tris intuirim .i. tris intindrim
 # text_en = i.e. through the enumeration, i.e. through the carrying out.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2	tri	tre	ADP	preposition	Case=Acc	4	case	X	Gloss=through (time or space), by means of, be reason of
 3	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	tuirim	tuirem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of enumerating, recounting, telling, relating; number, account, list
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+4	tuirim	tuirem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of enumerating, recounting, telling, relating; number, account, list
+5	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 6	tri	tre	ADP	preposition	Case=Acc	8	case	X	Gloss=through (time or space), by means of, be reason of
 7	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	tindrim	tindrem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of performing, carrying out; behavior
+8	tindrim	tindrem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of performing, carrying out; behavior
 
 # sent_id = S0006-1536
 # text = innafeuchrae
