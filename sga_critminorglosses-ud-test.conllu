@@ -15088,7 +15088,7 @@
 3-4	hognimaib	_	_	_	_	_	_	_	_
 3	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 4	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-5	són	-són	PRON	particle_anaphoric	_	4	nsubj	X	Gloss=that (mentioned above) that is
+5	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-853
 # text = .i. ciddia
@@ -17578,14 +17578,14 @@
 # sent_id = S0006-1087
 # text = .i. sech is nondoirtais 7 arafoimtis intiu són
 # text_en = i.e. that is, which they should enslave and take into themselves.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	no·ndoirtais	dóeraid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to debase, to take captive, to capture
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	ara·foimtis	ar·foím	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to accept, to receive, to assume, to take, to agree to, to consent; to submit to; to permit, allow
-7	intiu	i	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=in, into
-8	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	sech	sech 2	X	conjunction	_	4	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	no·ndoirtais	dóeraid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	0	root	X	Gloss=to debase, to take captive, to capture
+5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
+6	ara·foimtis	ar·foím	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	4	conj	X	Gloss=to accept, to receive, to assume, to take, to agree to, to consent; to submit to; to permit, allow
+7	intiu	i	ADP	preposition	Person=3|Number=Plur|Case=Acc	6	obl:prep	X	Gloss=in, into
+8	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1088
 # text = .i. indfithis tete inpeccad ishí te [leg. tete] in pian innadiglae
@@ -17676,14 +17676,14 @@
 # text = isbes do som tra buith cen chomaccomla
 # text_en = it is a custom for him then to be without conjunctions.
 1-2	isbes	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	bes	bés 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
-3	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
-4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
-5	tra	trá	ADV	particle_discourse	_	_	_	X	Gloss=then, therefore, so, indeed, however, but
-6	buith	both 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of being, existing, being hungry
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	bes	bés 1	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
+3	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	4	case	X	Gloss=to, for, by etc.
+4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	2	obl	X	Gloss=emphasising particle
+5	tra	trá	ADV	particle_discourse	_	2	advmod	X	Gloss=then, therefore, so, indeed, however, but
+6	buith	both 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	acl	X	Gloss=the act of being, existing, being hungry
 7	cen	cen	ADP	preposition	Case=Acc	8	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-8	chomaccomla	comaccomol	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=gramm. conjunction, conjugation, subjunctive mood
+8	chomaccomla	comaccomol	NOUN	noun	Case=Acc|Number=Plur	6	obl	X	Gloss=gramm. conjunction, conjugation, subjunctive mood
 
 # sent_id = S0006-1097
 # text = iura quae praediximus dorigensat intsommai frisnabochtu
@@ -17906,16 +17906,16 @@
 # sent_id = S0006-1116
 # text = .i. esamnu arcechlau duécnduch dǽ·
 # text_en = i.e. bolder every day in blaspheming God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	esamnu	esamain	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=bold, fearless, daring
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	esamnu	esamain	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=bold, fearless, daring
 3-5	arcechlau	_	_	_	_	_	_	_	_
 3	ar	ar 1	ADP	preposition	Case=Dat	5	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 4	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	5	det	X	Gloss=every, each, all, any
-5	lau	laë	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=day, daytime
+5	lau	laë	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=day, daytime
 6-7	duécnduch	_	_	_	_	_	_	_	_
 6	du	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	écnduch	écndach	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=reviling, slandering, defaming
-8	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+7	écnduch	écndach	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=reviling, slandering, defaming
+8	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=god, deity, God
 9	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1117
