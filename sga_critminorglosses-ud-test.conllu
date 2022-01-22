@@ -18270,16 +18270,16 @@
 # sent_id = S0006-1155
 # text = .i. ácaratrad .i. nechbed chare do
 # text_en = i.e. their friendship, i.e. anyone that was a friend to him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	ácaratrad	_	_	_	_	_	_	_	_
-2	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	_	X	Gloss=their
-3	caratrad	caratrad	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=friendship, alliance
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	nmod:poss	X	Gloss=their
+3	caratrad	caratrad	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=friendship, alliance
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 5-6	nechbed	_	_	_	_	_	_	_	_
-5	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
-6	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-7	chare	carae 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=friend, relative
-8	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
+5	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	3	conj	7:nsubj|3:conj	Gloss=anyone, one, someone
+6	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	cop	X	Gloss=to be
+7	chare	carae 1	NOUN	noun	Case=Nom|Number=Sing	5	acl:relcl	X	Gloss=friend, relative
+8	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	7	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-1156
 # text = lase
@@ -18716,15 +18716,15 @@
 # sent_id = S0006-1190
 # text = .i. hiteste .i. inongraith [leg. inongaith] 7 flaithemnachtae
 # text_en = i.e. in the pouring forth, i.e. of the anointing and of kingship.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	hiteste	_	_	_	_	_	_	_	_
 2	hi	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
-3	teste	teistiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of pouring out, shedding
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	teste	teistiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of pouring out, shedding
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	ongaith	ongad	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of anointing; unction
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-8	flaithemnachtae	flaithemnacht	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=rule, sovereignty; princedom
+6	ongaith	ongad	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of anointing; unction
+7	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
+8	flaithemnachtae	flaithemnacht	NOUN	noun	Case=Gen|Number=Sing	6	conj	X	Gloss=rule, sovereignty; princedom
 
 # sent_id = S0006-1191
 # text = condaig
@@ -18826,14 +18826,14 @@
 # text = .i. atá hí lebraib ríg anisin
 # text_en = i.e. that is in the Books of Kings.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+2	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
 3	hí	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
-4	lebraib	lebor	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=book, volume
-5	ríg	rí	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=king
+4	lebraib	lebor	NOUN	noun	Case=Dat|Number=Plur	2	xcomp:pred	X	Gloss=book, volume
+5	ríg	rí	NOUN	noun	Case=Gen|Number=Plur	4	nmod	X	Gloss=king
 6-8	anisin	_	_	_	_	_	_	_	_
 6	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-8	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+7	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	2	nsubj	X	Gloss=substantivizing particle
+8	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	7	appos	X	Gloss=that one, those ones, the one in there ; that, those
 
 # sent_id = S0006-1200
 # text = .i. hithall .i. isindaimsirsin
