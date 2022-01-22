@@ -18838,30 +18838,30 @@
 # sent_id = S0006-1200
 # text = .i. hithall .i. isindaimsirsin
 # text_en = i.e. then, i.e. in that time.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	hithall	_	_	_	_	_	_	_	_
-2	hi	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-3	thall	tall	ADV	adverb	_	_	_	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	hi	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	0	root	X	Gloss=substantivizing particle
+3	thall	tall	ADV	adverb	_	2	advmod	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
+4	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 5-8	isindaimsirsin	_	_	_	_	_	_	_	_
 5	i	i	ADP	preposition	Case=Dat	7	case	X	Gloss=in, into
 6	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	aimsir	aimser	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=point or period of time, hour, tense
-8	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
+7	aimsir	aimser	NOUN	noun	Case=Dat|Number=Sing	2	conj	X	Gloss=point or period of time, hour, tense
+8	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	7	det	X	Gloss=that, those
 
-# sent_id = S0006-1201
+# sent_id = S0006-1201 - line 2 - nmod:poss|obj:poss
 # text = .i. asoiradsóm asnaib fochaidib son
 # text_en = i.e. namely, their deliverance from the tribulations.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	asoiradsóm	_	_	_	_	_	_	_	_
-2	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	_	X	Gloss=their
-3	soirad	sóerad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of freeing, delivering; deliverance
-4	sóm	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
+2	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	nmod:poss	X	Gloss=their
+3	soirad	sóerad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of freeing, delivering; deliverance
+4	sóm	nota augens	PRON	particle_pronominal	PronType=Prs	3	nmod	X	Gloss=emphasising particle
 5-6	asnaib	_	_	_	_	_	_	_	_
-5	a	a 7	ADP	preposition	Case=Dat	_	case	X	Gloss=out of, from
+5	a	a 7	ADP	preposition	Case=Dat	7	case	X	Gloss=out of, from
 6	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
-8	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+7	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	3	obl	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+8	son	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1202
 # text = ised inso dlomas
@@ -19524,14 +19524,14 @@
 # sent_id = S0006-1259
 # text = .i. apelugud 〈hobelugud〉 hobelaib 7 fomraid hicridiu
 # text_en = i.e. flattery with the lips and guile in the heart.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	apelugud	aipélugud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of flattering; adulation; caressing
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	apelugud	aipélugud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of flattering; adulation; caressing
 3	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
-4	belaib	bél	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=lip; in plural usually mouth
+4	belaib	bél	NOUN	noun	Case=Dat|Number=Plur	2	obl	X	Gloss=lip; in plural usually mouth
 5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	fomraid	fomraith	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=guile, deceit, betrayal
+6	fomraid	fomraith	NOUN	noun	Case=Nom|Number=Sing	2	conj	X	Gloss=guile, deceit, betrayal
 7	hi	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
-8	cridiu	cride	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=heart
+8	cridiu	cride	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=heart
 
 # sent_id = S0006-1260
 # text = asroinnea
