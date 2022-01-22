@@ -26870,15 +26870,15 @@
 # sent_id = S0006-1921
 # text = .i. cen foraithmet ananmae etir són dam
 # text_en = i.e. so that their name is not called to mind at all by me.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	cen	cen	ADP	preposition	Case=Acc	3	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-3	foraithmet	foraithmet	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of remembering, calling to mind; recollection
+3	foraithmet	foraithmet	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of remembering, calling to mind; recollection
 4-5	ananmae	_	_	_	_	_	_	_	_
-4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	_	X	Gloss=their
-5	nanmae	ainm	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=name, noun (gramm)
-6	etir	eter	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=between, among; both...and...
-7	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
-8	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
+4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	nmod:poss	X	Gloss=their
+5	nanmae	ainm	NOUN	noun	Case=Gen|Number=Sing	3	obj	X	Gloss=name, noun (gramm)
+6	etir	eter	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	X	Gloss=between, among; both...and...
+7	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
+8	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	3	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-1922
 # text = .i. cid cuit aforaitmit [leg. aforaithmit] dam
@@ -27109,16 +27109,16 @@
 # sent_id = S0006-1940
 # text = .i. tri deligud innacrích honaibsuanemnaib
 # text_en = i.e. through separation of the boundaries by the ropes.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	tri	tre	ADP	preposition	Case=Acc	3	case	X	Gloss=through (time or space), by means of, be reason of
-3	deligud	deiliugud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of separating, parting, distinguishing; distinction, difference
+3	deligud	deiliugud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of separating, parting, distinguishing; distinction, difference
 4-5	innacrích	_	_	_	_	_	_	_	_
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	crích	crích	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=boundary, limit, confines, territory, district, land, end, aim, purpose
+5	crích	crích	NOUN	noun	Case=Gen|Number=Plur	3	obj	X	Gloss=boundary, limit, confines, territory, district, land, end, aim, purpose
 6-8	honaibsuanemnaib	_	_	_	_	_	_	_	_
 6	ho	ó 1	ADP	preposition	Case=Dat	8	case	X	Gloss=from, out of, by
 7	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	suanemnaib	súainem	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=rope, cord, string
+8	suanemnaib	súainem	NOUN	noun	Case=Dat|Number=Plur	3	obl	X	Gloss=rope, cord, string
 
 # sent_id = S0006-1941
 # text = .i. doforscaig
@@ -27155,14 +27155,14 @@
 # sent_id = S0006-1945
 # text = nochs [leg. nochis] ind apstalacht són trissa cocrann·
 # text_en = i.e. that is, the apostleship through the lot.
-1	noch	noch 1	X	conjunction	_	_	_	X	Gloss=introduces a synonym or explanation: that is to say
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	noch	noch 1	X	conjunction	_	4	mark	X	Gloss=introduces a synonym or explanation: that is to say
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 3	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	apstalacht	apstalacht	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=apostleship, apostolate
-5	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+4	apstalacht	apstalacht	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=apostleship, apostolate
+5	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 6	tri	tre	ADP	preposition	Case=Acc	8	case	X	Gloss=through (time or space), by means of, be reason of
 7	ssa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	cocrann	cocrann	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=(casting of) lots
+8	cocrann	cocrann	NOUN	noun	Case=Acc|Number=Sing	4	obl	X	Gloss=(casting of) lots
 9	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1946
