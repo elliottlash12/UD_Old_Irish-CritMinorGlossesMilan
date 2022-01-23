@@ -24948,17 +24948,17 @@
 # text_en = the caution, i.e. that no one might break his oath.
 1-2	infaitigus	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	faitigus	faitigus	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=caution, heedfulness
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	faitigus	faitigus	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=caution, heedfulness
+3	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 4-6	arnate	_	_	_	_	_	_	_	_
-4	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-5	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-6	·te	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
-7	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
+4	ar	ara	SCONJ	complementiser	_	6	mark:prt	X	Gloss=in order that, so that
+5	na·	ná 2	PART	particle_negative_subordinate	_	6	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+6	·te	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	2	conj	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+7	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	X	Gloss=anyone, one, someone
 8-9	tria	_	_	_	_	_	_	_	_
 8	tri	tre	ADP	preposition	Case=Acc	10	case	X	Gloss=through (time or space), by means of, be reason of
-9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	_	X	Gloss=his, its
-10	lugae	lugae	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of swearing; oath
+9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	nmod:poss	X	Gloss=his, its
+10	lugae	lugae	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	6	obl	X	Gloss=the act of swearing; oath
 
 # sent_id = S0006-1765
 # text = dufuillem argait
@@ -25500,18 +25500,18 @@
 # sent_id = S0006-1814
 # text = .i. ní ric dia les neich dichumachtu huainni
 # text_en = i.e. God does not need any power from us.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·ric	ro·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to reach, to attain, to arrive, come to
-4	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
-5	les	les 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=relief, benefit, advantage, good, profit, interest, in compounds: substitute, not properly belonging, cause, case, affair, matter
-6	neich	ní 1	PRON	pronoun_quantifier	Case=Gen|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·ric	ro·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to reach, to attain, to arrive, come to
+4	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=god, deity, God
+5	les	les 1	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=relief, benefit, advantage, good, profit, interest, in compounds: substitute, not properly belonging, cause, case, affair, matter
+6	neich	ní 1	PRON	pronoun_quantifier	Case=Gen|Number=Sing	5	nmod	X	Gloss=something; nothing, anything ; not
 7-8	dichumachtu	_	_	_	_	_	_	_	_
 7	di	di	ADP	preposition	Case=Dat	8	case	X	Gloss=away, from, cause or reason, by
-8	chumachtu	cumachtae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=power, strength, might
+8	chumachtu	cumachtae	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=power, strength, might
 9-10	huainni	_	_	_	_	_	_	_	_
-9	huain	ó 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	_	_	X	Gloss=from, out of, by
-10	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+9	huain	ó 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	10	case	X	Gloss=from, out of, by
+10	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	3	obl	X	Gloss=emphasising particle
 
 # sent_id = S0006-1815
 # text = .i. sainaccuis do duaid sech cách
@@ -25812,19 +25812,19 @@
 # sent_id = S0006-1845
 # text = .i. illar .i. comtis cat[h]rai[g] frisellar
 # text_en = i.e. to the ground, i.e. so that [the] cities would be turned to the ground.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	illar	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Acc	3	case	X	Gloss=in, into
-3	llar	lár	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=floor, ground, surface
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	llar	lár	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=floor, ground, surface
+4	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 5-6	comtis	_	_	_	_	_	_	_	_
-5	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-6	mtis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-7	cathraig	cathair 1	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=city, fortified city, stone enclosure, fortress, monastic settlement
+5	co	co 4	SCONJ	complementiser	_	7	mark:prt	X	Gloss=so that, until (+independent, leniting)
+6	mtis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	cop	X	Gloss=to be
+7	cathraig	cathair 1	NOUN	noun	Case=Nom|Number=Plur	3	conj	X	Gloss=city, fortified city, stone enclosure, fortress, monastic settlement
 8-10	frisellar	_	_	_	_	_	_	_	_
 8	fri	fri	ADP	preposition	Case=Acc	10	case	X	Gloss=towards, against, standard of comparison
 9	se	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	llar	lár	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=floor, ground, surface
+10	llar	lár	NOUN	noun	Case=Acc|Number=Sing	7	obl	X	Gloss=floor, ground, surface
 
 # sent_id = S0006-1846
 # text = hond ammaim·
