@@ -19369,28 +19369,28 @@
 # text_en = of the friendship, i.e., with simplicity without guile and deceit.
 1-2	incaratrid	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	caratrid	caratrad	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=friendship, alliance
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	caratrid	caratrad	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=friendship, alliance
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	ɔdiuti	_	_	_	_	_	_	_	_
 4	ɔ	co 2	ADP	preposition	Case=Dat	5	case	X	Gloss=with, general accompaniment, connection, attendant circumstances
-5	diuti	díüite	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=simplicity, sincerity
+5	diuti	díüite	NOUN	noun	Case=Dat|Number=Sing	2	conj	X	Gloss=simplicity, sincerity
 6	cen	cen	ADP	preposition	Case=Acc	7	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-7	fomraid	fomraith	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=guile, deceit, betrayal
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-9	togais	togáes	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of deceiving; deceit, deception
+7	fomraid	fomraith	NOUN	noun	Case=Dat|Number=Sing	5	obl	X	Gloss=guile, deceit, betrayal
+8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+9	togais	togáes	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	7	conj	X	Gloss=the act of deceiving; deceit, deception
 
 # sent_id = S0006-1248
 # text = lechosmailius [leg. lethchosmailius] lesom inso trischotarsnae [leg. triachotarsnae]
 # text_en = he has here a half-comparison through its opposite.
-1	leth	leth	NOUN	noun	_	_	_	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
-2	chosmailius	cosmailius	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=likeness, similarity, resemblance; comparison
-3	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	leth	leth	NOUN	noun	_	0	root	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
+2	chosmailius	cosmailius	NOUN	noun	Case=Nom|Number=Sing	1	appos	X	Gloss=likeness, similarity, resemblance; comparison
+3	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	1	obl	X	Gloss=emphasising particle
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
-7	tri	tre	ADP	preposition	Case=Acc	_	case	X	Gloss=through (time or space), by means of, be reason of
-8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	_	_	X	Gloss=his, its
-9	chotarsnae	cotarsnae	ADJ	adjective	Case=Acc|Number=Sing|Degree=Pos	_	_	X	Gloss=opposite, opposing, contrary, adverse
+6	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	1	nsubj	X	Gloss=this one, these ones ; this, these
+7	tri	tre	ADP	preposition	Case=Acc	9	case	X	Gloss=through (time or space), by means of, be reason of
+8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	9	nmod:poss	X	Gloss=his, its
+9	chotarsnae	cotarsnae	ADJ	adjective	Case=Acc|Number=Sing|Degree=Pos	1	obl	X	Gloss=opposite, opposing, contrary, adverse
 
 # sent_id = S0006-1249
 # text = indísin
@@ -19902,17 +19902,17 @@
 # sent_id = S0006-1295
 # text = .i. issainred doib insin .i. epert gue
 # text_en = i.e. that is a characteristic of them, i.e. the speaking of falsehood.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	issainred	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	sainred	sainred	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=peculiar or belonging to (an individual), characteristic of; particular, special, set apart, peculiar property
-4	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	sainred	sainred	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=peculiar or belonging to (an individual), characteristic of; particular, special, set apart, peculiar property
+4	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	3	obl:prep	X	Gloss=to, for, by etc.
 5-6	insin	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-8	epert	eipert	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of saying; speech, statement, word
-9	gue	gáu	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=falsehood, lie
+6	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	3	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
+7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
+8	epert	eipert	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of saying; speech, statement, word
+9	gue	gáu	NOUN	noun	Case=Gen|Number=Sing	8	nmod	X	Gloss=falsehood, lie
 
 # sent_id = S0006-1296
 # text = dubal
