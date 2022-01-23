@@ -25031,15 +25031,15 @@
 # sent_id = S0006-1771
 # text = .i. huare as ren fuilem fuaní ara reilced do
 # text_en = i.e. because he pays interest on that which was lent to him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
-3	as·ren	as·ren	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to pay out, to render, to expend
-4	fuilem	fuillem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of gaining; gain, profit, interest
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	huare	úaire	SCONJ	conjunction	_	3	mark	X	Gloss=causal; coordinating and subordinating: when, since
+3	as·ren	as·ren	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to pay out, to render, to expend
+4	fuilem	fuillem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	xcomp	X	Gloss=the act of gaining; gain, profit, interest
 5	fu	fo	ADP	preposition	Case=Acc	7	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
 6	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-8	ara·reilced	ar·léici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	_	_	X	Gloss=to let out, to lend
-9	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
+7	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	4	obl	8:nsubj|4:obl	Gloss=substantivizing particle
+8	ara·reilced	ar·léici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	7	acl:relcl	X	Gloss=to let out, to lend
+9	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	8	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-1772
 # text = .i. ter〈achr〉ochraicci
@@ -26250,16 +26250,16 @@
 # text = níntanic ade ar is taipe inso·
 # text_en = that has not come to us, for this is an fragment.
 1-3	níntanic	_	_	_	_	_	_	_	_
-1	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-2	n·	1pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=we, us, ourselves
-3	·tanic	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to approach, to come to
-4	ade	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=that one, he, she, it, they
-5	ar	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-7	taipe	taipe	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of fragmenting; fragment, portion
+1	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+2	n·	1pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	3	inf:obj	X	Gloss=we, us, ourselves
+3	·tanic	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to approach, to come to
+4	ade	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Fem	3	nsubj	X	Gloss=that one, he, she, it, they
+5	ar	ar 2	SCONJ	conjunction	_	7	mark	X	Gloss=causal: since, for; final: so that
+6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
+7	taipe	taipe	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of fragmenting; fragment, portion
 8-9	inso·	_	_	_	_	_	_	_	_
 8	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
+9	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	7	nsubj	X	Gloss=this one, these ones ; this, these
 10	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1871
@@ -26343,15 +26343,16 @@
 # sent_id = S0006-1877
 # text = trisinderscaigthetaid .i. sainred dosom sech cach
 # text_en = through the preeminence, i.e. peculiar to it apart from others.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2	tri	tre	ADP	preposition	Case=Acc	4	case	X	Gloss=through (time or space), by means of, be reason of
 3	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	derscaigthetaid	derscaigthetu	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=excellence, preeminence
-5	sainred	sainred	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=peculiar or belonging to (an individual), characteristic of; particular, special, set apart, peculiar property
-6	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
-7	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
-8	sech	sech 1	ADP	preposition	Case=Acc	_	case	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
-9	cach	cách	PRON	pronoun_quantifier	Case=Acc|Number=Plur|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
+4	derscaigthetaid	derscaigthetu	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=excellence, preeminence
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	sainred	sainred	NOUN	noun	Case=Nom|Number=Sing	4	conj	X	Gloss=peculiar or belonging to (an individual), characteristic of; particular, special, set apart, peculiar property
+7	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	8	case	X	Gloss=to, for, by etc.
+8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	6	obl	X	Gloss=emphasising particle
+9	sech	sech 1	ADP	preposition	Case=Acc	10	case	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
+10	cach	cách	PRON	pronoun_quantifier	Case=Acc|Number=Plur|PronType=Tot	6	obl	X	Gloss=every one, each one, any one, all
 
 # sent_id = S0006-1878
 # text = sainretha noetarscarthi
