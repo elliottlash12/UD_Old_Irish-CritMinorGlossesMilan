@@ -21959,17 +21959,17 @@
 # sent_id = S0006-1494
 # text = .i. cu cuimsed dia les forsoirad arsenachrib
 # text_en = i.e. that, in his opinion, God could deliver you (pl) from Sennacherib.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	cu·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	·cuimsed	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to can, to be capable of; to be able, to have power over
-4	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
-5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	cu·	co 4	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	·cuimsed	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to can, to be capable of; to be able, to have power over
+4	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=god, deity, God
+5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 6-7	forsoirad	_	_	_	_	_	_	_	_
-6	for	2pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	7	_	X	Gloss=your ; your (pl.)
-7	soirad	sóerad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of freeing, delivering; deliverance
+6	for	2pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	7	obj:poss	X	Gloss=your ; your (pl.)
+7	soirad	sóerad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	xcomp	X	Gloss=the act of freeing, delivering; deliverance
 8-9	arsenachrib	_	_	_	_	_	_	_	_
 8	ar	ar 1	ADP	preposition	Case=Acc	9	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-9	senachrib	Sennacherib	PROPN	proper_noun	Case=Dat	_	_	X	Gloss=Sennacherib
+9	senachrib	Sennacherib	PROPN	proper_noun	Case=Dat	7	obl	X	Gloss=Sennacherib
 
 # sent_id = S0006-1495
 # text = innacennel
@@ -22299,16 +22299,16 @@
 # sent_id = S0006-1532
 # text = .i. nem insin nad chonrícthar sech nem nathrach
 # text_en = i.e. that is a venom that cannot be healed, beyond the venom of snakes.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	nem	neim	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=poison, venom
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	nem	neim	NOUN	noun	Case=Nom|Number=Sing	0	root	6:nsubj|0:root	Gloss=poison, venom
 3-4	insin	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-5	nadchon·	nádcon 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=never,not
-6	·rícthar	íccaid 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to cure, to heal; to save, to redeem; to solve
+4	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	2	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
+5	nadchon·	nádcon 1	PART	particle_negative_subordinate	_	6	advmod:neg	X	Gloss=never,not
+6	·rícthar	íccaid 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	2	acl:relcl	X	Gloss=to cure, to heal; to save, to redeem; to solve
 7	sech	sech 1	ADP	preposition	Case=Acc	8	case	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
-8	nem	neim	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=poison, venom
-9	nathrach	nathair	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=snake, serpent
+8	nem	neim	NOUN	noun	Case=Acc|Number=Sing	6	obl	X	Gloss=poison, venom
+9	nathrach	nathair	NOUN	noun	Case=Gen|Number=Plur	8	nmod	X	Gloss=snake, serpent
 
 # sent_id = S0006-1533
 # text = .i. ammrath
@@ -22468,17 +22468,17 @@
 # sent_id = S0006-1550
 # text = .i. ni mesa indas talam fortiresi
 # text_en = i.e. it is not worse than the ground of your land.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	mesa	olc	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=evil, bad, wrong
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	mesa	olc	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=evil, bad, wrong
 4-5	indas	_	_	_	_	_	_	_	_
-4	in·	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-5	·das	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to be, to exist,
-6	talam	talam	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=earth, world; ground ; land
+4	in·	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	mark	X	Gloss=the
+5	·das	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	3	advcl	X	Gloss=to be, to exist,
+6	talam	talam	NOUN	noun	Case=Nom|Number=Sing	5	obj	X	Gloss=earth, world; ground ; land
 7-9	fortiresi	_	_	_	_	_	_	_	_
-7	for	2pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	8	_	X	Gloss=your ; your (pl.)
-8	tire	tír	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=land; territory, country; earth, ground
-9	si	nota augens	PRON	particle_pronominal	Person=2|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+7	for	2pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	8	nmod:poss	X	Gloss=your ; your (pl.)
+8	tire	tír	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=land; territory, country; earth, ground
+9	si	nota augens	PRON	particle_pronominal	Person=2|Number=Plur|PronType=Prs	8	nmod	X	Gloss=emphasising particle
 
 # sent_id = S0006-1551
 # text = ondfoít .i. doimmarnad hosenachrib
