@@ -20462,30 +20462,26 @@
 # sent_id = S0006-1345
 # text = .i. arindí .i. pro eo quod
 # text_en = i.e. because.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2-4	arindí	_	_	_	_	_	_	_	_
-2	ar	ar 1	ADP	preposition	Case=Dat	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-3	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-5	arindí	arindí	X	conjunction	_	_	_	X	Gloss=causal: because, for the reason that
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-7	pro	prō	ADP	preposition	Case=Unk	_	case	X	Gloss=for, on behalf of, before
-8	eo	is (Lat)	PRON	pronoun_independent	PronType=Prs	_	_	X	Gloss=he, it, him, she, her, they, them
-9	quod	quī	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=who, which
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	arindí	arindí	X	conjunction	_	0	root	X	Gloss=causal: because, for the reason that
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+4	pro	prō	ADP	preposition	Case=Unk	5	case	X	Gloss=for, on behalf of, before
+5	eo	is (Lat)	PRON	pronoun_independent	PronType=Prs	2	conj	X	Gloss=he, it, him, she, her, they, them
+6	quod	quī	PRON	pronoun_relative	PronType=Rel	5	ref	X	Gloss=who, which
 
 # sent_id = S0006-1346
 # text = .i. conna bí ní frestai á mes ón
 # text_en = i.e. so that there is nothing which opposes its valuation.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	conna	_	_	_	_	_	_	_	_
-2	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	nna·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-4	·bí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-5	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
-6	fres·tai	fris·taít	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to come against, to be at variance with, to oppose
-7	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Neut|Poss=Yes|PronType=Prs|Person=3	_	_	X	Gloss=his, its
-8	mes	mes 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
-9	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+2	co	co 4	SCONJ	complementiser	_	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	nna·	ná 2	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+4	·bí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be, to exist,
+5	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	4	nsubj	6:nsubj|4:nsubj	Gloss=something; nothing, anything ; not
+6	fres·tai	fris·taít	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	5	acl:relcl	X	Gloss=to come against, to be at variance with, to oppose
+7	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Neut|Poss=Yes|PronType=Prs|Person=3	8	nmod:poss	X	Gloss=his, its
+8	mes	mes 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	6	obj	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
+9	ón	-ón	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-1347
 # text = .i. amal as
@@ -20551,18 +20547,18 @@
 25	na	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	26	_	X	Gloss=their
 26	labrad	labrad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of speaking; speech, utterance
 
-# sent_id = S0006-1351
+# sent_id = S0006-1351 - line 9 - reliqua
 # text = .i. sruthi nafetarlaice .i. abraam 7 isac rl.
 # text_en = i.e. the elders of the Old Testament, i.e., Abraham and Isaac etc.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	sruthi	sruith	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=senior, venerable, esteemed
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	sruthi	sruith	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	0	root	X	Gloss=senior, venerable, esteemed
 3-4	nafetarlaice	_	_	_	_	_	_	_	_
 3	na	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	fetarlaice	fetarlaic	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Old Testament
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	abraam	Abram	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Abraham
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-8	isac	Isác	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Isaac
+4	fetarlaice	fetarlaic	PROPN	proper_noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=Old Testament
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	abraam	Abram	PROPN	proper_noun	Case=Nom|Number=Sing	2	conj	X	Gloss=Abraham
+7	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
+8	isac	Isác	PROPN	proper_noun	Case=Nom|Number=Sing	6	conj	X	Gloss=Isaac
 9	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
 10	.	.	PUNCT	punctuation	_	_	_	_	_
 
