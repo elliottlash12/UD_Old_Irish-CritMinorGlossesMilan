@@ -14005,7 +14005,7 @@
 6	rain	rann 1	NOUN	noun	Case=Dat	2	obl	X	Gloss=part, share, division, part (of speech), portion
 7	pectha	peccad	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=sin
 8	bias	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to be, to exist,
-9	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	8	xcomp:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+9	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	8	xcomp:pred	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0006-763
 # text = cid
@@ -19429,19 +19429,19 @@
 # text = ishé securus· deid· marisar infer hisin
 # text_en = he is securus, careless, if that man should be found.
 1-2	ishé	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-3	securus·	sēcūrus	ADJ	adjective	Degree=Pos	_	_	X	Gloss=unconcerned, untroubled, careless
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=he, him, it
+3	securus·	sēcūrus	ADJ	adjective	Degree=Pos	2	amod	X	Gloss=unconcerned, untroubled, careless
 4	·	·	PUNCT	punctuation	_	_	_	_	_
-5	deid	deëid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=idle, unemployed; averse to toil or labour, inactive; careless, unconstrained, unembarrassed, undistressed, at ease
+5	deid	deëid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	2	amod	X	Gloss=idle, unemployed; averse to toil or labour, inactive; careless, unconstrained, unembarrassed, undistressed, at ease
 6	·	·	PUNCT	punctuation	_	_	_	_	_
 7-8	marisar	_	_	_	_	_	_	_	_
-7	m'	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-8	ar·isar	ar·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to come upon, to meet, to find; to happen upon; to effect, to contrive, to bring to pass
+7	m'	ma	SCONJ	conjunction	_	8	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+8	ar·isar	ar·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	2	advcl	X	Gloss=to come upon, to meet, to find; to happen upon; to effect, to contrive, to bring to pass
 9	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-10	fer	fer 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=man, person, pl. inhabitants
-11	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-12	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+10	fer	fer 1	NOUN	noun	Case=Nom|Number=Sing	8	nsubj	X	Gloss=man, person, pl. inhabitants
+11	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	10	appos	X	Gloss=substantivizing particle
+12	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	11	appos	X	Gloss=that one, those ones, the one in there ; that, those
 
 # sent_id = S0006-1254
 # text = .i. issamlid is deid som maarí inferso· maní nairi immurgu nídeid 7 isbronach abethu amal sodin·
@@ -19694,20 +19694,20 @@
 13	adi	-side	PRON	particle_anaphoric	Case=Gen|Number=Plur|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
 14	etir	eter	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=between, among; both...and...
 
-# sent_id = S0006-1276
+# sent_id = S0006-1276 - line 7 - cc|mark
 # text = .i. ní radat som frisudib acht breic 7 togais
 # text_en = i.e. they speak only lying and deceit to them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·radat	ráidid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to speak, to say, to tell
-4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·radat	ráidid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to speak, to say, to tell
+4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
 5-6	frisudib	_	_	_	_	_	_	_	_
-5	fri	fri	ADP	preposition	Case=Acc	_	case	X	Gloss=towards, against, standard of comparison
-6	sudib	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Plur|Gender=Masc	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-7	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-8	breic	bréc	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=falsehood, lie, deception
-9	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-10	togais	togáes	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of deceiving; deceit, deception
+5	fri	fri	ADP	preposition	Case=Acc	6	case	X	Gloss=towards, against, standard of comparison
+6	sudib	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Plur|Gender=Masc	3	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+7	acht	acht 1	CCONJ	conjunction	_	8	cc	X	Gloss=except, but, provided that, save that
+8	breic	bréc	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=falsehood, lie, deception
+9	7	ocus 2	CCONJ	conjunction	_	10	cc	X	Gloss=coordinating: and, since
+10	togais	togáes	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	8	conj	X	Gloss=the act of deceiving; deceit, deception
 
 # sent_id = S0006-1277
 # text = nísernat .i. níaisndedat
@@ -19745,16 +19745,16 @@
 # sent_id = S0006-1281
 # text = .i. is cummae mbis memnæ [leg. menmæ] cechtar de fri togais alaili
 # text_en = i.e. it is equally that the mind of each of them is [set] on the deceiving of the other.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	cummae	cummae	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=equally, in the same way; the same as, like
-4	mbis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-5	menmæ	menmae	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
-6	cechtar	cechtar	PRON	pronoun_quantifier	Case=Gen|Number=Sing	_	_	X	Gloss=each of two, either
-7	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	cummae	cummae	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=equally, in the same way; the same as, like
+4	mbis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	csubj:cleft	X	Gloss=to be, to exist,
+5	menmæ	menmae	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
+6	cechtar	cechtar	PRON	pronoun_quantifier	Case=Gen|Number=Sing	5	nmod	X	Gloss=each of two, either
+7	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	4	xcomp:pred	X	Gloss=away, from, cause or reason, by
 8	fri	fri	ADP	preposition	Case=Acc	9	case	X	Gloss=towards, against, standard of comparison
-9	togais	togáes	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of deceiving; deceit, deception
-10	alaili	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=other, the other
+9	togais	togáes	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	4	advcl	X	Gloss=the act of deceiving; deceit, deception
+10	alaili	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	9	obj	X	Gloss=other, the other
 
 # sent_id = S0006-1282
 # text = .i. briathra aildi lacechtar de frialaile 7 menmae togaise calleic lacechta[r] de·
