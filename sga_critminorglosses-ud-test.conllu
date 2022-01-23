@@ -17743,18 +17743,18 @@
 # text_en = that attention of mind, i.e. that punishment.
 1	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
 2-3	huánmenman	_	_	_	_	_	_	_	_
-2	huán	úan 3	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of lending; loan
-3	menman	menmae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
+2	huán	úan 3	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of lending; loan
+3	menman	menmae	NOUN	noun	Case=Gen|Number=Sing	2	obj	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
 4-5	hisin	_	_	_	_	_	_	_	_
-4	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=substantivizing particle
-5	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+4	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Fem	3	appos	X	Gloss=substantivizing particle
+5	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	4	appos	X	Gloss=that one, those ones, the one in there ; that, those
+6	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 7-8	indigail	_	_	_	_	_	_	_	_
 7	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	digail	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
+8	digail	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of avenging, punishing, vengeance
 9-10	hisin·	_	_	_	_	_	_	_	_
-9	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=substantivizing particle
-10	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+9	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Fem	8	appos	X	Gloss=substantivizing particle
+10	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	9	appos	X	Gloss=that one, those ones, the one in there ; that, those
 11	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1103
@@ -18513,17 +18513,17 @@
 # sent_id = S0006-1175
 # text = .i. sechis amal nongnetis ón gním innaithchi dorchi
 # text_en = i.e. that is, as though they did a deed on a dark night.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-5	no·ngnetis	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to do
-6	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
-7	gním	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+2	sech	sech 2	X	conjunction	_	5	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+4	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
+5	no·ngnetis	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	0	root	X	Gloss=to do
+6	ón	-ón	PRON	particle_anaphoric	_	5	nsubj	X	Gloss=that (aforementioned)
+7	gním	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	5	xcomp	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 8	i	i	ADP	preposition	Case=Dat	9	case	X	Gloss=in, into
-9	naithchi	adaig	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=night, eve of a day or festival
-10	dorchi	dorchae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=dark, gloomy, obscure
+9	naithchi	adaig	NOUN	noun	Case=Dat|Number=Sing	7	obl	X	Gloss=night, eve of a day or festival
+10	dorchi	dorchae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	9	amod	X	Gloss=dark, gloomy, obscure
 
 # sent_id = S0006-1176
 # text = .i. nephæscaidi·
@@ -19100,18 +19100,18 @@
 # sent_id = S0006-1220
 # text = .i. nídigenamni nach ngnim fornammestar som
 # text_en = i.e. we will not do any work on which He will not pass judgment.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	nídigenamni	_	_	_	_	_	_	_	_
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·digenam	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to do, to make
-4	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-5	nach	nach 1	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Masc|PronType=Ind	_	_	X	Gloss=any, every, each, some, none
-6	ngnim	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·digenam	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to do, to make
+4	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
+5	nach	nach 1	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Masc|PronType=Ind	6	amod	X	Gloss=any, every, each, some, none
+6	ngnim	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 7-9	fornammestar	_	_	_	_	_	_	_	_
-7	for	for	ADP	preposition	Case=Acc	_	case	X	Gloss=upon, over, on
-8	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-9	·mmestar	midithir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to adjudge, to measure, to appraise, to estimate
-10	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+7	for	for	ADP	preposition	Case=Acc	9	case	X	Gloss=upon, over, on
+8	na·	ná 2	PART	particle_negative_subordinate	_	9	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+9	·mmestar	midithir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	6	acl:relcl	X	Gloss=to adjudge, to measure, to appraise, to estimate
+10	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	9	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-1221
 # text = dufuisledar
