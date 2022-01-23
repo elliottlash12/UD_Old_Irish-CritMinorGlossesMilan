@@ -26577,12 +26577,12 @@
 # sent_id = S0006-1897
 # text = .i. isintsalm ubi dicit sanctis qui sunt rl.
 # text_en = i.e. in the psalm ubi etc.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	isintsalm	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
 3	sint	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	salm	salm	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=psalm
-5	ubi	ubi	ADV	adverb	_	_	_	X	Gloss=where, there
+4	salm	salm	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=psalm
+5	ubi	ubi	ADV	adverb	_	4	advmod	X	Gloss=where, there
 6	dicit	dīcō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to say, to declare, to call
 7	sanctis	sanctus	ADJ	adjective	Degree=Pos	_	_	X	Gloss=sacred, holy, saintly
 8	qui	quī	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=who, which
@@ -27343,18 +27343,18 @@
 # sent_id = S0006-1966
 # text = .i. cosnacoic anmanib sechtmugat· noch dachotar coirp immurgu
 # text_en = i.e. with the seventy-five souls; however, bodies nevertheless went thus.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-4	cosnacoic	_	_	_	_	_	_	_	_
 2	co	co 2	ADP	preposition	Case=Dat	5	case	X	Gloss=with, general accompaniment, connection, attendant circumstances
 3	sna	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-4	coic	cóic	NUM	numeral	_	_	_	X	Gloss=five
-5	anmanib	ainimm	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=soul (as opposed to the body)
-6	sechtmugat	sechtmogo	NUM	noun_numeral	Case=Gen|Number=Sing	_	_	X	Gloss=seventy
+4	coic	cóic	NUM	numeral	_	5	nummod	X	Gloss=five
+5	anmanib	ainimm	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=soul (as opposed to the body)
+6	sechtmugat	sechtmogo	NUM	noun_numeral	Case=Gen|Number=Sing	5	nummod	X	Gloss=seventy
 7	·	·	PUNCT	punctuation	_	_	_	_	_
-8	noch	noch 1	X	conjunction	_	_	_	X	Gloss=introduces a synonym or explanation: that is to say
-9	da·chotar	téit	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA|Aspect=Perf	_	_	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
-10	coirp	corp	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=human body, corpse, dead body, body of Eucharist, Communion, bulk, mass, main or central part, text
-11	immurgu	immurgu	ADV	particle_discourse	_	_	_	X	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
+8	noch	noch 1	X	conjunction	_	9	mark	X	Gloss=introduces a synonym or explanation: that is to say
+9	da·chotar	téit	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA|Aspect=Perf	5	parataxis	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+10	coirp	corp	NOUN	noun	Case=Nom|Number=Plur	9	nsubj	X	Gloss=human body, corpse, dead body, body of Eucharist, Communion, bulk, mass, main or central part, text
+11	immurgu	immurgu	ADV	particle_discourse	_	10	advmod	X	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
 
 # sent_id = S0006-1967
 # text = anisin
@@ -27509,17 +27509,17 @@
 # sent_id = S0006-1979
 # text = .i. issírun són inna fiurae [leg. fiugrae] rongab infaith
 # text_en = i.e. that is the mystic sense of the figure that the prophet uttered.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	issírun	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	sí	3sg.fem.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=she, her, it
-4	run	rún	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=mystery, secret
-5	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	sí	3sg.fem.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	4	nmod	X	Gloss=she, her, it
+4	run	rún	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=mystery, secret
+5	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 6	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	fiugrae	figor	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=figure, type, symbol
-8	ro·ngab	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+7	fiugrae	figor	NOUN	noun	Case=Gen|Number=Sing	4	nmod	8:obj|4:nmod	Gloss=figure, type, symbol
+8	ro·ngab	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	7	acl:relcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 9	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	faith	fáith	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=seer, prophet
+10	faith	fáith	NOUN	noun	Case=Nom|Number=Sing	8	nsubj	X	Gloss=seer, prophet
 
 # sent_id = S0006-1980
 # text = .i. intestimni
