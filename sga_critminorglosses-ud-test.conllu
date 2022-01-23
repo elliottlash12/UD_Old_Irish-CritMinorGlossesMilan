@@ -26719,16 +26719,16 @@
 # sent_id = S0006-1906
 # text = .i. asrubart anainm so do dia .i. uirtus·
 # text_en = i.e. he applied this name to God, i.e. uirtus.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	as·rubart	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	as·rubart	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to say, to speak, to call , mention
 3-4	anainm	_	_	_	_	_	_	_	_
 3	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	nainm	ainm	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=name, noun (gramm)
-5	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+4	nainm	ainm	NOUN	noun	Case=Acc|Number=Sing	2	obj	X	Gloss=name, noun (gramm)
+5	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	4	det	X	Gloss=this, these
 6	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=god, deity, God
-8	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-9	uirtus·	uirtūs	NOUN	noun	_	_	_	X	Gloss=manliness, virility; manhood; courage, resoluteness; goodness, virtue; character; excellence
+7	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=god, deity, God
+8	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
+9	uirtus·	uirtūs	NOUN	noun	_	2	conj	X	Gloss=manliness, virility; manhood; courage, resoluteness; goodness, virtue; character; excellence
 10	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1907
@@ -26889,18 +26889,18 @@
 # sent_id = S0006-1923
 # text = .i. maní dene chathu ocditin dothuathe
 # text_en = i.e. if you (sg) do not do battle in defense of your (sg) people.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	maní	_	_	_	_	_	_	_	_
-2	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-3	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	·dene	do·gní	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to do, to make
-5	chathu	cath	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=battle, fight, battalion
+2	ma	ma	SCONJ	conjunction	_	4	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+3	ní·	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+4	·dene	do·gní	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to do, to make
+5	chathu	cath	NOUN	noun	Case=Acc|Number=Plur	4	obj	X	Gloss=battle, fight, battalion
 6-7	ocditin	_	_	_	_	_	_	_	_
 6	oc	oc	ADP	preposition	Case=Dat	7	case	X	Gloss=at, by, besides, with (person)
-7	ditin	dítiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of protecting; protection, defense; covering, cover, shelter
+7	ditin	dítiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	advcl	X	Gloss=the act of protecting; protection, defense; covering, cover, shelter
 8-9	dothuathe	_	_	_	_	_	_	_	_
-8	do	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	9	_	X	Gloss=your (sg.)
-9	thuathe	túath	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=people, tribe, country
+8	do	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	9	nmod:poss	X	Gloss=your (sg.)
+9	thuathe	túath	NOUN	noun	Case=Gen|Number=Sing	7	obj	X	Gloss=people, tribe, country
 
 # sent_id = S0006-1924
 # text = .i. amal ba(d) n-ex hoc (uers)u in c(ru)th donemadathir mani cathaiged occae is si íc inna cestae sin les dominus pars rl.
@@ -27398,17 +27398,17 @@
 # sent_id = S0006-1972
 # text = .i. dugnuissiu ón nu dufortacht su·
 # text_en = i.e. that is, Your (sg) countenance, or, Your (sg) help.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	dugnuissiu	_	_	_	_	_	_	_	_
-2	du	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	3	_	X	Gloss=your (sg.)
-3	gnuis	gnúis	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=face, countenance; aspect, kind, form, species
-4	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-5	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
-6	nu	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+2	du	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	3	nmod:poss	X	Gloss=your (sg.)
+3	gnuis	gnúis	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=face, countenance; aspect, kind, form, species
+4	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	3	nmod	X	Gloss=emphasising particle
+5	ón	-ón	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (aforementioned)
+6	nu	nó 1	CCONJ	conjunction	_	8	cc	X	Gloss=disjunctive: or
 7-8	dufortacht	_	_	_	_	_	_	_	_
-7	du	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	8	_	X	Gloss=your (sg.)
-8	fortacht	fortacht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of aiding, helping
-9	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+7	du	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	8	nmod:poss	X	Gloss=your (sg.)
+8	fortacht	fortacht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of aiding, helping
+9	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	8	nmod	X	Gloss=emphasising particle
 10	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1973
