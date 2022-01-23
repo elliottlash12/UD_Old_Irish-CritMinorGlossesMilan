@@ -19847,19 +19847,17 @@
 # sent_id = S0006-1290
 # text = cid andes .i. acht inn(e) (i)nso (ad)fet
 # text_en = even what is right, i.e. but this, which he (the psalmist) says, is (the) sense.
-1-2	cid	_	_	_	_	_	_	_	_
-1	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-2	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3-4	andes	_	_	_	_	_	_	_	_
-3	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	ndes	des	ADJ	adjective	Case=Acc|Number=Sing|Degree=Pos	_	_	X	Gloss=right (direction), south, just, meet
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-7	inne	inne 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=middle, center, inward part; meaning, sense, signification; quality, real value
-8-9	(i)nso	_	_	_	_	_	_	_	_
-8	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-9	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
-10	ad·fet	ad·fét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to tell, to relate, to describe
+1	cid	cid 2	PART	particle_focus	_	3	advmod:emph	3:advmod:emph	Gloss=even
+2-3	andes	_	_	_	_	_	_	_	_
+2	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	ndes	des	ADJ	adjective	Case=Acc|Number=Sing|Degree=Pos	0	root	X	Gloss=right (direction), south, just, meet
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	acht	acht 1	CCONJ	conjunction	_	6	cc	X	Gloss=except, but, provided that, save that
+6	inne	inne 1	NOUN	noun	Case=Nom|Number=Sing	3	conj	X	Gloss=middle, center, inward part; meaning, sense, signification; quality, real value
+7-8	(i)nso	_	_	_	_	_	_	_	_
+7	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	8	det	X	Gloss=the
+8	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	6	nsubj	9:obj|6:nsubj	Gloss=this one, these ones ; this, these
+9	ad·fet	ad·fét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	8	acl:relcl	X	Gloss=to tell, to relate, to describe
 
 # sent_id = S0006-1291
 # text = innaginu
@@ -20114,19 +20112,20 @@
 # sent_id = S0006-1309
 # text = amal bite ingnimae issamlid infet som innaisndis
 # text_en = as the deeds are, it is so that he sets forth the explanation.
-1	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-2	bite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	amal	amail 2	SCONJ	conjunction	_	2	mark	X	Gloss=as, like; translating Latin ut
+2	bite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	advcl	X	Gloss=to be, to exist,
 3-4	ingnimae	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	gnimae	gním	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+4	gnimae	gním	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	2	nsubj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 5-6	issamlid	_	_	_	_	_	_	_	_
-5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-6	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=as, like
 7	in·fet	in·fét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to tell, to relate, to point out, to make known
-8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
+6	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	7	case	X	Gloss=as, like
+7	in·fet	in·fét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	2	root	X	Gloss=to tell, to relate, to point out, to make known
+8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	7	nsubj	X	Gloss=emphasising particle
 9-10	innaisndis	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	naisndis	aisndís	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
+10	naisndis	aisndís	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	7	obj	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
 
 # sent_id = S0006-1310
 # text = innangnimae
@@ -20210,19 +20209,19 @@
 # text = fomchridichfidersa oldia isbriathar de insin tra
 # text_en = I will be girded, says God; that, then, is the word of God.
 1-2	fomchridichfidersa	_	_	_	_	_	_	_	_
-1	fom·chridichfider	fo·cridigedar	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfA	_	_	X	Gloss=to gird
-2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	fom·chridichfider	fo·cridigedar	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfA	0	root	X	Gloss=to gird
+2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	1	nsubj	X	Gloss=emphasising particle
 3-4	oldia	_	_	_	_	_	_	_	_
-3	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to say
-4	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
+3	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	1	parataxis	X	Gloss=to say
+4	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=god, deity, God
 5-6	isbriathar	_	_	_	_	_	_	_	_
-5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-6	briathar	bríathar	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=word,
-7	de	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
+6	briathar	bríathar	NOUN	noun	Case=Nom|Number=Sing	1	parataxis	X	Gloss=word,
+7	de	día 2	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=god, deity, God
 8-9	insin	_	_	_	_	_	_	_	_
 8	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-10	tra	trá	ADV	particle_discourse	_	_	_	X	Gloss=then, therefore, so, indeed, however, but
+9	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	6	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
+10	tra	trá	ADV	particle_discourse	_	6	discourse	X	Gloss=then, therefore, so, indeed, however, but
 
 # sent_id = S0006-1318
 # text = it he sidi dugaithatar
