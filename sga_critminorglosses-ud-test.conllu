@@ -23014,17 +23014,15 @@
 # sent_id = S0006-1607
 # text = .i. cid terissem namma nírbu toraisse les
 # text_en = i.e. even merely to resist was not fitting for him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2-3	cid	_	_	_	_	_	_	_	_
-2	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	terissem	tairisem	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of remaining, staying, continuing, delaying, withstanding, resisting, standing out against; persistence, stability
-5	namma	nammá	PART	particle_focus	_	_	_	X	Gloss=only, merely
-6-7	nírbu	_	_	_	_	_	_	_	_
-6	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-7	rbu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-8	toraisse	toraise	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=fitting, suitable, meet; trustworthy, faithful, worthy of confidence
-9	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	cid	cid 2	PART	particle_focus	_	3	advmod:emph	3:advmod:emph	Gloss=even
+3	terissem	tairisem	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of remaining, staying, continuing, delaying, withstanding, resisting, standing out against; persistence, stability
+4	namma	nammá	PART	particle_focus	_	3	advmod:emph	X	Gloss=only, merely
+5-6	nírbu	_	_	_	_	_	_	_	_
+5	ní	ní 3	PART	particle_negative_main	_	6	advmod:neg	X	Gloss=not
+6	rbu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	7	cop	X	Gloss=to be
+7	toraisse	toraise	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	3	csubj:cleft	X	Gloss=fitting, suitable, meet; trustworthy, faithful, worthy of confidence
+8	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	7	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0006-1608
 # text = cisí chomairle ǽm
@@ -23142,16 +23140,16 @@
 # sent_id = S0006-1616
 # text = 7 is inpopul fadesin amal [sodin] duadchuridar ánd
 # text_en = and it is the people itself in that case who return there.
-1	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	7	ocus 2	CCONJ	conjunction	_	4	cc	X	Gloss=coordinating: and, since
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 3-4	inpopul	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	popul	popul	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
-5	fadesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
-6	amal	amail 1	ADP	preposition	Case=Acc	_	case	X	Gloss=as, like
-7	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-8	du·adchuridar	do·aithchuiredar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to return
-9	ánd	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=in, into
+4	popul	popul	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+5	fadesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	4	nmod	8:nsubj|4:nmod	Gloss=self
+6	amal	amail 1	ADP	preposition	Case=Acc	7	case	X	Gloss=as, like
+7	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	4	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+8	du·adchuridar	do·aithchuiredar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	acl:relcl	X	Gloss=to return
+9	ánd	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	8	obl:prep	X	Gloss=in, into
 
 # sent_id = S0006-1617
 # text = lase donaithfoicherr .i. deus
@@ -23530,15 +23528,15 @@
 # sent_id = S0006-1651
 # text = dunaib huilib indirsib .i. inrorthatar fochosmailiius [leg. fochosmailius] assar
 # text_en = to all those overrun [by love of sin and of vices], i.e. they invaded after the fashion of the Assyrians.
-1	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	huilib	uile	ADJ	adjective_quantifier	Case=Dat|Number=Plur|Gender=Masc	_	_	X	Gloss=all, every, the whole
-4	indirsib	indrise	ADJ	verbal_participle	Case=Dat|Number=Plur|Gender=Masc	_	_	X	Gloss=invaded, overrun
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	in·rorthatar	ind·reith	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to invade, to plunder, to lay waste, to devastate
+1	do	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
+2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	huilib	uile	ADJ	adjective_quantifier	Case=Dat|Number=Plur|Gender=Masc	0	root	X	Gloss=all, every, the whole
+4	indirsib	indrise	ADJ	verbal_participle	Case=Dat|Number=Plur|Gender=Masc	3	amod	X	Gloss=invaded, overrun
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	in·rorthatar	ind·reith	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	3	conj	X	Gloss=to invade, to plunder, to lay waste, to devastate
 7	fo	fo	ADP	preposition	Case=Acc	8	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-8	chosmailius	cosmailius	NOUN	noun	Case=Dat	_	_	X	Gloss=likeness, similarity, resemblance; comparison
-9	assar	Asar	PROPN	proper_noun	Case=Gen|Number=Plur	_	_	X	Gloss=Assyrian
+8	chosmailius	cosmailius	NOUN	noun	Case=Dat	6	obl	X	Gloss=likeness, similarity, resemblance; comparison
+9	assar	Asar	PROPN	proper_noun	Case=Gen|Number=Plur	8	nmod	X	Gloss=Assyrian
 
 # sent_id = S0006-1652
 # text = .i. nied amet demnigmini arndligeda hotestimnib screptaire intan nondascribam sed rl.
