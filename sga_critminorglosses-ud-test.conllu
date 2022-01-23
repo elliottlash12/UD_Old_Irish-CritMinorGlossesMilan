@@ -17638,11 +17638,11 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
 3	·rabae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to be, to exist,
-4	accuis	accuis	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=cause, reason, ground, offence, crime; hatred, enmity, rancor; disease, poison, venom
+4	accuis	accuis	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	7:nsubj|3:nsubj	Gloss=cause, reason, ground, offence, crime; hatred, enmity, rancor; disease, poison, venom
 5-7	arambeth	_	_	_	_	_	_	_	_
 5	ar	ar 1	ADP	preposition	Case=Acc	6	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-6	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	3	obl	X	Gloss=which, who, whose
-7	·mbeth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	6	acl:relcl	X	Gloss=to be, to exist,
+6	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	7	xcomp:pred	X	Gloss=which, who, whose
+7	·mbeth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	acl:relcl	X	Gloss=to be, to exist,
 8	enim	enim	ADV	particle_discourse	_	7	flat	X	Gloss=truly, for, so, because
 9	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	8	obl:prep	X	Gloss=in, into
 
@@ -18807,15 +18807,15 @@
 # sent_id = S0006-1197
 # text = .i. is indísin .i. isinditid
 # text_en = i.e. in him, i.e. in the defender.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
 3	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-5	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+4	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Masc	0	root	X	Gloss=substantivizing particle
+5	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	4	appos	X	Gloss=that one, those ones, the one in there ; that, those
+6	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
 7	i	i	ADP	preposition	Case=Dat	9	case	X	Gloss=in, into
 8	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	ditid	dítid	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=coverer; defender, champion
+9	ditid	dítid	NOUN	noun	Case=Dat|Number=Sing	4	conj	X	Gloss=coverer; defender, champion
 
 # sent_id = S0006-1198
 # text = catecht
@@ -19214,16 +19214,16 @@
 # sent_id = S0006-1231
 # text = .i. amal mbias agnim cáich 7 a airilliud
 # text_en = i.e. as the work of each and his desert will be.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	mbias	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	3	mark	X	Gloss=as, like; translating Latin ut
+3	mbias	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be, to exist,
 4-5	agnim	_	_	_	_	_	_	_	_
-4	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	5	_	X	Gloss=his, its
-5	gnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-6	cáich	cách	PRON	pronoun_quantifier	Case=Gen|Number=Sing|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	9	_	X	Gloss=his, its
-9	airilliud	áirilliud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of deserving, meriting
+4	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	5	nmod:poss	X	Gloss=his, its
+5	gnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	nsubj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+6	cáich	cách	PRON	pronoun_quantifier	Case=Gen|Number=Sing|PronType=Tot	5	nmod	X	Gloss=every one, each one, any one, all
+7	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	9	nmod:poss	X	Gloss=his, its
+9	airilliud	áirilliud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of deserving, meriting
 
 # sent_id = S0006-1232
 # text = nadndilga
@@ -19331,15 +19331,15 @@
 # text_en = of the open stain, i.e. of sin through which is death.
 1-2	innasaile	_	_	_	_	_	_	_	_
 1	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	saile	sal	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=sin, stain; dirt, filth, impurity, dross
-3	foilse	follus	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=clear, plain, evident ; manifest, open
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	pectha	peccad	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=sin
+2	saile	sal	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=sin, stain; dirt, filth, impurity, dross
+3	foilse	follus	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem|Degree=Pos	2	amod	X	Gloss=clear, plain, evident ; manifest, open
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	pectha	peccad	NOUN	noun	Case=Gen|Number=Sing	2	conj	8:nsubj|2:conj	Gloss=sin
 6-8	trisambí	_	_	_	_	_	_	_	_
-6	tri	tre	ADP	preposition	Case=Acc	_	case	X	Gloss=through (time or space), by means of, be reason of
-7	sa·	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-8	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-9	apaltu	eipeltu	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of dying, perishing; death
+6	tri	tre	ADP	preposition	Case=Acc	7	case	X	Gloss=through (time or space), by means of, be reason of
+7	sa·	-(s)a·	PRON	pronoun_relative	PronType=Rel	8	xcomp:pred	X	Gloss=which, who, whose
+8	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	acl:relcl	X	Gloss=to be, to exist,
+9	apaltu	eipeltu	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	8	xcomp	X	Gloss=the act of dying, perishing; death
 
 # sent_id = S0006-1244
 # text = innam béso [leg. bése] sainemlae
