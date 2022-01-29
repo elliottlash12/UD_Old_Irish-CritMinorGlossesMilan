@@ -17704,21 +17704,21 @@
 # sent_id = S0006-1098
 # text = .i. cenid epertaissom hobriathraib dagnitis hognimaib
 # text_en = i.e. though they did not use to say it in words they used to do it in deeds.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-4	cenid	_	_	_	_	_	_	_	_
-2	ce	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	d·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
+2	ce	cía 2	SCONJ	conjunction	_	5	mark	X	Gloss=concessive and explicative: even, although
+3	ni	ní 3	PART	particle_negative_main	_	5	advmod:neg	X	Gloss=not
+4	d·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	5	inf:obj	X	Gloss=it
 5-6	epertaissom	_	_	_	_	_	_	_	_
-5	·epertais	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to say, to speak, to call , mention
-6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	·epertais	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin	9	advcl	X	Gloss=to say, to speak, to call , mention
+6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
 7-8	hobriathraib	_	_	_	_	_	_	_	_
 7	ho	ó 1	ADP	preposition	Case=Dat	8	case	X	Gloss=from, out of, by
-8	briathraib	bríathar	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=word,
-9	da·gnitis	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	_	_	X	Gloss=to do, to make
+8	briathraib	bríathar	NOUN	noun	Case=Dat|Number=Plur	5	obl	X	Gloss=word,
+9	da·gnitis	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	0	root	X	Gloss=to do, to make
 10-11	hognimaib	_	_	_	_	_	_	_	_
 10	ho	ó 1	ADP	preposition	Case=Dat	11	case	X	Gloss=from, out of, by
-11	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+11	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	9	advcl	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-1099
 # text = arnasonartnaigedar
@@ -17874,21 +17874,21 @@
 # sent_id = S0006-1113
 # text = .i. aní ba buthi arthuus dothochur fodiud
 # text_en = i.e. to place last that which should have been first.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	aní	_	_	_	_	_	_	_	_
 2	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-4	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-5	buthi	buithi	X	verbal_of_necessity	_	_	_	X	Gloss=should be
+3	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	0	root	5:nsubj|0:root	Gloss=substantivizing particle
+4	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
+5	buthi	buithi	X	verbal_of_necessity	_	3	acl:relcl	X	Gloss=should be
 6-7	arthuus	_	_	_	_	_	_	_	_
 6	ar	ar 1	ADP	preposition	Case=Acc	7	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-7	thuus	tuüs	NOUN	noun	Case=Dat	_	_	X	Gloss=beginning ; forefront, precedence
+7	thuus	tuüs	NOUN	noun	Case=Dat	5	obl	X	Gloss=beginning ; forefront, precedence
 8-9	dothochur	_	_	_	_	_	_	_	_
-8	do	do 1	ADP	preposition	Case=Dat	9	case	X	Gloss=to, for, by etc.
-9	thochur	tochor	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of putting
+8	do	do 1	ADP	preposition	Case=Dat	9	mark:prt	X	Gloss=to, for, by etc.
+9	thochur	tochor	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	5	advcl	X	Gloss=the act of putting
 10-11	fodiud	_	_	_	_	_	_	_	_
 10	fo	fo	ADP	preposition	Case=Dat	11	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-11	diud	deäd	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=end, conclusion
+11	diud	deäd	NOUN	noun	Case=Dat|Number=Sing	9	obl	X	Gloss=end, conclusion
 
 # sent_id = S0006-1114
 # text = denaib michumachtgib
@@ -18371,16 +18371,16 @@
 # text = inna intled [leg. intleda] betis dillithi .i. betis imgabthib .i. indisaul
 # text_en = [it is] the snares which had to be turned aside, i.e. they had to be avoided, i.e. of the aforesaid Saul.
 1	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	intleda	intled	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of lying in wait, ambushing; snare, ambush
-3	betis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-4	dillithi	díllithi	X	verbal_of_necessity	_	_	_	X	Gloss=to be turned aside, to be deviated, to be bent
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	betis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-7	imgabthib	immgabthai	X	verbal_of_necessity	_	_	_	X	Gloss=to be avoided, to be shunned, to be evaded
-8	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	intleda	intled	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	0	root	4:nsubj|0:root	Gloss=the act of lying in wait, ambushing; snare, ambush
+3	betis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
+4	dillithi	díllithi	X	verbal_of_necessity	_	2	acl:relcl	X	Gloss=to be turned aside, to be deviated, to be bent
+5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
+6	betis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
+7	imgabthib	immgabthai	X	verbal_of_necessity	_	4	conj	X	Gloss=to be avoided, to be shunned, to be evaded
+8	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
 9	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	i	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-11	saul	Saul	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Saul
+10	i	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	7	conj	X	Gloss=substantivizing particle
+11	saul	Saul	PROPN	proper_noun	Case=Gen|Number=Sing	10	appos	X	Gloss=Saul
 
 # sent_id = S0006-1164
 # text = .i. nomdeithidnigthersa .i. huaibsi olsem [leg. olsesom] friamuntair
