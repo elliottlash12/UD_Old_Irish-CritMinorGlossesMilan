@@ -16832,17 +16832,18 @@
 # sent_id = S0006-1006
 # text = .i. tabairt innan [leg. inna] diglae argair denum nuilc fochosmailius aringair recht
 # text_en = i.e. the infliction of punishment hinders doing of evil just as the Law hinders it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	tabairt	tabart 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	tabairt	tabart 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
 3	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
-5	ar·gair	ar·gair	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to forbid, to hinder, to prevent
-6	denum	dénum	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
-7	nuilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+4	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	obj	X	Gloss=the act of avenging, punishing, vengeance
+5	ar·gair	ar·gair	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	2	csubj:cleft	X	Gloss=to forbid, to hinder, to prevent
+6	denum	dénum	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	5	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
+7	nuilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	6	obj	X	Gloss=evil, bad, wrong
+8-9	fochosmailius	_	_	_	_	_	_	_	_
 8	fo	fo	ADP	preposition	Case=Acc	9	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-9	chosmailius	cosmailius	NOUN	noun	Case=Dat	_	_	X	Gloss=likeness, similarity, resemblance; comparison
-10	arin·gair	ar·gair	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	_	_	X	Gloss=to forbid, to hinder, to prevent
-11	recht	recht	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=law
+9	chosmailius	cosmailius	NOUN	noun	Case=Dat	6	obl	X	Gloss=likeness, similarity, resemblance; comparison
+10	arin·gair	ar·gair	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	9	advcl	X	Gloss=to forbid, to hinder, to prevent
+11	recht	recht	NOUN	noun	Case=Nom|Number=Sing	10	nsubj	X	Gloss=law
 
 # sent_id = S0006-1007
 # text = .i. antandoini [leg. atandoini]
@@ -17360,17 +17361,17 @@
 # text_en = the continuation i.e. the multiplicity of the time they are in the service.
 1-2	ingresgugud	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	gresgugud	grésgugud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of continuing; continuance, continuation
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	ilardatu	ilardatu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=multiplicity, plurality
+2	gresgugud	grésgugud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of continuing; continuance, continuation
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	ilardatu	ilardatu	NOUN	noun	Case=Nom|Number=Sing	2	conj	X	Gloss=multiplicity, plurality
 5	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	aimsire	aimser	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=point or period of time, hour, tense
-7	mbite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+6	aimsire	aimser	NOUN	noun	Case=Gen|Number=Sing	4	nmod	7:obl:tmod|4:nmod	Gloss=point or period of time, hour, tense
+7	mbite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to be, to exist,
+8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	7	nsubj	X	Gloss=emphasising particle
 9-10	isind	_	_	_	_	_	_	_	_
 9	i	i	ADP	preposition	Case=Dat	11	case	X	Gloss=in, into
 10	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	fognam	fognam	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=service
+11	fognam	fognam	NOUN	noun	Case=Dat|Number=Sing	7	xcomp:pred	X	Gloss=service
 
 # sent_id = S0006-1062
 # text = incoissised
@@ -17658,20 +17659,20 @@
 # sent_id = S0006-1095
 # text = adruirim .i. línmaire innaaimsire rombói inbocht hifoummamugud do
 # text_en = he reckoned, i.e., [it is] the amount of time that the poor man had been in subjection to him.
-1	ad·ruirim	ad·rími	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to count, to enumerate, to reckon
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	línmaire	línmaire	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=amount, multiplicity
+1	ad·ruirim	ad·rími	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to count, to enumerate, to reckon
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	línmaire	línmaire	NOUN	noun	Case=Nom|Number=Sing	1	conj	X	Gloss=amount, multiplicity
 4-5	innaaimsire	_	_	_	_	_	_	_	_
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	aimsire	aimser	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=point or period of time, hour, tense
-6	ro·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
+5	aimsire	aimser	NOUN	noun	Case=Gen|Number=Sing	3	nmod	6:obl:tmod|3:nmod	Gloss=point or period of time, hour, tense
+6	ro·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	5	acl:relcl	X	Gloss=to be, to exist,
 7-8	inbocht	_	_	_	_	_	_	_	_
-7	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-8	bocht	bocht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=poor
+7	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
+8	bocht	bocht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	6	nsubj	X	Gloss=poor
 9-10	hifoummamugud	_	_	_	_	_	_	_	_
 9	hi	i	ADP	preposition	Case=Acc	10	case	X	Gloss=in, into
-10	foummamugud	foammamugud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of subjogating; subjection
-11	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
+10	foummamugud	foammamugud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	6	xcomp:pred	X	Gloss=the act of subjogating; subjection
+11	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	10	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-1096
 # text = isbes do som tra buith cen chomaccomla
@@ -20281,7 +20282,7 @@
 1	a	a 6	SCONJ	conjunction	_	3	mark	X	Gloss=temporal: when, since
 2	nnad·	nád 1	PART	particle_negative_subordinate	_	3	advmod:neg	X	Gloss=that...not
 3	·comairleciub	con·airléici	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to permit, to allow, to let go
-4	.i.	.i.	CCONJ	abbreviation	_	_6	cc	X	Gloss=id est, it is
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	nadndilgub	_	_	_	_	_	_	_	_
 5	nad·	nád 1	PART	particle_negative_subordinate	_	6	advmod:neg	X	Gloss=that...not
 6	·ndilgub	do·lugai	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	3	conj	X	Gloss=to forgive, to remit
