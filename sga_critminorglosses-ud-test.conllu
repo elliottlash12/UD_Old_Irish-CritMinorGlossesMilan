@@ -18385,19 +18385,19 @@
 # sent_id = S0006-1164
 # text = .i. nomdeithidnigthersa .i. huaibsi olsem [leg. olsesom] friamuntair
 # text_en = i.e. I am troubled, i.e., by you (pl), he says to his followers.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	nomdeithidnigthersa	_	_	_	_	_	_	_	_
-2	nom·deithidnigther	deithidnigidir	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfA	_	_	X	Gloss=to concern, to trouble
-3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	nom·deithidnigther	deithidnigidir	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfA	0	root	X	Gloss=to concern, to trouble
+3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 5-6	huaibsi	_	_	_	_	_	_	_	_
-5	huaib	ó 1	ADP	preposition	Person=2|Number=Plur|Case=Dat	_	_	X	Gloss=from, out of, by
-6	si	nota augens	PRON	particle_pronominal	Person=2|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-7	olse	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to say
-8	som	nota augens	PRON	particle_pronominal	Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	huaib	ó 1	ADP	preposition	Person=2|Number=Plur|Case=Dat	2	conj	X	Gloss=from, out of, by
+6	si	nota augens	PRON	particle_pronominal	Person=2|Number=Plur|PronType=Prs	5	obj	X	Gloss=emphasising particle
+7	olse	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	5	parataxis	X	Gloss=to say
+8	som	nota augens	PRON	particle_pronominal	Gender=Masc|PronType=Prs	7	nsubj	X	Gloss=emphasising particle
 9	fri	fri	ADP	preposition	Case=Acc	11	case	X	Gloss=towards, against, standard of comparison
-10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	11	_	X	Gloss=his, its
-11	muntair	muinter	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
+10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	11	nmod:poss	X	Gloss=his, its
+11	muntair	muinter	NOUN	noun	Case=Acc|Number=Sing	7	obl	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
 
 # sent_id = S0006-1165
 # text = .i. ind ingraimmae dorigensat
@@ -18889,17 +18889,17 @@
 # sent_id = S0006-1204
 # text = uel agit .i. deus 7 is securum bis ánd amal sodin
 # text_en = and it is securum which is there in that case.
-1	uel	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	agit	agō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to do, to make, to conduct
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	deus	deus	PROPN	proper_noun	_	_	_	X	Gloss=god, deity, God
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-7	securum	sēcūrus	ADJ	adjective	Degree=Pos	_	_	X	Gloss=unconcerned, untroubled, careless
-8	bis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-9	ánd	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=in, into
-10	amal	amail 1	ADP	preposition	Case=Acc	_	case	X	Gloss=as, like
-11	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+1	uel	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
+2	agit	agō	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=to do, to make, to conduct
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	deus	deus	PROPN	proper_noun	_	2	conj	X	Gloss=god, deity, God
+5	7	ocus 2	CCONJ	conjunction	_	7	cc	X	Gloss=coordinating: and, since
+6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
+7	securum	sēcūrus	ADJ	adjective	Degree=Pos	4	conj	X	Gloss=unconcerned, untroubled, careless
+8	bis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	csubj:cleft	X	Gloss=to be, to exist,
+9	ánd	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	8	xcomp:pred:prep	X	Gloss=in, into
+10	amal	amail 1	ADP	preposition	Case=Acc	11	case	X	Gloss=as, like
+11	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	8	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 
 # sent_id = S0006-1205
 # text = .i. fundfortacht
@@ -18964,17 +18964,18 @@
 # sent_id = S0006-1211
 # text = .i. atá asuide indisin innim
 # text_en = i.e. His seat is in heaven.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-4	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-5	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-6	suide	suide 2	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of sitting (down); seat
-7	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	i	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-9	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-10	i	i	ADP	preposition	Case=Dat	11	case	X	Gloss=in, into
-11	nnim	nem	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=heaven, the abode of the blessed, ceiling, sky
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+3-4	asuide	_	_	_	_	_	_	_	_
+3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	X	Gloss=his, its
+4	suide	suide 2	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	nsubj	X	Gloss=the act of sitting (down); seat
+5-7	indisin	_	_	_	_	_	_	_	_
+5	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
+6	i	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	4	nmod	X	Gloss=substantivizing particle
+7	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	6	appos	X	Gloss=that one, those ones, the one in there ; that, those
+8-9	innim	_	_	_	_	_	_	_	_
+8	i	i	ADP	preposition	Case=Dat	9	case	X	Gloss=in, into
+9	nnim	nem	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=heaven, the abode of the blessed, ceiling, sky
 
 # sent_id = S0006-1212
 # text = .i. clóither
