@@ -17045,18 +17045,20 @@
 # text = isbuidechu leu fortacht doib isnaib imnedaib quam isnaib soinnechaib [leg. soinmechaib]·
 # text_en = help to them in troubles is more satisfying to them than [help] in prosperity.
 1-2	isbuidechu	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	buidechu	buidech	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=satisfying, pleasingsatisfied, content, pleased
-3	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-4	fortacht	fortacht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of aiding, helping
-5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-6	quam	quam	SCONJ	conjunction	_	_	mark	X	Gloss=how, than
-7	i	i	ADP	preposition	Case=Dat	9	case	X	Gloss=in, into
-8	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	imnedaib	imned	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
-10	i	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-11	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-12	soinmechaib	soinmech	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=favorable, lucky, prosperous
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	buidechu	buidech	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=satisfying, pleasingsatisfied, content, pleased
+3	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	2	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+4	fortacht	fortacht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	csubj	X	Gloss=the act of aiding, helping
+5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	2	obl:prep	X	Gloss=to, for, by etc.
+6-7	isnaib	_	_	_	_	_	_	_	_
+6	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
+7	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	8	det	X	Gloss=the
+8	imnedaib	imned	NOUN	noun	Case=Dat|Number=Plur	2	obl	X	Gloss=tribulation, anxiety, suffering, sorrow
+9	quam	quam	SCONJ	conjunction	_	12	mark	X	Gloss=how, than
+10-11	isnaib	_	_	_	_	_	_	_	_
+10	i	i	ADP	preposition	Case=Dat	12	case	X	Gloss=in, into
+11	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	12	det	X	Gloss=the
+12	soinmechaib	soinmech	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	2	obl	X	Gloss=favorable, lucky, prosperous
 13	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1026
@@ -18935,22 +18937,22 @@
 # sent_id = S0006-1209
 # text = .i. cenafortacht hodia intan mbite isnaib imnedib
 # text_en = i.e. without help to them from God when they are in tribulations.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	cenafortacht	_	_	_	_	_	_	_	_
 2	cen	cen	ADP	preposition	Case=Acc	4	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-3	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=their
-4	fortacht	fortacht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of aiding, helping
+3	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	X	Gloss=their
+4	fortacht	fortacht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of aiding, helping
 5-6	hodia	_	_	_	_	_	_	_	_
 5	ho	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
-6	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=god, deity, God
+6	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=god, deity, God
 7-8	intan	_	_	_	_	_	_	_	_
 7	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	tan	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
-9	mbite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+8	tan	tan	NOUN	noun	Case=Acc|Number=Sing	4	obl:tmod	X	Gloss=time
+9	mbite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	8	acl:relcl	X	Gloss=to be, to exist,
 10-11	isnaib	_	_	_	_	_	_	_	_
 10	i	i	ADP	preposition	Case=Dat	12	case	X	Gloss=in, into
 11	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	12	det	X	Gloss=the
-12	imnedaib	imned	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
+12	imnedaib	imned	NOUN	noun	Case=Dat|Number=Plur	9	xcomp:pred	X	Gloss=tribulation, anxiety, suffering, sorrow
 
 # sent_id = S0006-1210
 # text = .i. ata incoimdiu
@@ -27666,20 +27668,20 @@
 # sent_id = S0006-1992
 # text = .i. honengraic uil[c] tarǽsi induilc dognither frím·
 # text_en = i.e. by the interchange of evil for the evil that is done to me.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	honengraic	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 3	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	engraic	engraic	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=place, stead, function
-5	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+4	engraic	engraic	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=place, stead, function
+5	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	4	nmod	X	Gloss=evil, bad, wrong
 6-7	tarǽsi	_	_	_	_	_	_	_	_
 6	tar	tar 1	ADP	preposition	Case=Acc	7	case	X	Gloss=over, across, covering
-7	ǽsi	éis 2	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=track, trace
+7	ǽsi	éis 2	NOUN	noun	Case=Acc|Number=Sing	4	obl	X	Gloss=track, trace
 8-9	induilc	_	_	_	_	_	_	_	_
-8	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-9	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
-10	do·gnither	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to do, to make
-11	frím	fri	ADP	preposition	Person=1|Number=Sing|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
+8	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	9	det	X	Gloss=the
+9	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	4	nmod	X	Gloss=evil, bad, wrong
+10	do·gnither	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	9	csubj:cleft	X	Gloss=to do, to make
+11	frím	fri	ADP	preposition	Person=1|Number=Sing|Case=Acc	10	obl:prep	X	Gloss=towards, against, standard of comparison
 12	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1993
