@@ -17525,21 +17525,21 @@
 # sent_id = S0006-1081
 # text = .i. dath firinne dothochur tarais 7 gau 7 fomraith fusuidiu calléic
 # text_en = i.e. to put the color of truth over it and, however, falsehood and treachery [being] under it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	dath	dath 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=color, hue; outward appearance, semblance of something, esp. what serves to conceal the truth
-3	firinne	fírinne	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=truth; justice, righteousness
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	dath	dath 1	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=color, hue; outward appearance, semblance of something, esp. what serves to conceal the truth
+3	firinne	fírinne	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=truth; justice, righteousness
 4-5	dothochur	_	_	_	_	_	_	_	_
 4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
-5	thochur	tochor	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of putting
-6	tarais	tar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=over, across, covering
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-8	gau	gáu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=falsehood, lie
-9	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-10	fomraith	fomraith	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=guile, deceit, betrayal
+5	thochur	tochor	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of putting
+6	tarais	tar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	5	obl:prep	X	Gloss=over, across, covering
+7	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
+8	gau	gáu	NOUN	noun	Case=Nom|Number=Sing	2	conj	X	Gloss=falsehood, lie
+9	7	ocus 2	CCONJ	conjunction	_	10	cc	X	Gloss=coordinating: and, since
+10	fomraith	fomraith	NOUN	noun	Case=Nom|Number=Sing	8	conj	X	Gloss=guile, deceit, betrayal
 11-12	fusuidiu	_	_	_	_	_	_	_	_
-11	fu	fo	ADP	preposition	Case=Dat	_	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-12	suidiu	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-13	calléic	calléic	ADV	adverb	_	_	_	X	Gloss=adversative: nevertheless, however, for all that
+11	fu	fo	ADP	preposition	Case=Dat	12	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+12	suidiu	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Sing|Gender=Neut	10	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+13	calléic	calléic	ADV	adverb	_	8	advmod	X	Gloss=adversative: nevertheless, however, for all that
 
 # sent_id = S0006-1082
 # text = .i. anathardanu
@@ -24885,20 +24885,20 @@
 # sent_id = S0006-1760
 # text = .i. is ed indas indfirseo beus átrefea hitabernacuil dé
 # text_en = i.e. this is the type of man further who shall dwell in the tabernacle of God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
-4	indas	indas	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of pointing out; manner, kind, nature, appearance, condition, method, way
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	4	nmod	X	Gloss=it
+4	indas	indas	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of pointing out; manner, kind, nature, appearance, condition, method, way
 5-7	indfirseo	_	_	_	_	_	_	_	_
-5	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-6	fir	fer 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=man, person, pl. inhabitants
-7	seo	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
-8	beus	beös	ADV	adverb	_	_	_	X	Gloss=still, yet, further, moreover, again, besides, also, in addition
-9	á·trefea	ad·treba	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to possess, to inhabit, to dwell in, to have
+5	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
+6	fir	fer 1	NOUN	noun	Case=Gen|Number=Sing	4	obj	9:nsubj|4:obj	Gloss=man, person, pl. inhabitants
+7	seo	-so	DET	particle_demonstrative_proximate	Deixis=Prox	6	det	X	Gloss=this, these
+8	beus	beös	ADV	adverb	_	6	advmod	X	Gloss=still, yet, further, moreover, again, besides, also, in addition
+9	á·trefea	ad·treba	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to possess, to inhabit, to dwell in, to have
 10-11	hitabernacuil	_	_	_	_	_	_	_	_
 10	hi	i	ADP	preposition	Case=Acc	11	case	X	Gloss=in, into
-11	tabernacuil	tabernacuil	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=tabernacle; God’s dwelling, heaven
-12	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+11	tabernacuil	tabernacuil	NOUN	noun	Case=Dat|Number=Sing	9	obl	X	Gloss=tabernacle; God’s dwelling, heaven
+12	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	11	nmod	X	Gloss=god, deity, God
 
 # sent_id = S0006-1761
 # text = áfirluge .i. ismaith les áfirlugae nothongad cach frialaile hirecht 7 ní chairigedar·
@@ -26466,18 +26466,18 @@
 # sent_id = S0006-1889
 # text = .i. sainred neulais leu is indan frisgniat sech cach fodglein olchene·
 # text_en = i.e. a particularity of knowledge among them in the craft that they practice, beyond every other who learns it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	sainred	sainred	NOUN	noun	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=peculiar or belonging to (an individual), characteristic of; particular, special, set apart, peculiar property
-3	neulais	éolus	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=experimental proof, experience; knowledge, information (especially gained through experience or practice, acquaintance)
-4	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	sainred	sainred	NOUN	noun	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=peculiar or belonging to (an individual), characteristic of; particular, special, set apart, peculiar property
+3	neulais	éolus	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=experimental proof, experience; knowledge, information (especially gained through experience or practice, acquaintance)
+4	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	2	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 5	i	i	ADP	preposition	Case=Dat	7	case	X	Gloss=in, into
 6	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	dan	dán	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=gift, bestowal, endowment, present; skill, science, artistic faculty, art, poem
-8	fris·gniat	fris·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to practise, to exercise, to serve
-9	sech	sech 1	ADP	preposition	Case=Acc	_	case	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
-10	cach	cách	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
-11	fod·glein	fo·gleinn	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	_	_	X	Gloss=to gather, to learn
-12	olchene	olchenae	ADV	adverb	_	_	_	X	Gloss=besides, the others, in addition, in general
+7	dan	dán	NOUN	noun	Case=Dat|Number=Sing	2	obl	8:obj|2:obl	Gloss=gift, bestowal, endowment, present; skill, science, artistic faculty, art, poem
+8	fris·gniat	fris·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	7	acl:relcl	X	Gloss=to practise, to exercise, to serve
+9	sech	sech 1	ADP	preposition	Case=Acc	10	case	X	Gloss=past, beyond; without, independently of, in disregard of, above, to a greater degree, more than
+10	cach	cách	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Tot	8	obl	11:nsubj|8:obl	Gloss=every one, each one, any one, all
+11	fod·glein	fo·gleinn	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	10	acl:relcl	X	Gloss=to gather, to learn
+12	olchene	olchenae	ADV	adverb	_	11	advmod	X	Gloss=besides, the others, in addition, in general
 13	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1890
