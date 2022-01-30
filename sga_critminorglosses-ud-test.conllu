@@ -22390,20 +22390,20 @@
 # sent_id = S0006-1542
 # text = .i. remiescsed .i. innephchumsanad indaim nohitengad [leg. intengad] dano
 # text_en = i.e. he would stretch forth, i.e. the non-ceasing of the hand or of the tongue then.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	remi·escsed	remi·escaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to stretch forth
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	remi·escsed	remi·escaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to stretch forth
+3	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 4-6	innephchumsanad	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-5	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
-6	chumsanad	cumsanad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of resting, ceasing, resposing, repose
+5	neph	neb-	X	particle_prefix	_	6	advmod:neg	X	Gloss=negative prefix ; non-, un-
+6	chumsanad	cumsanad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of resting, ceasing, resposing, repose
 7-8	indaim	_	_	_	_	_	_	_	_
 7	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	aim	amm 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=band, host; human hand
-9	no	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+8	aim	amm 2	NOUN	noun	Case=Gen|Number=Sing	6	obj	X	Gloss=band, host; human hand
+9	no	nó 1	CCONJ	conjunction	_	11	cc	X	Gloss=disjunctive: or
 10	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	tengad	tengae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=tongue (as organ of speech)
-12	dano	danó	ADV	particle_discourse	_	_	_	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
+11	tengad	tengae	NOUN	noun	Case=Gen|Number=Sing	8	conj	X	Gloss=tongue (as organ of speech)
+12	dano	danó	ADV	particle_discourse	_	11	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
 
 # sent_id = S0006-1543
 # text = .i. formur hierusalem
@@ -23189,22 +23189,22 @@
 # sent_id = S0006-1621
 # text = .i. sechis batrom foraib són centíchtain átíre fadesin
 # text_en = i.e. that is, it was heavy upon them, not going to their own land.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	sech	sech 2	X	conjunction	_	5	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-5	batrom	_	_	_	_	_	_	_	_
-4	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-5	trom	tromm 3	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=heavy, grave, serious, great, mighty, severe
-6	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=upon, over, on
-7	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+4	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+5	trom	tromm 3	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=heavy, grave, serious, great, mighty, severe
+6	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	5	obl:prep	X	Gloss=upon, over, on
+7	són	-són	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (mentioned above) that is
 8-9	centíchtain	_	_	_	_	_	_	_	_
 8	cen	cen	ADP	preposition	Case=Acc	9	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-9	tíchtain	tíchtu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of coming, coming to
+9	tíchtain	tíchtu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	5	advcl	X	Gloss=the act of coming, coming to
 10-11	átíre	_	_	_	_	_	_	_	_
-10	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	11	_	X	Gloss=their
-11	tíre	tír	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=land; territory, country; earth, ground
-12	fadesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
+10	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	11	nmod:poss	X	Gloss=their
+11	tíre	tír	NOUN	noun	Case=Gen|Number=Sing	9	obj	X	Gloss=land; territory, country; earth, ground
+12	fadesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	11	nmod	X	Gloss=self
 
 # sent_id = S0006-1622
 # text = .i. do dethrib
@@ -23263,20 +23263,20 @@
 # sent_id = S0006-1629
 # text = .i. atachur huli· etir deichtrub 7 detrib [leg. deichthriub 7 dethrib] israheldai huli
 # text_en = i.e. their return, all of them, both ten tribes and two tribes, all the Israelites.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	atachur	_	_	_	_	_	_	_	_
-2	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	_	X	Gloss=their
-3	tachur	taithchor	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of returning
-4	huli	uile	ADJ	adjective_quantifier	Case=Acc|Number=Plur|Gender=Masc	_	_	X	Gloss=all, every, the whole
-5	·	·	PUNCT	punctuation	_	_	_	_	_
-6	etir	eter	ADP	preposition	Case=Acc	7	case	X	Gloss=between, among; both...and...
-7	deich	deich	NUM	numeral	_	_	_	X	Gloss=ten
-8	thriub	triub	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=tribe
-9	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-10	de	da	NUM	adjective_numeral	_	10	nummod	X	Gloss=two
-11	thriub	triub	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=tribe
-12	israheldai	israeldae	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=Israelite
-13	huli	uile	ADJ	adjective_quantifier	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=all, every, the whole
+2	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	nmod:poss	X	Gloss=their
+3	tachur	taithchor	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of returning
+4	huli	uile	ADJ	adjective_quantifier	Case=Acc|Number=Plur|Gender=Masc	3	amod	X	Gloss=all, every, the whole
+5	·	·	PUNCT	punctuation	_	8	punct	8:punct	_
+6	etir	eter	ADP	preposition	Case=Acc	8	case	X	Gloss=between, among; both...and...
+7	deich	deich	NUM	numeral	_	8	nummod	X	Gloss=ten
+8	thriub	triub	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=tribe
+9	7	ocus 2	CCONJ	conjunction	_	11	cc	X	Gloss=coordinating: and, since
+10	de	da	NUM	adjective_numeral	_	11	nummod	X	Gloss=two
+11	thriub	triub	NOUN	noun	Case=Acc|Number=Sing	8	conj	X	Gloss=tribe
+12	israheldai	israeldae	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	8	nsubj	X	Gloss=Israelite
+13	huli	uile	ADJ	adjective_quantifier	Case=Nom|Number=Plur|Gender=Masc	12	amod	X	Gloss=all, every, the whole
 
 # sent_id = S0006-1630
 # text = .i. ɔnairleicthea asindoiri ho chir·
