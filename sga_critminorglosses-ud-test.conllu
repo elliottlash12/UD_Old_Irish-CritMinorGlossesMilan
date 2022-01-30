@@ -23641,21 +23641,21 @@
 # sent_id = S0006-1661
 # text = .i. ruucthar fricachrét 7 damunetarsom is fosodin rogabad
 # text_en = i.e. it can be applied to every thing and they think it is of that that it was uttered.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ru·ucthar	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ru·ucthar	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
 3-5	fricachrét	_	_	_	_	_	_	_	_
 3	fri	fri	ADP	preposition	Case=Acc	5	case	X	Gloss=towards, against, standard of comparison
 4	cach	cach	DET	adjective_quantifier	Case=Acc|Number=Sing|Gender=Masc|PronType=Tot	5	det	X	Gloss=every, each, all, any
-5	rét	rét 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=thing
-6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+5	rét	rét 1	NOUN	noun	Case=Acc|Number=Sing	2	obl	X	Gloss=thing
+6	7	ocus 2	CCONJ	conjunction	_	7	cc	X	Gloss=coordinating: and, since
 7-8	damunetarsom	_	_	_	_	_	_	_	_
-7	da·munetar	do·moinethar	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA	_	_	X	Gloss=to think, to suppose, to conjecture
-8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+7	da·munetar	do·moinethar	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA	2	conj	X	Gloss=to think, to suppose, to conjecture
+8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	7	nsubj	X	Gloss=emphasising particle
+9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	12	cop	X	Gloss=to be
 10-11	fosodin	_	_	_	_	_	_	_	_
-10	fo	fo	ADP	preposition	Case=Acc	_	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-11	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-12	ro·gabad	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+10	fo	fo	ADP	preposition	Case=Acc	11	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+11	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	12	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+12	ro·gabad	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	7	csubj:cleft	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 
 # sent_id = S0006-1662
 # text = .i. arrubart biuth
@@ -24103,23 +24103,23 @@
 # text_en = they would waver.
 1	no·roisfitis	roisid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	0:root	Gloss=to waver, to vacilliate
 
-# sent_id = S0006-1695
+# sent_id = S0006-1695 - line 12 - appos|flat
 # text = .i. ni rochreitset áníc donaib imnedaib .i. de manu assiriorum
 # text_en = i.e. they did not believe in their salvation from the afflictions, i.e., de manu Assyriorum.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	ro·chreitset	creitid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to believe, to trust
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	ro·chreitset	creitid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to believe, to trust
 4-5	áníc	_	_	_	_	_	_	_	_
-4	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	_	X	Gloss=their
-5	níc	ícc	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of healing, saving, curing, paying for, enduring; salvation, cure, redress, satisfaction, solution, answer (to a question or problem), requital, atonement, revenge, salvation
+4	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	nmod:poss	X	Gloss=their
+5	níc	ícc	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	obj	X	Gloss=the act of healing, saving, curing, paying for, enduring; salvation, cure, redress, satisfaction, solution, answer (to a question or problem), requital, atonement, revenge, salvation
 6-7	donaib	_	_	_	_	_	_	_	_
 6	do	di	ADP	preposition	Case=Dat	8	case	X	Gloss=away, from, cause or reason, by
 7	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	imnedaib	imned	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
-9	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-10	de	de (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=from, off, about
-11	manu	manus	NOUN	noun	_	_	_	X	Gloss=hand
-12	assiriorum	Assyrii	NOUN	noun	_	_	_	X	Gloss=_
+8	imnedaib	imned	NOUN	noun	Case=Dat|Number=Plur	3	obl	X	Gloss=tribulation, anxiety, suffering, sorrow
+9	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
+10	de	de (Lat)	ADP	preposition	Case=Unk	11	case	X	Gloss=from, off, about
+11	manu	manus	NOUN	noun	_	8	conj	X	Gloss=hand
+12	assiriorum	Assyrii	NOUN	noun	_	11	appos	X	Gloss=_
 
 # sent_id = S0006-1696
 # text = .i. ní hodoinib condaig aithesc sunt sed quaerit a deo quando dixit 〈dixit〉 domine quis habitabit
@@ -24327,19 +24327,19 @@
 # text = immenimgabamsón huand inuilliugud talmaidech .i. fortachtan dǽ tanaic talmaidiu doib·
 # text_en = that is, that we may avoid by the sudden protection, i.e., of the help of God that came suddenly to them.
 1-2	immenimgabamsón	_	_	_	_	_	_	_	_
-1	imme·nimgabam	imm·imgaib	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to avoid, to shun, to evade
-2	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+1	imme·nimgabam	imm·imgaib	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to avoid, to shun, to evade
+2	són	-són	PRON	particle_anaphoric	_	1	discourse	X	Gloss=that (mentioned above) that is
 3-4	huand	_	_	_	_	_	_	_	_
 3	hua	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
 4	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	inuilliugud	inilligud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of safe-guarding; protection
-6	talmaidech	talmaidech	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=sudden
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-8	fortachtan	fortacht	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of aiding, helping
-9	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
-10	tanaic	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to approach, to come to
-11	talmaidiu	talmaidiu	ADV	adverb	_	_	_	X	Gloss=suddenly
-12	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+5	inuilliugud	inilligud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	1	obl	X	Gloss=the act of safe-guarding; protection
+6	talmaidech	talmaidech	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	5	amod	X	Gloss=sudden
+7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
+8	fortachtan	fortacht	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	5	conj	X	Gloss=the act of aiding, helping
+9	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	8	nmod	10:nsubj|8:nmod	Gloss=god, deity, God
+10	tanaic	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	9	acl:relcl	X	Gloss=to approach, to come to
+11	talmaidiu	talmaidiu	ADV	adverb	_	10	advmod	X	Gloss=suddenly
+12	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	10	obl:prep	X	Gloss=to, for, by etc.
 13	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1713
