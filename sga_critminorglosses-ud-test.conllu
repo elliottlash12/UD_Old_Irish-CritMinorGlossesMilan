@@ -7290,7 +7290,7 @@
 25	techt	techt 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	22	csubj	X	Gloss=the act of going; messenger, gramm.ending
 26-27	isna	_	_	_	_	_	_	_	_
 26	i	i	ADP	preposition	Case=Acc	27	case	X	Gloss=in, into
-27	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	27	det	X	Gloss=the
+27	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	28	det	X	Gloss=the
 28	imratiu	immrádud	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	25	obl	X	Gloss=the act of thinking, deliberating
 29-30	fochosmailius	_	_	_	_	_	_	_	_
 29	fo	fo	ADP	preposition	Case=Acc	29	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
@@ -20437,21 +20437,21 @@
 # sent_id = S0006-1343
 # text = ɫ. admotione .i. honchumscugud .i. triaglanad hoten
 # text_en = or admotione, i.e. by the motion, i.e. through its purification by fire.
-1	ɫ.	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	admotione	admōtiō	NOUN	noun	_	_	_	X	Gloss=_
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	ɫ.	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
+2	admotione	admōtiō	NOUN	noun	_	0	root	X	Gloss=_
+3	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 4-6	honchumscugud	_	_	_	_	_	_	_	_
 4	ho	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
 5	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	chumscugud	cumscugud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of moving, changing; shift, mutation, transference, immutability
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+6	chumscugud	cumscugud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of moving, changing; shift, mutation, transference, immutability
+7	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
 8-10	triaglanad	_	_	_	_	_	_	_	_
 8	tri	tre	ADP	preposition	Case=Acc	10	case	X	Gloss=through (time or space), by means of, be reason of
-9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	10	_	X	Gloss=his, its
-10	glanad	glanad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of cleansing; purification, revision, correction, elision
+9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	10	nmod	X	Gloss=his, its
+10	glanad	glanad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	6	conj	X	Gloss=the act of cleansing; purification, revision, correction, elision
 11-12	hoten	_	_	_	_	_	_	_	_
 11	ho	ó 1	ADP	preposition	Case=Dat	12	case	X	Gloss=from, out of, by
-12	ten	teine 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=fire, lightning; gen. as attributive adj. blazing
+12	ten	teine 1	NOUN	noun	Case=Dat|Number=Sing	10	obl	X	Gloss=fire, lightning; gen. as attributive adj. blazing
 
 # sent_id = S0006-1344
 # text = .i. cenfubudur nairi
@@ -20924,21 +20924,21 @@
 # sent_id = S0006-1397
 # text = .i. it ilsailm dano hitadbadar foisitiu apecthae duduaid
 # text_en = i.e. there are many psalms, moreover, in which the confession of his sins by David is shown.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
 3-4	ilsailm	_	_	_	_	_	_	_	_
-3	il	il 1	ADJ	adjective	Degree=Pos	_	_	X	Gloss=many, abundant, manifold, numerous
-4	sailm	salm	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=psalm
-5	dano	danó	ADV	particle_discourse	_	_	_	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
+3	il	il 1	ADJ	adjective	Degree=Pos	0	root	X	Gloss=many, abundant, manifold, numerous
+4	sailm	salm	NOUN	noun	Case=Nom|Number=Plur	3	nsubj	7:obl|3:nsubj	Gloss=psalm
+5	dano	danó	ADV	particle_discourse	_	3	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
 6-7	hitadbadar	_	_	_	_	_	_	_	_
-6	hi	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-7	·tadbadar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to show, to display, to demonstrate, to appear
-8	foisitiu	foísitiu	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of confessing; confession, profession, concession, avowal, acknowledgment
+6	hi	i	ADP	preposition	Case=Acc	7	obl:prep	X	Gloss=in, into
+7	·tadbadar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	acl:relcl	X	Gloss=to show, to display, to demonstrate, to appear
+8	foisitiu	foísitiu	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	7	csubj	X	Gloss=the act of confessing; confession, profession, concession, avowal, acknowledgment
 9-10	apecthae	_	_	_	_	_	_	_	_
-9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	10	_	X	Gloss=his, its
-10	pecthae	peccad	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=sin
+9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	10	nmod:poss	X	Gloss=his, its
+10	pecthae	peccad	NOUN	noun	Case=Gen|Number=Plur	8	obj	X	Gloss=sin
 11	do	do 1	ADP	preposition	Case=Dat	12	case	X	Gloss=to, for, by etc.
-12	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=David
+12	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	8	obl	X	Gloss=David
 
 # sent_id = S0006-1398
 # text = iartain
@@ -21913,18 +21913,18 @@
 1-3	ontomaith	_	_	_	_	_	_	_	_
 1	o	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	tomaith	tomad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of threatening
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	tomaith	tomad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of threatening
+4	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 5-7	cenithaisid	_	_	_	_	_	_	_	_
-5	ce	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-6	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-7	·thaisid	do·tét	VERB	verb	Person[Subj]=2|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to come, to touch on, to mention, to go with, to apply to, in incident to, to submit to (with i rréir + gen)
+5	ce	cía 2	SCONJ	conjunction	_	7	mark	X	Gloss=concessive and explicative: even, although
+6	ni·	ní 3	PART	particle_negative_main	_	7	advmod:neg	X	Gloss=not
+7	·thaisid	do·tét	VERB	verb	Person[Subj]=2|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	10	advcl	X	Gloss=to come, to touch on, to mention, to go with, to apply to, in incident to, to submit to (with i rréir + gen)
 8	ar	ar 1	ADP	preposition	Case=Acc	9	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-9	ois	oäs	NOUN	noun	Case=Dat	_	_	X	Gloss=free-will, consent
-10	da·regaid	do·tét	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=2|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	_	_	X	Gloss=to come, to touch on, to mention, to go with, to apply to, in incident to, to submit to (with i rréir + gen)
+9	ois	oäs	NOUN	noun	Case=Dat	7	obl	X	Gloss=free-will, consent
+10	da·regaid	do·tét	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=2|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	3	conj	X	Gloss=to come, to touch on, to mention, to go with, to apply to, in incident to, to submit to (with i rréir + gen)
 11-12	arecin	_	_	_	_	_	_	_	_
 11	ar	ar 1	ADP	preposition	Case=Acc	12	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-12	ecin	éicen	NOUN	noun	Case=Dat	_	_	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
+12	ecin	éicen	NOUN	noun	Case=Dat	10	obl	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
 
 # sent_id = S0006-1489
 # text = cofotabothad
