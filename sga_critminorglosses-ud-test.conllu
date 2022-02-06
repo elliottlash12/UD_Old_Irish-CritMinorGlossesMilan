@@ -23340,19 +23340,19 @@
 # sent_id = S0006-1637
 # text = .i. remfoiti .i. asrubart pól .i. immeairic insalm so du iudeib 7 gentib
 # text_en = i.e. sent before, i.e. which Paul said, i.e. this psalm is appropriate to Jews and Gentiles.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	remfoiti	remḟoíte	ADJ	verbal_participle	Case=Acc|Number=Sing|Gender=Fem	_	_	X	Gloss=sent (placed) before, previously
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	as·rubart	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	imme·airic	imm·airicc	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	_	_	X	Gloss=to be appropriate to; to concern, to suit; to happen
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	remfoiti	remḟoíte	ADJ	verbal_participle	Case=Acc|Number=Sing|Gender=Fem	0	root	X	Gloss=sent (placed) before, previously
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	as·rubart	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	2	conj	X	Gloss=to say, to speak, to call , mention
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	imme·airic	imm·airicc	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA	4	conj	X	Gloss=to be appropriate to; to concern, to suit; to happen
 7	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	salm	salm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=psalm
-9	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+8	salm	salm	NOUN	noun	Case=Nom|Number=Sing	6	nsubj	X	Gloss=psalm
+9	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	8	det	X	Gloss=this, these
 10	du	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
-11	iudeib	Iúdaei	PROPN	proper_noun	Case=Dat|Number=Plur	_	_	X	Gloss=Jews
-12	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-13	gentib	geinti	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=gentiles, heathens, the heathen Norsemen
+11	iudeib	Iúdaei	PROPN	proper_noun	Case=Dat|Number=Plur	6	obl	X	Gloss=Jews
+12	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
+13	gentib	geinti	NOUN	noun	Case=Dat|Number=Plur	11	conj	X	Gloss=gentiles, heathens, the heathen Norsemen
 
 # sent_id = S0006-1638
 # text = .i. ní si accuis insin arinrogab duaid acht is do asraib intsainriud 7 issí tra inchetbuidsin forthet inlebur archiunn· uel propter praemisam caum causam .i. as di assaraib rogabad insalmso quæ non continetur .i ni fil ainm nassar isint salm immurgu ɔeperthe is dib rogabad intsainriud
@@ -24381,17 +24381,17 @@
 1-3	onmagistrecht	_	_	_	_	_	_	_	_
 1	o	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	magistrecht	magistrecht	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=office of a master or teacher
-4	ɫ.	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-5	magistri	magister	NOUN	noun	_	_	_	X	Gloss=teacher, master
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-7	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-9	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
+3	magistrecht	magistrecht	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=office of a master or teacher
+4	ɫ.	uel	CCONJ	conjunction	_	5	cc	X	Gloss=or, even
+5	magistri	magister	NOUN	noun	_	3	conj	X	Gloss=teacher, master
+6	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
+7	ɫ	nó 1	CCONJ	conjunction	_	9	cc	X	Gloss=disjunctive: or
+8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
+9	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	5	conj	X	Gloss=god, deity, God
 10	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	forcitlid	forcetlaid	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=teacher, instructor
-12	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-13	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+11	forcitlid	forcetlaid	NOUN	noun	Case=Nom|Number=Sing	9	nsubj	X	Gloss=teacher, instructor
+12	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	11	appos	X	Gloss=substantivizing particle
+13	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	12	appos	X	Gloss=that one, those ones, the one in there ; that, those
 14	.,	.,	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1716
@@ -25269,23 +25269,23 @@
 # sent_id = S0006-1784
 # text = .i. is and duacair infirinni hórbi lán alám ditherfochraic·
 # text_en = i.e. it is then that he declares the truth, after his hand has been filled with reward.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=in, into
-4	du·acair	do·accair	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to declare, to tell
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	4	obl:prep	X	Gloss=in, into
+4	du·acair	do·accair	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to declare, to tell
 5-6	infirinni	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	firinni	fírinne	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=truth; justice, righteousness
+6	firinni	fírinne	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=truth; justice, righteousness
 7-8	hórbi	_	_	_	_	_	_	_	_
-7	hó	ó 2	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: since, after (with subordinate clause)
-8	rbi	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-9	lán	lán	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=full of, filled with, complete, whole
+7	hó	ó 2	SCONJ	conjunction	_	9	mark	X	Gloss=temporal: since, after (with subordinate clause)
+8	rbi	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	9	cop	X	Gloss=to be
+9	lán	lán	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	4	advcl	X	Gloss=full of, filled with, complete, whole
 10-11	alám	_	_	_	_	_	_	_	_
-10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	11	_	X	Gloss=his, its
-11	lám	lám	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=hand, arm
+10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	11	nmod:poss	X	Gloss=his, its
+11	lám	lám	NOUN	noun	Case=Nom|Number=Sing	9	nsubj	X	Gloss=hand, arm
 12-13	ditherfochraic·	_	_	_	_	_	_	_	_
 12	di	di	ADP	preposition	Case=Dat	13	case	X	Gloss=away, from, cause or reason, by
-13	therfochraic	terḟochraicc	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=reward, recompense
+13	therfochraic	terḟochraicc	NOUN	noun	Case=Dat|Number=Sing	9	obl	X	Gloss=reward, recompense
 14	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1785
