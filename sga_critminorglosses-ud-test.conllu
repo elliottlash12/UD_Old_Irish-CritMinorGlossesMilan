@@ -19489,22 +19489,22 @@
 # sent_id = S0006-1255
 # text = .i. dudichestar .i. miastair .i. huaidfesin .i. ishe mes dombera fair fesin
 # text_en = i.e. will be led, i.e. will be judged, i.e., by himself, i.e. that is the judgment that he will pass on himself.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	du·dichestar	do·díchet	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to lead down, to bring down; to lead
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	miastair	midithir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to adjudge, to measure, to appraise, to estimate
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	du·dichestar	do·díchet	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to lead down, to bring down; to lead
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	miastair	midithir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	conj	X	Gloss=to adjudge, to measure, to appraise, to estimate
+5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 6-7	huaidfesin	_	_	_	_	_	_	_	_
-6	huaid	ó 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=from, out of, by
-7	fesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
-8	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+6	huaid	ó 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	7	case	X	Gloss=from, out of, by
+7	fesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	2	obl	X	Gloss=self
+8	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
 9-10	ishe	_	_	_	_	_	_	_	_
-9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-10	he	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-11	mes	mes 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
-12	do·mbera	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-13	fair	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=upon, over, on
-14	fesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
+9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	11	cop	X	Gloss=to be
+10	he	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	11	nmod	X	Gloss=he, him, it
+11	mes	mes 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
+12	do·mbera	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	11	csubj:cleft	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+13	fair	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	14	case	X	Gloss=upon, over, on
+14	fesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	12	obl	X	Gloss=self
 
 # sent_id = S0006-1256
 # text = fundali
@@ -19628,23 +19628,24 @@
 1	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
 2	togaise	togáes	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	0:root	Gloss=the act of deceiving; deceit, deception
 
-# sent_id = S0006-1270
+# sent_id = S0006-1270 - check line 4 (nes)
 # text = .i. amal as nesrantaid cech maith ind indithem andgaidsin inna ndoine
 # text_en = i.e. as that wicked intentness of men is deprived of every good.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
+3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
+4-5	nesrantaid	_	_	_	_	_	_	_	_
 4	nes	es-	X	particle_prefix	_	_	_	X	Gloss=privative prefix
-5	esrantaid	esranntaid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=non-participant, one deprived of a share
-6	cech	cach	DET	adjective_quantifier	Case=Gen|Number=Sing|Gender=Neut|PronType=Tot	_	det	X	Gloss=every, each, all, any
-7	maith	maith	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=good, right, noble
+5	esrantaid	esranntaid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=non-participant, one deprived of a share
+6	cech	cach	DET	adjective_quantifier	Case=Gen|Number=Sing|Gender=Neut|PronType=Tot	7	det	X	Gloss=every, each, all, any
+7	maith	maith	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	5	nmod	X	Gloss=good, right, noble
 8	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	indithem	indithem	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of contemplating; attention, heed, intentness, contemplation
-10	an	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
-11	andgaid	andgaid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=wicked, cruel, worthless
-12	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
-13	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	14	det	X	Gloss=the
-14	ndoine	duine	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=person, human being
+9	indithem	indithem	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	5	nsubj	X	Gloss=the act of contemplating; attention, heed, intentness, contemplation
+10-11	andgaidsin	_	_	_	_	_	_	_	_
+10	andgaid	andgaid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	9	amod	X	Gloss=wicked, cruel, worthless
+11	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	9	det	X	Gloss=that, those
+12	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	13	det	X	Gloss=the
+13	ndoine	duine	NOUN	noun	Case=Gen|Number=Plur	9	nmod	X	Gloss=person, human being
 
 # sent_id = S0006-1271
 # text = arachela ɫ. dogaitha
@@ -19682,24 +19683,24 @@
 # sent_id = S0006-1275
 # text = sechi donaib anetarcnaidib .i. nibiat som friatogais adi etir
 # text_en = to any strangers whatever, i.e. they do not seek to deceive them at all.
-1	sechi	sechi	X	pronoun_indefinite	Case=Nom|Number=Sing	_	_	X	Gloss=whoever, whatever, whichever
+1	sechi	sechi	X	pronoun_indefinite	Case=Nom|Number=Sing	5	det	X	Gloss=whoever, whatever, whichever
 2-3	donaib	_	_	_	_	_	_	_	_
-2	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
+2	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
+3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
 4-5	anetarcnaidib	_	_	_	_	_	_	_	_
-4	an	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
-5	etarcnaidib	etargnaid	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=known, recognized, understood
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+4	an	an-	X	particle_prefix	_	5	advmod:neg	X	Gloss=negative: non-, un-
+5	etarcnaidib	etargnaid	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	0	root	X	Gloss=known, recognized, understood
+6	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 7-8	nibiat	_	_	_	_	_	_	_	_
-7	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-8	·biat	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+7	ni	ní 3	PART	particle_negative_main	_	8	advmod:neg	X	Gloss=not
+8	·biat	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	conj	X	Gloss=to be, to exist,
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	9	nsubj	X	Gloss=emphasising particle
 10-12	friatogais	_	_	_	_	_	_	_	_
 10	fri	fri	ADP	preposition	Case=Acc	12	case	X	Gloss=towards, against, standard of comparison
-11	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	12	_	X	Gloss=their
-12	togais	togáes	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of deceiving; deceit, deception
-13	adi	-side	PRON	particle_anaphoric	Case=Gen|Number=Plur|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
-14	etir	eter	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=between, among; both...and...
+11	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	12	obj:poss	X	Gloss=their
+12	togais	togáes	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	8	xcomp:pred	X	Gloss=the act of deceiving; deceit, deception
+13	adi	-side	PRON	particle_anaphoric	Case=Gen|Number=Plur|Gender=Masc	12	obj	X	Gloss=that one, he, she, it, they
+14	etir	eter	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	8	advmod:emph	X	Gloss=between, among; both...and...
 
 # sent_id = S0006-1276 - line 7 - cc|mark
 # text = .i. ní radat som frisudib acht breic 7 togais
