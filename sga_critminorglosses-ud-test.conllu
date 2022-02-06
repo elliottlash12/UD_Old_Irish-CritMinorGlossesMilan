@@ -19548,20 +19548,20 @@
 # sent_id = S0006-1261
 # text = .i. amal rumbói abram 7 isac 7 iacob· air batar carait iresaig adi
 # text_en = i.e. as were Abraham and Isaac and Jacob, for they were faithful friends.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	ru·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
-4	abram	Abram	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Abraham
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	isac	Isác	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Isaac
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-8	iacob	Iäcob	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Jacob
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	3	mark	X	Gloss=as, like; translating Latin ut
+3	ru·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to be, to exist,
+4	abram	Abram	PROPN	proper_noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=Abraham
+5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
+6	isac	Isác	PROPN	proper_noun	Case=Nom|Number=Sing	4	conj	X	Gloss=Isaac
+7	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
+8	iacob	Iäcob	PROPN	proper_noun	Case=Nom|Number=Sing	4	conj	X	Gloss=Jacob
 9	·	·	PUNCT	punctuation	_	_	_	_	_
-10	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-11	batar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-12	carait	carae 1	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=friend, relative
-13	iresaig	iresach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=believing, faithful, pious
-14	adi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
+10	air	ar 2	SCONJ	conjunction	_	12	mark	X	Gloss=causal: since, for; final: so that
+11	batar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	12	cop	X	Gloss=to be
+12	carait	carae 1	NOUN	noun	Case=Nom|Number=Plur	3	advcl	X	Gloss=friend, relative
+13	iresaig	iresach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	12	amod	X	Gloss=believing, faithful, pious
+14	adi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	12	nsubj	X	Gloss=that one, he, she, it, they
 
 # sent_id = S0006-1262
 # text = arerchru
@@ -19999,21 +19999,21 @@
 # sent_id = S0006-1304
 # text = .i. airní ærbarad són hobriath hobriathraib acht is huare rongnith ingnimaib
 # text_en = i.e. for he would not have said this in words, except that it is because it had been done in deeds.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	airní	_	_	_	_	_	_	_	_
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	·ærbarad	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
-5	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+2	air	ar 2	SCONJ	conjunction	_	4	mark	X	Gloss=causal: since, for; final: so that
+3	ní·	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+4	·ærbarad	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to say, to speak, to call , mention
+5	són	-són	PRON	particle_anaphoric	_	4	nsubj	X	Gloss=that (mentioned above) that is
 6	hobriath	X	X	X	Typo=Yes	7	reparandum	X	Gloss=X|CorrectForm=Dittography
 7	ho	ó 1	ADP	preposition	Case=Dat	8	case	X	Gloss=from, out of, by
-8	briathraib	bríathar	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=word,
-9	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-10	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-11	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
-12	ro·ngnith	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do
+8	briathraib	bríathar	NOUN	noun	Case=Dat|Number=Plur	4	obl	X	Gloss=word,
+9	acht	acht 1	PART	particle_focus	_	12	mark	X	Gloss=except, but, provided that, save that
+10	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	12	cop	X	Gloss=to be
+11	huare	úaire	SCONJ	conjunction	_	12	mark	X	Gloss=causal; coordinating and subordinating: when, since
+12	ro·ngnith	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	4	conj	X	Gloss=to do
 13	i	i	ADP	preposition	Case=Dat	14	case	X	Gloss=in, into
-14	ngnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+14	ngnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	12	advcl	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-1305
 # text = indecmailte
@@ -20048,24 +20048,25 @@
 19	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
 20	·	·	PUNCT	punctuation	_	_	_	_	_
 
-# sent_id = S0006-1307
+# sent_id = S0006-1307 - check lines 9-10 for the missing copula 'is'
 # text = inbelrai .i. isand at [leg. atá] gním tengad is indhuiliu labramarni·
 # text_en = of speech, i.e. it is there that the action of the tongue is in all that we say.
 1-2	inbelrai	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	belrai	bélrae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=speech, language; dialect
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	belrai	bélrae	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=speech, language; dialect
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	isand	_	_	_	_	_	_	_	_
-4	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-5	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=in, into
-6	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-7	gním	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-8	tengad	tengae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=tongue (as organ of speech)
-9	i	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-10	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-11	huiliu	uile	ADJ	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=all, every, the whole
-12	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-13	labramar	labraithir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to speak, to talk, to utter
+4	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+5	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	2	conj	X	Gloss=in, into
+6	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	csubj:cleft	X	Gloss=to be, to exist,
+7	gním	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	6	csubj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+8	tengad	tengae	NOUN	noun	Case=Gen|Number=Sing	6	obj	X	Gloss=tongue (as organ of speech)
+9	i	i	ADP	preposition	Case=Dat	11	case	X	Gloss=in, into
+10	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	11	det	X	Gloss=the
+11	huiliu	uile	ADJ	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut	6	xcomp:pred	X	Gloss=all, every, the whole
+12-13	labramarni	_	_	_	_	_	_	_	_
+12	labramar	labraithir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	11	acl:relcl	X	Gloss=to speak, to talk, to utter
+13	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	12	nsubj	X	Gloss=emphasising particle
 14	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1308
