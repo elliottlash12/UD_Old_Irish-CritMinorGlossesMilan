@@ -17819,24 +17819,24 @@
 19	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	20	det	X	Gloss=the
 20	salmaib	salm	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=psalm
 
-# sent_id = S0006-1109
+# sent_id = S0006-1109 - isarindí
 # text = sechnisnærbatar [leg. ærbartatar] immurgu acht isarindí rondageinset hognimaib·
 # text_en = although they did not say them, however, but it is because they did them in deeds.
-1	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=them
-4	·nærbartatar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
-5	immurgu	immurgu	ADV	particle_discourse	_	_	_	X	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
-6	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-8	arindí	arindí	X	conjunction	_	_	_	X	Gloss=causal: because, for the reason that
-9	ar	ar 1	ADP	preposition	Case=Dat	11	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-10	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-12	ronda·geinset	gniïd	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do
-13	ho	ó 1	ADP	preposition	Case=Dat	14	case	X	Gloss=from, out of, by
-14	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-15	·	·	PUNCT	punctuation	_	_	_	_	_
+1-4	sechnisnærbatar	_	_	_	_	_	_	_	_
+1	sech	sech 2	X	conjunction	_	4	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+2	ni	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+3	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	4	inf:obj	X	Gloss=them
+4	·nærbartatar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to say, to speak, to call , mention
+5	immurgu	immurgu	ADV	particle_discourse	_	4	advmod	X	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
+6	acht	acht 1	CCONJ	conjunction	_	9	cc	X	Gloss=except, but, provided that, save that
+7-8	isarindí	_	_	_	_	_	_	_	_
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
+8	arindí	arindí	X	conjunction	_	9	mark	X	Gloss=causal: because, for the reason that
+9	ronda·geinset	gniïd	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	4	conj	X	Gloss=to do
+10-11	hognimaib	_	_	_	_	_	_	_	_
+10	ho	ó 1	ADP	preposition	Case=Dat	11	case	X	Gloss=from, out of, by
+11	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	9	advcl	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+12	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1110
 # text = .i. có
@@ -26987,21 +26987,21 @@
 # text_en = such, i.e. it will not be so that I shall defend my people.
 1-3	[ind]innisseo	_	_	_	_	_	_	_	_
 1	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	inni	inne 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=middle, center, inward part; meaning, sense, signification; quality, real value
-3	sseo	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	inni	inne 1	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=middle, center, inward part; meaning, sense, signification; quality, real value
+3	sseo	-so	DET	particle_demonstrative_proximate	Deixis=Prox	2	det	X	Gloss=this, these
+4	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 5-6	niba	_	_	_	_	_	_	_	_
-5	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-6	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-7	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=as, like
+5	ni	ní 3	PART	particle_negative_main	_	6	advmod:neg	X	Gloss=not
+6	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+7	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	8	case	X	Gloss=as, like
 8-9	doemsa	_	_	_	_	_	_	_	_
-8	do·em	do·eim	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to cover, to hide, to shelter; to protect, to defend
-9	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-10	mo	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	11	_	X	Gloss=my
-11	thuaid	túath	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=people, tribe, country
+8	do·em	do·eim	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	2	conj	X	Gloss=to cover, to hide, to shelter; to protect, to defend
+9	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
+10	mo	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	11	nmod:poss	X	Gloss=my
+11	thuaid	túath	NOUN	noun	Case=Acc|Number=Sing	8	obj	X	Gloss=people, tribe, country
 12-13	insin··	_	_	_	_	_	_	_	_
 12	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+13	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	2	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
 14	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1929
@@ -27595,22 +27595,22 @@
 # sent_id = S0006-1983
 # text = .i. inní immeforlaing guasacht dia íc són 7 diabethaid.,
 # text_en = i.e. into something which caused danger to his salvation and to his life.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	inní	_	_	_	_	_	_	_	_
-2	i	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-3	nní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
-4	imme·forlaing	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to cause, to produce, to make, to effect, to support
-5	guasacht	gúasacht	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=danger, peril, difficulty
+2	i	i	ADP	preposition	Case=Acc	3	case	X	Gloss=in, into
+3	nní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	0	root	4:nsubj|0:root	Gloss=something; nothing, anything ; not
+4	imme·forlaing	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to cause, to produce, to make, to effect, to support
+5	guasacht	gúasacht	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=danger, peril, difficulty
 6-7	dia	_	_	_	_	_	_	_	_
 6	di	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
-7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	_	X	Gloss=his, its
-8	íc	ícc	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of healing, saving, curing, paying for, enduring; salvation, cure, redress, satisfaction, solution, answer (to a question or problem), requital, atonement, revenge, salvation
-9	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
-10	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+7	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	obj:poss	X	Gloss=his, its
+8	íc	ícc	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	advcl	X	Gloss=the act of healing, saving, curing, paying for, enduring; salvation, cure, redress, satisfaction, solution, answer (to a question or problem), requital, atonement, revenge, salvation
+9	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
+10	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
 11-13	diabethaid.,	_	_	_	_	_	_	_	_
 11	di	do 1	ADP	preposition	Case=Dat	13	case	X	Gloss=to, for, by etc.
-12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	13	_	X	Gloss=his, its
-13	bethaid	bethu	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=life, existence, food, nourishment, property
+12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	13	nmod:poss	X	Gloss=his, its
+13	bethaid	bethu	NOUN	noun	Case=Dat|Number=Sing	8	conj	X	Gloss=life, existence, food, nourishment, property
 14	.,	.,	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1984
