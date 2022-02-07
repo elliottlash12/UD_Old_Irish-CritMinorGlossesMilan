@@ -9686,10 +9686,10 @@
 # sent_id = S0006-371
 # text = .i. amal bid nuide
 # text_en = i.e. as though it had been newish.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	nuide	nuaide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=newish, rather new, novel
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	4	mark	X	Gloss=as, like; translating Latin ut
+3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	nuide	nuaide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=newish, rather new, novel
 
 # sent_id = S0006-372
 # text = níruthochurestar .i. armbadnuae.
@@ -11242,11 +11242,11 @@
 # sent_id = S0006-530
 # text = .i. atabgabed farcaire.
 # text_en = i.e. let your (pl) reproach reprehend you (pl).
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	atab·gabed	ad·gaib	VERB	verb	Person[Obj]=2|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Impv|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to reprehend, to recover, to get back
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	atab·gabed	ad·gaib	VERB	verb	Person[Obj]=2|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Impv|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to reprehend, to recover, to get back
 3-4	farcaire	_	_	_	_	_	_	_	_
-3	far	2pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	4	_	X	Gloss=your ; your (pl.)
-4	caire	caire 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=crime, fault, sin
+3	far	2pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	4	nmod:poss	X	Gloss=your ; your (pl.)
+4	caire	caire 1	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=crime, fault, sin
 5	.	.	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-531
@@ -11467,11 +11467,11 @@
 # sent_id = S0006-551
 # text = .i. cenaéitsecht
 # text_en = i.e. without hearing him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	cenaéitsecht	_	_	_	_	_	_	_	_
 2	cen	cen	ADP	preposition	Case=Acc	4	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=his, its
-4	éitsecht	éitsecht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of hearing; faculty of hearing, listening
+3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	obj:poss	X	Gloss=his, its
+4	éitsecht	éitsecht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of hearing; faculty of hearing, listening
 
 # sent_id = S0006-552
 # text = (im)baloin [leg. imbabaloin]
@@ -11632,10 +11632,10 @@
 # sent_id = S0006-560
 # text = .i. rem dedoldae .i. rematindae
 # text_en = i.e. predawn, i.e. prematutinal.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	remdedoldae	remdedóldae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=preceding the dawn
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	rematindae	remmatindae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=before the early morning, prematutinal
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	remdedoldae	remdedóldae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=preceding the dawn
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	rematindae	remmatindae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	2	conj	X	Gloss=before the early morning, prematutinal
 
 # sent_id = S0006-561
 # text = uel notandum et sicut bis and [amal] sodin et síc disponitur fo sodin .i. notandum est hoc contra hereticos non solum enim indicat rl. sic ut rl.
@@ -11874,11 +11874,11 @@
 # sent_id = S0006-579
 # text = asbeir innadiad
 # text_en = which he mentions afterwards.
-1	as·beir	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
+1	as·beir	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	0	root	X	Gloss=to say, to speak, to call , mention
 2-4	innadiad	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Acc	4	case	X	Gloss=in, into
-3	nna	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=his, its
-4	diad	deäd	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=end, conclusion
+3	nna	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	X	Gloss=his, its
+4	diad	deäd	NOUN	noun	Case=Acc|Number=Sing	1	obl	X	Gloss=end, conclusion
 
 # sent_id = S0006-580
 # text = intecnatatu·
@@ -11976,10 +11976,10 @@
 # sent_id = S0006-588
 # text = .i. ingnímsón
 # text_en = the deed, namely.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	ngním	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-4	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+3	ngním	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+4	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-589
 # text = adamri
