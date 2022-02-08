@@ -19296,11 +19296,11 @@
 # sent_id = S0006-1241
 # text = .i. indforcitlada fordacain
 # text_en = i.e. of the teacher who teaches them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indforcitlada	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	forcitlada	forcetlaid	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=teacher, instructor
-4	forda·cain	for·cain	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	_	_	X	Gloss=to teach
+3	forcitlada	forcetlaid	NOUN	noun	Case=Gen|Number=Sing	0	root	4:nsubj|0:root	Gloss=teacher, instructor
+4	forda·cain	for·cain	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	3	acl:relcl	X	Gloss=to teach
 
 # sent_id = S0006-1242
 # text = .i. arandentar anindarbae maní eroimet aforcital 7 arnarogabthar midesmrecht díb
@@ -19817,19 +19817,19 @@
 # sent_id = S0006-1286
 # text = .i. lacechtar de
 # text_en = i.e. with each of them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	lacechtar	_	_	_	_	_	_	_	_
-2	la	la	ADP	preposition	Case=Acc	_	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-3	cechtar	cechtar	PRON	pronoun_quantifier	Case=Acc|Number=Sing	_	_	X	Gloss=each of two, either
-4	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
+2	la	la	ADP	preposition	Case=Acc	3	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+3	cechtar	cechtar	PRON	pronoun_quantifier	Case=Acc|Number=Sing	0	root	X	Gloss=each of two, either
+4	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=away, from, cause or reason, by
 
 # sent_id = S0006-1287
 # text = .i. cechtar de alaile
 # text_en = i.e. each of them the other.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	cechtar	cechtar	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=each of two, either
-3	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
-4	alaile	alaile	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Masc	_	_	X	Gloss=other, the other
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	cechtar	cechtar	PRON	pronoun_quantifier	Case=Nom|Number=Sing	0	root	X	Gloss=each of two, either
+3	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	4	case	X	Gloss=away, from, cause or reason, by
+4	alaile	alaile	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Masc	2	obl	X	Gloss=other, the other
 
 # sent_id = S0006-1288
 # text = .i. innadausa ón
@@ -19844,10 +19844,10 @@
 # sent_id = S0006-1289
 # text = .i. is accbur [leg. accobur] leu
 # text_en = i.e. it is a desire with them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	accobur	accobor	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of desiring, wishing; desire, wish, appetite
-4	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	accobur	accobor	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of desiring, wishing; desire, wish, appetite
+4	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	3	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0006-1290
 # text = cid andes .i. acht inn(e) (i)nso (ad)fet
@@ -20142,11 +20142,11 @@
 # sent_id = S0006-1311
 # text = .i. indaiso boicht
 # text_en = i.e. of the poor.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indaiso	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	aiso	áes 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=people, folk
-4	boicht	bocht	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=poor
+3	aiso	áes 2	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=people, folk
+4	boicht	bocht	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	3	amod	X	Gloss=poor
 
 # sent_id = S0006-1312
 # text = arincensai
@@ -20174,10 +20174,10 @@
 # text = aregisom .i. dauid
 # text_en = he complains, i.e. David.
 1-2	aregisom	_	_	_	_	_	_	_	_
-1	ar·egi	ar·égi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to lament, to cry out, to complain
-2	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	dauid	Dāuīd	PROPN	proper_noun	_	_	_	X	Gloss=_
+1	ar·egi	ar·égi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to lament, to cry out, to complain
+2	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	1	nsubj	X	Gloss=emphasising particle
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	dauid	Dāuīd	PROPN	proper_noun	_	2	conj	X	Gloss=_
 
 # sent_id = S0006-1315
 # text = .i. trímiairilliud ón
