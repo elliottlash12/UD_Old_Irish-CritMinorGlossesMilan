@@ -17031,11 +17031,11 @@
 # sent_id = S0006-1023
 # text = .i. honaib fortrommaib
 # text_en = i.e. from the oppressions.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	honaib	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	fortrommaib	fortrommae	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=oppressive weight; oppression
+4	fortrommaib	fortrommae	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=oppressive weight; oppression
 
 # sent_id = S0006-1024
 # text = indfortrummae
@@ -17165,11 +17165,11 @@
 # sent_id = S0006-1037
 # text = .i. isnaib innib
 # text_en = i.e. in the inward parts.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	isnaib	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
 3	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	innib	inne 1	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=middle, center, inward part; meaning, sense, signification; quality, real value
+4	innib	inne 1	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=middle, center, inward part; meaning, sense, signification; quality, real value
 
 # sent_id = S0006-1038
 # text = innanapelaigthe
@@ -17233,8 +17233,8 @@
 1	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
 3-4	nephpiandatu	_	_	_	_	_	_	_	_
-3	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
-4	piandatu	píandatu	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=liability to punishment, a state of punishment
+3	neph	neb-	X	particle_prefix	_	4	advmod:neg	X	Gloss=negative prefix ; non-, un-
+4	piandatu	píandatu	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=liability to punishment, a state of punishment
 
 # sent_id = S0006-1042
 # text = honacumachtaigfet
@@ -17340,11 +17340,11 @@
 # sent_id = S0006-1058
 # text = .i. ninadtodoichfet
 # text_en = i.e. it is not that they will not come.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	ninadtodoichfet	_	_	_	_	_	_	_	_
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-4	·todoichfet	do·doichbí	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to come
+2	ni	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+3	nad·	nád 1	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=that...not
+4	·todoichfet	do·doichbí	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to come
 
 # sent_id = S0006-1059
 # text = inmiaslaig
@@ -17415,8 +17415,8 @@
 1-3	hontecnatatu	_	_	_	_	_	_	_	_
 1	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	tecnatatu	tecnatatu	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=familiarity, intimacy
-4	forcmachtu	forcmachtae	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=that which is made; artificial
+3	tecnatatu	tecnatatu	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=familiarity, intimacy
+4	forcmachtu	forcmachtae	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Masc	3	amod	X	Gloss=that which is made; artificial
 
 # sent_id = S0006-1067
 # text = erdaircigidir
@@ -17899,11 +17899,11 @@
 # text = denaib michumachtgib
 # text_en = concerning the evil powers.
 1-2	denaib	_	_	_	_	_	_	_	_
-1	de	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
+1	de	di	ADP	preposition	Case=Dat	4	case	X	Gloss=away, from, cause or reason, by
+2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
 3-4	michumachtgib	_	_	_	_	_	_	_	_
-3	mi	mí-	X	particle_prefix	_	_	_	X	Gloss=bad, false
-4	chumachtgib	cumachtach	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=mighty, powerful
+3	mi	mí-	X	particle_prefix	_	4	amod	X	Gloss=bad, false
+4	chumachtgib	cumachtach	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	0	root	X	Gloss=mighty, powerful
 
 # sent_id = S0006-1115
 # text = forása
