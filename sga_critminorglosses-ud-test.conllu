@@ -12326,11 +12326,11 @@
 # sent_id = S0006-614
 # text = .i. inforcennson
 # text_en = i.e. the end, namely.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	inforcennson	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	forcenn	forcenn	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=end, final limit (generally of time or procedure), what is destined
-4	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+3	forcenn	forcenn	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=end, final limit (generally of time or procedure), what is destined
+4	son	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-615-metatextual?
 # text = .i. coni .i. pro ut ɫ. maní .i. pro sí
@@ -12671,10 +12671,10 @@
 # sent_id = S0006-644
 # text = .i. ferc .i. uindicta
 # text_en = anger.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ferc	ferg	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=anger
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	uindicta	uindicta	NOUN	noun	_	_	_	X	Gloss=_
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ferc	ferg	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=anger
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	uindicta	uindicta	NOUN	noun	_	2	conj	X	Gloss=_
 
 # sent_id = S0006-645
 # text = fíu
@@ -12747,10 +12747,10 @@
 # sent_id = S0006-650
 # text = .i. huanaimtib
 # text_en = i.e. by his enemies.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2	hua	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
-3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=his, its
-4	naimtib	námae	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=enemy, foe
+3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	X	Gloss=his, its
+4	naimtib	námae	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=enemy, foe
 
 # sent_id = S0006-651
 # text = .i. lax
@@ -12761,11 +12761,11 @@
 # sent_id = S0006-652
 # text = .i. cia inolcaib
 # text_en = in which evils (lit. what is it in evils).
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	cia	cía 1	X	pronoun_interrogative	_	0	root	X	Gloss=who, what, which
 3-4	inolcaib	_	_	_	_	_	_	_	_
-3	i	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-4	nolcaib	olc	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+3	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
+4	nolcaib	olc	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	2	obl	X	Gloss=evil, bad, wrong
 
 # sent_id = S0006-653
 # text = inna intlide
@@ -12896,10 +12896,10 @@
 # sent_id = S0006-661
 # text = .i. facto .i. dorigni achitofel
 # text_en = i.e. what Achitofel had done.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	facto	factum	NOUN	noun	_	_	_	X	Gloss=_
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	facto	factum	NOUN	noun	_	0	root	X	Gloss=_
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	2	conj	X	Gloss=to do, to make
 
 # sent_id = S0006-662 - ellipsis
 # text = foircthe .i. armbad dotabairt chomairle doabisolon notésed 7 arnabad lesom forlongais
@@ -12930,7 +12930,7 @@
 # sent_id = S0006-663
 # text = .i. indi chuissi
 # text_en = i.e. of that (aforementioned) Chus.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indi	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	i	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	0	root	X	Gloss=substantivizing particle
