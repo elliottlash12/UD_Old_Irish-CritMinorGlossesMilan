@@ -18458,10 +18458,10 @@
 # sent_id = S0006-1172
 # text = isindnepæscaidiu [leg. isindnephæscaidiu]
 # text_en = in the moonless.
-1	i	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-2	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
-4	æscaidiu	éscaide	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=provided with moonlight / the moon ; lunar
+1	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
+2	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
+3	neph	neb-	X	particle_prefix	_	4	advmod:neg	X	Gloss=negative prefix ; non-, un-
+4	æscaidiu	éscaide	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=provided with moonlight / the moon ; lunar
 
 # sent_id = S0006-1173
 # text = .i. cinidfil chairi linn
@@ -18623,11 +18623,11 @@
 # sent_id = S0006-1182
 # text = .i. anainm nadiacht·
 # text_en = i.e. the adjective.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	anainm	_	_	_	_	_	_	_	_
 2	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	nainm	ainm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=name, noun (gramm)
-4	nadiacht	adiacht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=gramm.: adjective
+3	nainm	ainm	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=name, noun (gramm)
+4	nadiacht	adiacht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	3	amod	X	Gloss=gramm.: adjective
 5	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1183
@@ -19137,10 +19137,10 @@
 # sent_id = S0006-1224
 # text = .i. dolin [leg. dolili] .i. asriri
 # text_en = i.e. it will adhere, i.e. it will pay
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	do·lili	do·lin 2	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to adhere to
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	as·riri	as·ren	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to pay out, to render, to expend
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	do·lili	do·lin 2	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to adhere to
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	as·riri	as·ren	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	2	conj	X	Gloss=to pay out, to render, to expend
 
 # sent_id = S0006-1225
 # text = intomus
@@ -19157,11 +19157,11 @@
 # sent_id = S0006-1227
 # text = briathar dǽ inso·
 # text_en = this the the Word of God.
-1	briathar	bríathar	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=word,
-2	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+1	briathar	bríathar	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=word,
+2	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	1	nmod	X	Gloss=god, deity, God
 3-4	inso·	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
+4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	1	nsubj	X	Gloss=this one, these ones ; this, these
 5	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1228
@@ -19202,10 +19202,10 @@
 # sent_id = S0006-1229
 # text = deugaigfit .i. ibait son
 # text_en = they will drink, i.e. they will drink it.
-1	deugaigfit	deugaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to drink
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	ibait	ibid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to drink
-4	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+1	deugaigfit	deugaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to drink
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	ibait	ibid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	1	conj	X	Gloss=to drink
+4	son	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1230
 # text = donaibtodalib
@@ -19288,10 +19288,10 @@
 # sent_id = S0006-1240
 # text = .i. robu cho adersetar
 # text_en = i.e. either [lit. it can be] so that they may be reformed.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	robu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-3	cho	co 3	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
-4	ad·ersetar	ad·eirrig	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to change (for the better), to emend, to improve, to repeat, to reiterate
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	robu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	4	cop	X	Gloss=to be
+3	cho	co 3	SCONJ	complementiser	_	4	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
+4	ad·ersetar	ad·eirrig	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to change (for the better), to emend, to improve, to repeat, to reiterate
 
 # sent_id = S0006-1241
 # text = .i. indforcitlada fordacain
