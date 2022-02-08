@@ -18096,10 +18096,9 @@
 # text = cidambec
 # text_en = even a little.
 1-4	cidambec	_	_	_	_	_	_	_	_
-1	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-2	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	mbec	bec	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=small, little of size or quantity
+1	cid	cid 2	PART	particle_focus	_	3	advmod:emph	X	Gloss=even
+2	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	mbec	bec	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=small, little of size or quantity
 
 # sent_id = S0006-1136
 # text = isinnaisndís
@@ -18182,7 +18181,7 @@
 # sent_id = S0006-1142
 # text = .i. is ind forcometas
 # text_en = i.e. in the preservation.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
 3	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
 4	forcometas	forcométas	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=watching, keeping, preserving
@@ -18197,10 +18196,10 @@
 # sent_id = S0006-1144
 # text = .i. acht it fíriana
 # text_en = i.e. but they are just.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-3	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	fíriana	fírían	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=just, righteous, fitting, truthful
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	acht	acht 1	CCONJ	conjunction	_	4	cc	X	Gloss=except, but, provided that, save that
+3	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	fíriana	fírían	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	0	root	X	Gloss=just, righteous, fitting, truthful
 
 # sent_id = S0006-1145
 # text = dogair
@@ -18405,10 +18404,10 @@
 # sent_id = S0006-1165
 # text = .i. ind ingraimmae dorigensat
 # text_en = i.e. of the persecution that they caused.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	ingraimmae	ingreimm 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of persecuting
-4	do·rigensat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
+3	ingraimmae	ingreimm 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of persecuting
+4	do·rigensat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to do, to make
 
 # sent_id = S0006-1166
 # text = annutesed
@@ -18444,19 +18443,17 @@
 # text = nephéscide .i. fortchide
 # text_en = moonless, i.e. covered.
 1-2	nephéscide	_	_	_	_	_	_	_	_
-1	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
-2	éscide	éscaide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=provided with moonlight / the moon ; lunar
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	fortchide	fortgide	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=covered, hidden, obscured
+1	neph	neb-	X	particle_prefix	_	2	advmod:neg	X	Gloss=negative prefix ; non-, un-
+2	éscide	éscaide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=provided with moonlight / the moon ; lunar
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	fortchide	fortgide	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	2	conj	X	Gloss=covered, hidden, obscured
 
 # sent_id = S0006-1171
 # text = cid int écndarcus
 # text_en = even the absence.
-1-2	cid	_	_	_	_	_	_	_	_
-1	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-2	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	écndarcus	écndarcus	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=absence, withdrawal from sight
+1	cid	cid 2	PART	particle_focus	_	3	advmod:emph	3:advmod:emph	Gloss=even
+2	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
+3	écndarcus	écndarcus	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=absence, withdrawal from sight
 
 # sent_id = S0006-1172
 # text = isindnepæscaidiu [leg. isindnephæscaidiu]
