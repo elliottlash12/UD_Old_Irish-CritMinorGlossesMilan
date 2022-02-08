@@ -12960,11 +12960,11 @@
 # sent_id = S0006-667
 # text = .i. nochis intinscanam
 # text_en = that is, we begin.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	nochis	_	_	_	_	_	_	_	_
-2	noch	noch 1	X	conjunction	_	_	_	X	Gloss=introduces a synonym or explanation: that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	in·tinscanam	in·tinscana	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to begin, to commerce, to set about
+2	noch	noch 1	X	conjunction	_	4	mark	X	Gloss=introduces a synonym or explanation: that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	in·tinscanam	in·tinscana	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to begin, to commerce, to set about
 
 # sent_id = S0006-668
 # text = cid
@@ -13028,11 +13028,11 @@
 # sent_id = S0006-672
 # text = .i. isanindarbae
 # text_en = i.e. in the rejection.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	isanindarbae	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Acc	4	case	X	Gloss=in, into
 3	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	nindarbae	indarbae	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of expelling, driving out; expulsion, rejection
+4	nindarbae	indarbae	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of expelling, driving out; expulsion, rejection
 
 # sent_id = S0006-673
 # text = .i. amal bid doíc agalair
@@ -13058,10 +13058,10 @@
 # sent_id = S0006-675
 # text = .i. fristait frisom
 # text_en = i.e. who opposes him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	fris·tait	fris·taít	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to come against, to be at variance with, to oppose
-3	fris	fri	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
-4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	fris·tait	fris·taít	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to come against, to be at variance with, to oppose
+3	fris	fri	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	case	X	Gloss=towards, against, standard of comparison
+4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	2	obl	X	Gloss=emphasising particle
 
 # sent_id = S0006-676
 # text = conrig .i. asindet
@@ -13189,11 +13189,11 @@
 # sent_id = S0006-686
 # text = alaile forlaim nainsedo
 # text_en = another, beside the accusative.
-1	alaile	alaile	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Masc	_	_	X	Gloss=other, the other
+1	alaile	alaile	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Masc	0	root	X	Gloss=other, the other
 2-3	forlaim	_	_	_	_	_	_	_	_
 2	for	for	ADP	preposition	Case=Acc	3	case	X	Gloss=upon, over, on
-3	laim	lám	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=hand, arm
-4	nainsedo	áinsid	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=accusative (gramm)
+3	laim	lám	NOUN	noun	Case=Acc|Number=Sing	1	obl	X	Gloss=hand, arm
+4	nainsedo	áinsid	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=accusative (gramm)
 
 # sent_id = S0006-687
 # text = indaas
@@ -13420,10 +13420,10 @@
 # sent_id = S0006-709
 # text = .i. gell .i. filius
 # text_en = pledge.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	gell	gell	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=pledge, surety
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	filius	fīlius	NOUN	noun	_	_	_	X	Gloss=son
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	gell	gell	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=pledge, surety
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	filius	fīlius	NOUN	noun	_	2	conj	X	Gloss=son
 
 # sent_id = S0006-710 - problem sentence for concatenation - note line 9!
 # text = .i. formbed aainm ind firso. ɫ. isamacc diaæs cenibed áainmsom bes foir·
@@ -13593,10 +13593,10 @@
 # sent_id = S0006-727
 # text = .i. mes dimicme són
 # text_en = i.e. namely, an estimation of contempt.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	mes	mes 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
-3	dimicme	dímicem	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of judging severely, condemning, disdaining
-4	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	mes	mes 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
+3	dimicme	dímicem	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of judging severely, condemning, disdaining
+4	són	-són	PRON	particle_anaphoric	_	2	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-728
 # text = mestar
