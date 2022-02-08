@@ -14872,11 +14872,11 @@
 # sent_id = S0006-832
 # text = .i. sechis rogab
 # text_en = i.e. that is, he has seized.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	ro·gab	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+2	sech	sech 2	X	conjunction	_	4	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	ro·gab	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 
 # sent_id = S0006-833
 # text = induille
@@ -15784,10 +15784,10 @@
 # sent_id = S0006-912
 # text = iadumdu .i. cland essau
 # text_en = Idumeans, i.e. children of Esau.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	iadumdu	íadumdae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=an Edomite
-3	cland	cland	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=plant, offshoot, children, descedant, family, clan, offspring
-4	essau	Esau	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Esau
+1	iadumdu	íadumdae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	0	root	X	Gloss=an Edomite
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	cland	cland	NOUN	noun	Case=Nom|Number=Sing	1	conj	X	Gloss=plant, offshoot, children, descedant, family, clan, offspring
+4	essau	Esau	PROPN	proper_noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=Esau
 
 # sent_id = S0006-913
 # text = innasruithe .i. moab 7 ammon 7 essau
@@ -16109,7 +16109,7 @@
 # sent_id = S0006-936
 # text = .i. in digalsón
 # text_en = i.e. that is, the punishment.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3-4	digalsón	_	_	_	_	_	_	_	_
 3	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of avenging, punishing, vengeance
@@ -16569,10 +16569,10 @@
 # sent_id = S0006-982
 # text = .i. cena nid [leg. ce anid] fris
 # text_en = i.e. although He might resist it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ce	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	anid	anaid 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to stay, to remain, to abide, to cease
-4	fris	fri	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ce	cía 2	SCONJ	conjunction	_	3	mark	X	Gloss=concessive and explicative: even, although
+3	anid	anaid 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	0	root	X	Gloss=to stay, to remain, to abide, to cease
+4	fris	fri	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	X	Gloss=towards, against, standard of comparison
 
 # sent_id = S0006-983
 # text = arind foraithmiut··
@@ -16593,10 +16593,10 @@
 # sent_id = S0006-985
 # text = .i. uerba asbertar sunt
 # text_en = i.e. uerba that are said here.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	uerba	uerbum	NOUN	noun	_	_	_	X	Gloss=word, verb
-3	as·bertar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
-4	sunt	sund	ADV	adverb	_	_	_	X	Gloss=here, in this place; hither, to this place
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	uerba	uerbum	NOUN	noun	_	0	root	3:nsubj|0:root	Gloss=word, verb
+3	as·bertar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to say, to speak, to call , mention
+4	sunt	sund	ADV	adverb	_	3	advmod	X	Gloss=here, in this place; hither, to this place
 
 # sent_id = S0006-986
 # text = .i. amal adnaigther fírbrithem beres digail cech ancridi··
@@ -16935,11 +16935,11 @@
 # sent_id = S0006-1014
 # text = .i. ciafiu esámain
 # text_en = i.e. how bold.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	ciafiu	_	_	_	_	_	_	_	_
-2	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-3	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=worthy, meet, fitting, honorable
-4	esámain	esamain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=bold, fearless, daring
+2	cia	cía 1	X	pronoun_interrogative	_	3	advmod	X	Gloss=who, what, which
+3	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=worthy, meet, fitting, honorable
+4	esámain	esamain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	3	ccomp	X	Gloss=bold, fearless, daring
 
 # sent_id = S0006-1015
 # text = dim ɫ. ní
