@@ -21939,11 +21939,11 @@
 # sent_id = S0006-1491
 # text = .i. ontomaith
 # text_en = i.e. by the threat.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	ontomaith	_	_	_	_	_	_	_	_
 2	o	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 3	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	tomaith	tomad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of threatening
+4	tomaith	tomad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of threatening
 
 # sent_id = S0006-1492
 # text = .i. sennachrib
@@ -22162,11 +22162,11 @@
 # sent_id = S0006-1517
 # text = .i. immaccu israhel
 # text_en = i.e. against the children of Israel.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	immaccu	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Acc	3	case	X	Gloss=in, into
-3	mmaccu	macc 1	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-4	israhel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Israel
+3	mmaccu	macc 1	NOUN	noun	Case=Acc|Number=Plur	0	root	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+4	israhel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=Israel
 
 # sent_id = S0006-1518
 # text = inmorthomus .i. ní rabæ diesamni duaid .i. conaipred hofaithsini fadesin nad robae nech cen peccad sed dixit dauid dominus de cælo respexit
@@ -22243,11 +22243,11 @@
 # sent_id = S0006-1524
 # text = .i. immeradi anolc
 # text_en = i.e. which thinks the evil.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	imme·radi	imm·rádai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to mention, to think about to plan, to treat of, to commemorate
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	imme·radi	imm·rádai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to mention, to think about to plan, to treat of, to commemorate
 3-4	anolc	_	_	_	_	_	_	_	_
-3	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	nolc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+3	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
+4	nolc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	2	obj	X	Gloss=evil, bad, wrong
 
 # sent_id = S0006-1525
 # text = innammithule
@@ -22280,10 +22280,10 @@
 # sent_id = S0006-1529
 # text = betis fustib .i. adnachtib
 # text_en = they were to be stored, i.e. to be buried.
-1	betis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	fustib	fuisti	X	verbal_of_necessity	_	_	_	X	Gloss=to be stored, to be put away
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	adnachtib	adnachtai	X	verbal_of_necessity	_	_	_	X	Gloss=to be buried
+1	betis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	fustib	fuisti	X	verbal_of_necessity	_	0	root	X	Gloss=to be stored, to be put away
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	adnachtib	adnachtai	X	verbal_of_necessity	_	2	conj	X	Gloss=to be buried
 
 # sent_id = S0006-1530
 # text = dumí imbirt
@@ -22405,11 +22405,11 @@
 # sent_id = S0006-1543
 # text = .i. formur hierusalem
 # text_en = i.e. on the wall of Jerusalem.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	formur	_	_	_	_	_	_	_	_
 2	for	for	ADP	preposition	Case=Acc	3	case	X	Gloss=upon, over, on
-3	mur	múr	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=wall, rampart
-4	hierusalem	Irusalem	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Jerusalem
+3	mur	múr	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=wall, rampart
+4	hierusalem	Irusalem	PROPN	proper_noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=Jerusalem
 
 # sent_id = S0006-1544
 # text = onchuirrigu .i. óntairgiriu
@@ -22434,10 +22434,10 @@
 # sent_id = S0006-1546
 # text = .i. táit .i. ílle
 # text_en = i.e. come! namely, here.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	táit	do·tét	VERB	verb	Person[Subj]=2|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Impv|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to come, to touch on, to mention, to go with, to apply to, in incident to, to submit to (with i rréir + gen)
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	ílle	illé	ADV	adverb	_	_	_	X	Gloss=hither, down to the present time
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	táit	do·tét	VERB	verb	Person[Subj]=2|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Impv|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to come, to touch on, to mention, to go with, to apply to, in incident to, to submit to (with i rréir + gen)
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	ílle	illé	ADV	adverb	_	2	conj	X	Gloss=hither, down to the present time
 
 # sent_id = S0006-1547
 # text = .i. hitír israhél
