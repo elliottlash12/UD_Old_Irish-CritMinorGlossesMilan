@@ -7775,13 +7775,13 @@
 2	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	nmod:poss	X	Gloss=their
 3	nesíd	esíd	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=unpeace, strife; dissension; hostility; destruction (essid
 
-# sent_id = S0006-193
+# sent_id = S0006-193 - line 4 - xcomp|nmod
 # text = .i. ní diltud esærgi asrubartsom
 # text_en = i.e. it is not denial of the Resurrection that he uttered.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
-3	diltud	díltud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	root	X	Gloss=the act of rejecting, denying, refusing to acknowledge; gramm. negation
-4	esærgi	eséirge	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	4	xcomp	X	Gloss=the act of re-arising; resurrection
+3	diltud	díltud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of rejecting, denying, refusing to acknowledge; gramm. negation
+4	esærgi	eséirge	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	xcomp	X	Gloss=the act of re-arising; resurrection
 5-6	asrubartsom	_	_	_	_	_	_	_	_
 5	as·rubart	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	3	csubj:cleft	X	Gloss=to say, to speak, to call , mention
 6	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
@@ -23293,10 +23293,10 @@
 # text = madcobra .i. libertas
 # text_en = if it should desire, i.e. libertas.
 1-2	madcobra	_	_	_	_	_	_	_	_
-1	m'	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-2	ad·cobra	ad·cobra	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to desire, to wish
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	libertas	lībertās	NOUN	noun	_	_	_	X	Gloss=_
+1	m'	ma	SCONJ	conjunction	_	2	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+2	ad·cobra	ad·cobra	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to desire, to wish
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	libertas	lībertās	NOUN	noun	_	2	conj	X	Gloss=_
 
 # sent_id = S0006-1632
 # text = nderbas
@@ -24054,20 +24054,20 @@
 # sent_id = S0006-1690
 # text = .i. acomairberte biuth
 # text_en = i.e. of their way of life.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	acomairberte	_	_	_	_	_	_	_	_
-2	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	_	X	Gloss=their
-3	comairberte	comairbert	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=mode, manner of life; sustenance
-4	biuth	bith	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+2	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	nmod:poss	X	Gloss=their
+3	comairberte	comairbert	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=mode, manner of life; sustenance
+4	biuth	bith	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
 
 # sent_id = S0006-1691
 # text = .i. indisin
 # text_en = i.e. those.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	indisin	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	i	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=substantivizing particle
-4	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+3	i	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	0	root	X	Gloss=substantivizing particle
+4	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	3	appos	X	Gloss=that one, those ones, the one in there ; that, those
 
 # sent_id = S0006-1692
 # text = .i. cumscugud acomairbertae biuth fri cechfoirbtaid [leg. foirbthetaid]
@@ -24678,8 +24678,8 @@
 1-4	dondecuimliucht	_	_	_	_	_	_	_	_
 1	do	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
 2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-3	e	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
-4	cuimliucht	cuimlecht	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=advantage
+3	e	an-	X	particle_prefix	_	4	advmod:neg	X	Gloss=negative: non-, un-
+4	cuimliucht	cuimlecht	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=advantage
 
 # sent_id = S0006-1741
 # text = ní contarat athis forachomnesam is sí cétbaid alanaile ant sin· ní ed gaibes stoirier immurgu sunt .i. ní condergeni etir gním trissa tabarthe athis foir hochomnesam·
@@ -24730,8 +24730,8 @@
 # text_en = by the proximity.
 1	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-3	cho	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
-4	chocrichtatu	cocríchthetu	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=nearness, proximity
+3	cho	com- 2	X	particle_prefix	_	4	amod	X	Gloss=mutual, together, equal ; with, lexicalized meanings
+4	chocrichtatu	cocríchthetu	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=nearness, proximity
 
 # sent_id = S0006-1744 - reliqua
 # text = ní arbart biuth· æm ut rl.
@@ -24814,11 +24814,11 @@
 # text = dodenum degnima·
 # text_en = to doing good work.
 1-2	dodenum	_	_	_	_	_	_	_	_
-1	do	do 1	ADP	preposition	Case=Dat	2	case	X	Gloss=to, for, by etc.
-2	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
+1	do	do 1	ADP	preposition	Case=Dat	2	mark:prt	X	Gloss=to, for, by etc.
+2	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of doing, making, creating; deed, work, activity
 3-4	degnima·	_	_	_	_	_	_	_	_
-3	de	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
-4	gnima	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+3	de	dag-	X	particle_prefix	_	4	amod	X	Gloss=good, noble, very
+4	gnima	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 5	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1754
