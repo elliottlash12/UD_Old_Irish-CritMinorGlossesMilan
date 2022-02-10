@@ -19404,7 +19404,7 @@
 # sent_id = S0006-1250
 # text = .i. donaib gnimaib comailtib
 # text_en = i.e. to the peaceful deeds.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	donaib	_	_	_	_	_	_	_	_
 2	do	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
 3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
@@ -19509,12 +19509,12 @@
 # sent_id = S0006-1257
 # text = amal bid isinterchru
 # text_en = as if it were in the failure.
-1	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-2	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
+2	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 3-5	isinterchru	_	_	_	_	_	_	_	_
 3	i	i	ADP	preposition	Case=Dat	5	case	X	Gloss=in, into
 4	sint	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	erchru	airchrae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of perishing; decay, decline, deterioration; failure, deficiency, want
+5	erchru	airchrae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of perishing; decay, decline, deterioration; failure, deficiency, want
 
 # sent_id = S0006-1258
 # text = inna namiresach
@@ -19568,33 +19568,33 @@
 # sent_id = S0006-1263
 # text = .i. foroxlad hudib ánires
 # text_en = i.e. their faith has been taken from them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	fo·roxlad	fo·coislea	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to carry off, to take away, to abstract
-3	hudib	ó 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=from, out of, by
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	fo·roxlad	fo·coislea	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to carry off, to take away, to abstract
+3	hudib	ó 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	2	obl:prep	X	Gloss=from, out of, by
 4-5	ánires	_	_	_	_	_	_	_	_
-4	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	_	X	Gloss=their
-5	nires	ires	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=faith, religion, belief
+4	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	nmod:poss	X	Gloss=their
+5	nires	ires	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=faith, religion, belief
 
 # sent_id = S0006-1264
 # text = .i. ní deruarid lannech
 # text_en = i.e. it has not remained with anyone.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·deruarid	do·fúarat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to remain
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·deruarid	do·fúarat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to remain
 4-5	lannech	_	_	_	_	_	_	_	_
-4	la	la	ADP	preposition	Case=Acc	_	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-5	nnech	nech	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
+4	la	la	ADP	preposition	Case=Acc	5	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+5	nnech	nech	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Ind	3	obl	X	Gloss=anyone, one, someone
 
 # sent_id = S0006-1265
 # text = intsechtaigtha .i. innatogaise
 # text_en = of the simulation, i.e. of the deceit.
 1-2	intsechtaigtha	_	_	_	_	_	_	_	_
 1	int	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	sechtaigtha	sechtaigiud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of pretending, simulating
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	sechtaigtha	sechtaigiud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of pretending, simulating
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	innatogaise	_	_	_	_	_	_	_	_
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	togaise	togáes	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of deceiving; deceit, deception
+5	togaise	togáes	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of deceiving; deceit, deception
 
 # sent_id = S0006-1266
 # text = doilbthib .i. uerbis
@@ -19652,12 +19652,12 @@
 # sent_id = S0006-1272
 # text = .i. innandoine nangaid
 # text_en = i.e. of bad men.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innandoine	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	ndoine	duine	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=person, human being
-4	nan	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
-5	nangaid	andgaid	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=wicked, cruel, worthless
+3	ndoine	duine	NOUN	noun	Case=Gen|Number=Plur	0	root	X	Gloss=person, human being
+4	nan	an-	X	particle_prefix	_	5	advmod:neg	X	Gloss=negative: non-, un-
+5	nangaid	andgaid	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	3	amod	X	Gloss=wicked, cruel, worthless
 
 # sent_id = S0006-1273
 # text = .i. indandig
