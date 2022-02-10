@@ -25296,11 +25296,11 @@
 # sent_id = S0006-1788
 # text = .i. innacaingnimae
 # text_en = i.e. of the good works.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	innacaingnimae	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-3	cain	caín	ADJ	adjective	Degree=Pos	_	_	X	Gloss=fine, good, beautiful, fair
-4	gnimae	gním	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+3	cain	caín	ADJ	adjective	Degree=Pos	4	amod	X	Gloss=fine, good, beautiful, fair
+4	gnimae	gním	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-1789
 # text = aranosailcea
@@ -25329,11 +25329,11 @@
 # sent_id = S0006-1793
 # text = ostendit .i. inní
 # text_en = i.e. him (who).
-1	ostendit	ostendō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	ostendit	ostendō	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=_
+2	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 3-4	inní	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
+4	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Masc	1	conj	X	Gloss=substantivizing particle
 
 # sent_id = S0006-1794
 # text = asrochoiled
@@ -25366,14 +25366,14 @@
 15	hoc	hīc 1	X	pronoun_demonstrative	_	_	_	X	Gloss=this, these, that, those
 16	psalmo	psalmus	NOUN	noun	_	_	_	X	Gloss=psalm
 
-# sent_id = S0006-1797
+# sent_id = S0006-1797 - line 3 - nummod|amod
 # text = fondoin failsigud
 # text_en = according to the same exposition.
 1-3	fondoin	_	_	_	_	_	_	_	_
 1	fo	fo	ADP	preposition	Case=Dat	4	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
 2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-3	oin	óen	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
-4	failsigud	foillsigud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of manifesting, demonstrating
+3	oin	óen	ADJ	adjective_numeral_noun	_	4	nummod	X	Gloss=one, single, same, only, unique; as compound element 'great'
+4	failsigud	foillsigud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of manifesting, demonstrating
 
 # sent_id = S0006-1798
 # text = esartaib
@@ -25568,11 +25568,11 @@
 # sent_id = S0006-1821
 # text = .i. diacumtuch
 # text_en = i.e. to their adornment.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	diacumtuch	_	_	_	_	_	_	_	_
-2	di	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
-3	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=their
-4	cumtuch	cumtach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of adorning, ornamenting, building, constructing, composing, act of protecting, covering, supporting, helping, case, shrine
+2	di	do 1	ADP	preposition	Case=Dat	4	mark:prt	X	Gloss=to, for, by etc.
+3	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	X	Gloss=their
+4	cumtuch	cumtach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of adorning, ornamenting, building, constructing, composing, act of protecting, covering, supporting, helping, case, shrine
 
 # sent_id = S0006-1822
 # text = .i. mindchigitir
@@ -26326,11 +26326,11 @@
 # sent_id = S0006-1874
 # text = .i. coitcensa fricách
 # text_en = i.e. of community with all.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	coitcensa	coitchennas	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=community, company; generality; commoness
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	coitcensa	coitchennas	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=community, company; generality; commoness
 3-4	fricách	_	_	_	_	_	_	_	_
-3	fri	fri	ADP	preposition	Case=Acc	_	case	X	Gloss=towards, against, standard of comparison
-4	cách	cách	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
+3	fri	fri	ADP	preposition	Case=Acc	4	case	X	Gloss=towards, against, standard of comparison
+4	cách	cách	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Tot	2	obl	X	Gloss=every one, each one, any one, all
 
 # sent_id = S0006-1875
 # text = .i. hitochoisgim
@@ -26401,10 +26401,10 @@
 # sent_id = S0006-1882
 # text = foindledaig .i. daiscuir són
 # text_en = wandering, i.e. that is, common.
-1	foindledaig	foíndledach	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=vagrant, wandering
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	daiscuir	dóescair	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=common, mean, vulgar ; buffoon, jester
-4	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+1	foindledaig	foíndledach	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=vagrant, wandering
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	daiscuir	dóescair	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	1	conj	X	Gloss=common, mean, vulgar ; buffoon, jester
+4	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1883
 # text = .i. rubrigach·
