@@ -10351,12 +10351,12 @@
 # sent_id = S0006-442
 # text = dligid remdeicsen octuisin domuin
 # text_en = of a law of providence at the creation of the world.
-1	dligid	dliged	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
-2	remdeicsen	remdéicsiu	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of anticipating; providence, foresight, anticipation
+1	dligid	dliged	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
+2	remdeicsen	remdéicsiu	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	1	xcomp	X	Gloss=the act of anticipating; providence, foresight, anticipation
 3-4	octuisin	_	_	_	_	_	_	_	_
 3	oc	oc	ADP	preposition	Case=Dat	4	case	X	Gloss=at, by, besides, with (person)
-4	tuisin	tuistiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Typo=Yes	_	_	X	Gloss=the act of creating, engendering, begetting; procreation|CorrectForm=tuistin
-5	domuin	domun 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=world, the Earth
+4	tuisin	tuistiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Typo=Yes	2	advcl	X	Gloss=the act of creating, engendering, begetting; procreation|CorrectForm=tuistin
+5	domuin	domun 1	NOUN	noun	Case=Gen|Number=Sing	5	obj	X	Gloss=world, the Earth
 
 # sent_id = S0006-443
 # text = .i. nífel nech lasambed dliged remdeicsen dodechrugud etir maithi 7 ulcu olseatsom
@@ -10661,13 +10661,13 @@
 # sent_id = S0006-474
 # text = .i. asoirad difochaidib··
 # text_en = i.e. his deliverance from tribulations.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	asoirad	_	_	_	_	_	_	_	_
-2	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	_	X	Gloss=his, its
-3	soirad	sóerad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of freeing, delivering; deliverance
+2	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	obj:poss	X	Gloss=his, its
+3	soirad	sóerad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of freeing, delivering; deliverance
 4-5	difochaidib··	_	_	_	_	_	_	_	_
 4	di	di	ADP	preposition	Case=Dat	5	case	X	Gloss=away, from, cause or reason, by
-5	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+5	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	3	advcl	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
 6	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-475
@@ -10678,13 +10678,13 @@
 # sent_id = S0006-476
 # text = .i. condena degním·
 # text_en = i.e. so that he should do a good deed.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	condena	_	_	_	_	_	_	_	_
-2	co·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	·ndena	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to do, to make
+2	co·	co 4	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	·ndena	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to do, to make
 4-5	degním·	_	_	_	_	_	_	_	_
-4	de	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
-5	gním	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+4	de	dag-	X	particle_prefix	_	5	amod	X	Gloss=good, noble, very
+5	gním	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 6	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-477
@@ -10830,12 +10830,12 @@
 # text = astigiu .i. asmethiu
 # text_en = which is thicker, i.e. which is fatter.
 1-2	astigiu	_	_	_	_	_	_	_	_
-1	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-2	tigiu	tiug 2	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=thick, dense
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	cop	X	Gloss=to be
+2	tigiu	tiug 2	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=thick, dense
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	asmethiu	_	_	_	_	_	_	_	_
-4	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-5	methiu	méth	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=fat, plump
+4	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
+5	methiu	méth	ADJ	adjective	Degree=Cmp	2	conj	X	Gloss=fat, plump
 
 # sent_id = S0006-491 - right-node raising (lines 14-20)
 # text = .i. isairi darogartsom noib arfrithuidecht innaní asrubartatar nadrobae remdeicsiu na lathar ndæ diadulib
@@ -11202,12 +11202,12 @@
 # sent_id = S0006-525
 # text = .i. donaib hí immafresnat.
 # text_en = i.e. to those who dispute.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	donaib	_	_	_	_	_	_	_	_
 2	do	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
 3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
 4	hí	í 1	PRON	pronoun_propword	Case=Dat|Number=Plur|Gender=Masc	0	root	5:nsubj|0:root	Gloss=substantivizing particle
-5	imma·fresnat	imm·fresnai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	5	acl:relcl	X	Gloss=to contend, to dispute, to disagree, to gainsay
+5	imma·fresnat	imm·fresnai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	4	acl:relcl	X	Gloss=to contend, to dispute, to disagree, to gainsay
 6	.	.	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-526
@@ -11254,12 +11254,12 @@
 # sent_id = S0006-531
 # text = uel ipse .i. osme
 # text_en = uel ipse, i.e. and I.
-1	uel	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	ipse	ipse	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=himself, herself, itself, themselves
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	uel	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
+2	ipse	ipse	PRON	pronoun_emphatic	PronType=Emp	0	root	X	Gloss=himself, herself, itself, themselves
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	osme	_	_	_	_	_	_	_	_
-4	os	os 2	X	conjunction	_	_	_	X	Gloss=disjunctive: and
-5	me	1sg.indp.pron.	PRON	pronoun_independent	Case=Nom|PronType=Prs|Person=1	_	_	X	Gloss=me, I
+4	os	os 2	X	conjunction	_	5	cc	X	Gloss=disjunctive: and
+5	me	1sg.indp.pron.	PRON	pronoun_independent	Case=Nom|PronType=Prs|Person=1	2	conj	X	Gloss=me, I
 
 # sent_id = S0006-532
 # text = nídephthigim
