@@ -20794,12 +20794,12 @@
 # sent_id = S0006-1379
 # text = amal bid on etartetarcur
 # text_en = as if it were by intercession.
-1	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-2	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
+2	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 3-4	on	_	_	_	_	_	_	_	_
 3	o	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
 4	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	etartetarcur	etartetarcor	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=interval; interposing, interposition
+5	etartetarcur	etartetarcor	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=interval; interposing, interposition
 
 # sent_id = S0006-1380
 # text = .i. amal ataturcabthi inná epertasin·
@@ -21712,12 +21712,12 @@
 # sent_id = S0006-1469
 # text = .i. indfrithorcun .i. persecutionis
 # text_en = i.e. the offense.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indfrithorcun	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	frithorcun	frithorgun	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of molesting, harassing; offense, injury, annoyance
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	persecutionis	persecūtiō	NOUN	noun	_	_	_	X	Gloss=_
+3	frithorcun	frithorgun	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of molesting, harassing; offense, injury, annoyance
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	persecutionis	persecūtiō	NOUN	noun	_	3	conj	X	Gloss=_
 
 # sent_id = S0006-1470
 # text = rundlúth
@@ -21988,11 +21988,11 @@
 # sent_id = S0006-1497
 # text = .i. rabsacen dicit a persain sennachrib
 # text_en = i.e. Rabsacen dicit in the person of Sennacherib.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	dicit	dīcō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to say, to declare, to call
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	dicit	dīcō	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=to say, to declare, to call
 3	a	a 7	ADP	preposition	Case=Dat	4	case	X	Gloss=out of, from
-4	persain	persan	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
-5	sennachrib	Sennacherib	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Sennacherib
+4	persain	persan	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
+5	sennachrib	Sennacherib	PROPN	proper_noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=Sennacherib
 
 # sent_id = S0006-1498
 # text = imluadad
@@ -22540,11 +22540,11 @@
 # text = amtis forcmachti .i. assair
 # text_en = when they, i.e. the Assyrians, had been made.
 1-2	amtis	_	_	_	_	_	_	_	_
-1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	mtis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-3	forcmachti	forcmachtae	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=that which is made; artificial
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	assair	Asar	PROPN	proper_noun	Case=Nom|Number=Plur	_	_	X	Gloss=Assyrian
+1	a	a 6	SCONJ	conjunction	_	3	mark	X	Gloss=temporal: when, since
+2	mtis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	cop	X	Gloss=to be
+3	forcmachti	forcmachtae	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Masc	0	root	X	Gloss=that which is made; artificial
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	assair	Asar	PROPN	proper_noun	Case=Nom|Number=Plur	3	conj	X	Gloss=Assyrian
 
 # sent_id = S0006-1556
 # text = coimdid .i. assirii
@@ -22602,11 +22602,11 @@
 # text_en = of the accusing, i.e. of the reproach.
 1-2	indainsemo	_	_	_	_	_	_	_	_
 1	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	ainsemo	áinsem 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of accusing, blaming
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	ainsemo	áinsem 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of accusing, blaming
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	innacaire	_	_	_	_	_	_	_	_
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	caire	caire 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=crime, fault, sin
+5	caire	caire 1	NOUN	noun	Case=Gen|Number=Sing	2	conj	X	Gloss=crime, fault, sin
 
 # sent_id = S0006-1564
 # text = donaib araib
@@ -22814,12 +22814,12 @@
 # sent_id = S0006-1581
 # text = .i. imacubur denma uilc
 # text_en = i.e. a strong desire for doing evil.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	imacubur	_	_	_	_	_	_	_	_
-2	im	imm-	X	particle_prefix	_	_	_	X	Gloss=intensive: very
-3	acubur	accobor	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of desiring, wishing; desire, wish, appetite
-4	denma	dénum	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
-5	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+2	im	imm-	X	particle_prefix	_	3	advmod	X	Gloss=intensive: very
+3	acubur	accobor	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of desiring, wishing; desire, wish, appetite
+4	denma	dénum	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	obj	X	Gloss=the act of doing, making, creating; deed, work, activity
+5	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	4	amod	X	Gloss=evil, bad, wrong
 
 # sent_id = S0006-1582
 # text = amal fidafondamtis
