@@ -22442,28 +22442,28 @@
 # sent_id = S0006-1547
 # text = .i. hitír israhél
 # text_en = i.e. in the land of Israel.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	hitír	_	_	_	_	_	_	_	_
 2	hi	i	ADP	preposition	Case=Acc	3	case	X	Gloss=in, into
-3	tír	tír	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=land; territory, country; earth, ground
-4	israhél	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Israel
+3	tír	tír	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=land; territory, country; earth, ground
+4	israhél	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=Israel
 
 # sent_id = S0006-1548
 # text = .i. cechoin huaib
 # text_en = i.e. every one of you (pl).
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	cechoin	_	_	_	_	_	_	_	_
-2	cech	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc|PronType=Tot	_	det	X	Gloss=every, each, all, any
-3	oin	óen	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
-4	huaib	ó 1	ADP	preposition	Person=2|Number=Plur|Case=Dat	_	_	X	Gloss=from, out of, by
+2	cech	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc|PronType=Tot	3	det	X	Gloss=every, each, all, any
+3	oin	óen	ADJ	adjective_numeral_noun	Case=Nom|Number=Sing|Gender=Masc	0	root	X	Gloss=one, single, same, only, unique; as compound element 'great'
+4	huaib	ó 1	ADP	preposition	Person=2|Number=Plur|Case=Dat	3	obl:prep	X	Gloss=from, out of, by
 
 # sent_id = S0006-1549
-# text = muriissi farndochum
+# text = muriissi farndochum - missing 'mu' in line 1
 # text_en = I might soon come to you.
-1	·riis	ro·icc	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to reach, to attain, to arrive, come to
-2	si	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-3	far	2pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	_	_	X	Gloss=your ; your (pl.)
-4	ndochum	dochumm	ADP	preposition	Case=Gen	_	case	X	Gloss=to, towards, in order to
+1	·riis	ro·icc	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to reach, to attain, to arrive, come to
+2	si	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	1	nsubj	X	Gloss=emphasising particle
+3	far	2pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	4	nmod:poss	X	Gloss=your ; your (pl.)
+4	ndochum	dochumm	ADP	preposition	Case=Gen	2	obl:prep	X	Gloss=to, towards, in order to
 
 # sent_id = S0006-1550
 # text = .i. ni mesa indas talam fortiresi
@@ -22986,19 +22986,19 @@
 # text = honaib cetnaib erchuraib
 # text_en = by the first shots.
 1-2	honaib	_	_	_	_	_	_	_	_
-1	ho	ó 1	ADP	preposition	Case=Dat	_	case	X	Gloss=from, out of, by
-2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	cetnaib	cétnae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=same (with preceding noun), first (with following noun)
-4	erchuraib	airchor	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of casting; cast, shot, dart, weapon discharged
+1	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
+2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
+3	cetnaib	cétnae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	4	amod	X	Gloss=same (with preceding noun), first (with following noun)
+4	erchuraib	airchor	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of casting; cast, shot, dart, weapon discharged
 
 # sent_id = S0006-1604
 # text = annatorchar nech
 # text_en = when no one fell.
 1-3	annatorchar	_	_	_	_	_	_	_	_
-1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	nna·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-3	·torchar	do·tuit 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to fall, to perish
-4	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
+1	a	a 6	SCONJ	conjunction	_	3	mark	X	Gloss=temporal: when, since
+2	nna·	ná 2	PART	particle_negative_subordinate	_	3	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+3	·torchar	do·tuit 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	0	root	X	Gloss=to fall, to perish
+4	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	X	Gloss=anyone, one, someone
 
 # sent_id = S0006-1605
 # text = hobuidnib
@@ -23029,10 +23029,10 @@
 # text = cisí chomairle ǽm
 # text_en = what indeed is the counsel?
 1-2	cisí	_	_	_	_	_	_	_	_
-1	ci	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-2	sí	3sg.fem.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=she, her, it
-3	chomairle	comairle	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=counsel, admonition, advice, plan, decision
-4	ǽm	ém	ADV	particle_discourse	_	_	_	X	Gloss=truly, indeed, in sooth, then
+1	ci	cía 1	X	pronoun_interrogative	_	2	det	X	Gloss=who, what, which
+2	sí	3sg.fem.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=she, her, it
+3	chomairle	comairle	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=counsel, admonition, advice, plan, decision
+4	ǽm	ém	ADV	particle_discourse	_	2	advmod	X	Gloss=truly, indeed, in sooth, then
 
 # sent_id = S0006-1609
 # text = .i. inam .i. hi cumachtæ
