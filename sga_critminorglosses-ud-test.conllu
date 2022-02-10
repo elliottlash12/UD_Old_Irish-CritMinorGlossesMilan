@@ -20458,10 +20458,10 @@
 # sent_id = S0006-1344
 # text = .i. cenfubudur nairi
 # text_en = i.e. without ??? to it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	cen	cen	ADP	preposition	Case=Acc	3	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-3	fudubur	fudubur	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=unknown meaning
-4	nairi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+3	fudubur	fudubur	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=unknown meaning
+4	nairi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	obl:prep	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 
 # sent_id = S0006-1345
 # text = .i. arindí .i. pro eo quod
@@ -20497,10 +20497,10 @@
 # sent_id = S0006-1348
 # text = .i. mesidechtae inchlide dǽ
 # text_en = i.e. of the secret judgment of God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	mesidechtae	meisidecht	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=judgment, jurisdiction
-3	inchlide	inchlide	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Fem	_	_	X	Gloss=secret, hidden, concealed
-4	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	mesidechtae	meisidecht	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=judgment, jurisdiction
+3	inchlide	inchlide	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Fem	2	amod	X	Gloss=secret, hidden, concealed
+4	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=god, deity, God
 
 # sent_id = S0006-1349
 # text = .i. conaib fir aní asbera insce dé·
@@ -20661,10 +20661,10 @@
 # text = honuntogaitarni
 # text_en = by which we are deceived.
 1-4	honuntogaitarni	_	_	_	_	_	_	_	_
-1	ho	ó 1	ADP	preposition	Case=Dat	_	case	X	Gloss=from, out of, by
-2	nun·	1pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=we, us, ourselves
-3	·togaitar	do·gáetha	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to deceive, to begile
-4	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
+2	nun·	1pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	3	inf:obj	X	Gloss=we, us, ourselves
+3	·togaitar	do·gáetha	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to deceive, to begile
+4	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-1361
 # text = inna culech
@@ -21147,11 +21147,10 @@
 # sent_id = S0006-1421
 # text = cidnanguide
 # text_en = even of the prayers.
-1-4	cidnanguide	_	_	_	_	_	_	_	_
-1	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-2	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	na	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	nguide	guide	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of praying; prayer
+1-3	cidnanguide	_	_	_	_	_	_	_	_
+1	cid	cid 2	PART	particle_focus	_	3	advmod:emph	X	Gloss=concessive and explicative: even, although
+2	na	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	nguide	guide	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of praying; prayer
 
 # sent_id = S0006-1422
 # text = .i. ɔ na ingabthe etir
@@ -21754,10 +21753,10 @@
 # text_en = they who trouble me.
 1-2	indí	_	_	_	_	_	_	_	_
 1	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=substantivizing particle
+2	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	0	root	3:nsubj|0:root	Gloss=substantivizing particle
 3-4	fodamsegatsa	_	_	_	_	_	_	_	_
-3	fodam·segat	fo·saig	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	_	_	X	Gloss=to afflict, to annoy, to grieve; to try, to attempt
-4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+3	fodam·segat	fo·saig	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	2	acl:relcl	X	Gloss=to afflict, to annoy, to grieve; to try, to attempt
+4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	3	obj	X	Gloss=emphasising particle
 
 # sent_id = S0006-1473
 # text = innatrogai roigthi
@@ -21836,10 +21835,10 @@
 # text = nomlínfidersa
 # text_en = I will be filled.
 1-4	nomlínfidersa	_	_	_	_	_	_	_	_
-1	no	no·	SCONJ	particle_preverb	_	_	mark:prt	X	Gloss=empty particle
-2	m·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=me, myself
-3	·línfider	línaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to fill
-4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	no	no·	SCONJ	particle_preverb	_	3	mark:prt	X	Gloss=empty particle
+2	m·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	3	inf:obj	X	Gloss=me, myself
+3	·línfider	línaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to fill
+4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-1479
 # text = cid
