@@ -16827,12 +16827,12 @@
 # text = ambataircide intodernam
 # text_en = when the punishment was inflicted.
 1-3	ambataircide	_	_	_	_	_	_	_	_
-1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	mba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-3	taircide	táircide	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=caused, effected, induced, brought about
+1	a	a 6	SCONJ	conjunction	_	3	mark	X	Gloss=temporal: when, since
+2	mba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	cop	X	Gloss=to be
+3	taircide	táircide	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	0	root	X	Gloss=caused, effected, induced, brought about
 4-5	intodernam	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	todernam	todérnam	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of inflicting pain; pain, torture, punishment
+5	todernam	todérnam	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	nsubj	X	Gloss=the act of inflicting pain; pain, torture, punishment
 
 # sent_id = S0006-1006
 # text = .i. tabairt innan [leg. inna] diglae argair denum nuilc fochosmailius aringair recht
@@ -17116,12 +17116,12 @@
 # sent_id = S0006-1030
 # text = .i. cenfornaidm metarde són·
 # text_en = i.e. that is, without metrical bond.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	cenfornaidm	_	_	_	_	_	_	_	_
 2	cen	cen	ADP	preposition	Case=Acc	3	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-3	fornaidm	fornaidm	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of binding; bond
-4	metarde	metardae	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=metrical
-5	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+3	fornaidm	fornaidm	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of binding; bond
+4	metarde	metardae	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	3	amod	X	Gloss=metrical
+5	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
 6	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1031
@@ -17960,9 +17960,9 @@
 1-3	honderbeirt	_	_	_	_	_	_	_	_
 1	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	erbeirt	airbert	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of using, enjoying, partaking of, employing, eating, living
-4	biuth	bith	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
-5	do·chuirethar	do·cuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to put, to cast, to produce, to happens, to invites, to summons
+3	erbeirt	airbert	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of using, enjoying, partaking of, employing, eating, living
+4	biuth	bith	NOUN	noun	Case=Dat|Number=Sing	3	appos	5:nsubj|3:appos	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+5	do·chuirethar	do·cuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	4	acl:relcl	X	Gloss=to put, to cast, to produce, to happens, to invites, to summons
 
 # sent_id = S0006-1123
 # text = innafrithortae
@@ -18546,12 +18546,12 @@
 # sent_id = S0006-1179
 # text = .i. donaib anmanaib adiactaib..,
 # text_en = to the adjectives.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	donaib	_	_	_	_	_	_	_	_
 2	do	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
 3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	anmanaib	ainm	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=name, noun (gramm)
-5	adiactaib	adiacht	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=gramm.: adjective
+4	anmanaib	ainm	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=name, noun (gramm)
+5	adiactaib	adiacht	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	4	amod	X	Gloss=gramm.: adjective
 6	..,	..,	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1180
@@ -18867,12 +18867,12 @@
 # text = ised inso dlomas
 # text_en = it is this that he declares.
 1-2	ised	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+2	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	4	nmod	X	Gloss=it
 3-4	inso	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
-5	dlomas	dlomaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to announce, to proclaim, to declare; to give notice to, to turn out, to expel, to reject
+4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	0	root	X	Gloss=this one, these ones ; this, these
+5	dlomas	dlomaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	4	csubj:cleft	X	Gloss=to announce, to proclaim, to declare; to give notice to, to turn out, to expel, to reject
 
 # sent_id = S0006-1203 - suffixed pronoun
 # text = gníthisium fadesin .i. dauid
@@ -19263,12 +19263,12 @@
 # text = afír ɫ. intarasin
 # text_en = the truth, or the trust.
 1-2	afír	_	_	_	_	_	_	_	_
-1	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-2	fír	fír	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=true, veracious, real
-3	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+1	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
+2	fír	fír	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=true, veracious, real
+3	ɫ	nó 1	CCONJ	conjunction	_	5	cc	X	Gloss=disjunctive: or
 4-5	intarasin	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	tarasin	toraisiu	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=faith, trust, confidence
+5	tarasin	toraisiu	NOUN	noun	Case=Acc|Number=Sing	2	conj	X	Gloss=faith, trust, confidence
 
 # sent_id = S0006-1238
 # text = .i. dochách
