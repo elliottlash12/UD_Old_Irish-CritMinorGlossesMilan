@@ -14844,12 +14844,12 @@
 # sent_id = S0006-828
 # text = .i. amal bid annumothaiged
 # text_en = i.e. as though it were when he was amazed.
-1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	4	mark	X	Gloss=as, like; translating Latin ut
-3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
+3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-5	annumothaiged	_	_	_	_	_	_	_	_
-4	a	a 6	SCONJ	conjunction	_	0	root	5:mark|0:root	Gloss=temporal: when, since
-5	nnu·mothaiged	mothaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be amazed
+4	a	a 6	SCONJ	conjunction	_	5	mark	X	Gloss=temporal: when, since
+5	nnu·mothaiged	mothaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be amazed
 
 # sent_id = S0006-829
 # text = erdairc
@@ -15160,22 +15160,22 @@
 # sent_id = S0006-860
 # text = .i. afolud inna doinachtae
 # text_en = i.e. the substance of the humanity.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	afolud	_	_	_	_	_	_	_	_
 2	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	folud	folad	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=substance, material, essence; benefit, “consideration”, signification
+3	folud	folad	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=substance, material, essence; benefit, “consideration”, signification
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	doinachtae	doínacht	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=humanity (vs. deity), humanness, Manhood
+5	doinachtae	doínacht	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=humanity (vs. deity), humanness, Manhood
 
 # sent_id = S0006-861
 # text = innointaid .i. pro unitatem
 # text_en = the unity, i.e. pro unitatem
 1-2	innointaid	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	nointaid	óentu	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=oneness, unity, consent
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	pro	prō	ADP	preposition	Case=Unk	_	case	X	Gloss=for, on behalf of, before
-5	unitatem	ūnitās	NOUN	noun	_	_	_	X	Gloss=unity
+2	nointaid	óentu	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=oneness, unity, consent
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+4	pro	prō	ADP	preposition	Case=Unk	5	case	X	Gloss=for, on behalf of, before
+5	unitatem	ūnitās	NOUN	noun	_	2	conj	X	Gloss=unity
 
 # sent_id = S0006-862
 # text = .i. di·
@@ -15236,9 +15236,9 @@
 1	ho	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
 2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
 3-5	mordegmainib	_	_	_	_	_	_	_	_
-3	mor	mór	ADJ	adjective	Degree=Pos	_	_	X	Gloss=great, big, ample, tall, large
-4	deg	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
-5	mainib	móen	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=gift, benefit, in pl.: treasures, possessions, wealth
+3	mor	mór	ADJ	adjective	Degree=Pos	5	amod	X	Gloss=great, big, ample, tall, large
+4	deg	dag-	X	particle_prefix	_	5	amod	X	Gloss=good, noble, very
+5	mainib	móen	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=gift, benefit, in pl.: treasures, possessions, wealth
 
 # sent_id = S0006-870 - possible ellipsis
 # text = .i. etir deacht 7 doinacht maicc
@@ -15529,12 +15529,12 @@
 # sent_id = S0006-892
 # text = .i. cotí lae messa
 # text_en = i.e. until the Day of Judgment comes.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	cotí	_	_	_	_	_	_	_	_
-2	co·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	·tí	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to approach, to come to
-4	lae	laë	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=day, daytime
-5	messa	mes 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
+2	co·	co 4	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	·tí	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to approach, to come to
+4	lae	laë	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=day, daytime
+5	messa	mes 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	4	nmod	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
 
 # sent_id = S0006-893
 # text = archuit doinachtae
@@ -15894,7 +15894,7 @@
 # sent_id = S0006-922
 # text = .i. ni rufrescachtar aníc
 # text_en = i.e. they had not expected their salvation.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
 3	ru·frescachtar	fris·accai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to look forward to, to hope; to expect, to await
 4-5	aníc	_	_	_	_	_	_	_	_
