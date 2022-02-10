@@ -19716,12 +19716,12 @@
 # text = nísernat .i. níaisndedat
 # text_en = they do not compose, i.e. they do not speak.
 1-2	nísernat	_	_	_	_	_	_	_	_
-1	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-2	·sernat	sernaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to arrange, to order, to dispose, to array, to compose, to contrive
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	ní·	ní 3	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not
+2	·sernat	sernaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to arrange, to order, to dispose, to array, to compose, to contrive
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	níaisndedat	_	_	_	_	_	_	_	_
-4	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-5	·aisndedat	as·indet	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to declare, to tell, to relate
+4	ní·	ní 3	PART	particle_negative_main	_	5	advmod:neg	X	Gloss=not
+5	·aisndedat	as·indet	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	2	conj	X	Gloss=to declare, to tell, to relate
 
 # sent_id = S0006-1278
 # text = arégi
@@ -19737,13 +19737,13 @@
 # sent_id = S0006-1280
 # text = .i. sechis asnindisedón
 # text_en = i.e. that is, that he should set forth.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	sech	sech 2	X	conjunction	_	4	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 4-5	asnindisedón	_	_	_	_	_	_	_	_
-4	as·nindised	as·indet	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to declare, to tell, to relate
-5	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+4	as·nindised	as·indet	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to declare, to tell, to relate
+5	ón	-ón	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-1281
 # text = .i. is cummae mbis memnæ [leg. menmæ] cechtar de fri togais alaili
@@ -19805,12 +19805,12 @@
 # text = dungabail innammraithemnachtae
 # text_en = to the taking of the treachery, (i.e. treacherous seizure).
 1-3	dungabail	_	_	_	_	_	_	_	_
-1	du	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
+1	du	do 1	ADP	preposition	Case=Dat	3	mark:prt	X	Gloss=to, for, by etc.
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	gabail	gabál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of taking, assuming, singing, saying (of a psalm), capturing, holding; armful, snare, ambush
+3	gabail	gabál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of taking, assuming, singing, saying (of a psalm), capturing, holding; armful, snare, ambush
 4-5	innammraithemnachtae	_	_	_	_	_	_	_	_
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	mmraithemnachtae	mraithemnacht	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=treacherousness, guile
+5	mmraithemnachtae	mraithemnacht	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=treacherousness, guile
 
 # sent_id = S0006-1286
 # text = .i. lacechtar de
@@ -19832,12 +19832,12 @@
 # sent_id = S0006-1288
 # text = .i. innadausa ón
 # text_en = i.e. that is, these two.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	innadausa	_	_	_	_	_	_	_	_
-2	inna	in 1	DET	definite_article	Case=Nom|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	dau	da	NUM	adjective_numeral	Case=Nom|Gender=Neut	_	nummod	X	Gloss=two
-4	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
-5	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+2	inna	in 1	DET	definite_article	Case=Nom|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
+3	dau	da	NUM	adjective_numeral	Case=Nom|Gender=Neut	4	nummod	X	Gloss=two
+4	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	0	root	X	Gloss=this, these
+5	ón	-ón	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-1289
 # text = .i. is accbur [leg. accobur] leu
@@ -19872,11 +19872,11 @@
 # sent_id = S0006-1292
 # text = niconairsoilset [leg. niconairsoilcset] .i. innaginu
 # text_en = they did not open, i.e. the mouths.
-1	nicon·	nicon	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not ever
-2	·airsoilcset	ar·osailci	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to open, to reveal
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	nicon·	nicon	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not ever
+2	·airsoilcset	ar·osailci	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to open, to reveal
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	ginu	giun	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=mouth, edge of weapon
+5	ginu	giun	NOUN	noun	Case=Acc|Number=Plur	2	conj	X	Gloss=mouth, edge of weapon
 
 # sent_id = S0006-1293
 # text = .i. labrad huallach 7 chaintoimtenach dib fadesin
@@ -19894,11 +19894,11 @@
 # sent_id = S0006-1294
 # text = .i. epert nad radat gói
 # text_en = i.e. saying that they do not speak falsehood.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	epert	eipert	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of saying; speech, statement, word
-3	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-4	·radat	ráidid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to speak, to say, to tell
-5	gói	gáu	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=falsehood, lie
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	epert	eipert	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of saying; speech, statement, word
+3	nad·	nád 1	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=that...not
+4	·radat	ráidid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	2	ccomp	X	Gloss=to speak, to say, to tell
+5	gói	gáu	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=falsehood, lie
 
 # sent_id = S0006-1295
 # text = .i. issainred doib insin .i. epert gue
