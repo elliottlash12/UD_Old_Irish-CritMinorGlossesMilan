@@ -6158,7 +6158,7 @@
 # sent_id = S0006-49
 # text = .i. híce domen[man]su
 # text_en = of satisfying your (sg) mind.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2	híce	ícc	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of healing, saving, curing, paying for, enduring; salvation, cure, redress, satisfaction, solution, answer (to a question or problem), requital, atonement, revenge, salvation
 3-5	domen[man]su	_	_	_	_	_	_	_	_
 3	do	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	4	nmod:poss	X	Gloss=your (sg.)
@@ -6693,22 +6693,22 @@
 # sent_id = S0006-95
 # text = .i. innesamni nad lugimem
 # text_en = i.e. the confidence which is not smallest.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innesamni	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	nesamni	esamnae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=boldness, confidence
-4	nad	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-5	lugimem	bec	ADJ	adjective	Degree=Sup	_	_	X	Gloss=small, little of size or quantity
+3	nesamni	esamnae	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=boldness, confidence
+4	nad	nád 1	PART	particle_negative_subordinate	_	5	advmod:neg	X	Gloss=that...not
+5	lugimem	bec	ADJ	adjective	Degree=Sup	3	amod	X	Gloss=small, little of size or quantity
 
 # sent_id = S0006-96
 # text = .i. adfiadar issint salm
 # text_en = i.e. which is declared in the psalm.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ad·fiadar	ad·fét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to tell, to relate, to describe
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ad·fiadar	ad·fét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to tell, to relate, to describe
 3-4	issint	_	_	_	_	_	_	_	_
 3	i	i	ADP	preposition	Case=Dat	5	case	X	Gloss=in, into
 4	ssint	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	salm	salm	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=psalm
+5	salm	salm	NOUN	noun	Case=Dat|Number=Sing	2	xcomp:pred	X	Gloss=psalm
 
 # sent_id = S0006-97
 # text = .i. isairi doralad arthuus insalmso·  quia isdobestaid infét
@@ -7883,12 +7883,12 @@
 # sent_id = S0006-205
 # text = .i. anarróet deacht donacht
 # text_en = i.e. when the Godhead assumed Manhood.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	anarróet	_	_	_	_	_	_	_	_
-2	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-3	nar·róet	ar·foím	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to accept, to receive, to assume, to take, to agree to, to consent; to submit to; to permit, allow
-4	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=divinity, godhead
-5	donacht	doínacht	NOUN	noun	Case=Acc|Number=Sing|Typo=Yes	_	_	X	Gloss=humanity (vs. deity), humanness, Manhood|CorrectForm=doinacht
+2	a	a 6	SCONJ	conjunction	_	3	mark	X	Gloss=temporal: when, since
+3	nar·róet	ar·foím	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to accept, to receive, to assume, to take, to agree to, to consent; to submit to; to permit, allow
+4	deacht	deächt	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=divinity, godhead
+5	donacht	doínacht	NOUN	noun	Case=Acc|Number=Sing|Typo=Yes	3	obj	X	Gloss=humanity (vs. deity), humanness, Manhood|CorrectForm=doinacht
 
 # sent_id = S0006-206
 # text = bed erngabthi
@@ -8040,12 +8040,12 @@
 # sent_id = S0006-221
 # text = .i. innahí ata chosmailiu
 # text_en = i.e. the things that are more likely.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innahí	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	hí	í 1	PRON	pronoun_propword	Case=Acc|Number=Plur|Gender=Neut	_	_	X	Gloss=substantivizing particle
-4	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-5	chosmailiu	cosmail	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=like, similar, equal, probable
+3	hí	í 1	PRON	pronoun_propword	Case=Acc|Number=Plur|Gender=Neut	0	root	5:nsubj|0:root	Gloss=substantivizing particle
+4	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
+5	chosmailiu	cosmail	ADJ	adjective	Degree=Cmp	3	acl:relcl	X	Gloss=like, similar, equal, probable
 
 # sent_id = S0006-222
 # text = cid inlobur
@@ -8144,10 +8144,10 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	fochosm[ailius]	_	_	_	_	_	_	_	_
 2	fo	fo	ADP	preposition	Case=Acc	3	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-3	chosmailius	cosmailius	NOUN	noun	Case=Dat	_	_	X	Gloss=likeness, similarity, resemblance; comparison
+3	chosmailius	cosmailius	NOUN	noun	Case=Dat	0	root	X	Gloss=likeness, similarity, resemblance; comparison
 4-5	innanech	_	_	_	_	_	_	_	_
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	nech	ech	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=horse
+5	nech	ech	NOUN	noun	Case=Gen|Number=Plur	3	nmod	X	Gloss=horse
 
 # sent_id = S0006-232
 # text = ní rothuailngigestar .i. ní ainm fuasnada doine donuic and quando dixit quare fremunt rl. .i. acht is ainm fuasnada nephdligthich ech dobeir doib
