@@ -5463,12 +5463,12 @@
 # sent_id = S0006-3
 # text = .i. ciarudbói aururas form
 # text_en = i.e. though there has been haste upon me.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	ciarudbói	_	_	_	_	_	_	_	_
-2	cia	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	rud·bói	ad·tá	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfC|Aspect=Perf	_	_	X	Gloss=to be, to exist,
-4	aururas	aururas	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=haste; course
-5	form	for	ADP	preposition	Person=1|Number=Sing|Case=Acc	_	_	X	Gloss=upon, over, on
+2	cia	cía 2	SCONJ	conjunction	_	3	mark	X	Gloss=concessive and explicative: even, although
+3	rud·bói	ad·tá	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfC|Aspect=Perf	0	root	X	Gloss=to be, to exist,
+4	aururas	aururas	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=haste; course
+5	form	for	ADP	preposition	Person=1|Number=Sing|Case=Acc	3	xcomp:pred:prep	X	Gloss=upon, over, on
 
 # sent_id = S0006-4
 # text = .i. innatintatach
@@ -5820,12 +5820,12 @@
 # sent_id = S0006-29
 # text = .i. cenelae ciuil inso
 # text_en = this (is) a kind of musical instrument.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	cenelae	cenélae	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=kind, sort; race
-3	ciuil	céol	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=music
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	cenelae	cenélae	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=kind, sort; race
+3	ciuil	céol	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=music
 4-5	inso	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
+5	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	2	nsubj	X	Gloss=this one, these ones ; this, these
 
 # sent_id = S0006-30
 # text = cenelae ciuil dano
@@ -26944,10 +26944,10 @@
 # text = nochechruth arafoiris
 # text_en = or how will you (sg) hold?
 1-3	nochechruth	_	_	_	_	_	_	_	_
-1	no	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-2	che	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-3	chruth	cruth	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=shape, beauty of form, manner, appearance
-4	ara·foiris	ar·fuirig	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to hold back, to restrain, to delay
+1	no	nó 1	CCONJ	conjunction	_	3	cc	X	Gloss=disjunctive: or
+2	che	cía 1	X	pronoun_interrogative	_	3	advmod	X	Gloss=who, what, which
+3	chruth	cruth	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=shape, beauty of form, manner, appearance
+4	ara·foiris	ar·fuirig	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	3	acl:relcl	X	Gloss=to hold back, to restrain, to delay
 
 # sent_id = S0006-1927
 # text = fu dia son airis he side asfortachtaid damsa
@@ -26992,10 +26992,10 @@
 # sent_id = S0006-1929
 # text = .i. diglae for cach
 # text_en = i.e. of vengeance on all.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
-3	for	for	ADP	preposition	Case=Acc	_	case	X	Gloss=upon, over, on
-4	cach	cách	PRON	pronoun_quantifier	Case=Dat|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of avenging, punishing, vengeance
+3	for	for	ADP	preposition	Case=Acc	4	case	X	Gloss=upon, over, on
+4	cach	cách	PRON	pronoun_quantifier	Case=Dat|PronType=Tot	2	obl	X	Gloss=every one, each one, any one, all
 
 # sent_id = S0006-1930
 # text = in restais
@@ -27128,8 +27128,8 @@
 1-3	hontomus	_	_	_	_	_	_	_	_
 1	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	tomus	tomus	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of weighing, measuring, considering; quantity, amount
-4	chumscaigthiu	cumscaigthe	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=moved, changed
+3	tomus	tomus	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of weighing, measuring, considering; quantity, amount
+4	chumscaigthiu	cumscaigthe	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Masc	3	amod	X	Gloss=moved, changed
 
 # sent_id = S0006-1943
 # text = infótas airechdu són
@@ -27286,11 +27286,11 @@
 # text = ciachruth forrassissiu
 # text_en = how have you (sg) grown?
 1-2	ciachruth	_	_	_	_	_	_	_	_
-1	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-2	chruth	cruth	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=shape, beauty of form, manner, appearance
+1	cia	cía 1	X	pronoun_interrogative	_	2	advmod	X	Gloss=who, what, which
+2	chruth	cruth	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=shape, beauty of form, manner, appearance
 3-4	forrassissiu	_	_	_	_	_	_	_	_
-3	for·rassis	for·ása	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to grow, increase
-4	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+3	for·rassis	for·ása	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	2	acl:relcl	X	Gloss=to grow, increase
+4	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-1961
 # text = frisailefarsa
