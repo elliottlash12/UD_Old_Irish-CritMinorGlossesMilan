@@ -13786,12 +13786,12 @@
 # sent_id = S0006-743
 # text = .i. isna drocho doini
 # text_en = i.e. in the evil people.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	isna	_	_	_	_	_	_	_	_
-2	i	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-3	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	drocho	droch-	X	particle_prefix	Case=Acc|Number=Plur	_	_	X	Gloss=evil, bad, wrong
-5	doini	duine	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=person, human being
+2	i	i	ADP	preposition	Case=Acc	5	case	X	Gloss=in, into
+3	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
+4	drocho	droch-	X	particle_prefix	Case=Acc|Number=Plur	5	amod	X	Gloss=evil, bad, wrong
+5	doini	duine	NOUN	noun	Case=Acc|Number=Plur	0	root	X	Gloss=person, human being
 
 # sent_id = S0006-744
 # text = .i. á aisndisnea .i. agudi
@@ -13853,12 +13853,12 @@
 # sent_id = S0006-751
 # text = ní nadrindualdatar acht inrualdatar·
 # text_en = it is not that they have not come upon, but they have come upon.
-1	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
+1	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
 2-3	nadrindualdatar	_	_	_	_	_	_	_	_
-2	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-3	·rindualdatar	in·otat	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to enter into; to come upon, to happen upon
-4	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-5	in·rualdatar	in·otat	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to enter into; to come upon, to happen upon
+2	nad·	nád 1	PART	particle_negative_subordinate	_	3	advmod:neg	X	Gloss=that...not
+3	·rindualdatar	in·otat	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	0	root	X	Gloss=to enter into; to come upon, to happen upon
+4	acht	acht 1	CCONJ	conjunction	_	5	cc	X	Gloss=except, but, provided that, save that
+5	in·rualdatar	in·otat	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	3	conj	X	Gloss=to enter into; to come upon, to happen upon
 6	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-752
@@ -13904,13 +13904,13 @@
 # sent_id = S0006-754
 # text = .i. donaib degdoinib
 # text_en = i.e. for the good people.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	donaib	_	_	_	_	_	_	_	_
 2	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
 3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
 4-5	degdoinib	_	_	_	_	_	_	_	_
-4	deg	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
-5	doinib	duine	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=person, human being
+4	deg	dag-	X	particle_prefix	_	5	amod	X	Gloss=good, noble, very
+5	doinib	duine	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=person, human being
 
 # sent_id = S0006-755
 # text = .i. lasinmes firbrithemnachtae· dǽ·
@@ -14162,13 +14162,13 @@
 # sent_id = S0006-780
 # text = .i. hífollus fiadchách
 # text_en = i.e. openly before all.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	hífollus	_	_	_	_	_	_	_	_
-2	hí	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-3	follus	follus	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=clear, plain, evident ; manifest, open
+2	hí	i	ADP	preposition	Case=Acc	3	case	X	Gloss=in, into
+3	follus	follus	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=clear, plain, evident ; manifest, open
 4-5	fiadchách	_	_	_	_	_	_	_	_
-4	fiad	fíad 1	ADP	preposition	Case=Dat	_	case	X	Gloss=in the presence of, before
-5	chách	cách	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
+4	fiad	fíad 1	ADP	preposition	Case=Dat	5	case	X	Gloss=in the presence of, before
+5	chách	cách	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Tot	3	obl	X	Gloss=every one, each one, any one, all
 
 # sent_id = S0006-781
 # text = .i. conumerad
@@ -14788,7 +14788,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	dotrachtad	_	_	_	_	_	_	_	_
 2	do	do 1	ADP	preposition	Case=Dat	3	mark:prt	X	Gloss=to, for, by etc.
-3	trachtad	tráchtad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	root	X	Gloss=the act of discussing; commentary, interpretation
+3	trachtad	tráchtad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of discussing; commentary, interpretation
 4-5	insailm	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
 5	sailm	salm	NOUN	noun	Case=Gen|Number=Sing	3	obj	X	Gloss=psalm
@@ -14828,12 +14828,12 @@
 # sent_id = S0006-826
 # text = .i. sechis asrind són
 # text_en = i.e. that is, it has declared.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	as·rind	as·indet	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Typo=Yes	_	_	X	Gloss=to declare, to tell, to relate|CorrectForm=as·rindid
-5	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+2	sech	sech 2	X	conjunction	_	4	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	as·rind	as·indet	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Typo=Yes	0	root	X	Gloss=to declare, to tell, to relate|CorrectForm=as·rindid
+5	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-827
 # text = .i. no linfed
