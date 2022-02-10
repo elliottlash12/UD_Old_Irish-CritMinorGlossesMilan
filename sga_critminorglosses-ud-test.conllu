@@ -20180,12 +20180,12 @@
 # sent_id = S0006-1315
 # text = .i. trímiairilliud ón
 # text_en = i.e. namely, through ill-desert.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	trímiairilliud	_	_	_	_	_	_	_	_
 2	trí	tre	ADP	preposition	Case=Acc	4	case	X	Gloss=through (time or space), by means of, be reason of
-3	mi	mí-	X	particle_prefix	_	_	_	X	Gloss=bad, false
-4	airilliud	áirilliud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of deserving, meriting
-5	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+3	mi	mí-	X	particle_prefix	_	4	amod	X	Gloss=bad, false
+4	airilliud	áirilliud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of deserving, meriting
+5	ón	-ón	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-1316
 # text = dungabail .i. condagaibtis intais amprom trianintleda
@@ -20272,11 +20272,11 @@
 # sent_id = S0006-1324
 # text = anatammresa oldia
 # text_en = when I will rise, says God.
-1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	natamm·res	at·reig	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB|RelType=Other	_	_	X	Gloss=to rise, to go
-3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-4	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to say
-5	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
+1	a	a 6	SCONJ	conjunction	_	2	mark	X	Gloss=temporal: when, since
+2	natamm·res	at·reig	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB|RelType=Other	0	root	X	Gloss=to rise, to go
+3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
+4	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	2	parataxis	X	Gloss=to say
+5	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=god, deity, God
 
 # sent_id = S0006-1325 - ellipsis
 # text = annad comairleciub .i. nadndilgub
@@ -20293,13 +20293,13 @@
 # sent_id = S0006-1326
 # text = ɫ. niba indlax
 # text_en = or it will not be leniently.
-1	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+1	ɫ	nó 1	CCONJ	conjunction	_	5	cc	X	Gloss=disjunctive: or
 2-3	niba	_	_	_	_	_	_	_	_
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-5	indlax	_	_	_	_	_	_	_	_
-4	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-5	lax	lax	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=lax, slack, lenient
+4	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
+5	lax	lax	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=lax, slack, lenient
 
 # sent_id = S0006-1327
 # text = dudigail
@@ -20384,11 +20384,11 @@
 # sent_id = S0006-1338
 # text = mese ɫ. brathnigthe .i. forloiscthe
 # text_en = examined or judged, i.e. burned.
-1	mese	mesae 1	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=submitted to investigation, brought under judgment, examined
-2	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-3	brathnigthe	bráthnaigthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=judged, decided, examined, determined
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	forloiscthe	forloiscthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=burned, set on fire
+1	mese	mesae 1	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	0	root	X	Gloss=submitted to investigation, brought under judgment, examined
+2	ɫ	nó 1	CCONJ	conjunction	_	3	cc	X	Gloss=disjunctive: or
+3	brathnigthe	bráthnaigthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	1	conj	X	Gloss=judged, decided, examined, determined
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	forloiscthe	forloiscthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	1	conj	X	Gloss=burned, set on fire
 
 # sent_id = S0006-1339
 # text = .i. conabitalam and
@@ -20684,11 +20684,11 @@
 # text_en = [it is] immediately that this is construed.
 1-2	fochetoir	_	_	_	_	_	_	_	_
 1	fo	fo	ADP	preposition	Case=Acc	2	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-2	chetoir	cétóir	NOUN	noun	Case=Dat	_	_	X	Gloss=the first time
-3	do·gnither	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to do, to make
+2	chetoir	cétóir	NOUN	noun	Case=Dat	0	root	X	Gloss=the first time
+3	do·gnither	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	csubj:cleft	X	Gloss=to do, to make
 4-5	inso	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
+5	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	3	nsubj	X	Gloss=this one, these ones ; this, these
 
 # sent_id = S0006-1365
 # text = .i. cia
@@ -20735,11 +20735,11 @@
 # sent_id = S0006-1371
 # text = .i. as huaisliu .i. fortachtae
 # text_en = i.e. which is higher, i.e. of help.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-3	huaisliu	úasal	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=high, elevated, lofty, noble, honourable
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	fortachtae	fortacht	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of aiding, helping
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	cop	X	Gloss=to be
+3	huaisliu	úasal	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=high, elevated, lofty, noble, honourable
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	fortachtae	fortacht	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of aiding, helping
 
 # sent_id = S0006-1372
 # text = inna ercheltu
