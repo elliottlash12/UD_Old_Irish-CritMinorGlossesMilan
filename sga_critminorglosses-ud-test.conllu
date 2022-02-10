@@ -8242,13 +8242,13 @@
 # sent_id = S0006-240
 # text = .i. nochis nocathaigtisón
 # text_en = i.e. that is, they used to fight, namely.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	nochis	_	_	_	_	_	_	_	_
-2	noch	noch 1	X	conjunction	_	_	_	X	Gloss=introduces a synonym or explanation: that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	noch	noch 1	X	conjunction	_	4	mark	X	Gloss=introduces a synonym or explanation: that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 4-5	nocathaigtisón	_	_	_	_	_	_	_	_
-4	no·cathaigtis	cathaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to fight, to give battle
-5	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+4	no·cathaigtis	cathaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	0	root	X	Gloss=to fight, to give battle
+5	ón	-ón	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-241
 # text = in chuil
@@ -8405,12 +8405,12 @@
 # text = ithesidi dorumadirsi
 # text_en = it is these that it had measured.
 1-3	ithesidi	_	_	_	_	_	_	_	_
-1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	he	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=they, them
-3	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Fem	_	_	X	Gloss=that one, he, she, it, they
+1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	he	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=they, them
+3	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Fem	2	appos	X	Gloss=that one, he, she, it, they
 4-5	dorumadirsi	_	_	_	_	_	_	_	_
-4	do·rumadir	do·midethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to measure, to weigh, to estimate
-5	si	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Fem|PronType=Prs	_	_	X	Gloss=emphasising particle
+4	do·rumadir	do·midethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	2	csubj:cleft	X	Gloss=to measure, to weigh, to estimate
+5	si	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Fem|PronType=Prs	4	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-252
 # text = hondisin .i. hongnim techtae innagrene forculu ɫ. slige dundaingiul innanassar·
@@ -8803,7 +8803,7 @@
 # sent_id = S0006-289
 # text = .i. a foraitmit do dia
 # text_en = i.e. that God should remember Him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	obj:poss	X	Gloss=his, its
 3	foraitmit	foraithmet	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Typo=Yes	0	root	X	Gloss=the act of remembering, calling to mind; recollection|CorrectForm=foraithmit
 4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
@@ -8822,12 +8822,12 @@
 # text = ciafíu .i. mórní
 # text_en = how, i.e. greatly.
 1-2	ciafíu	_	_	_	_	_	_	_	_
-1	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-2	fíu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=worthy, meet, fitting, honorable
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	cia	cía 1	X	pronoun_interrogative	_	2	advmod	X	Gloss=who, what, which
+2	fíu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=worthy, meet, fitting, honorable
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	mórní	_	_	_	_	_	_	_	_
-4	mór	mór	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=great, big, ample, tall, large
-5	ní	ní 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=a thing
+4	mór	mór	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	5	amod	X	Gloss=great, big, ample, tall, large
+5	ní	ní 2	NOUN	noun	Case=Dat|Number=Sing	2	conj	X	Gloss=a thing
 
 # sent_id = S0006-292
 # text = .i. doiesu
@@ -9577,12 +9577,12 @@
 # sent_id = S0006-360
 # text = .i. is trisodin dofocuirther
 # text_en = i.e. it is through it that he might be invited.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 3-4	trisodin	_	_	_	_	_	_	_	_
-3	tri	tre	ADP	preposition	Case=Acc	_	case	X	Gloss=through (time or space), by means of, be reason of
-4	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-5	do·focuirther	do·fochuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to invite, to introduce
+3	tri	tre	ADP	preposition	Case=Acc	4	case	X	Gloss=through (time or space), by means of, be reason of
+4	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	5	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+5	do·focuirther	do·fochuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to invite, to introduce
 
 # sent_id = S0006-361
 # text = .i. sech alaili dliged 7 indliuchtu .i. níconfil nach nintliucht naile and acht anadfiadar isintitul
@@ -9640,12 +9640,12 @@
 # sent_id = S0006-365
 # text = .i. atharoircnidi .i. fingalcha
 # text_en = i.e. father-slaying, i.e. relative-slaying.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	atharoircnidi	_	_	_	_	_	_	_	_
-2	athar	athair	NOUN	noun	_	_	_	X	Gloss=father
-3	oircnidi	oirgnide	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=slaying
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	fingalcha	fingalach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=kin-slaying, (one) who slays a relative
+2	athar	athair	NOUN	noun	_	0	root	X	Gloss=father
+3	oircnidi	oirgnide	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut|Degree=Pos	2	amod	X	Gloss=slaying
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	fingalcha	fingalach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Neut|Degree=Pos	2	conj	X	Gloss=kin-slaying, (one) who slays a relative
 
 # sent_id = S0006-366
 # text = is follus
