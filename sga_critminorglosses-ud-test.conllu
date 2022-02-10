@@ -22940,10 +22940,10 @@
 # text_en = of the enemies, i.e. of the Children of Israel.
 1-2	innannamat	_	_	_	_	_	_	_	_
 1	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	nnamat	námae	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=enemy, foe
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	macc	macc 1	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-5	nisrahel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Israel
+2	nnamat	námae	NOUN	noun	Case=Gen|Number=Plur	0	root	X	Gloss=enemy, foe
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	macc	macc 1	NOUN	noun	Case=Gen|Number=Plur	2	conj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+5	nisrahel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=Israel
 
 # sent_id = S0006-1598
 # text = nundagebtis
@@ -23800,13 +23800,13 @@
 # sent_id = S0006-1672
 # text = huare nadfitetar infirinni
 # text_en = because they did not know the truth.
-1	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
+1	huare	úaire	SCONJ	conjunction	_	3	mark	X	Gloss=causal; coordinating and subordinating: when, since
 2-3	nadfitetar	_	_	_	_	_	_	_	_
-2	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-3	·fitetar	ro·finnadar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to know, to find out, to learn
+2	nad·	nád 1	PART	particle_negative_subordinate	_	3	advmod:neg	X	Gloss=that...not
+3	·fitetar	ro·finnadar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to know, to find out, to learn
 4-5	infirinni	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	firinni	fírinne	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=truth; justice, righteousness
+5	firinni	fírinne	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=truth; justice, righteousness
 
 # sent_id = S0006-1673
 # text = innatrachtaib
@@ -23819,12 +23819,12 @@
 # sent_id = S0006-1674
 # text = .i. buithe innadiad
 # text_en = i.e. [in the order] of being after it
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	buithe	both 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of being, existing, being hungry
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	buithe	both 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of being, existing, being hungry
 3-5	innadiad	_	_	_	_	_	_	_	_
 3	i	i	ADP	preposition	Case=Acc	5	case	X	Gloss=in, into
-4	nna	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	_	X	Gloss=his, its
-5	diad	deäd	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=end, conclusion
+4	nna	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	nmod:poss	X	Gloss=his, its
+5	diad	deäd	NOUN	noun	Case=Acc|Number=Sing	2	obl	X	Gloss=end, conclusion
 
 # sent_id = S0006-1675
 # text = .i. archosmaili ind fochuinn diaragbtha .i. diasoirad dilamaib asar rogab incetnæ salm dús cia atrebea isin chathraig iarsint soirad hisin rogab inso
@@ -23952,12 +23952,12 @@
 # text = sechis name[n]mana son
 # text_en = that is, the minds.
 1-2	sechis	_	_	_	_	_	_	_	_
-1	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	sech	sech 2	X	conjunction	_	4	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 3-4	name[n]mana	_	_	_	_	_	_	_	_
 3	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	menmana	menmae	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
-5	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+4	menmana	menmae	NOUN	noun	Case=Acc|Number=Plur	0	root	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
+5	son	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1681
 # text = ɔucbad
@@ -23975,12 +23975,12 @@
 # sent_id = S0006-1683
 # text = .i. denmae degnimae son
 # text_en = i.e. that is, of the doings of good-deeds.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	denmae	dénum	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	denmae	dénum	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of doing, making, creating; deed, work, activity
 3-4	degnimae	_	_	_	_	_	_	_	_
-3	de	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
-4	gnimae	gním	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-5	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+3	de	dag-	X	particle_prefix	_	4	amod	X	Gloss=good, noble, very
+4	gnimae	gním	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	2	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+5	son	-són	PRON	particle_anaphoric	_	2	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1684
 # text = isinnanad
@@ -24249,12 +24249,12 @@
 # text = comidithir ɫ. codudí
 # text_en = so that he judges, or, that he may lead.
 1-2	comidithir	_	_	_	_	_	_	_	_
-1	co	co 3	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
-2	midithir	midithir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to adjudge, to measure, to appraise, to estimate
-3	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+1	co	co 3	SCONJ	complementiser	_	2	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
+2	midithir	midithir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to adjudge, to measure, to appraise, to estimate
+3	ɫ	nó 1	CCONJ	conjunction	_	5	cc	X	Gloss=disjunctive: or
 4-5	codudí	_	_	_	_	_	_	_	_
-4	co	co 3	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
-5	du·dí	do·diät	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to lead, to guide
+4	co	co 3	SCONJ	complementiser	_	5	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
+5	du·dí	do·diät	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	2	conj	X	Gloss=to lead, to guide
 
 # sent_id = S0006-1706
 # text = .i. insce .dé. is mou ade didiu indaas insce duini
