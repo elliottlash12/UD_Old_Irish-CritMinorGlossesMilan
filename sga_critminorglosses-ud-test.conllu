@@ -8827,7 +8827,7 @@
 # text = ciafíu .i. mórní
 # text_en = how, i.e. greatly.
 1-2	ciafíu	_	_	_	_	_	_	_	_
-1	cia	cía 1	X	pronoun_interrogative	_	2	advmod	X	Gloss=who, what, which
+1	cia	cía 1	X	pronoun_interrogative	_	2	det	X	Gloss=who, what, which
 2	fíu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=worthy, meet, fitting, honorable
 3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	mórní	_	_	_	_	_	_	_	_
@@ -12591,8 +12591,8 @@
 # text = ciafíu
 # text_en = how.
 1-2	ciafíu	_	_	_	_	_	_	_	_
-1	cia	cía 1	X	pronoun_interrogative	_	2	advmod	X	Gloss=who, what, which
-2	fíu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	1	root	X	Gloss=worthy, meet, fitting, honorable
+1	cia	cía 1	X	pronoun_interrogative	_	2	det	X	Gloss=who, what, which
+2	fíu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=worthy, meet, fitting, honorable
 
 # sent_id = S0006-640
 # text = .i. ni aithirgi hobriathraib nammá cengním
@@ -13612,7 +13612,7 @@
 # text = ciafiu
 # text_en = as.
 1-2	ciafiu	_	_	_	_	_	_	_	_
-1	cia	cía 1	X	pronoun_interrogative	_	2	advmod	X	Gloss=who, what, which
+1	cia	cía 1	X	pronoun_interrogative	_	2	det	X	Gloss=who, what, which
 2	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=worthy, meet, fitting, honorable
 
 # sent_id = S0006-730
@@ -16936,11 +16936,11 @@
 # sent_id = S0006-1014
 # text = .i. ciafiu esámain
 # text_en = i.e. how bold.
-1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	ciafiu	_	_	_	_	_	_	_	_
-2	cia	cía 1	X	pronoun_interrogative	_	3	advmod	X	Gloss=who, what, which
-3	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=worthy, meet, fitting, honorable
-4	esámain	esamain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	3	ccomp	X	Gloss=bold, fearless, daring
+2	cia	cía 1	X	pronoun_interrogative	_	4	det	X	Gloss=who, what, which
+3	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	4	amod	X	Gloss=worthy, meet, fitting, honorable
+4	esámain	esamain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=bold, fearless, daring
 
 # sent_id = S0006-1015
 # text = dim ɫ. ní
@@ -27713,7 +27713,7 @@
 # text_en = i.e. how I beseech.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	ciafiu	_	_	_	_	_	_	_	_
-2	cia	cía 1	X	pronoun_interrogative	_	3	advmod	X	Gloss=who, what, which
+2	cia	cía 1	X	pronoun_interrogative	_	3	det	X	Gloss=who, what, which
 3	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=worthy, meet, fitting, honorable
 4-5	todlaigersa	_	_	_	_	_	_	_	_
 4	to·dlaiger	do·tluichethar	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	3	ccomp	X	Gloss=to ask, to beseech, to desire, to crave
