@@ -16838,16 +16838,16 @@
 # text = .i. tabairt innan diglae argair denum nuilc fochosmailius aringair recht
 # text_en = i.e. the infliction of punishment hinders doing of evil just as the Law hinders it.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
-2	tabairt	tabart 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+2	tabairt	tabart 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	5	dislocated	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
 3	innan	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Typo=Yes	4	det	X	Gloss=the|CorrectForm=inna
 4	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	obj	X	Gloss=the act of avenging, punishing, vengeance
-5	ar·gair	ar·gair	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	2	csubj:cleft	X	Gloss=to forbid, to hinder, to prevent
+5	ar·gair	ar·gair	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to forbid, to hinder, to prevent
 6	denum	dénum	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	5	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
 7	nuilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	6	obj	X	Gloss=evil, bad, wrong
 8-9	fochosmailius	_	_	_	_	_	_	_	_
 8	fo	fo	ADP	preposition	Case=Acc	9	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
 9	chosmailius	cosmailius	NOUN	noun	Case=Dat	6	obl	X	Gloss=likeness, similarity, resemblance; comparison
-10	arin·gair	ar·gair	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	9	advcl	X	Gloss=to forbid, to hinder, to prevent
+10	arin·gair	ar·gair	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	9	acl	X	Gloss=to forbid, to hinder, to prevent
 11	recht	recht	NOUN	noun	Case=Nom|Number=Sing	10	nsubj	X	Gloss=law
 
 # sent_id = S0006-1007
@@ -17670,8 +17670,8 @@
 3	línmaire	línmaire	NOUN	noun	Case=Nom|Number=Sing	1	conj	X	Gloss=amount, multiplicity
 4-5	innaaimsire	_	_	_	_	_	_	_	_
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	aimsire	aimser	NOUN	noun	Case=Gen|Number=Sing	3	nmod	6:obl:tmod|3:nmod	Gloss=point or period of time, hour, tense
-6	ro·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	5	acl:relcl	X	Gloss=to be, to exist,
+5	aimsire	aimser	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=point or period of time, hour, tense
+6	ro·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to be, to exist,
 7-8	inbocht	_	_	_	_	_	_	_	_
 7	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
 8	bocht	bocht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	6	nsubj	X	Gloss=poor
@@ -20117,14 +20117,14 @@
 # text = amal bite ingnimae issamlid infet som innaisndis
 # text_en = as the deeds are, it is so that he sets forth the explanation.
 1	amal	amail 2	SCONJ	conjunction	_	2	mark	X	Gloss=as, like; translating Latin ut
-2	bite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	advcl	X	Gloss=to be, to exist,
+2	bite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	advcl	X	Gloss=to be, to exist,
 3-4	ingnimae	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
 4	gnimae	gním	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	2	nsubj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 5-6	issamlid	_	_	_	_	_	_	_	_
-5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
-6	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	7	case	X	Gloss=as, like
-7	in·fet	in·fét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	2	root	X	Gloss=to tell, to relate, to point out, to make known
+5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
+6	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	0	root	X	Gloss=as, like
+7	in·fet	in·fét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	6	csubj:cleft	X	Gloss=to tell, to relate, to point out, to make known
 8	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	7	nsubj	X	Gloss=emphasising particle
 9-10	innaisndis	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
@@ -20213,7 +20213,7 @@
 # text_en = I will be girded, says God; that, then, is the word of God.
 1-2	fomchridichfidersa	_	_	_	_	_	_	_	_
 1	fom·chridichfider	fo·cridigedar	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfA	0	root	X	Gloss=to gird
-2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	1	nsubj	X	Gloss=emphasising particle
+2	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	1	obj	X	Gloss=emphasising particle
 3-4	oldia	_	_	_	_	_	_	_	_
 3	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	1	parataxis	X	Gloss=to say
 4	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=god, deity, God
@@ -20416,16 +20416,17 @@
 # sent_id = S0006-1341
 # text = ɫ. animaduersarii .i. innadiglae 7 is ainmnid amal sodin iustitia
 # text_en = or animaduersarii, i.e. of the vengeance, and in that case iustitia is a nominative.
-1	ɫ.	uel	CCONJ	conjunction	_	4	cc	X	Gloss=or, even
-2	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
-3	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of avenging, punishing, vengeance
-5	7	ocus 2	CCONJ	conjunction	_	7	cc	X	Gloss=coordinating: and, since
-6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
-7	ainmnid	ainmmnid	NOUN	noun	Case=Nom|Number=Sing	4	conj	X	Gloss=gramm. nominative case
-8	amal	amail 1	ADP	preposition	Case=Acc	9	case	X	Gloss=as, like
-9	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	7	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-10	iustitia	iūstitia	NOUN	noun	_	7	nsubj	X	Gloss=_
+1	ɫ.	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
+2	animaduersarii	animadversarius	NOUN	noun	_	0	root	X	Gloss=observer
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
+5	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of avenging, punishing, vengeance
+6	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+8	ainmnid	ainmmnid	NOUN	noun	Case=Nom|Number=Sing	5	conj	X	Gloss=gramm. nominative case
+9	amal	amail 1	ADP	preposition	Case=Acc	10	case	X	Gloss=as, like
+10	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	8	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+11	iustitia	iūstitia	NOUN	noun	_	8	nsubj	X	Gloss=_
 
 # sent_id = S0006-1342
 # text = durinmailc
@@ -23440,11 +23441,11 @@
 # text_en = i.e. that it is of the Assyrians in particular that this psalm was sung.
 1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	asndíassaraib	_	_	_	_	_	_	_	_
-2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
+2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	4	cop	X	Gloss=to be
 3	ndí	di	ADP	preposition	Case=Dat	4	case	X	Gloss=away, from, cause or reason, by
 4	assaraib	Asar	PROPN	proper_noun	Case=Dat|Number=Plur	0	root	X	Gloss=Assyrian
 5	int	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	sainriud	sainred	NOUN	noun	Case=Dat|Number=Sing	4	appos	X	Gloss=peculiar or belonging to (an individual), characteristic of; particular, special, set apart, peculiar property
+6	sainriud	sainred	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=peculiar or belonging to (an individual), characteristic of; particular, special, set apart, peculiar property
 7	ro·gabad	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	4	csubj:cleft	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 8-10	insalmsa	_	_	_	_	_	_	_	_
 8	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
@@ -23926,7 +23927,7 @@
 4	nui	nuae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	3	amod	X	Gloss=new, recent, fresh
 5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 6-7	asoertha	_	_	_	_	_	_	_	_
-6	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=their
+6	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	obj:poss	X	Gloss=their
 7	soertha	sóerad	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of freeing, delivering; deliverance
 8	de	de (Lat)	ADP	preposition	Case=Unk	9	case	X	Gloss=from, off, about
 9	manu	manus	NOUN	noun	_	7	obl	X	Gloss=hand
@@ -25811,7 +25812,7 @@
 1	a	a 6	SCONJ	conjunction	_	2	mark	X	Gloss=temporal: when, since
 2	ndunda·sephainn	do·seinn	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|RelType=Other	0	root	X	Gloss=to pursue, to drive, to hunt
 
-# sent_id = S0006-1845
+# sent_id = S0006-1845 - ellipsis?
 # text = .i. illar .i. comtis cat[h]rai[g] frisellar
 # text_en = i.e. to the ground, i.e. so that [the] cities would be turned to the ground.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
@@ -26581,7 +26582,7 @@
 22	rubríci	rubríccae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=preeminence
 23	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
 
-# sent_id = S0006-1897
+# sent_id = S0006-1897 - reliqua
 # text = .i. isintsalm ubi dicit sanctis qui sunt rl.
 # text_en = i.e. in the psalm ubi etc.
 1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
@@ -26589,10 +26590,10 @@
 2	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
 3	sint	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
 4	salm	salm	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=psalm
-5	ubi	ubi	ADV	adverb	_	4	advmod	X	Gloss=where, there
-6	dicit	dīcō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to say, to declare, to call
-7	sanctis	sanctus	ADJ	adjective	Degree=Pos	_	_	X	Gloss=sacred, holy, saintly
-8	qui	quī	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=who, which
+5	ubi	ubi	ADV	adverb	_	6	ref	X	Gloss=where, there
+6	dicit	dīcō	VERB	verb	Voice=Act|Mood=Ind	4	acl:relcl	X	Gloss=to say, to declare, to call
+7	sanctis	sanctus	ADJ	adjective	Degree=Pos	6	parataxis	X	Gloss=sacred, holy, saintly
+8	qui	quī	PRON	pronoun_relative	PronType=Rel	7	flat	X	Gloss=who, which
 9	sunt	sum	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to be
 10	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
 11	.	.	PUNCT	punctuation	_	_	_	_	_
@@ -27521,7 +27522,7 @@
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 3	sí	3sg.fem.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	4	nmod	X	Gloss=she, her, it
 4	run	rún	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=mystery, secret
-5	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
+5	són	-són	PRON	particle_anaphoric	_	4	nsubj	X	Gloss=that (mentioned above) that is
 6	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
 7	fiugrae	figor	NOUN	noun	Case=Gen|Number=Sing	4	nmod	8:obj|4:nmod	Gloss=figure, type, symbol
 8	ro·ngab	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	7	acl:relcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
