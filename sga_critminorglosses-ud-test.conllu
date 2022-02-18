@@ -16902,6 +16902,7 @@
 # text = ní nanaerigme
 # text_en = it is not of complaining.
 1	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+2-3	nanaerigme	_	_	_	_	_	_	_	_
 2	nan	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Typo=Yes	3	det	X	Gloss=the|CorrectForm=na
 3	aerigme	airigem	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of complaining; complaint
 
@@ -16924,11 +16925,14 @@
 8-9	intsommai	_	_	_	_	_	_	_	_
 8	int	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
 9	sommai	sommae 2	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=rich, wealthy
+10-11	níretaltar	_	_	_	_	_	_	_	_
 10	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
 11	·retaltar	rélaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Typo=Yes	_	_	X	Gloss=to reveal, to manifest, to declare, to make clear|CorrectForm=·réltar
 12	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+13-14	doneuch	_	_	_	_	_	_	_	_
 13	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
 14	neuch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
+15-17	naichidfitir	_	_	_	_	_	_	_	_
 15	naich	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
 16	id·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
 17	·fitir	ro·finnadar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to know, to find out, to learn
@@ -17046,7 +17050,7 @@
 2	fortrummae	fortrommae	NOUN	noun	Case=Nom|Number=Sing	0	root	0:root	Gloss=oppressive weight; oppression
 
 # sent_id = S0006-1025 - ellipsis
-# text = isbuidechu leu fortacht doib isnaib imnedaib quam isnaib soinnechaib [leg. soinmechaib]·
+# text = isbuidechu leu fortacht doib isnaib imnedaib quam isnaib soinnechaib·
 # text_en = help to them in troubles is more satisfying to them than [help] in prosperity.
 1-2	isbuidechu	_	_	_	_	_	_	_	_
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
@@ -17062,7 +17066,7 @@
 10-11	isnaib	_	_	_	_	_	_	_	_
 10	i	i	ADP	preposition	Case=Dat	12	case	X	Gloss=in, into
 11	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	12	det	X	Gloss=the
-12	soinmechaib	soinmech	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	2	obl	X	Gloss=favorable, lucky, prosperous
+12	soinnechaib	soinmech	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos|Typo=Yes	2	obl	X	Gloss=favorable, lucky, prosperous|CorrectForm=soinmechaib
 13	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1026
@@ -17145,11 +17149,11 @@
 2	nanæ	anae	NOUN	noun	Case=Gen|Number=Plur	0	root	0:root	Gloss=wealth, riches, prosperity
 
 # sent_id = S0006-1034
-# text = honchomtherchruc [leg. chomtherchomruc]
+# text = honchomtherchruc
 # text_en = for the collection.
 1	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	chomtherchomruc	comtherchomracc	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=assembly, collection, congregation
+3	chomtherchruc	comtherchomracc	NOUN	noun	Case=Dat|Number=Sing|Typo=Yes	0	root	X	Gloss=assembly, collection, congregation|CorrectForm=chomtherchomruc
 
 # sent_id = S0006-1035
 # text = .i. armunter féid
@@ -17307,12 +17311,13 @@
 1	asru·lenta	as·lena	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	0:root	Gloss=to pollute, to defy, to violate
 
 # sent_id = S0006-1053
-# text = hondoirmaigthetaid [leg. doirmamaigthetaid]
+# text = hondoirmaigthetaid
 # text_en = by the servile subjection.
+1-4	hondoirmaigthetaid	_	_	_	_	_	_	_	_
 1	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
 3	doir	dóer	ADJ	adjective	Degree=Pos	4	amod	X	Gloss=unfree, lowborn, of servile condition or nature
-4	mamaigthetaid	mámaigthetu	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=subjection, slavery
+4	maigthetaid	mámaigthetu	NOUN	noun	Case=Dat|Number=Sing|Typo=Yes	0	root	X	Gloss=subjection, slavery|CorrectForm=mamaigthetaid
 
 # sent_id = S0006-1054
 # text = dochraidigthir
@@ -17356,11 +17361,11 @@
 3	aslaig	aslach	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of tempting, instigating, inducing
 
 # sent_id = S0006-1060
-# text = fristinfet .i. frisbrubdi [leg. frisbrudi]
+# text = fristinfet .i. frisbrubdi
 # text_en = blows against, i.e. rejects.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	fris·tinfet	fris·tinfet	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to blow against
-3	fris·brudi	fris·brudi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to reject, to refuse
+3	fris·brubdi	fris·brudi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Typo=Yes	_	_	X	Gloss=to reject, to refuse|CorrectForm=fris·brudi
 
 # sent_id = S0006-1061
 # text = ingresgugud .i. ilardatu inna aimsire mbite som isind fognam
@@ -17411,13 +17416,13 @@
 2	belrai	bélrae	NOUN	noun	Case=Gen|Number=Sing	0	root	0:root	Gloss=speech, language; dialect
 
 # sent_id = S0006-1066
-# text = hontecnatatu formachtu [leg. forcmachtu]
+# text = hontecnatatu formachtu
 # text_en = by the artificial familiarity.
 1-3	hontecnatatu	_	_	_	_	_	_	_	_
 1	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	tecnatatu	tecnatatu	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=familiarity, intimacy
-4	forcmachtu	forcmachtae	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Masc	3	amod	X	Gloss=that which is made; artificial
+4	formachtu	forcmachtae	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Masc|Typo=Yes	3	amod	X	Gloss=that which is made; artificial|CorrectForm=forcmachtu
 
 # sent_id = S0006-1067
 # text = erdaircigidir
@@ -17554,12 +17559,12 @@
 3	nathardanu	athardán	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=patrimony
 
 # sent_id = S0006-1083
-# text = .i. indithem durés [leg. dugrés] 7 imradud fria thogais
+# text = .i. indithem durés 7 imradud fria thogais
 # text_en = i.e. attention always and intending to deceive him.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2	indithem	indithem	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of contemplating; attention, heed, intentness, contemplation
 3	du	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
-4	grés	grés 2	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=continance, continuation, practice
+4	rés	grés 2	NOUN	noun	Case=Dat|Number=Sing|Typo=Yes	2	obl	X	Gloss=continance, continuation, practice|CorrectForm=grés
 5	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
 6	imradud	immrádud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of thinking, deliberating
 7	fri	fri	ADP	preposition	Case=Acc	9	case	X	Gloss=towards, against, standard of comparison
@@ -17596,7 +17601,7 @@
 8	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-1088
-# text = .i. indfithis tete inpeccad ishí te [leg. tete] in pian innadiglae
+# text = .i. indfithis tete inpeccad ishí te in pian innadiglae
 # text_en = i.e. the circuit by which the sin goes is that by which the pain of the punishment goes.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indfithis	_	_	_	_	_	_	_	_
@@ -17609,9 +17614,10 @@
 7-8	ishí	_	_	_	_	_	_	_	_
 7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
 8	hí	3sg.fem.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	9	nmod	X	Gloss=she, her, it
-9	tete	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	csubj:cleft	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+9	te	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Typo=Yes	4	csubj:cleft	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)|CorrectForm=tete
 10	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	11	det	X	Gloss=the
 11	pian	pían	NOUN	noun	Case=Nom|Number=Sing	9	nsubj	X	Gloss=penalty, punishment, torment, pain
+12-13	innadiglae	_	_	_	_	_	_	_	_
 12	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
 13	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	11	nmod	X	Gloss=the act of avenging, punishing, vengeance
 
@@ -17776,11 +17782,12 @@
 1	huaislimem	úasal	ADJ	adjective	Degree=Sup	0	root	0:root	Gloss=high, elevated, lofty, noble, honourable
 
 # sent_id = S0006-1105
-# text = triammindcecht [leg. triammindchecht]
+# text = triammindcecht
 # text_en = through their misery.
+1-3	triammindcecht	_	_	_	_	_	_	_	_
 1	tri	tre	ADP	preposition	Case=Acc	3	case	X	Gloss=through (time or space), by means of, be reason of
 2	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	3	_	X	Gloss=their
-3	mmindchecht	mindchecht	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=misery, poverty, beggarly condition
+3	mmindcecht	mindchecht	NOUN	noun	Case=Acc|Number=Sing|Typo=Yes	_	_	X	Gloss=misery, poverty, beggarly condition|CorrectForm=mmindchecht
 
 # sent_id = S0006-1106
 # text = hondlondas
@@ -17821,13 +17828,13 @@
 20	salmaib	salm	NOUN	noun	Case=Dat|Number=Plur	15	obl	X	Gloss=psalm
 
 # sent_id = S0006-1109
-# text = sechnisnærbatar [leg. ærbartatar] immurgu acht isarindí rondageinset hognimaib·
+# text = sechnisnærbatar immurgu acht isarindí rondageinset hognimaib·
 # text_en = although they did not say them, however, but it is because they did them in deeds.
 1-4	sechnisnærbatar	_	_	_	_	_	_	_	_
 1	sech	sech 2	X	conjunction	_	4	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
 2	ni	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
 3	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	4	inf:obj	X	Gloss=them
-4	·nærbartatar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to say, to speak, to call , mention
+4	·nærbatar	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Typo=Yes	0	root	X	Gloss=to say, to speak, to call , mention|CorrectForm=·ærbartatar
 5	immurgu	immurgu	ADV	particle_discourse	_	4	advmod	X	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
 6	acht	acht 1	CCONJ	conjunction	_	10	cc	X	Gloss=except, but, provided that, save that
 7-10	isarindí	_	_	_	_	_	_	_	_
@@ -17848,7 +17855,7 @@
 2	có	co 4	SCONJ	complementiser	_	0	root	0:root	Gloss=so that, until (+independent, leniting)
 
 # sent_id = S0006-1111
-# text = .i. indimmaircidetu .i. ishæ intor [leg. ord] coir.., quoniam uides manidente pro necessitate metri uides quoniam
+# text = .i. indimmaircidetu .i. ishæ intor coir.., quoniam uides manidente pro necessitate metri uides quoniam
 # text_en = i.e. the appropriateness, i.e. quoniam uides is the right order, if it had not been made uides quoniam from metrical necessity.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-3	indimmaircidetu	_	_	_	_	_	_	_	_
@@ -17858,11 +17865,13 @@
 5-6	ishæ	_	_	_	_	_	_	_	_
 5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
 6	hæ	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
+7-8	intor	_	_	_	_	_	_	_	_
 7	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	ord	ord 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=order, sequence, class of persons
+8	or	ord 1	NOUN	noun	Case=Nom|Number=Sing|Typo=Yes	_	_	X	Gloss=order, sequence, class of persons|CorrectForm=ord
 9	coir	coäir	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=fitting, proper, right ; even, well-propportioned, straight; correct, suitable
 10	quoniam	quoniam	X	conjunction	_	_	_	X	Gloss=_
 11	uides	uideō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to see
+12-14	manidente	_	_	_	_	_	_	_	_
 12	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
 13	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
 14	·dente	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to do, to make
@@ -18111,8 +18120,8 @@
 2	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	naisndís	aisndís	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	0:root	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
 
-# sent_id = S0006-1137
-# text = .i. combeth cid dath deithbir s: a:: aicsin les andes 7 uad inpeccadsin sech immurgu ní aircibeasom innaicsin nisin·· Aliter doberat anuli s airo he b as inaib:: claib so .i. inlor e: 7 :: la ::: da : int i: ::::: : :: ::: is ::: in dath ni at hihtar tar : a :: clitis in parad [leg. peccad ?] ɔdauic uar [leg. uad]
+# sent_id = S0006-1137 - check from line 22
+# text = .i. combeth cid dath deithbir s: a:: aicsin les andes 7 uad inpeccadsin sech immurgu ní aircibeasom innaicsin nisin·· Aliter doberat anuli s airo he b as inaib:: claib so .i. inlor e: 7 :: la ::: da : int i: ::::: : :: ::: is ::: in dath ni at hihtar tar : a :: clitis in parad ɔdauic uar
 # text_en = so there would be even a fitting color… cause / seeing with him what is right… that sin. However he will not come upon that cause / seeing. Aliter they will give all their… the color… the sin, so that it bore them from it.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-3	combeth	_	_	_	_	_	_	_	_
@@ -18123,34 +18132,39 @@
 6	deithbir	deithbir	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=fitting, proper, reasonable, natural, lawful
 7	aicsin	accuis	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=cause, reason, ground, offence, crime; hatred, enmity, rancor; disease, poison, venom
 8	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+9-10	andes	_	_	_	_	_	_	_	_
 9	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
 10	ndes	des	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=right (direction), south, just, meet
 11	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
 12	uad	ó 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=from, out of, by
+13-15	inpeccadsin	_	_	_	_	_	_	_	_
 13	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	14	det	X	Gloss=the
 14	peccad	peccad	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=sin
 15	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
 16	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
 17	immurgu	immurgu	ADV	particle_discourse	_	_	_	X	Gloss=in explanation, elucidation, interpretation or declaration: however ; with adversative force to express contrast or modification of preceding statement: however, nevertheless, with emphasising force: therefore, with adversative force to express contrast or modification of preceding statement: but ; however
 18	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
+19-20	aircibeasom	_	_	_	_	_	_	_	_
 19	·aircibea	ar·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to come upon, to meet, to find; to happen upon; to effect, to contrive, to bring to pass
 20	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+21-22	innaicsin	_	_	_	_	_	_	_	_
 21	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	22	det	X	Gloss=the
 22	naicsin	aicsiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of seeing
 23	naicsin	accuis	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=cause, reason, ground, offence, crime; hatred, enmity, rancor; disease, poison, venom
 24	ni	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Fem	_	_	X	Gloss=substantivizing particle
 25	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
 26	do·berat	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+27-28	anuli	_	_	_	_	_	_	_	_
 27	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	_	_	X	Gloss=their
 28	nuli	uile	ADJ	adjective_quantifier	Case=Acc|Number=Plur|Gender=Neut	_	_	X	Gloss=all, every, the whole
 29	in	in 1	DET	definite_article	Definite=Def|PronType=Art	30	det	X	Gloss=the
 30	dath	dath 1	NOUN	noun	_	_	_	X	Gloss=color, hue; outward appearance, semblance of something, esp. what serves to conceal the truth
 31	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 32	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	33	det	X	Gloss=the
-33	peccad (?)	peccad	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=sin
+33	parad	peccad	NOUN	noun	Case=Nom|Number=Sing|Typo=Yes	_	_	X	Gloss=sin|CorrectForm=peccad (?)
 34	ɔ	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
 35	ɔda·uic	con·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf	_	_	X	Gloss=to conceive, to beget, to bring forth
-36	uad	ó 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=from, out of, by
+36	uar	ó 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Typo=Yes	_	_	X	Gloss=from, out of, by|CorrectForm=uad
 
 # sent_id = S0006-1138
 # text = diglaid
@@ -18261,12 +18275,13 @@
 2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	airngabail	airngabal	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	0:root	Gloss=the act of fleeing; flight
 
-# sent_id = S0006-1154
+# sent_id = S0006-1154 - editorial
 # text = .i.  án imbai [leg. ámmbai] forlongais amal duaid
 # text_en = i.e. [the] band which was in exile like David.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
-2	ámm	amm 2	NOUN	noun	Case=Nom|Number=Sing	0	root	3:nsubj|0:root	Gloss=band, host; human hand
-3	bai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to be, to exist,
+2	án	amm 2	NOUN	noun	Case=Nom|Number=Sing|Typo=Yes	0	root	3:nsubj|0:root	Gloss=band, host; human hand|CorrectForm=ámm
+3	imbai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Typo=Yes	2	acl:relcl	X	Gloss=to be, to exist,|CorrectForm=bai
+4-5	forlongais	_	_	_	_	_	_	_	_
 4	for	for	ADP	preposition	Case=Acc	5	case	X	Gloss=upon, over, on
 5	longais	longas	NOUN	noun	Case=Dat	3	xcomp:pred	X	Gloss=fleet, naval expedition, exile, band of sea-rovers
 6	amal	amail 1	ADP	preposition	Case=Acc	7	case	X	Gloss=as, like
@@ -18306,14 +18321,14 @@
 3	se	sé 2	PRON	pronoun_demonstrative_proximate	Case=Acc|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	0	root	X	Gloss=this, these
 
 # sent_id = S0006-1159
-# text = .i. notes no immeningaib [leg. immenimgaib]
+# text = .i. notes no immeningaib
 # text_en = i.e. that I should leave or that I should avoid.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	notes	_	_	_	_	_	_	_	_
 2	no·	no·	SCONJ	particle_preverb	_	3	mark:prt	X	Gloss=empty particle
 3	·tes	téit	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
 4	no	nó 1	CCONJ	conjunction	_	5	cc	X	Gloss=disjunctive: or
-5	imme·nimgaib	imm·imgaib	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	3	conj	X	Gloss=to avoid, to shun, to evade
+5	imme·ningaib	imm·imgaib	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other|Typo=Yes	3	conj	X	Gloss=to avoid, to shun, to evade|CorrectForm=imme·nimgaib
 
 # sent_id = S0006-1160
 # text = .i. sechis cotammoscaigse isnaib slebib .i. hosleib dosléib
@@ -18371,22 +18386,23 @@
 15	·erbainn	erbaid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to entrust oneself, to trust (reflexive)
 
 # sent_id = S0006-1163
-# text = inna intled [leg. intleda] betis dillithi .i. betis imgabthib .i. indisaul
+# text = inna intled betis dillithi .i. betis imgabthib .i. indisaul
 # text_en = [it is] the snares which had to be turned aside, i.e. they had to be avoided, i.e. of the aforesaid Saul.
 1	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	intleda	intled	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of lying in wait, ambushing; snare, ambush
+2	intled	intled	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun|Typo=Yes	0	root	X	Gloss=the act of lying in wait, ambushing; snare, ambush|CorrectForm=intleda
 3	betis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
 4	dillithi	díllithi	X	verbal_of_necessity	_	2	csubj:cleft	X	Gloss=to be turned aside, to be deviated, to be bent
 5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 6	betis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
 7	imgabthib	immgabthai	X	verbal_of_necessity	_	4	conj	X	Gloss=to be avoided, to be shunned, to be evaded
 8	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
+9-11	indisaul	_	_	_	_	_	_	_	_
 9	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	10	det	X	Gloss=the
 10	i	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	7	conj	X	Gloss=substantivizing particle
 11	saul	Saul	PROPN	proper_noun	Case=Gen|Number=Sing	10	appos	X	Gloss=Saul
 
 # sent_id = S0006-1164 - real passive?
-# text = .i. nomdeithidnigthersa .i. huaibsi olsem [leg. olsesom] friamuntair
+# text = .i. nomdeithidnigthersa .i. huaibsi olsem friamuntair
 # text_en = i.e. I am troubled, i.e., by you (pl), he says to his followers.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	nomdeithidnigthersa	_	_	_	_	_	_	_	_
@@ -18396,8 +18412,10 @@
 5-6	huaibsi	_	_	_	_	_	_	_	_
 5	huaib	ó 1	ADP	preposition	Person=2|Number=Plur|Case=Dat	6	case	X	Gloss=from, out of, by
 6	si	nota augens	PRON	particle_pronominal	Person=2|Number=Plur|PronType=Prs	2	conj	X	Gloss=emphasising particle
+7-8	olsem	_	_	_	_	_	_	_	_
 7	olse	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	6	parataxis	X	Gloss=to say
-8	som	nota augens	PRON	particle_pronominal	Gender=Masc|PronType=Prs	7	nsubj	X	Gloss=emphasising particle
+8	m	nota augens	PRON	particle_pronominal	Gender=Masc|PronType=Prs|Typo=Yes	7	nsubj	X	Gloss=emphasising particle|CorrectForm=som
+9-11	friamuntair	_	_	_	_	_	_	_	_
 9	fri	fri	ADP	preposition	Case=Acc	11	case	X	Gloss=towards, against, standard of comparison
 10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	11	nmod:poss	X	Gloss=his, its
 11	muntair	muinter	NOUN	noun	Case=Acc|Number=Sing	7	obl	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
@@ -18457,11 +18475,11 @@
 3	écndarcus	écndarcus	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=absence, withdrawal from sight
 
 # sent_id = S0006-1172
-# text = isindnepæscaidiu [leg. isindnephæscaidiu]
+# text = isindnepæscaidiu
 # text_en = in the moonless.
 1	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
 2	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-3	neph	neb-	X	particle_prefix	_	4	advmod:neg	X	Gloss=negative prefix ; non-, un-
+3	nep	neb-	X	particle_prefix	Typo=Yes	4	advmod:neg	X	Gloss=negative prefix ; non-, un-|CorrectForm=neph
 4	æscaidiu	éscaide	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=provided with moonlight / the moon ; lunar
 
 # sent_id = S0006-1173
@@ -18476,7 +18494,7 @@
 7	linn	la	ADP	preposition	Person=1|Number=Plur|Case=Acc	5	xcomp:pred:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0006-1174
-# text = .i. amal nadnairigther 7 nadfintar andugnither hisuidi síc ba imfortgidiu [leg. infortgidiu] 7 ba hitemul dugníth saul conamuntair intleda 7 erelca friduaid·
+# text = .i. amal nadnairigther 7 nadfintar andugnither hisuidi síc ba imfortgidiu 7 ba hitemul dugníth saul conamuntair intleda 7 erelca friduaid·
 # text_en = i.e. just as that which is done in it [i.e. the night] is not perceived and discovered, so it was covertly and it was in darkness that Saul with his people used to make snares and ambushes against David.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
@@ -18495,20 +18513,24 @@
 11	suidi	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Sing|Gender=Fem	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 12	síc	sīc	ADV	adverb	_	_	_	X	Gloss=thus, so, like that
 13	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-14	in	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
+14-15	imfortgidiu	_	_	_	_	_	_	_	_
+14	im	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Typo=Yes	_	det	X	Gloss=the|CorrectForm=in
 15	fortgidiu	fortgide	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=covered, hidden, obscured
 16	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
 17	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+18-19	hitemul	_	_	_	_	_	_	_	_
 18	hi	i	ADP	preposition	Case=Dat	19	case	X	Gloss=in, into
 19	temul	teimel	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=darkness, gloom
 20	du·gníth	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to do, to make
 21	saul	Saul	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Saul
+22-24	conamuntair	_	_	_	_	_	_	_	_
 22	co	co 2	ADP	preposition	Case=Dat	24	case	X	Gloss=with, general accompaniment, connection, attendant circumstances
 23	na	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	24	_	X	Gloss=his, its
 24	muntair	muinter	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
 25	intleda	intled	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of lying in wait, ambushing; snare, ambush
 26	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
 27	erelca	eirelc	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=ambush
+28-29	friduaid	_	_	_	_	_	_	_	_
 28	fri	fri	ADP	preposition	Case=Acc	29	case	X	Gloss=towards, against, standard of comparison
 29	duaid	dúaid	PROPN	proper_noun	Case=Acc|Number=Sing	_	_	X	Gloss=David
 30	·	·	PUNCT	punctuation	_	_	_	_	_
@@ -18651,7 +18673,7 @@
 2	du·bidctis	do·bidci	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin	0	root	0:root	Gloss=to pelt, to hurl, to cast, to throw
 
 # sent_id = S0006-1185
-# text = .i. duaidbdetar atafiriensom 7 antandirgi [leg. atandirgi] hochridiu alleth frissan ingraim ataroigrainn saul intan asmbeir rectos corde .i. nífil cinta doib frisaul
+# text = .i. duaidbdetar atafiriensom 7 antandirgi hochridiu alleth frissan ingraim ataroigrainn saul intan asmbeir rectos corde .i. nífil cinta doib frisaul
 # text_en = i.e. when he says rectos corde they are shown to be just and to be upright in [their] heart as to the persecution wherewith Saul persecuted them, i.e. there are no sins against Saul upon them.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	du·aidbdetar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to show, to display, to demonstrate, to appear
@@ -18660,27 +18682,34 @@
 4	firien	fírían	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=just, righteous, fitting, truthful
 5	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
 6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-7	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
+7-8	antandirgi	_	_	_	_	_	_	_	_
+7	anta	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Typo=Yes	_	cop	X	Gloss=to be|CorrectForm=ata
 8	ndirgi	díriuch	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=straight, direct; straightforward, upright, just, right
+9-10	hochridiu	_	_	_	_	_	_	_	_
 9	ho	ó 1	ADP	preposition	Case=Dat	10	case	X	Gloss=from, out of, by
 10	chridiu	cride	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=heart
+11-12	alleth	_	_	_	_	_	_	_	_
 11	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	12	det	X	Gloss=the
 12	lleth	leth	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
+13-14	frissan	_	_	_	_	_	_	_	_
 13	fri	fri	ADP	preposition	Case=Acc	15	case	X	Gloss=towards, against, standard of comparison
 14	ssa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	15	det	X	Gloss=the
 15	ningraim	ingreimm 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of persecuting
 16	ata·roigrainn	in·greinn	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB|Aspect=Perf|RelType=Other	_	_	X	Gloss=to persecute, to pursue with hostile intent
 17	saul	Saul	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Saul
+18-19	intan	_	_	_	_	_	_	_	_
 18	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
 19	tan	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
 20	as·mbeir	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
 21	rectos	rēctus	ADJ	verbal_participle	_	_	_	X	Gloss=_
 22	corde	cor	NOUN	verbal_noun	VerbForm=VNoun	_	_	X	Gloss=the act of putting
 23	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+24-25	nífil	_	_	_	_	_	_	_	_
 24	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
 25	·fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
 26	cinta	cin 1	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=guilt, fault, crime; deceit, betrayal
 27	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+
 28	fri	fri	ADP	preposition	Case=Acc	29	case	X	Gloss=towards, against, standard of comparison
 29	saul	Saul	PROPN	proper_noun	Case=Acc|Number=Sing	_	_	X	Gloss=Saul
 
@@ -18717,15 +18746,16 @@
 1	du·crechat	do·crecha	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	0:root	Gloss=to destroy; to devise, to feign, to excogitate
 
 # sent_id = S0006-1190
-# text = .i. hiteste .i. inongraith [leg. inongaith] 7 flaithemnachtae
+# text = .i. hiteste .i. inongraith 7 flaithemnachtae
 # text_en = i.e. in the pouring forth, i.e. of the anointing and of kingship.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	hiteste	_	_	_	_	_	_	_	_
 2	hi	i	ADP	preposition	Case=Dat	3	case	X	Gloss=in, into
 3	teste	teistiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of pouring out, shedding
 4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5-6	inongraith	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	ongaith	ongad	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of anointing; unction
+6	ongraith	ongad	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Typo=Yes	3	conj	X	Gloss=the act of anointing; unction|CorrectForm=ongaith
 7	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
 8	flaithemnachtae	flaithemnacht	NOUN	noun	Case=Gen|Number=Sing	6	conj	X	Gloss=rule, sovereignty; princedom
 
@@ -19136,10 +19166,10 @@
 2	chulich	cuilech	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	0	root	0:root	Gloss=sinful, incestuous ; wicked, criminal
 
 # sent_id = S0006-1224
-# text = .i. dolin [leg. dolili] .i. asriri
+# text = .i. dolin .i. asriri
 # text_en = i.e. it will adhere, i.e. it will pay
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
-2	do·lili	do·lin 2	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to adhere to
+2	do·lin	do·lin 2	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Typo=Yes	0	root	X	Gloss=to adhere to|CorrectForm=do·lili
 3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 4	as·riri	as·ren	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	2	conj	X	Gloss=to pay out, to render, to expend
 
@@ -19346,10 +19376,10 @@
 9	apaltu	eipeltu	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	8	nsubj	X	Gloss=the act of dying, perishing; death
 
 # sent_id = S0006-1244
-# text = innam béso [leg. bése] sainemlae
+# text = innam béso sainemlae
 # text_en = of good morals.
 1	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	mbése	bés 1	NOUN	noun	Case=Gen|Number=Plur	0	root	0:root	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
+2	mbéso	bés 1	NOUN	noun	Case=Gen|Number=Plur|Typo=Yes	0	root	0:root	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character|CorrectForm=mbése
 3	sainemlae	sainemail	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	2	amod	X	Gloss=unique, distinctive, good, excellent
 
 # sent_id = S0006-1245
@@ -19384,16 +19414,20 @@
 9	togais	togáes	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	7	conj	X	Gloss=the act of deceiving; deceit, deception
 
 # sent_id = S0006-1248
-# text = lechosmailius [leg. lethchosmailius] lesom inso trischotarsnae [leg. triachotarsnae]
+# text = lechosmailius lesom inso trischotarsnae
 # text_en = he has here a half-comparison through its opposite.
-1	leth	leth	NOUN	noun	_	2	nmod	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
+1-2	lechosmailius	_	_	_	_	_	_	_	_
+1	le	leth	NOUN	noun	Typo=Yes	2	nmod	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-|CorrectForm=leth
 2	chosmailius	cosmailius	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=likeness, similarity, resemblance; comparison
+3-4	lesom	_	_	_	_	_	_	_	_
 3	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	2	obl	X	Gloss=emphasising particle
+5-6	inso	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	2	nsubj	X	Gloss=this one, these ones ; this, these
-7	tri	tre	ADP	preposition	Case=Acc	9	case	X	Gloss=through (time or space), by means of, be reason of
-8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	9	nmod:poss	X	Gloss=his, its
+7-9	trischotarsnae	_	_	_	_	_	_	_	_
+7	tris	tre	ADP	preposition	Case=Acc	9	case	Typo=Yes	Gloss=through (time or space), by means of, be reason of|CorrectForm=tri
+8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Typo=Yes	9	nmod:poss	X	Gloss=his, its|Addition=Yes
 9	chotarsnae	cotarsnae	ADJ	adjective	Case=Acc|Number=Sing|Degree=Pos	2	obl	X	Gloss=opposite, opposing, contrary, adverse
 
 # sent_id = S0006-1249
@@ -19746,13 +19780,13 @@
 5	ón	-ón	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-1281
-# text = .i. is cummae mbis memnæ [leg. menmæ] cechtar de fri togais alaili
+# text = .i. is cummae mbis memnæ cechtar de fri togais alaili
 # text_en = i.e. it is equally that the mind of each of them is [set] on the deceiving of the other.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
 3	cummae	cummae	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=equally, in the same way; the same as, like
 4	mbis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	csubj:cleft	X	Gloss=to be, to exist,
-5	menmæ	menmae	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
+5	memnæ	menmae	NOUN	noun	Case=Nom|Number=Sing|Typo=Yes	4	nsubj	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation|CorrectForm=menmæ
 6	cechtar	cechtar	PRON	pronoun_quantifier	Case=Gen|Number=Sing	5	nmod	X	Gloss=each of two, either
 7	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	4	xcomp:pred	X	Gloss=away, from, cause or reason, by
 8	fri	fri	ADP	preposition	Case=Acc	9	case	X	Gloss=towards, against, standard of comparison
@@ -19840,11 +19874,11 @@
 5	ón	-ón	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-1289
-# text = .i. is accbur [leg. accobur] leu
+# text = .i. is accbur leu
 # text_en = i.e. it is a desire with them.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
-3	accobur	accobor	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of desiring, wishing; desire, wish, appetite
+3	accbur	accobor	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Typo=Yes	0	root	X	Gloss=the act of desiring, wishing; desire, wish, appetite|CorrectForm=accobur
 4	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	3	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0006-1290
@@ -19870,10 +19904,11 @@
 2	ginu	giun	NOUN	noun	Case=Acc|Number=Plur	0	root	0:root	Gloss=mouth, edge of weapon
 
 # sent_id = S0006-1292
-# text = niconairsoilset [leg. niconairsoilcset] .i. innaginu
+# text = niconairsoilset .i. innaginu
 # text_en = they did not open, i.e. the mouths.
+1-2	niconairsoilset	_	_	_	_	_	_	_	_
 1	nicon·	nicon	PART	particle_negative_main	_	2	advmod:neg	X	Gloss=not ever
-2	·airsoilcset	ar·osailci	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to open, to reveal
+2	·airsoilset	ar·osailci	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Typo=Yes	0	root	X	Gloss=to open, to reveal|CorrectForm=·airsoilcset
 3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
 5	ginu	giun	NOUN	noun	Case=Acc|Number=Plur	2	conj	X	Gloss=mouth, edge of weapon
@@ -20044,8 +20079,8 @@
 19	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
 20	·	·	PUNCT	punctuation	_	_	_	_	_
 
-# sent_id = S0006-1307 - check lines 9-10 for the missing copula 'is'
-# text = inbelrai .i. isand at [leg. atá] gním tengad is indhuiliu labramarni·
+# sent_id = S0006-1307
+# text = inbelrai .i. isand at gním tengad is indhuiliu labramarni·
 # text_en = of speech, i.e. it is there that the action of the tongue is in all that we say.
 1-2	inbelrai	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
@@ -20054,7 +20089,7 @@
 4-5	isand	_	_	_	_	_	_	_	_
 4	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 5	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	2	conj	X	Gloss=in, into
-6	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	csubj:cleft	X	Gloss=to be, to exist,
+6	at	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Typo=Yes	5	csubj:cleft	X	Gloss=to be, to exist,|CorrectForm=a·tá
 7	gním	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	6	nsubj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 8	tengad	tengae	NOUN	noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=tongue (as organ of speech)
 9	i	i	ADP	preposition	Case=Dat	11	case	X	Gloss=in, into
@@ -20065,8 +20100,8 @@
 13	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	12	nsubj	X	Gloss=emphasising particle
 14	·	·	PUNCT	punctuation	_	_	_	_	_
 
-# sent_id = S0006-1308
-# text = huare didiu asné gnim tengad comlabrae is immaircide andurigni duaid ingnimsin intengad duairbirt argnimaib inchoirp olchenae .i. aní rognéni [leg. rogéni] hognimaib á epert asrobradsón hobriathraib· noch ní ærbara [leg. ærbarad] són calleic
+# sent_id = S0006-1308 - added 'sin' in line 15 (to be edited)
+# text = huare didiu asné gnim tengad comlabrae is immaircide andurigni duaid ingnimsin intengad duairbirt argnimaib inchoirp olchenae .i. aní rognéni hognimaib á epert asrobradsón hobriathraib· noch ní ærbara són calleic
 # text_en = because, therefore, conversing is the work of the tongue, that which David did, using that work of the tongue for the actions of the body generally, is proper i.e. that which he had done in deeds, his saying that it had been said in words; however, for all that, it had not been said.
 1	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
 2	didiu	didiu	ADV	particle_discourse	_	_	_	X	Gloss=in logical sequence, drawing a conclusion: therefore, then; referring to preceding, introducing additional detail or explanation; hence
@@ -20082,36 +20117,44 @@
 10	a	a 4	PRON	pronoun_relative	Case=Nom|Number=Sing|PronType=Rel	_	_	X	Gloss=that, which
 11	ndu·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
 12	duaid	dúaid	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=David
+13-14	ingnimsin	_	_	_	_	_	_	_	_
 13	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	14	det	X	Gloss=the
 14	gnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-15	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	16	det	X	Gloss=the
-16	tengad	tengae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=tongue (as organ of speech)
-17	du	do 1	ADP	preposition	Case=Dat	18	case	X	Gloss=to, for, by etc.
-18	airbirt	airbert	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of using, enjoying, partaking of, employing, eating, living
-19	ar	ar 1	ADP	preposition	Case=Dat	20	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-20	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-21	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	22	det	X	Gloss=the
-22	choirp	corp	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=human body, corpse, dead body, body of Eucharist, Communion, bulk, mass, main or central part, text
-23	olchenae	olchenae	ADV	adverb	_	_	_	X	Gloss=besides, the others, in addition, in general
-24	ol	ol 1	ADV	adverb	_	_	_	X	Gloss=beyond, than
-25	chenae	cen	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	_	_	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-26	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-27	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	28	det	X	Gloss=the
-28	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-29	ro·géni	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do
-30	ho	ó 1	ADP	preposition	Case=Dat	31	case	X	Gloss=from, out of, by
-31	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-32	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	33	_	X	Gloss=his, its
-33	epert	eipert	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of saying; speech, statement, word
-34	as·robrad	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
-35	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
-36	ho	ó 1	ADP	preposition	Case=Dat	37	case	X	Gloss=from, out of, by
-37	briathraib	bríathar	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=word,
-38	noch	noch 1	X	conjunction	_	_	_	X	Gloss=introduces a synonym or explanation: that is to say
-39	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-40	·ærbarad	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
-41	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
-42	calleic	calléic	ADV	adverb	_	_	_	X	Gloss=adversative: nevertheless, however, for all that
+15	sin	_	_	_	_	_	_	_	_
+16-17	intengad	_	_	_	_	_	_	_	_
+16	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	16	det	X	Gloss=the
+17	tengad	tengae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=tongue (as organ of speech)
+18-19	duairbirt	_	_	_	_	_	_	_	_
+18	du	do 1	ADP	preposition	Case=Dat	18	case	X	Gloss=to, for, by etc.
+19	airbirt	airbert	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of using, enjoying, partaking of, employing, eating, living
+20-21	argnimaib	_	_	_	_	_	_	_	_
+20	ar	ar 1	ADP	preposition	Case=Dat	20	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+21	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+22-23	inchoirp	_	_	_	_	_	_	_	_
+22	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	22	det	X	Gloss=the
+23	choirp	corp	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=human body, corpse, dead body, body of Eucharist, Communion, bulk, mass, main or central part, text
+24	olchenae	olchenae	ADV	adverb	_	_	_	X	Gloss=besides, the others, in addition, in general
+25	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+26-27	aní	_	_	_	_	_	_	_	_
+26	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	28	det	X	Gloss=the
+27	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
+28	ro·gnéni	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other|Typo=Yes	_	_	X	Gloss=to do|CorrectForm=ro·géni
+29-30	hognimaib	_	_	_	_	_	_	_	_
+29	ho	ó 1	ADP	preposition	Case=Dat	31	case	X	Gloss=from, out of, by
+30	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+31	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Masc|Poss=Yes|PronType=Prs|Person=3	33	_	X	Gloss=his, its
+32	epert	eipert	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of saying; speech, statement, word
+33-34	asrobradsón	_	_	_	_	_	_	_	_
+33	as·robrad	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
+34	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+35-36	hobriathraib	_	_	_	_	_	_	_	_
+35	ho	ó 1	ADP	preposition	Case=Dat	37	case	X	Gloss=from, out of, by
+36	briathraib	bríathar	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=word,
+37	noch	noch 1	X	conjunction	_	_	_	X	Gloss=introduces a synonym or explanation: that is to say
+38	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
+39	·ærbara	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|Typo=Yes	_	_	X	Gloss=to say, to speak, to call , mention|CorrectForm=·ærbarad
+40	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+41	calleic	calléic	ADV	adverb	_	_	_	X	Gloss=adversative: nevertheless, however, for all that
 
 # sent_id = S0006-1309
 # text = amal bite ingnimae issamlid infet som innaisndis
@@ -20155,15 +20198,18 @@
 3	censai	cennsae	NOUN	noun	Case=Acc|Number=Sing	0	root	0:root	Gloss=mildness, meekness, gentleness
 
 # sent_id = S0006-1313
-# text = donaib drochdonib [leg. drochdoinib] innafoimræthe [leg. innafomræthe] hicridiu·
+# text = donaib drochdonib innafoimræthe hicridiu·
 # text_en = to the bad men with treachery in the heart.
 1-2	donaib	_	_	_	_	_	_	_	_
 1	do	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
 2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
+3-4	drochdonib	_	_	_	_	_	_	_	_
 3	droch	droch-	X	particle_prefix	_	4	amod	X	Gloss=evil, bad, wrong
-4	doinib	duine	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=person, human being
+4	donib	duine	NOUN	noun	Case=Dat|Number=Plur|Typo=Yes	0	root	X	Gloss=person, human being|CorrectForm=doinib
+5-6	innafoimræthe	_	_	_	_	_	_	_	_
 5	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	fomræthe	fomraith	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=guile, deceit, betrayal
+6	foimræthe	fomraith	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	4	nmod	X	Gloss=guile, deceit, betrayal|CorrectForm=fomræthe
+7-8	hicridiu	_	_	_	_	_	_	_	_
 7	hi	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
 8	cridiu	cride	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=heart
 9	·	·	PUNCT	punctuation	_	_	_	_	_
