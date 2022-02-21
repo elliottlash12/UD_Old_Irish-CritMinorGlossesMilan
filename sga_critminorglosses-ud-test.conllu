@@ -17600,20 +17600,20 @@
 7	intiu	i	ADP	preposition	Person=3|Number=Plur|Case=Acc	6	obl:prep	X	Gloss=in, into
 8	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 
-# sent_id = S0006-1088
+# sent_id = S0006-1088 - headless relative clause
 # text = .i. indfithis tete inpeccad ishí te in pian innadiglae
 # text_en = i.e. the circuit by which the sin goes is that by which the pain of the punishment goes.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indfithis	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	fithis	fithis	NOUN	noun	Case=Nom|Number=Sing	0	root	4:obl|0:root	Gloss=circuit, circular course, orbit; channel, passage; loop, ring
+3	fithis	fithis	NOUN	noun	Case=Nom|Number=Sing	8	dislocated	X	Gloss=circuit, circular course, orbit; channel, passage; loop, ring
 4	tete	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	acl:relcl	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
 5-6	inpeccad	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	peccad	peccad	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=sin
 7-8	ishí	_	_	_	_	_	_	_	_
 7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
-8	hí	3sg.fem.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	9	nmod	X	Gloss=she, her, it
+8	hí	3sg.fem.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=she, her, it
 9	te	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Typo=Yes	4	csubj:cleft	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)|CorrectForm=tete
 10	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	11	det	X	Gloss=the
 11	pian	pían	NOUN	noun	Case=Nom|Number=Sing	9	nsubj	X	Gloss=penalty, punishment, torment, pain
@@ -17894,15 +17894,15 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	aní	_	_	_	_	_	_	_	_
 2	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	0	root	5:nsubj|0:root	Gloss=substantivizing particle
+3	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	9	obj	X	Gloss=substantivizing particle
 4	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
 5	buthi	buithi	X	verbal_of_necessity	_	3	acl:relcl	X	Gloss=should be
 6-7	arthuus	_	_	_	_	_	_	_	_
 6	ar	ar 1	ADP	preposition	Case=Acc	7	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-7	thuus	tuüs	NOUN	noun	Case=Dat	5	obl	X	Gloss=beginning ; forefront, precedence
+7	thuus	tuüs	NOUN	noun	Case=Dat	5	xcomp:pred	X	Gloss=beginning ; forefront, precedence
 8-9	dothochur	_	_	_	_	_	_	_	_
 8	do	do 1	ADP	preposition	Case=Dat	9	mark:prt	X	Gloss=to, for, by etc.
-9	thochur	tochor	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	5	advcl	X	Gloss=the act of putting
+9	thochur	tochor	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of putting
 10-11	fodiud	_	_	_	_	_	_	_	_
 10	fo	fo	ADP	preposition	Case=Dat	11	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
 11	diud	deäd	NOUN	noun	Case=Dat|Number=Sing	9	obl	X	Gloss=end, conclusion
@@ -18279,8 +18279,8 @@
 # text = .i.  án imbai [leg. ámmbai] forlongais amal duaid
 # text_en = i.e. [the] band which was in exile like David.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
-2	án	amm 2	NOUN	noun	Case=Nom|Number=Sing|Typo=Yes	0	root	3:nsubj|0:root	Gloss=band, host; human hand|CorrectForm=ámm
-3	imbai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Typo=Yes	2	acl:relcl	X	Gloss=to be, to exist,|CorrectForm=bai
+2	ámm	amm 2	NOUN	noun	Case=Nom|Number=Sing	0	root	3:nsubj|0:root	Gloss=band, host; human hand
+3	bai	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to be, to exist,
 4-5	forlongais	_	_	_	_	_	_	_	_
 4	for	for	ADP	preposition	Case=Acc	5	case	X	Gloss=upon, over, on
 5	longais	longas	NOUN	noun	Case=Dat	3	xcomp:pred	X	Gloss=fleet, naval expedition, exile, band of sea-rovers
@@ -27182,22 +27182,20 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	acht	acht 1	CCONJ	conjunction	_	3	cc	X	Gloss=except, but, provided that, save that
 3	biid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
-4-5	cid	_	_	_	_	_	_	_	_
-4	ci	cía 2	SCONJ	conjunction	_	8	mark	X	Gloss=concessive and explicative: even, although
-5	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
-6	etir	eter	ADP	preposition	Case=Acc	8	case	X	Gloss=between, among; both...and...
-7-8	iltrebu	_	_	_	_	_	_	_	_
-7	il	il 1	ADJ	adjective	Degree=Pos	8	amod	X	Gloss=many, abundant, manifold, numerous
-8	trebu	triub	NOUN	noun	Case=Acc|Number=Plur	3	obl	X	Gloss=tribe
-9-10	foracabsom	_	_	_	_	_	_	_	_
-9	fo·racab	fo·ácaib	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	3	parataxis	X	Gloss=to leave (behind), to relinquish
-10	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	9	nsubj	X	Gloss=emphasising particle
-11-12	lethosmailiusin	_	_	_	_	_	_	_	_
-11	leth	leth	NOUN	noun	_	9	obj	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
-12	osmailiusin	cosmailius	NOUN	noun	Case=Acc|Number=Sing|Typo=Yes	11	appos	X	Gloss=likeness, similarity, resemblance; comparison|CorrectForm=chosmailiusin
-13-14	immuig	_	_	_	_	_	_	_	_
-13	i	i	ADP	preposition	Case=Dat	14	case	X	Gloss=in, into
-14	mmuig	mag	NOUN	noun	Case=Dat|Number=Sing	11	obl	X	Gloss=plain, open stretch of land
+4	cid	cid 2	PART	particle_focus	_	8	advmod:emph	X	Gloss=concessive and explicative: even, although
+5	etir	eter	ADP	preposition	Case=Acc	7	case	X	Gloss=between, among; both...and...
+6-7	iltrebu	_	_	_	_	_	_	_	_
+6	il	il 1	ADJ	adjective	Degree=Pos	7	amod	X	Gloss=many, abundant, manifold, numerous
+7	trebu	triub	NOUN	noun	Case=Acc|Number=Plur	3	obl	X	Gloss=tribe
+8-9	foracabsom	_	_	_	_	_	_	_	_
+8	fo·racab	fo·ácaib	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	3	parataxis	X	Gloss=to leave (behind), to relinquish
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
+10-11	lethosmailiusin	_	_	_	_	_	_	_	_
+10	leth	leth	NOUN	noun	_	8	obj	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
+11	osmailiusin	cosmailius	NOUN	noun	Case=Acc|Number=Sing|Typo=Yes	10	appos	X	Gloss=likeness, similarity, resemblance; comparison|CorrectForm=chosmailiusin
+12-13	immuig	_	_	_	_	_	_	_	_
+12	i	i	ADP	preposition	Case=Dat	13	case	X	Gloss=in, into
+13	mmuig	mag	NOUN	noun	Case=Dat|Number=Sing	10	obl	X	Gloss=plain, open stretch of land
 
 # sent_id = S0006-1940
 # text = .i. tri deligud innacrích honaibsuanemnaib
