@@ -28925,13 +28925,13 @@
 # sent_id = S0006-2116
 # text = .i. honaibtullemaib buide són
 # text_en = i.e. that is, by adulation.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	honaibtullemaib	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	tullemaib	tuillem	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=earning, meriting, deserving
-5	buide	buide 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=favor, gratitude, thanks; good-will
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+4	tullemaib	tuillem	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=earning, meriting, deserving
+5	buide	buide 2	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=favor, gratitude, thanks; good-will
+6	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2117
 # text = ambadninlínaigthe
@@ -29138,13 +29138,13 @@
 # sent_id = S0006-2138
 # text = .i. maccaib .i. ammaic ón
 # text_en = i.e. the sons, i.e. that is, their sons.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	maccaib	macc 1	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	maccaib	macc 1	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	ammaic	_	_	_	_	_	_	_	_
-4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	_	X	Gloss=their
-5	mmaic	macc 1	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-6	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	nmod:poss	X	Gloss=their
+5	mmaic	macc 1	NOUN	noun	Case=Nom|Number=Plur	2	conj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+6	ón	-ón	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-2139
 # text = ɫ. felís .i. huamuc mairbnib ut alii dicunt olsodain nad choir hi sunt
@@ -29307,12 +29307,12 @@
 # sent_id = S0006-2150
 # text = manidanaigthersu dam
 # text_en = if you (sg) do not give it to me.
-1	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	d·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
-4	·danaigther	dánaigidir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to endow, to give, to bestow
-5	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-6	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
+1-3	manidanaigthersu	_	_	_	_	_	_	_	_
+1	ma	ma	SCONJ	conjunction	_	3	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·danaigther	dánaigidir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to endow, to give, to bestow
+4	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
+5	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	3	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-2151
 # text = daitsiu adé
