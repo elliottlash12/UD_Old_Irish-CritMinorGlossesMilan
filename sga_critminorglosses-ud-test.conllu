@@ -32839,12 +32839,12 @@
 # sent_id = S0006-2465
 # text = .i. crist maduruín
 # text_en = i.e. Christ, if it is according to the mystic sense.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	crist	Críst	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=the Anointed, Jesus Christ
-3	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-4	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-5	du	di	ADP	preposition	Case=Dat	6	case	X	Gloss=away, from, cause or reason, by
-6	ruín	rún	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=mystery, secret
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	crist	Críst	PROPN	proper_noun	Case=Nom|Number=Sing	0	root	X	Gloss=the Anointed, Jesus Christ
+3-5	maduruín	_	_	_	_	_	_	_	_
+3	ma	ma	SCONJ	conjunction	_	5	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+4	du	di	ADP	preposition	Case=Dat	5	case	X	Gloss=away, from, cause or reason, by
+5	ruín	rún	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=mystery, secret
 
 # sent_id = S0006-2466
 # text = .i. airchis
@@ -33127,13 +33127,13 @@
 # sent_id = S0006-2481
 # text = .i. nisam[laid]sin duit siu
 # text_en = i.e. that is not so with You (sg).
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	nisam[laid]sin	_	_	_	_	_	_	_	_
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	samlaid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=as, like
-4	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-5	duit	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
-6	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	samlaid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	0	root	X	Gloss=as, like
+4	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	3	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
+5	duit	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	6	case	X	Gloss=to, for, by etc.
+6	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	3	obl	X	Gloss=emphasising particle
 
 # sent_id = S0006-2482
 # text = .i. ol duaid
@@ -33258,13 +33258,13 @@
 # sent_id = S0006-2493
 # text = .i. acht is arrondoicheṅėnelaigsiursa
 # text_en = i.e. but it is when I degenerated.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	acht	acht 1	CCONJ	conjunction	_	5	cc	X	Gloss=except, but, provided that, save that
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-6	arrondoicheṅėnelaigsiursa	_	_	_	_	_	_	_	_
-4	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-5	rro·ndoichenelaigsiur	dochenélaigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to degenerate
-6	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+4	a	a 6	SCONJ	conjunction	_	5	mark	X	Gloss=temporal: when, since
+5	rro·ndoichenelaigsiur	dochenélaigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to degenerate
+6	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-2494
 # text = inncriad [leg. innacriad] .i. amal ata carit incrumai [leg. innacrumai]· dunchried 7 ata n acomaltai duntalam sic sum ol duaid coniunctus temptationibus ab inimicís
