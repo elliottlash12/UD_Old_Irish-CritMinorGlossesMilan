@@ -29177,14 +29177,14 @@
 # sent_id = S0006-2141
 # text = sain tintud les som anisiu
 # text_en = he has here a different translation.
-1	sain	sain	ADJ	adjective	Degree=Pos	_	_	X	Gloss=different, distinct, separate, peculiar, special
-2	tintud	tintúd	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of returning, translating; conversion, translation, recalling
-3	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-4	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
+1	sain	sain	ADJ	adjective	Degree=Pos	2	amod	X	Gloss=different, distinct, separate, peculiar, special
+2	tintud	tintúd	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of returning, translating; conversion, translation, recalling
+3	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+4	som	nota augens	PRON	particle_pronominal	PronType=Prs	2	obl	X	Gloss=emphasising particle
 5-7	anisiu	_	_	_	_	_	_	_	_
 5	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-7	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this, these
+6	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	2	nsubj	X	Gloss=substantivizing particle
+7	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	6	det	X	Gloss=this, these
 
 # sent_id = S0006-2142
 # text = .i. taidbsin afirinne asber hí tosuch int sailm .i. quando dixit exaudi domine iustitiam· meam· 7 ised dano tadbat inna diud quando dixit ego autem in iustitia apparebo..,
@@ -29473,26 +29473,26 @@
 # text = airis gnáth lassar hitiarmoracht diad
 # text_en = for a flame is usual following smoke.
 1-2	airis	_	_	_	_	_	_	_	_
-1	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	gnáth	gnáth	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=customary, usual, familiar, well-known
-4	lassar	lasar	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=flame, fire
+1	air	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	gnáth	gnáth	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=customary, usual, familiar, well-known
+4	lassar	lasar	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=flame, fire
 5-6	hitiarmoracht	_	_	_	_	_	_	_	_
 5	hi	i	ADP	preposition	Case=Acc	6	case	X	Gloss=in, into
-6	tiarmoracht	tíarmóracht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of following, pursuing ; gramm. postposition
-7	diad	dé 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=smoke, haze, fume
+6	tiarmoracht	tíarmóracht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of following, pursuing ; gramm. postposition
+7	diad	dé 1	NOUN	noun	Case=Gen|Number=Sing	6	obj	X	Gloss=smoke, haze, fume
 
 # sent_id = S0006-2165
 # text = airni fubthad fil is indlassir·
 # text_en = for it is not intimidation that is in the flame.
 1-2	airni	_	_	_	_	_	_	_	_
-1	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	fubthad	fubthad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of frightening, intimidating
-4	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	air	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	fubthad	fubthad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of frightening, intimidating
+4	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	csubj:cleft	X	Gloss=to be, to exist,
 5	i	i	ADP	preposition	Case=Dat	7	case	X	Gloss=in, into
 6	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	lassir	lasar	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=flame, fire
+7	lassir	lasar	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=flame, fire
 8	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2166
