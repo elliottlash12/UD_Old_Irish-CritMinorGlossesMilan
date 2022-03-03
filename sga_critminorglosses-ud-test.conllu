@@ -35207,13 +35207,13 @@
 # sent_id = S0006-2657
 # text = .i. taidchuir macc nisrahel adoiri·
 # text_en = i.e. of the return of the Children of Israel from captivity.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	taidchuir	taithchor	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of returning
-3	macc	macc 1	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-4	nisrahel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Israel
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	taidchuir	taithchor	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of returning
+3	macc	macc 1	NOUN	noun	Case=Gen|Number=Plur	2	obj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+4	nisrahel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=Israel
 5-6	adoiri·	_	_	_	_	_	_	_	_
 5	a	a 7	ADP	preposition	Case=Dat	6	case	X	Gloss=out of, from
-6	doiri	doíre	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=slavery, bondage, captivity
+6	doiri	doíre	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=slavery, bondage, captivity
 7	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2658
@@ -35285,13 +35285,13 @@
 # sent_id = S0006-2664
 # text = .i. airechas indrig dodechuid són
 # text_en = i.e. that is, the preeminence of the King who came.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	airechas	airechas	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=rank, legal status; precedence, sovereignty, superiority, importance
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	airechas	airechas	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=rank, legal status; precedence, sovereignty, superiority, importance
 3-4	indrig	_	_	_	_	_	_	_	_
 3	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	rig	rí	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=king
-5	do·dechuid	do·tét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to come, to touch on, to mention, to go with, to apply to, in incident to, to submit to (with i rréir + gen)
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+4	rig	rí	NOUN	noun	Case=Gen|Number=Sing	2	nmod	5:nsubj|2:nmod	Gloss=king
+5	do·dechuid	do·tét	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	4	acl:relcl	X	Gloss=to come, to touch on, to mention, to go with, to apply to, in incident to, to submit to (with i rréir + gen)
+6	són	-són	PRON	particle_anaphoric	_	2	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2665
 # text = .i. araber biuth
@@ -35318,12 +35318,12 @@
 # sent_id = S0006-2668
 # text = .i. inraba [leg. inrarba]cech n deithidin domundai huaim
 # text_en = i.e. I drove every worldly care from me.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	in·rarba	ind·árban	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to drive out, to expel; to reject; to impel
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	in·rarba	ind·árban	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to drive out, to expel; to reject; to impel
 3	cech	cach	DET	adjective_quantifier	Case=Acc|Number=Sing|Gender=Fem|PronType=Tot	4	det	X	Gloss=every, each, all, any
-4	ndeithidin	deithiden	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=care, concern, solicitude, attention
-5	domundai	domundae	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=worldly, mundane, secular
-6	huaim	ó 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=from, out of, by
+4	ndeithidin	deithiden	NOUN	noun	Case=Acc|Number=Sing	2	obl	X	Gloss=care, concern, solicitude, attention
+5	domundai	domundae	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem|Degree=Pos	4	amod	X	Gloss=worldly, mundane, secular
+6	huaim	ó 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	2	obl:prep	X	Gloss=from, out of, by
 
 # sent_id = S0006-2669
 # text = furgratae
