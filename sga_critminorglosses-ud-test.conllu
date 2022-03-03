@@ -36244,13 +36244,13 @@
 # sent_id = S0006-2731
 # text = is mese nad frithchomart nech
 # text_en = it is I who have not injured anyone.
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
 2-3	mese	_	_	_	_	_	_	_	_
-2	me	1sg.indp.pron.	PRON	pronoun_independent	Case=Nom|PronType=Prs|Person=1	_	_	X	Gloss=me, I
-3	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-4	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-5	·frithchomart	fris·oirg	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to molest, to offend, to injure
-6	nech	nech	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
+2	me	1sg.indp.pron.	PRON	pronoun_independent	Case=Nom|PronType=Prs|Person=1	0	root	5:nsubj|0:root	Gloss=me, I
+3	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
+4	nad·	nád 1	PART	particle_negative_subordinate	_	5	advmod:neg	X	Gloss=that...not
+5	·frithchomart	fris·oirg	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	2	acl:relcl	X	Gloss=to molest, to offend, to injure
+6	nech	nech	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Ind	5	obj	X	Gloss=anyone, one, someone
 
 # sent_id = S0006-2732
 # text = .i. tar ǽsi
@@ -36264,12 +36264,12 @@
 # text_en = the internal continuation, i.e. the repetition.
 1-2	ingresgugud	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	gresgugud	grésgugud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of continuing; continuance, continuation
-3	inmedonach	inmedónach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=internal, inner, inward
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	gresgugud	grésgugud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of continuing; continuance, continuation
+3	inmedonach	inmedónach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	2	amod	X	Gloss=internal, inner, inward
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	inmencigiud	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	mencigiud	meincigiud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of repeating; repetition; iteration
+6	mencigiud	meincigiud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of repeating; repetition; iteration
 
 # sent_id = S0006-2734
 # text = anas tedbarthe inmes
@@ -36416,12 +36416,13 @@
 # sent_id = S0006-2746
 # text = .i. duadbat is dobailondib [leg. dobabilondib] téit
 # text_en = i.e. he shows that it is to the Babylonians that it applies.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	du·adbat	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to show, to display, to demonstrate, to appear
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-5	babilondib	babilondae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=Babylonian
-6	téit	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	du·adbat	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to show, to display, to demonstrate, to appear
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+4-5	dobailondib	_	_	_	_	_	_	_	_
+4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
+5	babilondib	babilondae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	2	csubj:cleft	X	Gloss=Babylonian
+6	téit	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	acl:relcl	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
 
 # sent_id = S0006-2747
 # text = .i. robtar erdarcu de dindulc dorad friu leusom· 7 roptar inducbaidiu de dano apud deum··
