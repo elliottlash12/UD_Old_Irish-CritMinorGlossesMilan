@@ -36462,13 +36462,13 @@
 # sent_id = S0006-2749
 # text = .i. is leu dorignius chomgnimu
 # text_en = i.e. it is with them that I did joint works.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-4	do·rignius	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to do, to make
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	0	root	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+4	do·rignius	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	3	csubj:cleft	X	Gloss=to do, to make
 5-6	chomgnimu	_	_	_	_	_	_	_	_
-5	chom	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
-6	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+5	chom	com- 2	X	particle_prefix	_	6	mark:prt	X	Gloss=mutual, together, equal ; with, lexicalized meanings
+6	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	4	xcomp	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-2750
 # text = ciaerniu
@@ -36770,13 +36770,13 @@
 # text = armbad hitempul dǽ nobeth
 # text_en = that it might be in the Temple of God that he was.
 1-2	armbad	_	_	_	_	_	_	_	_
-1	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-2	mbad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
+1	ar	ara	SCONJ	complementiser	_	4	mark:prt	X	Gloss=in order that, so that
+2	mbad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
 3-4	hitempul	_	_	_	_	_	_	_	_
 3	hi	i	ADP	preposition	Case=Acc	4	case	X	Gloss=in, into
-4	tempul	tempul	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=temple, church
-5	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
-6	no·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+4	tempul	tempul	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=temple, church
+5	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=god, deity, God
+6	no·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	acl:relcl	X	Gloss=to be, to exist,
 
 # sent_id = S0006-2778
 # text = remenuicsed
@@ -36814,13 +36814,13 @@
 # sent_id = S0006-2782
 # text = debe tintuda inso lesom
 # text_en = he has here a difference of reading.
-1	debe	deibe	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=difference, variety, disagreement
-2	tintuda	tintúd	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of returning, translating; conversion, translation, recalling
+1	debe	deibe	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=difference, variety, disagreement
+2	tintuda	tintúd	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of returning, translating; conversion, translation, recalling
 3-4	inso	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
-5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-6	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
+4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	1	nsubj	X	Gloss=this one, these ones ; this, these
+5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	6	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+6	som	nota augens	PRON	particle_pronominal	PronType=Prs	1	obl	X	Gloss=emphasising particle
 
 # sent_id = S0006-2783
 # text = duthrachta [leg. duthrachtad] lesom anisiu forsauissitam fel in psalterio
