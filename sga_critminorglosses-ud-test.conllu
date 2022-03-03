@@ -28348,12 +28348,12 @@
 # text_en = him who swears, i.e. who beseeches, i.e. who prays.
 1-2	inní	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-3	as·pena	as·féna	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to swear, to attest
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	a·teich	ad·teich	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to call on, to pray to, to entreat; to flee to, resort to
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-7	gudes	guidid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to beseech, to pray to, to entreat; to desire
+2	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Masc	0	root	3:nsubj|0:root	Gloss=substantivizing particle
+3	as·pena	as·féna	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	2	acl:relcl	X	Gloss=to swear, to attest
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	a·teich	ad·teich	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	3	conj	X	Gloss=to call on, to pray to, to entreat; to flee to, resort to
+6	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
+7	gudes	guidid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	3	conj	X	Gloss=to beseech, to pray to, to entreat; to desire
 
 # sent_id = S0006-2052
 # text = foiride
@@ -28834,17 +28834,16 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	doinmig	doinmech	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=unprosperous, adverse, wretched, indigent
 
-# sent_id = S0006-2105
+# sent_id = S0006-2105 - arindi as one word or three?
 # text = .i. arindi nadfedar
 # text_en = i.e. because they are not brought.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	arindi	_	_	_	_	_	_	_	_
 2	ar	ar 1	ADP	preposition	Case=Dat	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 3	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	i	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-5	arindi	arindí	X	conjunction	_	_	_	X	Gloss=causal: because, for the reason that
-6	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-7	·fedar	feidid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to bring, to lead, to carry; to refer, to apply
+4	i	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	0	root	X	Gloss=substantivizing particle
+5	nad·	nád 1	PART	particle_nfegative_subordinate	_	6	advmod:neg	X	Gloss=that...not
+6	·fedar	feidid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	acl:relcl	X	Gloss=to bring, to lead, to carry; to refer, to apply
 
 # sent_id = S0006-2106
 # text = honach ecuimliucht
@@ -28997,17 +28996,17 @@
 # text_en = they expect.
 1	ar·neithet	ar·neät	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to expect, to await, to wait for; to sustain, support, to uphold, to assume responsibility for
 
-# sent_id = S0006-2124
+# sent_id = S0006-2124 - line 5 - ccomp|acl:relcl
 # text = .i. indi domuinetar dundoichfia ni doib
 # text_en = i.e. they who think that something will come to them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indi	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	i	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=substantivizing particle
-4	do·muinetar	do·moinethar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to think, to suppose, to conjecture
-5	du·ndoichfia	do·doichbí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to come
-6	ni	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
-7	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+3	i	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	0	root	4:nsubj|0:root	Gloss=substantivizing particle
+4	do·muinetar	do·moinethar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	3	acl:relcl	X	Gloss=to think, to suppose, to conjecture
+5	du·ndoichfia	do·doichbí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	4	ccomp	X	Gloss=to come
+6	ni	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	5	nsubj	X	Gloss=something; nothing, anything ; not
+7	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	5	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-2125
 # text = frissaccat
