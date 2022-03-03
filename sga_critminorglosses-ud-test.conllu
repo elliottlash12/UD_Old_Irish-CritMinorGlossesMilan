@@ -34009,13 +34009,13 @@
 # sent_id = S0006-2560
 # text = .i. innafiugrae fris inrúin
 # text_en = i.e. of the figure to the mystic sense.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innafiugrae	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	fiugrae	figor	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=figure, type, symbol
+3	fiugrae	figor	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=figure, type, symbol
 4	fri	fri	ADP	preposition	Case=Acc	6	case	X	Gloss=towards, against, standard of comparison
 5	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	rúin	rún	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=mystery, secret
+6	rúin	rún	NOUN	noun	Case=Acc|Number=Sing	3	obl	X	Gloss=mystery, secret
 
 # sent_id = S0006-2561
 # text = .i. assain indfiugor fuandrogab infaith 7 indrún fuantaibret insuuiscelaichthi [leg. insuiscelaichthi]
@@ -34248,14 +34248,14 @@
 # sent_id = S0006-2582
 # text = .i. honaib imbedaib innananae
 # text_en = i.e. the multitudes of the treasures.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	honaib	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	imbedaib	imbed	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=large quantity, abundance, excess, amount, number
+4	imbedaib	imbed	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=large quantity, abundance, excess, amount, number
 5-6	innananae	_	_	_	_	_	_	_	_
 5	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	nanae	anae	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=wealth, riches, prosperity
+6	nanae	anae	NOUN	noun	Case=Gen|Number=Plur	4	nmod	X	Gloss=wealth, riches, prosperity
 
 # sent_id = S0006-2583
 # text = .i. asbeir indiad
@@ -34269,12 +34269,12 @@
 # sent_id = S0006-2584
 # text = .i. it bibdid ɫ. it fechemain·
 # text_en = i.e. they are liable, or they are debtors.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	bibdid	bibdu	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=one who is guilty, criminal, liable, condemned
-4	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-5	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-6	fechemain	féichem	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=claimant, creditor, debtor; one who is under obligations
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	bibdid	bibdu	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=one who is guilty, criminal, liable, condemned
+4	ɫ	nó 1	CCONJ	conjunction	_	6	cc	X	Gloss=disjunctive: or
+5	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
+6	fechemain	féichem	NOUN	noun	Case=Nom|Number=Plur	3	conj	X	Gloss=claimant, creditor, debtor; one who is under obligations
 7	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2585
