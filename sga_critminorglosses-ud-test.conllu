@@ -30663,13 +30663,13 @@
 # sent_id = S0006-2279
 # text = .i. cach díb indiad alaili
 # text_en = i.e. each of them after the other.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	cach	cách	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
-3	díb	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	cach	cách	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Tot	0	root	X	Gloss=every one, each one, any one, all
+3	díb	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	2	obl:prep	X	Gloss=away, from, cause or reason, by
 4-5	indiad	_	_	_	_	_	_	_	_
 4	i	i	ADP	preposition	Case=Acc	5	case	X	Gloss=in, into
-5	ndiad	deäd	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=end, conclusion
-6	alaili	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=other, the other
+5	ndiad	deäd	NOUN	noun	Case=Acc|Number=Sing	2	obl	X	Gloss=end, conclusion
+6	alaili	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	5	nmod	X	Gloss=other, the other
 
 # sent_id = S0006-2280
 # text = anarrubart biuth
@@ -31202,12 +31202,12 @@
 # sent_id = S0006-2316
 # text = .i. is coitchenn do cech belru
 # text_en = i.e. it is common to every language.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	coitchenn	coitchenn	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=common, general, usual, ordinary
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	coitchenn	coitchenn	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=common, general, usual, ordinary
 4	do	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
 5	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	6	det	X	Gloss=every, each, all, any
-6	belru	bélrae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=speech, language; dialect
+6	belru	bélrae	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=speech, language; dialect
 
 # sent_id = S0006-2317
 # text = anad netargeuín
@@ -31445,13 +31445,13 @@
 # text = isrecht duetarcnu dæ tréu
 # text_en = that God should be known through them is a law.
 1-2	isrecht	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	recht	recht	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=law
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	recht	recht	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=law
 3-4	duetarcnu	_	_	_	_	_	_	_	_
 3	du	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
-4	etarcnu	etargnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
-5	dæ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
-6	tréu	tre	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=through (time or space), by means of, be reason of
+4	etarcnu	etargnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
+5	dæ	día 2	NOUN	noun	Case=Gen|Number=Sing	4	obj	X	Gloss=god, deity, God
+6	tréu	tre	ADP	preposition	Person=3|Number=Plur|Case=Acc	4	obl:prep	X	Gloss=through (time or space), by means of, be reason of
 
 # sent_id = S0006-2339
 # text = is indenum
