@@ -29507,8 +29507,8 @@
 3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	indigail	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	digail	dígal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+5	digail	dígal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of avenging, punishing, vengeance
+6	són	-són	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2167
 # text = .i. diglaid
@@ -30043,14 +30043,14 @@
 # sent_id = S0006-2208
 # text = .i. airis nephchumscaigthe side
 # text_en = i.e. for He is immovable.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	airis	_	_	_	_	_	_	_	_
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	air	ar 2	SCONJ	conjunction	_	5	mark	X	Gloss=causal: since, for; final: so that
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-5	nephchumscaigthe	_	_	_	_	_	_	_	_
-4	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
-5	chumscaigthe	cumscaigthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=moved, changed
-6	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
+4	neph	neb-	X	particle_prefix		5	advmod:neg	X	Gloss=negative prefix ; non-, un-
+5	chumscaigthe	cumscaigthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	0	root	X	Gloss=moved, changed
+6	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	6	nsubj	X	Gloss=that one, he, she, it, they
 
 # sent_id = S0006-2209
 # text = innahisin
@@ -30482,13 +30482,13 @@
 # sent_id = S0006-2262
 # text = acht infoscugud .i. huad ón
 # text_en = except the withdrawal, i.e. that is, from him.
-1	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
+1	acht	acht 1	CCONJ	conjunction	_	3	cc	X	Gloss=except, but, provided that, save that
 2-3	infoscugud	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	foscugud	foscugud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of removing, departing, changing place or position
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	huad	ó 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=from, out of, by
-6	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+3	foscugud	foscugud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of removing, departing, changing place or position
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	huad	ó 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	conj	X	Gloss=from, out of, by
+6	ón	-ón	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-2263
 # text = .i. arnadechsaitis cosuide iarnécaib saul
@@ -30559,13 +30559,12 @@
 # sent_id = S0006-2269
 # text = cidnaarrachta .i. iudula
 # text_en = even the images, i.e. the idols.
-1-4	cidnaarrachta	_	_	_	_	_	_	_	_
-1	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-2	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	arrachta	arracht	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=idol, idolatrous image
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	iudula	īdōlum	NOUN	noun	_	_	_	X	Gloss=_
+1-3	cidnaarrachta	_	_	_	_	_	_	_	_
+1	cid	cid 2	PART	particle_focus	_	3	advmod:emph	X	Gloss=even
+2	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	arrachta	arracht	NOUN	noun	Case=Acc|Number=Plur	0	root	X	Gloss=idol, idolatrous image
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	iudula	īdōlum	NOUN	noun	_	3	conj	X	Gloss=_
 
 # sent_id = S0006-2270
 # text = græsach
