@@ -32099,13 +32099,13 @@
 # sent_id = S0006-2408
 # text = .i. roeirpset ásonartai hisuib [leg. hisuidib]
 # text_en = i.e. they entrusted their strength in them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ro·eirpset	erbaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to entrust oneself, to trust (reflexive)
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ro·eirpset	erbaid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to entrust oneself, to trust (reflexive)
 3-4	ásonartai	_	_	_	_	_	_	_	_
-3	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=their
-4	sonartai	sonartae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=strength, firmness, courage
-5	hi	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-6	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Masc	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+3	á	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	X	Gloss=their
+4	sonartai	sonartae	NOUN	noun	Case=Acc|Number=Sing	2	obj	X	Gloss=strength, firmness, courage
+5	hi	i	ADP	preposition	Case=Dat	6	case	X	Gloss=in, into
+6	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Masc	2	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 
 # sent_id = S0006-2409
 # text = .i. intan asrubart sum frimmaccu israhel imbói dioinachdaib leu robeth fordib milib ech
@@ -32224,13 +32224,13 @@
 # sent_id = S0006-2419
 # text = 7 anduruacht .i. a deo
 # text_en = and when he was avenged, i.e. a deo.
-1	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+1	7	ocus 2	CCONJ	conjunction	_	3	cc	X	Gloss=coordinating: and, since
 2-3	anduruacht	_	_	_	_	_	_	_	_
-2	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-3	ndu·ruacht	do·fich 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to avenge, to punish
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	a	ab (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
-6	deo	deus	PROPN	proper_noun	_	_	_	X	Gloss=god, deity, God
+2	a	a 6	SCONJ	conjunction	_	3	mark	X	Gloss=temporal: when, since
+3	ndu·ruacht	do·fich 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to avenge, to punish
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	a	ab (Lat)	ADP	preposition	Case=Unk	6	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
+6	deo	deus	PROPN	proper_noun	_	3	conj	X	Gloss=god, deity, God
 
 # sent_id = S0006-2420
 # text = .i. á dé
@@ -32587,14 +32587,14 @@
 # sent_id = S0006-2450
 # text = .i. nisrucsat coforcenn
 # text_en = i.e. they did not bring them to an end.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	nisrucsat	_	_	_	_	_	_	_	_
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=them
-4	·rucsat	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
+2	ni	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+3	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	4	inf:obj	X	Gloss=them
+4	·rucsat	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
 5-6	coforcenn	_	_	_	_	_	_	_	_
 5	co	co 1	ADP	preposition	Case=Acc	6	case	X	Gloss=to, until, as far as, towards
-6	forcenn	forcenn	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=end, final limit (generally of time or procedure), what is destined
+6	forcenn	forcenn	NOUN	noun	Case=Acc|Number=Sing	4	obl	X	Gloss=end, final limit (generally of time or procedure), what is destined
 
 # sent_id = S0006-2451
 # text = .i. druim .i. condichret andruim frianaimtea
