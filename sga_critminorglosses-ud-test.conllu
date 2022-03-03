@@ -27902,7 +27902,7 @@
 # text = .i. nad rabae deithbiur huaduaid
 # text_en = i.e. that there was no blame on David’s part.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+2	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 3	·rabae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
 4-5	deithbiur	_	_	_	_	_	_	_	_
 4	d	di	ADP	preposition	Case=Dat	5	case	X	Gloss=away, from, cause or reason, by
@@ -27962,7 +27962,7 @@
 # text = ind neph deithbir .i. cen airilliud
 # text_en = unrightly, i.e. without desert.
 1	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-2	neph	neb-	X	particle_prefix		3	advmod:neg	X	Gloss=negative prefix ; non-, un-
+2	neph	neb-	X	particle_prefix	_	3	advmod:neg	X	Gloss=negative prefix ; non-, un-
 3	deithbir	deithbir	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=fitting, proper, reasonable, natural, lawful
 4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5	cen	cen	ADP	preposition	Case=Acc	6	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
@@ -28104,7 +28104,7 @@
 # text = nephfrithortae
 # text_en = uninjured.
 1-2	nephfrithortae	_	_	_	_	_	_	_	_
-1	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
+1	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
 2	frithortae	frithortae	ADJ	verbal_participle	Case=Acc|Number=Sing|Gender=Masc	_	_	X	Gloss=injured, hurt
 
 # sent_id = S0006-2026
@@ -28226,7 +28226,7 @@
 # text = .i. nad n dergeni olc tar æsi nuilc
 # text_en = i.e. that he did not do evil for evil.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+2	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 3	·ndergeni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
 4	olc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
 5	tar	tar 1	ADP	preposition	Case=Acc	6	case	X	Gloss=over, across, covering
@@ -28275,7 +28275,7 @@
 # text = nadfrithsuidiged ní
 # text_en = that he not oppose anything.
 1-2	nadfrithsuidiged	_	_	_	_	_	_	_	_
-1	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+1	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 2	·frithsuidiged	fris·suidigedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to place over against, to oppose
 3	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
 
@@ -28460,7 +28460,7 @@
 6	imblissen	imblisiu	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=iris of the eye
 7-9	connachroig	_	_	_	_	_	_	_	_
 7	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-8	nnach·	nach 3	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that not ; not
+8	nnach·	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
 9	·roig	ro·saig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to extend, to attain, to reach; to arrive, to come to
 10	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
 11-12	doadarc	_	_	_	_	_	_	_	_
@@ -28674,12 +28674,12 @@
 4-7	hondrochgnimaib	_	_	_	_	_	_	_	_
 4	ho	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
 5	'	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	_	X	Gloss=their
-6	ndroch	droch-	X	particle_prefix		_	_	X	Gloss=evil, bad, wrong
+6	ndroch	droch-	X	particle_prefix	_	_	_	X	Gloss=evil, bad, wrong
 7	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 8	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
 9-11	ɔnacumset	_	_	_	_	_	_	_	_
 9	ɔ	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-10	na·	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+10	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
 11	·cumset	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to can, to be capable of; to be able, to have power over
 12	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
 13	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
@@ -28767,14 +28767,14 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	do	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
 3-4	ecumliucht	_	_	_	_	_	_	_	_
-3	e	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+3	e	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 4	cumliucht	cuimlecht	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=advantage
 
 # sent_id = S0006-2096
 # text = .i. neph esse
 # text_en = i.e. not eaten.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
+2	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
 3	esse	esae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Fem	_	_	X	Gloss=eaten
 
 # sent_id = S0006-2097
@@ -28845,7 +28845,7 @@
 3	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
 4	i	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
 5	arindi	arindí	X	conjunction	_	_	_	X	Gloss=causal: because, for the reason that
-6	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+6	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 7	·fedar	feidid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to bring, to lead, to carry; to refer, to apply
 
 # sent_id = S0006-2106
@@ -28855,7 +28855,7 @@
 1	ho	ó 1	ADP	preposition	Case=Dat	2	case	X	Gloss=from, out of, by
 2	nach	nach 1	X	adjective_pronominal	Case=Dat|Number=Sing|Gender=Fem|PronType=Ind	_	_	X	Gloss=any, every, each, some, none
 3-4	ecuimliucht	_	_	_	_	_	_	_	_
-3	e	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+3	e	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 4	cuimliucht	cuimlecht	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=advantage
 
 # sent_id = S0006-2107
@@ -28953,7 +28953,7 @@
 # text = nephbic
 # text_en = not small.
 1-2	nephbic	_	_	_	_	_	_	_	_
-1	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
+1	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
 2	bic	bec	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=small, little of size or quantity
 
 # sent_id = S0006-2120
@@ -29154,7 +29154,7 @@
 3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 4-5	huamuc	_	_	_	_	_	_	_	_
 4	hua	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
-5	muc	mucc	NOUN	noun		_	_	X	Gloss=sow, pig
+5	muc	mucc	NOUN	noun	_	_	_	X	Gloss=sow, pig
 6	mairbnib	mairbne	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=dead bodies, corpses
 7	ut	ut	X	conjunction	_	_	_	X	Gloss=that, so that
 8	alii	alius	ADJ	adjective	Degree=Pos	_	_	X	Gloss=other, the other
@@ -29162,7 +29162,7 @@
 10-11	olsodain	_	_	_	_	_	_	_	_
 10	ol	ol 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, because, for, inasmuch as; that which; adversative relative with sodain: “which, however”
 11	sodain	suide 1	PRON	pronoun_anaphoric	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-12	nad	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+12	nad	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 13	choir	coäir	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=fitting, proper, right ; even, well-propportioned, straight; correct, suitable
 14	hi	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
 15	sunt	sund	ADV	adverb	_	_	_	X	Gloss=here, in this place; hither, to this place
@@ -29170,7 +29170,7 @@
 # sent_id = S0006-2140
 # text = nad tarta foranaithrea
 # text_en = which were not inflicted on their fathers.
-1	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+1	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 2	·tarta	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 3-5	foranaithrea	_	_	_	_	_	_	_	_
 3	for	for	ADP	preposition	Case=Acc	5	case	X	Gloss=upon, over, on
@@ -29240,7 +29240,7 @@
 # text_en = i.e. because I do not do evil for evil.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
-3	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+3	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 4	·ṅdenim	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to do, to make
 5	olc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
 6	tar	tar 1	ADP	preposition	Case=Acc	7	case	X	Gloss=over, across, covering
@@ -29350,7 +29350,7 @@
 # text_en = i.e. clearly declared, or greatly declared, i.e. full of every fitting figure and full of knowledge for setting forth the perils and the deliverance by God.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-3	imaisndisse	_	_	_	_	_	_	_	_
-2	im	imm-	X	particle_prefix		_	_	X	Gloss=intensive: very
+2	im	imm-	X	particle_prefix	_	_	_	X	Gloss=intensive: very
 3	aisndisse	aisndise	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=mentioned, declared, related
 4	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
 5-6	ollasndisse	_	_	_	_	_	_	_	_
@@ -29423,14 +29423,14 @@
 13	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
 14	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
 15-16	nephimgabthe	_	_	_	_	_	_	_	_
-15	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
+15	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
 16	imgabthe	immgabthae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=avoided, shunned, evaded
 
 # sent_id = S0006-2158
 # text = nephrescastaib
 # text_en = unexpected.
 1-2	nephrescastaib	_	_	_	_	_	_	_	_
-1	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
+1	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
 2	rescastaib	frescastae	ADJ	verbal_participle	Case=Dat|Number=Plur|Gender=Neut	_	_	X	Gloss=hoped for, expected, looked forward to
 
 # sent_id = S0006-2159
@@ -29586,7 +29586,7 @@
 # sent_id = S0006-2175
 # text = nadnair illet
 # text_en = that they do not deserve.
-1	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+1	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 2	·nairillet	ad·roilli	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to deserve, to be entitled to; to earn
 
 # sent_id = S0006-2176
@@ -29874,7 +29874,7 @@
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
 3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
 4-5	tobchetal	_	_	_	_	_	_	_	_
-4	tob	tob	NOUN	noun		_	_	X	Gloss=trumpet, tuba
+4	tob	tob	NOUN	noun	_	_	_	X	Gloss=trumpet, tuba
 5	chetal	cétal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of singing; song
 6	nime	nem	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=heaven, the abode of the blessed, ceiling, sky
 7-8	intorainn	_	_	_	_	_	_	_	_
@@ -29899,7 +29899,7 @@
 # text_en = when He was not content.
 1-3	annarbu	_	_	_	_	_	_	_	_
 1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	nna	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+2	nna	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
 3	rbu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	cop	X	Gloss=to be
 4-5	buidechsom	_	_	_	_	_	_	_	_
 4	buidech	buidech	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=satisfying, pleasingsatisfied, content, pleased
@@ -29940,7 +29940,7 @@
 # sent_id = S0006-2200
 # text = neph gnatha
 # text_en = unusual.
-1	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
+1	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
 2	gnatha	gnáth	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=customary, usual, familiar, well-known
 
 # sent_id = S0006-2201
@@ -30048,7 +30048,7 @@
 2	air	ar 2	SCONJ	conjunction	_	5	mark	X	Gloss=causal: since, for; final: so that
 3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-5	nephchumscaigthe	_	_	_	_	_	_	_	_
-4	neph	neb-	X	particle_prefix		5	advmod:neg	X	Gloss=negative prefix ; non-, un-
+4	neph	neb-	X	particle_prefix	_	5	advmod:neg	X	Gloss=negative prefix ; non-, un-
 5	chumscaigthe	cumscaigthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	0	root	X	Gloss=moved, changed
 6	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	6	nsubj	X	Gloss=that one, he, she, it, they
 
@@ -30082,7 +30082,7 @@
 1-4	trisinṁbæstindrim	_	_	_	_	_	_	_	_
 1	tri	tre	ADP	preposition	Case=Acc	3	case	X	Gloss=through (time or space), by means of, be reason of
 2	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	ṁbæs	bés 1	NOUN	noun		_	_	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
+3	ṁbæs	bés 1	NOUN	noun	_	_	_	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
 4	tindrim	tindrem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of performing, carrying out; behavior
 
 # sent_id = S0006-2213
@@ -30335,7 +30335,7 @@
 # text = nephlesc
 # text_en = not lazy.
 1-2	nephlesc	_	_	_	_	_	_	_	_
-1	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
+1	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
 2	lesc	lesc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=lazy, sluggish, still
 
 # sent_id = S0006-2247
@@ -30372,7 +30372,7 @@
 # text = nephlesc
 # text_en = not lazy.
 1-2	nephlesc	_	_	_	_	_	_	_	_
-1	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
+1	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
 2	lesc	lesc	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=lazy, sluggish, still
 
 # sent_id = S0006-2251
@@ -30416,7 +30416,7 @@
 # sent_id = S0006-2255
 # text = nad chumgat
 # text_en = which are not able.
-1	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+1	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 2	·chumgat	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to can, to be capable of; to be able, to have power over
 
 # sent_id = S0006-2256
@@ -30448,7 +30448,7 @@
 # text_en = so that he may not refuse.
 1-2	arna	_	_	_	_	_	_	_	_
 1	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-2	na·	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+2	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
 3	·oip	as·boind	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to refuse
 
 # sent_id = S0006-2260
@@ -30496,7 +30496,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-4	arnadechsaitis	_	_	_	_	_	_	_	_
 2	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-3	na·	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+3	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
 4	·dechsaitis	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
 5-6	cosuide	_	_	_	_	_	_	_	_
 5	co	co 1	ADP	preposition	Case=Acc	_	case	X	Gloss=to, until, as far as, towards
@@ -30512,7 +30512,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-4	arnadechsitis	_	_	_	_	_	_	_	_
 2	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-3	na·	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+3	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
 4	·dechsitis	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
 5	dano	danó	ADV	particle_discourse	_	_	_	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
 6-7	conechtar	_	_	_	_	_	_	_	_
@@ -30973,12 +30973,12 @@
 # text_en = of the non-trampler, i.e. like one who does not trample on his lord, sic dies.
 1-3	indnephchomainsedo	_	_	_	_	_	_	_	_
 1	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-2	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
+2	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
 3	chomainsedo	comainsid	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=trampler
 4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 5	amal	amail 1	ADP	preposition	Case=Acc	_	case	X	Gloss=as, like
 6	nech	nech	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
-7	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+7	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 8	·chomainsea	con·nesa	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to condemn, to spurn, to trample under foot
 9-10	achoimdid	_	_	_	_	_	_	_	_
 9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	_	X	Gloss=his, its
@@ -31080,7 +31080,7 @@
 21	·rater	ráidid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to speak, to say, to tell
 22	do	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
 23-24	aneulchaib	_	_	_	_	_	_	_	_
-23	an	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+23	an	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 24	eulchaib	éola	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=knowing, learned, skilled in, acquainted with; known, familiar
 25-27	inbelraisin·	_	_	_	_	_	_	_	_
 25	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	26	det	X	Gloss=the
@@ -31099,7 +31099,7 @@
 # text = amlabra
 # text_en = dumb.
 1-2	amlabra	_	_	_	_	_	_	_	_
-1	am	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+1	am	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 2	labra	labar	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=talkative, arrogant, boastful
 
 # sent_id = S0006-2309
@@ -31157,7 +31157,7 @@
 10	fri	fri	ADP	preposition	Case=Acc	_	case	X	Gloss=towards, against, standard of comparison
 11	nech	nech	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
 12-14	nachidetargéuin	_	_	_	_	_	_	_	_
-12	nach	nach 3	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that not ; not
+12	nach	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
 13	id·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
 14	·etargéuin	eter·gnin	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to find out, to learn, to know, to understand
 
@@ -31214,7 +31214,7 @@
 # text_en = when it does not know.
 1-2	anad	_	_	_	_	_	_	_	_
 1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+2	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 3	·netargeuín	eter·gnin	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to find out, to learn, to know, to understand
 
 # sent_id = S0006-2318
@@ -31388,7 +31388,7 @@
 2-3	sechis	_	_	_	_	_	_	_	_
 2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
 3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	óin	óen	ADJ	adjective_numeral_noun		_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
+4	óin	óen	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
 5	fithis	fithis	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=circuit, circular course, orbit; channel, passage; loop, ring
 6	on	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
 7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
@@ -31488,11 +31488,11 @@
 # text = nephsuilig .i. nephfegi són
 # text_en = without eyes, i.e. that is, sightless.
 1-2	nephsuilig	_	_	_	_	_	_	_	_
-1	neph	neb-	X	particle_prefix		2	advmod:neg	X	Gloss=negative prefix ; non-, un-
+1	neph	neb-	X	particle_prefix	_	2	advmod:neg	X	Gloss=negative prefix ; non-, un-
 2	suilig	súilech	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	0	root	X	Gloss=having eyes
 3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	nephfegi	_	_	_	_	_	_	_	_
-4	neph	neb-	X	particle_prefix		5	advmod:neg	X	Gloss=negative prefix ; non-, un-
+4	neph	neb-	X	particle_prefix	_	5	advmod:neg	X	Gloss=negative prefix ; non-, un-
 5	fegi	féig	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	2	conj	X	Gloss=of sight, seeing, keen-sighted
 6	són	-són	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (mentioned above) that is
 
@@ -31551,7 +31551,7 @@
 # text = etoirthech
 # text_en = fruitless.
 1-2	etoirthech	_	_	_	_	_	_	_	_
-1	e	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+1	e	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 2	toirthech	toirthech	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=fruitful, fertile
 
 # sent_id = S0006-2352
@@ -31575,7 +31575,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	no	no·	SCONJ	particle_preverb	_	_	mark:prt	X	Gloss=empty particle
 3	nda·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=them
-4	·lam	lám	NOUN	noun		_	_	X	Gloss=hand, arm
+4	·lam	lám	NOUN	noun	_	_	_	X	Gloss=hand, arm
 5	·lamgaba	lámgaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to take in hand; as gloss to Lat. mancipare
 6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 7	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
@@ -31601,7 +31601,7 @@
 # text = indainb
 # text_en = ignorantly.
 1	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-2	ain	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+2	ain	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 3	ainb	ainb	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=ignorant
 
 # sent_id = S0006-2357
@@ -31699,7 +31699,7 @@
 # text_en = i.e. the non-imagining that it is sin.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	nephthoimtiu	_	_	_	_	_	_	_	_
-2	neph	neb-	X	particle_prefix		3	advmod:neg	X	Gloss=negative prefix ; non-, un-
+2	neph	neb-	X	particle_prefix	_	3	advmod:neg	X	Gloss=negative prefix ; non-, un-
 3	thoimtiu	toimtiu	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=act of thinking; opinion
 4	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
 5	peccad	peccad	NOUN	noun	Case=Nom|Number=Sing	3	ccomp	X	Gloss=sin
@@ -31922,7 +31922,7 @@
 7	cheill	cíall	NOUN	noun	Case=Dat	_	_	X	Gloss=sense, intelligence, mind, thought, meaning, interpretation, wisdom, good sense
 8	do	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	10	_	X	Gloss=your (sg.)
 9-10	degnimu	_	_	_	_	_	_	_	_
-9	de	dag-	X	particle_prefix		_	_	X	Gloss=good, noble, very
+9	de	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
 10	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 11	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
 12	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to say
@@ -32049,7 +32049,7 @@
 18	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
 19-21	arnabad	_	_	_	_	_	_	_	_
 19	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-20	na	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+20	na	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
 21	bad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
 22-23	atempul	_	_	_	_	_	_	_	_
 22	a	a 7	ADP	preposition	Case=Dat	23	case	X	Gloss=out of, from
@@ -32217,7 +32217,7 @@
 # text_en = with the opposed weakness.
 1	hua	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-3	e	es-	X	particle_prefix		_	_	X	Gloss=privative prefix
+3	e	es-	X	particle_prefix	_	_	_	X	Gloss=privative prefix
 4	enartai	énartae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=weakness, want of strength
 5	chotarsnai	cotarsnae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=opposite, opposing, contrary, adverse
 
@@ -32737,7 +32737,7 @@
 20	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	22	_	X	Gloss=to, for, by etc.
 21	dochum	dochumm	ADP	preposition	Case=Gen	22	case	X	Gloss=to, towards, in order to
 22	pontfelait	Pontfelat	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Pontius Pilate
-23	iarum	íarum	ADV	adverb		_	_	X	Gloss=thereafter, afterwards
+23	iarum	íarum	ADV	adverb	_	_	_	X	Gloss=thereafter, afterwards
 24	i	i	ADP	preposition	Case=Acc	26	case	X	Gloss=in, into
 25	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	26	det	X	Gloss=the
 26	matain	matan	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=morning ; Matins
@@ -32826,7 +32826,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-4	hochomlugiu	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
-3	chom	com- 2	X	particle_prefix		_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
+3	chom	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
 4	lugiu	lugae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of swearing; oath
 5	·	·	PUNCT	punctuation	_	_	_	_	_
 6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
@@ -32922,7 +32922,7 @@
 35	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
 36	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
 37	tosach	tosach	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=beginning, precedence
-38	iarum	íarum	ADV	adverb		_	_	X	Gloss=thereafter, afterwards
+38	iarum	íarum	ADV	adverb	_	_	_	X	Gloss=thereafter, afterwards
 39	uerba	uerbum	NOUN	noun	_	_	_	X	Gloss=word, verb
 40	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 41	in	in 2	PRON	particle_interrogative	_	_	_	X	Gloss=question particle
@@ -33093,7 +33093,7 @@
 5	nimniud	imned	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
 6	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
 7	·ǽrburt	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
-8	nach	nach 3	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that not ; not
+8	nach	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
 9	ar	ar 1	ADP	preposition	Case=Acc	11	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 10	mu	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	11	_	X	Gloss=my
 11	peccad	peccad	NOUN	noun	Case=Dat	_	_	X	Gloss=sin
@@ -33181,7 +33181,7 @@
 7	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	8	_	X	Gloss=my
 8	peccad	peccad	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=sin
 9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-10	su	so-	X	particle_prefix		_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
+10	su	so-	X	particle_prefix	_	_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
 11	suaichnid	suäichnid	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=well known, clear, obvious
 12	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
 13	ru·thórba	do·forban	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to come, to arrive, to happen to, to reach; to profit, to advantage, to help
@@ -33710,7 +33710,7 @@
 8	he	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=they, them
 9	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
 10	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-11	so	so-	X	particle_prefix		_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
+11	so	so-	X	particle_prefix	_	_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
 12	sonartam	sonairt	ADJ	adjective	Degree=Sup	_	_	X	Gloss=strong, firm, robust
 13	indiun	i	ADP	preposition	Person=1|Number=Plur|Case=Acc	_	_	X	Gloss=in, into
 14	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
@@ -33743,7 +33743,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-4	connabí	_	_	_	_	_	_	_	_
 2	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	nna·	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+3	nna·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
 4	·bí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
 5	ingnae	ingnae	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of understanding, comprehending
 6	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
@@ -33954,7 +33954,7 @@
 # sent_id = S0006-2555
 # text = sonartai
 # text_en = strengths.
-1	so	so-	X	particle_prefix		_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
+1	so	so-	X	particle_prefix	_	_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
 2	sonartai	sonartae	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=strength, firmness, courage
 
 # sent_id = S0006-2556
@@ -33985,7 +33985,7 @@
 5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 6-8	hochomlugu	_	_	_	_	_	_	_	_
 6	ho	ó 1	ADP	preposition	Case=Dat	8	case	X	Gloss=from, out of, by
-7	chom	com- 2	X	particle_prefix		_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
+7	chom	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
 8	lugu	lugae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of swearing; oath
 9	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 10-11	hoélud	_	_	_	_	_	_	_	_
@@ -34064,11 +34064,11 @@
 # text = oinaidaircechu ɫ. oinbenchu
 # text_en = one-horned, or one-pronged.
 1-2	oinaidaircechu	_	_	_	_	_	_	_	_
-1	oin	óen	ADJ	adjective_numeral_noun		_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
+1	oin	óen	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
 2	aidaircechu	adarcach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=horned, having horns
 3	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
 4-5	oinbenchu	_	_	_	_	_	_	_	_
-4	oin	óen	ADJ	adjective_numeral_noun		_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
+4	oin	óen	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
 5	benchu	bennach 2	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=pointed, peaked, horned
 
 # sent_id = S0006-2564
@@ -34118,7 +34118,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
 3	do	di	ADP	preposition	Case=Dat	5	case	X	Gloss=away, from, cause or reason, by
-4	óin	óen	ADJ	adjective_numeral_noun		_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
+4	óin	óen	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
 5	fiur	fer 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=man, person, pl. inhabitants
 6	as·robrad	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
 7	iacob	Iäcob	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Jacob
@@ -34354,7 +34354,7 @@
 6	moith	móeth	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=soft, tender, yielding
 7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
 8-9	anfoirbthe	_	_	_	_	_	_	_	_
-8	an	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+8	an	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 9	foirbthe	foirbthe 1	ADJ	verbal_participle	Case=Acc|Number=Sing|Gender=Masc	_	_	X	Gloss=completed, finished, perfect, religious, holy
 
 # sent_id = S0006-2592
@@ -34416,7 +34416,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	amal	amail 1	ADP	preposition	Case=Acc	4	case	X	Gloss=as, like
 3-4	degugaire	_	_	_	_	_	_	_	_
-3	deg	dag-	X	particle_prefix		_	_	X	Gloss=good, noble, very
+3	deg	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
 4	ugaire	augaire	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=shepherd
 
 # sent_id = S0006-2598
@@ -34512,7 +34512,7 @@
 17	erissem	airisem	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of resting, remaining, stopping; delay
 18	di	di	ADP	preposition	Case=Dat	21	case	X	Gloss=away, from, cause or reason, by
 19	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	20	_	X	Gloss=their
-20	leth	leth	NOUN	noun		_	_	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
+20	leth	leth	NOUN	noun	_	_	_	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
 21	laim	lám	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=hand, arm
 22	furi	for	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Dat	_	_	X	Gloss=upon, over, on
 23	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
@@ -34627,7 +34627,7 @@
 # text_en = when I was not struck.
 1-4	annarobsa	_	_	_	_	_	_	_	_
 1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	nna	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+2	nna	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
 3	rob	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	cop	X	Gloss=to be
 4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
 5	bithe	bíthe	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=struck
@@ -34712,7 +34712,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	du·tiagat	do·tét	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to come, to touch on, to mention, to go with, to apply to, in incident to, to submit to (with i rréir + gen)
 3-4	muirgobuil	_	_	_	_	_	_	_	_
-3	muir	muir	NOUN	noun		_	_	X	Gloss=sea, tide
+3	muir	muir	NOUN	noun	_	_	_	X	Gloss=sea, tide
 4	gobuil	gobél	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=gap or opening (inlet), generally of the sea
 5	índ	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=in, into
 
@@ -34810,7 +34810,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-4	indrochgníma	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-3	droch	droch-	X	particle_prefix		_	_	X	Gloss=evil, bad, wrong
+3	droch	droch-	X	particle_prefix	_	_	_	X	Gloss=evil, bad, wrong
 4	gníma	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-2633
@@ -34997,12 +34997,12 @@
 6-7	duibsi	_	_	_	_	_	_	_	_
 6	duib	do 1	ADP	preposition	Person=2|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
 7	si	nota augens	PRON	particle_pronominal	Person=2|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-8	nach	nach 3	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that not ; not
+8	nach	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
 9	aib·	2pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=you, ye ; you (pl.), yourselves
 10	·ersoilcfithe	ar·osailci	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to open, to reveal
 11	etir	eter	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=between, among; both...and...
 12	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-13	nach	nach 3	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that not ; not
+13	nach	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
 14	ab·	2pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=you, ye ; you (pl.), yourselves
 15	·ticfed	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to approach, to come to
 16	for	2pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	17	_	X	Gloss=your ; your (pl.)
@@ -35066,13 +35066,13 @@
 # text_en = i.e. that the doors would not be opened, and that neither the King nor his people would come out of the captivity, that is the wonder that was upon the doors, and it is that which brought them to say these words, namely, quis est etc.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-3	nadnersoilcfitis	_	_	_	_	_	_	_	_
-2	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+2	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 3	·nersoilcfitis	ar·osailci	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Cond|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to open, to reveal
 4-5	nadoirsea	_	_	_	_	_	_	_	_
 4	na	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
 5	doirsea	dorus	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=gateway, doorway, opening or entrance
 6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-7	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+7	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 8	·ticfed	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to approach, to come to
 9-10	inrí	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	10	det	X	Gloss=the
@@ -35273,7 +35273,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-4	arnabeth	_	_	_	_	_	_	_	_
 2	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-3	na·	ná 2	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+3	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
 4	·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
 5	imresan	immresan	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of contending; strife, feud, contention, opposition
 6-7	immoslucud	_	_	_	_	_	_	_	_
@@ -36151,7 +36151,7 @@
 4	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
 5	ar	ar 1	ADP	preposition	Case=Dat	8	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 6	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	_	X	Gloss=their
-7	ndrog	droch-	X	particle_prefix		_	_	X	Gloss=evil, bad, wrong
+7	ndrog	droch-	X	particle_prefix	_	_	_	X	Gloss=evil, bad, wrong
 8	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-2723
@@ -36171,7 +36171,7 @@
 12	do·rigensat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
 13	assir	Asar	PROPN	proper_noun	Case=Nom|Number=Plur	_	_	X	Gloss=Assyrian
 14	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
-15	nach	nach 3	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that not ; not
+15	nach	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
 16	du	do 1	ADP	preposition	Case=Dat	17	case	X	Gloss=to, for, by etc.
 17	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=god, deity, God
 18	du·airilbset	do·aisilbi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to present, to put forward, to set forth, to assign, to ascribe
@@ -36248,7 +36248,7 @@
 2-3	mese	_	_	_	_	_	_	_	_
 2	me	1sg.indp.pron.	PRON	pronoun_independent	Case=Nom|PronType=Prs|Person=1	_	_	X	Gloss=me, I
 3	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-4	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+4	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 5	·frithchomart	fris·oirg	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to molest, to offend, to injure
 6	nech	nech	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
 
@@ -36466,7 +36466,7 @@
 3	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 4	do·rignius	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to do, to make
 5-6	chomgnimu	_	_	_	_	_	_	_	_
-5	chom	com- 2	X	particle_prefix		_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
+5	chom	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
 6	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-2750
@@ -36549,7 +36549,7 @@
 # text_en = by cohabitation, i.e. through being together with them.
 1-3	hochomatrub	_	_	_	_	_	_	_	_
 1	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
-2	chom	com- 2	X	particle_prefix		_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
+2	chom	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
 3	atrub	atrab	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of inhabiting, living (in), dwelling, occupying; habitation, house, possession, locative case
 4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 5-6	tribuith	_	_	_	_	_	_	_	_
@@ -36673,7 +36673,7 @@
 3	bite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
 4	i	i	ADP	preposition	Case=Dat	5	case	X	Gloss=in, into
 5	nergail	airgal	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of fighting; strife, contest, line of battle, battalion
-6	chuim	com- 2	X	particle_prefix		_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
+6	chuim	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
 7	lin	lín 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=number, full number, complement, multitude (of persons)
 8	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
 9	du	do 1	ADP	preposition	Case=Dat	12	case	X	Gloss=to, for, by etc.
@@ -36760,7 +36760,7 @@
 3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
 4-7	arnachammetarscarthar	_	_	_	_	_	_	_	_
 4	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-5	nach	nach 3	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that not ; not
+5	nach	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
 6	amm·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=me, myself
 7	·etarscarthar	eter·scara	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to separate, to divide, to leave, to dissolve, to depart from
 8	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
@@ -37084,7 +37084,7 @@
 # text_en = i.e. the doing of anything which is asked of them is impossible for them.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	é	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+3	é	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 4	écmacht	écmacht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=powerless, impotent; impossible, unfeasible
 5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
 6	denum	dénum	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
@@ -37179,9 +37179,9 @@
 # sent_id = S0006-2816
 # text = trem amairesach
 # text_en = very faithless.
-1	trem	trem-	X	particle_prefix		_	_	X	Gloss=intensive: very
+1	trem	trem-	X	particle_prefix	_	_	_	X	Gloss=intensive: very
 2-3	amairesach	_	_	_	_	_	_	_	_
-2	am	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+2	am	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 3	airesach	iresach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=believing, faithful, pious
 
 # sent_id = S0006-2817
@@ -37520,7 +37520,7 @@
 # text_en = through the idiomatic usage.
 1	tri	tre	ADP	preposition	Case=Acc	3	case	X	Gloss=through (time or space), by means of, be reason of
 2	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	bés	bés 1	NOUN	noun		_	_	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
+3	bés	bés 1	NOUN	noun	_	_	_	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
 4	tindrim	tindrem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of performing, carrying out; behavior
 5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 6	aliud·	alius	ADJ	adjective	Degree=Pos	_	_	X	Gloss=other, the other
@@ -37544,7 +37544,7 @@
 # text = innasonartae [in marg.] .i. indneirt robói la assaru
 # text_en = of the firmness, i.e. of the strength that the Assyrians had.
 1	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-2	so	so-	X	particle_prefix		_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
+2	so	so-	X	particle_prefix	_	_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
 3	sonartae	sonartae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=strength, firmness, courage
 4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 5	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
@@ -37573,7 +37573,7 @@
 1-2	hont	_	_	_	_	_	_	_	_
 1	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 2	nt	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-3	so	so-	X	particle_prefix		_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
+3	so	so-	X	particle_prefix	_	_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
 4	sonartai	sonartae	NOUN	noun	Case=Dat|Number=Sing|Gender=Fem	_	_	X	Gloss=strength, firmness, courage
 
 # sent_id = S0006-2856
@@ -37612,7 +37612,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-4	indermairiu	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	der	der-	X	particle_prefix		_	_	X	Gloss=intensifying prefix ; very
+3	der	der-	X	particle_prefix	_	_	_	X	Gloss=intensifying prefix ; very
 4	mairiu	mór	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=great, big, ample, tall, large
 
 # sent_id = S0006-2859
@@ -37653,7 +37653,7 @@
 # text = dermar
 # text_en = huge.
 1-2	dermar	_	_	_	_	_	_	_	_
-1	der	der-	X	particle_prefix		_	_	X	Gloss=intensifying prefix ; very
+1	der	der-	X	particle_prefix	_	_	_	X	Gloss=intensifying prefix ; very
 2	mar	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=great, big, ample, tall, large
 
 # sent_id = S0006-2864
@@ -37983,7 +37983,7 @@
 23	á	a 7	ADP	preposition	Case=Dat	24	case	X	Gloss=out of, from
 24	hirusalem	Irusalem	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=Jerusalem
 25	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-26	nach	nach 3	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that not ; not
+26	nach	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
 27	a·	3sg.fem.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=her
 28	·toirsitis	do·fich 2	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to attack, to fight; to conquer, to take by storm
 29	aithirriuch	aitherrach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of repeating; repetition
@@ -38029,7 +38029,7 @@
 29	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	29	det	X	Gloss=the
 30	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
 31	dindí	dindí	X	conjunction	_	_	_	X	Gloss=causal: because, for the reason that
-32	nad·	nád 1	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that...not
+32	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
 33	·rochoilset	coillid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to damage, to violate, to destroy
 34	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	34	det	X	Gloss=the
 35	assair	Asar	PROPN	proper_noun	Case=Nom|Number=Plur	_	_	X	Gloss=Assyrian
@@ -38129,7 +38129,7 @@
 # text_en = because its destruction was not permitted to the Assyrians.
 1	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
 2-3	nachreilced	_	_	_	_	_	_	_	_
-2	nach·	nach 3	PART	particle_negative_subordinate		_	advmod:neg	X	Gloss=that not ; not
+2	nach·	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
 3	·reilced	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to leave (behind), to allow to remain; to let go, to release
 4-5	doassaraib	_	_	_	_	_	_	_	_
 4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
@@ -38166,7 +38166,7 @@
 21	·	·	PUNCT	punctuation	_	_	_	_	_
 22	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
 23	ɔ·secarthe	con·secra	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to consecrate; to dedicate, sanctify
-24	iarum	íarum	ADV	adverb		_	_	X	Gloss=thereafter, afterwards
+24	iarum	íarum	ADV	adverb	_	_	_	X	Gloss=thereafter, afterwards
 
 # sent_id = S0006-2911
 # text = adǽ
@@ -38200,7 +38200,7 @@
 2-3	airroptar	_	_	_	_	_	_	_	_
 2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
 3	roptar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-4	so	so-	X	particle_prefix		_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
+4	so	so-	X	particle_prefix	_	_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
 5	sonartu	sonairt	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=strong, firm, robust
 6	maicc	macc 1	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
 7	israhel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Israel
@@ -38218,7 +38218,7 @@
 5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
 6	ce	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
 7	ruptar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-8	e	es-	X	particle_prefix		_	_	X	Gloss=privative prefix
+8	e	es-	X	particle_prefix	_	_	_	X	Gloss=privative prefix
 9	enartu	énairt	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=without strength, weak
 
 # sent_id = S0006-2917
@@ -38239,7 +38239,7 @@
 # text_en = i.e. ill will and envy toward anyone who is stronger.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-3	miduthracht	_	_	_	_	_	_	_	_
-2	mi	mí-	X	particle_prefix		_	_	X	Gloss=bad, false
+2	mi	mí-	X	particle_prefix	_	_	_	X	Gloss=bad, false
 3	duthracht	dúthracht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of wishing, desiring; wish, desire
 4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
 5	format	format	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of envying; envy, jealousy
@@ -38278,8 +38278,8 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-5	innatremamireschu	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	trem	trem-	X	particle_prefix		_	_	X	Gloss=intensive: very
-4	am	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+3	trem	trem-	X	particle_prefix	_	_	_	X	Gloss=intensive: very
+4	am	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 5	ireschu	iresach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=believing, faithful, pious
 
 # sent_id = S0006-2923
@@ -38314,7 +38314,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
 3	du	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
-4	óin	óen	ADJ	adjective_numeral_noun		_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
+4	óin	óen	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
 5	rét	rét 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=thing
 6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
 7	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=name, noun (gramm)
@@ -38340,7 +38340,7 @@
 # text_en = i.e. unspeaking.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2-3	amlabar	_	_	_	_	_	_	_	_
-2	am	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+2	am	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 3	labar	labar	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=talkative, arrogant, boastful
 
 # sent_id = S0006-2930
@@ -38486,7 +38486,7 @@
 6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
 7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
 8	romsa	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	cop	X	Gloss=to be
-9	bith	bith	NOUN	noun		_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+9	bith	bith	NOUN	noun	_	_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
 10	béu	beo	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=living, alive
 11	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 12	tri	tre	ADP	preposition	Case=Acc	13	case	X	Gloss=through (time or space), by means of, be reason of
@@ -38512,7 +38512,7 @@
 # text = .i. neph dudrachtach
 # text_en = i.e. not devoted.
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
+2	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
 3	dudrachtach	dúthrachtach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=desired, longed for, desirable; devout, devoted
 
 # sent_id = S0006-2945
@@ -38631,7 +38631,7 @@
 2-5	huandinduthracht	_	_	_	_	_	_	_	_
 2	hua	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
 3	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
-4	in	an-	X	particle_prefix		_	_	X	Gloss=negative: non-, un-
+4	in	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
 5	duthracht	dúthracht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of wishing, desiring; wish, desire
 
 # sent_id = S0006-2959
