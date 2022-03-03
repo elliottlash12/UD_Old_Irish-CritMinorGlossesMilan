@@ -38067,13 +38067,13 @@
 # sent_id = S0006-2902
 # text = .i. huanduaill rodgab són
 # text_en = i.e. that is, by the pride that seized him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	huanduaill	_	_	_	_	_	_	_	_
 2	hua	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 3	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	uaill	úall 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=pride, arrogance, vainglory
-5	rod·gab	gaibid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+4	uaill	úall 1	NOUN	noun	Case=Dat|Number=Sing	0	root	5:nsubj|0:root	Gloss=pride, arrogance, vainglory
+5	rod·gab	gaibid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	4	acl:relcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+6	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2903
 # text = hond lobrugud .i. ontedmaim
@@ -38381,13 +38381,13 @@
 # sent_id = S0006-2934
 # text = .i. as écen dothabairt foraib
 # text_en = i.e. which is necessary to inflict on them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-3	écen	éicen	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	cop	X	Gloss=to be
+3	écen	éicen	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
 4-5	dothabairt	_	_	_	_	_	_	_	_
 4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
-5	thabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
-6	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=upon, over, on
+5	thabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+6	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	5	obl:prep	X	Gloss=upon, over, on
 
 # sent_id = S0006-2935
 # text = .i. inadim .i. intan dober dia indigail dommuinetar indoiss [leg. indoini iss] ferc do insin sech is archuindriug pectho dosber som 7 ni arferc
@@ -38444,13 +38444,13 @@
 # sent_id = S0006-2937
 # text = .i. innanimpesse .i. filiorum israhel
 # text_en = i.e. of the beseiged.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innanimpesse	_	_	_	_	_	_	_	_
-2	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	nimpesse	impeise	ADJ	verbal_participle	Case=Gen|Number=Plur|Gender=Masc	_	_	X	Gloss=surrounded, beset, besieged
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	filiorum	fīlius	NOUN	noun	_	_	_	X	Gloss=son
-6	israhel	Isrāhēl	PROPN	proper_noun	_	_	_	X	Gloss=_
+2	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	nimpesse	impeise	ADJ	verbal_participle	Case=Gen|Number=Plur|Gender=Masc	0	root	X	Gloss=surrounded, beset, besieged
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	filiorum	fīlius	NOUN	noun	_	3	conj	X	Gloss=son
+6	israhel	Isrāhēl	PROPN	proper_noun	_	5	flat	X	Gloss=_
 
 # sent_id = S0006-2938
 # text = .i. a for ru drúb
