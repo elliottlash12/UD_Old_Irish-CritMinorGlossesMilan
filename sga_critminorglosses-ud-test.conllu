@@ -34797,14 +34797,12 @@
 # sent_id = S0006-2631
 # text = .i. cid becṅ diulc
 # text_en = i.e. even a little of evil.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2-3	cid	_	_	_	_	_	_	_	_
-2	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	bec	bec	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=small, little of size or quantity
-5-6	diulc	_	_	_	_	_	_	_	_
-5	ṅdi	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-6	ulc	olc	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	cid	cid 2	PART	particle_focus	_	3	advmod:emph	X	Gloss=even
+3	bec	bec	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=small, little of size or quantity
+4-5	diulc	_	_	_	_	_	_	_	_
+4	ṅdi	di	ADP	preposition	Case=Dat	5	case	X	Gloss=away, from, cause or reason, by
+5	ulc	olc	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	3	obl	X	Gloss=evil, bad, wrong
 
 # sent_id = S0006-2632
 # text = .i. indrochgníma
@@ -34880,12 +34878,12 @@
 # text_en = of the perpetual closure in which you (pl) were before.
 1-3	inbithiata	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	bith	bith	NOUN	noun		_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
-3	iata	íadad	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=act of closing, enclosing; a closure, encompassing
+2	bith	bith	NOUN	noun	_	0	root	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+3	iata	íadad	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=act of closing, enclosing; a closure, encompassing
 4-5	hirobaid	_	_	_	_	_	_	_	_
-4	hi·	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-5	·robaid	ad·tá	VERB	verb	Person[Subj]=2|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
-6	riam	re	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=before, in front of
+4	hi·	i	ADP	preposition	Case=Acc	5	case	X	Gloss=in, into
+5	·robaid	ad·tá	VERB	verb	Person[Subj]=2|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	2	acl:relcl	X	Gloss=to be, to exist,
+6	riam	re	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	5	obl:prep	X	Gloss=before, in front of
 7	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2639
@@ -35119,14 +35117,14 @@
 # sent_id = S0006-2651
 # text = .i. homuntair indrig són
 # text_en = i.e. that is, by the people of the King.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	homuntair	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
-3	muntair	muinter	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
+3	muntair	muinter	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
 4-5	indrig	_	_	_	_	_	_	_	_
 4	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	rig	rí	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=king
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+5	rig	rí	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=king
+6	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2652
 # text = .i. isairi aderrigsom forsanimchomarc fodi .i. quis est rl. 7 forsin tuasulcud fodí .i. dominus rl.
