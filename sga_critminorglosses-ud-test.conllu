@@ -38540,13 +38540,13 @@
 # sent_id = S0006-2948
 # text = .i. incumgubsa .i. non
 # text_en = i.e. will I be able?, i.e. non.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	incumgubsa	_	_	_	_	_	_	_	_
-2	in·	in 2	PRON	particle_interrogative	_	_	_	X	Gloss=question particle
-3	·cumgub	con·icc	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to can, to be capable of; to be able, to have power over
-4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	non	nōn	X	particle_negative	_	_	_	X	Gloss=not
+2	in·	in 2	PRON	particle_interrogative	_	3	mark:prt	X	Gloss=question particle
+3	·cumgub	con·icc	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to can, to be capable of; to be able, to have power over
+4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	non	nōn	X	particle_negative	_	3	conj	X	Gloss=not
 
 # sent_id = S0006-2949
 # text = .i. osme marb
@@ -38830,13 +38830,13 @@
 # sent_id = S0006-2978
 # text = .i. isintil .i. crucis
 # text_en = i.e. on the cross-beam (?), i.e. of the cross.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	isintil	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
 3	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	til	tul	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=protuberance, projecting part, swelling
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	crucis	crux	NOUN	noun	_	_	_	X	Gloss=_
+4	til	tul	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=protuberance, projecting part, swelling
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	crucis	crux	NOUN	noun	_	4	conj	X	Gloss=_
 
 # sent_id = S0006-2979
 # text = .i. airnídoragab infaith iarfirinni stoir· ol stoirier
@@ -39029,12 +39029,14 @@
 # sent_id = S0006-2996
 # text = trachtad lesem anisiu
 # text_en = he has a commentary here.
-1	trachtad	tráchtad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of discussing; commentary, interpretation
-2	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-3	sem	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	trachtad	tráchtad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of discussing; commentary, interpretation
+2-3	lesem	_	_	_	_	_	_	_	_
+2	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+3	sem	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	1	obl	X	Gloss=emphasising particle
+4-6	anisiu	_	_	_	_	_	_	_	_
 4	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-6	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this, these
+5	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	1	nsubj	X	Gloss=substantivizing particle
+6	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	5	det	X	Gloss=this, these
 
 # sent_id = S0006-2997
 # text = taési [leg. tarési]
