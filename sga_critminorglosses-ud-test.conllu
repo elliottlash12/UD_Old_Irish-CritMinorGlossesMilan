@@ -27898,18 +27898,18 @@
 1	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
 2	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
 
-# sent_id = S0006-2005
+# sent_id = S0006-2005 - line 4 - case|mark:prt
 # text = .i. nad rabae deithbiur huaduaid
 # text_en = i.e. that there was no blame on David’s part.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-3	·rabae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	nad·	nád 1	PART	particle_negative_subordinate	_	3	advmod:neg	X	Gloss=that...not
+3	·rabae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to be, to exist,
 4-5	deithbiur	_	_	_	_	_	_	_	_
 4	d	di	ADP	preposition	Case=Dat	5	case	X	Gloss=away, from, cause or reason, by
-5	eithbiur	aithber	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of blaming, rebuking; reproach
+5	eithbiur	aithber	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	xcomp:pred	X	Gloss=the act of blaming, rebuking; reproach
 6-7	huaduaid	_	_	_	_	_	_	_	_
 6	hua	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
-7	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=David
+7	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	5	obl	X	Gloss=David
 
 # sent_id = S0006-2006
 # text = co ingriastais
@@ -28155,14 +28155,12 @@
 # sent_id = S0006-2031
 # text = .i. cid cuit a ocmaide nammá
 # text_en = i.e. even as to touching it only.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2-3	cid	_	_	_	_	_	_	_	_
-2	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=portion, part, share; a matter of, a mere
-5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	ocmaide	ocmad	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of touching
-7	nammá	nammá	PART	particle_focus	_	_	_	X	Gloss=only, merely
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	cid	cid 2	PART	particle_focus	_	3	advmod:emph	X	Gloss=even
+3	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=portion, part, share; a matter of, a mere
+4	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	obj:poss	X	Gloss=his, its
+5	ocmaide	ocmad	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	csubj	X	Gloss=the act of touching
+6	nammá	nammá	PART	particle_focus	_	5	advmod:emph	X	Gloss=only, merely
 
 # sent_id = S0006-2032
 # text = .i. cidcuit áimraid commenic nidernus
@@ -28225,13 +28223,13 @@
 # sent_id = S0006-2036
 # text = .i. nad n dergeni olc tar æsi nuilc
 # text_en = i.e. that he did not do evil for evil.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-3	·ndergeni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
-4	olc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	nad·	nád 1	PART	particle_negative_subordinate	_	3	advmod:neg	X	Gloss=that...not
+3	·ndergeni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to do, to make
+4	olc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	3	obj	X	Gloss=evil, bad, wrong
 5	tar	tar 1	ADP	preposition	Case=Acc	6	case	X	Gloss=over, across, covering
-6	æsi	éis 2	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=track, trace
-7	nuilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+6	æsi	éis 2	NOUN	noun	Case=Acc|Number=Sing	3	obl	X	Gloss=track, trace
+7	nuilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	6	nmod	X	Gloss=evil, bad, wrong
 
 # sent_id = S0006-2037
 # text = atrosoid
