@@ -37580,14 +37580,14 @@
 # sent_id = S0006-2856
 # text = .i. indigsi .i. innardai
 # text_en = i.e. the loftiness, i.e. the height.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indigsi	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	digsi	dígsae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=height, loftiness
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	digsi	dígsae	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=height, loftiness
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	innardai	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	nardai	ardae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=high place, promontory
+6	nardai	ardae	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=high place, promontory
 
 # sent_id = S0006-2857
 # text = .i. trissinnairim nilair .i. huare as ṅ aquas ni aqua tuic and
@@ -37620,13 +37620,13 @@
 # text = indhuaisliu oldate cedair leuain
 # text_en = more loftily than the cedars of Lebanon.
 1-2	indhuaisliu	_	_	_	_	_	_	_	_
-1	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-2	huaisliu	úasal	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=high, elevated, lofty, noble, honourable
+1	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
+2	huaisliu	úasal	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=high, elevated, lofty, noble, honourable
 3-4	oldate	_	_	_	_	_	_	_	_
-3	ol·	ol 3	X	conjunction	_	_	_	X	Gloss=comparative: than
-4	·date	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to be, to exist,
-5	cedair	cedair	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=cedar
-6	leuain	leuan	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Lebanon
+3	ol·	ol 3	X	conjunction	_	4	mark	X	Gloss=comparative: than
+4	·date	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	2	advcl	X	Gloss=to be, to exist,
+5	cedair	cedair	NOUN	noun	Case=Nom|Number=Plur	4	nsubj	X	Gloss=cedar
+6	leuain	leuan	PROPN	proper_noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=Lebanon
 
 # sent_id = S0006-2860
 # text = airnaib fualascachaib
@@ -37736,13 +37736,13 @@
 # sent_id = S0006-2872
 # text = .i. ilanman domber doib du(a)id
 # text_en = i.e. many names which David gives to them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	ilanman	_	_	_	_	_	_	_	_
-2	il	il 1	ADJ	adjective	Degree=Pos	_	_	X	Gloss=many, abundant, manifold, numerous
-3	anman	ainm	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=name, noun (gramm)
-4	do·mber	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-6	duaid	dúaid	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=David
+2	il	il 1	ADJ	adjective	Degree=Pos	3	amod	X	Gloss=many, abundant, manifold, numerous
+3	anman	ainm	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=name, noun (gramm)
+4	do·mber	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	3	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	obl:prep	X	Gloss=to, for, by etc.
+6	duaid	dúaid	PROPN	proper_noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=David
 
 # sent_id = S0006-2873
 # text = ɫ. operosi .i. gnethich .i. adetha 7 loscaid cech rét frissacomraic
