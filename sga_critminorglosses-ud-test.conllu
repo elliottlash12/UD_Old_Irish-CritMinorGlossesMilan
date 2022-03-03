@@ -36861,14 +36861,14 @@
 # sent_id = S0006-2786
 # text = .i. ardu oldate anamit
 # text_en = i.e. higher than his enemies are.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ardu	ard 1	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=high, elevated, lofty, high
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ardu	ard 1	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=high, elevated, lofty, high
 3-4	oldate	_	_	_	_	_	_	_	_
-3	ol·	ol 3	X	conjunction	_	_	_	X	Gloss=comparative: than
-4	·date	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	_	_	X	Gloss=to be, to exist,
+3	ol·	ol 3	X	conjunction	_	4	mark	X	Gloss=comparative: than
+4	·date	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	2	advcl	X	Gloss=to be, to exist,
 5-6	anamit	_	_	_	_	_	_	_	_
-5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	namit	námae	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=enemy, foe
+5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+6	namit	námae	NOUN	noun	Case=Nom|Number=Plur	4	nsubj	X	Gloss=enemy, foe
 
 # sent_id = S0006-2787
 # text = .i. assair
@@ -37096,12 +37096,12 @@
 # sent_id = S0006-2809
 # text = .i. ní coair leu a denum
 # text_en = i.e. doing it is not fitting in their opinion.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	coair	coäir	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=fitting, proper, right ; even, well-propportioned, straight; correct, suitable
-4	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	denum	dénum	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	coair	coäir	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=fitting, proper, right ; even, well-propportioned, straight; correct, suitable
+4	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	3	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	obj:poss	X	Gloss=his, its
+6	denum	dénum	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	csubj	X	Gloss=the act of doing, making, creating; deed, work, activity
 
 # sent_id = S0006-2810
 # text = .i. ní asscíth leu dudenum
@@ -37154,13 +37154,13 @@
 # text = annunadbartaigfesiu .i. adǽ
 # text_en = when You (sg) will oppose, i.e. O God.
 1-3	annunadbartaigfesiu	_	_	_	_	_	_	_	_
-1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	nnu·nadbartaigfe	adbartaigidir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be opposed to (intrans)
-3	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	a	a 6	SCONJ	conjunction	_	2	mark	X	Gloss=temporal: when, since
+2	nnu·nadbartaigfe	adbartaigidir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be opposed to (intrans)
+3	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	adǽ	_	_	_	_	_	_	_	_
-5	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-6	dǽ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+5	a	a 1	PART	particle_vocative	_	6	case:voc	X	Gloss=O! ; oh
+6	dǽ	día 2	NOUN	noun	Number=Sing	2	conj	X	Gloss=god, deity, God
 
 # sent_id = S0006-2814
 # text = .i. asindbelsa
