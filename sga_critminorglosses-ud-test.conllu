@@ -31488,13 +31488,13 @@
 # text = nephsuilig .i. nephfegi són
 # text_en = without eyes, i.e. that is, sightless.
 1-2	nephsuilig	_	_	_	_	_	_	_	_
-1	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
-2	suilig	súilech	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=having eyes
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	neph	neb-	X	particle_prefix		2	advmod:neg	X	Gloss=negative prefix ; non-, un-
+2	suilig	súilech	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	0	root	X	Gloss=having eyes
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	nephfegi	_	_	_	_	_	_	_	_
-4	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
-5	fegi	féig	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=of sight, seeing, keen-sighted
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+4	neph	neb-	X	particle_prefix		5	advmod:neg	X	Gloss=negative prefix ; non-, un-
+5	fegi	féig	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	2	conj	X	Gloss=of sight, seeing, keen-sighted
+6	són	-són	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2345
 # text = .i. ní sancte intómun fil lasuidib
@@ -31697,13 +31697,13 @@
 # sent_id = S0006-2367
 # text = .i. nephthoimtiu bed peccad són
 # text_en = i.e. the non-imagining that it is sin.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	nephthoimtiu	_	_	_	_	_	_	_	_
-2	neph	neb-	X	particle_prefix		_	_	X	Gloss=negative prefix ; non-, un-
-3	thoimtiu	toimtiu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=act of thinking; opinion
-4	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-5	peccad	peccad	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=sin
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+2	neph	neb-	X	particle_prefix		3	advmod:neg	X	Gloss=negative prefix ; non-, un-
+3	thoimtiu	toimtiu	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=act of thinking; opinion
+4	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
+5	peccad	peccad	NOUN	noun	Case=Nom|Number=Sing	3	ccomp	X	Gloss=sin
+6	són	-són	PRON	particle_anaphoric	_	5	nsubj	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2368
 # text = dofoimtin ɫ cofummenatar
@@ -31728,15 +31728,14 @@
 # sent_id = S0006-2370
 # text = cid ostú· adé
 # text_en = and even you, O God.
-1-2	cid	_	_	_	_	_	_	_	_
-1	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-2	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3-4	ostú	_	_	_	_	_	_	_	_
-3	os	os 2	X	conjunction	_	_	_	X	Gloss=disjunctive: and
-4	tú	2sg.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=2	_	_	X	Gloss=you, thou
-5	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-6	·	·	PUNCT	punctuation	_	_	_	_	_
-7	dé	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+1	cid	cid 2	PART	particle_focus	_	3	advmod:emph	X	Gloss=even
+2-3	ostú	_	_	_	_	_	_	_	_
+2	os	os 2	X	conjunction	_	3	cc	X	Gloss=disjunctive: and
+3	tú	2sg.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=2	0	root	X	Gloss=you, thou
+4	·	·	PUNCT	punctuation	_	_	_	_	_
+5-6	adé	_	_	_	_	_	_	_	_
+5	a	a 1	PART	particle_vocative	_	6	case:voc	X	Gloss=O! ; oh
+6	dé	día 2	NOUN	noun	Number=Sing	3	vocative	X	Gloss=god, deity, God
 
 # sent_id = S0006-2371
 # text = ad déicider
