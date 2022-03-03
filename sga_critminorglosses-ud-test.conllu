@@ -35382,14 +35382,14 @@
 # sent_id = S0006-2673
 # text = .i. cenfochunn 7 cenaccuis
 # text_en = i.e. without cause and without occasion.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	cenfochunn	_	_	_	_	_	_	_	_
 2	cen	cen	ADP	preposition	Case=Acc	3	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-3	fochunn	fochunn	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=cause, occasion
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+3	fochunn	fochunn	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=cause, occasion
+4	7	ocus 2	CCONJ	conjunction	_	6	cc	X	Gloss=coordinating: and, since
 5-6	cenaccuis	_	_	_	_	_	_	_	_
 5	cen	cen	ADP	preposition	Case=Acc	6	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-6	accuis	accuis	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=cause, reason, ground, offence, crime; hatred, enmity, rancor; disease, poison, venom
+6	accuis	accuis	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=cause, reason, ground, offence, crime; hatred, enmity, rancor; disease, poison, venom
 
 # sent_id = S0006-2674
 # text = dunaircet
@@ -35924,12 +35924,12 @@
 # sent_id = S0006-2707
 # text = .i. is nessa lium do inni
 # text_en = i.e. I deem it nearer to the sense.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	nessa	ocus 1	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=near, close
-4	lium	la	ADP	preposition	Person=1|Number=Sing|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	nessa	ocus 1	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=near, close
+4	lium	la	ADP	preposition	Person=1|Number=Sing|Case=Acc	3	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 5	do	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
-6	inni	inne 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=middle, center, inward part; meaning, sense, signification; quality, real value
+6	inni	inne 1	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=middle, center, inward part; meaning, sense, signification; quality, real value
 
 # sent_id = S0006-2708
 # text = .i. cumtubart dobuith isdi as quis .i. ciahe .i. is cumtubart cia he .i. ni confel leu .i. nírbu imdæ
@@ -36134,13 +36134,13 @@
 # sent_id = S0006-2721
 # text = .i. ní arolc friu són
 # text_en = i.e. it is not because of evil against them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	ní	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
 3-4	arolc	_	_	_	_	_	_	_	_
-3	ar	ar 1	ADP	preposition	Case=Acc	_	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-4	olc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
-5	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+3	ar	ar 1	ADP	preposition	Case=Acc	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+4	olc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=evil, bad, wrong
+5	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc	4	obl:prep	X	Gloss=towards, against, standard of comparison
+6	són	-són	PRON	particle_anaphoric	_	4	nsubj	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2722
 # text = .i. air atroillessidi [leg. atroillesset sidi] arandrognimaib
