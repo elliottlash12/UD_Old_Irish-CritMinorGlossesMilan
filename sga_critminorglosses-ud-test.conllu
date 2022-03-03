@@ -29501,9 +29501,11 @@
 # sent_id = S0006-2166
 # text = inlondas .i. indigail són
 # text_en = the anger, i.e. that is, the punishment.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	londas	londas	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=anger, rage, passion, displeasure
+1-2	inlondas	_	_	_	_	_	_	_	_
+1	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
+2	londas	londas	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=anger, rage, passion, displeasure
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+4-5	indigail	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
 5	digail	dígal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
 6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
@@ -29573,13 +29575,13 @@
 # sent_id = S0006-2174
 # text = mou de á adhuath trisodin
 # text_en = the terror of Him [is] the greater through that.
-1	mou	mór	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=great, big, ample, tall, large
-2	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
-3	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=his, its
-4	adhuath	adúath	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=great dread, horror
+1	mou	mór	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=great, big, ample, tall, large
+2	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	1	obl:prep	X	Gloss=away, from, cause or reason, by
+3	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	X	Gloss=his, its
+4	adhuath	adúath	NOUN	noun	Case=Nom|Number=Sing	1	nsubj	X	Gloss=great dread, horror
 5-6	trisodin	_	_	_	_	_	_	_	_
-5	tri	tre	ADP	preposition	Case=Acc	_	case	X	Gloss=through (time or space), by means of, be reason of
-6	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+5	tri	tre	ADP	preposition	Case=Acc	6	case	X	Gloss=through (time or space), by means of, be reason of
+6	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	1	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 
 # sent_id = S0006-2175
 # text = nadnair illet
@@ -29839,12 +29841,12 @@
 # sent_id = S0006-2189
 # text = .i. luaichtidiu .i. aittoitech .i. giul
 # text_en = i.e. flashing, i.e. shining, i.e. bright.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	luaichtidiu	lúaichtide	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=shining, resplendent, bright
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	aittoitech	attoítech	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=shining, resplendent
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	giul	gel 1	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=fair, white, bright, shining
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	luaichtidiu	lúaichtide	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=shining, resplendent, bright
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	aittoitech	attoítech	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	2	conj	X	Gloss=shining, resplendent
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	giul	gel 1	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	2	conj	X	Gloss=fair, white, bright, shining
 
 # sent_id = S0006-2190
 # text = ɔrotaig
