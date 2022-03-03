@@ -33318,14 +33318,14 @@
 # sent_id = S0006-2497
 # text = .i. innasoínmige hirobasa
 # text_en = i.e. of the prosperity in which I was.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innasoínmige	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	soínmige	soinmige	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=prosperity, affluence, happiness
+3	soínmige	soinmige	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=prosperity, affluence, happiness
 4-6	hirobasa	_	_	_	_	_	_	_	_
-4	hi·	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-5	·roba	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
-6	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+4	hi·	i	ADP	preposition	Case=Acc	5	case	X	Gloss=in, into
+5	·roba	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to be, to exist,
+6	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-2498
 # text = .i. it hǽ foraitmitig [leg. foraithmitig]
@@ -33486,13 +33486,13 @@
 # sent_id = S0006-2509
 # text = ɫ repudia .i. iarsnaib frithib [leg. fritchib]
 # text_en = or repudia, i.e. after the renunciations.
-1	ɫ	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	repudia	repudium	NOUN	noun	_	_	_	X	Gloss=_
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	ɫ	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
+2	repudia	repudium	NOUN	noun	_	0	root	X	Gloss=_
+3	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 4-5	iarsnaib	_	_	_	_	_	_	_	_
 4	iar	íar 1	ADP	preposition	Case=Dat	6	case	X	Gloss=after, behind, across, along, beyond, according to
 5	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	fritchib	freitech	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of forswearing, renouncing
+6	fritchib	freitech	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	2	conj	X	Gloss=the act of forswearing, renouncing
 
 # sent_id = S0006-2510
 # text = .i. citambénn
@@ -33871,13 +33871,14 @@
 # sent_id = S0006-2545
 # text = .i. artormuch fochraic [leg. fochraice] ndosón·
 # text_en = i.e. that is, on account of increase of reward to him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	artormuch	_	_	_	_	_	_	_	_
 2	ar	ar 1	ADP	preposition	Case=Dat	3	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-3	tormuch	tórmach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of increasing; addition
-4	fochraice	fochraic	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of rewarding; reward, recompense, payment, price
-5	ndo	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
-6	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+3	tormuch	tórmach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of increasing; addition
+4	fochraice	fochraic	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	obj	X	Gloss=the act of rewarding; reward, recompense, payment, price
+5-6	ndosón	_	_	_	_	_	_	_	_
+5	ndo	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=to, for, by etc.
+6	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
 7	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2546
