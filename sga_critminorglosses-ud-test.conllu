@@ -27898,7 +27898,7 @@
 1	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
 2	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
 
-# sent_id = S0006-2005 - line 4 - case|mark:prt
+# sent_id = S0006-2005 - ellipsis
 # text = .i. nad rabae deithbiur huaduaid
 # text_en = i.e. that there was no blame on David’s part.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
@@ -27906,10 +27906,10 @@
 3	·rabae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to be, to exist,
 4-5	deithbiur	_	_	_	_	_	_	_	_
 4	d	di	ADP	preposition	Case=Dat	5	case	X	Gloss=away, from, cause or reason, by
-5	eithbiur	aithber	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	xcomp:pred	X	Gloss=the act of blaming, rebuking; reproach
+5	eithbiur	aithber	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	obl	X	Gloss=the act of blaming, rebuking; reproach
 6-7	huaduaid	_	_	_	_	_	_	_	_
 6	hua	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
-7	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	5	obl	X	Gloss=David
+7	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	3	xcomp:pred	X	Gloss=David
 
 # sent_id = S0006-2006
 # text = co ingriastais
@@ -28834,7 +28834,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	doinmig	doinmech	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=unprosperous, adverse, wretched, indigent
 
-# sent_id = S0006-2105 - arindi as one word or three?
+# sent_id = S0006-2105
 # text = .i. arindi nadfedar
 # text_en = i.e. because they are not brought.
 1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
@@ -28843,7 +28843,7 @@
 3	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
 4	i	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	0	root	X	Gloss=substantivizing particle
 5	nad·	nád 1	PART	particle_nfegative_subordinate	_	6	advmod:neg	X	Gloss=that...not
-6	·fedar	feidid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	acl:relcl	X	Gloss=to bring, to lead, to carry; to refer, to apply
+6	·fedar	feidid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	acl	X	Gloss=to bring, to lead, to carry; to refer, to apply
 
 # sent_id = S0006-2106
 # text = honach ecuimliucht
@@ -28862,7 +28862,7 @@
 1	in	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
 2	chennais	cennais	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=mild, gentle, kind, benevolent
 
-# sent_id = S0006-2108 - missing 'sa'?
+# sent_id = S0006-2108
 # text = .i. indí nodamfindbadaigetarsa
 # text_en = i.e. they who beatify me.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
@@ -28873,6 +28873,7 @@
 4	no	no·	SCONJ	particle_preverb	_	6	mark:prt	X	Gloss=empty particle
 5	dam·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	6	inf:obj	X	Gloss=me, myself
 6	·findbadaigetar	findbadaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	3	acl:relcl	X	Gloss=to make happy, to beatify
+7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	6	obj	X	Gloss=emphasising particle
 
 # sent_id = S0006-2109
 # text = ancondammucbaitisse
@@ -28996,15 +28997,15 @@
 # text_en = they expect.
 1	ar·neithet	ar·neät	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to expect, to await, to wait for; to sustain, support, to uphold, to assume responsibility for
 
-# sent_id = S0006-2124 - line 5 - ccomp|acl:relcl
+# sent_id = S0006-2124
 # text = .i. indi domuinetar dundoichfia ni doib
 # text_en = i.e. they who think that something will come to them.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indi	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	i	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	0	root	4:nsubj|0:root	Gloss=substantivizing particle
-4	do·muinetar	do·moinethar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	3	acl:relcl	X	Gloss=to think, to suppose, to conjecture
-5	du·ndoichfia	do·doichbí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	4	ccomp	X	Gloss=to come
+4	do·muinetar	do·moinethar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	3	acl:relcl	X	Gloss=to think, to suppose, to conjecture
+5	du·ndoichfia	do·doichbí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Nas	4	ccomp	X	Gloss=to come
 6	ni	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	5	nsubj	X	Gloss=something; nothing, anything ; not
 7	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	5	obl:prep	X	Gloss=to, for, by etc.
 
@@ -34874,12 +34875,12 @@
 # text = inbithiata hirobaid riam·
 # text_en = of the perpetual closure in which you (pl) were before.
 1-3	inbithiata	_	_	_	_	_	_	_	_
-1	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	bith	bith	NOUN	noun	_	0	root	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
-3	iata	íadad	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=act of closing, enclosing; a closure, encompassing
+1	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
+2	bith	bith	NOUN	noun	_	3	amod	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+3	iata	íadad	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=act of closing, enclosing; a closure, encompassing
 4-5	hirobaid	_	_	_	_	_	_	_	_
-4	hi·	i	ADP	preposition	Case=Acc	5	case	X	Gloss=in, into
-5	·robaid	ad·tá	VERB	verb	Person[Subj]=2|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	2	acl:relcl	X	Gloss=to be, to exist,
+4	hi·	i	ADP	preposition	Case=Acc	5	xcomp:pred:prep	X	Gloss=in, into
+5	·robaid	ad·tá	VERB	verb	Person[Subj]=2|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to be, to exist,
 6	riam	re	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	5	obl:prep	X	Gloss=before, in front of
 7	·	·	PUNCT	punctuation	_	_	_	_	_
 
@@ -37736,8 +37737,8 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	ilanman	_	_	_	_	_	_	_	_
 2	il	il 1	ADJ	adjective	Degree=Pos	3	amod	X	Gloss=many, abundant, manifold, numerous
-3	anman	ainm	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=name, noun (gramm)
-4	do·mber	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	3	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+3	anman	ainm	NOUN	noun	Case=Nom|Number=Plur	0	root	4:obj|0:root	Gloss=name, noun (gramm)
+4	do·mber	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas	3	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	obl:prep	X	Gloss=to, for, by etc.
 6	duaid	dúaid	PROPN	proper_noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=David
 
