@@ -30320,13 +30320,13 @@
 # sent_id = S0006-2245
 # text = .i. snede [leg. asnede] 7 dírge 7 airdbe
 # text_en = i.e. that [it] is two things, both correcting and smiting.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-3	snede	déide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=double, consisting of two things, pair
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-5	dírge	dírge	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=act of directing; straightness, directness; uprightness, righteousness
-6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-7	airdbe	airdbe	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of cutting, slaying, smiting
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	cop	X	Gloss=to be
+3	snede	déide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=double, consisting of two things, pair
+4	7	ocus 2	CCONJ	conjunction	_	5	cc	X	Gloss=coordinating: and, since
+5	dírge	dírge	NOUN	noun	Case=Nom|Number=Sing	3	conj	X	Gloss=act of directing; straightness, directness; uprightness, righteousness
+6	7	ocus 2	CCONJ	conjunction	_	7	cc	X	Gloss=coordinating: and, since
+7	airdbe	airdbe	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of cutting, slaying, smiting
 
 # sent_id = S0006-2246
 # text = nephlesc
@@ -30585,15 +30585,15 @@
 # sent_id = S0006-2272
 # text = .i. airis arecin duberr foraib
 # text_en = i.e. for it is by force that it is put on them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	airis	_	_	_	_	_	_	_	_
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	air	ar 2	SCONJ	conjunction	_	5	mark	X	Gloss=causal: since, for; final: so that
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-5	arecin	_	_	_	_	_	_	_	_
 4	ar	ar 1	ADP	preposition	Case=Acc	5	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-5	ecin	éicen	NOUN	noun	Case=Dat	_	_	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
-6	du·berr	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-7	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=upon, over, on
+5	ecin	éicen	NOUN	noun	Case=Dat	0	root	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
+6	du·berr	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	csubj:cleft	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+7	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	6	obl:prep	X	Gloss=upon, over, on
 
 # sent_id = S0006-2273
 # text = .i. arecin són
@@ -31102,14 +31102,14 @@
 # sent_id = S0006-2309
 # text = .i. nítucai cách dib belrae alaili
 # text_en = i.e. each of them does not understand the language of the other.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	nítucai	_	_	_	_	_	_	_	_
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·tucai	do·uccai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to understand
-4	cách	cách	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
-5	dib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
-6	belrae	bélrae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=speech, language; dialect
-7	alaili	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=other, the other
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·tucai	do·uccai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to understand
+4	cách	cách	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Tot	3	nsubj	X	Gloss=every one, each one, any one, all
+5	dib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	obl:prep	X	Gloss=away, from, cause or reason, by
+6	belrae	bélrae	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=speech, language; dialect
+7	alaili	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	6	obl:prep	X	Gloss=other, the other
 
 # sent_id = S0006-2310
 # text = .i. airthuccai cach chenel hí coitchet chenas [leg. coitchenas] aninsci sidi
