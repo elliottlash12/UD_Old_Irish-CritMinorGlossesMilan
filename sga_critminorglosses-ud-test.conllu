@@ -33564,15 +33564,15 @@
 # sent_id = S0006-2511
 # text = .i. dut inuilligiud su· ádǽ
 # text_en = i.e. to Your (sg) protection, O God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	dut	_	_	_	_	_	_	_	_
 2	du	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
-3	t	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	4	_	X	Gloss=your (sg.)
-4	inuilligiud	inilligud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of safe-guarding; protection
-5	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+3	t	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	4	obj:poss	X	Gloss=your (sg.)
+4	inuilligiud	inilligud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of safe-guarding; protection
+5	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	4	obj	X	Gloss=emphasising particle
 6	·	·	PUNCT	punctuation	_	_	_	_	_
-7	á	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-8	dǽ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+7	á	a 1	PART	particle_vocative	_	8	case:voc	X	Gloss=O! ; oh
+8	dǽ	día 2	NOUN	noun	Number=Sing	4	vocative	X	Gloss=god, deity, God
 
 # sent_id = S0006-2512
 # text = .i. atamroipred
@@ -33783,13 +33783,13 @@
 # text_en = of the exaggeration, i.e. of the afflictions that he suffered.
 1-2	indumichtho	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	dumichtho	dumugud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of exaggerating
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	dumichtho	dumugud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of exaggerating
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	innanimned	_	_	_	_	_	_	_	_
 4	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	nimned	imned	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
-6	ro·ches	césaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to suffer, to endure
-7	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
+5	nimned	imned	NOUN	noun	Case=Gen|Number=Plur	2	conj	X	Gloss=tribulation, anxiety, suffering, sorrow
+6	ro·ches	césaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	5	acl:relcl	X	Gloss=to suffer, to endure
+7	som	nota augens	PRON	particle_pronominal	PronType=Prs	6	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-2532
 # text = .i. is sainred do
@@ -33854,15 +33854,15 @@
 # sent_id = S0006-2538
 # text = .i. trisnadligeda mrechtnichthi innaisndissen
 # text_en = i.e. through the varied expressions of the exposition.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	trisnadligeda	_	_	_	_	_	_	_	_
 2	tri	tre	ADP	preposition	Case=Acc	4	case	X	Gloss=through (time or space), by means of, be reason of
 3	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	dligeda	dliged	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
-5	mrechtnichthi	mrechtnigthe	ADJ	verbal_participle	Case=Acc|Number=Plur|Gender=Neut	_	_	X	Gloss=varied, diverse
+4	dligeda	dliged	NOUN	noun	Case=Acc|Number=Plur	0	root	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
+5	mrechtnichthi	mrechtnigthe	ADJ	verbal_participle	Case=Acc|Number=Plur|Gender=Neut	4	amod	X	Gloss=varied, diverse
 6-7	innaisndissen	_	_	_	_	_	_	_	_
 6	inn'	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	aisndissen	aisndís	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
+7	aisndissen	aisndís	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	4	nmod	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
 
 # sent_id = S0006-2539
 # text = .i. anilarson
