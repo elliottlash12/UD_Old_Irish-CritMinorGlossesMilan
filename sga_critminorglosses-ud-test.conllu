@@ -33060,14 +33060,14 @@
 # sent_id = S0006-2470
 # text = .i. indí fris brudi .i. disluindi ón
 # text_en = i.e. of him who refuses, i.e. that is, who denies.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indí	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	í	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-4	fris·brudi	fris·brudi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to reject, to refuse
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	di·sluindi	do·sluindi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to deny (refuse to believe), to reject; to renounce; to refuse
-7	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+3	í	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	0	root	4:nsubj|0:root	Gloss=substantivizing particle
+4	fris·brudi	fris·brudi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	3	acl:relcl	X	Gloss=to reject, to refuse
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	di·sluindi	do·sluindi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	4	conj	X	Gloss=to deny (refuse to believe), to reject; to renounce; to refuse
+7	ón	-ón	PRON	particle_anaphoric	_	6	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-2471
 # text = .i. ádáe
@@ -33127,13 +33127,13 @@
 # text_en = to my crime, i.e. to my sin.
 1-3	dumthorgabail	_	_	_	_	_	_	_	_
 1	du	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
-2	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	3	_	X	Gloss=my
-3	thorgabail	torgabál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of sinning; sin, transgression
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	3	nmod:poss	X	Gloss=my
+3	thorgabail	torgabál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of sinning; sin, transgression
+4	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 5-7	dopeccad	_	_	_	_	_	_	_	_
 5	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-6	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Typo=Yes	7	_	X	Gloss=my|Addition=Yes
-7	peccad	peccad	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=sin
+6	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Typo=Yes	7	nmod:poss	X	Gloss=my|Addition=Yes
+7	peccad	peccad	NOUN	noun	Case=Dat|Number=Sing	3	conj	X	Gloss=sin
 
 # sent_id = S0006-2477
 # text = .i. ciarudbá in imniud ni ǽrburt nach armu peccad orad form··
@@ -33356,13 +33356,13 @@
 # sent_id = S0006-2495 - editorial
 # text = .i. air [leg. amal ní] bin fiu leu etir
 # text_en = i.e. as though I was utterly worthless in their opinion.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	bin	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-5	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=worthy, meet, fitting, honorable
-6	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-7	etir	eter	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=between, among; both...and...
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
+3	ní	ní 3	PART	particle_negative_main	_	5	advmod:neg	X	Gloss=not
+4	bin	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+5	fiu	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=worthy, meet, fitting, honorable
+6	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	5	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+7	etir	eter	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	5	obl:prep	X	Gloss=between, among; both...and...
 
 # sent_id = S0006-2496
 # text = .i. níchutrummaichthersa
