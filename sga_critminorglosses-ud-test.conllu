@@ -31840,14 +31840,14 @@
 # sent_id = S0006-2378
 # text = .i. sechisnaib rigaib són
 # text_en = i.e. that is, to the kings.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 2-5	sechisnaib	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	sech	sech 2	X	conjunction	_	6	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
 4	do	do 1	ADP	preposition	Case=Dat|Typo=Yes	6	case	X	Gloss=to, for, by etc.|Addition=Yes
 5	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	rigaib	rí	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=king
-7	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+6	rigaib	rí	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=king
+7	són	-són	PRON	particle_anaphoric	_	6	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2379
 # text = innaguidi testi
@@ -31879,12 +31879,12 @@
 # text_en = the acquired triumph, i.e. of king and people.
 1-2	incoscur	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	coscur	coscar	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=victory, triumph
-3	ettæ	éttae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=acquired, gained
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	regis	rēx	NOUN	noun	_	_	_	X	Gloss=king
-6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-7	populi	populus	NOUN	noun	_	_	_	X	Gloss=people, community, nation
+2	coscur	coscar	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=victory, triumph
+3	ettæ	éttae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	2	amod	X	Gloss=acquired, gained
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	regis	rēx	NOUN	noun	_	2	conj	X	Gloss=king
+6	7	ocus 2	CCONJ	conjunction	_	7	cc	X	Gloss=coordinating: and, since
+7	populi	populus	NOUN	noun	_	5	conj	X	Gloss=people, community, nation
 
 # sent_id = S0006-2384
 # text = .i. honimthimchellfad
@@ -32218,13 +32218,13 @@
 # sent_id = S0006-2414
 # text = .i. robumar cuindrichthi .i. tri ainm dǽ
 # text_en = i.e. we were corrected, i.e. through the name of God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	robumar	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-3	cuindrichthi	cuindrigthe	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=corrected, chastised
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	robumar	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	3	cop	X	Gloss=to be
+3	cuindrichthi	cuindrigthe	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Masc	0	root	X	Gloss=corrected, chastised
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5	tri	tre	ADP	preposition	Case=Acc	6	case	X	Gloss=through (time or space), by means of, be reason of
-6	ainm	ainm	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=name, noun (gramm)
-7	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+6	ainm	ainm	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=name, noun (gramm)
+7	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=god, deity, God
 
 # sent_id = S0006-2415
 # text = ami cumgabthi
