@@ -33883,15 +33883,15 @@
 # sent_id = S0006-2541
 # text = .i. asndia dudnuic issanimned
 # text_en = i.e. that it is God who has brought him into the affliction.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	asndia	_	_	_	_	_	_	_	_
-2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-3	ndia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
-4	dud·nuic	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|Aspect=Perf|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	cop	X	Gloss=to be
+3	ndia	día 2	NOUN	noun	Case=Nom|Number=Sing	0	root	4:nsubj|0:root	Gloss=god, deity, God
+4	dud·nuic	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 5-7	issanimned	_	_	_	_	_	_	_	_
 5	i	i	ADP	preposition	Case=Acc	7	case	X	Gloss=in, into
 6	ssa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	nimned	imned	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
+7	nimned	imned	NOUN	noun	Case=Acc|Number=Sing	4	obl	X	Gloss=tribulation, anxiety, suffering, sorrow
 
 # sent_id = S0006-2542
 # text = .i. isna fochaidi·
@@ -33920,14 +33920,14 @@
 # sent_id = S0006-2544
 # text = .i. istecnatae .i. is gnath dí·
 # text_en = i.e. it is familiar, that is, it is customary to it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	istecnatae	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	tecnatae	tecnatae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=domestic, familiar
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-6	gnath	gnáth	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=customary, usual, familiar, well-known
-7	dí	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Dat	_	_	X	Gloss=to, for, by etc.
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	tecnatae	tecnatae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=domestic, familiar
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
+6	gnath	gnáth	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	3	conj	X	Gloss=customary, usual, familiar, well-known
+7	dí	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Dat	6	obl:prep	X	Gloss=to, for, by etc.
 8	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2545
@@ -34221,16 +34221,16 @@
 # sent_id = S0006-2572
 # text = .i. innasoinmech dombirsiu damsa
 # text_en = i.e. of the prosperous things which You (sg) give to me.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innasoinmech	_	_	_	_	_	_	_	_
-2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	soinmech	soinmech	ADJ	adjective	Case=Gen|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=favorable, lucky, prosperous
+2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	soinmech	soinmech	ADJ	adjective	Case=Gen|Number=Plur|Gender=Neut|Degree=Pos	0	root	X	Gloss=favorable, lucky, prosperous
 4-5	dombirsiu	_	_	_	_	_	_	_	_
-4	do·mbir	do·beir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-5	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+4	do·mbir	do·beir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	3	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+5	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	4	nsubj	X	Gloss=emphasising particle
 6-7	damsa	_	_	_	_	_	_	_	_
-6	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
-7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+6	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	7	case	X	Gloss=to, for, by etc.
+7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	4	obl	X	Gloss=emphasising particle
 
 # sent_id = S0006-2573
 # text = .i. innatlugu mbude
