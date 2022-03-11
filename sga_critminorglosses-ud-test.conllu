@@ -29249,14 +29249,14 @@
 # sent_id = S0006-2144
 # text = .i. huare nad ṅ denim olc tar æsi nuilc
 # text_en = i.e. because I do not do evil for evil.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
-3	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-4	·ṅdenim	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to do, to make
-5	olc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	huare	úaire	SCONJ	conjunction	_	4	mark	X	Gloss=causal; coordinating and subordinating: when, since
+3	nad·	nád 1	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=that...not
+4	·ṅdenim	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	0	root	X	Gloss=to do, to make
+5	olc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	4	obj	X	Gloss=evil, bad, wrong
 6	tar	tar 1	ADP	preposition	Case=Acc	7	case	X	Gloss=over, across, covering
-7	æsi	éis 2	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=track, trace
-8	nuilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+7	æsi	éis 2	NOUN	noun	Case=Acc|Number=Sing	4	obl	X	Gloss=track, trace
+8	nuilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	7	nmod	X	Gloss=evil, bad, wrong
 
 # sent_id = S0006-2145
 # text = ·nom linfithersa
@@ -29280,15 +29280,15 @@
 # sent_id = S0006-2147
 # text = .i. atá debe mec nand archuit forgnuso.,
 # text_en = i.e. there is a little difference there as to form.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-3	debe	deibe	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=difference, variety, disagreement
-4	mec	bec	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=small, little of size or quantity
-5	nand	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=in, into
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+3	debe	deibe	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=difference, variety, disagreement
+4	mec	bec	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	3	amod	X	Gloss=small, little of size or quantity
+5	nand	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	2	xcomp:pred:prep	X	Gloss=in, into
 6-7	archuit	_	_	_	_	_	_	_	_
 6	ar	ar 1	ADP	preposition	Case=Dat	7	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-7	chuit	cuit	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=portion, part, share; a matter of, a mere
-8	forgnuso	forgnúis	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=face, countenance, appearance, form (grammatical)
+7	chuit	cuit	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=portion, part, share; a matter of, a mere
+8	forgnuso	forgnúis	NOUN	noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=face, countenance, appearance, form (grammatical)
 9	.,	.,	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2148
@@ -29304,14 +29304,14 @@
 # sent_id = S0006-2149
 # text = .i. is argumeint do cid atitul
 # text_en = i.e. even its title is an argument for it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	argumeint	argumeint	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=argument, evidence, reason, subject, theme
-4	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
-5	cid	cid	2	PART	particle_focus	_	_	advmod:emph	X	Gloss=even
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	argumeint	argumeint	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=argument, evidence, reason, subject, theme
+4	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=to, for, by etc.
+5	cid	cid	2	PART	particle_focus	_	3	advmod:emph	X	Gloss=even
 6-7	atitul	_	_	_	_	_	_	_	_
-6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	_	X	Gloss=his, its
-7	titul	titul	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=title, heading
+6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=his, its
+7	titul	titul	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=title, heading
 
 # sent_id = S0006-2150
 # text = manidanaigthersu dam
