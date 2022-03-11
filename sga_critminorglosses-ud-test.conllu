@@ -30919,17 +30919,17 @@
 # sent_id = S0006-2295
 # text = .i. indfirmint .i. annem adchiamni
 # text_en = i.e. the firmament, i.e. the heaven which we see.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indfirmint	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	firmint	firmint, firmimint	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=firmament, visible expanse of heaven
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	firmint	firmint, firmimint	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=firmament, visible expanse of heaven
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	annem	_	_	_	_	_	_	_	_
 5	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	nnem	nem	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=heaven, the abode of the blessed, ceiling, sky
+6	nnem	nem	NOUN	noun	Case=Nom|Number=Sing	3	conj	7:obj|3:conj	Gloss=heaven, the abode of the blessed, ceiling, sky
 7-8	adchiamni	_	_	_	_	_	_	_	_
-7	ad·chiam	ad·cí	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to see, to observe
-8	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+7	ad·chiam	ad·cí	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	6	acl:relcl	X	Gloss=to see, to observe
+8	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	7	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-2296
 # text = .i. atangnimai
@@ -30942,16 +30942,16 @@
 # sent_id = S0006-2297
 # text = .i. asdia dorigni in firmimint nisin
 # text_en = i.e. that it is God who has made that firmament.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	asdia	_	_	_	_	_	_	_	_
-2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-3	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
-4	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
+2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	cop	X	Gloss=to be
+3	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=god, deity, God
+4	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	3	csubj:cleft	X	Gloss=to do, to make
 5	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	firmimint	firmint, firmimint	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=firmament, visible expanse of heaven
+6	firmimint	firmint, firmimint	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=firmament, visible expanse of heaven
 7-8	nisin	_	_	_	_	_	_	_	_
-7	ni	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Fem	_	_	X	Gloss=substantivizing particle
-8	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+7	ni	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Fem	6	appos	X	Gloss=substantivizing particle
+8	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	7	appos	X	Gloss=that one, those ones, the one in there ; that, those
 
 # sent_id = S0006-2298
 # text = inmór
@@ -31527,16 +31527,16 @@
 # sent_id = S0006-2345
 # text = .i. ní sancte intómun fil lasuidib
 # text_en = i.e. the fear which they have is not sancte.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	sancte	sanctus	ADJ	adjective	Degree=Pos	_	_	X	Gloss=sacred, holy, saintly
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	sancte	sanctus	ADJ	adjective	Degree=Pos	0	root	X	Gloss=sacred, holy, saintly
 4-5	intómun	_	_	_	_	_	_	_	_
 4	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	ómun	omun	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=fear, the state of being afraid
-6	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+5	ómun	omun	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	6:obj|3:nsubj	Gloss=fear, the state of being afraid
+6	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	acl:relcl	X	Gloss=to be, to exist,
 7-8	lasuidib	_	_	_	_	_	_	_	_
-7	la	la	ADP	preposition	Case=Acc	_	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-8	suidib	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Plur|Gender=Masc	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+7	la	la	ADP	preposition	Case=Acc	8	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+8	suidib	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Plur|Gender=Masc	6	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 
 # sent_id = S0006-2346
 # text = huanaisndís
