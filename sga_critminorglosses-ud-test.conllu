@@ -37874,14 +37874,14 @@
 # sent_id = S0006-2876
 # text = .i. intan as nainm do luc
 # text_en = i.e. when it is the name for a place.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	intan	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	tan	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
-4	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-5	nainm	ainm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=name, noun (gramm)
+3	tan	tan	NOUN	noun	Case=Acc|Number=Sing	5	obl:tmod	X	Gloss=time
+4	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
+5	nainm	ainm	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=name, noun (gramm)
 6	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	luc	loc	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=place, position
+7	luc	loc	NOUN	noun	Case=Dat|Number=Sing	5	obl	X	Gloss=place, position
 
 # sent_id = S0006-2877
 # text = árrombu suidigthe
@@ -37960,15 +37960,15 @@
 # sent_id = S0006-2885
 # text = .i. arateget immincathraich·
 # text_en = i.e. for their density around the city.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	arateget	_	_	_	_	_	_	_	_
 2	ar	ar 1	ADP	preposition	Case=Acc	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-3	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	_	X	Gloss=their
-4	teget	tiget	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=thickness, density
+3	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	nmod:poss	X	Gloss=their
+4	teget	tiget	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=thickness, density
 5-7	immincathraich·	_	_	_	_	_	_	_	_
 5	imm	imm	ADP	preposition	Case=Acc	7	case	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
 6	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	cathraich	cathair 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=city, fortified city, stone enclosure, fortress, monastic settlement
+7	cathraich	cathair 1	NOUN	noun	Case=Acc|Number=Sing	4	obl	X	Gloss=city, fortified city, stone enclosure, fortress, monastic settlement
 8	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2886
@@ -38179,12 +38179,12 @@
 1-2	hond	_	_	_	_	_	_	_	_
 1	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	lobrugud	lobrugud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of becoming sick; sickness, infirmity
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	lobrugud	lobrugud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of becoming sick; sickness, infirmity
+4	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 5-7	ontedmaim	_	_	_	_	_	_	_	_
 5	o	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
 6	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	tedmaim	teidm	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=disease, sickness, pestilence
+7	tedmaim	teidm	NOUN	noun	Case=Dat|Number=Sing	3	conj	X	Gloss=disease, sickness, pestilence
 
 # sent_id = S0006-2904
 # text = .i. rocoscad
