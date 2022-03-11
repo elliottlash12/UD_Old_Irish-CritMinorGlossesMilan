@@ -38227,16 +38227,16 @@
 # sent_id = S0006-2909
 # text = huare nachreilced doassaraib achosacrad
 # text_en = because its destruction was not permitted to the Assyrians.
-1	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
+1	huare	úaire	SCONJ	conjunction	_	3	mark	X	Gloss=causal; coordinating and subordinating: when, since
 2-3	nachreilced	_	_	_	_	_	_	_	_
-2	nach·	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
-3	·reilced	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to leave (behind), to allow to remain; to let go, to release
+2	nach·	nach 3	PART	particle_negative_subordinate	_	3	advmod:neg	X	Gloss=that not ; not
+3	·reilced	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to leave (behind), to allow to remain; to let go, to release
 4-5	doassaraib	_	_	_	_	_	_	_	_
 4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
-5	assaraib	Asar	PROPN	proper_noun	Case=Dat|Number=Plur	_	_	X	Gloss=Assyrian
+5	assaraib	Asar	PROPN	proper_noun	Case=Dat|Number=Plur	3	obl	X	Gloss=Assyrian
 6-7	achosacrad	_	_	_	_	_	_	_	_
-6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	_	X	Gloss=his, its
-7	chosacrad	coscrad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Typo=Yes	_	_	X	Gloss=the act of overthrowing, destroying, hacking, tearing apart, disturbing|CorrectForm=choscrad
+6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	obj:poss	X	Gloss=his, its
+7	chosacrad	coscrad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Typo=Yes	3	csubj	X	Gloss=the act of overthrowing, destroying, hacking, tearing apart, disturbing|CorrectForm=choscrad
 
 # sent_id = S0006-2910
 # text = .i. amal bid arinchoisecrad .i. issamlid atrim som inforcomet sin amal bid coscrad dognethe· do· 7 ɔsecarthe iarum
@@ -38327,15 +38327,15 @@
 # sent_id = S0006-2917
 # text = .i. sechis ondformut són
 # text_en = i.e. that is, by the envy.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	sech	sech 2	X	conjunction	_	6	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
 4-6	ondformut	_	_	_	_	_	_	_	_
 4	o	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
 5	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	formut	format	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of envying; envy, jealousy
-7	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+6	formut	format	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of envying; envy, jealousy
+7	són	-són	PRON	particle_anaphoric	_	6	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2918
 # text = .i. miduthracht 7 format frinech bes tresa
@@ -38721,14 +38721,14 @@
 # sent_id = S0006-2956
 # text = .i. cia isnaib hí mmodi
 # text_en = i.e. in which he boasts [lit. what is it in the things in which he boasts].
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	cia	cía 1	X	pronoun_interrogative	_	0	root	X	Gloss=who, what, which
 3-4	isnaib	_	_	_	_	_	_	_	_
 3	i	i	ADP	preposition	Case=Dat	5	case	X	Gloss=in, into
 4	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	hí	í 1	PRON	pronoun_propword	Case=Dat|Number=Plur|Gender=Neut	_	_	X	Gloss=substantivizing particle
-6	i·	i	ADP	preposition	Case=Dat|Typo=Yes	_	case	X	Gloss=in, into|Addition=Yes
-7	·mmodi	moídid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Typo=Yes	_	_	X	Gloss=to boast|CorrectForm=·mmoidi
+5	hí	í 1	PRON	pronoun_propword	Case=Dat|Number=Plur|Gender=Neut	2	obl	X	Gloss=substantivizing particle
+6	i·	i	ADP	preposition	Case=Dat|Typo=Yes	7	case	X	Gloss=in, into|Addition=Yes
+7	·mmodi	moídid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Typo=Yes	5	acl:relcl	X	Gloss=to boast|CorrectForm=·mmoidi
 
 # sent_id = S0006-2957
 # text = tar æsi
