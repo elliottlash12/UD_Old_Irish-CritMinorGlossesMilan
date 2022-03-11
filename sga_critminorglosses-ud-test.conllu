@@ -37378,15 +37378,15 @@
 # sent_id = S0006-2824
 # text = amal bid inchlothi .i. hodia
 # text_en = as it were of one having been heard, that is, by God.
-1	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-2	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	amal	amail 2	SCONJ	conjunction	_	4	mark	X	Gloss=as, like; translating Latin ut
+2	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
 3-4	inchlothi	_	_	_	_	_	_	_	_
-3	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	chlothi	clothae	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=heard
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
+4	chlothi	clothae	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Masc	0	root	X	Gloss=heard
+5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 6-7	hodia	_	_	_	_	_	_	_	_
 6	ho	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
-7	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=god, deity, God
+7	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	4	conj	X	Gloss=god, deity, God
 
 # sent_id = S0006-2825
 # text = .i. ad beuaiged
@@ -37488,14 +37488,14 @@
 # sent_id = S0006-2837
 # text = .i. uerba .i. adfertae duepeirt beus
 # text_en = i.e. uerba, i.e. in saying adferte again.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	uerba	uerbum	NOUN	noun	_	_	_	X	Gloss=word, verb
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	adfertae	adferō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	uerba	uerbum	NOUN	noun	_	0	root	X	Gloss=word, verb
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	adfertae	adferō	VERB	verb	Voice=Act|Mood=Ind	2	conj	X	Gloss=_
 5-6	duepeirt	_	_	_	_	_	_	_	_
-5	du	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
-6	epeirt	eipert	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of saying; speech, statement, word
-7	beus	beös	ADV	adverb	_	_	_	X	Gloss=still, yet, further, moreover, again, besides, also, in addition
+5	du	do 1	ADP	preposition	Case=Dat	6	mark:prt	X	Gloss=to, for, by etc.
+6	epeirt	eipert	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	xcomp	X	Gloss=the act of saying; speech, statement, word
+7	beus	beös	ADV	adverb	_	6	advmod	X	Gloss=still, yet, further, moreover, again, besides, also, in addition
 
 # sent_id = S0006-2838
 # text = .i. dilgint assar
@@ -37507,15 +37507,15 @@
 # sent_id = S0006-2839
 # text = .i. indécndaig dorigensat assair dodia
 # text_en = i.e. of the blasphemy which the Assyrians said [lit. did] against God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indécndaig	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	écndaig	écndach	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=reviling, slandering, defaming
-4	do·rigensat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
-5	assair	Asar	PROPN	proper_noun	Case=Nom|Number=Plur	_	_	X	Gloss=Assyrian
+3	écndaig	écndach	NOUN	noun	Case=Gen|Number=Sing	0	root	4:obj|0:root	Gloss=reviling, slandering, defaming
+4	do·rigensat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to do, to make
+5	assair	Asar	PROPN	proper_noun	Case=Nom|Number=Plur	4	nsubj	X	Gloss=Assyrian
 6-7	dodia	_	_	_	_	_	_	_	_
 6	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=god, deity, God
+7	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=god, deity, God
 
 # sent_id = S0006-2840
 # text = cid disin
