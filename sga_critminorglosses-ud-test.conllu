@@ -34349,15 +34349,15 @@
 # text = ishe inso indalammod
 # text_en = this is one of the two ways.
 1-2	ishe	_	_	_	_	_	_	_	_
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	he	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+2	he	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	4	nmod	X	Gloss=he, him, it
 3-4	inso	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this one, these ones ; this, these
+4	so	só	PRON	pronoun_demonstrative_proximate	Case=Nom|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	0	root	X	Gloss=this one, these ones ; this, these
 5-7	indalammod	_	_	_	_	_	_	_	_
-5	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	ala	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=the other, one another ; else; second
-7	mmod	mod	NOUN	noun	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=measure, limit; manner, mode, way, fashion
+5	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
+6	ala	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Neut	7	amod	X	Gloss=the other, one another ; else; second
+7	mmod	mod	NOUN	noun	Case=Nom|Number=Sing|Gender=Neut	4	nsubj	X	Gloss=measure, limit; manner, mode, way, fashion
 
 # sent_id = S0006-2586
 # text = co[n]sacrubsa
@@ -34379,13 +34379,13 @@
 # sent_id = S0006-2588
 # text = ba coru tra bid adnuntiabit nobeth híc
 # text_en = it would be more fitting, then, that it is adnuntiabit that should be híc.
-1	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	coru	coäir	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=fitting, proper, right ; even, well-propportioned, straight; correct, suitable
-3	tra	trá	ADV	particle_discourse	_	_	_	X	Gloss=then, therefore, so, indeed, however, but
-4	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-5	adnuntiabit	adnūntiō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-6	no·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-7	híc	hīc 2	ADV	adverb	_	_	_	X	Gloss=here
+1	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	coru	coäir	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=fitting, proper, right ; even, well-propportioned, straight; correct, suitable
+3	tra	trá	ADV	particle_discourse	_	2	advmod	X	Gloss=then, therefore, so, indeed, however, but
+4	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+5	adnuntiabit	adnūntiō	VERB	verb	Voice=Act|Mood=Ind	2	csubj:cleft	X	Gloss=_
+6	no·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	ccomp	X	Gloss=to be, to exist,
+7	híc	hīc 2	ADV	adverb	_	6	advmod	X	Gloss=here
 
 # sent_id = S0006-2589
 # text = .i. inna nime fadesin ɫ. it 〈ind〉 inna nime ata forcitlaidi·
@@ -34656,17 +34656,17 @@
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	bésa	bés 1	NOUN	noun	Case=Gen|Number=Sing	2	acl:relcl	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
 
-# sent_id = S0006-2612
+# sent_id = S0006-2612 - line 2 - xcomp|nmod
 # text = debe tintúda anisiu lesom
 # text_en = he has here is a difference of reading.
-1	debe	deibe	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=difference, variety, disagreement
-2	tintúda	tintúd	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of returning, translating; conversion, translation, recalling
+1	debe	deibe	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=difference, variety, disagreement
+2	tintúda	tintúd	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	1	xcomp	X	Gloss=the act of returning, translating; conversion, translation, recalling
 3-5	anisiu	_	_	_	_	_	_	_	_
 3	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-5	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this, these
-6	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-7	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
+4	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	1	nsubj	X	Gloss=substantivizing particle
+5	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	4	appos	X	Gloss=this, these
+6	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	7	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+7	som	nota augens	PRON	particle_pronominal	PronType=Prs	1	obl	X	Gloss=emphasising particle
 
 # sent_id = S0006-2613
 # text = .i. tó eredig
