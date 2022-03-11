@@ -33100,27 +33100,27 @@
 # sent_id = S0006-2474
 # text = .i. noisinchruthsa .i. latharthir
 # text_en = i.e. or it is this way, i.e. that it is expounded.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-6	noisinchruthsa	_	_	_	_	_	_	_	_
-2	no	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	no	nó 1	CCONJ	conjunction	_	5	cc	X	Gloss=disjunctive: or
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4	in	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	chruth	cruth	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=shape, beauty of form, manner, appearance
-6	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-8	latharthir	láthraid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to explain, to expound, to exhibit; to arrange
+5	chruth	cruth	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=shape, beauty of form, manner, appearance
+6	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	5	det	X	Gloss=this, these
+7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
+8	latharthir	láthraid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	conj	X	Gloss=to explain, to expound, to exhibit; to arrange
 
 # sent_id = S0006-2475
 # text = .i. is ferr lesom alatharsa
 # text_en = i.e. he prefers this exposition.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	ferr	maith	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=good, right, noble
-4	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-5	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	ferr	maith	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=good, right, noble
+4	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	5	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+5	som	nota augens	PRON	particle_pronominal	PronType=Prs	3	obl	X	Gloss=emphasising particle
 6	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	lathar	láthar	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=arrangement, disposition, interpretation, appointment, design; machination, wiles; vigour, energy, power; place, position, point, space
-8	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+7	lathar	láthar	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=arrangement, disposition, interpretation, appointment, design; machination, wiles; vigour, energy, power; place, position, point, space
+8	sa	-so	DET	particle_demonstrative_proximate	Deixis=Prox	7	det	X	Gloss=this, these
 
 # sent_id = S0006-2476
 # text = dumthorgabail .i. dopeccad
@@ -33469,15 +33469,15 @@
 # sent_id = S0006-2503
 # text = .i. is forcell æm .i. innsin rothecht
 # text_en = i.e. it is a testimony indeed, i.e. that which he had.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	forcell	forcell	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of bearing witness, testifying; testimony
-4	æm	ém	ADV	particle_discourse	_	_	_	X	Gloss=truly, indeed, in sooth, then
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	forcell	forcell	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of bearing witness, testifying; testimony
+4	æm	ém	ADV	particle_discourse	_	3	advmod	X	Gloss=truly, indeed, in sooth, then
+5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 6-7	innsin	_	_	_	_	_	_	_	_
 6	inn	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-8	ro·thecht	techtaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to have, to possess
+7	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	3	conj	8:obj|3:conj	Gloss=that one, those ones, the one in there ; that, those
+8	ro·thecht	techtaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	7	acl:relcl	X	Gloss=to have, to possess
 
 # sent_id = S0006-2504
 # text = corogenar sa 7 cotabéu triut su ádæ
