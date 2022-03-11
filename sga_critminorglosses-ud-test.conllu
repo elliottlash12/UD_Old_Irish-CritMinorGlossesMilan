@@ -18861,7 +18861,7 @@
 # sent_id = S0006-1199
 # text = .i. atá hí lebraib ríg anisin
 # text_en = i.e. that is in the Books of Kings.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2	a·tá	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
 3	hí	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
 4	lebraib	lebor	NOUN	noun	Case=Dat|Number=Plur	2	xcomp:pred	X	Gloss=book, volume
@@ -21741,7 +21741,7 @@
 # sent_id = S0006-1466
 # text = .i. diafortacht 7 diasoirad
 # text_en = i.e. for helping him and for delivering him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	diafortacht	_	_	_	_	_	_	_	_
 2	di	do 1	ADP	preposition	Case=Dat	4	mark:prt	X	Gloss=to, for, by etc.
 3	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	4	obj:poss	X	Gloss=his, its
@@ -28189,16 +28189,16 @@
 # sent_id = S0006-2033
 # text = .i. ar chomallad do britharsu adé
 # text_en = i.e. for the fulfillment of Your (sg) words, O God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	ar	ar 1	ADP	preposition	Case=Acc	3	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-3	chomallad	comalnad	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	_	_	X	Gloss=the act of fulfilling
-4	do	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	5	_	X	Gloss=your (sg.)
+3	chomallad	comalnad	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	0	root	X	Gloss=the act of fulfilling
+4	do	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	5	nmod:poss	X	Gloss=your (sg.)
 5-6	britharsu	_	_	_	_	_	_	_	_
-5	brithar	bríathar	NOUN	noun	Case=Gen|Number=Plur|Typo=Yes	_	_	X	Gloss=word,|CorrectForm=briathar
-6	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	brithar	bríathar	NOUN	noun	Case=Gen|Number=Plur|Typo=Yes	3	obj	X	Gloss=word,|CorrectForm=briathar
+6	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	5	nmod	X	Gloss=emphasising particle
 7-8	adé	_	_	_	_	_	_	_	_
-7	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-8	dé	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+7	a	a 1	PART	particle_vocative	_	8	case:voc	X	Gloss=O! ; oh
+8	dé	día 2	NOUN	noun	Number=Sing	3	vocative	X	Gloss=god, deity, God
 
 # sent_id = S0006-2034
 # text = .i. ciabed ammet inna fochaide 7 innaningramman fosrodamarsa·
@@ -28810,19 +28810,19 @@
 3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 4	imdaigitir	imdaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to abound, to increase, to multiply
 
-# sent_id = S0006-2101
+# sent_id = S0006-2101 - Noun do Verbal Noun?
 # text = .i. nísrochret trogai diatichtin··
 # text_en = i.e. they did not believe that miseries would come to them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	nísrochret	_	_	_	_	_	_	_	_
-2	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=them
-4	·rochret	creitid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|Typo=Yes	_	_	X	Gloss=to believe, to trust|CorrectForm=·rochretset
-5	trogai	trógae	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=misery, wretchedness, affliction
+2	ní	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+3	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	4	inf:obj	X	Gloss=them
+4	·rochret	creitid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|Typo=Yes	0	root	X	Gloss=to believe, to trust|CorrectForm=·rochretset
+5	trogai	trógae	NOUN	noun	Case=Acc|Number=Plur	8	nsubj	X	Gloss=misery, wretchedness, affliction
 6-8	diatichtin	_	_	_	_	_	_	_	_
-6	di	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
-7	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	_	X	Gloss=their
-8	tichtin	tíchtu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of coming, coming to
+6	di	do 1	ADP	preposition	Case=Dat	8	mark:prt	X	Gloss=to, for, by etc.
+7	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	obj:poss	X	Gloss=their
+8	tichtin	tíchtu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	xcomp	X	Gloss=the act of coming, coming to
 9	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2102
@@ -29129,14 +29129,14 @@
 # sent_id = S0006-2136
 # text = athuisti .i. hitiamraib siu adǽ
 # text_en = stored away, i.e. in your (sg) secret places, O God.
-1	athuisti	athuiste	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Neut	_	_	X	Gloss=stored away
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	hi	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-4	t	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	_	_	X	Gloss=your (sg.)
-5	tiamraib	díamair	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=hidden, secluded, remote, lonely; mysterious, curious, recondite; mystic
-6	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-7	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-8	dǽ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+1	athuisti	athuiste	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Neut	0	root	X	Gloss=stored away
+2	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+3	hi	i	ADP	preposition	Case=Dat	6	case	X	Gloss=in, into
+4	t	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	6	nmod:poss	X	Gloss=your (sg.)
+5	tiamraib	díamair	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	6	amod	X	Gloss=hidden, secluded, remote, lonely; mysterious, curious, recondite; mystic
+6	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	1	conj	X	Gloss=emphasising particle
+7	a	a 1	PART	particle_vocative	_	8	case:voc	X	Gloss=O! ; oh
+8	dǽ	día 2	NOUN	noun	Number=Sing	6	vocative	X	Gloss=god, deity, God
 
 # sent_id = S0006-2137
 # text = sechissasatar
@@ -39084,7 +39084,6 @@
 3	ni	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
 4	gnath	gnáth	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=customary, usual, familiar, well-known
 5-6	aforaithmet	_	_	_	_	_	_	_	_
-7	adi	-side	PRON	particle_anaphoric	Case=Gen|Number=Sing|Gender=Neut	_	_	X	Gloss=that one, he, she, it, they
 5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
 6	foraithmet	foraithmet	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	nsubj	X	Gloss=the act of remembering, calling to mind; recollection
 7	adi	-side	PRON	particle_anaphoric	Case=Gen|Number=Sing|Gender=Neut	6	nmod	X	Gloss=that one, he, she, it, they
