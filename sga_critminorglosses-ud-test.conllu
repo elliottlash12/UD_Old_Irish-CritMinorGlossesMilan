@@ -32664,16 +32664,16 @@
 # sent_id = S0006-2453
 # text = .i. druim .i. forteichiud rinnanaimtib.,
 # text_en = i.e. back, i.e. in flight before their enemies.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	druim	druimm	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=back, ridge
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	druim	druimm	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=back, ridge
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	forteichiud	_	_	_	_	_	_	_	_
 4	for	for	ADP	preposition	Case=Dat	5	case	X	Gloss=upon, over, on
-5	teichiud	teiched	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of fleeing, escaping; flight
+5	teichiud	teiched	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of fleeing, escaping; flight
 6-8	rinnanaimtib.,	_	_	_	_	_	_	_	_
 6	ri	re	ADP	preposition	Case=Dat	8	case	X	Gloss=before, in front of
-7	nna	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	_	X	Gloss=their
-8	naimtib	námae	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=enemy, foe
+7	nna	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	nmod:poss	X	Gloss=their
+8	naimtib	námae	NOUN	noun	Case=Dat|Number=Plur	5	obl	X	Gloss=enemy, foe
 9	.,	.,	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2454
@@ -32706,15 +32706,15 @@
 # sent_id = S0006-2455
 # text = .i. doberae digail forsandered duruarid dib
 # text_en = i.e. You (sg) will inflict punishment on the remainder which remains of them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	do·berae	do·beir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-3	digail	dígal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	do·berae	do·beir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+3	digail	dígal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	2	obj	X	Gloss=the act of avenging, punishing, vengeance
 4-6	forsandered	_	_	_	_	_	_	_	_
 4	for	for	ADP	preposition	Case=Acc	6	case	X	Gloss=upon, over, on
 5	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	ndered	deired	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of concluding; end, conclusion, rear, remainder, residue
-7	du·ruarid	do·fúarat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to remain
-8	dib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
+6	ndered	deired	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	2	obl	7:nsubj|2:obl	Gloss=the act of concluding; end, conclusion, rear, remainder, residue
+7	du·ruarid	do·fúarat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	6	acl:relcl	X	Gloss=to remain
+8	dib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	7	obl:prep	X	Gloss=away, from, cause or reason, by
 
 # sent_id = S0006-2456
 # text = notarmaesiu
@@ -33080,15 +33080,15 @@
 # sent_id = S0006-2472
 # text = ɫ solet .i. deus .i. olintrachtaire
 # text_en = or solet, i.e. says the commentator.
-1	ɫ	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	solet	soleō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	deus	deus	PROPN	proper_noun	_	_	_	X	Gloss=god, deity, God
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	ɫ	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
+2	solet	soleō	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=_
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	deus	deus	PROPN	proper_noun	_	2	conj	X	Gloss=god, deity, God
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 6-8	olintrachtaire	_	_	_	_	_	_	_	_
-6	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to say
+6	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	2	conj	X	Gloss=to say
 7	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	trachtaire	tráchtaire	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=commentator
+8	trachtaire	tráchtaire	NOUN	noun	Case=Nom|Number=Sing	6	nsubj	X	Gloss=commentator
 
 # sent_id = S0006-2473
 # text = nosoe
