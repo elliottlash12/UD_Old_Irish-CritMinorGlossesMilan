@@ -31651,15 +31651,15 @@
 # sent_id = S0006-2359
 # text = .i. pecthi bite immenmain 7 in imradud
 # text_en = i.e. sins which are in mind and in thought.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	pecthi	peccad	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=sin
-3	bite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	pecthi	peccad	NOUN	noun	Case=Acc|Number=Plur	0	root	3:nsubj|0:root	Gloss=sin
+3	bite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	acl:relcl	X	Gloss=to be, to exist,
 4-5	immenmain	_	_	_	_	_	_	_	_
 4	i	i	ADP	preposition	Case=Acc	5	case	X	Gloss=in, into
-5	mmenmain	menmae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
-6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+5	mmenmain	menmae	NOUN	noun	Case=Dat|Number=Sing	3	xcomp:pred	X	Gloss=heed, attention; mind, thought; the thinking faculty, the understanding, heed, state of mind, feelings; spirit, courage, self-confidence; desire, inclination; pleasure, elation
+6	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
 7	i	i	ADP	preposition	Case=Acc	8	case	X	Gloss=in, into
-8	nimradud	immrádud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of thinking, deliberating
+8	nimradud	immrádud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	5	conj	X	Gloss=the act of thinking, deliberating
 
 # sent_id = S0006-2360
 # text = fothonsnát
@@ -31919,28 +31919,28 @@
 # sent_id = S0006-2388
 # text = .i. écndaigthidi .i. dorigensat som do ecnduch dǽ
 # text_en = i.e. blasphemous, i.e. which they did to blaspheme God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	écndaigthidi	écndaigthide	ADJ	adjective	Case=Acc|Number=Plur|Gender=Fem|Degree=Pos	_	_	X	Gloss=slanderous, blasphemous
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	do·rigensat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
-5	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	écndaigthidi	écndaigthide	ADJ	adjective	Case=Acc|Number=Plur|Gender=Fem|Degree=Pos	0	root	X	Gloss=slanderous, blasphemous
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	do·rigensat	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	2	conj	X	Gloss=to do, to make
+5	som	nota augens	PRON	particle_pronominal	PronType=Prs	4	nsubj	X	Gloss=emphasising particle
 6	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	ecnduch	écndach	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=reviling, slandering, defaming
-8	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+7	ecnduch	écndach	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=reviling, slandering, defaming
+8	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=god, deity, God
 
 # sent_id = S0006-2389
 # text = .i. conda arleg fiad dia hitempul
 # text_en = i.e. and he read them out before God in the temple.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	conda	_	_	_	_	_	_	_	_
-2	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	nda·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=them
-4	·arleg	ar·léga	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to read out, to recite
-5	fiad	fíad 1	ADP	preposition	Case=Dat	_	case	X	Gloss=in the presence of, before
-6	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=god, deity, God
+2	co	co 4	SCONJ	complementiser	_	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	nda·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	4	inf:obj	X	Gloss=them
+4	·arleg	ar·léga	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to read out, to recite
+5	fiad	fíad 1	ADP	preposition	Case=Dat	6	case	X	Gloss=in the presence of, before
+6	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=god, deity, God
 7-8	hitempul	_	_	_	_	_	_	_	_
 7	hi	i	ADP	preposition	Case=Acc	8	case	X	Gloss=in, into
-8	tempul	tempul	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=temple, church
+8	tempul	tempul	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=temple, church
 
 # sent_id = S0006-2390
 # text = .i. torogarthar .i. torala dia archeill do degnimu su ol inpopul contra ezechiam
