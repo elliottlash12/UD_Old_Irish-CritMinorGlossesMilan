@@ -29871,31 +29871,31 @@
 # sent_id = S0006-2191
 # text = .i. intan ɔairleci dia etarthothaim innamat
 # text_en = i.e. when God permits the utter ruin of the enemies.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	intan	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	tan	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
-4	ɔ·airleci	con·airléici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to permit, to allow, to let go
-5	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
-6	etarthothaim	etarthothaim	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=downfall, destruction, ruin
+3	tan	tan	NOUN	noun	Case=Acc|Number=Sing	4	obl:tmod	X	Gloss=time
+4	ɔ·airleci	con·airléici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to permit, to allow, to let go
+5	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=god, deity, God
+6	etarthothaim	etarthothaim	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=downfall, destruction, ruin
 7-8	innamat	_	_	_	_	_	_	_	_
 7	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	mat	námae	NOUN	noun	Case=Gen|Number=Plur|Typo=Yes	_	_	X	Gloss=enemy, foe|CorrectForm=namat
+8	mat	námae	NOUN	noun	Case=Gen|Number=Plur|Typo=Yes	6	nmod	X	Gloss=enemy, foe|CorrectForm=namat
 
 # sent_id = S0006-2192
 # text = .i. ised tobchetal nime intorainn
 # text_en = i.e. the thunders are the trumpet-song of heaven.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	ised	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	4	nmod	X	Gloss=it
 4-5	tobchetal	_	_	_	_	_	_	_	_
-4	tob	tob	NOUN	noun	_	_	_	X	Gloss=trumpet, tuba
-5	chetal	cétal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of singing; song
-6	nime	nem	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=heaven, the abode of the blessed, ceiling, sky
+4	tob	tob	NOUN	noun	_	0	root	X	Gloss=trumpet, tuba
+5	chetal	cétal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	appos	X	Gloss=the act of singing; song
+6	nime	nem	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=heaven, the abode of the blessed, ceiling, sky
 7-8	intorainn	_	_	_	_	_	_	_	_
 7	in	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	torainn	torann	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=thunder, noise
+8	torainn	torann	NOUN	noun	Case=Nom|Number=Plur	4	nsubj	X	Gloss=thunder, noise
 
 # sent_id = S0006-2193
 # text = .i. indsaigneáin
@@ -30029,16 +30029,16 @@
 # sent_id = S0006-2205
 # text = .i. cenitabarthae indaisndis nuallach tropdae
 # text_en = i.e. though the clamorous figurative declaration had not been put.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	cenitabarthae	_	_	_	_	_	_	_	_
-2	ce	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	·tabarthae	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+2	ce	cía 2	SCONJ	conjunction	_	4	mark	X	Gloss=concessive and explicative: even, although
+3	ni·	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+4	·tabarthae	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 5-6	indaisndis	_	_	_	_	_	_	_	_
 5	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	aisndis	aisndís	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
-7	nuallach	núallach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=loud, clamorous
-8	tropdae	tropdae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=figurative
+6	aisndis	aisndís	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	nsubj	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
+7	nuallach	núallach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	6	amod	X	Gloss=loud, clamorous
+8	tropdae	tropdae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	6	amod	X	Gloss=figurative
 
 # sent_id = S0006-2206
 # text = .i. taracenn
