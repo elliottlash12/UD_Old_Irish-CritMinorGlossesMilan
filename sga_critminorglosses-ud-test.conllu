@@ -36829,14 +36829,14 @@
 # sent_id = S0006-2773
 # text = .i. trí nert 7 chumachtae inchoimded
 # text_en = i.e. through the strength and power of the Lord.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	trí	tre	ADP	preposition	Case=Acc	3	case	X	Gloss=through (time or space), by means of, be reason of
-3	nert	nert	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=strength, force
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-5	chumachtae	cumachtae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=power, strength, might
+3	nert	nert	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=strength, force
+4	7	ocus 2	CCONJ	conjunction	_	5	cc	X	Gloss=coordinating: and, since
+5	chumachtae	cumachtae	NOUN	noun	Case=Acc|Number=Sing	3	conj	X	Gloss=power, strength, might
 6-7	inchoimded	_	_	_	_	_	_	_	_
 6	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	choimded	coimdiu	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=lord, master, the Lord, God
+7	choimded	coimdiu	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=lord, master, the Lord, God
 
 # sent_id = S0006-2774
 # text = daingnigthe
@@ -36945,12 +36945,12 @@
 1	etir	eter	ADP	preposition	Case=Acc	3	case	X	Gloss=between, among; both...and...
 2-3	inninilligud	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	ninilligud	inilligud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of safe-guarding; protection
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	ninilligud	inilligud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of safe-guarding; protection
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	indítin	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	dítin	dítiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of protecting; protection, defense; covering, cover, shelter
-7	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+6	dítin	dítiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of protecting; protection, defense; covering, cover, shelter
+7	són	-són	PRON	particle_anaphoric	_	6	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2785
 # text = digas no ard
@@ -37206,15 +37206,15 @@
 # sent_id = S0006-2810
 # text = .i. ní asscíth leu dudenum
 # text_en = i.e. something that they are loath to do.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	0	root	X	Gloss=something; nothing, anything ; not
 3-4	asscíth	_	_	_	_	_	_	_	_
-3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-4	scíth	scíth	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=weary, tired
-5	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
+4	scíth	scíth	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	2	acl:relcl	X	Gloss=weary, tired
+5	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	4	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 6-7	dudenum	_	_	_	_	_	_	_	_
 6	du	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
+7	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	advcl	X	Gloss=the act of doing, making, creating; deed, work, activity
 
 # sent_id = S0006-2811
 # text = .i. anat nacailsi
