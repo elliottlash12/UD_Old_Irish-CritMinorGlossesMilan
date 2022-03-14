@@ -33532,16 +33532,16 @@
 # sent_id = S0006-2508
 # text = .i. iarsnaib fothib ɫ. iarsnaib soilgib·
 # text_en = i.e. after the foundations, or after the bases.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	iarsnaib	_	_	_	_	_	_	_	_
 2	iar	íar 1	ADP	preposition	Case=Dat	4	case	X	Gloss=after, behind, across, along, beyond, according to
 3	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	fothib	fothae	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=cause, reason, ground; foundation, basis, bottom
-5	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+4	fothib	fothae	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=cause, reason, ground; foundation, basis, bottom
+5	ɫ	nó 1	CCONJ	conjunction	_	8	cc	X	Gloss=disjunctive: or
 6-7	iarsnaib	_	_	_	_	_	_	_	_
 6	iar	íar 1	ADP	preposition	Case=Dat	8	case	X	Gloss=after, behind, across, along, beyond, according to
 7	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	soilgib	sol	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=a floor, basis, foundation
+8	soilgib	sol	NOUN	noun	Case=Dat|Number=Plur	4	conj	X	Gloss=a floor, basis, foundation
 9	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2509
@@ -33827,15 +33827,15 @@
 # text = cothírmaigid cach súg bís isnaib ballaib
 # text_en = so that it dries up every juice that is in the members.
 1-2	cothírmaigid	_	_	_	_	_	_	_	_
-1	co	co 3	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
-2	thírmaigid	tírmaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to dry
+1	co	co 3	SCONJ	complementiser	_	2	mark:prt	X	Gloss=so that, until (+dependent, nasalising)
+2	thírmaigid	tírmaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to dry
 3	cach	cach	DET	adjective_quantifier	Case=Acc|Number=Sing|Gender=Masc|PronType=Tot	4	det	X	Gloss=every, each, all, any
-4	súg	súg	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=juice; sap (of plants)
-5	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+4	súg	súg	NOUN	noun	Case=Acc|Number=Sing	2	obj	5:nsubj|2:obj	Gloss=juice; sap (of plants)
+5	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	acl:relcl	X	Gloss=to be, to exist,
 6-7	isnaib	_	_	_	_	_	_	_	_
 6	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
 7	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	ballaib	ball	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=of inanimate objects part, portion, piece; article, object ; limb, member, organ
+8	ballaib	ball	NOUN	noun	Case=Dat|Number=Plur	5	xcomp:pred	X	Gloss=of inanimate objects part, portion, piece; article, object ; limb, member, organ
 
 # sent_id = S0006-2536
 # text = cosemigidir
@@ -34279,14 +34279,16 @@
 # sent_id = S0006-2578
 # text = immaircide .i. anasber innadiad sís
 # text_en = fitting, i.e. that which he says afterwards below.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	immaircide	immaircide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=suitable, fitting, appropriate, becoming
-3	a	a 4	PRON	pronoun_relative	Case=Nom|Number=Sing|PronType=Rel	_	_	X	Gloss=that, which
-4	nas·ber	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
+1	immaircide	immaircide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=suitable, fitting, appropriate, becoming
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2-3	anasber	_	_	_	_	_	_	_	_
+3	a	a 4	PRON	pronoun_relative	Case=Nom|Number=Sing|PronType=Rel	1	conj	X	Gloss=that, which
+4	nas·ber	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	3	acl:relcl	X	Gloss=to say, to speak, to call , mention
+5-7	innadiad	_	_	_	_	_	_	_	_
 5	i	i	ADP	preposition	Case=Acc	7	case	X	Gloss=in, into
-6	nna	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	_	X	Gloss=his, its
-7	diad	deäd	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=end, conclusion
-8	sís	sís	ADV	adverb	_	_	_	X	Gloss=down, downwards, below, onwards, throughout
+6	nna	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=his, its
+7	diad	deäd	NOUN	noun	Case=Acc|Number=Sing	4	obl	X	Gloss=end, conclusion
+8	sís	sís	ADV	adverb	_	7	advmod	X	Gloss=down, downwards, below, onwards, throughout
 
 # sent_id = S0006-2579
 # text = ɫ dedi .i. dombertar·
