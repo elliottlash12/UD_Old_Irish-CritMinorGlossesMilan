@@ -12497,7 +12497,7 @@
 2-3	combed	_	_	_	_	_	_	_	_
 2	co·	co 4	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+independent, leniting)
 3	·mbed	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
-4	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	4	xcomp:pred:prep	X	Gloss=to, for, by etc.
+4	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	3	xcomp:pred:prep	X	Gloss=to, for, by etc.
 5	foraithmet	foraithmet	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	nsubj	X	Gloss=the act of remembering, calling to mind; recollection
 6-7	bedtorbach	_	_	_	_	_	_	_	_
 6	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	cop	X	Gloss=to be
@@ -34809,15 +34809,15 @@
 # sent_id = S0006-2625
 # text = ɫ. níbí super and acht fontes tantum
 # text_en = or super is not usually there but only fontes [is].
-1	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+1	ɫ	nó 1	CCONJ	conjunction	_	3	cc	X	Gloss=disjunctive: or
 2-3	níbí	_	_	_	_	_	_	_	_
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·bí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-4	super	super	ADP	preposition	Case=Unk	_	case	X	Gloss=above, over, on, upon, beyond, in addition to
-5	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=in, into
-6	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-7	fontes	fōns	NOUN	noun	_	_	_	X	Gloss=_
-8	tantum	tantum	PART	adjective_quantifier	_	_	advmod:emph	X	Gloss=so many, so great, only
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·bí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+4	super	super	ADP	preposition	Case=Unk	3	nsubj	X	Gloss=above, over, on, upon, beyond, in addition to
+5	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	xcomp:pred:prep	X	Gloss=in, into
+6	acht	acht 1	CCONJ	conjunction	_	7	cc	X	Gloss=except, but, provided that, save that
+7	fontes	fōns	NOUN	noun	_	3	conj	X	Gloss=_
+8	tantum	tantum	PART	adjective_quantifier	_	7	advmod:emph	X	Gloss=so many, so great, only
 
 # sent_id = S0006-2626
 # text = .i. centuasulcud
@@ -34846,18 +34846,18 @@
 1	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	2	det	X	Gloss=the
 2	iarfaichtho	íarfaigid	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of inquiring, challenging; inquiry, inquisition, challenge, interrogation
 
-# sent_id = S0006-2630
+# sent_id = S0006-2630 - line 9 - reliqua
 # text = .i. nianse són· innocens in manibus rl.
 # text_en = i.e. it is not difficult; innocens in manibus etc.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	nianse	_	_	_	_	_	_	_	_
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	anse	ansae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=difficult, hard; troublesome
-4	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	anse	ansae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=difficult, hard; troublesome
+4	són	-són	PRON	particle_anaphoric	_	3	nsubj	X	Gloss=that (mentioned above) that is
 5	·	·	PUNCT	punctuation	_	_	_	_	_
-6	innocens	innocēns	ADJ	adjective	Degree=Pos	_	_	X	Gloss=harmless, blameless, innocent
-7	in	in (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=in, into
-8	manibus	manus	NOUN	noun	_	_	_	X	Gloss=hand
+6	innocens	innocēns	ADJ	adjective	Degree=Pos	3	parataxis	X	Gloss=harmless, blameless, innocent
+7	in	in (Lat)	ADP	preposition	Case=Unk	8	case	X	Gloss=in, into
+8	manibus	manus	NOUN	noun	_	6	obl	X	Gloss=hand
 9	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
 10	.	.	PUNCT	punctuation	_	_	_	_	_
 
@@ -35501,14 +35501,16 @@
 # sent_id = S0006-2679
 # text = .i. arrot neithius sa· dumfortacht adǽ
 # text_en = i.e. I expected You (sg) to help me, O God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	arrot·neithius	ar·neät	VERB	verb	Person[Obj]=2|Number[Obj]=Sing|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	_	_	X	Gloss=to expect, to await, to wait for; to sustain, support, to uphold, to assume responsibility for
-3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	arrot·neithius	ar·neät	VERB	verb	Person[Obj]=2|Number[Obj]=Sing|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	0	root	X	Gloss=to expect, to await, to wait for; to sustain, support, to uphold, to assume responsibility for
+3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
+4-6	dumfortacht	_	_	_	_	_	_	_	_
 4	du	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
-5	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	6	_	X	Gloss=my
-6	fortacht	fortacht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of aiding, helping
-7	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-8	dǽ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+5	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	6	obj:poss	X	Gloss=my
+6	fortacht	fortacht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of aiding, helping
+7-8	adǽ	_	_	_	_	_	_	_	
+7	a	a 1	PART	particle_vocative	_	8	case:voc	X	Gloss=O! ; oh
+8	dǽ	día 2	NOUN	noun	Number=Sing	2	vocative	X	Gloss=god, deity, God
 
 # sent_id = S0006-2680
 # text = tar ǽsi
