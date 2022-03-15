@@ -38147,15 +38147,15 @@
 # sent_id = S0006-2900
 # text = .i. ar in toracht .i. arint soinmigi
 # text_en = i.e. for the arrival, i.e. for the success.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2	ar	ar 1	ADP	preposition	Case=Dat	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 3	in	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	toracht	toracht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of arriving at, coming up to; progression, succession, success
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+4	toracht	toracht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of arriving at, coming up to; progression, succession, success
+5	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 6-7	arint	_	_	_	_	_	_	_	_
 6	ar	ar 1	ADP	preposition	Case=Dat	8	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 7	int	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	soinmigi	soinmige	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=prosperity, affluence, happiness
+8	soinmigi	soinmige	NOUN	noun	Case=Dat|Number=Sing	4	conj	X	Gloss=prosperity, affluence, happiness
 
 # sent_id = S0006-2901
 # text = .i. file hilebraib paralip
@@ -38470,16 +38470,16 @@
 # text = arrrosonartnaigestar··· .i. dingalar hírobae
 # text_en = when he became strong, i.e. from the sickness in which he had been.
 1-2	arrrosonartnaigestar	_	_	_	_	_	_	_	_
-1	ar	a 6	SCONJ	conjunction	Typo=Yes	_	mark	X	Gloss=temporal: when, since|CorrectForm=a
-2	rro·sonartnaigestar	sonartnaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to strengthen, to confirm, to establish
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	ar	a 6	SCONJ	conjunction	Typo=Yes	2	mark	X	Gloss=temporal: when, since|CorrectForm=a
+2	rro·sonartnaigestar	sonartnaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to strengthen, to confirm, to establish
+3	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 4-6	dingalar	_	_	_	_	_	_	_	_
 4	di	di	ADP	preposition	Case=Dat	6	case	X	Gloss=away, from, cause or reason, by
 5	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	galar	galar	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=sickness, disease, physical pain, mental suffering, distress, grief, damage
+6	galar	galar	NOUN	noun	Case=Dat|Number=Sing	2	conj	X	Gloss=sickness, disease, physical pain, mental suffering, distress, grief, damage
 7-8	hírobae	_	_	_	_	_	_	_	_
-7	hi·	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-8	·robae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
+7	hi·	i	ADP	preposition	Case=Acc	8	xcomp:pred:prep	X	Gloss=in, into
+8	·robae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	6	acl:relcl	X	Gloss=to be, to exist,
 
 # sent_id = S0006-2933
 # text = .i. inlondas
@@ -38913,16 +38913,16 @@
 # sent_id = S0006-2975
 # text = .i. mani accastar issamlid gaibid ní
 # text_en = i.e. if it should not be seen, it is thus that it catches something.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	mani	_	_	_	_	_	_	_	_
-2	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-3	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	·accastar	ad·cí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to see, to observe
+2	ma	ma	SCONJ	conjunction	_	4	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+3	ni·	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+4	·accastar	ad·cí	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	7	advcl	X	Gloss=to see, to observe
 5-6	issamlid	_	_	_	_	_	_	_	_
-5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-6	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=as, like
-7	gaibid	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
-8	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
+5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
+6	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	7	case	X	Gloss=as, like
+7	gaibid	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+8	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	7	obj	X	Gloss=something; nothing, anything ; not
 
 # sent_id = S0006-2976
 # text = .i. adǽ
