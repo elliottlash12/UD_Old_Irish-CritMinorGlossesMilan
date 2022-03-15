@@ -36235,16 +36235,16 @@
 # sent_id = S0006-2722
 # text = .i. air atroillessidi arandrognimaib
 # text_en = i.e. for they deserved it for their evil deeds.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	air	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
 3-4	atroillessidi	_	_	_	_	_	_	_	_
-3	at·roilles	ad·roilli	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB|Typo=Yes	_	_	X	Gloss=to deserve, to be entitled to; to earn|CorrectForm=at·roillesset
-4	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
+3	at·roilles	ad·roilli	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB|Typo=Yes	0	root	X	Gloss=to deserve, to be entitled to; to earn|CorrectForm=at·roillesset
+4	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Masc	3	nsubj	X	Gloss=that one, he, she, it, they
 5-8	arandrognimaib	_	_	_	_	_	_	_	_
 5	ar	ar 1	ADP	preposition	Case=Dat	8	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-6	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	_	X	Gloss=their
-7	ndrog	droch-	X	particle_prefix	_	_	_	X	Gloss=evil, bad, wrong
-8	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+6	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	nmod:poss	X	Gloss=their
+7	ndrog	droch-	X	particle_prefix	_	8	amod	X	Gloss=evil, bad, wrong
+8	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	3	advcl	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-2723
 # text = .i. co nis nerbtais .i. is in miscuis cloín asmbeir dorigensat assir huare nach dudia duairilbset forb[r]isiud innaniudae acht is dianeurt fessin
@@ -36632,29 +36632,29 @@
 # sent_id = S0006-2756
 # text = .i. arnapecthu immefolngat guasacht do anmin
 # text_en = i.e. on account of the sins that cause peril to the soul.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	arnapecthu	_	_	_	_	_	_	_	_
 2	ar	ar 1	ADP	preposition	Case=Acc	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 3	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	pecthu	peccad	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=sin
-5	imme·folngat	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to cause, to produce, to make, to effect, to support
-6	guasacht	gúasacht	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=danger, peril, difficulty
+4	pecthu	peccad	NOUN	noun	Case=Acc|Number=Plur	0	root	5:nsubj|0:root	Gloss=sin
+5	imme·folngat	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	4	acl:relcl	X	Gloss=to cause, to produce, to make, to effect, to support
+6	guasacht	gúasacht	NOUN	noun	Case=Acc|Number=Sing	5	obj	X	Gloss=danger, peril, difficulty
 7	do	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
-8	anmin	ainimm	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=soul (as opposed to the body)
+8	anmin	ainimm	NOUN	noun	Case=Dat|Number=Sing	5	obl	X	Gloss=soul (as opposed to the body)
 
 # sent_id = S0006-2757
 # text = hochomatrub .i. tribuith immalle friu
 # text_en = by cohabitation, i.e. through being together with them.
 1-3	hochomatrub	_	_	_	_	_	_	_	_
 1	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
-2	chom	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
-3	atrub	atrab	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of inhabiting, living (in), dwelling, occupying; habitation, house, possession, locative case
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	chom	com- 2	X	particle_prefix	_	3	mark:prt	X	Gloss=mutual, together, equal ; with, lexicalized meanings
+3	atrub	atrab	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of inhabiting, living (in), dwelling, occupying; habitation, house, possession, locative case
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	tribuith	_	_	_	_	_	_	_	_
 5	tri	tre	ADP	preposition	Case=Acc	6	case	X	Gloss=through (time or space), by means of, be reason of
-6	buith	both 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of being, existing, being hungry
-7	immalle	immallé	ADV	adverb	_	_	_	X	Gloss=jointly, together, at the same time (lit. about their togetherness)
-8	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
+6	buith	both 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of being, existing, being hungry
+7	immalle	immallé	ADV	adverb	_	6	advmod	X	Gloss=jointly, together, at the same time (lit. about their togetherness)
+8	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc	6	obl:prep	X	Gloss=towards, against, standard of comparison
 
 # sent_id = S0006-2758
 # text = .i. tuile dǽ
