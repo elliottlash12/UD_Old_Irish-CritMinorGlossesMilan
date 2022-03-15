@@ -30663,20 +30663,20 @@
 1	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
 2	dæ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
 
-# sent_id = S0006-2278
+# sent_id = S0006-2278 - ellipsis?
 # text = .i. asalutes· fil tal meas frisodain
 # text_en = i.e. the salutes which is there, meas [goes / is construed] with it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	asalutes	_	_	_	_	_	_	_	_
-2	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	salutes	salūtō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
+2	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	salutes	salūtō	VERB	verb	Voice=Act|Mood=Ind	0	root	5:nsubj|0:root	Gloss=_
 4	·	·	PUNCT	punctuation	_	_	_	_	_
-5	salutes	salūtō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-6	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-7	tal	tall	ADV	adverb	_	_	_	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
-8	meas	meus	DET	pronoun_possessive	Poss=Yes|PronType=Prs	_	_	X	Gloss=my
-9	fri	fri	ADP	preposition	Case=Acc	_	case	X	Gloss=towards, against, standard of comparison
-10	sodain	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+5	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	acl:relcl	X	Gloss=to be, to exist,
+6	tal	tall	ADV	adverb	_	5	advmod	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
+7	meas	meus	DET	pronoun_possessive	Poss=Yes|PronType=Prs	_	_	X	Gloss=my
+8-9	frisodain	_	_	_	_	_	_	_	_
+8	fri	fri	ADP	preposition	Case=Acc	9	case	X	Gloss=towards, against, standard of comparison
+9	sodain	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	_	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 
 # sent_id = S0006-2279
 # text = .i. cach díb indiad alaili
@@ -31251,16 +31251,16 @@
 # sent_id = S0006-2319
 # text = duadbadar huaisletu ind choimded tri huaisletu ingnima sin·
 # text_en = the elevation of the Lord is shown through the elevation of that deed.
-1	du·adbadar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to show, to display, to demonstrate, to appear
-2	huaisletu	úaisletu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
+1	du·adbadar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to show, to display, to demonstrate, to appear
+2	huaisletu	úaisletu	NOUN	noun	Case=Nom|Number=Sing	1	nsubj	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
 3	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	choimded	coimdiu	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=lord, master, the Lord, God
+4	choimded	coimdiu	NOUN	noun	Case=Gen|Number=Sing	2	nmod	X	Gloss=lord, master, the Lord, God
 5	tri	tre	ADP	preposition	Case=Acc	6	case	X	Gloss=through (time or space), by means of, be reason of
-6	huaisletu	úaisletu	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
+6	huaisletu	úaisletu	NOUN	noun	Case=Acc|Number=Sing	1	obl	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
 7-8	ingnima	_	_	_	_	_	_	_	_
 7	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	gnima	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-9	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
+8	gnima	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	6	nmod	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+9	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	8	det	X	Gloss=that, those
 10	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2320
@@ -31443,17 +31443,17 @@
 # sent_id = S0006-2335
 # text = creaturas duthabair fricechninfinit fil sunt sís
 # text_en = creaturas is to be put with every infinitive which is here below.
-1	creaturas	creātūra	NOUN	noun	_	_	_	X	Gloss=_
+1	creaturas	creātūra	NOUN	noun	_	0	root	X	Gloss=_
 2-3	duthabair	_	_	_	_	_	_	_	_
 2	du	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
-3	thabair	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Typo=Yes	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting|CorrectForm=thabairt
+3	thabair	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Typo=Yes	1	advcl	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting|CorrectForm=thabairt
 4-5	fricechninfinit	_	_	_	_	_	_	_	_
 4	fri	fri	ADP	preposition	Case=Acc	6	case	X	Gloss=towards, against, standard of comparison
 5	cech	cach	DET	adjective_quantifier	Case=Acc|Number=Sing|Gender=Fem|PronType=Tot	6	det	X	Gloss=every, each, all, any
-6	ninfinit	infinit	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=gramm. the infinitive mood
-7	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-8	sunt	sund	ADV	adverb	_	_	_	X	Gloss=here, in this place; hither, to this place
-9	sís	sís	ADV	adverb	_	_	_	X	Gloss=down, downwards, below, onwards, throughout
+6	ninfinit	infinit	NOUN	noun	Case=Acc|Number=Sing	3	obl	7:nsubj|3:obl	Gloss=gramm. the infinitive mood
+7	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to be, to exist,
+8	sunt	sund	ADV	adverb	_	7	advmod	X	Gloss=here, in this place; hither, to this place
+9	sís	sís	ADV	adverb	_	7	advmod	X	Gloss=down, downwards, below, onwards, throughout
 
 # sent_id = S0006-2336
 # text = .i. remíerbartmar
