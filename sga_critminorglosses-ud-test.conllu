@@ -28051,16 +28051,16 @@
 # sent_id = S0006-2020
 # text = .i. denma uilc tar ǽsi indanccridi dognithe friunn
 # text_en = i.e. of doing evil for the wrong that used to be done towards us.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	denma	dénum	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
-3	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	denma	dénum	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of doing, making, creating; deed, work, activity
+3	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	2	obj	X	Gloss=evil, bad, wrong
 4	tar	tar 1	ADP	preposition	Case=Acc	5	case	X	Gloss=over, across, covering
-5	ǽsi	éis 2	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=track, trace
+5	ǽsi	éis 2	NOUN	noun	Case=Acc|Number=Sing	2	obl	X	Gloss=track, trace
 6-7	indanccridi	_	_	_	_	_	_	_	_
 6	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	anccridi	ancride	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=wrong, injustice, injury, vengeance
-8	do·gnithe	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to do, to make
-9	friunn	fri	ADP	preposition	Person=1|Number=Plur|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
+7	anccridi	ancride	NOUN	noun	Case=Gen|Number=Sing	5	nmod	8:nsubj|5:nmod	Gloss=wrong, injustice, injury, vengeance
+8	do·gnithe	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	acl:relcl	X	Gloss=to do, to make
+9	friunn	fri	ADP	preposition	Person=1|Number=Plur|Case=Acc	8	obl:prep	X	Gloss=towards, against, standard of comparison
 
 # sent_id = S0006-2021
 # text = intaircur
@@ -28529,14 +28529,14 @@
 # text_en = the opposed circles, i.e. that are between eyebrows and cheeks.
 1-2	inchuartai	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	chuartai	cúaird	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=circuit, tour, visitation, journey ; circle, ring; circumference; globe (of heaven, earth); area, territory, district; inner space, enclosure
-3	frithsuidigthi	frithsuidigthe	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=opposed, placed against
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	file	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+2	chuartai	cúaird	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=circuit, tour, visitation, journey ; circle, ring; circumference; globe (of heaven, earth); area, territory, district; inner space, enclosure
+3	frithsuidigthi	frithsuidigthe	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Masc	2	amod	X	Gloss=opposed, placed against
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+5	file	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	conj	X	Gloss=to be, to exist,
 6	etir	eter	ADP	preposition	Case=Acc	7	case	X	Gloss=between, among; both...and...
-7	forbru	forbrú	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=eyebrow
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-9	gruade	grúad	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=cheek; brow, edge of a ridge, furrow
+7	forbru	forbrú	NOUN	noun	Case=Acc|Number=Plur	5	xcomp:pred	X	Gloss=eyebrow
+8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+9	gruade	grúad	NOUN	noun	Case=Acc|Number=Plur	7	conj	X	Gloss=cheek; brow, edge of a ridge, furrow
 10	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2072
@@ -29541,16 +29541,16 @@
 # sent_id = S0006-2169
 # text = .i. tene 7 richsea du ebirt dugnuís dǽ
 # text_en = i.e. in calling the face of God fire and live coals.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	tene	teine 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=fire, lightning; gen. as attributive adj. blazing
-3	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-4	richsea	richis	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=a live ember, a live coal
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	tene	teine 1	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=fire, lightning; gen. as attributive adj. blazing
+3	7	ocus 2	CCONJ	conjunction	_	4	cc	X	Gloss=coordinating: and, since
+4	richsea	richis	NOUN	noun	Case=Nom|Number=Plur	2	conj	X	Gloss=a live ember, a live coal
 5	du	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
-6	ebirt	eipert	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of saying; speech, statement, word
+6	ebirt	eipert	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	advcl	X	Gloss=the act of saying; speech, statement, word
 7-8	dugnuís	_	_	_	_	_	_	_	_
 7	du	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
-8	gnuís	gnúis	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=face, countenance; aspect, kind, form, species
-9	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+8	gnuís	gnúis	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=face, countenance; aspect, kind, form, species
+9	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	8	nmod	X	Gloss=god, deity, God
 
 # sent_id = S0006-2170
 # text = cia dú
