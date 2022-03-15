@@ -35607,17 +35607,17 @@
 # sent_id = S0006-2686
 # text = .i. olinfaith apersain inpopuil
 # text_en = i.e. says the prophet on the part of the people.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-4	olinfaith	_	_	_	_	_	_	_	_
-2	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to say
+2	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to say
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	faith	fáith	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=seer, prophet
+4	faith	fáith	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=seer, prophet
 5-6	apersain	_	_	_	_	_	_	_	_
 5	a	a 7	ADP	preposition	Case=Dat	6	case	X	Gloss=out of, from
-6	persain	persan	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
+6	persain	persan	NOUN	noun	Case=Dat|Number=Sing	2	obl	X	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
 7-8	inpopuil	_	_	_	_	_	_	_	_
 7	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	popuil	popul	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+8	popuil	popul	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
 
 # sent_id = S0006-2687
 # text = ɫ. fit in aliis libris sic in quem ussum recordationem· .i. cia innerbirt ṁbiuth .i. du arbuid infaith ata ninunn in pecthi diarogaid inpopul fuairrigi ndæ 7 ad(il)gadchi 7 inna hí diarogad(a)tar in popul robo in(ege)pt
@@ -35740,30 +35740,30 @@
 # sent_id = S0006-2693
 # text = trachtad les immelle forsinda thestimin remepthi
 # text_en = he has a commentary on the two aforesaid texts together.
-1	trachtad	tráchtad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of discussing; commentary, interpretation
-2	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-3	immelle	immallé	ADV	adverb	_	_	_	X	Gloss=jointly, together, at the same time (lit. about their togetherness)
+1	trachtad	tráchtad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of discussing; commentary, interpretation
+2	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	1	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+3	immelle	immallé	ADV	adverb	_	2	advmod	X	Gloss=jointly, together, at the same time (lit. about their togetherness)
 4-6	forsinda	_	_	_	_	_	_	_	_
 4	for	for	ADP	preposition	Case=Acc	7	case	X	Gloss=upon, over, on
 5	sin	in 1	DET	definite_article	Case=Acc|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-6	da	da	NUM	adjective_numeral	Case=Acc|Gender=Masc	_	nummod	X	Gloss=two
-7	thestimin	testimin	NOUN	noun	Case=Acc	_	_	X	Gloss=text, scriptural quotation, passage, testimony
-8	remepthi	remeperthae	ADJ	verbal_participle	Case=Acc|Gender=Masc|Typo=Yes	_	_	X	Gloss=aforesaid, above-mentioned|CorrectForm=remeperthi
+6	da	da	NUM	adjective_numeral	Case=Acc|Gender=Masc	7	nummod	X	Gloss=two
+7	thestimin	testimin	NOUN	noun	Case=Acc	1	obl	X	Gloss=text, scriptural quotation, passage, testimony
+8	remepthi	remeperthae	ADJ	verbal_participle	Case=Acc|Gender=Masc|Typo=Yes	7	amod	X	Gloss=aforesaid, above-mentioned|CorrectForm=remeperthi
 
 # sent_id = S0006-2694
 # text = .i. indenum dothimnae siu adǽ
 # text_en = i.e. to the doing of Your (sg) commandments, O God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indenum	_	_	_	_	_	_	_	_
 2	i	i	ADP	preposition	Case=Acc	3	case	X	Gloss=in, into
-3	ndenum	dénum	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
+3	ndenum	dénum	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	0	root	X	Gloss=the act of doing, making, creating; deed, work, activity
 4-5	dothimnae	_	_	_	_	_	_	_	_
-4	do	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	5	_	X	Gloss=your (sg.)
-5	thimnae	timmnae	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=act of commanding; precept
-6	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+4	do	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	5	nmod:poss	X	Gloss=your (sg.)
+5	thimnae	timmnae	NOUN	noun	Case=Gen|Number=Plur	3	obj	X	Gloss=act of commanding; precept
+6	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	6	nmod	X	Gloss=emphasising particle
 7-8	adǽ	_	_	_	_	_	_	_	_
-7	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-8	dǽ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+7	a	a 1	PART	particle_vocative	_	8	case:voc	X	Gloss=O! ; oh
+8	dǽ	día 2	NOUN	noun	Number=Sing	3	vocative	X	Gloss=god, deity, God
 
 # sent_id = S0006-2695
 # text = debe tintuda anisiu· airis mites file isintintud septien..,
