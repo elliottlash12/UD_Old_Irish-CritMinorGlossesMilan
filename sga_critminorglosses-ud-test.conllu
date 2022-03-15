@@ -29736,17 +29736,17 @@
 # sent_id = S0006-2181
 # text = .i. aisndís dinaib grandib 7 dinaib íslib
 # text_en = i.e. a setting forth of the horrible and the mean (people).
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	aisndís	aisndís	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	aisndís	aisndís	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
 3-4	dinaib	_	_	_	_	_	_	_	_
-3	di	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-4	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-5	grandib	grándae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=horrible, terrible, ugly, repulsive, hateful
-6	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+3	di	di	ADP	preposition	Case=Dat	5	case	X	Gloss=away, from, cause or reason, by
+4	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
+5	grandib	grándae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	2	obl	X	Gloss=horrible, terrible, ugly, repulsive, hateful
+6	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
 7-8	dinaib	_	_	_	_	_	_	_	_
-7	di	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-8	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-9	íslib	ísel	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
+7	di	di	ADP	preposition	Case=Dat	9	case	X	Gloss=away, from, cause or reason, by
+8	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
+9	íslib	ísel	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	5	conj	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
 
 # sent_id = S0006-2182
 # text = .i. intruip fil isnaib fersaib
@@ -29988,15 +29988,15 @@
 # sent_id = S0006-2202
 # text = .i. amal bid hualailiu chlausul adbchlostu .i. trop
 # text_en = i.e. as though it were by some ostentatious conclusion, i.e. a figure.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	hua	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
-5	alailiu	alaile	X	adjective_pronominal	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=other, the other
-6	chlausul	clausul	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=conclusion, end, termination
-7	adbchlostu	adbchlostae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=ostentatious
-8	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-9	trop	trop	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=trope, figure of speech
+1	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	6	mark	X	Gloss=as, like; translating Latin ut
+3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
+4	hua	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
+5	alailiu	alaile	X	adjective_pronominal	Case=Dat|Number=Sing|Gender=Masc	6	amod	X	Gloss=other, the other
+6	chlausul	clausul	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=conclusion, end, termination
+7	adbchlostu	adbchlostae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	6	amod	X	Gloss=ostentatious
+8	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
+9	trop	trop	NOUN	noun	Case=Nom|Number=Sing	6	conj	X	Gloss=trope, figure of speech
 
 # sent_id = S0006-2203
 # text = .i. aisndís nuallach 7 tropdae isindisiu amal rongab hi tosuch aaisndísen
@@ -30513,18 +30513,18 @@
 # sent_id = S0006-2263
 # text = .i. arnadechsaitis cosuide iarnécaib saul
 # text_en = i.e. lest they go to him after Saul’s death.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	arnadechsaitis	_	_	_	_	_	_	_	_
-2	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-3	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-4	·dechsaitis	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+2	ar	ara	SCONJ	complementiser	_	4	mark:prt	X	Gloss=in order that, so that
+3	na·	ná 2	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+4	·dechsaitis	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
 5-6	cosuide	_	_	_	_	_	_	_	_
-5	co	co 1	ADP	preposition	Case=Acc	_	case	X	Gloss=to, until, as far as, towards
-6	suide	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Masc	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+5	co	co 1	ADP	preposition	Case=Acc	6	case	X	Gloss=to, until, as far as, towards
+6	suide	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Masc	4	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 7-8	iarnécaib	_	_	_	_	_	_	_	_
 7	iar	íar 1	ADP	preposition	Case=Dat	8	case	X	Gloss=after, behind, across, along, beyond, according to
-8	nécaib	éc	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=death
-9	saul	Saul	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Saul
+8	nécaib	éc	NOUN	noun	Case=Dat|Number=Plur	4	obl	X	Gloss=death
+9	saul	Saul	PROPN	proper_noun	Case=Gen|Number=Sing	8	nmod	X	Gloss=Saul
 
 # sent_id = S0006-2264
 # text = .i. arnadechsitis dano conechtar inna desese
