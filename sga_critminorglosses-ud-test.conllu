@@ -28878,7 +28878,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indí	_	_	_	_	_	_	_	_
 2	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	0	root	X	Gloss=substantivizing particle
+3	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	0	root	6:nsubj|0:root	Gloss=substantivizing particle
 4-6	nodamfindbadaigetarsa	_	_	_	_	_	_	_	_
 4	no	no·	SCONJ	particle_preverb	_	6	mark:prt	X	Gloss=empty particle
 5	dam·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	6	inf:obj	X	Gloss=me, myself
@@ -31476,8 +31476,8 @@
 1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
 2	recht	recht	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=law
 3-4	duetarcnu	_	_	_	_	_	_	_	_
-3	du	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
-4	etarcnu	etargnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
+3	du	do 1	ADP	preposition	Case=Dat	4	mark:prt	X	Gloss=to, for, by etc.
+4	etarcnu	etargnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	csubj	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
 5	dæ	día 2	NOUN	noun	Case=Gen|Number=Sing	4	obj	X	Gloss=god, deity, God
 6	tréu	tre	ADP	preposition	Person=3|Number=Plur|Case=Acc	4	obl:prep	X	Gloss=through (time or space), by means of, be reason of
 
@@ -32261,7 +32261,7 @@
 1	7	ocus 2	CCONJ	conjunction	_	3	cc	X	Gloss=coordinating: and, since
 2-3	anduruacht	_	_	_	_	_	_	_	_
 2	a	a 6	SCONJ	conjunction	_	3	mark	X	Gloss=temporal: when, since
-3	ndu·ruacht	do·fich 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to avenge, to punish
+3	ndu·ruacht	do·fich 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Nas	0	root	X	Gloss=to avenge, to punish
 4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5	a	ab (Lat)	ADP	preposition	Case=Unk	6	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
 6	deo	deus	PROPN	proper_noun	_	3	conj	X	Gloss=god, deity, God
@@ -33317,7 +33317,7 @@
 3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-6	arrondoicheṅėnelaigsiursa	_	_	_	_	_	_	_	_
 4	a	a 6	SCONJ	conjunction	_	5	mark	X	Gloss=temporal: when, since
-5	rro·ndoichenelaigsiur	dochenélaigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to degenerate
+5	rro·ndoichenelaigsiur	dochenélaigidir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Nas	0	root	X	Gloss=to degenerate
 6	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-2494
@@ -33382,7 +33382,7 @@
 2	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	soínmige	soinmige	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=prosperity, affluence, happiness
 4-6	hirobasa	_	_	_	_	_	_	_	_
-4	hi·	i	ADP	preposition	Case=Acc	5	case	X	Gloss=in, into
+4	hi·	i	ADP	preposition	Case=Acc	5	xcomp:pred:prep	X	Gloss=in, into
 5	·roba	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to be, to exist,
 6	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	5	nsubj	X	Gloss=emphasising particle
 
@@ -33937,7 +33937,7 @@
 2-3	artormuch	_	_	_	_	_	_	_	_
 2	ar	ar 1	ADP	preposition	Case=Dat	3	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 3	tormuch	tórmach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of increasing; addition
-4	fochraic	fochraic	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Typo=Yes	3	obj	X	Gloss=the act of rewarding; reward, recompense, payment, price|CorrectForm=fochraice
+4	fochraic	fochraic	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun|Typo=Yes	3	obj	X	Gloss=the act of rewarding; reward, recompense, payment, price|CorrectForm=fochraice
 5-6	ndosón	_	_	_	_	_	_	_	_
 5	ndo	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=to, for, by etc.
 6	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
@@ -34550,7 +34550,7 @@
 3	to	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	4	nmod:poss	X	Gloss=your (sg.)
 4	fortacht	fortacht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	nsubj	X	Gloss=the act of aiding, helping
 5	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	4	nmod	X	Gloss=emphasising particle
-6	lium	la	ADP	preposition	Person=1|Number=Sing|Case=Acc	2	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+6	lium	la	ADP	preposition	Person=1|Number=Sing|Case=Acc	2	xcomp:pred:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0006-2606
 # text = .i. ní
@@ -34651,12 +34651,12 @@
 # text_en = it is these things which are the custom.
 1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
 2-3	hesidi	_	_	_	_	_	_	_	_
-2	he	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	6:nsubj|0:root	Gloss=they, them
+2	he	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=they, them
 3	sidi	-side	PRON	particle_anaphoric	Case=Nom|Number=Plur|Gender=Neut	2	appos	X	Gloss=that one, he, she, it, they
 4	at	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	cop	X	Gloss=to be
 5-6	inbésa	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	bésa	bés 1	NOUN	noun	Case=Gen|Number=Sing	2	acl:relcl	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
+6	bésa	bés 1	NOUN	noun	Case=Gen|Number=Sing	2	csubj:cleft	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
 
 # sent_id = S0006-2612
 # text = debe tintúda anisiu lesom
