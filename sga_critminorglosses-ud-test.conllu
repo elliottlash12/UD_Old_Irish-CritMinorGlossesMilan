@@ -30669,14 +30669,14 @@
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	asalutes	_	_	_	_	_	_	_	_
 2	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	salutes	salūtō	VERB	verb	Voice=Act|Mood=Ind	0	root	5:nsubj|0:root	Gloss=_
+3	salutes	salūtō	VERB	verb	Voice=Act|Mood=Ind	9	dislocated	5:nsubj|9:dislocated	Gloss=_
 4	·	·	PUNCT	punctuation	_	_	_	_	_
 5	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	acl:relcl	X	Gloss=to be, to exist,
 6	tal	tall	ADV	adverb	_	5	advmod	X	Gloss=of place: yonder, there, yon, that ; long ago, of yore, then; hereafter, in the next world
-7	meas	meus	DET	pronoun_possessive	Poss=Yes|PronType=Prs	_	_	X	Gloss=my
+7	meas	meus	DET	pronoun_possessive	Poss=Yes|PronType=Prs	9	nsubj	X	Gloss=my
 8-9	frisodain	_	_	_	_	_	_	_	_
 8	fri	fri	ADP	preposition	Case=Acc	9	case	X	Gloss=towards, against, standard of comparison
-9	sodain	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	_	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+9	sodain	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut	0	root	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 
 # sent_id = S0006-2279
 # text = .i. cach díb indiad alaili
@@ -34385,8 +34385,8 @@
 2	coru	coäir	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=fitting, proper, right ; even, well-propportioned, straight; correct, suitable
 3	tra	trá	ADV	particle_discourse	_	2	advmod	X	Gloss=then, therefore, so, indeed, however, but
 4	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
-5	adnuntiabit	adnūntiō	VERB	verb	Voice=Act|Mood=Ind	2	csubj:cleft	X	Gloss=_
-6	no·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	ccomp	X	Gloss=to be, to exist,
+5	adnuntiabit	adnūntiō	VERB	verb	Voice=Act|Mood=Ind	2	ccomp	X	Gloss=_
+6	no·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	csubj:cleft	X	Gloss=to be, to exist,
 7	híc	hīc 2	ADV	adverb	_	6	advmod	X	Gloss=here
 
 # sent_id = S0006-2589
@@ -34658,9 +34658,9 @@
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	bésa	bés 1	NOUN	noun	Case=Gen|Number=Sing	2	acl:relcl	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
 
-# sent_id = S0006-2612 - line 2 - xcomp|nmod
+# sent_id = S0006-2612
 # text = debe tintúda anisiu lesom
-# text_en = he has here is a difference of reading.
+# text_en = what he has here is a difference of reading.
 1	debe	deibe	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=difference, variety, disagreement
 2	tintúda	tintúd	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	1	xcomp	X	Gloss=the act of returning, translating; conversion, translation, recalling
 3-5	anisiu	_	_	_	_	_	_	_	_
@@ -36151,7 +36151,7 @@
 # text_en = living alone.
 1	ointrabdae	óentrabdae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=living alone
 
-# sent_id = S0006-2715 - line 6 - obl|nmod:poss
+# sent_id = S0006-2715
 # text = .i. dotherbirt dilguda dǽ adochum·
 # text_en = i.e. to incline the forgiveness of God to him(self).
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
@@ -37207,18 +37207,18 @@
 5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	obj:poss	X	Gloss=his, its
 6	denum	dénum	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	csubj	X	Gloss=the act of doing, making, creating; deed, work, activity
 
-# sent_id = S0006-2810
+# sent_id = S0006-2810 - Noun do Verbal Noun
 # text = .i. ní asscíth leu dudenum
 # text_en = i.e. something that they are loath to do.
-1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
-2	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	0	root	X	Gloss=something; nothing, anything ; not
+1	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
+2	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	7	obj	4:nsubj|7:obj	Gloss=something; nothing, anything ; not
 3-4	asscíth	_	_	_	_	_	_	_	_
 3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
 4	scíth	scíth	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	2	acl:relcl	X	Gloss=weary, tired
 5	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	4	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 6-7	dudenum	_	_	_	_	_	_	_	_
-6	du	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	advcl	X	Gloss=the act of doing, making, creating; deed, work, activity
+6	du	do 1	ADP	preposition	Case=Dat	7	mark:prt	X	Gloss=to, for, by etc.
+7	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of doing, making, creating; deed, work, activity
 
 # sent_id = S0006-2811
 # text = .i. anat nacailsi
