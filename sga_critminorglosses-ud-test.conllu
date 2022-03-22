@@ -34114,15 +34114,15 @@
 # sent_id = S0006-2562
 # text = .i. as duliu lium cech indiub 7 cech ret
 # text_en = i.e. that it is more dear to me that every gain and every thing.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-3	duliu	dil 1	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=dear, beloved
-4	lium	la	ADP	preposition	Person=1|Number=Sing|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	cop	X	Gloss=to be
+3	duliu	dil 1	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=dear, beloved
+4	lium	la	ADP	preposition	Person=1|Number=Sing|Case=Acc	3	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 5	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Neut|PronType=Tot	6	det	X	Gloss=every, each, all, any
-6	indiub	indeb	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=gain, increase, wealth, power
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+6	indiub	indeb	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=gain, increase, wealth, power
+7	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
 8	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Masc|PronType=Tot	9	det	X	Gloss=every, each, all, any
-9	ret	rét 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=thing
+9	ret	rét 1	NOUN	noun	Case=Dat|Number=Sing	6	conj	X	Gloss=thing
 
 # sent_id = S0006-2563
 # text = oinaidaircechu ɫ. oinbenchu
@@ -34182,15 +34182,15 @@
 # sent_id = S0006-2567
 # text = .i. is do óin fiur asrobrad iacob 7 israhel
 # text_en = i.e. it is of one man that Jacob and Israel have been said.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 3	do	di	ADP	preposition	Case=Dat	5	case	X	Gloss=away, from, cause or reason, by
-4	óin	óen	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
-5	fiur	fer 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=man, person, pl. inhabitants
-6	as·robrad	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
-7	iacob	Iäcob	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Jacob
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-9	israhel	Israël	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Israel
+4	óin	óen	ADJ	adjective_numeral_noun	_	5	nummod	X	Gloss=one, single, same, only, unique; as compound element 'great'
+5	fiur	fer 1	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=man, person, pl. inhabitants
+6	as·robrad	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	5	csubj:cleft	X	Gloss=to say, to speak, to call , mention
+7	iacob	Iäcob	PROPN	proper_noun	Case=Nom|Number=Sing	6	nsubj	X	Gloss=Jacob
+8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+9	israhel	Israël	PROPN	proper_noun	Case=Nom|Number=Sing	7	conj	X	Gloss=Israel
 
 # sent_id = S0006-2568
 # text = anert
@@ -34416,17 +34416,17 @@
 # sent_id = S0006-2591
 # text = ɫ. minores .i. innaés moith 7 anfoirbthe
 # text_en = or minores, i.e. the tender and imperfect.
-1	ɫ.	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	minores	minor	ADJ	adjective	Degree=Pos	_	_	X	Gloss=_
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	ɫ.	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
+2	minores	minor	ADJ	adjective	Degree=Pos	0	root	X	Gloss=_
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	innaés	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	naés	áes 2	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=people, folk
-6	moith	móeth	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=soft, tender, yielding
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+5	naés	áes 2	NOUN	noun	Case=Acc|Number=Sing	2	conj	X	Gloss=people, folk
+6	moith	móeth	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	5	amod	X	Gloss=soft, tender, yielding
+7	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
 8-9	anfoirbthe	_	_	_	_	_	_	_	_
-8	an	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
-9	foirbthe	foirbthe 1	ADJ	verbal_participle	Case=Acc|Number=Sing|Gender=Masc	_	_	X	Gloss=completed, finished, perfect, religious, holy
+8	an	an-	X	particle_prefix	_	9	advmod:neg	X	Gloss=negative: non-, un-
+9	foirbthe	foirbthe 1	ADJ	verbal_participle	Case=Acc|Number=Sing|Gender=Masc	5	conj	X	Gloss=completed, finished, perfect, religious, holy
 
 # sent_id = S0006-2592
 # text = .i. cofarcanat·
