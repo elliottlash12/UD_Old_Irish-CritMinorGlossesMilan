@@ -35256,19 +35256,20 @@
 10	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
 11	·	·	PUNCT	punctuation	_	_	_	_	_
 
-# sent_id = S0006-2655
+# sent_id = S0006-2655 - reliqua
 # text = .i. eliuamini portae rl. doepirt fodí·
 # text_en = i.e. in saying eliuamini portae etc. twice.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	eliuamini	ēleuō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-3	eliuamini	ēleuō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to raise, to elevate
-4	portae	porta	NOUN	noun	_	_	_	X	Gloss=door, entrance
-5	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
-6	do	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
-7	epirt	eipert	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of saying; speech, statement, word
-8	fo	fo	ADP	preposition	Case=Acc	_	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-9	dí	da	NUM	adjective_numeral	Case=Acc|Gender=Fem	_	nummod	X	Gloss=two
-10	·	·	PUNCT	punctuation	_	_	_	_	_
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	eliuamini	ēleuō	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=to raise, to elevate
+3	portae	porta	NOUN	noun	_	2	flat	X	Gloss=door, entrance
+4	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
+5-6	doepirt	_	_	_	_	_	_	_	_
+5	do	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
+6	epirt	eipert	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of saying; speech, statement, word
+7-8	fodí	_	_	_	_	_	_	_	_
+7	fo	fo	ADP	preposition	Case=Acc	8	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+8	dí	da	NUM	adjective_numeral	Case=Acc|Gender=Fem	6	nummod	X	Gloss=two
+9	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2656
 # text = hisin
@@ -35325,36 +35326,36 @@
 2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
 3	ɔ·nosnaitis	con·osna	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to stop, to end, to desist, to rest, to remain
 
-# sent_id = S0006-2662
+# sent_id = S0006-2662 - reliqua
 # text = .i. homuntair indríg .i. dominus uirtutum rl
 # text_en = i.e. by the people of the King, i.e. Dominus uirtutum etc.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	homuntair	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
-3	muntair	muinter	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
+3	muntair	muinter	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
 4-5	indríg	_	_	_	_	_	_	_	_
 4	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	ríg	rí	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=king
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-7	dominus	dominus	NOUN	noun	_	_	_	X	Gloss=lord, master
-8	uirtutum	uirtūs	NOUN	noun	_	_	_	X	Gloss=manliness, virility; manhood; courage, resoluteness; goodness, virtue; character; excellence
+5	ríg	rí	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=king
+6	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
+7	dominus	dominus	NOUN	noun	_	3	conj	X	Gloss=lord, master
+8	uirtutum	uirtūs	NOUN	noun	_	7	flat	X	Gloss=manliness, virility; manhood; courage, resoluteness; goodness, virtue; character; excellence
 9	rl	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
 
 # sent_id = S0006-2663
 # text = .i. arnabeth imresan immoslucud innathrach
 # text_en = i.e. so that there might be no contention about the opening of the city.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	arnabeth	_	_	_	_	_	_	_	_
-2	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-3	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-4	·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-5	imresan	immresan	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of contending; strife, feud, contention, opposition
+2	ar	ara	SCONJ	complementiser	_	4	mark:prt	X	Gloss=in order that, so that
+3	na·	ná 2	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+4	·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+5	imresan	immresan	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	nsubj	X	Gloss=the act of contending; strife, feud, contention, opposition
 6-7	immoslucud	_	_	_	_	_	_	_	_
 6	imm	imm	ADP	preposition	Case=Acc	7	case	X	Gloss=around, about, concerning; abstract: concerning, as regards, in the matter of, on account of
-7	oslucud	oslucud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of opening
+7	oslucud	oslucud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	4	xcomp:pred	X	Gloss=the act of opening
 8-9	innathrach	_	_	_	_	_	_	_	_
 8	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	thrach	cathair 1	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	_	_	X	Gloss=city, fortified city, stone enclosure, fortress, monastic settlement|CorrectForm=cathrach
+9	thrach	cathair 1	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	7	obj	X	Gloss=city, fortified city, stone enclosure, fortress, monastic settlement|CorrectForm=cathrach
 
 # sent_id = S0006-2664
 # text = .i. airechas indrig dodechuid són
