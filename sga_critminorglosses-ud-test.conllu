@@ -37647,15 +37647,16 @@
 # sent_id = S0006-2853
 # text = innasonartae [in marg.] .i. indneirt robói la assaru
 # text_en = of the firmness, i.e. of the strength that the Assyrians had.
+1-2	innasonartae	_	_	_	_	_	_	_	_
 1	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-2	so	so-	X	particle_prefix	_	_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
-3	sonartae	sonartae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=strength, firmness, courage
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	neirt	nert	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=strength, force
-7	ro·bói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
-8	la	la	ADP	preposition	Case=Acc	9	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-9	assaru	Asar	PROPN	proper_noun	Case=Acc|Number=Plur	_	_	X	Gloss=Assyrian
+2	sonartae	sonartae	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=strength, firmness, courage
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+4-5	indneirt	_	_	_	_	_	_	_	_
+4	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
+5	neirt	nert	NOUN	noun	Case=Gen|Number=Sing	2	conj	6:nsubj|2:conj	Gloss=strength, force
+6	ro·bói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	5	acl:relcl	X	Gloss=to be, to exist,
+7	la	la	ADP	preposition	Case=Acc	8	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+8	assaru	Asar	PROPN	proper_noun	Case=Acc|Number=Plur	6	xcomp:pred	X	Gloss=Assyrian
 
 # sent_id = S0006-2854
 # text = hontoracht .i. hond soinmichi són
@@ -38317,17 +38318,17 @@
 # sent_id = S0006-2916
 # text = .i. dufutharctar som ol doib ceruptar enartu
 # text_en = i.e. they wished evil to them, although they were weaker.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	du·futharctar	do·futhraccair	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to desire, to wish
-3	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
-4	ol	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos|Typo=Yes	_	_	X	Gloss=evil, bad, wrong|CorrectForm=olc
-5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	du·futharctar	do·futhraccair	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to desire, to wish
+3	som	nota augens	PRON	particle_pronominal	PronType=Prs	2	nsubj	X	Gloss=emphasising particle
+4	ol	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos|Typo=Yes	2	obj	X	Gloss=evil, bad, wrong|CorrectForm=olc
+5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	2	obl:prep	X	Gloss=to, for, by etc.
 6-7	ceruptar	_	_	_	_	_	_	_	_
-6	ce	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-7	ruptar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
+6	ce	cía 2	SCONJ	conjunction	_	9	mark	X	Gloss=concessive and explicative: even, although
+7	ruptar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	9	cop	X	Gloss=to be
 8-9	enartu	_	_	_	_	_	_	_	_
-8	e	es-	X	particle_prefix	_	_	_	X	Gloss=privative prefix
-9	enartu	énairt	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=without strength, weak
+8	e	es-	X	particle_prefix	_	9	mark:prt	X	Gloss=privative prefix
+9	enartu	énairt	ADJ	adjective	Degree=Cmp	2	advcl	X	Gloss=without strength, weak
 
 # sent_id = S0006-2917
 # text = .i. sechis ondformut són
@@ -38345,17 +38346,17 @@
 # sent_id = S0006-2918
 # text = .i. miduthracht 7 format frinech bes tresa
 # text_en = i.e. ill will and envy toward anyone who is stronger.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	miduthracht	_	_	_	_	_	_	_	_
-2	mi	mí-	X	particle_prefix	_	_	_	X	Gloss=bad, false
-3	duthracht	dúthracht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of wishing, desiring; wish, desire
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-5	format	format	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of envying; envy, jealousy
+2	mi	mí-	X	particle_prefix	_	3	amod	X	Gloss=bad, false
+3	duthracht	dúthracht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of wishing, desiring; wish, desire
+4	7	ocus 2	CCONJ	conjunction	_	5	cc	X	Gloss=coordinating: and, since
+5	format	format	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of envying; envy, jealousy
 6-7	frinech	_	_	_	_	_	_	_	_
-6	fri	fri	ADP	preposition	Case=Acc	_	case	X	Gloss=towards, against, standard of comparison
-7	nech	nech	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
-8	bes	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-9	tresa	trén	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=strong, gramm. substantive, subst.: strong man, hero
+6	fri	fri	ADP	preposition	Case=Acc	7	case	X	Gloss=towards, against, standard of comparison
+7	nech	nech	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Ind	5	obl	8:nsubj|5:obl	Gloss=anyone, one, someone
+8	bes	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	9	cop	X	Gloss=to be
+9	tresa	trén	ADJ	adjective	Degree=Cmp	7	acl:relcl	X	Gloss=strong, gramm. substantive, subst.: strong man, hero
 
 # sent_id = S0006-2919
 # text = sechitat hé
