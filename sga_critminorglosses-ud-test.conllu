@@ -35701,16 +35701,16 @@
 # sent_id = S0006-2689
 # text = .i. air adradai idal dorigni cechtar indapopul
 # text_en = i.e. for [it is] worshipping of idols that each of the two peoples did.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	adradai	adrad 1	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of worshipping, adorating
-4	idal	ídal	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=idol ; heathen
-5	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
-6	cechtar	cechtar	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=each of two, either
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	air	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
+3	adradai	adrad 1	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of worshipping, adorating
+4	idal	ídal	NOUN	noun	Case=Gen|Number=Plur	3	obj	X	Gloss=idol ; heathen
+5	do·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	3	csubj:cleft	X	Gloss=to do, to make
+6	cechtar	cechtar	PRON	pronoun_quantifier	Case=Nom|Number=Sing	5	nsubj	X	Gloss=each of two, either
 7-9	indapopul	_	_	_	_	_	_	_	_
 7	in	in 1	DET	definite_article	Case=Gen|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
-8	da	da	NUM	adjective_numeral	Case=Gen|Gender=Masc	_	nummod	X	Gloss=two
-9	popul	popul	NOUN	noun	Case=Gen	_	_	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+8	da	da	NUM	adjective_numeral	Case=Gen|Gender=Masc	9	nummod	X	Gloss=two
+9	popul	popul	NOUN	noun	Case=Gen	6	nmod	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
 
 # sent_id = S0006-2690
 # text = coniairmed .i deus
@@ -35857,17 +35857,17 @@
 # sent_id = S0006-2700
 # text = .i. ferr .i. tribuith isnafochaidib doib
 # text_en = i.e. better, i.e. through their being in tribulations.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ferr	maith	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=good, right, noble
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ferr	maith	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=good, right, noble
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	tribuith	_	_	_	_	_	_	_	_
 4	tri	tre	ADP	preposition	Case=Acc	5	case	X	Gloss=through (time or space), by means of, be reason of
-5	buith	both 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of being, existing, being hungry
+5	buith	both 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of being, existing, being hungry
 6-8	isnafochaidib	_	_	_	_	_	_	_	_
 6	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
 7	sna	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
-9	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+8	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	5	obl	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+9	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	5	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-2701
 # text = .i. innafiadnissai·
@@ -36167,18 +36167,18 @@
 7	dochum	dochumm	ADP	preposition	Case=Gen	6	case	X	Gloss=to, towards, in order to
 8	·	·	PUNCT	punctuation	_	_	_	_	_
 
-# sent_id = S0006-2716
+# sent_id = S0006-2716 - reliqua
 # text = .i. is airi asbersom unicus 7 pauper rl.
 # text_en = i.e. it is therefore that he says unicus et pauper etc.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	0	root	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 4-5	asbersom	_	_	_	_	_	_	_	_
-4	as·ber	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to say, to speak, to call , mention
-5	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
-6	unicus	ūnicus	ADJ	adjective	Degree=Pos	_	_	X	Gloss=_
-7	7	et	CCONJ	conjunction	_	_	cc	X	Gloss=and
-8	pauper	pauper	ADJ	adjective	Degree=Pos	_	_	X	Gloss=_
+4	as·ber	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	3	csubj:cleft	X	Gloss=to say, to speak, to call , mention
+5	som	nota augens	PRON	particle_pronominal	PronType=Prs	4	nsubj	X	Gloss=emphasising particle
+6	unicus	ūnicus	ADJ	adjective	Degree=Pos	4	obj	X	Gloss=_
+7	7	et	CCONJ	conjunction	_	8	cc	X	Gloss=and
+8	pauper	pauper	ADJ	adjective	Degree=Pos	6	conj	X	Gloss=_
 9	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
 10	.	.	PUNCT	punctuation	_	_	_	_	_
 
