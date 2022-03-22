@@ -37189,15 +37189,14 @@
 # sent_id = S0006-2808
 # text = .i. is écmacht doib denum neich ɔdegar cuccu
 # text_en = i.e. the doing of anything which is asked of them is impossible for them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	é	an-	X	particle_prefix	_	_	_	X	Gloss=negative: non-, un-
-4	écmacht	écmacht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=powerless, impotent; impossible, unfeasible
-5	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-6	denum	dénum	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
-7	neich	ní 1	PRON	pronoun_quantifier	Case=Gen|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
-8	ɔ·degar	con·diëig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to seek, to ask, to demand
-9	cuccu	co 1	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=to, until, as far as, towards
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	écmacht	écmacht	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=powerless, impotent; impossible, unfeasible
+4	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	3	obl:prep	X	Gloss=to, for, by etc.
+5	denum	dénum	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	csubj	X	Gloss=the act of doing, making, creating; deed, work, activity
+6	neich	ní 1	PRON	pronoun_quantifier	Case=Gen|Number=Sing	5	obj	7:nsubj|5:obj	Gloss=something; nothing, anything ; not
+7	ɔ·degar	con·diëig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to seek, to ask, to demand
+8	cuccu	co 1	ADP	preposition	Person=3|Number=Plur|Case=Acc	7	obl:prep	X	Gloss=to, until, as far as, towards
 
 # sent_id = S0006-2809
 # text = .i. ní coair leu a denum
@@ -37608,30 +37607,30 @@
 # sent_id = S0006-2849
 # text = .i. armeit ingníma asrubart som deus maiestatis
 # text_en = i.e. on account of the greatness of the deed he said Deus maiestatis.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	armeit	_	_	_	_	_	_	_	_
 2	ar	ar 1	ADP	preposition	Case=Acc	3	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-3	meit	méit	NOUN	noun	Case=Dat	_	_	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
+3	meit	méit	NOUN	noun	Case=Dat	6	advcl	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
 4-5	ingníma	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	gníma	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-6	as·rubart	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
-7	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
-8	deus	deus	PROPN	proper_noun	_	_	_	X	Gloss=god, deity, God
-9	maiestatis	māiestās	NOUN	noun	_	_	_	X	Gloss=_
+5	gníma	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	nmod	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+6	as·rubart	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to say, to speak, to call , mention
+7	som	nota augens	PRON	particle_pronominal	PronType=Prs	6	nsubj	X	Gloss=emphasising particle
+8	deus	deus	PROPN	proper_noun	_	6	obj	X	Gloss=god, deity, God
+9	maiestatis	māiestās	NOUN	noun	_	8	flat	X	Gloss=_
 
-# sent_id = S0006-2850
+# sent_id = S0006-2850 - morph:word correspondence not exact; line 4 - xcomp|appos
 # text = tris inbéstindrim .i. aliud· sonans· aliud sensiens·
 # text_en = through the idiomatic usage.
 1	tri	tre	ADP	preposition	Case=Acc	3	case	X	Gloss=through (time or space), by means of, be reason of
 2	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	bés	bés 1	NOUN	noun	_	_	_	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
-4	tindrim	tindrem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of performing, carrying out; behavior
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	aliud·	alius	ADJ	adjective	Degree=Pos	_	_	X	Gloss=other, the other
-7	sonans·	sonāns	ADJ	adjective	Degree=Pos	_	_	X	Gloss=resounding
-8	aliud	alius	ADJ	adjective	Degree=Pos	_	_	X	Gloss=other, the other
-9	sensiens·	sentiēns	ADJ	verbal_participle	_	_	_	X	Gloss=feeling, perceiving
+3	bés	bés 1	NOUN	noun	_	0	root	X	Gloss=habit, custom, usual procedure, practice; manner, way; custom; in plural also: character
+4	tindrim	tindrem	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	xcomp	X	Gloss=the act of performing, carrying out; behavior
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	aliud·	alius	ADJ	adjective	Degree=Pos	3	conj	X	Gloss=other, the other
+7	sonans·	sonāns	ADJ	adjective	Degree=Pos	6	flat	X	Gloss=resounding
+8	aliud	alius	ADJ	adjective	Degree=Pos	6	flat	X	Gloss=other, the other
+9	sensiens·	sentiēns	ADJ	verbal_participle	_	6	flat	X	Gloss=feeling, perceiving
 10	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2851
