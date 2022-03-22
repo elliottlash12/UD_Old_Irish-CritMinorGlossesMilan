@@ -32874,18 +32874,18 @@
 # sent_id = S0006-2464
 # text = .i. hochomlugiu· .i. honelud són
 # text_en = i.e. from the conspiracy, i.e. that is, from the evasion.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	hochomlugiu	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
-3	chom	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
-4	lugiu	lugae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of swearing; oath
+3	chom	com- 2	X	particle_prefix	_	4	mark:prt	X	Gloss=mutual, together, equal ; with, lexicalized meanings
+4	lugiu	lugae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of swearing; oath
 5	·	·	PUNCT	punctuation	_	_	_	_	_
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+6	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
 7-9	honelud	_	_	_	_	_	_	_	_
-7	ho	ó 1	ADP	preposition	Case=Dat	8	case	X	Gloss=from, out of, by
-8	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-9	elud	élúd	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of going out, departing, escaping; elopement, evasion
-10	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+7	ho	ó 1	ADP	preposition	Case=Dat	9	case	X	Gloss=from, out of, by
+8	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
+9	elud	élúd	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of going out, departing, escaping; elopement, evasion
+10	són	-són	PRON	particle_anaphoric	_	9	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2465
 # text = .i. crist maduruín
@@ -33906,16 +33906,17 @@
 # sent_id = S0006-2543
 # text = .i. sechis cot rairléicsom ón intí dia
 # text_en = i.e. that is, He, God, has permitted him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	cot·rairléic	con·airléici	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB|Aspect=Perf	_	_	X	Gloss=to permit, to allow, to let go
-5	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
-6	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+2	sech	sech 2	X	conjunction	_	4	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	cot·rairléic	con·airléici	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB|Aspect=Perf	0	root	X	Gloss=to permit, to allow, to let go
+5	som	nota augens	PRON	particle_pronominal	PronType=Prs	4	obj	X	Gloss=emphasising particle
+6	ón	-ón	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (aforementioned)
+7-8	intí	_	_	_	_	_	_	_	_
 7	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-9	día	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
+8	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	4	nsubj	X	Gloss=substantivizing particle
+9	día	día 2	NOUN	noun	Case=Nom|Number=Sing	8	appos	X	Gloss=god, deity, God
 
 # sent_id = S0006-2544
 # text = .i. istecnatae .i. is gnath dí·
@@ -33960,18 +33961,18 @@
 2	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	chomairleciud	comairléiciud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of allowing, permitting; permission
 
-# sent_id = S0006-2548
+# sent_id = S0006-2548 - line 4 - acl:relcl|csubj:cleft
 # text = .i. ni dia dudgní son acht is hé ɔairleci
 # text_en = i.e. it is not God who does this, but it is He who allows.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
-4	dud·gní	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|RelType=Other	_	_	X	Gloss=to do, to make
-5	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
-6	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-8	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
-9	ɔ·airleci	con·airléici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to permit, to allow, to let go
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	0	root	4:nsubj|0:root	Gloss=god, deity, God
+4	dud·gní	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|RelType=Other	3	acl:relcl	X	Gloss=to do, to make
+5	son	-són	PRON	particle_anaphoric	_	3	nsubj	X	Gloss=that (mentioned above) that is
+6	acht	acht 1	CCONJ	conjunction	_	3	cc	X	Gloss=except, but, provided that, save that
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+8	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	3	conj	X	Gloss=he, him, it
+9	ɔ·airleci	con·airléici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	8	csubj:cleft	X	Gloss=to permit, to allow, to let go
 
 # sent_id = S0006-2549
 # text = .i. indenum
