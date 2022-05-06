@@ -14,9 +14,9 @@ Sprachwissenschaftliches Seminar
 
 # ========================================================================================================================================================================================================
 #
-# This python script finds relative verbs with the RelType Other and splits creates two lists: one with sentences containing verbs where Other is the correct designation, and one where Other may be wrong.
+# This python script finds relative verbs with the RelType Other and splits creates two lists: 
+# one with sentences containing verbs where Other is the correct designation, and one where Other may be wrong. The latter list saved in a text file for reference.
 #
-# You can type check_other or other_good at the prompt 
 # ========================================================================================================================================================================================================
 
 import os
