@@ -28182,20 +28182,19 @@
 # sent_id = S0006-2032
 # text = .i. cidcuit áimraid commenic nidernus
 # text_en = i.e. even as to mentioning it frequently, I did not do it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2-4	cidcuit	_	_	_	_	_	_	_	_
-2	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=portion, part, share; a matter of, a mere
-5-6	áimraid	_	_	_	_	_	_	_	_
-5	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	imraid	immrád	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of talking about, discussing, mentioning, recounting
-7-8	commenic	_	_	_	_	_	_	_	_
-7	co	co 1	ADP	preposition	Case=Acc	_	case	X	Gloss=to, until, as far as, towards
-8	mmenic	meinicc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=frequent, recurring, often
-9-10	nidernus	_	_	_	_	_	_	_	_
-9	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-10	·dernus	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to do, to make
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2-3	cidcuit	_	_	_	_	_	_	_	_
+2	cid	cid 2	PART	particle_focus	_	3	advmod:emph	3:advmod:emph	Gloss=even
+3	cuit	cuit	NOUN	noun	Case=Nom|Number=Sing	9	dislocated	X	Gloss=portion, part, share; a matter of, a mere
+4-5	áimraid	_	_	_	_	_	_	_	_
+4	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	obj:poss	X	Gloss=his, its
+5	imraid	immrád	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	xcomp	X	Gloss=the act of talking about, discussing, mentioning, recounting
+6-7	commenic	_	_	_	_	_	_	_	_
+6	co	co 1	ADP	preposition	Case=Acc	7	case	X	Gloss=to, until, as far as, towards
+7	mmenic	meinicc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	5	obl	X	Gloss=frequent, recurring, often
+8-9	nidernus	_	_	_	_	_	_	_	_
+8	ni·	ní 3	PART	particle_negative_main	_	9	advmod:neg	X	Gloss=not
+9	·dernus	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to do, to make
 
 # sent_id = S0006-2033
 # text = .i. ar chomallad do britharsu adé
@@ -28518,16 +28517,16 @@
 1-2	honaib	_	_	_	_	_	_	_	_
 1	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
 2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	tunchaib	tunach	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=tunic
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	tunchaib	tunach	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=tunic
+4	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
 5-6	sechis	_	_	_	_	_	_	_	_
-5	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+5	sech	sech 2	X	conjunction	_	9	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
 7-8	honaib	_	_	_	_	_	_	_	_
 7	ho	ó 1	ADP	preposition	Case=Dat	9	case	X	Gloss=from, out of, by
 8	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	srebnaib	srebann	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=membrane, film, skin
-10	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+9	srebnaib	srebann	NOUN	noun	Case=Dat|Number=Plur	3	conj	X	Gloss=membrane, film, skin
+10	són	-són	PRON	particle_anaphoric	_	9	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2070
 # text = as ro chess .i. rorecht
@@ -30542,19 +30541,19 @@
 # sent_id = S0006-2264
 # text = .i. arnadechsitis dano conechtar inna desese
 # text_en = i.e. lest they go then to either of these two.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	arnadechsitis	_	_	_	_	_	_	_	_
-2	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-3	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-4	·dechsitis	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
-5	dano	danó	ADV	particle_discourse	_	_	_	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
+2	ar	ara	SCONJ	complementiser	_	4	mark:prt	X	Gloss=in order that, so that
+3	na·	ná 2	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+4	·dechsitis	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+5	dano	danó	ADV	particle_discourse	_	4	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
 6-7	conechtar	_	_	_	_	_	_	_	_
-6	co	co 1	ADP	preposition	Case=Acc	_	case	X	Gloss=to, until, as far as, towards
-7	nechtar	nechtar	PRON	pronoun_quantifier	Case=Acc|Number=Sing	_	_	X	Gloss=either, one of two
+6	co	co 1	ADP	preposition	Case=Acc	7	case	X	Gloss=to, until, as far as, towards
+7	nechtar	nechtar	PRON	pronoun_quantifier	Case=Acc|Number=Sing	4	obl	X	Gloss=either, one of two
 8	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
 9-10	desese	_	_	_	_	_	_	_	_
-9	dese	diäs	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=pair, couple
-10	se	-se	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+9	dese	diäs	NOUN	noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=pair, couple
+10	se	-se	DET	particle_demonstrative_proximate	Deixis=Prox	9	det	X	Gloss=this, these
 
 # sent_id = S0006-2265
 # text = dumgnese adǽ
