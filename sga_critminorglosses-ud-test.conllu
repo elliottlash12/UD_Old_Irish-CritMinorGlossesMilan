@@ -32654,19 +32654,19 @@
 # sent_id = S0006-2451
 # text = .i. druim .i. condichret andruim frianaimtea
 # text_en = i.e. back, i.e. that they will turn their back to their enemies.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	druim	druimm	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=back, ridge
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	druim	druimm	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=back, ridge
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	condichret	_	_	_	_	_	_	_	_
-4	co·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-5	·ndichret	do·cuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to put, to cast, to produce, to happens, to invites, to summons
+4	co·	co 4	SCONJ	complementiser	_	5	mark:prt	X	Gloss=so that, until (+independent, leniting)
+5	·ndichret	do·cuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	2	conj	X	Gloss=to put, to cast, to produce, to happens, to invites, to summons
 6-7	andruim	_	_	_	_	_	_	_	_
-6	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	_	X	Gloss=their
-7	ndruim	druimm	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=back, ridge
+6	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=their
+7	ndruim	druimm	NOUN	noun	Case=Acc|Number=Sing	5	obj	X	Gloss=back, ridge
 8-10	frianaimtea	_	_	_	_	_	_	_	_
 8	fri	fri	ADP	preposition	Case=Acc	10	case	X	Gloss=towards, against, standard of comparison
-9	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	_	X	Gloss=their
-10	naimtea	námae	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=enemy, foe
+9	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	nmod:poss	X	Gloss=their
+10	naimtea	námae	NOUN	noun	Case=Acc|Number=Plur	5	obl	X	Gloss=enemy, foe
 
 # sent_id = S0006-2452
 # text = .i. asluat
@@ -33529,17 +33529,17 @@
 # sent_id = S0006-2507
 # text = .i. inmactad in dentar cech semplae 7 cech báis·
 # text_en = i.e. of the boyhood in which every silliness and every foolishness is done.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	inmactad	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	mactad	mactu	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	_	_	X	Gloss=boyhood|CorrectForm=macthad
-4	i·	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-5	·ndentar	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to do, to make
+3	mactad	mactu	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	0	root	X	Gloss=boyhood|CorrectForm=macthad
+4	i·	i	ADP	preposition	Case=Acc	5	obl:prep	X	Gloss=in, into
+5	·ndentar	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	acl:relcl	X	Gloss=to do, to make
 6	cech	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Fem|PronType=Tot	7	det	X	Gloss=every, each, all, any
-7	semplae	semplae	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=silliness, foolishness
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+7	semplae	semplae	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=silliness, foolishness
+8	7	ocus 2	CCONJ	conjunction	_	10	cc	X	Gloss=coordinating: and, since
 9	cech	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Fem|PronType=Tot	10	det	X	Gloss=every, each, all, any
-10	báis	báes	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=folly, levity; play, sport; frenzy
+10	báis	báes	NOUN	noun	Case=Nom|Number=Sing	7	conj	X	Gloss=folly, levity; play, sport; frenzy
 11	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2508
@@ -33627,17 +33627,17 @@
 # sent_id = S0006-2515 - check the word in line 3
 # text = .i. amal dunthluichiursa cucut a dæ ærren dam thuforacht..
 # text_en = i.e. as I ask it of You (sg), O God: give Your (sg) help to me.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	3	mark	X	Gloss=as, like; translating Latin ut
 3-4	dunthluichiursa	_	_	_	_	_	_	_	_
-3	dun·thlaichiur	do·tluichethar	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	_	_	X	Gloss=to ask, to beseech, to desire, to crave
-4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-5	cucut	co 1	ADP	preposition	Person=2|Number=Sing|Case=Acc	_	_	X	Gloss=to, until, as far as, towards
-6	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-7	dæ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
-8	ærren	as·ren	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Impv|VerbForm=Fin	_	_	X	Gloss=to pay out, to render, to expend
-9	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
-10	thuforacht	fortacht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Typo=Yes	_	_	X	Gloss=the act of aiding, helping|CorrectForm=thufortacht
+3	dun·thlaichiur	do·tluichethar	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	0	root	X	Gloss=to ask, to beseech, to desire, to crave
+4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
+5	cucut	co 1	ADP	preposition	Person=2|Number=Sing|Case=Acc	3	obl:prep	X	Gloss=to, until, as far as, towards
+6	a	a 1	PART	particle_vocative	_	7	case:voc	X	Gloss=O! ; oh
+7	dæ	día 2	NOUN	noun	Number=Sing	3	vocative	X	Gloss=god, deity, God
+8	ærren	as·ren	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Impv|VerbForm=Fin	3	parataxis	X	Gloss=to pay out, to render, to expend
+9	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	8	obl:prep	X	Gloss=to, for, by etc.
+10	thuforacht	fortacht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Typo=Yes	8	xcomp	X	Gloss=the act of aiding, helping|CorrectForm=thufortacht
 11	..	..	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2516
