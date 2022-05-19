@@ -33739,16 +33739,17 @@
 # sent_id = S0006-2528
 # text = .i. amal dunesmar 7 asroither uisce fortalmain cech leth
 # text_en = i.e. as water is poured forth and scattered on the earth on every side.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	du·nesmar	do·eisim	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to shed, to pour
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-5	as·sroither	as·srui	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to scatter
-6	uisce	uisce	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=water
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	3	mark	X	Gloss=as, like; translating Latin ut
+3	du·nesmar	do·eisim	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to shed, to pour
+4	7	ocus 2	CCONJ	conjunction	_	5	cc	X	Gloss=coordinating: and, since
+5	as·sroither	as·srui	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	conj	X	Gloss=to scatter
+6	uisce	uisce	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=water
+7-8	fortalmain	_	_	_	_	_	_	_	_
 7	for	for	ADP	preposition	Case=Acc	8	case	X	Gloss=upon, over, on
-8	talmain	talam	NOUN	noun	Case=Dat	_	_	X	Gloss=earth, world; ground ; land
+8	talmain	talam	NOUN	noun	Case=Dat	5	obl	X	Gloss=earth, world; ground ; land
 9	cech	cach	DET	adjective_quantifier	Case=Acc|Number=Sing|Gender=Neut|PronType=Tot	10	det	X	Gloss=every, each, all, any
-10	leth	leth	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
+10	leth	leth	NOUN	noun	Case=Acc|Number=Sing	5	obl	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
 
 # sent_id = S0006-2529
 # text = .i. rolaad cech alt asachoir dam· as inchobás hirobae
@@ -33815,19 +33816,19 @@
 # sent_id = S0006-2533
 # text = .i. connabí ingnae les fritaibairt nachreto··
 # text_en = i.e. so that it does not have knowledge for the understanding of anything.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	connabí	_	_	_	_	_	_	_	_
-2	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	nna·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-4	·bí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-5	ingnae	ingnae	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of understanding, comprehending
-6	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+2	co	co 4	SCONJ	complementiser	_	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	nna·	ná 2	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+4	·bí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be, to exist,
+5	ingnae	ingnae	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	4	csubj	X	Gloss=the act of understanding, comprehending
+6	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	4	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 7-8	fritaibairt	_	_	_	_	_	_	_	_
 7	fri	fri	ADP	preposition	Case=Acc	8	case	X	Gloss=towards, against, standard of comparison
-8	taibairt	tabart 2	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of understanding
+8	taibairt	tabart 2	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	5	advcl	X	Gloss=the act of understanding
 9-10	nachreto··	_	_	_	_	_	_	_	_
-9	nach	nach 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc|PronType=Ind	_	_	X	Gloss=any, every, each, some, none
-10	reto	rét 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=thing
+9	nach	nach 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc|PronType=Ind	9	amod	X	Gloss=any, every, each, some, none
+10	reto	rét 1	NOUN	noun	Case=Gen|Number=Sing	8	obj	X	Gloss=thing
 11	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2534
@@ -34036,19 +34037,19 @@
 # sent_id = S0006-2556
 # text = .i. hoabísolón dugabail rigi for chenn áathar
 # text_en = i.e. by Absalom in order to take the kingship in his father’s place.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	hoabísolón	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	3	case	X	Gloss=from, out of, by
-3	abísolón	Abisolon	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=Absalom
+3	abísolón	Abisolon	PROPN	proper_noun	Case=Dat|Number=Sing	0	root	X	Gloss=Absalom
 4-5	dugabail	_	_	_	_	_	_	_	_
 4	du	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
-5	gabail	gabál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of taking, assuming, singing, saying (of a psalm), capturing, holding; armful, snare, ambush
-6	rigi	ríge	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=ruling; kingship, sovereignty
+5	gabail	gabál	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of taking, assuming, singing, saying (of a psalm), capturing, holding; armful, snare, ambush
+6	rigi	ríge	NOUN	noun	Case=Gen|Number=Sing	5	obj	X	Gloss=ruling; kingship, sovereignty
 7	for	for	ADP	preposition	Case=Acc	8	case	X	Gloss=upon, over, on
-8	chenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=head; end-point, termination, exchange, purchase
+8	chenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing	5	obl	X	Gloss=head; end-point, termination, exchange, purchase
 9-10	áathar	_	_	_	_	_	_	_	_
-9	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	_	X	Gloss=his, its
-10	athar	athair	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=father
+9	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	nmod:poss	X	Gloss=his, its
+10	athar	athair	NOUN	noun	Case=Gen|Number=Sing	8	nmod	X	Gloss=father
 
 # sent_id = S0006-2557
 # text = .i. huan chommund .i. hochomlugu .i. hoélud
