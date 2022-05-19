@@ -34408,16 +34408,16 @@
 # sent_id = S0006-2589
 # text = .i. inna nime fadesin ɫ. it 〈ind〉 inna nime ata forcitlaidi·
 # text_en = i.e. the heavens themselves, or it is the heavens that are teachers.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	nime	nem	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=heaven, the abode of the blessed, ceiling, sky
-4	fadesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
-5	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-6	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+3	nime	nem	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=heaven, the abode of the blessed, ceiling, sky
+4	fadesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	3	nmod	X	Gloss=self
+5	ɫ	nó 1	CCONJ	conjunction	_	8	cc	X	Gloss=disjunctive: or
+6	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
 7	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	nime	nem	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=heaven, the abode of the blessed, ceiling, sky
-9	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-10	forcitlaidi	forcetlaid	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=teacher, instructor
+8	nime	nem	NOUN	noun	Case=Nom|Number=Plur	3	conj	X	Gloss=heaven, the abode of the blessed, ceiling, sky
+9	ata	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	10	cop	X	Gloss=to be
+10	forcitlaidi	forcetlaid	NOUN	noun	Case=Nom|Number=Plur	8	csubj:cleft	X	Gloss=teacher, instructor
 11	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2590
@@ -35259,16 +35259,16 @@
 # sent_id = S0006-2654
 # text = .i. amal bid an dupluintais .i. 〈cena〉 cena nersolcud són·
 # text_en = i.e. as though it were when they were sluggish, i.e. that is, their being unopened.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-5	ndu·pluintais	do·pliúna	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be sluggish, to be inert
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
+3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+4	a	a 6	SCONJ	conjunction	_	5	mark	X	Gloss=temporal: when, since
+5	ndu·pluintais	do·pliúna	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	0	root	X	Gloss=to be sluggish, to be inert
+6	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
 7	cen	cen	ADP	preposition	Case=Acc	9	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-8	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	9	_	X	Gloss=their
-9	nersolcud	airsolcud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of opening
-10	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+8	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	9	obj:poss	X	Gloss=their
+9	nersolcud	airsolcud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	5	conj	X	Gloss=the act of opening
+10	són	-són	PRON	particle_anaphoric	_	9	discourse	X	Gloss=that (mentioned above) that is
 11	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2655 - reliqua
@@ -35311,20 +35311,22 @@
 1	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
 2	cuimrechta	cuimrechtai	X	verbal_of_necessity	_	_	_	X	Gloss=to be bound, to be fettered
 
-# sent_id = S0006-2659
+# sent_id = S0006-2659 - reliqua
 # text = .i. doberar aithirriuch ánim chomarc .i. quis est iste rl.
 # text_en = i.e. the question is put again, i.e. quis est etc.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	do·berar	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-3	aithirriuch	aitherrach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of repeating; repetition
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	do·berar	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+3	aithirriuch	aitherrach	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of repeating; repetition
+4-5	ánim	_	_	_	_	_	_	_	_
 4	á	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	nimchomarc	immchomarc	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of questioning; question, inquiry, interrogation
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-7	quis	quis	X	pronoun_interrogative	_	_	_	X	Gloss=who? which one?
-8	est	sum	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to be
-9	iste	iste	X	pronoun_demonstrative	_	_	_	X	Gloss=that, that particular
-10	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
-11	.	.	PUNCT	punctuation	_	_	_	_	_
+5	nim	immchomarc	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Typo=Yes	2	nsubj	X	Gloss=the act of questioning; question, inquiry, interrogation|CorrectForm=nimchomarc
+6	chomarc	_	X	_	_	5	goeswith	X	_
+7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
+8	quis	quis	X	pronoun_interrogative	_	2	conj	X	Gloss=who? which one?
+9	est	sum	VERB	verb	Voice=Act|Mood=Ind	8	flat	X	Gloss=to be
+10	iste	iste	X	pronoun_demonstrative	_	8	flat	X	Gloss=that, that particular
+11	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
+12	.	.	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2660
 # text = airindéǽs
