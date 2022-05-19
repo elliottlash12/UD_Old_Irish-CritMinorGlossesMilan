@@ -30604,16 +30604,16 @@
 # sent_id = S0006-2271
 # text = .i. nifir adrad huathuil bís leu dudia
 # text_en = i.e. it is not true worship out of desire which they have to God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	fír	fír	ADJ	adjective	Degree=Pos	_	_	X	Gloss=true, veracious, real
-4	adrad	adrad 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of worshipping, adorating
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	fír	fír	ADJ	adjective	Degree=Pos	4	amod	X	Gloss=true, veracious, real
+4	adrad	adrad 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of worshipping, adorating
 5	hua	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
-6	thuil	tol	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=desire, appetite, will, affection
-7	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-8	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+6	thuil	tol	NOUN	noun	Case=Dat|Number=Sing	4	obl	7:obj|4:obl	Gloss=desire, appetite, will, affection
+7	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to be, to exist,
+8	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	7	xcomp:pred:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 9	du	do 1	ADP	preposition	Case=Dat	10	case	X	Gloss=to, for, by etc.
-10	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=god, deity, God
+10	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	7	obl	X	Gloss=god, deity, God
 
 # sent_id = S0006-2272
 # text = .i. airis arecin duberr foraib
@@ -31151,17 +31151,18 @@
 # sent_id = S0006-2310 - editorial
 # text = .i. airthuccai cach chenel hí coitchet chenas [leg. coitchenas] aninsci sidi
 # text_en = i.e. for each nation together understands its [lit. their] speech.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	airthuccai	_	_	_	_	_	_	_	_
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	thuccai	do·uccai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to understand
+2	air	ar 2	SCONJ	conjunction	_	3	mark	X	Gloss=causal: since, for; final: so that
+3	thuccai	do·uccai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to understand
 4	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Neut|PronType=Tot	5	det	X	Gloss=every, each, all, any
-5	chenel	cenél	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=kind, sort, type, kindred, race, tribe, nation, gramm. gender
+5	chenel	cenél	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=kind, sort, type, kindred, race, tribe, nation, gramm. gender
 6	hí	i	ADP	preposition	Case=Dat	7	case	X	Gloss=in, into
-7	coitchenas	coitchennas	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=community, company; generality; commoness
-8	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	9	_	X	Gloss=their
-9	ninsci	insce	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=saying, speech, statement, word
-10	sidi	-side	PRON	particle_anaphoric	Case=Gen|Number=Plur|Gender=Neut	_	_	X	Gloss=that one, he, she, it, they
+7	coitchenas	coitchennas	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=community, company; generality; commoness
+8-9	aninsci	_	_	_	_	_	_	_	_
+8	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	9	nmod:poss	X	Gloss=their
+9	ninsci	insce	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=saying, speech, statement, word
+10	sidi	-side	PRON	particle_anaphoric	Case=Gen|Number=Plur|Gender=Neut	9	nmod	X	Gloss=that one, he, she, it, they
 
 # sent_id = S0006-2311
 # text = .i. airnibi eulach
@@ -31198,18 +31199,18 @@
 # sent_id = S0006-2313
 # text = id est oratio .i. innandule duetarcnu de treu
 # text_en = i.e. of the elements, for understanding God through them.
-1	id	id	X	pronoun	_	_	_	X	Gloss=it
-2	est	sum	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to be
-3	oratio	ōrātiō	NOUN	noun	_	_	_	X	Gloss=speech, oration, prayer, discourse language
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	id	id	X	pronoun	_	0	root	X	Gloss=it
+2	est	sum	VERB	verb	Voice=Act|Mood=Ind	1	flat	X	Gloss=to be
+3	oratio	ōrātiō	NOUN	noun	_	1	flat	X	Gloss=speech, oration, prayer, discourse language
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	innandule	_	_	_	_	_	_	_	_
 5	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	ndule	dúil 1	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=element, being, creature, thing
+6	ndule	dúil 1	NOUN	noun	Case=Gen|Number=Plur	1	conj	X	Gloss=element, being, creature, thing
 7-8	duetarcnu	_	_	_	_	_	_	_	_
-7	du	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
-8	etarcnu	etargnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
-9	de	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
-10	treu	tre	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=through (time or space), by means of, be reason of
+7	du	do 1	ADP	preposition	Case=Dat	8	mark:prt	X	Gloss=to, for, by etc.
+8	etarcnu	etargnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	6	advcl	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
+9	de	día 2	NOUN	noun	Case=Gen|Number=Sing	8	obj	X	Gloss=god, deity, God
+10	treu	tre	ADP	preposition	Person=3|Number=Plur|Case=Acc	8	obl:prep	X	Gloss=through (time or space), by means of, be reason of
 
 # sent_id = S0006-2314
 # text = .i. dusnucai cech mbélrae
