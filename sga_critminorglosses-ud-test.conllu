@@ -31284,19 +31284,19 @@
 # sent_id = S0006-2321
 # text = .i. amal bidalai chumachtaig· rethes cenerchót áretho
 # text_en = i.e. as if it were of some mighty one who runs without hindrance to his running.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
 3-4	bidalai	_	_	_	_	_	_	_	_
-3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	alai	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc|Typo=Yes	_	_	X	Gloss=other, the other|CorrectForm=alaili
-5	chumachtaig	cumachtach	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=mighty, powerful
-6	rethes	reithid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to run, to hasten, to speed
+3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+4	alai	alaile	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc|Typo=Yes	5	amod	X	Gloss=other, the other|CorrectForm=alaili
+5	chumachtaig	cumachtach	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	0	root	6:nsubj|0:root	Gloss=mighty, powerful
+6	rethes	reithid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	acl:relcl	X	Gloss=to run, to hasten, to speed
 7-8	cenerchót	_	_	_	_	_	_	_	_
 7	cen	cen	ADP	preposition	Case=Acc	8	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-8	erchót	airchót	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of harming, injuring, hindering, preventing; damage
+8	erchót	airchót	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	6	advcl	X	Gloss=the act of harming, injuring, hindering, preventing; damage
 9-10	áretho	_	_	_	_	_	_	_	_
-9	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	_	X	Gloss=his, its
-10	retho	riuth	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of running; a run, rapid course
+9	á	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	nmod	X	Gloss=his, its
+10	retho	riuth	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	8	obj	X	Gloss=the act of running; a run, rapid course
 
 # sent_id = S0006-2322
 # text = biudichiu
@@ -31821,19 +31821,19 @@
 # sent_id = S0006-2375
 # text = .i. intan noscairiub frisna huili deithidnea domaindi
 # text_en = i.e. when I will part from all worldly anxieties.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	intan	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	tan	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
+3	tan	tan	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=time
 4-5	noscairiub	_	_	_	_	_	_	_	_
-4	no·	no·	SCONJ	particle_preverb	_	_	mark:prt	X	Gloss=empty particle
-5	·scairiub	scaraid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to separate, to relinquish, to give up, to be without, to desist from
+4	no·	no·	SCONJ	particle_preverb	_	5	mark:prt	X	Gloss=empty particle
+5	·scairiub	scaraid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	acl:relcl	X	Gloss=to separate, to relinquish, to give up, to be without, to desist from
 6-7	frisna	_	_	_	_	_	_	_	_
-6	fri	fri	ADP	preposition	Case=Acc	_	case	X	Gloss=towards, against, standard of comparison
-7	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
-8	huili	uile	ADJ	adjective_quantifier	Case=Acc|Number=Plur|Gender=Fem	_	_	X	Gloss=all, every, the whole
-9	deithidnea	deithiden	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=care, concern, solicitude, attention
-10	domaindi	domundae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Fem|Degree=Pos	_	_	X	Gloss=worldly, mundane, secular
+6	fri	fri	ADP	preposition	Case=Acc	9	case	X	Gloss=towards, against, standard of comparison
+7	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
+8	huili	uile	ADJ	adjective_quantifier	Case=Acc|Number=Plur|Gender=Fem	9	amod	X	Gloss=all, every, the whole
+9	deithidnea	deithiden	NOUN	noun	Case=Acc|Number=Plur	5	obl	X	Gloss=care, concern, solicitude, attention
+10	domaindi	domundae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Fem|Degree=Pos	9	amod	X	Gloss=worldly, mundane, secular
 
 # sent_id = S0006-2376
 # text = immasiassair .i. imhirusalem
@@ -32015,18 +32015,18 @@
 # sent_id = S0006-2396
 # text = .i. arisfailtigiud inpopuil immefolngi failte inna ríg
 # text_en = i.e. for it is the rejoicing of the people that the joy of the kings causes.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	arisfailtigiud	_	_	_	_	_	_	_	_
-2	ar	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	failtigiud	fáiltigiud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of rejoicing
+2	ar	ar 2	SCONJ	conjunction	_	4	mark	X	Gloss=causal: since, for; final: so that
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	failtigiud	fáiltigiud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of rejoicing
 5-6	inpopuil	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	popuil	popul	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
-7	imme·folngi	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to cause, to produce, to make, to effect, to support
-8	failte	fáilte	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=joy, happiness; welcome, greeting, salutation
+6	popuil	popul	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+7	imme·folngi	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	4	csubj:cleft	X	Gloss=to cause, to produce, to make, to effect, to support
+8	failte	fáilte	NOUN	noun	Case=Nom|Number=Sing	7	nsubj	X	Gloss=joy, happiness; welcome, greeting, salutation
 9	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	ríg	rí	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=king
+10	ríg	rí	NOUN	noun	Case=Gen|Number=Plur	8	nmod	X	Gloss=king
 
 # sent_id = S0006-2397
 # text = .i. rolina
