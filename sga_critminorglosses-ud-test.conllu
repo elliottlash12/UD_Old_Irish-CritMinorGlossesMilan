@@ -30121,21 +30121,21 @@
 # sent_id = S0006-2214
 # text = .i. combethré· imradad són 7 nombeth cen olc huadibsom
 # text_en = i.e. that is, so that there should be a time that he might think and that he might be without evil from them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	combethré	_	_	_	_	_	_	_	_
-2	co·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	·mbeth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-4	ré	ré	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
+2	co·	co 4	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	·mbeth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+4	ré	ré	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	6:obj|3:nsubj	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
 5	·	·	PUNCT	punctuation	_	_	_	_	_
-6	im·radad	imm·rádai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to mention, to think about to plan, to treat of, to commemorate
-7	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-9	no·mbeth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-10	cen	cen	ADP	preposition	Case=Acc	_	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-11	olc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+6	im·radad	imm·rádai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	4	acl:relcl	X	Gloss=to mention, to think about to plan, to treat of, to commemorate
+7	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
+8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+9	no·mbeth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	conj	X	Gloss=to be, to exist,
+10	cen	cen	ADP	preposition	Case=Acc	11	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
+11	olc	olc	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	9	xcomp:pred	X	Gloss=evil, bad, wrong
 12-13	huadibsom	_	_	_	_	_	_	_	_
-12	huadib	ó 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=from, out of, by
-13	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
+12	huadib	ó 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	13	case	X	Gloss=from, out of, by
+13	som	nota augens	PRON	particle_pronominal	PronType=Prs	9	obl	X	Gloss=emphasising particle
 
 # sent_id = S0006-2215
 # text = rem déicsen .i. reæ centabairt diglae foir ni ɔdrobae som indræsin
@@ -30418,18 +30418,18 @@
 # text_en = to my instructions, i.e. so that I may reveal to them that which is a desire for me.
 1-3	duinchoscaibse	_	_	_	_	_	_	_	_
 1	du	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
-2	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Typo=Yes	3	_	X	Gloss=my|Addition=Yes
-3	inchoscaibse	inchosc	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of denoting, signifying; indication, sign, instruction
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Typo=Yes	3	nmod:poss	X	Gloss=my|Addition=Yes
+3	inchoscaibse	inchosc	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of denoting, signifying; indication, sign, instruction
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-7	conrúrélsa	_	_	_	_	_	_	_	_
-5	con	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-6	rú·rél	rélaid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to reveal, to manifest, to declare, to make clear
-7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-8	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-9	a	a 4	PRON	pronoun_relative	Case=Acc|Number=Sing|PronType=Rel	_	_	X	Gloss=that, which
-10	nas	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-11	accobur	accobor	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of desiring, wishing; desire, wish, appetite
-12	liúm	la	ADP	preposition	Person=1|Number=Sing|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+5	con	co 4	SCONJ	complementiser	_	6	mark:prt	X	Gloss=so that, until (+independent, leniting)
+6	rú·rél	rélaid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	3	conj	X	Gloss=to reveal, to manifest, to declare, to make clear
+7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	6	nsubj	X	Gloss=emphasising particle
+8	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	6	obl:prep	X	Gloss=to, for, by etc.
+9	a	a 4	PRON	pronoun_relative	Case=Acc|Number=Sing|PronType=Rel	6	obj	11:nsubj|6:obj	Gloss=that, which
+10	nas	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	11	cop	X	Gloss=to be
+11	accobur	accobor	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	9	acl:relcl	X	Gloss=the act of desiring, wishing; desire, wish, appetite
+12	liúm	la	ADP	preposition	Person=1|Number=Sing|Case=Acc	11	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0006-2253
 # text = .i. geillfit ón
@@ -30651,21 +30651,21 @@
 # sent_id = S0006-2276
 # text = .i. lassambí indfeuchrae 7 incrodatu quam nechtar dæ·
 # text_en = i.e. with whom is savageness and cruelty than (he with whom is) one of the two.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	lassambí	_	_	_	_	_	_	_	_
-2	la	la	ADP	preposition	Case=Acc	_	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-3	ssa·	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-4	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+2	la	la	ADP	preposition	Case=Acc	3	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+3	ssa·	-(s)a·	PRON	pronoun_relative	PronType=Rel	0	root	X	Gloss=which, who, whose
+4	·mbí	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	acl:relcl	X	Gloss=to be, to exist,
 5-6	indfeuchrae	_	_	_	_	_	_	_	_
 5	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	feuchrae	feochrae	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=sternness, rigor, fierceness, severity
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+6	feuchrae	feochrae	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=sternness, rigor, fierceness, severity
+7	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
 8-9	incrodatu	_	_	_	_	_	_	_	_
 8	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	crodatu	cródatu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=cruelty, harshness
-10	quam	quam	SCONJ	conjunction	_	_	mark	X	Gloss=how, than
-11	nechtar	nechtar	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=either, one of two
-12	dæ	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
+9	crodatu	cródatu	NOUN	noun	Case=Nom|Number=Sing	6	conj	X	Gloss=cruelty, harshness
+10	quam	quam	SCONJ	conjunction	_	11	case	X	Gloss=how, than
+11	nechtar	nechtar	PRON	pronoun_quantifier	Case=Nom|Number=Sing	3	obl	X	Gloss=either, one of two
+12	dæ	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=away, from, cause or reason, by
 13	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2277
