@@ -36326,19 +36326,19 @@
 # text = afuroissestar .i. duarbaid anoibi fadessin quando dixit innocentes et recti
 # text_en = when he confessed, i.e. he showed his own sanctity, quando etc.
 1-2	afuroissestar	_	_	_	_	_	_	_	_
-1	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-2	fu·roissestar	fo·sisedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to confess, to acknowledge, to admit
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	du·arbaid	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to show, to display, to demonstrate, to appear
+1	a	a 6	SCONJ	conjunction	_	2	mark	X	Gloss=temporal: when, since
+2	fu·roissestar	fo·sisedar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to confess, to acknowledge, to admit
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	du·arbaid	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	2	conj	X	Gloss=to show, to display, to demonstrate, to appear
 5-6	anoibi	_	_	_	_	_	_	_	_
-5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	noibi	noíbe	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=holiness, sanctity
-7	fadessin	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
-8	quando	quandō	ADV	adverb	_	_	_	X	Gloss=when
-9	dixit	dīcō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to say, to declare, to call
+5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+6	noibi	noíbe	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=holiness, sanctity
+7	fadessin	fadesin	PRON	pronoun_emphatic	PronType=Emp	6	nmod	X	Gloss=self
+8	quando	quandō	ADV	adverb	_	9	mark	X	Gloss=when
+9	dixit	dīcō	VERB	verb	Voice=Act|Mood=Ind	4	advcl	X	Gloss=to say, to declare, to call
 10	innocentes	innocēns	ADJ	adjective	Degree=Pos	_	_	X	Gloss=harmless, blameless, innocent
-11	et	et	CCONJ	conjunction	_	_	cc	X	Gloss=and
-12	recti	rēctus	ADJ	verbal_participle	_	_	_	X	Gloss=_
+11	et	et	CCONJ	conjunction	_	12	cc	X	Gloss=and
+12	recti	rēctus	ADJ	verbal_participle	_	10	conj	X	Gloss=_
 
 # sent_id = S0006-2729
 # text = innacoiccéilseni
@@ -36785,21 +36785,21 @@
 # sent_id = S0006-2769
 # text = fris tairissetar .i. bite ingail chuimlin friu duṅdaleith
 # text_en = who oppose, i.e. who are in a fight of equal numbers with them on the other side.
-1	fris·tairissetar	fris·tairisedar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to make a stand against, to oppose (intrans)
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	bite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+1	fris·tairissetar	fris·tairisedar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to make a stand against, to oppose (intrans)
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	bite	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	1	conj	X	Gloss=to be, to exist,
 4-5	ingail	_	_	_	_	_	_	_	_
 4	i	i	ADP	preposition	Case=Dat	5	case	X	Gloss=in, into
-5	ngail	airgal	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Typo=Yes	_	_	X	Gloss=the act of fighting; strife, contest, line of battle, battalion|CorrectForm=nergail
+5	ngail	airgal	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Typo=Yes	3	advcl	X	Gloss=the act of fighting; strife, contest, line of battle, battalion|CorrectForm=nergail
 6-7	chuimlin	_	_	_	_	_	_	_	_
-6	chuim	com- 2	X	particle_prefix	_	_	_	X	Gloss=mutual, together, equal ; with, lexicalized meanings
-7	lin	lín 1	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=number, full number, complement, multitude (of persons)
-8	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
+6	chuim	com- 2	X	particle_prefix	_	7	amod	X	Gloss=mutual, together, equal ; with, lexicalized meanings
+7	lin	lín 1	NOUN	noun	Case=Gen|Number=Sing	5	obj	X	Gloss=number, full number, complement, multitude (of persons)
+8	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc	5	obl:prep	X	Gloss=towards, against, standard of comparison
 9-12	duṅdaleith	_	_	_	_	_	_	_	_
 9	du	do 1	ADP	preposition	Case=Dat	12	case	X	Gloss=to, for, by etc.
-10	ṅd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	a	ala	X	adjective_pronominal	Case=Dat|Number=Sing|Gender=Neut|Typo=Yes	_	_	X	Gloss=the other, one another ; else; second|CorrectForm=ala
-12	leith	leth	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
+10	ṅd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	12	det	X	Gloss=the
+11	a	ala	X	adjective_pronominal	Case=Dat|Number=Sing|Gender=Neut|Typo=Yes	12	amod	X	Gloss=the other, one another ; else; second|CorrectForm=ala
+12	leith	leth	NOUN	noun	Case=Dat|Number=Sing	5	obl	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
 
 # sent_id = S0006-2770
 # text = .i. is mou cech erchoat domsa huadibso erbert biuth meulae..
@@ -36943,24 +36943,24 @@
 5	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	6	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 6	som	nota augens	PRON	particle_pronominal	PronType=Prs	1	obl	X	Gloss=emphasising particle
 
-# sent_id = S0006-2783 - check line 9
+# sent_id = S0006-2783 - check line 9 (missing 'uisitem')
 # text = duthrachta lesom anisiu forsauissitam fel in psalterio
 # text_en = he has this in order to comment on the uisitem which is in the psalter.
 1-2	duthrachta	_	_	_	_	_	_	_	_
-1	du	do 1	ADP	preposition	Case=Dat	2	case	X	Gloss=to, for, by etc.
-2	thrachta	tráchtad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Typo=Yes	_	_	X	Gloss=the act of discussing; commentary, interpretation|CorrectForm=thrachtad
+1	du	do 1	ADP	preposition	Case=Dat	2	mark:prt	X	Gloss=to, for, by etc.
+2	thrachta	tráchtad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Typo=Yes	0	root	X	Gloss=the act of discussing; commentary, interpretation|CorrectForm=thrachtad
 3-4	lesom	_	_	_	_	_	_	_	_
-3	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+3	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	3	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	2	obl	X	Gloss=emphasising particle
 5-7	anisiu	_	_	_	_	_	_	_	_
 5	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
 6	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-7	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this, these
-8	for	for	ADP	preposition	Case=Acc	_	case	X	Gloss=upon, over, on
-9	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-10	fel	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-11	in	in (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=in, into
-12	psalterio	psaltērium	NOUN	noun	_	_	_	X	Gloss=_
+7	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	6	appos	X	Gloss=this, these
+8	for	for	ADP	preposition	Case=Acc	10	case	X	Gloss=upon, over, on
+9	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
+10	fel	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	acl:relcl	X	Gloss=to be, to exist,
+11	in	in (Lat)	ADP	preposition	Case=Unk	12	case	X	Gloss=in, into
+12	psalterio	psaltērium	NOUN	noun	_	10	obl	X	Gloss=_
 
 # sent_id = S0006-2784
 # text = etir inninilligud .i. indítin són
