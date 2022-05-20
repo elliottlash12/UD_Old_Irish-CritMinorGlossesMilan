@@ -35820,16 +35820,16 @@
 1-3	donahi	_	_	_	_	_	_	_	_
 1	do	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
 2	na	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	hi	í 1	PRON	pronoun_propword	Case=Dat|Number=Plur|Gender=Masc	_	_	X	Gloss=substantivizing particle
+3	hi	í 1	PRON	pronoun_propword	Case=Dat|Number=Plur|Gender=Masc	0	root	X	Gloss=substantivizing particle
 4-7	diandrerchoil	_	_	_	_	_	_	_	_
-4	di	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-5	a	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-6	nd·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
-7	·rerchoil	as·rochoíli	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to define, to determine
+4	di	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
+5	a	-(s)a·	PRON	pronoun_relative	PronType=Rel	7	obl	X	Gloss=which, who, whose
+6	nd·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	7	inf:obj	X	Gloss=it
+7	·rerchoil	as·rochoíli	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to define, to determine
 8-9	intí	_	_	_	_	_	_	_	_
 8	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-10	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
+9	í	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Masc	7	nsubj	X	Gloss=substantivizing particle
+10	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	9	appos	X	Gloss=god, deity, God
 
 # sent_id = S0006-2698
 # text = it hesidi torud bete .i. it hé torud arabeitfetsom isnaib fochaidib imbiat fis forcell 7 dliged rechto ndǽ··
@@ -36597,18 +36597,18 @@
 # sent_id = S0006-2751
 # text = .i. arna lithu .i. dég anermiten feid adi
 # text_en = i.e. on account of the feasts, i.e. because of their honour.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	arna	_	_	_	_	_	_	_	_
 2	ar	ar 1	ADP	preposition	Case=Acc	4	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 3	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	lithu	líth	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=festival, feast day, festivity, entertainment, rejoining; luck, prosperity; omen
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+4	lithu	líth	NOUN	noun	Case=Acc|Number=Plur	0	root	X	Gloss=festival, feast day, festivity, entertainment, rejoining; luck, prosperity; omen
+5	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
 6	dég	dég 1	ADP	preposition	Case=Gen	8	case	X	Gloss=prep: because of; in return for
 7-8	anermiten	_	_	_	_	_	_	_	_
-7	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	_	X	Gloss=their
-8	nermiten	airmitiu	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of revering; reverence, honor
-9	feid	fíad 5	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=honor, dignity, elevation; respect, reverence
-10	adi	-side	PRON	particle_anaphoric	Case=Gen|Number=Plur|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
+7	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	8	obj:poss	X	Gloss=their
+8	nermiten	airmitiu	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of revering; reverence, honor
+9	feid	fíad 5	NOUN	noun	Case=Dat|Number=Sing	8	obl	X	Gloss=honor, dignity, elevation; respect, reverence
+10	adi	-side	PRON	particle_anaphoric	Case=Gen|Number=Plur|Gender=Masc	8	obj	X	Gloss=that one, he, she, it, they
 
 # sent_id = S0006-2752
 # text = intaidchor
@@ -36711,19 +36711,19 @@
 # sent_id = S0006-2762
 # text = .i. ni sain mognim frisaní noradim
 # text_en = i.e. my deed is not different from that which I say.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=different, distinct, separate, peculiar, special
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ni	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=different, distinct, separate, peculiar, special
 4-5	mognim	_	_	_	_	_	_	_	_
-4	mo	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	5	_	X	Gloss=my
-5	gnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+4	mo	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	5	nmod:poss	X	Gloss=my
+5	gnim	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	nsubj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 6-8	frisaní	_	_	_	_	_	_	_	_
 6	fri	fri	ADP	preposition	Case=Acc	8	case	X	Gloss=towards, against, standard of comparison
 7	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
+8	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	3	obl	X	Gloss=substantivizing particle
 9-10	noradim	_	_	_	_	_	_	_	_
-9	no·	no·	SCONJ	particle_preverb	_	_	mark:prt	X	Gloss=empty particle
-10	·radim	ráidid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to speak, to say, to tell
+9	no·	no·	SCONJ	particle_preverb	_	10	mark:prt	X	Gloss=empty particle
+10	·radim	ráidid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	8	acl:relcl	X	Gloss=to speak, to say, to tell
 
 # sent_id = S0006-2763
 # text = .i. donaib atrabaib sain dilsib
