@@ -37000,22 +37000,22 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	assair	Asar	PROPN	proper_noun	Case=Nom|Number=Plur	_	_	X	Gloss=Assyrian
 
-# sent_id = S0006-2788
+# sent_id = S0006-2788 - line 9 - xcomp|nmod
 # text = int suibi ɫ. uociferationis· airis debe tintuda lessom·
 # text_en = of the jubilation, or uociferationis, for he has a difference of rendering.
 1	int	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	suibi	subae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=joy, pleasure, happiness, merriment
-3	ɫ.	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-4	uociferationis·	uōciferātiō	NOUN	noun	_	_	_	X	Gloss=_
+2	suibi	subae	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=joy, pleasure, happiness, merriment
+3	ɫ.	uel	CCONJ	conjunction	_	4	cc	X	Gloss=or, even
+4	uociferationis·	uōciferātiō	NOUN	noun	_	2	conj	X	Gloss=_
 5	·	·	PUNCT	punctuation	_	_	_	_	_
 6-7	airis	_	_	_	_	_	_	_	_
-6	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-8	debe	deibe	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=difference, variety, disagreement
-9	tintuda	tintúd	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of returning, translating; conversion, translation, recalling
+6	air	ar 2	SCONJ	conjunction	_	8	mark	X	Gloss=causal: since, for; final: so that
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+8	debe	deibe	NOUN	noun	Case=Nom|Number=Sing	4	advcl	X	Gloss=difference, variety, disagreement
+9	tintuda	tintúd	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	8	xcomp	X	Gloss=the act of returning, translating; conversion, translation, recalling
 10-11	lessom·	_	_	_	_	_	_	_	_
-10	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-11	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+10	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	11	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+11	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	obl	X	Gloss=emphasising particle
 12	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2789
@@ -37027,19 +37027,19 @@
 # sent_id = S0006-2790
 # text = .i. gigsesa .i. mosoirad arcechguasacht todochidi
 # text_en = i.e. I will pray, i.e. for my deliverance from every future peril.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	gigsesa	_	_	_	_	_	_	_	_
-2	gigse	guidid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to beseech, to pray to, to entreat; to desire
-3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	gigse	guidid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to beseech, to pray to, to entreat; to desire
+3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 5-6	mosoirad	_	_	_	_	_	_	_	_
-5	mo	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	6	_	X	Gloss=my
-6	soirad	sóerad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of freeing, delivering; deliverance
+5	mo	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	6	obj:poss	X	Gloss=my
+6	soirad	sóerad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of freeing, delivering; deliverance
 7-9	arcechguasacht	_	_	_	_	_	_	_	_
 7	ar	ar 1	ADP	preposition	Case=Dat	9	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 8	cech	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Fem|PronType=Tot	9	det	X	Gloss=every, each, all, any
-9	guasacht	gúasacht	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=danger, peril, difficulty
-10	todochidi	todochaide	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Fem	_	_	X	Gloss=gramm. future
+9	guasacht	gúasacht	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=danger, peril, difficulty
+10	todochidi	todochaide	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Fem	9	amod	X	Gloss=gramm. future
 
 # sent_id = S0006-2791
 # text = innúnn hílle
@@ -37601,18 +37601,18 @@
 # sent_id = S0006-2847
 # text = esfoiti .i. indéni assafoiter guth· roort dia assaru síc
 # text_en = emitted, i.e. with the swiftness with which voice is emitted, God slew the Assyrians thus.
-1	esfoiti	esfoíte	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=sent out
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	esfoiti	esfoíte	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Masc	0	root	X	Gloss=sent out
+2	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 3-4	indéni	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	déni	déine	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=swiftness, speed, impetuosity, vehemence
-5	assa·foiter	as·foídi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to send forth
-6	guth	guth	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=voice, sound, vowel, word
+4	déni	déine	NOUN	noun	Case=Dat|Number=Sing	8	dislocated	X	Gloss=swiftness, speed, impetuosity, vehemence
+5	assa·foiter	as·foídi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	acl:relcl	X	Gloss=to send forth
+6	guth	guth	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=voice, sound, vowel, word
 7	·	·	PUNCT	punctuation	_	_	_	_	_
-8	ro·ort	orgaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to kill, to despoil, to slay
-9	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
-10	assaru	Asar	PROPN	proper_noun	Case=Acc|Number=Plur	_	_	X	Gloss=Assyrian
-11	síc	sīc	ADV	adverb	_	_	_	X	Gloss=thus, so, like that
+8	ro·ort	orgaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	1	conj	X	Gloss=to kill, to despoil, to slay
+9	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	8	nsubj	X	Gloss=god, deity, God
+10	assaru	Asar	PROPN	proper_noun	Case=Acc|Number=Plur	8	obj	X	Gloss=Assyrian
+11	síc	sīc	ADV	adverb	_	8	advmod	X	Gloss=thus, so, like that
 
 # sent_id = S0006-2848
 # text = indemech
