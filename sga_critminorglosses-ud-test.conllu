@@ -38708,18 +38708,18 @@
 # sent_id = S0006-2952
 # text = .i. con aicelt 7 dorolaig inpeccad 7 ni n arraim· ar chairi do
 # text_en = i.e. He has covered up and forgiven the sin, and He has not reckoned it as a reproach unto him.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	con·aicelt	con·ceil	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to hide, to conceal
-3	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-4	do·rolaig	do·lugai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to forgive, to remit
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	con·aicelt	con·ceil	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to hide, to conceal
+3	7	ocus 2	CCONJ	conjunction	_	4	cc	X	Gloss=coordinating: and, since
+4	do·rolaig	do·lugai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	2	conj	X	Gloss=to forgive, to remit
 5	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	peccad	peccad	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=sin
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-8	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-9	·narraim	ad·rími	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to count, to enumerate, to reckon
+6	peccad	peccad	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=sin
+7	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+8	ni·	ní 3	PART	particle_negative_main	_	9	advmod:neg	X	Gloss=not
+9	·narraim	ad·rími	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	2	conj	X	Gloss=to count, to enumerate, to reckon
 10	ar	ar 1	ADP	preposition	Case=Acc	11	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-11	chairi	caire 1	NOUN	noun	Case=Dat	_	_	X	Gloss=crime, fault, sin
-12	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
+11	chairi	caire 1	NOUN	noun	Case=Dat	9	obl	X	Gloss=crime, fault, sin
+12	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	9	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-2953
 # text = dorolaig
@@ -38977,22 +38977,22 @@
 # sent_id = S0006-2979
 # text = .i. airnídoragab infaith iarfirinni stoir· ol stoirier
 # text_en = i.e. for it was not for that that the prophet uttered it according to the literal truth, says the commentator.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-5	airnídoragab	_	_	_	_	_	_	_	_
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-4	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
-5	ra·gab	gaibid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA|Aspect=Perf	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+2	air	ar 2	SCONJ	conjunction	_	4	mark	X	Gloss=causal: since, for; final: so that
+3	ní	ní 3	PART	particle_negative_main	_	4	advmod:neg	X	Gloss=not
+4	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	0	root	X	Gloss=to, for, by etc.
+5	ra·gab	gaibid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfA|Aspect=Perf	4	csubj:cleft	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 6-7	infaith	_	_	_	_	_	_	_	_
 6	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	faith	fáith	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=seer, prophet
+7	faith	fáith	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=seer, prophet
 8-9	iarfirinni	_	_	_	_	_	_	_	_
 8	iar	íar 1	ADP	preposition	Case=Dat	9	case	X	Gloss=after, behind, across, along, beyond, according to
-9	firinni	fírinne	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=truth; justice, righteousness
-10	stoir	stoir	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=history, story, account, literal meaning; record, account, reputation
+9	firinni	fírinne	NOUN	noun	Case=Dat|Number=Sing	5	obl	X	Gloss=truth; justice, righteousness
+10	stoir	stoir	NOUN	noun	Case=Gen|Number=Sing	9	nmod	X	Gloss=history, story, account, literal meaning; record, account, reputation
 11	·	·	PUNCT	punctuation	_	_	_	_	_
-12	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to say
-13	stoirier	stoirier	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=commentator
+12	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	4	parataxis	X	Gloss=to say
+13	stoirier	stoirier	NOUN	noun	Case=Nom|Number=Sing	12	nsubj	X	Gloss=commentator
 
 # sent_id = S0006-2980
 # text = air confograiged
