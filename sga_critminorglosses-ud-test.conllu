@@ -38318,20 +38318,20 @@
 # text_en = that he might think.
 1	du·mmenathar	do·moinethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to think, to suppose, to conjecture
 
-# sent_id = S0006-2915
+# sent_id = S0006-2915 - line 9 - obl:tmod|obl
 # text = .i. airroptar sonartu maicc israhel intain sin
 # text_en = i.e. for the Children of Israel were stronger at that time.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	airroptar	_	_	_	_	_	_	_	_
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	roptar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-4	so	so-	X	particle_prefix	_	_	_	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
-5	sonartu	sonairt	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=strong, firm, robust
-6	maicc	macc 1	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-7	israhel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Israel
+2	air	ar 2	SCONJ	conjunction	_	5	mark	X	Gloss=causal: since, for; final: so that
+3	roptar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	5	cop	X	Gloss=to be
+4	so	so-	X	particle_prefix	_	5	amod	X	Gloss=affixed to adjectives to form adjectives. In some cases merely intensive.: good
+5	sonartu	sonairt	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=strong, firm, robust
+6	maicc	macc 1	NOUN	noun	Case=Nom|Number=Plur	5	nsubj	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+7	israhel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=Israel
 8	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	tain	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
-10	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
+9	tain	tan	NOUN	noun	Case=Acc|Number=Sing	5	obl:tmod	X	Gloss=time
+10	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	9	det	X	Gloss=that, those
 
 # sent_id = S0006-2916
 # text = .i. dufutharctar som ol doib ceruptar enartu
@@ -38563,18 +38563,18 @@
 # sent_id = S0006-2936
 # text = erthroitae .i. huanduni fesin no huanach ailiu
 # text_en = checked, i.e. by the man himself or by some other.
-1	erthroitae	airthroítae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=checked, restrained
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	erthroitae	airthroítae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc	0	root	X	Gloss=checked, restrained
+2	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 3-5	huanduni	_	_	_	_	_	_	_	_
 3	hua	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
 4	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	duni	duine	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=person, human being
-6	fesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	_	_	X	Gloss=self
-7	no	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+5	duni	duine	NOUN	noun	Case=Dat|Number=Sing	1	conj	X	Gloss=person, human being
+6	fesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	5	nmod	X	Gloss=self
+7	no	nó 1	CCONJ	conjunction	_	10	cc	X	Gloss=disjunctive: or
 8-9	huanach	_	_	_	_	_	_	_	_
 8	hua	ó 1	ADP	preposition	Case=Dat	10	case	X	Gloss=from, out of, by
-9	nach	nach 1	X	adjective_pronominal	Case=Dat|Number=Sing|Gender=Masc|PronType=Ind	_	_	X	Gloss=any, every, each, some, none
-10	ailiu	aile 1	X	adjective_pronominal	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=other, another, else, second
+9	nach	nach 1	X	adjective_pronominal	Case=Dat|Number=Sing|Gender=Masc|PronType=Ind	10	det	X	Gloss=any, every, each, some, none
+10	ailiu	aile 1	X	adjective_pronominal	Case=Dat|Number=Sing|Gender=Masc	5	conj	X	Gloss=other, another, else, second
 
 # sent_id = S0006-2937
 # text = .i. innanimpesse .i. filiorum israhel
