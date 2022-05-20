@@ -31009,18 +31009,18 @@
 # text_en = of the non-trampler, i.e. like one who does not trample on his lord, sic dies.
 1-3	indnephchomainsedo	_	_	_	_	_	_	_	_
 1	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
-2	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
-3	chomainsedo	comainsid	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=trampler
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	amal	amail 1	ADP	preposition	Case=Acc	_	case	X	Gloss=as, like
-6	nech	nech	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
-7	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-8	·chomainsea	con·nesa	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to condemn, to spurn, to trample under foot
+2	neph	neb-	X	particle_prefix	_	3	advmod:emph	X	Gloss=negative prefix ; non-, un-
+3	chomainsedo	comainsid	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=trampler
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	amal	amail 1	ADP	preposition	Case=Acc	6	case	X	Gloss=as, like
+6	nech	nech	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Ind	3	conj	8:nsubj|3:conj	Gloss=anyone, one, someone
+7	nad·	nád 1	PART	particle_negative_subordinate	_	8	advmod:neg	X	Gloss=that...not
+8	·chomainsea	con·nesa	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	6	acl:relcl	X	Gloss=to condemn, to spurn, to trample under foot
 9-10	achoimdid	_	_	_	_	_	_	_	_
-9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	_	X	Gloss=his, its
-10	choimdid	coimdiu	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=lord, master, the Lord, God
-11	sic	sīc	ADV	adverb	_	_	_	X	Gloss=thus, so, like that
-12	dies	dies	NOUN	noun	_	_	_	X	Gloss=day, date
+9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	nmod	X	Gloss=his, its
+10	choimdid	coimdiu	NOUN	noun	Case=Acc|Number=Sing	8	obj	X	Gloss=lord, master, the Lord, God
+11	sic	sīc	ADV	adverb	_	6	advmod	X	Gloss=thus, so, like that
+12	dies	dies	NOUN	noun	_	11	flat	X	Gloss=day, date
 
 # sent_id = S0006-2302
 # text = cid
@@ -31369,18 +31369,18 @@
 # sent_id = S0006-2327
 # text = ɫ. is sic dispositio .i. uoluit indicare per hoc quod explicet rl.
 # text_en = or the arrangement is thus: uoluit etc.
-1	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	sic	sīc	ADV	adverb	_	_	_	X	Gloss=thus, so, like that
-4	dispositio	dispositiō	NOUN	noun	_	_	_	X	Gloss=_
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	uoluit	uolō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-7	indicare	indicō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-8	per	per	ADP	preposition	Case=Unk	_	case	X	Gloss=through, across, all over, during
-9	hoc	hīc 1	X	pronoun_demonstrative	_	_	_	X	Gloss=this, these, that, those
-10	quod	quī	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=who, which
-11	explicet	explicō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-12	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
+1	ɫ	nó 1	CCONJ	conjunction	_	4	cc	X	Gloss=disjunctive: or
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+3	sic	sīc	ADV	adverb	_	4	advmod	X	Gloss=thus, so, like that
+4	dispositio	dispositiō	NOUN	noun	_	0	root	X	Gloss=_
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	uoluit	uolō	VERB	verb	Voice=Act|Mood=Ind	4	conj	X	Gloss=_
+7	indicare	indicō	VERB	verb	Voice=Act|Mood=Ind	6	flat	X	Gloss=_
+8	per	per	ADP	preposition	Case=Unk	6	flat	X	Gloss=through, across, all over, during
+9	hoc	hīc 1	X	pronoun_demonstrative	_	6	flat	X	Gloss=this, these, that, those
+10	quod	quī	PRON	pronoun_relative	PronType=Rel	6	flat	X	Gloss=who, which
+11	explicet	explicō	VERB	verb	Voice=Act|Mood=Ind	6	flat	X	Gloss=_
+12	rl.	reliqua	NOUN	noun	_	6	flat	X	Gloss=the rest, remainder
 13	.	.	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2328
@@ -31419,21 +31419,21 @@
 1	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
 2	tes	tes 2	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=heat, warmth
 
-# sent_id = S0006-2332
+# sent_id = S0006-2332 - reliqua
 # text = .i. sechis óin fithis on .i. cen fris ngabail centoined rl.
 # text_en = i.e. that is, one course, i.e. without rising, without setting, etc.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	óin	óen	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
-5	fithis	fithis	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=circuit, circular course, orbit; channel, passage; loop, ring
-6	on	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	sech	sech 2	X	conjunction	_	5	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+4	óin	óen	ADJ	adjective_numeral_noun	_	5	nummod	X	Gloss=one, single, same, only, unique; as compound element 'great'
+5	fithis	fithis	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=circuit, circular course, orbit; channel, passage; loop, ring
+6	on	-ón	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (aforementioned)
+7	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
 8	cen	cen	ADP	preposition	Case=Acc	9	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-9	frisngabail	frisngabál	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of rising or ascending
+9	frisngabail	frisngabál	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	5	conj	X	Gloss=the act of rising or ascending
 10	cen	cen	ADP	preposition	Case=Acc	11	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-11	toined	tóiniud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of descending, departing, setting
+11	toined	tóiniud	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	9	conj	X	Gloss=the act of descending, departing, setting
 12	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
 13	.	.	PUNCT	punctuation	_	_	_	_	_
 
