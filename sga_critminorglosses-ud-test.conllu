@@ -12500,9 +12500,9 @@
 2	co·	co 4	SCONJ	complementiser	_	3	mark:prt	X	Gloss=so that, until (+independent, leniting)
 3	·mbed	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
 4	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	3	xcomp:pred:prep	X	Gloss=to, for, by etc.
-5	foraithmet	foraithmet	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	nsubj	X	Gloss=the act of remembering, calling to mind; recollection
+5	foraithmet	foraithmet	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	nsubj	7:nsubj|3:nsubj	Gloss=the act of remembering, calling to mind; recollection
 6-7	bedtorbach	_	_	_	_	_	_	_	_
-6	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	7	cop	X	Gloss=to be
+6	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Len	7	cop	X	Gloss=to be
 7	torbach	torbach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	5	acl:relcl	X	Gloss=profitable worker, beneficial
 8	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
 9-11	trisangnetis	_	_	_	_	_	_	_	_
@@ -27919,7 +27919,7 @@
 3	·rabae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	X	Gloss=to be, to exist,
 4-5	deithbiur	_	_	_	_	_	_	_	_
 4	d	di	ADP	preposition	Case=Dat	5	case	X	Gloss=away, from, cause or reason, by
-5	eithbiur	aithber	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	obl	X	Gloss=the act of blaming, rebuking; reproach
+5	eithbiur	aithber	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	nsubj	X	Gloss=the act of blaming, rebuking; reproach
 6-7	huaduaid	_	_	_	_	_	_	_	_
 6	hua	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
 7	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	3	xcomp:pred	X	Gloss=David
@@ -31369,12 +31369,12 @@
 # sent_id = S0006-2327
 # text = ɫ. is sic dispositio .i. uoluit indicare per hoc quod explicet rl.
 # text_en = or the arrangement is thus: uoluit etc.
-1	ɫ	nó 1	CCONJ	conjunction	_	4	cc	X	Gloss=disjunctive: or
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
-3	sic	sīc	ADV	adverb	_	4	advmod	X	Gloss=thus, so, like that
-4	dispositio	dispositiō	NOUN	noun	_	0	root	X	Gloss=_
+1	ɫ	nó 1	CCONJ	conjunction	_	3	cc	X	Gloss=disjunctive: or
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	sic	sīc	ADV	adverb	_	0	root	X	Gloss=thus, so, like that
+4	dispositio	dispositiō	NOUN	noun	_	3	nsubj	X	Gloss=_
 5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
-6	uoluit	uolō	VERB	verb	Voice=Act|Mood=Ind	4	conj	X	Gloss=_
+6	uoluit	uolō	VERB	verb	Voice=Act|Mood=Ind	3	conj	X	Gloss=_
 7	indicare	indicō	VERB	verb	Voice=Act|Mood=Ind	6	flat	X	Gloss=_
 8	per	per	ADP	preposition	Case=Unk	6	flat	X	Gloss=through, across, all over, during
 9	hoc	hīc 1	X	pronoun_demonstrative	_	6	flat	X	Gloss=this, these, that, those
@@ -33845,7 +33845,7 @@
 2	thírmaigid	tírmaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to dry
 3	cach	cach	DET	adjective_quantifier	Case=Acc|Number=Sing|Gender=Masc|PronType=Tot	4	det	X	Gloss=every, each, all, any
 4	súg	súg	NOUN	noun	Case=Acc|Number=Sing	2	obj	5:nsubj|2:obj	Gloss=juice; sap (of plants)
-5	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	acl:relcl	X	Gloss=to be, to exist,
+5	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	4	acl:relcl	X	Gloss=to be, to exist,
 6-7	isnaib	_	_	_	_	_	_	_	_
 6	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
 7	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
@@ -34298,8 +34298,8 @@
 1	immaircide	immaircide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=suitable, fitting, appropriate, becoming
 2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	anasber	_	_	_	_	_	_	_	_
-3	a	a 4	PRON	pronoun_relative	Case=Nom|Number=Sing|PronType=Rel	1	conj	X	Gloss=that, which
-4	nas·ber	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	3	acl:relcl	X	Gloss=to say, to speak, to call , mention
+3	a	a 4	PRON	pronoun_relative	Case=Nom|Number=Sing|PronType=Rel	1	conj	4:obj|1:conj	Gloss=that, which
+4	nas·ber	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	3	acl:relcl	X	Gloss=to say, to speak, to call , mention
 5-7	innadiad	_	_	_	_	_	_	_	_
 5	i	i	ADP	preposition	Case=Acc	7	case	X	Gloss=in, into
 6	nna	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=his, its
@@ -34822,7 +34822,7 @@
 4	mmedon	medón	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=middle, center, midst
 5	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
 
-# sent_id = S0006-2625
+# sent_id = S0006-2625 - ellipsis
 # text = ɫ. níbí super and acht fontes tantum
 # text_en = or super is not usually there but only fontes [is].
 1	ɫ	nó 1	CCONJ	conjunction	_	3	cc	X	Gloss=disjunctive: or
@@ -35523,13 +35523,14 @@
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2	arrot·neithius	ar·neät	VERB	verb	Person[Obj]=2|Number[Obj]=Sing|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	0	root	X	Gloss=to expect, to await, to wait for; to sustain, support, to uphold, to assume responsibility for
 3	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	2	nsubj	X	Gloss=emphasising particle
-4-6	dumfortacht	_	_	_	_	_	_	_	_
-4	du	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
-5	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	6	obj:poss	X	Gloss=my
-6	fortacht	fortacht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of aiding, helping
-7-8	adǽ	_	_	_	_	_	_	_	
-7	a	a 1	PART	particle_vocative	_	8	case:voc	X	Gloss=O! ; oh
-8	dǽ	día 2	NOUN	noun	Number=Sing	2	vocative	X	Gloss=god, deity, God
+4	·	·	PUNCT	punctuation	_	_	_	_	_
+5-7	dumfortacht	_	_	_	_	_	_	_	_
+5	du	do 1	ADP	preposition	Case=Dat	7	case	X	Gloss=to, for, by etc.
+6	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	7	obj:poss	X	Gloss=my
+7	fortacht	fortacht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of aiding, helping
+8-9	adǽ	_	_	_	_	_	_	_	
+8	a	a 1	PART	particle_vocative	_	9	case:voc	X	Gloss=O! ; oh
+9	dǽ	día 2	NOUN	noun	Number=Sing	2	vocative	X	Gloss=god, deity, God
 
 # sent_id = S0006-2680
 # text = tar ǽsi
@@ -36334,11 +36335,11 @@
 5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
 6	noibi	noíbe	NOUN	noun	Case=Acc|Number=Sing	4	obj	X	Gloss=holiness, sanctity
 7	fadessin	fadesin	PRON	pronoun_emphatic	PronType=Emp	6	nmod	X	Gloss=self
-8	quando	quandō	ADV	adverb	_	9	mark	X	Gloss=when
-9	dixit	dīcō	VERB	verb	Voice=Act|Mood=Ind	4	advcl	X	Gloss=to say, to declare, to call
-10	innocentes	innocēns	ADJ	adjective	Degree=Pos	_	_	X	Gloss=harmless, blameless, innocent
-11	et	et	CCONJ	conjunction	_	12	cc	X	Gloss=and
-12	recti	rēctus	ADJ	verbal_participle	_	10	conj	X	Gloss=_
+8	quando	quandō	ADV	adverb	_	4	advcl	X	Gloss=when
+9	dixit	dīcō	VERB	verb	Voice=Act|Mood=Ind	8	flat	X	Gloss=to say, to declare, to call
+10	innocentes	innocēns	ADJ	adjective	Degree=Pos	8	flat	X	Gloss=harmless, blameless, innocent
+11	et	et	CCONJ	conjunction	_	8	flat	X	Gloss=and
+12	recti	rēctus	ADJ	verbal_participle	_	8	flat	X	Gloss=_
 
 # sent_id = S0006-2729
 # text = innacoiccéilseni
@@ -36954,13 +36955,14 @@
 4	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	2	obl	X	Gloss=emphasising particle
 5-7	anisiu	_	_	_	_	_	_	_	_
 5	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
+6	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	2	nsubj	X	Gloss=substantivizing particle
 7	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	6	appos	X	Gloss=this, these
 8	for	for	ADP	preposition	Case=Acc	10	case	X	Gloss=upon, over, on
 9	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	fel	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	acl:relcl	X	Gloss=to be, to exist,
-11	in	in (Lat)	ADP	preposition	Case=Unk	12	case	X	Gloss=in, into
-12	psalterio	psaltērium	NOUN	noun	_	10	obl	X	Gloss=_
+10	uissitam	vīsitō	VERB	verb	_	2	obl	11:nsubj|2:obl	Gloss=
+11	fel	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	10	acl:relcl	X	Gloss=to be, to exist,
+12	in	in (Lat)	ADP	preposition	Case=Unk	13	case	X	Gloss=in, into
+13	psalterio	psaltērium	NOUN	noun	_	11	xcomp:pred	X	Gloss=_
 
 # sent_id = S0006-2784
 # text = etir inninilligud .i. indítin són
