@@ -30383,22 +30383,22 @@
 # sent_id = S0006-2249
 # text = .i. níticed scís mochnamai ón cid dían 7 cián nothéisinn
 # text_en = i.e. weariness did not use to come to my bones, though it is fast and far that I would go.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	níticed	_	_	_	_	_	_	_	_
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·ticed	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to approach, to come to
-4	scís	scís	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=fatigue, tiredness
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·ticed	do·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to approach, to come to
+4	scís	scís	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=fatigue, tiredness
 5-6	mochnamai	_	_	_	_	_	_	_	_
-5	mo	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	6	_	X	Gloss=my
-6	chnamai	cnáim	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=bone
-7	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+5	mo	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	6	nmod:poss	X	Gloss=my
+6	chnamai	cnáim	NOUN	noun	Case=Acc|Number=Plur	3	obj	X	Gloss=bone
+7	ón	-ón	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (aforementioned)
 8-9	cid	_	_	_	_	_	_	_	_
-8	ci	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-9	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-10	dían	dían 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=swift, rapid; quick, sudden
-11	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-12	cián	cían	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
-13	no·théisinn	téit	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+8	ci	cía 2	SCONJ	conjunction	_	10	mark	X	Gloss=concessive and explicative: even, although
+9	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
+10	dían	dían 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	3	advcl	X	Gloss=swift, rapid; quick, sudden
+11	7	ocus 2	CCONJ	conjunction	_	12	cc	X	Gloss=coordinating: and, since
+12	cián	cían	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	10	conj	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
+13	no·théisinn	téit	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	12	csubj:cleft	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
 
 # sent_id = S0006-2250
 # text = nephlesc
@@ -30492,26 +30492,26 @@
 1	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
 2	fiú	fíu	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=worthy, meet, fitting, honorable
 
-# sent_id = S0006-2261
+# sent_id = S0006-2261-Noun+do+VerbalNoun?
 # text = .i. niguid digail duthabairt foraib acht corruanat inna arrad
 # text_en = i.e. he does not ask for the infliction of punishment on them, but that they may remain in his company.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	niguid	_	_	_	_	_	_	_	_
-2	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·guid	guidid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to beseech, to pray to, to entreat; to desire
-4	digail	dígal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
+2	ni·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·guid	guidid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to beseech, to pray to, to entreat; to desire
+4	digail	dígal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	6	obj	X	Gloss=the act of avenging, punishing, vengeance
 5-6	duthabairt	_	_	_	_	_	_	_	_
-5	du	do 1	ADP	preposition	Case=Dat	6	case	X	Gloss=to, for, by etc.
-6	thabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
-7	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=upon, over, on
-8	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
+5	du	do 1	ADP	preposition	Case=Dat	6	mark:prt	X	Gloss=to, for, by etc.
+6	thabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	xcomp	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+7	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	6	obl:prep	X	Gloss=upon, over, on
+8	acht	acht 1	CCONJ	conjunction	_	10	cc	X	Gloss=except, but, provided that, save that
 9-10	corruanat	_	_	_	_	_	_	_	_
-9	co·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-10	·rruanat	anaid 1	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to stay, to remain, to abide, to cease
+9	co·	co 4	SCONJ	complementiser	_	10	mark:prt	X	Gloss=so that, until (+independent, leniting)
+10	·rruanat	anaid 1	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Aspect=Perf|RelType=Other	3	conj	X	Gloss=to stay, to remain, to abide, to cease
 11-12	inna	_	_	_	_	_	_	_	_
 11	i	i	ADP	preposition	Case=Acc	13	case	X	Gloss=in, into
-12	nn-a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	13	_	X	Gloss=his, its
-13	arrad	arrad	NOUN	noun	Case=Dat	_	_	X	Gloss=approximation ; side, company
+12	nn-a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	13	nmod:poss	X	Gloss=his, its
+13	arrad	arrad	NOUN	noun	Case=Dat	10	obl	X	Gloss=approximation ; side, company
 
 # sent_id = S0006-2262
 # text = acht infoscugud .i. huad ón
@@ -30837,22 +30837,22 @@
 # sent_id = S0006-2286
 # text = .i. atorbae aratorsata .i. doaithgniu 7 etarcnu dǽ treu
 # text_en = i.e. the use for which they were created, i.e., that God might be known and understood through them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	atorbae	_	_	_	_	_	_	_	_
 2	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	torbae	torbae	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of profiting; profit, benefit, usefulness, labor, work
+3	torbae	torbae	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of profiting; profit, benefit, usefulness, labor, work
 4-6	aratorsata	_	_	_	_	_	_	_	_
-4	ar	ar 1	ADP	preposition	Case=Dat	_	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-5	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-6	·torsata	do·fuisim	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to create, to bring forth, to beget
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+4	ar	ar 1	ADP	preposition	Case=Dat	5	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+5	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	6	obl	X	Gloss=which, who, whose
+6	·torsata	do·fuisim	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	3	acl:relcl	X	Gloss=to create, to bring forth, to beget
+7	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
 8-9	doaithgniu	_	_	_	_	_	_	_	_
-8	do	do 1	ADP	preposition	Case=Dat	9	case	X	Gloss=to, for, by etc.
-9	aithgniu	aithgne	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of knowing, recognizing, perceiving
-10	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-11	etarcnu	etargnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
-12	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
-13	treu	tre	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=through (time or space), by means of, be reason of
+8	do	do 1	ADP	preposition	Case=Dat	9	mark:prt	X	Gloss=to, for, by etc.
+9	aithgniu	aithgne	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of knowing, recognizing, perceiving
+10	7	ocus 2	CCONJ	conjunction	_	11	cc	X	Gloss=coordinating: and, since
+11	etarcnu	etargnae	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	9	conj	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
+12	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	9	nsubj	X	Gloss=god, deity, God
+13	treu	tre	ADP	preposition	Person=3|Number=Plur|Case=Acc	9	obl:prep	X	Gloss=through (time or space), by means of, be reason of
 
 # sent_id = S0006-2287
 # text = derbdae
