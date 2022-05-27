@@ -27878,22 +27878,22 @@
 # sent_id = S0006-2002
 # text = is solam fair 7 duthluchedar techt immes inchoim diafogni
 # text_en = he is ready for it and asks to submit to the judgment of the lord whom he serves.
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	solam	solam 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=quick, speedy, ready, prompt
-3	fair	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=upon, over, on
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-5	du·thluchedar	do·tluichethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to ask, to beseech, to desire, to crave
-6	techt	techt 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of going; messenger, gramm.ending
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	solam	solam 1	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=quick, speedy, ready, prompt
+3	fair	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	2	obl:prep	X	Gloss=upon, over, on
+4	7	ocus 2	CCONJ	conjunction	_	5	cc	X	Gloss=coordinating: and, since
+5	du·thluchedar	do·tluichethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	2	conj	X	Gloss=to ask, to beseech, to desire, to crave
+6	techt	techt 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	5	xcomp	X	Gloss=the act of going; messenger, gramm.ending
 7-8	immes	_	_	_	_	_	_	_	_
 7	i	i	ADP	preposition	Case=Acc	8	case	X	Gloss=in, into
-8	mmes	mes 1	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	_	_	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
+8	mmes	mes 1	NOUN	verbal_noun	Case=Dat|VerbForm=VNoun	5	advcl	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
 9-10	inchoim	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	inchoim	coimdiu	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	_	_	X	Gloss=lord, master, the Lord, God|CorrectForm=choimded
+10	inchoim	coimdiu	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	8	obj	13:obj|8:obj	Gloss=lord, master, the Lord, God|CorrectForm=choimded
 11-13	diafogni	_	_	_	_	_	_	_	_
-11	di	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-12	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-13	·fogni	fo·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to serve, to be of use
+11	di	do 1	ADP	preposition	Case=Dat	12	case	X	Gloss=to, for, by etc.
+12	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	13	obl	X	Gloss=which, who, whose
+13	·fogni	fo·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	10	acl:relcl	X	Gloss=to serve, to be of use
 
 # sent_id = S0006-2003
 # text = innannaimtine ṅ deithbir·
@@ -28210,25 +28210,25 @@
 7	a	a 1	PART	particle_vocative	_	8	case:voc	X	Gloss=O! ; oh
 8	dé	día 2	NOUN	noun	Number=Sing	3	vocative	X	Gloss=god, deity, God
 
-# sent_id = S0006-2034
+# sent_id = S0006-2034 - check line 11
 # text = .i. ciabed ammet inna fochaide 7 innaningramman fosrodamarsa·
 # text_en = i.e. whatever the size of the tribulations and the persecutions might be, I endured them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	ciabed	_	_	_	_	_	_	_	_
-2	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-3	bed	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+2	cia	cía 1	X	pronoun_interrogative	_	12	dislocated	X	Gloss=who, what, which
+3	bed	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	2	csubj:cleft	X	Gloss=to be, to exist,
 4-5	ammet	_	_	_	_	_	_	_	_
-4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	_	X	Gloss=their
-5	mmet	méit	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
+4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	nmod:poss	X	Gloss=their
+5	mmet	méit	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
 6	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	fochaide	fochaid	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+7	fochaide	fochaid	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	5	nmod	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+8	7	ocus 2	CCONJ	conjunction	_	10	cc	X	Gloss=coordinating: and, since
 9-10	innaningramman	_	_	_	_	_	_	_	_
 9	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	ningramman	ingreimm 1	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of persecuting
-11	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=them
-12	fosro·damar-sa	fo·daim	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to suffer, to endure
-13	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+10	ningramman	ingreimm 1	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	7	conj	X	Gloss=the act of persecuting
+11	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	12	inf:obj	X	Gloss=them
+12	fosro·damar-sa	fo·daim	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to suffer, to endure
+13	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	12	nsubj	X	Gloss=emphasising particle
 14	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2035
@@ -28681,25 +28681,25 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	intledaigte	intledaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to lie in wait for, to ambush
 
-# sent_id = S0006-2085
+# sent_id = S0006-2085 - check line 5
 # text = .i. sechis hondrochgnimaib són ɔnacumset ní dam
 # text_en = i.e. that is, from their evil deeds, so that they may be able to do nothing to me.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	sech	sech 2	X	conjunction	_	7	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
 4-7	hondrochgnimaib	_	_	_	_	_	_	_	_
 4	ho	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
-5	'	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	_	X	Gloss=their
-6	ndroch	droch-	X	particle_prefix	_	_	_	X	Gloss=evil, bad, wrong
-7	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-8	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+5	'	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=their
+6	ndroch	droch-	X	particle_prefix	_	7	amod	X	Gloss=evil, bad, wrong
+7	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	11	advcl	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+8	són	-són	PRON	particle_anaphoric	_	7	discourse	X	Gloss=that (mentioned above) that is
 9-11	ɔnacumset	_	_	_	_	_	_	_	_
-9	ɔ	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-10	na·	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-11	·cumset	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to can, to be capable of; to be able, to have power over
-12	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
-13	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
+9	ɔ	co 4	SCONJ	complementiser	_	11	mark:prt	X	Gloss=so that, until (+independent, leniting)
+10	na·	ná 2	PART	particle_negative_subordinate	_	11	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+11	·cumset	con·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to can, to be capable of; to be able, to have power over
+12	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	11	obj	X	Gloss=something; nothing, anything ; not
+13	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	11	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-2086
 # text = fritammorcat
