@@ -32112,21 +32112,21 @@
 # sent_id = S0006-2405
 # text = .i. hondí as potentas ata són hondí as potento·
 # text_en = i.e. from potentas. This is from potento.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	hondí	_	_	_	_	_	_	_	_
 2	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
 3	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-5	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-6	potentas	potentātus	NOUN	noun	_	_	_	X	Gloss=_
-7	a·ta	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-8	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+4	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	0	root	X	Gloss=substantivizing particle
+5	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	cop	X	Gloss=to be
+6	potentas	potentātus	NOUN	noun	_	4	nsubj	X	Gloss=_
+7	a·ta	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+8	són	-són	PRON	particle_anaphoric	_	7	nsubj	X	Gloss=that (mentioned above) that is
 9-11	hondí	_	_	_	_	_	_	_	_
 9	ho	ó 1	ADP	preposition	Case=Dat	11	case	X	Gloss=from, out of, by
 10	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-12	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-13	potento	potentātus	NOUN	noun	_	_	_	X	Gloss=_
+11	í	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	7	xcomp:pred	X	Gloss=substantivizing particle
+12	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	13	cop	X	Gloss=to be
+13	potento	potentātus	NOUN	noun	_	7	ccomp	X	Gloss=_
 14	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2406
@@ -33153,21 +33153,21 @@
 # sent_id = S0006-2477
 # text = .i. ciarudbá in imniud ni ǽrburt nach armu peccad orad form··
 # text_en = i.e. although I was in trouble, I did not say that it was not because of my sin that it was inflicted on me.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	ciarudbá	_	_	_	_	_	_	_	_
-2	cia	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-3	rud·bá	ad·tá	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfC|Aspect=Perf	_	_	X	Gloss=to be, to exist,
+2	cia	cía 2	SCONJ	conjunction	_	3	mark	X	Gloss=concessive and explicative: even, although
+3	rud·bá	ad·tá	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|PronType=InfC|Aspect=Perf	7	advcl	X	Gloss=to be, to exist,
 4	i	i	ADP	preposition	Case=Dat	5	case	X	Gloss=in, into
-5	nimniud	imned	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
-6	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-7	·ǽrburt	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to say, to speak, to call , mention
-8	nach	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
+5	nimniud	imned	NOUN	noun	Case=Dat|Number=Sing	3	xcomp:pred	X	Gloss=tribulation, anxiety, suffering, sorrow
+6	ni·	ní 3	PART	particle_negative_main	_	7	advmod:neg	X	Gloss=not
+7	·ǽrburt	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	0	root	X	Gloss=to say, to speak, to call , mention
+8	nach	nach 3	PART	particle_negative_subordinate	_	9	advmod:neg	X	Gloss=that not ; not
 9-10	armu	_	_	_	_	_	_	_	_
 9	ar	ar 1	ADP	preposition	Case=Acc	11	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-10	mu	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	11	_	X	Gloss=my
-11	peccad	peccad	NOUN	noun	Case=Dat	_	_	X	Gloss=sin
-12	orad	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|Typo=Yes	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on|CorrectForm=do·ratad
-13	form	for	ADP	preposition	Person=1|Number=Sing|Case=Acc	_	_	X	Gloss=upon, over, on
+10	mu	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	11	nmod:poss	X	Gloss=my
+11	peccad	peccad	NOUN	noun	Case=Dat	7	obl	X	Gloss=sin
+12	orad	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|Typo=Yes	11	csubj:cleft	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on|CorrectForm=do·ratad
+13	form	for	ADP	preposition	Person=1|Number=Sing|Case=Acc	12	obl:prep	X	Gloss=upon, over, on
 14	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2478
@@ -33756,21 +33756,23 @@
 # sent_id = S0006-2529
 # text = .i. rolaad cech alt asachoir dam· as inchobás hirobae
 # text_en = i.e. every joint has been put from its proper place for me, from the juncture in which it was.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ro·laad	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	ro·laad	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	0	root	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
 3	cech	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc|PronType=Tot	4	det	X	Gloss=every, each, all, any
-4	alt	alt	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=joint, articulation, socket; subdivision; type of metre; juncture, point of time; shape, form; kind, sort; state, condition, circumstance; way, manner
+4	alt	alt	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=joint, articulation, socket; subdivision; type of metre; juncture, point of time; shape, form; kind, sort; state, condition, circumstance; way, manner
 5-7	asachoir	_	_	_	_	_	_	_	_
-5	as	a 7	ADP	preposition	Case=Dat	_	case	X	Gloss=out of, from
-6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	_	_	X	Gloss=his, its
-7	choir	coäir	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=fitting, proper, right ; even, well-propportioned, straight; correct, suitable
-8	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
-9	a	a 7	ADP	preposition	Case=Dat	11	case	X	Gloss=out of, from
-10	·	·	PUNCT	punctuation	_	_	_	_	_
-11	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	11	det	X	Gloss=the
-12	chobás	cobás	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=connexion, juncture, connection
-13	hi·	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-14	·robae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
+5	as	a 7	ADP	preposition	Case=Dat	7	case	X	Gloss=out of, from
+6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=his, its
+7	choir	coäir	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	2	obl	X	Gloss=fitting, proper, right ; even, well-propportioned, straight; correct, suitable
+8	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	2	obl:prep	X	Gloss=to, for, by etc.
+9	·	·	PUNCT	punctuation	_	_	_	_	_
+10	a	a 7	ADP	preposition	Case=Dat	12	case	X	Gloss=out of, from|SpaceAfter=No|CorrectSpaceAfter=Yes
+11-12	inchobás	_	_	_	_	_	_	_	_
+11	in	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Typo=Yes	12	det	X	Gloss=the|CorrectForm=sin
+12	chobás	cobás	NOUN	noun	Case=Dat|Number=Sing	2	obl	14:obj|2:obl	Gloss=connexion, juncture, connection
+13-14	hirobae	_	_	_	_	_	_	_	_
+13	hi·	i	ADP	preposition	Case=Acc	14	xcomp:pred:prep	X	Gloss=in, into
+14	·robae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	12	acl:relcl	X	Gloss=to be, to exist,
 
 # sent_id = S0006-2530
 # text = .i. ho aisndis innacnamae airit hesidi ata sonartam indiunni·
