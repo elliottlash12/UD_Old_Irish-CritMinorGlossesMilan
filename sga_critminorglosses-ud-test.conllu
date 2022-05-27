@@ -29069,20 +29069,22 @@
 # sent_id = S0006-2128
 # text = .i. it namait do dia indi fris orgat dondi oirdnes dia
 # text_en = i.e. they who injure him whom God ordains are enemies to God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	namait	námae	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=enemy, foe
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	namait	námae	NOUN	noun	Case=Nom|Number=Plur	0	root	X	Gloss=enemy, foe
 4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
-5	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=god, deity, God
+5	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=god, deity, God
 6-7	indi	_	_	_	_	_	_	_	_
 6	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	i	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	_	_	X	Gloss=substantivizing particle
-8	fris·orgat	fris·oirg	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to molest, to offend, to injure
-9	do	do 1	ADP	preposition	Case=Dat	11	case	X	Gloss=to, for, by etc.
-10	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	i	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-12	oirdnes	oirdnid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to appoint, to ordain, to crown
-13	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
+7	i	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Masc	3	nsubj	8:nsubj|3:nsubj	Gloss=substantivizing particle
+8	fris	fris·oirg	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len|Typo=Yes	7	acl:relcl	X	Gloss=to molest, to offend, to injure|CorrectForm=fris·orgat
+9	·orgat	_	X	_	_	8	goeswith	X	_
+10-12	dondi	_	_	_	_	_	_	_	_
+10	do	do 1	ADP	preposition	Case=Dat	12	case	X	Gloss=to, for, by etc.
+11	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	12	det	X	Gloss=the
+12	i	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Masc	8	obl	13:obj|8:obl	Gloss=substantivizing particle
+13	oirdnes	oirdnid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Nas	12	acl:relcl	X	Gloss=to appoint, to ordain, to crown
+14	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	13	nsubj	X	Gloss=god, deity, God
 
 # sent_id = S0006-2129
 # text = oirdnide
@@ -29776,19 +29778,19 @@
 # sent_id = S0006-2183
 # text = hisel .i. is airi as indet som donaib huaislib indiad inna nísel
 # text_en = low, i.e. it is for this reason that he speaks of the elevated after the humble.
-1	hisel	ísel	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-5	as·indet	as·indet	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to declare, to tell, to relate
-6	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
-7	do	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-8	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-9	huaislib	úasal	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=high, elevated, lofty, noble, honourable
+1	hisel	ísel	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
+2	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	1	conj	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+5	as·indet	as·indet	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	4	csubj:cleft	X	Gloss=to declare, to tell, to relate
+6	som	nota augens	PRON	particle_pronominal	PronType=Prs	5	nsubj	X	Gloss=emphasising particle
+7	do	di	ADP	preposition	Case=Dat	9	case	X	Gloss=away, from, cause or reason, by
+8	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	9	det	X	Gloss=the
+9	huaislib	úasal	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	5	obl	X	Gloss=high, elevated, lofty, noble, honourable
 10	i	i	ADP	preposition	Case=Acc	11	case	X	Gloss=in, into
-11	ndiad	deäd	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=end, conclusion
-12	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-13	nísel	ísel	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
+11	ndiad	deäd	NOUN	noun	Case=Acc|Number=Sing	5	obl	X	Gloss=end, conclusion
+12	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	13	det	X	Gloss=the
+13	nísel	ísel	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	11	nmod	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
 
 # sent_id = S0006-2184
 # text = dumbera cechae diib ɫ. dumberat huili
@@ -29850,20 +29852,20 @@
 # sent_id = S0006-2188
 # text = .i. duadbadar huaisletu dé trí huaisletu ind uisci fuasnaidi fil isindaier
 # text_en = i.e. the exaltation of God is shown through the exaltation of the troubled water that is in the air.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	du·adbadar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to show, to display, to demonstrate, to appear
-3	huaisletu	úaisletu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
-4	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	du·adbadar	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to show, to display, to demonstrate, to appear
+3	huaisletu	úaisletu	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
+4	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=god, deity, God
 5	trí	tre	ADP	preposition	Case=Acc	6	case	X	Gloss=through (time or space), by means of, be reason of
-6	huaisletu	úaisletu	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
+6	huaisletu	úaisletu	NOUN	noun	Case=Acc|Number=Sing	2	obl	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
 7	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	uisci	uisce	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=water
-9	fuasnaidi	fúasnaide	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=perturbed, disturbed
-10	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+8	uisci	uisce	NOUN	noun	Case=Gen|Number=Sing	6	nmod	10:nsubj|6:nmod	Gloss=water
+9	fuasnaidi	fúasnaide	ADJ	verbal_participle	Case=Gen|Number=Sing|Gender=Masc	8	amod	X	Gloss=perturbed, disturbed
+10	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	8	acl:relcl	X	Gloss=to be, to exist,
 11-13	isindaier	_	_	_	_	_	_	_	_
 11	i	i	ADP	preposition	Case=Dat	13	case	X	Gloss=in, into
 12	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	aier	aër	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=air, atmosphere, sky
+13	aier	aër	NOUN	noun	Case=Dat|Number=Sing	10	xcomp:pred	X	Gloss=air, atmosphere, sky
 
 # sent_id = S0006-2189
 # text = .i. luaichtidiu .i. aittoitech .i. giul
