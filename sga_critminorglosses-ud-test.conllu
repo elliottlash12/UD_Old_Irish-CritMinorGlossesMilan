@@ -34750,20 +34750,20 @@
 14	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	13	det	X	Gloss=this, these
 15	··	··	PUNCT	punctuation	_	_	_	_	_
 
-# sent_id = S0006-2618
+# sent_id = S0006-2618 - reliqua
 # text = .i. is airi as beirsom is inchoimded int huile talam né crederent rl.
 # text_en = i.e. it is therefore that he says the whole earth is the Lord’s, ne crederent etc.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-4	as·beir	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
-5	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
-6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	0	root	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+4	as·beir	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	3	csubj:cleft	X	Gloss=to say, to speak, to call , mention
+5	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	4	nsubj	X	Gloss=emphasising particle
+6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
 7	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	choimded	coimdiu	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=lord, master, the Lord, God
-9	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-10	huile	uile	ADJ	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=all, every, the whole
-11	talam	talam	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=earth, world; ground ; land
+8	choimded	coimdiu	NOUN	noun	Case=Gen|Number=Sing	4	ccomp	X	Gloss=lord, master, the Lord, God
+9	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	10	det	X	Gloss=the
+10	huile	uile	ADJ	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc	8	nsubj	X	Gloss=all, every, the whole
+11	talam	talam	NOUN	noun	Case=Nom|Number=Sing	10	appos	X	Gloss=earth, world; ground ; land
 12	né	ne	X	particle	_	_	_	X	Gloss=that not
 13	crederent	credō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=I believe
 14	rl.	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
@@ -36159,21 +36159,21 @@
 # sent_id = S0006-2713
 # text = .i. fis timnae ndæ 7 a forcaill is ar sainemli adrimther toneuch rudfinnadar
 # text_en = i.e. the knowledge of the commandments of God and of His testimony, it is as excellence that it is reckoned to him that finds it out.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	fis	fius	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of finding out, ascertaining; knowledge, information, science
-3	timnae	timmnae	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=act of commanding; precept
-4	ndæ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	_	X	Gloss=his, its
-7	forcaill	forcell	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of bearing witness, testifying; testimony
-8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	fis	fius	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	10	dislocated	X	Gloss=the act of finding out, ascertaining; knowledge, information, science
+3	timnae	timmnae	NOUN	noun	Case=Gen|Number=Plur	2	obj	X	Gloss=act of commanding; precept
+4	ndæ	día 2	NOUN	noun	Case=Gen|Number=Sing	3	nmod	X	Gloss=god, deity, God
+5	7	ocus 2	CCONJ	conjunction	_	7	cc	X	Gloss=coordinating: and, since
+6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=his, its
+7	forcaill	forcell	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of bearing witness, testifying; testimony
+8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
 9	ar	ar 1	ADP	preposition	Case=Acc	10	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-10	sainemli	sainemlae	NOUN	noun	Case=Dat	_	_	X	Gloss=excellence
-11	ad·rimther	ad·rími	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to count, to enumerate, to reckon
+10	sainemli	sainemlae	NOUN	noun	Case=Dat	0	root	X	Gloss=excellence
+11	ad·rimther	ad·rími	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	csubj:cleft	X	Gloss=to count, to enumerate, to reckon
 12-13	toneuch	_	_	_	_	_	_	_	_
-12	to	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-13	neuch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
-14	rud·finnadar	ro·finnadar	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	_	_	X	Gloss=to know, to find out, to learn
+12	to	do 1	ADP	preposition	Case=Dat	13	case	X	Gloss=to, for, by etc.
+13	neuch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Ind	11	obl	14:nsubj|11:obl	Gloss=anyone, one, someone
+14	rud·finnadar	ro·finnadar	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	13	acl:relcl	X	Gloss=to know, to find out, to learn
 
 # sent_id = S0006-2714
 # text = ointrabdae
@@ -38629,22 +38629,23 @@
 # sent_id = S0006-2941
 # text = .i. durumenar romsa dia 7 rombith béu .i. trisligi · n assar ho dia
 # text_en = i.e. I thought that I was a god and that I was immortal, i.e. through the slaughter of the Assyrians by God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	duru·menar	do·moinethar	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to think, to suppose, to conjecture
-3	romsa	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	cop	X	Gloss=to be
-4	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
-5	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	duru·menar	do·moinethar	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to think, to suppose, to conjecture
+3	romsa	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	4	cop	X	Gloss=to be
+4	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	3	ccomp	X	Gloss=god, deity, God
+5	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
 6-7	rombith	_	_	_	_	_	_	_	_
-6	rom	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Typo=Yes	_	cop	X	Gloss=to be|CorrectForm=romsa
-7	bith	bith	NOUN	noun	_	_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
-8	béu	beo	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=living, alive
-9	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+6	rom	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Typo=Yes	8	cop	X	Gloss=to be|CorrectForm=romsa
+7	bith	bith	NOUN	noun	_	8	amod	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+8	béu	beo	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	4	conj	X	Gloss=living, alive
+9	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
 10-11	trisligi	_	_	_	_	_	_	_	_
-10	tri	tre	ADP	preposition	Case=Acc	13	case	X	Gloss=through (time or space), by means of, be reason of
-11	sligi	slige	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of felling, smiting; a slaughter
-12	nassar	Asar	PROPN	proper_noun	Case=Gen|Number=Plur	_	_	X	Gloss=Assyrian
-13	ho	ó 1	ADP	preposition	Case=Dat	16	case	X	Gloss=from, out of, by
-14	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=god, deity, God
+10	tri	tre	ADP	preposition	Case=Acc	11	case	X	Gloss=through (time or space), by means of, be reason of
+11	sligi	slige	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of felling, smiting; a slaughter
+12	n	Asar	PROPN	proper_noun	Case=Gen|Number=Plur|Typo=Yes	11	obj	X	Gloss=Assyrian|CorrectForm=nassar
+13	assar	_	X	_	_	12	goeswith	X	_
+14	ho	ó 1	ADP	preposition	Case=Dat	15	case	X	Gloss=from, out of, by
+15	dia	día 2	NOUN	noun	Case=Dat|Number=Sing	11	obl	X	Gloss=god, deity, God
 
 # sent_id = S0006-2942
 # text = conuhualchaiginn
