@@ -37470,19 +37470,22 @@
 # sent_id = S0006-2832
 # text = .i. is infoirbthigud .i. dichosecrad tabernacuil rocachain duaid insalmso·
 # text_en = i.e. at the completion, i.e. [it is] about the consecration of the Tabernacle that David sang this psalm.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into
-3	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	foirbthigud	foirbthigiud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of finishing, completing, making perfect
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	i	i	ADP	preposition	Case=Dat	4	case	X	Gloss=in, into|SpaceAfter=No|CorrectSpaceAfter=Yes
+3-4	infoirbthigud	_	_	_	_	_	_	_	_
+3	in	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Typo=Yes	4	det	X	Gloss=the|CorrectForm=sin
+4	foirbthigud	foirbthigiud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of finishing, completing, making perfect
+5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
+6-7	dichosecrad	_	_	_	_	_	_	_	_
 6	di	di	ADP	preposition	Case=Dat	7	case	X	Gloss=away, from, cause or reason, by
-7	chosecrad	cosecrad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of dedicating, consecrating, blessing
-8	tabernacuil	tabernacuil	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=tabernacle; God’s dwelling, heaven
-9	ro·cachain	canaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to sing, to recite, to chant; to speak, to tell, to announce, to utter
-10	duaid	dúaid	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=David
+7	chosecrad	cosecrad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of dedicating, consecrating, blessing
+8	tabernacuil	tabernacuil	NOUN	noun	Case=Gen|Number=Sing	7	obj	X	Gloss=tabernacle; God’s dwelling, heaven
+9	ro·cachain	canaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	8	acl	X	Gloss=to sing, to recite, to chant; to speak, to tell, to announce, to utter
+10	duaid	dúaid	PROPN	proper_noun	Case=Nom|Number=Sing	9	nsubj	X	Gloss=David
+11-14	insalmso	_	_	_	_	_	_	_	_
 11	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	12	det	X	Gloss=the
-12	salm	salm	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=psalm
-13	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
+12	salm	salm	NOUN	noun	Case=Acc|Number=Sing	9	obj	X	Gloss=psalm
+13	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	12	det	X	Gloss=this, these
 14	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2833
@@ -37575,22 +37578,22 @@
 # sent_id = S0006-2844
 # text = .i. is lour do aguth nammá doergairi neich diamuntair
 # text_en = i.e. His voice alone is sufficient for Him to forbid anything to His people.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	lour	loär	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=great, ample, sufficient, competent
-4	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	9	_	X	Gloss=to, for, by etc.
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	lour	loär	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=great, ample, sufficient, competent
+4	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=to, for, by etc.
 5-6	aguth	_	_	_	_	_	_	_	_
-5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	guth	guth	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=voice, sound, vowel, word
-7	nammá	nammá	PART	particle_focus	_	_	_	X	Gloss=only, merely
+5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+6	guth	guth	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=voice, sound, vowel, word
+7	nammá	nammá	PART	particle_focus	_	6	 advmod:emph	X	Gloss=only, merely
 8-9	doergairi	_	_	_	_	_	_	_	_
-8	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-9	ergairi	airgaire	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of prohibiting, preventing, hindering; check
-10	neich	ní 1	PRON	pronoun_quantifier	Case=Gen|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
+8	do	do 1	ADP	preposition	Case=Dat	9	mark:prt	X	Gloss=to, for, by etc.
+9	ergairi	airgaire	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of prohibiting, preventing, hindering; check
+10	neich	ní 1	PRON	pronoun_quantifier	Case=Gen|Number=Sing	9	obj	X	Gloss=something; nothing, anything ; not
 11-13	diamuntair	_	_	_	_	_	_	_	_
 11	di	di	ADP	preposition	Case=Dat	13	case	X	Gloss=away, from, cause or reason, by
-12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	13	_	X	Gloss=his, its
-13	muntair	muinter	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
+12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	13	nmod:poss	X	Gloss=his, its
+13	muntair	muinter	NOUN	noun	Case=Dat|Number=Sing	9	obl	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
 
 # sent_id = S0006-2845
 # text = rogéni
@@ -37720,20 +37723,21 @@
 # sent_id = S0006-2857
 # text = .i. trissinnairim nilair .i. huare as ṅ aquas ni aqua tuic and
 # text_en = i.e. through the plural number, i.e. because it is aquas, not aqua, which he has put there.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	trissinnairim	_	_	_	_	_	_	_	_
 2	tri	tre	ADP	preposition	Case=Acc	4	case	X	Gloss=through (time or space), by means of, be reason of
 3	ssin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	nairim	áram	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of counting, reckoning, estimating; number, numeral, quantity, amount, sum
-5	nilair	ilar	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=multitude, abundance, plural (grammatical)
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-7	huare	úaire	SCONJ	conjunction	_	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
-8	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-9	ṅaquas	aqua	ADJ	adjective	Degree=Pos	_	_	X	Gloss=water
-10	aqua	aqua	ADJ	adjective	Degree=Pos	_	_	X	Gloss=water
-11	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-12	tuic	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-13	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=in, into
+4	nairim	áram	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of counting, reckoning, estimating; number, numeral, quantity, amount, sum
+5	nilair	ilar	NOUN	noun	Case=Gen|Number=Sing	4	nmod	X	Gloss=multitude, abundance, plural (grammatical)
+6	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
+7	huare	úaire	SCONJ	conjunction	_	9	mark	X	Gloss=causal; coordinating and subordinating: when, since
+8	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	9	cop	X	Gloss=to be
+9	ṅ	aqua	ADJ	adjective	Degree=Pos|Typo=Yes	4	conj	X	Gloss=water|CorrectForm=ṅaquas
+10	aquas	_	X	_	_	9	goeswith	X	_
+11	ni	ní 3	PART	particle_negative_main	_	12	advmod:neg	X	Gloss=not
+12	aqua	aqua	ADJ	adjective	Degree=Pos	9	parataxis	13:obj|9:parataxis	Gloss=water
+13	tuic	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Len	12	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+14	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	13	obl:prep	X	Gloss=in, into
 
 # sent_id = S0006-2858
 # text = .i. indermairiu
