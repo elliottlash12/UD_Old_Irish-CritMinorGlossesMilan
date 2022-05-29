@@ -29660,26 +29660,26 @@
 26	frie	fri	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
 27	anechtair	anechtair	ADV	adverb	_	_	_	X	Gloss=from outside
 
-# sent_id = S0006-2179
+# sent_id = S0006-2179 - line 4 - dislocated|root
 # text = .i. cachla fers and diadhuath 7 gráin infers aile dí huaisletu
 # text_en = i.e. every second verse in it [is] of terror and horror, the other verse of elevation.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	cachla	_	_	_	_	_	_	_	_
 2	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc|PronType=Tot	3	det	X	Gloss=every, each, all, any
-3	'la	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=the other, one another ; else; second
-4	fers	fers	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=verse
-5	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=in, into
+3	la	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Masc	4	amod	X	Gloss=the other, one another ; else; second
+4	fers	fers	NOUN	noun	Case=Nom|Number=Sing	11	dislocated	X	Gloss=verse
+5	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	4	obl:prep	X	Gloss=in, into
 6-7	diadhuath	_	_	_	_	_	_	_	_
 6	di	di	ADP	preposition	Case=Dat	7	case	X	Gloss=away, from, cause or reason, by
-7	adhuath	adúath	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=great dread, horror
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-9	gráin	gráin	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=terror, horror
+7	adhuath	adúath	NOUN	noun	Case=Dat|Number=Sing	4	obl	X	Gloss=great dread, horror
+8	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+9	gráin	gráin	NOUN	noun	Case=Dat|Number=Sing	7	conj	X	Gloss=terror, horror
 10-11	infers	_	_	_	_	_	_	_	_
 10	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	fers	fers	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=verse
-12	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=other, another, else, second
+11	fers	fers	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=verse
+12	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Masc	11	amod	X	Gloss=other, another, else, second
 13	dí	di	ADP	preposition	Case=Dat	14	case	X	Gloss=away, from, cause or reason, by
-14	huaisletu	úaisletu	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
+14	huaisletu	úaisletu	NOUN	noun	Case=Dat|Number=Sing	11	obl	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
 
 # sent_id = S0006-2180
 # text = .i. tuc duaid fersu hitadbadar inducbál dé 7 a huaisletu ut est uolauit rl. inarrad innafersae hitadbadar cosmailius do frisnariga talmandi· air dommuinfide bed nísel intí dia ma atis hé indfersai grandi insin namma dumberad duaid· ut est 7 ignis a facie rl.
@@ -30142,20 +30142,25 @@
 # sent_id = S0006-2215
 # text = rem déicsen .i. reæ centabairt diglae foir ni ɔdrobae som indræsin
 # text_en = of foreseeing, i.e. of a time without the infliction of punishment on him, he did not have that time.
-1	remdéicsen	remdéicsiu	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of anticipating; providence, foresight, anticipation
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	reæ	ré	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
-4	cen	cen	ADP	preposition	Case=Acc	5	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-5	tabairt	tabart 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
-6	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of avenging, punishing, vengeance
-7	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=upon, over, on
-8	niɔ	nicon	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not ever
-9	d·	3sg.masc.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=him
-10	·robae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
-11	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
-12	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	ræ	ré	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
-14	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	_	_	X	Gloss=that, those
+1	rem	remdéicsiu	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Typo=Yes	0	root	X	Gloss=the act of anticipating; providence, foresight, anticipation|CorrectForm=remdéicsen
+2	déicsen	_	X	_	_	1	goeswith	X	_
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	reæ	ré	NOUN	noun	Case=Gen|Number=Sing	12	dislocated	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
+5-6	centabairt	_	_	_	_	_	_	_	_
+5	cen	cen	ADP	preposition	Case=Acc	6	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
+6	tabairt	tabart 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	4	advcl	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+7	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	6	obj	X	Gloss=the act of avenging, punishing, vengeance
+8	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	6	obl:prep	X	Gloss=upon, over, on
+9	ni	nicon	PART	particle_negative_main	Typo=Yes	12	advmod:neg	X	Gloss=not ever|CorrectForm=niɔ
+10-12	ɔdrobae	_	_	_	_	_	_	_	_
+10	ɔ	_	X	_	_	9	goeswith	X	_
+11	d·	3sg.masc.inf.pron.	PRON	pronoun_infixed	PronType=Prs	12	inf:obj	X	Gloss=him
+12	·robae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	1	conj	X	Gloss=to be, to exist,
+13	som	nota augens	PRON	particle_pronominal	PronType=Prs	12	nsubj	X	Gloss=emphasising particle
+14-16	indræsin	_	_	_	_	_	_	_	_
+14	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	15	det	X	Gloss=the
+15	ræ	ré	NOUN	noun	Case=Nom|Number=Sing	12	xcomp:pred	X	Gloss=space, interval of time ; period; lapse of time; space, intervening distance
+16	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt	15	det	X	Gloss=that, those
 
 # sent_id = S0006-2216
 # text = immenimgabad
@@ -30987,23 +30992,23 @@
 # sent_id = S0006-2300
 # text = fodali .i. inroithiud roithes alaith alaill riam duadbat etarcnae ndǽ insin·
 # text_en = it apportions, i.e. the impulse by which the day impels another before it, that shows the knowledge of God.
-1	fo·dali	fo·dáili	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to distribute, to divide, to bestow
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	fo·dali	fo·dáili	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to distribute, to divide, to bestow
+2	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 3-4	inroithiud	_	_	_	_	_	_	_	_
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
-4	roithiud	roithiud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of driving; impulse
-5	roithes	roithid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to set in motion, to drive, to make run
+4	roithiud	roithiud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	10	dislocated	5:obl|10:dislocated	Gloss=the act of driving; impulse
+5	roithes	roithid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	4	acl:relcl	X	Gloss=to set in motion, to drive, to make run
 6-7	alaith	_	_	_	_	_	_	_	_
 6	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	laith	laithe	NOUN	noun	Case=Nom|Number=Sing|Typo=Yes	_	_	X	Gloss=day|CorrectForm=laithe
-8	alaill	alaile	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=other, the other
-9	riam	re	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=before, in front of
-10	du·adbat	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to show, to display, to demonstrate, to appear
-11	etarcnae	etargnae	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
-12	ndǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+7	laith	laithe	NOUN	noun	Case=Nom|Number=Sing|Typo=Yes	5	nsubj	X	Gloss=day|CorrectForm=laithe
+8	alaill	alaile	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Neut	5	obj	X	Gloss=other, the other
+9	riam	re	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	5	obl:prep	X	Gloss=before, in front of
+10	du·adbat	do·adbat	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	1	conj	X	Gloss=to show, to display, to demonstrate, to appear
+11	etarcnae	etargnae	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	10	xcomp	X	Gloss=the act of finding out, learning, knowing, understanding; knowledge, information (especially gained through experience), the faculty of understanding or cognition, interpretation, significance, explanation, acquaintance, signification
+12	ndǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	11	obj	X	Gloss=god, deity, God
 13-14	insin	_	_	_	_	_	_	_	_
 13	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	14	det	X	Gloss=the
-14	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+14	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	11	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
 15	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2301
