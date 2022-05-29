@@ -37851,20 +37851,20 @@
 # text_en = of him who extinguishes, i.e. its scattering and dispersion is extinction to the fire.
 1-2	indi	_	_	_	_	_	_	_	_
 1	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	i	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-3	ar·dibdai	ar·díbdai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to extinguish, to quench, to destroy
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-6	dibdud	díbdud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of drowning, quenching, extinguishing
+2	i	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	0	root	3:nsubj|0:root	Gloss=substantivizing particle
+3	ar·dibdai	ar·díbdai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	2	acl:relcl	X	Gloss=to extinguish, to quench, to destroy
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
+6	dibdud	díbdud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	2	conj	X	Gloss=the act of drowning, quenching, extinguishing
 7-9	duntenid	_	_	_	_	_	_	_	_
 7	du	do 1	ADP	preposition	Case=Dat	9	case	X	Gloss=to, for, by etc.
 8	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	tenid	teine 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=fire, lightning; gen. as attributive adj. blazing
+9	tenid	teine 1	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=fire, lightning; gen. as attributive adj. blazing
 10-11	achoscrad	_	_	_	_	_	_	_	_
-10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	11	_	X	Gloss=his, its
-11	choscrad	coscrad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of overthrowing, destroying, hacking, tearing apart, disturbing
-12	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-13	assreud	asreud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of dispersing, scattering
+10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	11	obj:poss	X	Gloss=his, its
+11	choscrad	coscrad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	6	csubj	X	Gloss=the act of overthrowing, destroying, hacking, tearing apart, disturbing
+12	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
+13	assreud	asreud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	11	conj	X	Gloss=the act of dispersing, scattering
 
 # sent_id = S0006-2872
 # text = .i. ilanman domber doib du(a)id
@@ -37880,20 +37880,20 @@
 # sent_id = S0006-2873
 # text = ɫ. operosi .i. gnethich .i. adetha 7 loscaid cech rét frissacomraic
 # text_en = or operosi, i.e. active, i.e. it attacks and burns everything that it encounters.
-1	ɫ.	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	operosi	operōsus	ADJ	adjective	Degree=Pos	_	_	X	Gloss=_
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	gnethich	gnéithech	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=active, busy
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	ad·etha	ad·etha	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to go toward, to attack, to obtain, to get
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-8	loscaid	loscaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to burn, to consume by fire
+1	ɫ.	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
+2	operosi	operōsus	ADJ	adjective	Degree=Pos	0	root	X	Gloss=_
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	gnethich	gnéithech	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	2	conj	X	Gloss=active, busy
+5	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+6	ad·etha	ad·etha	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	2	conj	X	Gloss=to go toward, to attack, to obtain, to get
+7	7	ocus 2	CCONJ	conjunction	_	8	cc	X	Gloss=coordinating: and, since
+8	loscaid	loscaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	6	conj	X	Gloss=to burn, to consume by fire
 9	cech	cach	DET	adjective_quantifier	Case=Acc|Number=Sing|Gender=Masc|PronType=Tot	10	det	X	Gloss=every, each, all, any
-10	rét	rét 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=thing
+10	rét	rét 1	NOUN	noun	Case=Acc|Number=Sing	8	obj	13:obj|8:obj	Gloss=thing
 11-13	frissacomraic	_	_	_	_	_	_	_	_
-11	fri	fri	ADP	preposition	Case=Acc	_	case	X	Gloss=towards, against, standard of comparison
-12	ssa·	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-13	·comraic	con·ricc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to meet, to encounter, to join
+11	fri	fri	ADP	preposition	Case=Acc	12	case	X	Gloss=towards, against, standard of comparison
+12	ssa·	-(s)a·	PRON	pronoun_relative	PronType=Rel	13	obl	X	Gloss=which, who, whose
+13	·comraic	con·ricc	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	10	acl:relcl	X	Gloss=to meet, to encounter, to join
 
 # sent_id = S0006-2874
 # text = inréith
@@ -37968,22 +37968,22 @@
 # sent_id = S0006-2883
 # text = .i. innammaige robtar lana diassaraib .i. romdis direchtai arabarach··
 # text_en = i.e. the plains that were full of Assyrians, i.e. that they would be stripped the next day.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	innammaige	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	mmaige	mag	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=plain, open stretch of land
-4	robtar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	cop	X	Gloss=to be
-5	lana	lán	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=full of, filled with, complete, whole
+3	mmaige	mag	NOUN	noun	Case=Acc|Number=Plur	0	root	5:nsubj|0:root	Gloss=plain, open stretch of land
+4	robtar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	5	cop	X	Gloss=to be
+5	lana	lán	ADJ	adjective	Case=Nom|Number=Plur|Gender=Neut|Degree=Pos	3	acl:relcl	X	Gloss=full of, filled with, complete, whole
 6-7	diassaraib	_	_	_	_	_	_	_	_
 6	di	di	ADP	preposition	Case=Dat	7	case	X	Gloss=away, from, cause or reason, by
-7	assaraib	Asar	PROPN	proper_noun	Case=Dat|Number=Plur	_	_	X	Gloss=Assyrian
-8	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-9	romdis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	cop	X	Gloss=to be
-10	direchtai	dírechtae	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Neut	_	_	X	Gloss=bare, stripped
+7	assaraib	Asar	PROPN	proper_noun	Case=Dat|Number=Plur	5	obl	X	Gloss=Assyrian
+8	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
+9	romdis	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	10	cop	X	Gloss=to be
+10	direchtai	dírechtae	ADJ	verbal_participle	Case=Nom|Number=Plur|Gender=Neut	3	conj	X	Gloss=bare, stripped
 11-13	arabarach··	_	_	_	_	_	_	_	_
 11	ar	ar 1	ADP	preposition	Case=Acc	13	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	13	_	X	Gloss=his, its
-13	barach	bárach	NOUN	noun	Case=Dat	_	_	X	Gloss=tomorrow
+12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	13	nmod:poss	X	Gloss=his, its
+13	barach	bárach	NOUN	noun	Case=Dat	10	obl	X	Gloss=tomorrow
 14	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2884
