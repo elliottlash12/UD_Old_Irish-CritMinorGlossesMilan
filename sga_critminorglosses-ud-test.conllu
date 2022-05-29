@@ -38817,23 +38817,25 @@
 # sent_id = S0006-2960
 # text = .i. ní frithalim ruccai formanmaim· trifoisitin tanmaesiu adæ
 # text_en = i.e. I do not expect shame upon my name through the confession of Your (sg) name, O God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·frithalim	fris·áilethar	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to look forward to, to expect
-4	ruccai	ruccae	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=shame, disgrace
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	ní·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·frithalim	fris·áilethar	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to look forward to, to expect
+4	ruccai	ruccae	NOUN	noun	Case=Acc|Number=Sing	3	obj	X	Gloss=shame, disgrace
 5-7	formanmaim	_	_	_	_	_	_	_	_
 5	for	for	ADP	preposition	Case=Dat	7	case	X	Gloss=upon, over, on
-6	m'	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	7	_	X	Gloss=my
-7	anmaim	ainm	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=name, noun (gramm)
+6	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	7	nmod:poss	X	Gloss=my
+7	anmaim	ainm	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=name, noun (gramm)
 8	·	·	PUNCT	punctuation	_	_	_	_	_
 9-10	trifoisitin	_	_	_	_	_	_	_	_
-9	tri	tre	ADP	preposition	Case=Acc	9	case	X	Gloss=through (time or space), by means of, be reason of
-10	foisitin	foísitiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of confessing; confession, profession, concession, avowal, acknowledgment
-11	t'	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	11	_	X	Gloss=your (sg.)
-12	anmae	ainm	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=name, noun (gramm)
-13	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-14	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-15	dæ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+9	tri	tre	ADP	preposition	Case=Acc	10	case	X	Gloss=through (time or space), by means of, be reason of
+10	foisitin	foísitiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	advcl	X	Gloss=the act of confessing; confession, profession, concession, avowal, acknowledgment
+11-13	tanmaesiu	_	_	_	_	_	_	_	_
+11	t	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	11	nmod:poss	X	Gloss=your (sg.)
+12	anmae	ainm	NOUN	noun	Case=Gen|Number=Sing	10	obj	X	Gloss=name, noun (gramm)
+13	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	12	nmod	X	Gloss=emphasising particle
+14-15	adæ	_	_	_	_	_	_	_	_
+14	a	a 1	PART	particle_vocative	_	15	case:voc	X	Gloss=O! ; oh
+15	dæ	día 2	NOUN	noun	Number=Sing	3	vocative	X	Gloss=god, deity, God
 
 # sent_id = S0006-2961
 # text = dírgimem
