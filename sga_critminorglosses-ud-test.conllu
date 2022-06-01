@@ -7995,7 +7995,7 @@
 # sent_id = S0006-215
 # text = asrobrad
 # text_en = which has been said.
-1	as·robrad	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	0	root	0:root	Gloss=to say, to speak, to call , mention
+1	as·robrad	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	0	root	0:root	Gloss=to say, to speak, to call , mention
 
 # sent_id = S0006-216
 # text = .i. demnigte són
@@ -8195,7 +8195,7 @@
 # sent_id = S0006-234
 # text = noerladaigtis
 # text_en = who were obeying.
-1	no·erladaigtis	airladaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Nas	0	root	0:root	Gloss=to obey
+1	no·erladaigtis	airladaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	0	root	0:root	Gloss=to obey
 
 # sent_id = S0006-235
 # text = huandhulidettuid .i. hule aráin lesom anisiu··
@@ -8524,7 +8524,7 @@
 # text = am[al] rundgab
 # text_en = as it is.
 1	amal	amail 2	SCONJ	conjunction	_	2	mark	X	Gloss=as, like; translating Latin ut
-2	rund·gab	gaibid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	0	root	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+2	rund·gab	gaibid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Nas	0	root	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 
 # sent_id = S0006-261
 # text = .i. dináimtib
@@ -8750,7 +8750,7 @@
 6	immaircide	immaircide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	2	conj	X	Gloss=suitable, fitting, appropriate, becoming
 7	nad·	nád 1	PART	particle_negative_subordinate	_	8	advmod:neg	X	Gloss=that...not
 8-9	techtadsom	_	_	_	_	_	_	_	_
-8	·techtad	techtaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	6	ccomp	X	Gloss=to have, to possess
+8	·techtad	techtaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Nas	6	ccomp	X	Gloss=to have, to possess
 9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	8	nsubj	X	Gloss=emphasising particle
 10	dliged	dliged	NOUN	noun	Case=Acc|Number=Sing	8	obj	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
 11	coimdemnachtae	coimdemnacht	NOUN	noun	Case=Gen|Number=Sing	10	nmod	X	Gloss=lordship, rule
@@ -28210,12 +28210,12 @@
 7	a	a 1	PART	particle_vocative	_	8	case:voc	X	Gloss=O! ; oh
 8	dé	día 2	NOUN	noun	Number=Sing	3	vocative	X	Gloss=god, deity, God
 
-# sent_id = S0006-2034 - check line 11
+# sent_id = S0006-2034
 # text = .i. ciabed ammet inna fochaide 7 innaningramman fosrodamarsa·
 # text_en = i.e. whatever the size of the tribulations and the persecutions might be, I endured them.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	ciabed	_	_	_	_	_	_	_	_
-2	cia	cía 1	X	pronoun_interrogative	_	12	dislocated	X	Gloss=who, what, which
+2	cia	cía 1	X	pronoun_interrogative	_	11	dislocated	X	Gloss=who, what, which
 3	bed	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	2	csubj:cleft	X	Gloss=to be, to exist,
 4-5	ammet	_	_	_	_	_	_	_	_
 4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	nmod:poss	X	Gloss=their
@@ -28226,10 +28226,10 @@
 9-10	innaningramman	_	_	_	_	_	_	_	_
 9	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
 10	ningramman	ingreimm 1	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	7	conj	X	Gloss=the act of persecuting
-11	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	12	inf:obj	X	Gloss=them
-12	fosro·damar-sa	fo·daim	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to suffer, to endure
-13	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	12	nsubj	X	Gloss=emphasising particle
-14	·	·	PUNCT	punctuation	_	_	_	_	_
+11-12	fosrodamarsa	_	_	_	_	_	_	_	_
+11	fosro·damar	fo·daim	VERB	verb	Person[Obj]=3|Number[Obj=Plur|Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to suffer, to endure
+12	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	11	nsubj	X	Gloss=emphasising particle
+13	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2035
 # text = am ba frithortae
@@ -28681,7 +28681,7 @@
 1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 2	intledaigte	intledaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to lie in wait for, to ambush
 
-# sent_id = S0006-2085 - check line 5
+# sent_id = S0006-2085
 # text = .i. sechis hondrochgnimaib són ɔnacumset ní dam
 # text_en = i.e. that is, from their evil deeds, so that they may be able to do nothing to me.
 1	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
@@ -28690,7 +28690,7 @@
 3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	7	cop	X	Gloss=to be
 4-7	hondrochgnimaib	_	_	_	_	_	_	_	_
 4	ho	ó 1	ADP	preposition	Case=Dat	7	case	X	Gloss=from, out of, by
-5	'	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=their
+5	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Typo=Yes	7	nmod:poss	X	Gloss=their|Addition=Yes
 6	ndroch	droch-	X	particle_prefix	_	7	amod	X	Gloss=evil, bad, wrong
 7	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	11	advcl	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 8	són	-són	PRON	particle_anaphoric	_	7	discourse	X	Gloss=that (mentioned above) that is
@@ -29660,14 +29660,14 @@
 26	frie	fri	ADP	preposition	Person=3|Number=Sing|Gender=Fem|Case=Acc	_	_	X	Gloss=towards, against, standard of comparison
 27	anechtair	anechtair	ADV	adverb	_	_	_	X	Gloss=from outside
 
-# sent_id = S0006-2179 - line 4 - dislocated|root
+# sent_id = S0006-2179 - ellipsis
 # text = .i. cachla fers and diadhuath 7 gráin infers aile dí huaisletu
 # text_en = i.e. every second verse in it [is] of terror and horror, the other verse of elevation.
 1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	cachla	_	_	_	_	_	_	_	_
 2	cach	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc|PronType=Tot	3	det	X	Gloss=every, each, all, any
 3	la	ala	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Masc	4	amod	X	Gloss=the other, one another ; else; second
-4	fers	fers	NOUN	noun	Case=Nom|Number=Sing	11	dislocated	X	Gloss=verse
+4	fers	fers	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=verse
 5	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	4	obl:prep	X	Gloss=in, into
 6-7	diadhuath	_	_	_	_	_	_	_	_
 6	di	di	ADP	preposition	Case=Dat	7	case	X	Gloss=away, from, cause or reason, by
@@ -29676,10 +29676,10 @@
 9	gráin	gráin	NOUN	noun	Case=Dat|Number=Sing	7	conj	X	Gloss=terror, horror
 10-11	infers	_	_	_	_	_	_	_	_
 10	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	fers	fers	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=verse
+11	fers	fers	NOUN	noun	Case=Nom|Number=Sing	4	dislocated	X	Gloss=verse
 12	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Masc	11	amod	X	Gloss=other, another, else, second
 13	dí	di	ADP	preposition	Case=Dat	14	case	X	Gloss=away, from, cause or reason, by
-14	huaisletu	úaisletu	NOUN	noun	Case=Dat|Number=Sing	11	obl	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
+14	huaisletu	úaisletu	NOUN	noun	Case=Dat|Number=Sing	7	parataxis	X	Gloss=height, highest point, climax; nobility, dignity, elevation, exaltation
 
 # sent_id = S0006-2180
 # text = .i. tuc duaid fersu hitadbadar inducbál dé 7 a huaisletu ut est uolauit rl. inarrad innafersae hitadbadar cosmailius do frisnariga talmandi· air dommuinfide bed nísel intí dia ma atis hé indfersai grandi insin namma dumberad duaid· ut est 7 ignis a facie rl.
@@ -36772,7 +36772,7 @@
 11-12	indí	_	_	_	_	_	_	_	_
 11	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	12	det	X	Gloss=the
 12	í	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	6	dislocated	X	Gloss=substantivizing particle
-13	duaid	dúaid	PROPN	proper_noun	Case=Gen|Number=Sing	12	nmod	X	Gloss=David
+13	duaid	dúaid	PROPN	proper_noun	Case=Gen|Number=Sing	12	appos	X	Gloss=David
 14	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2766
