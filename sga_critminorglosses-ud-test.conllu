@@ -29173,23 +29173,23 @@
 # sent_id = S0006-2139
 # text = ɫ. felís .i. huamuc mairbnib ut alii dicunt olsodain nad choir hi sunt
 # text_en = or suillis, i.e. with swine’s carcasses, ut allii dicunt, which, however, is not fitting here.
-1	ɫ.	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	felís	fēlis	NOUN	noun	_	_	_	X	Gloss=_
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	ɫ.	uel	CCONJ	conjunction	_	2	cc	X	Gloss=or, even
+2	felís	fēlis	NOUN	noun	_	0	root	X	Gloss=_
+3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	huamuc	_	_	_	_	_	_	_	_
 4	hua	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
-5	muc	mucc	NOUN	noun	_	_	_	X	Gloss=sow, pig
-6	mairbnib	mairbne	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=dead bodies, corpses
-7	ut	ut	X	conjunction	_	_	_	X	Gloss=that, so that
-8	alii	alius	ADJ	adjective	Degree=Pos	_	_	X	Gloss=other, the other
-9	dicunt	dīcō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to say, to declare, to call
+5	muc	mucc	NOUN	noun	_	2	conj	X	Gloss=sow, pig
+6	mairbnib	mairbne	NOUN	noun	Case=Dat|Number=Plur	5	appos	X	Gloss=dead bodies, corpses
+7	ut	ut	X	conjunction	_	5	flat	X	Gloss=that, so that
+8	alii	alius	ADJ	adjective	Degree=Pos	5	flat	X	Gloss=other, the other
+9	dicunt	dīcō	VERB	verb	Voice=Act|Mood=Ind	5	flat	X	Gloss=to say, to declare, to call
 10-11	olsodain	_	_	_	_	_	_	_	_
-10	ol	ol 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, because, for, inasmuch as; that which; adversative relative with sodain: “which, however”
-11	sodain	suide 1	PRON	pronoun_anaphoric	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-12	nad	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-13	choir	coäir	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=fitting, proper, right ; even, well-propportioned, straight; correct, suitable
-14	hi	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-15	sunt	sund	ADV	adverb	_	_	_	X	Gloss=here, in this place; hither, to this place
+10	ol	ol 2	SCONJ	conjunction	_	13	mark	X	Gloss=causal: since, because, for, inasmuch as; that which; adversative relative with sodain: “which, however”
+11	sodain	suide 1	PRON	pronoun_anaphoric	Case=Nom|Number=Sing|Gender=Neut	2	discourse	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+12	nad	nád 1	PART	particle_negative_subordinate	_	13	advmod:neg	X	Gloss=that...not
+13	choir	coäir	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	2	advcl	X	Gloss=fitting, proper, right ; even, well-propportioned, straight; correct, suitable
+14	hi	i	ADP	preposition	Case=Acc	15	case	X	Gloss=in, into
+15	sunt	sund	ADV	adverb	_	13	obl	X	Gloss=here, in this place; hither, to this place
 
 # sent_id = S0006-2140
 # text = nad tarta foranaithrea
@@ -30015,23 +30015,23 @@
 # sent_id = S0006-2203
 # text = .i. aisndís nuallach 7 tropdae isindisiu amal rongab hi tosuch aaisndísen
 # text_en = i.e. a clamorous and figurative declaration therein, as there is in the beginning of his exposition.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	aisndís	aisndís	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
-3	nuallach	núallach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=loud, clamorous
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-5	tropdae	tropdae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=figurative
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	aisndís	aisndís	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
+3	nuallach	núallach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	2	amod	X	Gloss=loud, clamorous
+4	7	ocus 2	CCONJ	conjunction	_	5	cc	X	Gloss=coordinating: and, since
+5	tropdae	tropdae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos	3	conj	X	Gloss=figurative
 6-9	isindisiu	_	_	_	_	_	_	_	_
 6	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
 7	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	i	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-9	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this, these
-10	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-11	ron·gab	gaibid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+8	i	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Masc	5	obl	X	Gloss=substantivizing particle
+9	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	8	appos	X	Gloss=this, these
+10	amal	amail 2	SCONJ	conjunction	_	11	mark	X	Gloss=as, like; translating Latin ut
+11	ron·gab	gaibid	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	2	advcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 12	hi	i	ADP	preposition	Case=Dat	13	case	X	Gloss=in, into
-13	tosuch	tosach	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=beginning, precedence
+13	tosuch	tosach	NOUN	noun	Case=Dat|Number=Sing	11	obl	X	Gloss=beginning, precedence
 14-15	aaisndísen	_	_	_	_	_	_	_	_
-14	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	15	_	X	Gloss=his, its
-15	aisndísen	aisndís	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
+14	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	15	nmod:poss	X	Gloss=his, its
+15	aisndísen	aisndís	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	13	nmod	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
 
 # sent_id = S0006-2204
 # text = doadbchlois
@@ -31621,24 +31621,24 @@
 # sent_id = S0006-2354
 # text = .i. nondalagaba .i. madfrifrecur cheill de nosbera
 # text_en = i.e. that he take them in hand, i.e. if it be to the worship of God that he should apply them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-5	nondalagaba	_	_	_	_	_	_	_	_
-2	no	no·	SCONJ	particle_preverb	_	_	mark:prt	X	Gloss=empty particle
-3	nda·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=them
+2	no	no·	SCONJ	particle_preverb	_	5	mark:prt	X	Gloss=empty particle
+3	nda·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	5	inf:obj	X	Gloss=them
 4	·lam	lám	NOUN	noun	Typo=Yes	_	_	X	Gloss=hand, arm|Addition=Yes
-5	·lagaba	lámgaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other|Typo=Yes	_	_	X	Gloss=to take in hand; as gloss to Lat. mancipare|CorrectForm=·gaba
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+5	·lagaba	lámgaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other|Typo=Yes	0	root	X	Gloss=to take in hand; as gloss to Lat. mancipare|CorrectForm=·gaba
+6	.i.	.i.	CCONJ	abbreviation	_	10	cc	X	Gloss=id est, it is
 7-10	madfrifrecur	_	_	_	_	_	_	_	_
-7	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-8	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+7	ma	ma	SCONJ	conjunction	_	10	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+8	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
 9	fri	fri	ADP	preposition	Case=Acc	10	case	X	Gloss=towards, against, standard of comparison
-10	frecur	frecor	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of putting against, hence objecting to, impugning, repelling; with céill (see cíall): the act of putting one’s mind to
-11	cheill	cíall	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=sense, intelligence, mind, thought, meaning, interpretation, wisdom, good sense
-12	de	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+10	frecur	frecor	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	5	conj	X	Gloss=the act of putting against, hence objecting to, impugning, repelling; with céill (see cíall): the act of putting one’s mind to
+11	cheill	cíall	NOUN	noun	Case=Dat|Number=Sing	10	obl	X	Gloss=sense, intelligence, mind, thought, meaning, interpretation, wisdom, good sense
+12	de	día 2	NOUN	noun	Case=Gen|Number=Sing	10	obj	X	Gloss=god, deity, God
 13-15	nosbera	_	_	_	_	_	_	_	_
-13	no	no·	SCONJ	particle_preverb	_	_	mark:prt	X	Gloss=empty particle
-14	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=them
-15	·bera	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
+13	no	no·	SCONJ	particle_preverb	_	15	mark:prt	X	Gloss=empty particle
+14	s·	3pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs	15	inf:obj	X	Gloss=them
+15	·bera	beirid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	10	ccomp	X	Gloss=to carry, to bear, to get, to take, to obtain, to bring to impose on, to put on, to inflict on, to judge, to infer, to refer, to adduce
 
 # sent_id = S0006-2355
 # text = .i. cendenum pectha
