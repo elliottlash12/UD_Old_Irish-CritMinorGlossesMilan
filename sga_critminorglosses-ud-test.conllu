@@ -19995,24 +19995,24 @@
 7	aili	aile 1	X	adjective_pronominal	Case=Gen|Number=Sing|Gender=Masc	6	nmod	X	Gloss=other, another, else, second
 8	labraimme	labraithir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	5	csubj:cleft	X	Gloss=to speak, to talk, to utter
 
-# sent_id = S0006-1301
+# sent_id = S0006-1301 - airindi
 # text = hognimab .i. air in di dondarigensat is airi asbeirsom a epirt doib
 # text_en = in deeds, i.e. because they did it, it is therefore that he says that they said it [lit. its saying by them]
 1	ho	ó 1	ADP	preposition	Case=Dat	2	case	X	Gloss=from, out of, by
-2	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+2	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+3	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 4	air	ar 1	ADP	preposition	Case=Dat	6	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
 5	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	i	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-7	airindi	arindí	X	conjunction	_	_	_	X	Gloss=causal: because, for the reason that
-8	donda·rigensat	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
-9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-10	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-11	as·beir	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to say, to speak, to call , mention
-12	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
-13	a	3sg.fem.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	14	_	X	Gloss=her
-14	epirt	eipert	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of saying; speech, statement, word
-15	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
+6	i	í 1	PRON	pronoun_propword	Case=Dat|Number=Sing|Gender=Neut	2	conj	X	Gloss=substantivizing particle
+7	airindi	arindí	X	conjunction	_	8	mark	X	Gloss=causal: because, for the reason that
+8	donda·rigensat	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|Aspect=Perf|RelType=Other	6	acl	X	Gloss=to do, to make
+9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	11	cop	X	Gloss=to be
+10	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	11	obl:prep	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+11	as·beir	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	8	ccomp	X	Gloss=to say, to speak, to call , mention
+12	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	11	nsubj	X	Gloss=emphasising particle
+13	a	3sg.fem.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	14	nmod:poss	X	Gloss=her
+14	epirt	eipert	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	11	obj	X	Gloss=the act of saying; speech, statement, word
+15	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	11	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-1302
 # text = intsoer
@@ -22124,22 +22124,22 @@
 # text = donaib ulib athisib .i. ad omnia peccata .i. manibé ómun dǽ les
 # text_en = to all the insults, i.e. ad omnia peccata, i.e. if the fear of God would not be with him.
 1-2	donaib	_	_	_	_	_	_	_	_
-1	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	ulib	uile	ADJ	adjective_quantifier	Case=Dat|Number=Plur|Gender=Fem	_	_	X	Gloss=all, every, the whole
-4	athisib	aithis	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=insult, reproach, reviling
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	ad	ad (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=to, towards, up to, for
-7	omnia	omnis	DET	adjective_quantifier	_	_	det	X	Gloss=all, total, every
-8	peccata	peccātum	NOUN	noun	_	_	_	X	Gloss=sin
-9	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	do	do 1	ADP	preposition	Case=Dat	4	case	X	Gloss=to, for, by etc.
+2	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	4	det	X	Gloss=the
+3	ulib	uile	ADJ	adjective_quantifier	Case=Dat|Number=Plur|Gender=Fem	4	amod	X	Gloss=all, every, the whole
+4	athisib	aithis	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=insult, reproach, reviling
+5	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
+6	ad	ad (Lat)	ADP	preposition	Case=Unk	8	flat	X	Gloss=to, towards, up to, for
+7	omnia	omnis	DET	adjective_quantifier	_	8	flat	X	Gloss=all, total, every
+8	peccata	peccātum	NOUN	noun	_	4	conj	X	Gloss=sin
+9	.i.	.i.	CCONJ	abbreviation	_	12	cc	X	Gloss=id est, it is
 10-12	manibé	_	_	_	_	_	_	_	_
-10	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-11	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-12	·bé	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-13	ómun	omun	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=fear, the state of being afraid
-14	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
-15	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+10	ma	ma	SCONJ	conjunction	_	12	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+11	ni·	ní 3	PART	particle_negative_main	_	12	advmod:neg	X	Gloss=not
+12	·bé	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	conj	X	Gloss=to be, to exist,
+13	ómun	omun	NOUN	noun	Case=Nom|Number=Sing	12	nsubj	X	Gloss=fear, the state of being afraid
+14	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing	13	nmod	X	Gloss=god, deity, God
+15	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	12	xcomp:pred:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0006-1509
 # text = lias
@@ -23964,22 +23964,22 @@
 # text = baerchoitech ndoib toimtiu nad rancatar les denma maith iarna soirad de manu assiriorum
 # text_en = it was hurtful to them, the thought that they had no need to do good after their deliverance de manu Assyriorum.
 1-2	baerchoitech	_	_	_	_	_	_	_	_
-1	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	erchoitech	airchóitech	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=injurious, harmful, pernicious
-3	ndoib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-4	toimtiu	toimtiu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=act of thinking; opinion
-5	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-6	·rancatar	ro·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to reach, to attain, to arrive, come to
-7	les	les 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=relief, benefit, advantage, good, profit, interest, in compounds: substitute, not properly belonging, cause, case, affair, matter
-8	denma	dénum	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
-9	maith	maith	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=good, right, noble
+1	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	2	cop	X	Gloss=to be
+2	erchoitech	airchóitech	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=injurious, harmful, pernicious
+3	ndoib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	2	obl:prep	X	Gloss=to, for, by etc.
+4	toimtiu	toimtiu	NOUN	noun	Case=Nom|Number=Sing	2	dislocated	X	Gloss=act of thinking; opinion
+5	nad·	nád 1	PART	particle_negative_subordinate	_	6	advmod:neg	X	Gloss=that...not
+6	·rancatar	ro·icc	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	4	csubj:cleft	X	Gloss=to reach, to attain, to arrive, come to
+7	les	les 1	NOUN	noun	Case=Acc|Number=Sing	6	obj	X	Gloss=relief, benefit, advantage, good, profit, interest, in compounds: substitute, not properly belonging, cause, case, affair, matter
+8	denma	dénum	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	7	nmod	X	Gloss=the act of doing, making, creating; deed, work, activity
+9	maith	maith	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	8	nmod	X	Gloss=good, right, noble
 10-11	iarna	_	_	_	_	_	_	_	_
 10	iar	íar 1	ADP	preposition	Case=Dat	12	case	X	Gloss=after, behind, across, along, beyond, according to
-11	na	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	12	_	X	Gloss=their
-12	soirad	sóerad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of freeing, delivering; deliverance
-13	de	de (Lat)	ADP	preposition	Case=Gen	8	case	X	Gloss=from, off, about
-14	manu	manus	NOUN	noun	_	_	_	X	Gloss=hand
-15	assiriorum	Assyrii	NOUN	noun	_	_	_	X	Gloss=_
+11	na	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	12	obj:poss	X	Gloss=their
+12	soirad	sóerad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	6	advcl	X	Gloss=the act of freeing, delivering; deliverance
+13	de	de (Lat)	ADP	preposition	Case=Gen	14	case	X	Gloss=from, off, about
+14	manu	manus	NOUN	noun	_	12	obl	X	Gloss=hand
+15	assiriorum	Assyrii	NOUN	noun	_	14	nmod	X	Gloss=_
 
 # sent_id = S0006-1677
 # text = codufubath ɫ. incederet .i. codufailced don .i. ɔnaconbeth leu etir
