@@ -33681,23 +33681,23 @@
 # sent_id = S0006-2521
 # text = .i. sechis ho oclachas ón cenid ed as chetnae náis in homine
 # text_en = i.e. that is, from adolescence, although it is not that that is the first age in homine.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	sechis	_	_	_	_	_	_	_	_
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+2	sech	sech 2	X	conjunction	_	5	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4	ho	ó 1	ADP	preposition	Case=Dat	5	case	X	Gloss=from, out of, by
-5	oclachas	óclachas	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=condition of being a young man; adolescent ; manly vigour,valour, warrior qualities
-6	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
+5	oclachas	óclachas	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=condition of being a young man; adolescent ; manly vigour,valour, warrior qualities
+6	ón	-ón	PRON	particle_anaphoric	_	5	discourse	X	Gloss=that (aforementioned)
 7-9	cenid	_	_	_	_	_	_	_	_
-7	ce	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-8	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-9	d	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
-10	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
-11	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-12	chetnae	cétnae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=same (with preceding noun), first (with following noun)
-13	náis	áes 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=stage, period (of life); age, years (of person etc.)
+7	ce	cía 2	SCONJ	conjunction	_	10	mark	X	Gloss=concessive and explicative: even, although
+8	ni	ní 3	PART	particle_negative_main	_	10	advmod:neg	X	Gloss=not
+9	d	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	10	inf:obj	X	Gloss=it
+10	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	5	advcl	X	Gloss=it
+11	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	12	cop	X	Gloss=to be
+12	chetnae	cétnae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	13	amod	X	Gloss=same (with preceding noun), first (with following noun)
+13	náis	áes 1	NOUN	noun	Case=Nom|Number=Sing	10	ccomp	X	Gloss=stage, period (of life); age, years (of person etc.)
 14	in	in (Lat)	ADP	preposition	Case=Unk	15	case	X	Gloss=in, into
-15	homine	homō	NOUN	noun	_	_	_	X	Gloss=human being, person, man
+15	homine	homō	NOUN	noun	_	13	obl	X	Gloss=human being, person, man
 
 # sent_id = S0006-2522
 # text = as letha
@@ -35703,26 +35703,26 @@
 # sent_id = S0006-2688
 # text = .i. bachuimnech dilguda duinni fochosmailius dundrolgis don popul robo inegept·
 # text_en = i.e. be mindful of forgiveness to us in the same way as You (sg) forgave it to the people that was in Egypt.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	bachuimnech	_	_	_	_	_	_	_	_
-2	ba	is 1	AUX	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Impv|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	chuimnech	cuimnech	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=mindful, remembering, aware, famous
-4	dilguda	dílgud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of forgiving; forgiveness, pardon, remission, forgiving
+2	ba	is 1	AUX	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Impv|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	chuimnech	cuimnech	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos	0	root	X	Gloss=mindful, remembering, aware, famous
+4	dilguda	dílgud	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	3	xcomp	X	Gloss=the act of forgiving; forgiveness, pardon, remission, forgiving
 5-6	duinni	_	_	_	_	_	_	_	_
-5	duin	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-6	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
+5	duin	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat	6	case	X	Gloss=to, for, by etc.
+6	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	4	obl	X	Gloss=emphasising particle
 7-8	fochosmailius	_	_	_	_	_	_	_	_
 7	fo	fo	ADP	preposition	Case=Acc	8	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-8	chosmailius	cosmailius	NOUN	noun	Case=Dat	_	_	X	Gloss=likeness, similarity, resemblance; comparison
-9	dund·rolgis	do·lugai	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|Aspect=Perf|RelType=Other	_	_	X	Gloss=to forgive, to remit
+8	chosmailius	cosmailius	NOUN	noun	Case=Dat	4	obl	X	Gloss=likeness, similarity, resemblance; comparison
+9	dund·rolgis	do·lugai	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|Aspect=Perf|RelType=Other	8	acl	X	Gloss=to forgive, to remit
 10-11	don	_	_	_	_	_	_	_	_
 10	do	do 1	ADP	preposition	Case=Dat	12	case	X	Gloss=to, for, by etc.
 11	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	12	det	X	Gloss=the
-12	popul	popul	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
-13	ro·bo	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Typo=Yes	_	_	X	Gloss=to be, to exist,|CorrectForm=ro·boi
+12	popul	popul	NOUN	noun	Case=Dat|Number=Sing	9	obl	13:nsubj|9:obl	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+13	ro·bo	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Typo=Yes	12	acl:relcl	X	Gloss=to be, to exist,|CorrectForm=ro·boi
 14-15	inegept	_	_	_	_	_	_	_	_
 14	i	i	ADP	preposition	Case=Acc	15	case	X	Gloss=in, into
-15	negept	Égept	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=Egypt
+15	negept	Égept	PROPN	proper_noun	Case=Dat|Number=Sing	13	xcomp:pred	X	Gloss=Egypt
 16	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2689
