@@ -25447,17 +25447,17 @@
 # sent_id = S0006-1796 - check the words after line 10
 # text = .i. airiserǵem file isintleth toisech di confitebor ::lugud .i. derchondin diarcéged suidiu file in hoc psalmo :::::
 # text_en = i.e. for it is complaining that is in the first half of Confitebor (Psalm 9).... which is in this psalm.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-4	airiserǵem	_	_	_	_	_	_	_	_
-2	air	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	erǵem	airigem	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Typo=Yes	_	_	X	Gloss=the act of complaining; complaint|CorrectForm=erégem
-5	file	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+2	air	ar 2	SCONJ	conjunction	_	4	mark	X	Gloss=causal: since, for; final: so that
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	erǵem	airigem	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Typo=Yes	0	root	X	Gloss=the act of complaining; complaint|CorrectForm=erégem
+5	file	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	csubj:cleft	X	Gloss=to be, to exist,
 6-8	isintleth	_	_	_	_	_	_	_	_
 6	i	i	ADP	preposition	Case=Dat	8	case	X	Gloss=in, into
 7	sint	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	leth	leth	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
-9	toisech	toísech	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=first, former, prior, subst. leader, chief
+8	leth	leth	NOUN	noun	Case=Dat|Number=Sing	5	xcomp:pred	X	Gloss=half, side, direction, in compounds: half-, semi-, quasi-
+9	toisech	toísech	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	8	amod	X	Gloss=first, former, prior, subst. leader, chief
 10	di	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
 11	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
 12	suidiu	suide 2	NOUN	verbal_noun	Case=Dat|Number=Sing|Gender=Neut|VerbForm=VNoun	_	_	X	Gloss=the act of sitting (down); seat
@@ -27346,24 +27346,24 @@
 # sent_id = S0006-1956
 # text = comacuburdi .i. amal is ho imratib gnaither cechgním is hofethib gnitir comaccobra 7 imraiti
 # text_en = desirous, i.e. as it is from thoughts that each deed is done, so it is from the kidneys that desires and thoughts are worked.
-1	comacuburdi	comaccomordae	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=desirous, concupiscent
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-4	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	comacuburdi	comaccomordae	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	0	root	X	Gloss=desirous, concupiscent
+2	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+3	amal	amail 2	SCONJ	conjunction	_	6	mark	X	Gloss=as, like; translating Latin ut
+4	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
 5	ho	ó 1	ADP	preposition	Case=Dat	6	case	X	Gloss=from, out of, by
-6	imratib	immrádud	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of thinking, deliberating
-7	gnaither	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to do
+6	imratib	immrádud	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	1	conj	X	Gloss=the act of thinking, deliberating
+7	gnaither	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	csubj:cleft	X	Gloss=to do
 8-9	cechgním	_	_	_	_	_	_	_	_
 8	cech	cach	DET	adjective_quantifier	Case=Nom|Number=Sing|Gender=Masc|PronType=Tot	9	det	X	Gloss=every, each, all, any
-9	gním	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-10	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+9	gním	gním	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	7	nsubj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+10	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	12	cop	X	Gloss=to be
 11-12	hofethib	_	_	_	_	_	_	_	_
 11	ho	ó 1	ADP	preposition	Case=Dat	12	case	X	Gloss=from, out of, by
-12	fethib	féith 1	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=sinew, vein; kidney
-13	gnitir	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to do
-14	comaccobra	comaccobor	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=(carnal) desire, concupiscence
-15	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-16	imraiti	immrádud	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of thinking, deliberating
+12	fethib	féith 1	NOUN	noun	Case=Dat|Number=Plur	6	parataxis	X	Gloss=sinew, vein; kidney
+13	gnitir	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	12	csubj:cleft	X	Gloss=to do
+14	comaccobra	comaccobor	NOUN	noun	Case=Nom|Number=Plur	13	nsubj	X	Gloss=(carnal) desire, concupiscence
+15	7	ocus 2	CCONJ	conjunction	_	16	cc	X	Gloss=coordinating: and, since
+16	imraiti	immrádud	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun	14	conj	X	Gloss=the act of thinking, deliberating
 
 # sent_id = S0006-1957
 # text = .i. inna aslach són
@@ -27574,25 +27574,27 @@
 # sent_id = S0006-1976
 # text = .i. danuicsom dofortacht in dligid rogabad tri· immaircidetaid fris innaicsin forarobae
 # text_en = i.e. on account of [its] congruence to the cause on which he was engaged, he has cited it in order to support the saying that was uttered.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2-3	danuicsom	_	_	_	_	_	_	_	_
-2	da·nuic	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-3	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+2	da·nuic	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Masc|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	0	root	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+3	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	2	obj	X	Gloss=emphasising particle
 4-5	dofortacht	_	_	_	_	_	_	_	_
-4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
-5	fortacht	fortacht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of aiding, helping
+4	do	do 1	ADP	preposition	Case=Dat	5	mark:prt	X	Gloss=to, for, by etc.
+5	fortacht	fortacht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of aiding, helping
 6	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	7	det	X	Gloss=the
-7	dligid	dliged	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
-8	ro·gabad	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
-9	tri	tre	ADP	preposition	Case=Acc	_	case	X	Gloss=through (time or space), by means of, be reason of
+7	dligid	dliged	NOUN	noun	Case=Gen|Number=Sing	5	obj	8:obl|5:obj	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
+8	ro·gabad	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	7	acl:relcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+9	tri	tre	ADP	preposition	Case=Acc	11	case	X	Gloss=through (time or space), by means of, be reason of
 10	·	·	PUNCT	punctuation	_	_	_	_	_
-11	immaircidetaid	immaircidetu	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=fitness, appropriateness, congruity
-12	fri	fri	ADP	preposition	Case=Acc	13	case	X	Gloss=towards, against, standard of comparison
-13	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
-14	naicsin	accuis	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=cause, reason, ground, offence, crime; hatred, enmity, rancor; disease, poison, venom
-15	for	for	ADP	preposition	Case=Acc	_	case	X	Gloss=upon, over, on
-16	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-17	·robae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
+11	immaircidetaid	immaircidetu	NOUN	noun	Case=Acc|Number=Sing	8	obl	X	Gloss=fitness, appropriateness, congruity
+12	fri	fri	ADP	preposition	Case=Acc	13	case	X	Gloss=towards, against, standard of comparison|SpaceAfter=No|CorrectSpaceAfter=Yes
+13-14	innaicsin	_	_	_	_	_	_	_	_
+13	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Typo=Yes	13	det	X	Gloss=the|CorrectForm=sin
+14	naicsin	accuis	NOUN	noun	Case=Acc|Number=Sing	8	obl	X	Gloss=cause, reason, ground, offence, crime; hatred, enmity, rancor; disease, poison, venom
+15-17	forarobae	_	_	_	_	_	_	_	_
+15	for	for	ADP	preposition	Case=Acc	16	case	X	Gloss=upon, over, on
+16	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	17	xcomp:pred	X	Gloss=which, who, whose
+17	·robae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	14	acl:relcl	X	Gloss=to be, to exist,
 
 # sent_id = S0006-1977
 # text = .i. issain funtuc side frisní fuandragab petar
