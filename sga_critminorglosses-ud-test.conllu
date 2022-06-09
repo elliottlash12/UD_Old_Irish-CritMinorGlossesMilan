@@ -21704,26 +21704,26 @@
 # text = ciaduforcunn .i. ciaeret mbete oc m ingraimmaimse 7 ciaforcenn· doberthar foraib·
 # text_en = to what end?  i.e. how long will they be persecuting me, and what end will be put upon them?
 1-3	ciaduforcunn	_	_	_	_	_	_	_	_
-1	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
+1	cia	cía 1	X	pronoun_interrogative	_	3	det	X	Gloss=who, what, which
 2	du	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
-3	forcunn	forcenn	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=end, final limit (generally of time or procedure), what is destined
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	forcunn	forcenn	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=end, final limit (generally of time or procedure), what is destined
+4	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 5-6	ciaeret	_	_	_	_	_	_	_	_
-5	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-6	eret	airet	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=length, interval, space (of time, sometimes of space)
-7	mbete	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
+5	cia	cía 1	X	pronoun_interrogative	_	3	conj	X	Gloss=who, what, which
+6	eret	airet	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=length, interval, space (of time, sometimes of space)
+7	mbete	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to be, to exist,
 8	oc	oc	ADP	preposition	Case=Dat	10	case	X	Gloss=at, by, besides, with (person)
-9	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	10	_	X	Gloss=my
+9	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	10	obj:poss	X	Gloss=my
 10-11	ingraimmaimse	_	_	_	_	_	_	_	_
-10	ingraimmaim	ingreimm 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of persecuting
-11	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-12	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+10	ingraimmaim	ingreimm 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	7	advcl	X	Gloss=the act of persecuting
+11	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	10	obj	X	Gloss=emphasising particle
+12	7	ocus 2	CCONJ	conjunction	_	13	cc	X	Gloss=coordinating: and, since
 13-14	ciaforcenn	_	_	_	_	_	_	_	_
-13	cia	cía 1	X	pronoun_interrogative	_	_	_	X	Gloss=who, what, which
-14	forcenn	forcenn	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=end, final limit (generally of time or procedure), what is destined
+13	cia	cía 1	X	pronoun_interrogative	_	5	conj	X	Gloss=who, what, which
+14	forcenn	forcenn	NOUN	noun	Case=Nom|Number=Sing	13	nsubj	16:nsubj|13:nsubj	Gloss=end, final limit (generally of time or procedure), what is destined
 15	·	·	PUNCT	punctuation	_	_	_	_	_
-16	do·berthar	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-17	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=upon, over, on
+16	do·berthar	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	14	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+17	foraib	for	ADP	preposition	Person=3|Number=Plur|Case=Dat	16	obl:prep	X	Gloss=upon, over, on
 18	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1463
@@ -22582,27 +22582,27 @@
 # sent_id = S0006-1554
 # text = .i. indoindid .i. acht ducoistis oinecht cosinríg combetis indoiri semper
 # text_en = i.e. once, i.e. if they went once to the King, that they would be in captivity semper.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	indoindid	_	_	_	_	_	_	_	_
-2	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-3	oindid	óendaid	ADV	adverb	_	_	_	X	Gloss=single individual
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-5	acht	acht 1	PART	particle_focus	_	_	_	X	Gloss=except, but, provided that, save that
-6	du·coistis	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
+2	ind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
+3	oindid	óendaid	ADV	adverb	_	0	root	X	Gloss=single individual
+4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
+5	acht	acht 1	PART	particle_focus	_	6	mark	X	Gloss=except, but, provided that, save that
+6	du·coistis	téit	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	3	conj	X	Gloss=to go; gramm. to end in; to transgress, to violate (a law)
 7-8	oinecht	_	_	_	_	_	_	_	_
-7	oin	óen	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=one, single, same, only, unique; as compound element 'great'
-8	echt	fecht	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=journey, expedition, time, occasion, course
+7	oin	óen	ADJ	adjective_numeral_noun	_	8	amod	X	Gloss=one, single, same, only, unique; as compound element 'great'
+8	echt	fecht	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=journey, expedition, time, occasion, course
 9-11	cosinríg	_	_	_	_	_	_	_	_
 9	co	co 1	ADP	preposition	Case=Acc	11	case	X	Gloss=to, until, as far as, towards
 10	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	ríg	rí	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=king
+11	ríg	rí	NOUN	noun	Case=Acc|Number=Sing	6	obl	X	Gloss=king
 12-13	combetis	_	_	_	_	_	_	_	_
-12	co·	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-13	·mbetis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+12	co·	co 4	SCONJ	complementiser	_	13	mark:prt	X	Gloss=so that, until (+independent, leniting)
+13	·mbetis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	6	advcl	X	Gloss=to be, to exist,
 14-15	indoiri	_	_	_	_	_	_	_	_
 14	i	i	ADP	preposition	Case=Acc	15	case	X	Gloss=in, into
-15	ndoiri	doíre	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=slavery, bondage, captivity
-16	semper	semper	ADV	adverb	_	_	_	X	Gloss=always
+15	ndoiri	doíre	NOUN	noun	Case=Dat|Number=Sing	13	xcomp:pred	X	Gloss=slavery, bondage, captivity
+16	semper	semper	ADV	adverb	_	15	advmod	X	Gloss=always
 
 # sent_id = S0006-1555
 # text = amtis forcmachti .i. assair
@@ -23814,25 +23814,25 @@
 # sent_id = S0006-1668
 # text = .i. tabart testimne inna cane fetarlaice dodemnigiud dliged indnuiadnissi lasna auctaru tri immaircedetaid
 # text_en = i.e. the application of texts of the Canon of the Old Testament to confirm the sayings of the New Testament in the writers through congruence.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	tabart	tabart 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
-3	testimne	testimin	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=text, scriptural quotation, passage, testimony
-4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	_	det	X	Gloss=the
-5	cane	canóin	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	_	_	X	Gloss=canon of Scripture, canonical text, Bible, book|CorrectForm=canóne
-6	fetarlaice	fetarlaic	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Old Testament
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	tabart	tabart 1	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+3	testimne	testimin	NOUN	noun	Case=Gen|Number=Plur	2	obj	X	Gloss=text, scriptural quotation, passage, testimony
+4	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	5	det	X	Gloss=the
+5	cane	canóin	NOUN	noun	Case=Gen|Number=Sing|Typo=Yes	3	nmod	X	Gloss=canon of Scripture, canonical text, Bible, book|CorrectForm=canóne
+6	fetarlaice	fetarlaic	PROPN	proper_noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=Old Testament
 7-8	dodemnigiud	_	_	_	_	_	_	_	_
-7	do	do 1	ADP	preposition	Case=Dat	8	case	X	Gloss=to, for, by etc.
-8	demnigiud	deimnigud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of confirming, making firm, securing, fortifying, proving, attesting
-9	dliged	dliged	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
+7	do	do 1	ADP	preposition	Case=Dat	8	mark:prt	X	Gloss=to, for, by etc.
+8	demnigiud	deimnigud	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	2	advcl	X	Gloss=the act of confirming, making firm, securing, fortifying, proving, attesting
+9	dliged	dliged	NOUN	noun	Case=Gen|Number=Plur	8	obj	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
 10-11	indnuiadnissi	_	_	_	_	_	_	_	_
 10	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	nuiadnissi	núḟiadnaise	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=New Testament
+11	nuiadnissi	núḟiadnaise	NOUN	noun	Case=Gen|Number=Sing	9	nmod	X	Gloss=New Testament
 12-13	lasna	_	_	_	_	_	_	_	_
 12	la	la	ADP	preposition	Case=Acc	14	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 13	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	14	det	X	Gloss=the
-14	auctaru	augtar	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=author, writer, composer
+14	auctaru	augtar	NOUN	noun	Case=Acc|Number=Plur	8	obl	X	Gloss=author, writer, composer
 15	tri	tre	ADP	preposition	Case=Acc	16	case	X	Gloss=through (time or space), by means of, be reason of
-16	immaircedetaid	immaircidetu	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=fitness, appropriateness, congruity
+16	immaircedetaid	immaircidetu	NOUN	noun	Case=Acc|Number=Sing	8	obl	X	Gloss=fitness, appropriateness, congruity
 
 # sent_id = S0006-1669
 # text = .i. dorumenatar combad fou nogabthe isintfaithsi[ni] foní fotabarr isindnufiadnisiu
