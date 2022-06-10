@@ -29432,24 +29432,24 @@
 # sent_id = S0006-2157
 # text = .i. amal as már agalar de 7 as comacus du bas 7 as nephimgabthe
 # text_en = i.e. as his sickness is great because of it, and is close to death, and is not avoided.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-4	már	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=great, big, ample, tall, large
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	4	mark	X	Gloss=as, like; translating Latin ut
+3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	cop	X	Gloss=to be
+4	már	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=great, big, ample, tall, large
 5-6	agalar	_	_	_	_	_	_	_	_
-5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=his, its
-6	galar	galar	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=sickness, disease, physical pain, mental suffering, distress, grief, damage
-7	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-9	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-10	comacus	comocus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=near, proximate, neighboring, equidistant; subst. relationship
-11	du	do 1	ADP	preposition	Case=Dat	12	case	X	Gloss=to, for, by etc.
-12	bas	bás	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of dying; death
-13	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-14	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
+5	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=his, its
+6	galar	galar	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=sickness, disease, physical pain, mental suffering, distress, grief, damage
+7	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	4	obl:prep	X	Gloss=away, from, cause or reason, by
+8	7	ocus 2	CCONJ	conjunction	_	10	cc	X	Gloss=coordinating: and, since
+9	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	10	cop	X	Gloss=to be
+10	comacus	comocus	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	4	conj	X	Gloss=near, proximate, neighboring, equidistant; subst. relationship
+11	du	do 1	ADP	preposition	Case=Dat	12	mark:prt	X	Gloss=to, for, by etc.
+12	bas	bás	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	10	advcl	X	Gloss=the act of dying; death
+13	7	ocus 2	CCONJ	conjunction	_	16	cc	X	Gloss=coordinating: and, since
+14	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	16	cop	X	Gloss=to be
 15-16	nephimgabthe	_	_	_	_	_	_	_	_
-15	neph	neb-	X	particle_prefix	_	_	_	X	Gloss=negative prefix ; non-, un-
-16	imgabthe	immgabthae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=avoided, shunned, evaded
+15	neph	neb-	X	particle_prefix	_	16	advmod:neg	X	Gloss=negative prefix ; non-, un-
+16	imgabthe	immgabthae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Neut	4	conj	X	Gloss=avoided, shunned, evaded
 
 # sent_id = S0006-2158
 # text = nephrescastaib
@@ -29978,27 +29978,27 @@
 # sent_id = S0006-2201
 # text = .i. ɔruptar fadirci indusci robatar hifudumnaib talman trí indlach innatalman nisin·
 # text_en = i.e. so that the waters which were in the depths of the earths were visible through the cleaving of those earths.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	ɔruptar	_	_	_	_	_	_	_	_
-2	ɔ	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	ruptar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	cop	X	Gloss=to be
-4	fadirci	fodirc	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=conspicuous, visible
+2	ɔ	co 4	SCONJ	complementiser	_	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	ruptar	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	4	cop	X	Gloss=to be
+4	fadirci	fodirc	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos	0	root	X	Gloss=conspicuous, visible
 5-6	indusci	_	_	_	_	_	_	_	_
 5	ind	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	usci	uisce	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=water
-7	ro·batar	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
+6	usci	uisce	NOUN	noun	Case=Nom|Number=Plur	4	nsubj	7:nsubj|4:nsubj	Gloss=water
+7	ro·batar	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Len	6	acl:relcl	X	Gloss=to be, to exist,
 8-9	hifudumnaib	_	_	_	_	_	_	_	_
-8	hi	i	ADP	preposition	Case=Dat	_	case	X	Gloss=in, into
-9	fudumnaib	fudumain	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=deep, profound
-10	talman	talam	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=earth, world; ground ; land
+8	hi	i	ADP	preposition	Case=Dat	9	case	X	Gloss=in, into
+9	fudumnaib	fudumain	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	7	obl	X	Gloss=deep, profound
+10	talman	talam	NOUN	noun	Case=Gen|Number=Plur	9	nmod	X	Gloss=earth, world; ground ; land
 11	trí	tre	ADP	preposition	Case=Acc	12	case	X	Gloss=through (time or space), by means of, be reason of
-12	indlach	indlach	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of cleaving; dispute, dissension, division, interruption, gramm. diaraesis
+12	indlach	indlach	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	7	advcl	X	Gloss=the act of cleaving; dispute, dissension, division, interruption, gramm. diaraesis
 13-14	innatalman	_	_	_	_	_	_	_	_
 13	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	14	det	X	Gloss=the
-14	talman	talam	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=earth, world; ground ; land
+14	talman	talam	NOUN	noun	Case=Gen|Number=Plur	12	obj	X	Gloss=earth, world; ground ; land
 15-16	nisin·	_	_	_	_	_	_	_	_
-15	ni	í 1	PRON	pronoun_propword	Case=Gen|Number=Plur|Gender=Masc	_	_	X	Gloss=substantivizing particle
-16	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+15	ni	í 1	PRON	pronoun_propword	Case=Gen|Number=Plur|Gender=Masc	14	nmod	X	Gloss=substantivizing particle
+16	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	15	appos	X	Gloss=that one, those ones, the one in there ; that, those
 17	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2202
@@ -31967,25 +31967,25 @@
 # sent_id = S0006-2390
 # text = .i. torogarthar .i. torala dia archeill do degnimu su ol inpopul contra ezechiam
 # text_en = i.e. may it be called, i.e. may God bring to mind your (sg) good deeds, said the people to Hezekiah.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	to·rogarthar	do·gair	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to call, to name
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-4	to·rala	do·cuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to put, to cast, to produce, to happens, to invites, to summons
-5	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	to·rogarthar	do·gair	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to call, to name
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+4	to·rala	do·cuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|Aspect=Perf	2	conj	X	Gloss=to put, to cast, to produce, to happens, to invites, to summons
+5	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	4	nsubj	X	Gloss=god, deity, God
 6-7	archeill	_	_	_	_	_	_	_	_
 6	ar	ar 1	ADP	preposition	Case=Acc	7	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-7	cheill	cíall	NOUN	noun	Case=Dat	_	_	X	Gloss=sense, intelligence, mind, thought, meaning, interpretation, wisdom, good sense
-8	do	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	10	_	X	Gloss=your (sg.)
+7	cheill	cíall	NOUN	noun	Case=Dat	4	obl	X	Gloss=sense, intelligence, mind, thought, meaning, interpretation, wisdom, good sense
+8	do	2sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=2	10	nmod:poss	X	Gloss=your (sg.)
 9-10	degnimu	_	_	_	_	_	_	_	_
-9	de	dag-	X	particle_prefix	_	_	_	X	Gloss=good, noble, very
-10	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-11	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-12	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to say
+9	de	dag-	X	particle_prefix	_	10	amod	X	Gloss=good, noble, very
+10	gnimu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	4	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+11	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	10	nmod	X	Gloss=emphasising particle
+12	ol	ol 6	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	2	parataxis	X	Gloss=to say
 13-14	inpopul	_	_	_	_	_	_	_	_
 13	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	14	det	X	Gloss=the
-14	popul	popul	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
-15	contra	contrā	ADP	preposition	Case=Unk	_	case	X	Gloss=against, opposite
-16	ezechiam	Ezechia	PROPN	proper_noun	_	_	_	X	Gloss=Hezekiah
+14	popul	popul	NOUN	noun	Case=Nom|Number=Sing	12	nsubj	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+15	contra	contrā	ADP	preposition	Case=Unk	16	case	X	Gloss=against, opposite
+16	ezechiam	Ezechia	PROPN	proper_noun	_	12	obl	X	Gloss=Hezekiah
 
 # sent_id = S0006-2391
 # text = .i. innidbairt són
