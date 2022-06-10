@@ -27599,26 +27599,26 @@
 # sent_id = S0006-1977
 # text = .i. issain funtuc side frisní fuandragab petar
 # text_en = i.e. that [sense] to which he has applied it is different from that in which Peter uttered it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	issain	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=different, distinct, separate, peculiar, special
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	sain	sain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=different, distinct, separate, peculiar, special
 4-7	funtuc	_	_	_	_	_	_	_	_
-4	fu	fo	ADP	preposition	Case=Acc	_	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-5	a	-(s)a·	PRON	pronoun_relative	PronType=Rel|Typo=Yes	_	_	X	Gloss=which, who, whose|Addition=Yes
-6	n·	3sg.masc.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=him
-7	·tuc	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-8	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	_	_	X	Gloss=that one, he, she, it, they
+4	fu	fo	ADP	preposition	Case=Acc	5	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+5	a	-(s)a·	PRON	pronoun_relative	PronType=Rel|Typo=Yes	7	obl	X	Gloss=which, who, whose|Addition=Yes
+6	n·	3sg.masc.inf.pron.	PRON	pronoun_infixed	PronType=Prs	7	inf:obj	X	Gloss=him
+7	·tuc	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	3	dislocated	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+8	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc	7	nsubj	X	Gloss=that one, he, she, it, they
 9-11	frisní	_	_	_	_	_	_	_	_
 9	fri	fri	ADP	preposition	Case=Acc	11	case	X	Gloss=towards, against, standard of comparison
 10	s	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Typo=Yes	11	det	X	Gloss=the|CorrectForm=sa
-11	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
+11	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	7	obl	X	Gloss=substantivizing particle
 12-15	fuandragab	_	_	_	_	_	_	_	_
-12	fu	fo	ADP	preposition	Case=Acc	_	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-13	a	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-14	nd·	3sg.masc.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=him
-15	·ragab	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
-16	petar	Petar	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Peter
+12	fu	fo	ADP	preposition	Case=Acc	13	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+13	a	-(s)a·	PRON	pronoun_relative	PronType=Rel	15	obl	X	Gloss=which, who, whose
+14	nd·	3sg.masc.inf.pron.	PRON	pronoun_infixed	PronType=Prs	15	inf:obj	X	Gloss=him
+15	·ragab	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	3	acl:relcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+16	petar	Petar	PROPN	proper_noun	Case=Nom|Number=Sing	15	nsubj	X	Gloss=Peter
 
 # sent_id = S0006-1978
 # text = hifuath
@@ -28757,22 +28757,22 @@
 # sent_id = S0006-2093
 # text = .i. in da leu som nisroissed imned na erchrae dogrés asoinmigi acloinaib··
 # text_en = they fancied neither anxiety nor want would ever reach their, the wicked men’s, prosperity.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	inda	inda	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=it seems (impersonal), methinks
-3	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-4	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
-5	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-6	s·	3sg.fem.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=her
-7	·roissed	ro·saig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to extend, to attain, to reach; to arrive, to come to
-8	imned	imned	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
-9	na	nach 6	CCONJ	conjunction	_	_	cc	X	Gloss=or, nor
-10	erchrae	airchrae	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of perishing; decay, decline, deterioration; failure, deficiency, want
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	inda	inda	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=it seems (impersonal), methinks
+3	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	2	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+4	som	nota augens	PRON	particle_pronominal	PronType=Prs	2	nsubj	X	Gloss=emphasising particle
+5	ni	ní 3	PART	particle_negative_main	_	7	advmod:neg	X	Gloss=not
+6	s·	3sg.fem.inf.pron.	PRON	pronoun_infixed	PronType=Prs	7	inf:obj	X	Gloss=her
+7	·roissed	ro·saig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	2	ccomp	X	Gloss=to extend, to attain, to reach; to arrive, to come to
+8	imned	imned	NOUN	noun	Case=Nom|Number=Sing	7	nsubj	X	Gloss=tribulation, anxiety, suffering, sorrow
+9	na	nach 6	CCONJ	conjunction	_	10	cc	X	Gloss=or, nor
+10	erchrae	airchrae	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	7	conj	X	Gloss=the act of perishing; decay, decline, deterioration; failure, deficiency, want
 11	do	do 1	ADP	preposition	Case=Dat	12	case	X	Gloss=to, for, by etc.
-12	grés	grés 2	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=continance, continuation, practice
-13	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	14	_	X	Gloss=their
-14	soinmigi	soinmige	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=prosperity, affluence, happiness
-15	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	_	_	X	Gloss=their
-16	cloinaib	clóen	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=iniquitous, perverse, unjust, biassed, uneven, crooked
+12	grés	grés 2	NOUN	noun	Case=Dat|Number=Sing	10	obl	X	Gloss=continance, continuation, practice
+13	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	14	nmod:poss	X	Gloss=their
+14	soinmigi	soinmige	NOUN	noun	Case=Acc|Number=Sing	10	obj	X	Gloss=prosperity, affluence, happiness
+15	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	16	nmod:poss	X	Gloss=their
+16	cloinaib	clóen	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	14	amod	X	Gloss=iniquitous, perverse, unjust, biassed, uneven, crooked
 17	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2094
@@ -28982,25 +28982,25 @@
 # text = achennsae .i. ɔidrogbad huall triachumgabail 7 trimolad doib som·
 # text_en = of his gentleness i.e. that pride could seize him through his being extolled and praised by them.
 1-2	achennsae	_	_	_	_	_	_	_	_
-1	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	2	_	X	Gloss=his, its
-2	chennsae	cennsae	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=mildness, meekness, gentleness
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	2	nmod:poss	X	Gloss=his, its
+2	chennsae	cennsae	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=mildness, meekness, gentleness
+3	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
 4-6	ɔidrogbad	_	_	_	_	_	_	_	_
-4	ɔ	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-5	id·	3sg.masc.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=him
-6	·rogbad	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
-7	huall	úall 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=pride, arrogance, vainglory
+4	ɔ	co 4	SCONJ	complementiser	_	6	mark:prt	X	Gloss=so that, until (+independent, leniting)
+5	id·	3sg.masc.inf.pron.	PRON	pronoun_infixed	PronType=Prs	6	inf:obj	X	Gloss=him
+6	·rogbad	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|Aspect=Perf	2	conj	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+7	huall	úall 1	NOUN	noun	Case=Nom|Number=Sing	6	nsubj	X	Gloss=pride, arrogance, vainglory
 8-10	triachumgabail	_	_	_	_	_	_	_	_
 8	tri	tre	ADP	preposition	Case=Acc	10	case	X	Gloss=through (time or space), by means of, be reason of
-9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	_	X	Gloss=his, its
-10	chumgabail	cumgabál	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of raising up, lifting, exalting; rising
-11	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	obj:poss	X	Gloss=his, its
+10	chumgabail	cumgabál	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	6	advcl	X	Gloss=the act of raising up, lifting, exalting; rising
+11	7	ocus 2	CCONJ	conjunction	_	14	cc	X	Gloss=coordinating: and, since
 12-14	trimolad	_	_	_	_	_	_	_	_
 12	tri	tre	ADP	preposition	Case=Acc	14	case	X	Gloss=through (time or space), by means of, be reason of
-13	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Typo=Yes	14	_	X	Gloss=his, its|Addition=Yes
-14	molad	molad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of praising; song of praise, panegyric
-15	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-16	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
+13	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Typo=Yes	14	obj:poss	X	Gloss=his, its|Addition=Yes
+14	molad	molad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	10	conj	X	Gloss=the act of praising; song of praise, panegyric
+15	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	16	case	X	Gloss=to, for, by etc.
+16	som	nota augens	PRON	particle_pronominal	PronType=Prs	14	obl	X	Gloss=emphasising particle
 17	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2121
