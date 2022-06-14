@@ -21173,7 +21173,7 @@
 2	mbibdamnachtae	bibdamnacht	NOUN	noun	Case=Gen|Number=Sing	0	root	X	Gloss=liability, guilt, criminality
 3	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs	2	nmod	X	Gloss=emphasising particle
 
-# sent_id = S0006-1420 - line 5 - dislocated|conj; line 16 - obl|nsubj
+# sent_id = S0006-1420 - line 14 - ellipsis
 # text = .i. coniunguntur .i. aranderlaigthe dosom pecad techtae dochum bersabae is de ɔcanat dib linaib
 # text_en = i.e. that the sin of going to Bathsheba might be forgiven him, it is concerning this that they both agree.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
@@ -21181,7 +21181,7 @@
 3	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 4-5	aranderlaigthe	_	_	_	_	_	_	_	_
 4	ara·	ara	SCONJ	complementiser	_	5	mark:prt	X	Gloss=in order that, so that
-5	·nderlaigthe	do·lugai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	13	dislocated	X	Gloss=to forgive, to remit
+5	·nderlaigthe	do·lugai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	13	advcl	X	Gloss=to forgive, to remit
 6-7	dosom	_	_	_	_	_	_	_	_
 6	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	7	case	X	Gloss=to, for, by etc.
 7	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	5	obl	X	Gloss=emphasising particle
@@ -21193,7 +21193,7 @@
 13	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	2	conj	X	Gloss=away, from, cause or reason, by
 14	ɔ·canat	con·cain	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	13	csubj:cleft	X	Gloss=to sing, to utter in harmony
 15	dib	da	NUM	adjective_numeral	Case=Dat|Gender=Masc	16	nummod	X	Gloss=two
-16	linaib	lín 1	NOUN	noun	Case=Dat	14	obl	X	Gloss=number, full number, complement, multitude (of persons)
+16	linaib	lín 1	NOUN	noun	Case=Dat	14	nsubj	X	Gloss=number, full number, complement, multitude (of persons)
 
 # sent_id = S0006-1421
 # text = cidnanguide
@@ -21711,7 +21711,7 @@
 5-6	ciaeret	_	_	_	_	_	_	_	_
 5	cia	cía 1	X	pronoun_interrogative	_	3	conj	X	Gloss=who, what, which
 6	eret	airet	NOUN	noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=length, interval, space (of time, sometimes of space)
-7	mbete	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	6	acl:relcl	X	Gloss=to be, to exist,
+7	mbete	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	6	acl:relcl	X	Gloss=to be, to exist,
 8	oc	oc	ADP	preposition	Case=Dat	10	case	X	Gloss=at, by, besides, with (person)
 9	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	10	obj:poss	X	Gloss=my
 10-11	ingraimmaimse	_	_	_	_	_	_	_	_
@@ -25109,7 +25109,7 @@
 # text_en = i.e. anything which he might have paid to a creditor who had a right to something from him, or anything that he himself could have enjoyed until the loan had been made to him.
 1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
 2	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	0	root	3:obj|0:root	Gloss=something; nothing, anything ; not
-3	as·riad	as·ren	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	2	acl:relcl	X	Gloss=to pay out, to render, to expend
+3	as·riad	as·ren	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Len	2	acl:relcl	X	Gloss=to pay out, to render, to expend
 4-5	dofeichemain	_	_	_	_	_	_	_	_
 4	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
 5	feichemain	féichem	NOUN	noun	Case=Dat|Number=Sing	3	obl	6:nsubj|3:obl	Gloss=claimant, creditor, debtor; one who is under obligations
@@ -25118,7 +25118,7 @@
 8	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	6	obl:prep	X	Gloss=to, for, by etc.
 9	ɫ	nó 1	CCONJ	conjunction	_	10	cc	X	Gloss=disjunctive: or
 10	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing	7	conj	11:obj|7:conj	Gloss=something; nothing, anything ; not
-11	do·romlad	do·meil	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	10	acl:relcl	X	Gloss=to make use of, to excercise, to enjoy
+11	do·romlad	do·meil	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Len	10	acl:relcl	X	Gloss=to make use of, to excercise, to enjoy
 12	fadesin	fadesin	PRON	pronoun_emphatic	PronType=Emp	11	nsubj	X	Gloss=self
 13-14	ɔrairleced	_	_	_	_	_	_	_	_
 13	ɔ·	co 4	SCONJ	complementiser	_	14	mark:prt	X	Gloss=so that, until (+independent, leniting)
@@ -26301,7 +26301,7 @@
 3	mbis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	11	advcl	X	Gloss=to be, to exist,
 4	inne	inne 1	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=middle, center, inward part; meaning, sense, signification; quality, real value
 5	neich	ní 1	PRON	pronoun_quantifier	Case=Gen|Number=Sing	4	nmod	6:obj|4:nmod	Gloss=something; nothing, anything ; not
-6	sluinde	sluindid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	5	acl:relcl	X	Gloss=to mention, to signify, to express, to declare, to describe
+6	sluinde	sluindid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	5	acl:relcl	X	Gloss=to mention, to signify, to express, to declare, to describe
 7	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	8	det	X	Gloss=the
 8	anman	ainm	NOUN	noun	Case=Nom|Number=Plur	6	nsubj	X	Gloss=name, noun (gramm)
 9-10	issamlid	_	_	_	_	_	_	_	_
@@ -27596,7 +27596,7 @@
 16	a·	-(s)a·	PRON	pronoun_relative	PronType=Rel	17	xcomp:pred	X	Gloss=which, who, whose
 17	·robae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	14	acl:relcl	X	Gloss=to be, to exist,
 
-# sent_id = S0006-1977
+# sent_id = S0006-1977 - headless relative clause
 # text = .i. issain funtuc side frisní fuandragab petar
 # text_en = i.e. that [sense] to which he has applied it is different from that in which Peter uttered it.
 1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
