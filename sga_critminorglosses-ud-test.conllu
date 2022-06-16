@@ -28324,25 +28324,25 @@
 # sent_id = S0006-2047
 # text = .i. aní durigni hitosuch int sailm is ed dugní híc .i. gude hi cechtar de
 # text_en = i.e. what he did in the beginning of the psalm, it is that that he does hic, i.e. (it is) prayer in each of the two.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	aní	_	_	_	_	_	_	_	_
 2	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-4	du·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
+3	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	10	dislocated	4:obj|10:dislocated	Gloss=substantivizing particle
+4	du·rigni	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Len	3	acl:relcl	X	Gloss=to do, to make
 5-6	hitosuch	_	_	_	_	_	_	_	_
 5	hi	i	ADP	preposition	Case=Dat	6	case	X	Gloss=in, into
-6	tosuch	tosach	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=beginning, precedence
+6	tosuch	tosach	NOUN	noun	Case=Dat|Number=Sing	3	obl	X	Gloss=beginning, precedence
 7	int	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	sailm	salm	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=psalm
-9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-10	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
-11	du·gní	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to do, to make
-12	híc	hīc 2	ADV	adverb	_	_	_	X	Gloss=here
-13	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-14	gude	guide	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of praying; prayer
-15	hi	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-16	cechtar	cechtar	PRON	pronoun_quantifier	Case=Dat|Number=Sing	_	_	X	Gloss=each of two, either
-17	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	14	_	X	Gloss=away, from, cause or reason, by
+8	sailm	salm	NOUN	noun	Case=Gen|Number=Sing	6	nmod	X	Gloss=psalm
+9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
+10	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	0	root	X	Gloss=it
+11	du·gní	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	10	csubj:cleft	X	Gloss=to do, to make
+12	híc	hīc 2	ADV	adverb	_	11	advmod	X	Gloss=here
+13	.i.	.i.	CCONJ	abbreviation	_	14	cc	X	Gloss=id est, it is
+14	gude	guide	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	11	conj	X	Gloss=the act of praying; prayer
+15	hi	i	ADP	preposition	Case=Acc	16	case	X	Gloss=in, into
+16	cechtar	cechtar	PRON	pronoun_quantifier	Case=Dat|Number=Sing	14	obl	X	Gloss=each of two, either
+17	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	14	obl:prep	X	Gloss=away, from, cause or reason, by
 
 # sent_id = S0006-2048
 # text = ṅges
@@ -29039,26 +29039,26 @@
 # text_en = they expect.
 1	friss·accat	fris·accai	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to look forward to, to hope; to expect, to await
 
-# sent_id = S0006-2126
+# sent_id = S0006-2126 - line 12 - parataxis|root
 # text = dixit prius sicut leo 7 dixit iterum sicut catulus leonis is inunn lesom tra insin·
 # text_en = in his opinion, that then is the same.
-1	dixit	dīcō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to say, to declare, to call
-2	prius	prius	ADJ	adjective_numeral_noun	_	_	_	X	Gloss=first
-3	sicut	sīcut	X	conjunction	_	_	_	X	Gloss=_
-4	leo	leo	NOUN	noun	_	_	_	X	Gloss=lion
-5	7	et	CCONJ	conjunction	_	_	cc	X	Gloss=and
-6	dixit	dīcō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to say, to declare, to call
-7	iterum	iterum	ADV	adverb	_	_	_	X	Gloss=again, a second time
-8	sicut	sīcut	X	conjunction	_	_	_	X	Gloss=_
-9	catulus	Catulus	PROPN	proper_noun	_	_	_	X	Gloss=_
-10	leonis	leo	NOUN	noun	_	_	_	X	Gloss=lion
-11	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-12	inunn	inunn	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	_	_	X	Gloss=same, identical, alike, equal, the one
-13	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-14	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
-15	tra	trá	ADV	particle_discourse	_	_	_	X	Gloss=then, therefore, so, indeed, however, but
+1	dixit	dīcō	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=to say, to declare, to call
+2	prius	prius	ADJ	adjective_numeral_noun	_	1	flat	X	Gloss=first
+3	sicut	sīcut	X	conjunction	_	1	flat	X	Gloss=_
+4	leo	leo	NOUN	noun	_	1	flat	X	Gloss=lion
+5	7	et	CCONJ	conjunction	_	6	cc	X	Gloss=and
+6	dixit	dīcō	VERB	verb	Voice=Act|Mood=Ind	1	conj	X	Gloss=to say, to declare, to call
+7	iterum	iterum	ADV	adverb	_	6	flat	X	Gloss=again, a second time
+8	sicut	sīcut	X	conjunction	_	6	flat	X	Gloss=_
+9	catulus	Catulus	PROPN	proper_noun	_	6	flat	X	Gloss=_
+10	leonis	leo	NOUN	noun	_	6	flat	X	Gloss=lion
+11	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	12	cop	X	Gloss=to be
+12	inunn	inunn	ADJ	adjective	Case=Nom|Number=Sing|Degree=Pos	1	parataxis	X	Gloss=same, identical, alike, equal, the one
+13	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	14	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+14	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	12	obl	X	Gloss=emphasising particle
+15	tra	trá	ADV	particle_discourse	_	12	advmod	X	Gloss=then, therefore, so, indeed, however, but
 16	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	17	det	X	Gloss=the
-17	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+17	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	12	nsubj	X	Gloss=that one, those ones, the one in there ; that, those
 18	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2127
@@ -31332,23 +31332,28 @@
 # sent_id = S0006-2325
 # text = .i. is mo de accobras si lacách trissanínnaide aranetersi isindaidchi
 # text_en = i.e. desire for it is the greater with everyone through the expectation with which it is expected in the night.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	mo	mór	ADJ	adjective	Degree=Cmp	_	_	X	Gloss=great, big, ample, tall, large
-4	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	12	_	X	Gloss=away, from, cause or reason, by
-5	a	3sg.fem.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	_	X	Gloss=her
-6	accobras	accobras	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=desire, appetite
-7	si	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Fem|PronType=Prs	_	_	X	Gloss=emphasising particle
-8	la	la	ADP	preposition	Case=Acc	_	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-9	cách	cách	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Tot	_	_	X	Gloss=every one, each one, any one, all
-10	tri	tre	ADP	preposition	Case=Acc	_	case	X	Gloss=through (time or space), by means of, be reason of
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	mo	mór	ADJ	adjective	Degree=Cmp	0	root	X	Gloss=great, big, ample, tall, large
+4	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	3	obl:prep	X	Gloss=away, from, cause or reason, by
+5-6	accobras	_	_	_	_	_	_	_	_
+5	a	3sg.fem.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	nmod:poss	X	Gloss=her
+6	accobras	accobras	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=desire, appetite
+7	si	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Fem|PronType=Prs	6	nmod	X	Gloss=emphasising particle
+8-9	lacách	_	_	_	_	_	_	_	_
+8	la	la	ADP	preposition	Case=Acc	9	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+9	cách	cách	PRON	pronoun_quantifier	Case=Acc|Number=Sing|PronType=Tot	3	obl	X	Gloss=every one, each one, any one, all
+10-12	trissanínnaide	_	_	_	_	_	_	_	_
+10	tri	tre	ADP	preposition	Case=Acc	12	case	X	Gloss=through (time or space), by means of, be reason of
 11	ssa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	12	det	X	Gloss=the
-12	nínnaide	indnaide	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of waiting, awaiting; expectation
-13	ara·neter	ar·neät	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to expect, to await, to wait for; to sustain, support, to uphold, to assume responsibility for
-14	si	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Fem|PronType=Prs	_	_	X	Gloss=emphasising particle
+12	nínnaide	indnaide	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	3	obl	X	Gloss=the act of waiting, awaiting; expectation
+13-14	aranetersi	_	_	_	_	_	_	_	_
+13	ara·neter	ar·neät	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	12	acl:relcl	X	Gloss=to expect, to await, to wait for; to sustain, support, to uphold, to assume responsibility for
+14	si	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Fem|PronType=Prs	13	nsubj	X	Gloss=emphasising particle
+15-17	isindaidchi	_	_	_	_	_	_	_	_
 15	i	i	ADP	preposition	Case=Dat	17	case	X	Gloss=in, into
 16	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	17	det	X	Gloss=the
-17	aidchi	adaig	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=night, eve of a day or festival
+17	aidchi	adaig	NOUN	noun	Case=Dat|Number=Sing	13	obl	X	Gloss=night, eve of a day or festival
 
 # sent_id = S0006-2326
 # text = oladf(··) ɫ. fa 7 is fochetoir trá fosin 7 is tosach amal sod[i]nn et per hoc rl.
