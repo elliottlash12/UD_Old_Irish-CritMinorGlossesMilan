@@ -16919,28 +16919,28 @@
 # sent_id = S0006-1013
 # text = .i. dliged buthe inboicht fo mam intsommai níretaltar son doneuch naichidfitir
 # text_en = i.e. the argument that the poor should be under the yoke of the rich, that is not manifest to one who does not know it.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	dliged	dliged	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
-3	buthe	both 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of being, existing, being hungry
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	dliged	dliged	NOUN	noun	Case=Nom|Number=Sing	11	dislocated	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
+3	buthe	both 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	2	xcomp	X	Gloss=the act of being, existing, being hungry
 4-5	inboicht	_	_	_	_	_	_	_	_
-4	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-5	boicht	bocht	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=poor
+4	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
+5	boicht	bocht	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	3	obl	X	Gloss=poor
 6	fo	fo	ADP	preposition	Case=Acc	7	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-7	mam	mám 1	NOUN	noun	Case=Dat	_	_	X	Gloss=yoke
+7	mam	mám 1	NOUN	noun	Case=Dat	3	obl	X	Gloss=yoke
 8-9	intsommai	_	_	_	_	_	_	_	_
-8	int	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-9	sommai	sommae 2	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=rich, wealthy
+8	int	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	9	det	X	Gloss=the
+9	sommai	sommae 2	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	7	nmod	X	Gloss=rich, wealthy
 10-11	níretaltar	_	_	_	_	_	_	_	_
-10	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-11	·retaltar	rélaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Typo=Yes	_	_	X	Gloss=to reveal, to manifest, to declare, to make clear|CorrectForm=·réltar
-12	son	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+10	ní·	ní 3	PART	particle_negative_main	_	11	advmod:neg	X	Gloss=not
+11	·retaltar	rélaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Typo=Yes	0	root	X	Gloss=to reveal, to manifest, to declare, to make clear|CorrectForm=·réltar
+12	son	-són	PRON	particle_anaphoric	_	11	nsubj	X	Gloss=that (mentioned above) that is
 13-14	doneuch	_	_	_	_	_	_	_	_
-13	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-14	neuch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
+13	do	do 1	ADP	preposition	Case=Dat	14	case	X	Gloss=to, for, by etc.
+14	neuch	nech	PRON	pronoun_quantifier	Case=Dat|Number=Sing|PronType=Ind	11	obl	17:nsubj|11:obl	Gloss=anyone, one, someone
 15-17	naichidfitir	_	_	_	_	_	_	_	_
-15	naich	nach 3	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that not ; not
-16	id·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
-17	·fitir	ro·finnadar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to know, to find out, to learn
+15	naich	nach 3	PART	particle_negative_subordinate	_	17	advmod:neg	X	Gloss=that not ; not
+16	id·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	17	inf:obj	X	Gloss=it
+17	·fitir	ro·finnadar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	11	acl:relcl	X	Gloss=to know, to find out, to learn
 
 # sent_id = S0006-1014
 # text = .i. ciafiu esámain
@@ -16961,29 +16961,29 @@
 # sent_id = S0006-1016
 # text = .i. epert nadfel dliged remcaissen ladia intain ɔairleci innabochtu fochumachtu innasommae
 # text_en = i.e. to say that God has no law of providence when he permits the poor (to be) under the power of the rich.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	epert	eipert	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of saying; speech, statement, word
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	epert	eipert	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of saying; speech, statement, word
 3-4	nadfel	_	_	_	_	_	_	_	_
-3	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-4	·fel	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-5	dliged	dliged	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
-6	remcaissen	remcaisiu	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=“looking before”; providence, foresight
+3	nad·	nád 1	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=that...not
+4	·fel	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	ccomp	X	Gloss=to be, to exist,
+5	dliged	dliged	NOUN	noun	Case=Acc|Number=Sing	4	nsubj	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
+6	remcaissen	remcaisiu	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=“looking before”; providence, foresight
 7-8	ladia	_	_	_	_	_	_	_	_
-7	la	la	ADP	preposition	Case=Acc	_	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-8	dia	día 2	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=god, deity, God
+7	la	la	ADP	preposition	Case=Acc	8	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+8	dia	día 2	NOUN	noun	Case=Acc|Number=Sing	4	xcomp:pred	X	Gloss=god, deity, God
 9-10	intain	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	tain	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
-11	ɔ·airleci	con·airléici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to permit, to allow, to let go
+10	tain	tan	NOUN	noun	Case=Acc|Number=Sing	11	obl:tmod	X	Gloss=time
+11	ɔ·airleci	con·airléici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	4	advcl	X	Gloss=to permit, to allow, to let go
 12-13	innabochtu	_	_	_	_	_	_	_	_
-12	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-13	bochtu	bocht	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=poor
+12	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	13	det	X	Gloss=the
+13	bochtu	bocht	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	11	obj	X	Gloss=poor
 14-15	fochumachtu	_	_	_	_	_	_	_	_
 14	fo	fo	ADP	preposition	Case=Dat	15	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-15	chumachtu	cumachtae	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=power, strength, might
+15	chumachtu	cumachtae	NOUN	noun	Case=Dat|Number=Sing	11	obl	X	Gloss=power, strength, might
 16-17	innasommae	_	_	_	_	_	_	_	_
-16	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-17	sommae	sommae 2	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=rich, wealthy
+16	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	17	det	X	Gloss=the
+17	sommae	sommae 2	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	nmod	15	X	Gloss=rich, wealthy
 
 # sent_id = S0006-1017
 # text = .i. agni
@@ -17086,29 +17086,29 @@
 2	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	3	det	X	Gloss=the
 3	immaircidetu	immaircidetu	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=fitness, appropriateness, congruity
 
-# sent_id = S0006-1028
+# sent_id = S0006-1028 - line 14 - ellipsis?
 # text = .i. amal asinbeir sunt issamlid is immaircide frisinceill combad hé [intord] fornaibriathraib·
 # text_en = i.e. as he says it here, it is thus it is suitable to the sense that that be [the order] upon the words.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	asin·beir	as·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
-4	sunt	sund	ADV	adverb	_	_	_	X	Gloss=here, in this place; hither, to this place
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	3	mark	X	Gloss=as, like; translating Latin ut
+3	asin·beir	as·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfC|RelType=Other	6	advcl	X	Gloss=to say, to speak, to call , mention
+4	sunt	sund	ADV	adverb	_	3	advmod	X	Gloss=here, in this place; hither, to this place
 5-6	issamlid	_	_	_	_	_	_	_	_
-5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-6	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=as, like
-7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-8	immaircide	immaircide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=suitable, fitting, appropriate, becoming
+5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	6	cop	X	Gloss=to be
+6	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	0	root	X	Gloss=as, like
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
+8	immaircide	immaircide	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	6	ccomp	X	Gloss=suitable, fitting, appropriate, becoming
 9-11	frisinceill	_	_	_	_	_	_	_	_
-9	fri	fri	ADP	preposition	Case=Acc	_	case	X	Gloss=towards, against, standard of comparison
+9	fri	fri	ADP	preposition	Case=Acc	11	case	X	Gloss=towards, against, standard of comparison
 10	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	ceill	cíall	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=sense, intelligence, mind, thought, meaning, interpretation, wisdom, good sense
+11	ceill	cíall	NOUN	noun	Case=Acc|Number=Sing	8	obl	X	Gloss=sense, intelligence, mind, thought, meaning, interpretation, wisdom, good sense
 12-13	combad	_	_	_	_	_	_	_	_
-12	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-13	mbad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-14	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=he, him, it
+12	co	co 4	SCONJ	complementiser	_	14	mark:prt	X	Gloss=so that, until (+independent, leniting)
+13	mbad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	14	cop	X	Gloss=to be
+14	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	8	advcl	X	Gloss=he, him, it
 15	for	for	ADP	preposition	Case=Dat	17	case	X	Gloss=upon, over, on
 16	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	17	det	X	Gloss=the
-17	briathraib	bríathar	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=word,
+17	briathraib	bríathar	NOUN	noun	Case=Dat|Number=Plur	14	obl	X	Gloss=word,
 18	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1029
