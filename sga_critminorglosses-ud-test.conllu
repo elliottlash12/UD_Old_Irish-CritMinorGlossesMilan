@@ -23837,28 +23837,28 @@
 # sent_id = S0006-1669
 # text = .i. dorumenatar combad fou nogabthe isintfaithsi[ni] foní fotabarr isindnufiadnisiu
 # text_en = i.e. they thought that it was concerning that that it was uttered in the Prophecy: concerning that to which it is applied in the New Testament.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	doru·menatar	do·moinethar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to think, to suppose, to conjecture
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	doru·menatar	do·moinethar	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to think, to suppose, to conjecture
 3-4	combad	_	_	_	_	_	_	_	_
-3	co	co 4	SCONJ	complementiser	_	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-4	mbad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-5	fou	fo	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=under, of direction towards, into, through, on, about, beneath
-6	no·gabthe	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+3	co	co 4	SCONJ	complementiser	_	5	mark:prt	X	Gloss=so that, until (+independent, leniting)
+4	mbad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
+5	fou	fo	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	2	advcl	X	Gloss=under, of direction towards, into, through, on, about, beneath
+6	no·gabthe	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	csubj:cleft	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 7-9	isintfaithsi[ni]	_	_	_	_	_	_	_	_
 7	i	i	ADP	preposition	Case=Dat	9	case	X	Gloss=in, into
 8	sint	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	9	det	X	Gloss=the
-9	faithsini	fáithsine	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=prophecy
+9	faithsini	fáithsine	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=prophecy
 10-12	foní	_	_	_	_	_	_	_	_
 10	fo	fo	ADP	preposition	Case=Acc	12	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
 11	'	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	12	det	X	Gloss=the
-12	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
+12	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	5	parataxis	X	Gloss=substantivizing particle
 13-14	fotabarr	_	_	_	_	_	_	_	_
-13	fo	fo	ADP	preposition	Case=Acc	_	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-14	·tabarr	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+13	fo	fo	ADP	preposition	Case=Acc	14	obl:prep	X	Gloss=under, of direction towards, into, through, on, about, beneath
+14	·tabarr	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	12	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
 15-17	isindnufiadnisiu	_	_	_	_	_	_	_	_
 15	i	i	ADP	preposition	Case=Dat	17	case	X	Gloss=in, into
 16	sind	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	17	det	X	Gloss=the
-17	nufiadnisiu	núḟiadnaise	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=New Testament
+17	nufiadnisiu	núḟiadnaise	NOUN	noun	Case=Dat|Number=Sing	14	obl	X	Gloss=New Testament
 
 # sent_id = S0006-1670
 # text = hure nadfitetar infirinni forochet
@@ -24092,27 +24092,27 @@
 6	cain	caín	ADJ	adjective	Degree=Pos	7	amod	X	Gloss=fine, good, beautiful, fair
 7	gnima	gním	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	5	obj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
-# sent_id = S0006-1686
+# sent_id = S0006-1686 - line 15 - ellipsis
 # text = .i. is magister insalmso .i. nertad denma ith fil in hoc psalmo 7 ergairi cech uilc
 # text_en = i.e. this psalm is magister, i.e. [it is] an exhortation of doing good that is in this psalm and [an exhortation] of forbidding every evil.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	magister	magister	NOUN	noun	_	_	_	X	Gloss=teacher, master
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	magister	magister	NOUN	noun	_	0	root	X	Gloss=teacher, master
 4-6	insalmso	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	salm	salm	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=psalm
-6	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	_	_	X	Gloss=this, these
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-8	nertad	nertad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of strengthening, exhorting, urging
-9	denma	dénum	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
-10	ith	maith	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos|Typo=Yes	_	_	X	Gloss=good, right, noble|CorrectForm=maith
-11	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-12	hoc	hīc 1	X	pronoun_demonstrative	_	_	_	X	Gloss=this, these, that, those
-13	psalmo	psalmus	NOUN	noun	_	_	_	X	Gloss=psalm
-14	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-15	ergairi	airgaire	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of prohibiting, preventing, hindering; check
-16	cech	cach	DET	adjective_quantifier	Case=Gen|Number=Sing|Gender=Neut|PronType=Tot	_	det	X	Gloss=every, each, all, any
-17	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=evil, bad, wrong
+5	salm	salm	NOUN	noun	Case=Nom|Number=Sing	3	nsubj	X	Gloss=psalm
+6	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox	5	det	X	Gloss=this, these
+7	.i.	.i.	CCONJ	abbreviation	_	8	cc	X	Gloss=id est, it is
+8	nertad	nertad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of strengthening, exhorting, urging
+9	denma	dénum	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	8	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
+10	ith	maith	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos|Typo=Yes	9	obj	11:nsubj|9:obj	Gloss=good, right, noble|CorrectForm=maith
+11	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	10	acl:relcl	X	Gloss=to be, to exist,
+12	hoc	hīc 1	X	pronoun_demonstrative	_	13	det	X	Gloss=this, these, that, those
+13	psalmo	psalmus	NOUN	noun	_	11	flat	X	Gloss=psalm
+14	7	ocus 2	CCONJ	conjunction	_	15	cc	X	Gloss=coordinating: and, since
+15	ergairi	airgaire	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun	8	conj	X	Gloss=the act of prohibiting, preventing, hindering; check
+16	cech	cach	DET	adjective_quantifier	Case=Gen|Number=Sing|Gender=Neut|PronType=Tot	17	det	X	Gloss=every, each, all, any
+17	uilc	olc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	15	obl	X	Gloss=evil, bad, wrong
 
 # sent_id = S0006-1687
 # text = nochomallad
@@ -24210,24 +24210,24 @@
 # sent_id = S0006-1696
 # text = .i. ní hodoinib condaig aithesc sunt sed quaerit a deo quando dixít dixít domine quis habitabit
 # text_en = i.e. it is not from men that he seeks an answer here.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	ní	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
 3-4	hodoinib	_	_	_	_	_	_	_	_
 3	ho	ó 1	ADP	preposition	Case=Dat	4	case	X	Gloss=from, out of, by
-4	doinib	duine	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=person, human being
-5	con·daig	con·diëig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to seek, to ask, to demand
-6	aithesc	aithesc	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=answer, reply
-7	sunt	sund	ADV	adverb	_	_	_	X	Gloss=here, in this place; hither, to this place
-8	sed	sed	X	conjunction	_	_	_	X	Gloss=but
-9	quaerit	quaerō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-10	a	ab (Lat)	ADP	preposition	Case=Acc	6	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
-11	deo	deus	PROPN	proper_noun	_	_	_	X	Gloss=god, deity, God
-12	quando	quandō	ADV	adverb	_	_	_	X	Gloss=when
+4	doinib	duine	NOUN	noun	Case=Dat|Number=Plur	0	root	X	Gloss=person, human being
+5	con·daig	con·diëig	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin	4	csubj:cleft	X	Gloss=to seek, to ask, to demand
+6	aithesc	aithesc	NOUN	noun	Case=Acc|Number=Sing	5	obj	X	Gloss=answer, reply
+7	sunt	sund	ADV	adverb	_	5	advmod	X	Gloss=here, in this place; hither, to this place
+8	sed	sed	X	conjunction	_	9	mark	X	Gloss=but
+9	quaerit	quaerō	VERB	verb	Voice=Act|Mood=Ind	4	flat	X	Gloss=_
+10	a	ab (Lat)	ADP	preposition	Case=Acc	4	flat	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
+11	deo	deus	PROPN	proper_noun	_	4	flat	X	Gloss=god, deity, God
+12	quando	quandō	ADV	adverb	_	4	flat	X	Gloss=when
 13	dixít	dīcō	VERB	verb	Voice=Act|Mood=Ind|Typo=Yes	14	reparandum	X	Gloss=to say, to declare, to call|CorrectForm=Dittography
-14	dixít	dīcō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to say, to declare, to call
-15	domine	dominus	NOUN	noun	_	_	_	X	Gloss=lord, master
-16	quis	quis	X	pronoun_interrogative	_	_	_	X	Gloss=who? which one?
-17	habitabit	habitō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
+14	dixít	dīcō	VERB	verb	Voice=Act|Mood=Ind	4	flat	X	Gloss=to say, to declare, to call
+15	domine	dominus	NOUN	noun	_	4	flat	X	Gloss=lord, master
+16	quis	quis	X	pronoun_interrogative	_	4	flat	X	Gloss=who? which one?
+17	habitabit	habitō	VERB	verb	Voice=Act|Mood=Ind	4	flat	X	Gloss=_
 
 # sent_id = S0006-1697
 # text = indlaigiu
