@@ -35130,26 +35130,26 @@
 # sent_id = S0006-2648
 # text = robu machdad leu 7 dorochoinset tuidet diarig andochum dapopul atoiri
 # text_en = they were astonished, and they despaired of the coming of their King to them with his people out of captivity.
-1	robu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
-2	machdad	machdad	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=wonder, astonishment
-3	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-4	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-5	do·rochoinset	do·rochoíni	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to despair
-6	tuidet	tuidecht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Typo=Yes	_	_	X	Gloss=the act of coming; arrival, advent|CorrectForm=tuidecht
+1	robu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	2	cop	X	Gloss=to be
+2	machdad	machdad	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=wonder, astonishment
+3	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	2	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+4	7	ocus 2	CCONJ	conjunction	_	5	cc	X	Gloss=coordinating: and, since
+5	do·rochoinset	do·rochoíni	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin	2	conj	X	Gloss=to despair
+6	tuidet	tuidecht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Typo=Yes	5	xcomp	X	Gloss=the act of coming; arrival, advent|CorrectForm=tuidecht
 7-9	diarig	_	_	_	_	_	_	_	_
 7	di	do 1	ADP	preposition	Case=Dat	9	case	X	Gloss=to, for, by etc.
-8	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	9	_	X	Gloss=their
-9	rig	rí	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=king
+8	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	9	nmod:poss	X	Gloss=their
+9	rig	rí	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=king
 10-11	andochum	_	_	_	_	_	_	_	_
-10	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	14	_	X	Gloss=their
-11	ndochum	dochumm	ADP	preposition	Case=Dat	14	case	X	Gloss=to, towards, in order to
+10	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	6	obl	X	Gloss=their
+11	ndochum	dochumm	ADP	preposition	Case=Dat	10	case	X	Gloss=to, towards, in order to
 12-14	dapopul	_	_	_	_	_	_	_	_
 12	d	co 2	ADP	preposition	Case=Dat|Typo=Yes	14	case	X	Gloss=with, general accompaniment, connection, attendant circumstances|CorrectForm=ɔ
-13	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	_	_	X	Gloss=his, its
-14	popul	popul	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
+13	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	14	nmod:poss	X	Gloss=his, its
+14	popul	popul	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=a group of people, a tribe, people held together by a common interest, also used for members of a religious community
 15-16	atoiri	_	_	_	_	_	_	_	_
 15	a	a 7	ADP	preposition	Case=Dat	16	case	X	Gloss=out of, from
-16	toiri	doíre	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=slavery, bondage, captivity
+16	toiri	doíre	NOUN	noun	Case=Dat|Number=Sing	6	obl	X	Gloss=slavery, bondage, captivity
 
 # sent_id = S0006-2649
 # text = emid indreta derchointi
@@ -35988,25 +35988,25 @@
 # text = maniberba .i. maní erchissea ón 7 manidilga 7 mani mesraigea·
 # text_en = if it should not boil, i.e. that is, if it should not pity, and if it should not forgive, and if it should not moderate.
 1-3	maniberba	_	_	_	_	_	_	_	_
-1	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-2	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-3	·berba	berbaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to boil, to cook
-4	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	ma	ma	SCONJ	conjunction	_	3	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+2	ni·	ní 3	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not
+3	·berba	berbaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to boil, to cook
+4	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 5-6	maní	_	_	_	_	_	_	_	_
-5	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-6	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-7	·erchissea	ar·ceisi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to pity, to have compassion on
-8	ón	-ón	PRON	particle_anaphoric	_	_	_	X	Gloss=that (aforementioned)
-9	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+5	ma	ma	SCONJ	conjunction	_	7	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+6	ní·	ní 3	PART	particle_negative_main	_	7	advmod:neg	X	Gloss=not
+7	·erchissea	ar·ceisi	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	3	conj	X	Gloss=to pity, to have compassion on
+8	ón	-ón	PRON	particle_anaphoric	_	7	discourse	X	Gloss=that (aforementioned)
+9	7	ocus 2	CCONJ	conjunction	_	12	cc	X	Gloss=coordinating: and, since
 10-12	manidilga	_	_	_	_	_	_	_	_
-10	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-11	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-12	·dilga	do·lugai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to forgive, to remit
-13	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+10	ma	ma	SCONJ	conjunction	_	12	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+11	ni·	ní 3	PART	particle_negative_main	_	12	advmod:neg	X	Gloss=not
+12	·dilga	do·lugai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	7	conj	X	Gloss=to forgive, to remit
+13	7	ocus 2	CCONJ	conjunction	_	16	cc	X	Gloss=coordinating: and, since
 14-15	mani	_	_	_	_	_	_	_	_
-14	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-15	ni·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-16	·mesraigea	mesraigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to moderate, to temper, to control, to regulate
+14	ma	ma	SCONJ	conjunction	_	16	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+15	ni·	ní 3	PART	particle_negative_main	_	16	advmod:neg	X	Gloss=not
+16	·mesraigea	mesraigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	7	conj	X	Gloss=to moderate, to temper, to control, to regulate
 17	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2705
@@ -37195,26 +37195,26 @@
 2	·nerberad	ar·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to use, to employ; to live, to eat; to express, to derive, to enjoy
 3	biuth	bith	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
 
-# sent_id = S0006-2807
+# sent_id = S0006-2807 - editorial; line 5 - ccomp?
 # text = forsaní 〈as ní〉 as né silias 7 as né taceas trachtid anisiu sís
 # text_en = it is on ne sileas and ne taceas that this below comments.
 1-3	forsaní	_	_	_	_	_	_	_	_
 1	for	for	ADP	preposition	Case=Acc	3	case	X	Gloss=upon, over, on
 2	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-4	né	ne	X	particle	_	_	_	X	Gloss=that not
-5	silias	sileō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to be silent
-6	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-8	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	cop	X	Gloss=to be
-9	né	ne	X	particle	_	_	_	X	Gloss=that not
-10	taceas	taceō	NOUN	noun	_	_	_	X	Gloss=_
-11	taceas	taceō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-12	trachtid	tráchtaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to comment, to annotate, to discuss
-13	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	14	det	X	Gloss=the
-14	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-15	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	_	_	X	Gloss=this, these
-16	sís	sís	ADV	adverb	_	_	_	X	Gloss=down, downwards, below, onwards, throughout
+3	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut	0	root	X	Gloss=substantivizing particle
+4	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	cop	X	Gloss=to be
+5	né	ne	X	particle	_	3	ccomp	X	Gloss=that not
+6	silias	sileō	VERB	verb	Voice=Act|Mood=Ind	5	flat	X	Gloss=to be silent
+7	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+8	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	9	cop	X	Gloss=to be
+9	né	ne	X	particle	_	5	conj	X	Gloss=that not
+10	taceas	taceō	NOUN	noun	_	9	flat	X	Gloss=_
+11	trachtid	tráchtaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	csubj:cleft	X	Gloss=to comment, to annotate, to discuss
+12-14	anisiu	_	_	_	_	_	_	_	_
+12	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	13	det	X	Gloss=the
+13	ni	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	11	nsubj	X	Gloss=substantivizing particle
+14	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	13	appos	X	Gloss=this, these
+15	sís	sís	ADV	adverb	_	11	advmod	X	Gloss=down, downwards, below, onwards, throughout
 
 # sent_id = S0006-2808
 # text = .i. is écmacht doib denum neich ɔdegar cuccu
