@@ -18028,27 +18028,27 @@
 # sent_id = S0006-1130
 # text = .i. brachio .i. tororansom trisindoit ingním gnís indoe quoniam dixit contere brachium·
 # text_en = i.e. by the arm, i.e. he has signified by the arm the action which the arm does quoniam etc.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	brachio	brachium	NOUN	noun	_	_	_	X	Gloss=_
-3	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	brachio	brachium	NOUN	noun	_	0	root	X	Gloss=_
+3	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 4-5	tororansom	_	_	_	_	_	_	_	_
-4	to·roran	do·foirndea	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	_	_	X	Gloss=to express, to signify, to determine, to mark out, to delineate
-5	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
+4	to·roran	do·foirndea	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	2	conj	X	Gloss=to express, to signify, to determine, to mark out, to delineate
+5	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	4	nsubj	X	Gloss=emphasising particle
 6-8	trisindoit	_	_	_	_	_	_	_	_
 6	tri	tre	ADP	preposition	Case=Acc	8	case	X	Gloss=through (time or space), by means of, be reason of
 7	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	doit	doë 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=the upper arm
+8	doit	doë 1	NOUN	noun	Case=Acc|Number=Sing	4	obl	X	Gloss=the upper arm
 9-10	ingním	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	gním	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-11	gnís	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to do
+10	gním	gním	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	8	appos	11:obj|8:appos	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+11	gnís	gniïd	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len	10	acl:relcl	X	Gloss=to do
 12-13	indoe	_	_	_	_	_	_	_	_
 12	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	doe	doë 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=the upper arm
-14	quoniam	quoniam	X	conjunction	_	_	_	X	Gloss=_
-15	dixit	dīcō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to say, to declare, to call
-16	contere	conterō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=_
-17	brachium·	brachium	NOUN	noun	_	_	_	X	Gloss=_
+13	doe	doë 1	NOUN	noun	Case=Nom|Number=Sing	11	nsubj	X	Gloss=the upper arm
+14	quoniam	quoniam	X	conjunction	_	15	mark	X	Gloss=_
+15	dixit	dīcō	VERB	verb	Voice=Act|Mood=Ind	11	flat	X	Gloss=to say, to declare, to call
+16	contere	conterō	VERB	verb	Voice=Act|Mood=Ind	11	flat	X	Gloss=_
+17	brachium·	brachium	NOUN	noun	_	11	flat	X	Gloss=_
 18	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1131
@@ -19338,32 +19338,32 @@
 3	forcitlada	forcetlaid	NOUN	noun	Case=Gen|Number=Sing	0	root	4:nsubj|0:root	Gloss=teacher, instructor
 4	forda·cain	for·cain	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other	3	acl:relcl	X	Gloss=to teach
 
-# sent_id = S0006-1242
+# sent_id = S0006-1242 - line 10 - obj|xcomp
 # text = .i. arandentar anindarbae maní eroimet aforcital 7 arnarogabthar midesmrecht díb
 # text_en = i.e. that their expulsion may be brought about if they should not receive his teaching, and that a bad example may not be taken from them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	arandentar	_	_	_	_	_	_	_	_
-2	ara	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-3	·ndentar	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to do, to make
+2	ara	ara	SCONJ	complementiser	_	3	mark:prt	X	Gloss=in order that, so that
+3	·ndentar	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to do, to make
 4-5	anindarbae	_	_	_	_	_	_	_	_
-4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	_	X	Gloss=their
-5	nindarbae	indarbae	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of expelling, driving out; expulsion, rejection
+4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	5	obj:poss	X	Gloss=their
+5	nindarbae	indarbae	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	csubj	X	Gloss=the act of expelling, driving out; expulsion, rejection
 6-7	maní	_	_	_	_	_	_	_	_
-6	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-7	ní·	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-8	·eroimet	ar·foím	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	_	_	X	Gloss=to accept, to receive, to assume, to take, to agree to, to consent; to submit to; to permit, allow
+6	ma	ma	SCONJ	conjunction	_	8	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+7	ní·	ní 3	PART	particle_negative_main	_	8	advmod:neg	X	Gloss=not
+8	·eroimet	ar·foím	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin	3	advcl	X	Gloss=to accept, to receive, to assume, to take, to agree to, to consent; to submit to; to permit, allow
 9-10	aforcital	_	_	_	_	_	_	_	_
-9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	_	X	Gloss=his, its
-10	forcital	forcetal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of teaching, instructing, admonishing, learning, studying
-11	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	nmod:poss	X	Gloss=his, its
+10	forcital	forcetal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	8	obj	X	Gloss=the act of teaching, instructing, admonishing, learning, studying
+11	7	ocus 2	CCONJ	conjunction	_	14	cc	X	Gloss=coordinating: and, since
 12-14	arnarogabthar	_	_	_	_	_	_	_	_
-12	ar	ara	SCONJ	complementiser	_	_	mark:prt	X	Gloss=in order that, so that
-13	na	ná 2	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-14	ro·gabthar	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+12	ar	ara	SCONJ	complementiser	_	14	mark:prt	X	Gloss=in order that, so that
+13	na	ná 2	PART	particle_negative_subordinate	_	14	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+14	ro·gabthar	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	3	conj	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 15-16	midesmrecht	_	_	_	_	_	_	_	_
-15	mi	mí-	X	particle_prefix	_	_	_	X	Gloss=bad, false
-16	desmrecht	desimrecht	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=example, exemplar, pattern
-17	díb	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
+15	mi	mí-	X	particle_prefix	_	16	amod	X	Gloss=bad, false
+16	desmrecht	desimrecht	NOUN	noun	Case=Nom|Number=Sing	14	nsubj	X	Gloss=example, exemplar, pattern
+17	díb	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	14	obl:prep	X	Gloss=away, from, cause or reason, by
 
 # sent_id = S0006-1243
 # text = innasaile foilse .i. pectha trisambí apaltu
@@ -21834,27 +21834,27 @@
 # sent_id = S0006-1475
 # text = amal is donaib retaib dufoscaiget .i. is duthracht leusom atlugud buide dom imnedaibse
 # text_en = as it [i.e. the desire to give thanks] is for the things that move, i.e. it is a desire for them to return thanks for my troubles.
-1	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 3-4	donaib	_	_	_	_	_	_	_	_
 3	do	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
 4	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
-5	retaib	rét 1	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=thing
-6	du·foscaiget	do·foscaigi	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to move, to withdraw, to come to
-7	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-9	duthracht	dúthracht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of wishing, desiring; wish, desire
+5	retaib	rét 1	NOUN	noun	Case=Dat|Number=Plur	0	root	6:nsubj|0:root	Gloss=thing
+6	du·foscaiget	do·foscaigi	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	5	acl:relcl	X	Gloss=to move, to withdraw, to come to
+7	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
+8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
+9	duthracht	dúthracht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	5	conj	X	Gloss=the act of wishing, desiring; wish, desire
 10-11	leusom	_	_	_	_	_	_	_	_
-10	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-11	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-12	atlugud	attlugud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving thanks, rejoicing (?); thanksgiving
-13	buide	buide 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=favor, gratitude, thanks; good-will
+10	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	11	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+11	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	9	obl	X	Gloss=emphasising particle
+12	atlugud	attlugud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	9	xcomp	X	Gloss=the act of giving thanks, rejoicing (?); thanksgiving
+13	buide	buide 2	NOUN	noun	Case=Gen|Number=Sing	12	obj	X	Gloss=favor, gratitude, thanks; good-will
 14-15	dom	_	_	_	_	_	_	_	_
 14	do	do 1	ADP	preposition	Case=Dat	16	case	X	Gloss=to, for, by etc.
-15	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	16	_	X	Gloss=my
+15	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	16	nmod:poss	X	Gloss=my
 16-17	imnedaibse	_	_	_	_	_	_	_	_
-16	imnedaib	imned	NOUN	noun	Case=Dat|Number=Plur	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
-17	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+16	imnedaib	imned	NOUN	noun	Case=Dat|Number=Plur	12	obl	X	Gloss=tribulation, anxiety, suffering, sorrow
+17	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	16	nmod	X	Gloss=emphasising particle
 
 # sent_id = S0006-1476
 # text = hoduthracht
