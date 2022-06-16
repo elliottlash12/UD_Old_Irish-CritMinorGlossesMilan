@@ -25333,25 +25333,25 @@
 # sent_id = S0006-1783
 # text = ɫ rapere fit in aliis libris· 7 is manus dano bis indib .i. aracela ɫ hoairchellad
 # text_en = or rapere is in other books, and it is manus then that is in them, i.e. that it seize, or by seizing.
-1	ɫ	uel	CCONJ	conjunction	_	_	cc	X	Gloss=or, even
-2	rapere	rapiō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to snatch off, to abduct
-3	fit	fiō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to occur, to happen to become
-4	in	in (Lat)	ADP	preposition	Case=Unk	_	case	X	Gloss=in, into
-5	aliis	alius	ADJ	adjective	Degree=Pos	_	_	X	Gloss=other, the other
-6	libris	liber	NOUN	noun	_	_	_	X	Gloss=book
+1	ɫ	uel	CCONJ	conjunction	_	3	cc	X	Gloss=or, even
+2	rapere	rapiō	VERB	verb	Voice=Act|Mood=Ind	3	nsubj	X	Gloss=to snatch off, to abduct
+3	fit	fiō	VERB	verb	Voice=Act|Mood=Ind	0	root	X	Gloss=to occur, to happen to become
+4	in	in (Lat)	ADP	preposition	Case=Unk	6	case	X	Gloss=in, into
+5	aliis	alius	ADJ	adjective	Degree=Pos	6	amod	X	Gloss=other, the other
+6	libris	liber	NOUN	noun	_	3	obl	X	Gloss=book
 7	·	·	PUNCT	punctuation	_	_	_	_	_
-8	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-10	manus	manus	NOUN	noun	_	_	_	X	Gloss=hand
-11	dano	danó	ADV	particle_discourse	_	_	_	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
-12	bis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-13	indib	i	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=in, into
-14	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-15	ara·cela	ar·cela	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to take away, to steal, to carry off
-16	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
+8	7	ocus 2	CCONJ	conjunction	_	10	cc	X	Gloss=coordinating: and, since
+9	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
+10	manus	manus	NOUN	noun	_	3	conj	X	Gloss=hand
+11	dano	danó	ADV	particle_discourse	_	10	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
+12	bis	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	10	csubj:cleft	X	Gloss=to be, to exist,
+13	indib	i	ADP	preposition	Person=3|Number=Plur|Case=Dat	12	xcomp:prep	X	Gloss=in, into
+14	.i.	.i.	CCONJ	abbreviation	_	15	cc	X	Gloss=id est, it is
+15	ara·cela	ar·cela	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|RelType=Other	3	conj	X	Gloss=to take away, to steal, to carry off
+16	ɫ	nó 1	CCONJ	conjunction	_	18	cc	X	Gloss=disjunctive: or
 17-18	hoairchellad	_	_	_	_	_	_	_	_
-17	ho	ó 1	ADP	preposition	Case=Dat	17	case	X	Gloss=from, out of, by
-18	airchellad	airchelad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of taking away, stealing, carrying off
+17	ho	ó 1	ADP	preposition	Case=Dat	18	obl:prep	X	Gloss=from, out of, by
+18	airchellad	airchelad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	15	conj	X	Gloss=the act of taking away, stealing, carrying off
 
 # sent_id = S0006-1784
 # text = .i. is and duacair infirinni hórbi lán alám ditherfochraic·
@@ -25715,27 +25715,27 @@
 # sent_id = S0006-1825
 # text = .i. amal bid hiláim nobed is erlamaidirsin in sians remiærbartmar .i. abreth doisraheldaib
 # text_en = i.e. as though it were in the hand that it was, even as ready to hand as that is the meaning which we mentioned above, i.e., its reference to the Israelites.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	5	mark	X	Gloss=as, like; translating Latin ut
+3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	5	cop	X	Gloss=to be
 4-5	hiláim	_	_	_	_	_	_	_	_
 4	hi	i	ADP	preposition	Case=Acc	5	case	X	Gloss=in, into
-5	láim	lám	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=hand, arm
-6	no·bed	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+5	láim	lám	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=hand, arm
+6	no·bed	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	5	csubj:cleft	X	Gloss=to be, to exist,
+7	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	8	cop	X	Gloss=to be
 8-9	erlamaidirsin	_	_	_	_	_	_	_	_
-8	erlamaidir	airlam	ADJ	adjective	Degree=Equ	_	_	X	Gloss=ready, prepared
-9	sin	sin	PRON	pronoun_demonstrative_distal	Case=Acc|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+8	erlamaidir	airlam	ADJ	adjective	Degree=Equ	5	parataxis	X	Gloss=ready, prepared
+9	sin	sin	PRON	pronoun_demonstrative_distal	Case=Acc|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	8	obj	X	Gloss=that one, those ones, the one in there ; that, those
 10	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	11	det	X	Gloss=the
-11	sians	síans	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=sense, perception, perceptive faculty, meaning
-12	remi·ærbartmar	remi·eipir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to say beforehand, to say previously
-13	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+11	sians	síans	NOUN	noun	Case=Nom|Number=Sing	8	nsubj	12:obj|8:nsubj	Gloss=sense, perception, perceptive faculty, meaning
+12	remi·ærbartmar	remi·eipir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	11	acl:relcl	X	Gloss=to say beforehand, to say previously
+13	.i.	.i.	CCONJ	abbreviation	_	15	cc	X	Gloss=id est, it is
 14-15	abreth	_	_	_	_	_	_	_	_
-14	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	15	_	X	Gloss=his, its
-15	breth	breth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of inferring, referring, adducing, carrying off, securing, winning, bearing, bringing; judgment, legal ruling, interpretation,
+14	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	15	obj:poss	X	Gloss=his, its
+15	breth	breth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	12	conj	X	Gloss=the act of inferring, referring, adducing, carrying off, securing, winning, bearing, bringing; judgment, legal ruling, interpretation,
 16-17	doisraheldaib	_	_	_	_	_	_	_	_
-16	do	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-17	israheldaib	israeldae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	_	_	X	Gloss=Israelite
+16	do	do 1	ADP	preposition	Case=Dat	17	case	X	Gloss=to, for, by etc.
+17	israheldaib	israeldae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos	15	obl	X	Gloss=Israelite
 
 # sent_id = S0006-1826
 # text = dorellsat
@@ -28097,26 +28097,26 @@
 # text_en = perfect.
 1	foirbthi	foirbthe 1	ADJ	verbal_participle	Case=Dat|Number=Sing|Gender=Fem	_	_	X	Gloss=completed, finished, perfect, religious, holy
 
-# sent_id = S0006-2024
+# sent_id = S0006-2024 - line 16 - nmod|obl:tmod
 # text = .i. amal dundrigni dia corastar saul foir is innuaim im bói 7 bamór fechtae cenae
 # text_en = i.e. as he did it when Saul happened upon him into the cave in which he was; and there were many times besides.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	dund·rigni	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|Aspect=Perf|RelType=Other	_	_	X	Gloss=to do, to make
-4	dia·	día 1	SCONJ	complementiser	_	_	mark:prt	X	Gloss=when, if
-5	·corastar	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
-6	saul	Saul	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=Saul
-7	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=upon, over, on
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	3	mark	X	Gloss=as, like; translating Latin ut
+3	dund·rigni	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|Aspect=Perf|RelType=Other	0	root	X	Gloss=to do, to make
+4	dia·	día 1	SCONJ	complementiser	_	5	mark:prt	X	Gloss=when, if
+5	·corastar	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	3	advcl	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
+6	saul	Saul	PROPN	proper_noun	Case=Nom|Number=Sing	5	nsubj	X	Gloss=Saul
+7	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	5	obl:prep	X	Gloss=upon, over, on
 8	i	i	ADP	preposition	Case=Acc	10	case	X	Gloss=in, into
 9	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	nuaim	úam 2	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=cave, den
-11	i·	i	ADP	preposition	Case=Acc	_	case	X	Gloss=in, into
-12	·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-13	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-14	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-15	mór	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=great, big, ample, tall, large
-16	fechtae	fecht	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=journey, expedition, time, occasion, course
-17	cenae	cen	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	_	_	X	Gloss=without, not having, -less, on this side, apart from, besides, except
+10	nuaim	úam 2	NOUN	noun	Case=Acc|Number=Sing	5	obl	X	Gloss=cave, den
+11	i·	i	ADP	preposition	Case=Acc	12	xcomp:pred:prep	X	Gloss=in, into
+12	·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	10	acl:relcl	X	Gloss=to be, to exist,
+13	7	ocus 2	CCONJ	conjunction	_	16	cc	X	Gloss=coordinating: and, since
+14	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	16	cop	X	Gloss=to be
+15	mór	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	3	conj	X	Gloss=great, big, ample, tall, large
+16	fechtae	fecht	NOUN	noun	Case=Gen|Number=Plur	15	nmod	X	Gloss=journey, expedition, time, occasion, course
+17	cenae	cen	ADP	preposition	Person=3|Number=Sing|Gender=Neut|Case=Acc	15	obl:prep	X	Gloss=without, not having, -less, on this side, apart from, besides, except
 
 # sent_id = S0006-2025
 # text = nephfrithortae
