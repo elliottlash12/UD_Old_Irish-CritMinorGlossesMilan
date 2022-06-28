@@ -2698,7 +2698,7 @@
 12	huili	uile	ADJ	adjective_quantifier	Case=Acc|Number=Plur|Gender=Masc|PronType=Tot	13	amod	13:amod	Gloss=all, every, the whole
 13	doilbthi	dolbud	NOUN	verbal_noun	Case=Acc|Number=Plur	10	obj	10:obj	Gloss=the act of forming, making; formation, invention, figure, witchcraft
 
-# sent_id = S0021-74
+# sent_id = S0021-74 - ellipsis
 # text = duo .i. herchoilud fabulae 7 grammaticae
 # text_en = “two”, that is, the definition of fabula and of grammatica
 1	duo	duo	NUM	adjective_numeral	_	0	root	0:root	Gloss=two
@@ -18383,7 +18383,7 @@
 9	·fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	3	conj	X	Gloss=to be, to exist,
 10-11	nanert	_	_	_	_	_	_	_	_
 10	na	nach 1	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Neut|PronType=Ind	11	amod	X	Gloss=any, every, each, some, none
-11	nert	nert	NOUN	noun	Case=Acc|Number=Sing	9	nsubj	X	Gloss=strength, force
+11	nert	nert	NOUN	noun	Case=Acc|Number=Sing	9	obj	X	Gloss=strength, force
 12	nail	aile 1	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Neut	11	amod	X	Gloss=other, another, else, second
 13-15	indamerbainn	_	_	_	_	_	_	_	_
 13	i	i	ADP	preposition	Case=Acc	15	obl:prep	X	Gloss=in, into
@@ -30423,20 +30423,21 @@
 # sent_id = S0006-2252
 # text = duinchoscaibse .i. conrúrélsa doib an as accobur liúm
 # text_en = to my instructions, i.e. so that I may reveal to them that which is a desire for me.
-1-3	duinchoscaibse	_	_	_	_	_	_	_	_
+1-4	duinchoscaibse	_	_	_	_	_	_	_	_
 1	du	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
 2	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Typo=Yes	3	nmod:poss	X	Gloss=my|Addition=Yes
 3	inchoscaibse	inchosc	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun	0	root	X	Gloss=the act of denoting, signifying; indication, sign, instruction
-4	.i.	.i.	CCONJ	abbreviation	_	6	cc	X	Gloss=id est, it is
-5-7	conrúrélsa	_	_	_	_	_	_	_	_
-5	con	co 4	SCONJ	complementiser	_	6	mark:prt	X	Gloss=so that, until (+independent, leniting)
-6	rú·rél	rélaid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	3	conj	X	Gloss=to reveal, to manifest, to declare, to make clear
-7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	6	nsubj	X	Gloss=emphasising particle
-8	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	6	obl:prep	X	Gloss=to, for, by etc.
-9	a	a 4	PRON	pronoun_relative	Case=Acc|Number=Sing|PronType=Rel	6	obj	11:nsubj|6:obj	Gloss=that, which
-10	nas	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	11	cop	X	Gloss=to be
-11	accobur	accobor	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	9	acl:relcl	X	Gloss=the act of desiring, wishing; desire, wish, appetite
-12	liúm	la	ADP	preposition	Person=1|Number=Sing|Case=Acc	11	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+4	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	3	nmod	X	Gloss=emphasising particle
+5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
+6-8	conrúrélsa	_	_	_	_	_	_	_	_
+6	con	co 4	SCONJ	complementiser	_	7	mark:prt	X	Gloss=so that, until (+independent, leniting)
+7	rú·rél	rélaid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans	3	conj	X	Gloss=to reveal, to manifest, to declare, to make clear
+8	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	7	nsubj	X	Gloss=emphasising particle
+9	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	7	obl:prep	X	Gloss=to, for, by etc.
+10	a	a 4	PRON	pronoun_relative	Case=Acc|Number=Sing|PronType=Rel	7	obj	12:nsubj|7:obj	Gloss=that, which
+11	nas	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	12	cop	X	Gloss=to be
+12	accobur	accobor	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	10	acl:relcl	X	Gloss=the act of desiring, wishing; desire, wish, appetite
+13	liúm	la	ADP	preposition	Person=1|Number=Sing|Case=Acc	12	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 
 # sent_id = S0006-2253
 # text = .i. geillfit ón
@@ -36973,7 +36974,7 @@
 7	siu	sé 2	PRON	pronoun_demonstrative_proximate	Case=Dat|Number=Sing|Gender=Neut|Deixis=Prox|PronType=Dem	6	appos	X	Gloss=this, these
 8	for	for	ADP	preposition	Case=Acc	10	case	X	Gloss=upon, over, on
 9	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	uissitam	vīsitō	VERB	verb	_	2	obl	11:nsubj|2:obl	Gloss=
+10	uissitam	vīsitō	VERB	verb	_	2	obl	11:obj|2:obl	Gloss=
 11	fel	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len	10	acl:relcl	X	Gloss=to be, to exist,
 12	in	in (Lat)	ADP	preposition	Case=Unk	13	case	X	Gloss=in, into
 13	psalterio	psaltērium	NOUN	noun	_	11	xcomp:pred	X	Gloss=_
@@ -37490,7 +37491,7 @@
 6	di	di	ADP	preposition	Case=Dat	7	case	X	Gloss=away, from, cause or reason, by
 7	chosecrad	cosecrad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	4	conj	X	Gloss=the act of dedicating, consecrating, blessing
 8	tabernacuil	tabernacuil	NOUN	noun	Case=Gen|Number=Sing	7	obj	X	Gloss=tabernacle; God’s dwelling, heaven
-9	ro·cachain	canaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	8	acl	X	Gloss=to sing, to recite, to chant; to speak, to tell, to announce, to utter
+9	ro·cachain	canaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf	7	csubj:cleft	X	Gloss=to sing, to recite, to chant; to speak, to tell, to announce, to utter
 10	duaid	dúaid	PROPN	proper_noun	Case=Nom|Number=Sing	9	nsubj	X	Gloss=David
 11-14	insalmso	_	_	_	_	_	_	_	_
 11	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	12	det	X	Gloss=the
