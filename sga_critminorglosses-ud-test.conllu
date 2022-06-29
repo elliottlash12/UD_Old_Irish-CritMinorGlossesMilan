@@ -29065,8 +29065,8 @@
 # text = adǽ
 # text_en = O God!
 1-2	adǽ	_	_	_	_	_	_	_	_
-1	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-2	dǽ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+1	a	a 1	PART	particle_vocative	_	2	case:voc	X	Gloss=O! ; oh
+2	dǽ	día 2	NOUN	noun	Number=Sing	0	root	X	Gloss=god, deity, God
 
 # sent_id = S0006-2128
 # text = .i. it namait do dia indi fris orgat dondi oirdnes dia
@@ -29341,11 +29341,11 @@
 # text = daitsiu adé
 # text_en = to you (sg), O God.
 1-2	daitsiu	_	_	_	_	_	_	_	_
-1	dait	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
-2	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	dait	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	2	case	X	Gloss=to, for, by etc.
+2	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	0	root	X	Gloss=emphasising particle
 3-4	adé	_	_	_	_	_	_	_	_
-3	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-4	dé	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+3	a	a 1	PART	particle_vocative	_	4	case:voc	X	Gloss=O! ; oh
+4	dé	día 2	NOUN	noun	Number=Sing	2	vocative	X	Gloss=god, deity, God
 
 # sent_id = S0006-2152
 # text = forásat
@@ -29357,7 +29357,7 @@
 # text_en = the avenger.
 1-2	indiglaid·	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	diglaid	díglaid	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=avenger
+2	diglaid	díglaid	NOUN	noun	Case=Acc|Number=Sing	0	root	X	Gloss=avenger
 3	·	·	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2154
@@ -29365,8 +29365,8 @@
 # text_en = of David.
 1-2	indí	_	_	_	_	_	_	_	_
 1	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	2	det	X	Gloss=the
-2	í	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	_	_	X	Gloss=substantivizing particle
-3	duaid	dúaid	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=David
+2	í	í 1	PRON	pronoun_propword	Case=Gen|Number=Sing|Gender=Masc	0	root	X	Gloss=substantivizing particle
+3	duaid	dúaid	PROPN	proper_noun	Case=Gen|Number=Sing	2	appos	X	Gloss=David
 
 # sent_id = S0006-2155 - editorial
 # text = .i. imaisndisse ɫ. ollasndisse .i. lam [leg. lan] di cech thrup d:l :la::: bu/a:s [leg. dúal 7 lan di búas] du th(ai)dbsin innan guas 7 in soirtha hodia·
@@ -30209,8 +30209,8 @@
 # text = adǽ
 # text_en = O God.
 1-2	adǽ	_	_	_	_	_	_	_	_
-1	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-2	dǽ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+1	a	a 1	PART	particle_vocative	_	2	case:voc	X	Gloss=O! ; oh
+2	dǽ	día 2	NOUN	noun	Number=Sing	0	root	X	Gloss=god, deity, God
 
 # sent_id = S0006-2223
 # text = dunennac
@@ -30224,13 +30224,13 @@
 # text = adǽ
 # text_en = O God.
 1-2	adǽ	_	_	_	_	_	_	_	_
-1	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
-2	dǽ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+1	a	a 1	PART	particle_vocative	_	2	case:voc	X	Gloss=O! ; oh
+2	dǽ	día 2	NOUN	noun	Number=Sing	0	root	X	Gloss=god, deity, God
 
 # sent_id = S0006-2225
 # text = dugene
 # text_en = you will do.
-1	du·gene	do·gní	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	_	_	X	Gloss=to do, to make
+1	du·gene	do·gní	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin	0	root	X	Gloss=to do, to make
 
 # sent_id = S0006-2226
 # text = .i. indnamait
@@ -30639,22 +30639,22 @@
 # sent_id = S0006-2273
 # text = .i. arecin són
 # text_en = i.e. that is, by force.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	arecin	_	_	_	_	_	_	_	_
 2	ar	ar 1	ADP	preposition	Case=Acc	3	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-3	ecin	éicen	NOUN	noun	Case=Dat	_	_	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
-4	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+3	ecin	éicen	NOUN	noun	Case=Dat	0	root	X	Gloss=necessity, compulsion, violence, in response to a question, indeed, surely, of truth
+4	són	-són	PRON	particle_anaphoric	_	3	discourse	X	Gloss=that (mentioned above) that is
 
 # sent_id = S0006-2274
 # text = etirdiben
 # text_en = that he destroys.
-1	etir·diben	eter·diben	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to destroy
+1	etir·diben	eter·diben	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	0	root	X	Gloss=to destroy
 
 # sent_id = S0006-2275
 # text = do duaid
 # text_en = to David.
 1	do	do 1	ADP	preposition	Case=Dat	2	case	X	Gloss=to, for, by etc.
-2	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	_	_	X	Gloss=David
+2	duaid	dúaid	PROPN	proper_noun	Case=Dat|Number=Sing	0	root	X	Gloss=David
 
 # sent_id = S0006-2276 - ellipsis
 # text = .i. lassambí indfeuchrae 7 incrodatu quam nechtar dæ·
