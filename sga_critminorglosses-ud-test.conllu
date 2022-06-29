@@ -30567,8 +30567,8 @@
 # text = dumgnese adǽ
 # text_en = you (sg) should make me, O God.
 1-2	dumgnese	_	_	_	_	_	_	_	_
-1	dum·gne	do·gní	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|PronType=InfA	_	_	X	Gloss=to do, to make
-2	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+1	dum·gne	do·gní	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|PronType=InfA	0	root	X	Gloss=to do, to make
+2	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	1	obj	X	Gloss=emphasising particle
 3-4	adǽ	_	_	_	_	_	_	_	_
 3	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
 4	dǽ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
@@ -30576,23 +30576,23 @@
 # sent_id = S0006-2266
 # text = cid
 # text_en = even.
-1	cid	cid	2	PART	particle_focus	_	_	advmod:emph	X	Gloss=even
+1	cid	cid	2	PART	particle_focus	_	0	root	X	Gloss=even
 
 # sent_id = S0006-2267
 # text = intsolam
 # text_en = quickly.
 1-2	intsolam	_	_	_	_	_	_	_	_
-1	int	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-2	solam	solam 1	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=quick, speedy, ready, prompt
+1	int	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	2	det	X	Gloss=the
+2	solam	solam 1	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=quick, speedy, ready, prompt
 
 # sent_id = S0006-2268
 # text = .i. níɔtormenarsa
 # text_en = i.e. I did not expect.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-4	níɔtormenarsa	_	_	_	_	_	_	_	_
-2	níɔ·	nicon	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not ever
-3	·tormenar	do·moinethar	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	_	_	X	Gloss=to think, to suppose, to conjecture
-4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+2	níɔ·	nicon	PART	particle_negative_main	_	3	advmod:neg	X	Gloss=not ever
+3	·tormenar	do·moinethar	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf	0	root	X	Gloss=to think, to suppose, to conjecture
+4	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
 
 # sent_id = S0006-2269
 # text = cidnaarrachta .i. iudula
@@ -30607,7 +30607,7 @@
 # sent_id = S0006-2270
 # text = græsach
 # text_en = perpetual.
-1	græsach	grésach	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=lasting, permanent, perpetual
+1	græsach	grésach	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=lasting, permanent, perpetual
 
 # sent_id = S0006-2271
 # text = .i. nifir adrad huathuil bís leu dudia
