@@ -16965,7 +16965,7 @@
 2	epert	eipert	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of saying; speech, statement, word
 3-4	nadfel	_	_	_	_	_	_	_	_
 3	nad·	nád 1	PART	particle_negative_subordinate	_	4	advmod:neg	X	Gloss=that...not
-4	·fel	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	2	ccomp	X	Gloss=to be, to exist,
+4	·fel	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas	2	ccomp	X	Gloss=to be, to exist,
 5	dliged	dliged	NOUN	noun	Case=Acc|Number=Sing	4	nsubj	X	Gloss=principle, rule, norm; reason, argument; law, due, right, prerogative; dictum, authoritative statement; guiding priniciple, theory
 6	remcaissen	remcaisiu	NOUN	noun	Case=Gen|Number=Sing	5	nmod	X	Gloss=“looking before”; providence, foresight
 7-8	ladia	_	_	_	_	_	_	_	_
@@ -16977,13 +16977,13 @@
 11	ɔ·airleci	con·airléici	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	4	advcl	X	Gloss=to permit, to allow, to let go
 12-13	innabochtu	_	_	_	_	_	_	_	_
 12	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	bochtu	bocht	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	11	obj	X	Gloss=poor
+13	bochtu	bocht	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos	11	obj	15:nsubj|11:obj	Gloss=poor
 14-15	fochumachtu	_	_	_	_	_	_	_	_
 14	fo	fo	ADP	preposition	Case=Dat	15	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-15	chumachtu	cumachtae	NOUN	noun	Case=Dat|Number=Sing	11	obl	X	Gloss=power, strength, might
+15	chumachtu	cumachtae	NOUN	noun	Case=Dat|Number=Sing	13	xcomp:pred	X	Gloss=power, strength, might
 16-17	innasommae	_	_	_	_	_	_	_	_
 16	inna	in 1	DET	definite_article	Case=Gen|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	17	det	X	Gloss=the
-17	sommae	sommae 2	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	nmod	15	X	Gloss=rich, wealthy
+17	sommae	sommae 2	ADJ	adjective	Case=Gen|Number=Plur|Gender=Masc|Degree=Pos	15	nmod	X	Gloss=rich, wealthy
 
 # sent_id = S0006-1017
 # text = .i. agni
