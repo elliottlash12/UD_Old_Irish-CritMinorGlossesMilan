@@ -36844,26 +36844,26 @@
 13	eulae	féoil	NOUN	noun	Case=Gen|Number=Plur	10	obj	X	Gloss=flesh, meat
 14	..	..	PUNCT	punctuation	_	_	_	_	_
 
-# sent_id = S0006-2771 - editorial
+# sent_id = S0006-2771 - editorial - line 16 - reliqua
 # text = is 〈dotra〉 dothrachtad lessom forsin testimn [leg. testimin] níchtarach hotha ubi dicit ut sit sensus rl .i.
 # text_en = from where he says ut sit sensus, it is in order for him to comment on the text below.
-1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-2	do	do 1	ADP	preposition	Case=Dat	3	case	X	Gloss=to, for, by etc.
-3	thrachtad	tráchtad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of discussing; commentary, interpretation
-4	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-5	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
+1	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+2	do	do 1	ADP	preposition	Case=Dat	3	mark:prt	X	Gloss=to, for, by etc.
+3	thrachtad	tráchtad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of discussing; commentary, interpretation
+4	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	5	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+5	som	nota augens	PRON	particle_pronominal	PronType=Prs	3	obl	X	Gloss=emphasising particle
 6	for	for	ADP	preposition	Case=Acc	8	case	X	Gloss=upon, over, on
 7	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	8	det	X	Gloss=the
-8	testimin	testimin	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=text, scriptural quotation, passage, testimony
-9	níchtarach	íchtarach	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=low, below
-10	hotha	óthá	ADP	preposition	Case=Dat	_	case	X	Gloss=from where is
-11	ubi	ubi	ADV	adverb	_	_	_	X	Gloss=where, there
-12	dicit	dīcō	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to say, to declare, to call
-13	ut	ut	X	conjunction	_	_	_	X	Gloss=that, so that
-14	sit	sum	VERB	verb	Voice=Act|Mood=Ind	_	_	X	Gloss=to be
-15	sensus	sensus	NOUN	noun	_	_	_	X	Gloss=perception, a feeling, understanding, reason
+8	testimin	testimin	NOUN	noun	Case=Acc|Number=Sing	3	obl	X	Gloss=text, scriptural quotation, passage, testimony
+9	níchtarach	íchtarach	ADJ	adjective	Case=Acc|Number=Sing|Gender=Masc|Degree=Pos	8	amod	X	Gloss=low, below
+10	hotha	óthá	ADP	preposition	Case=Dat	11	case	X	Gloss=from where is
+11	ubi	ubi	ADV	adverb	_	3	dislocated	X	Gloss=where, there
+12	dicit	dīcō	VERB	verb	Voice=Act|Mood=Ind	11	flat	X	Gloss=to say, to declare, to call
+13	ut	ut	X	conjunction	_	11	flat	X	Gloss=that, so that
+14	sit	sum	VERB	verb	Voice=Act|Mood=Ind	11	flat	X	Gloss=to be
+15	sensus	sensus	NOUN	noun	_	11	flat	X	Gloss=perception, a feeling, understanding, reason
 16	rl	reliqua	NOUN	noun	_	_	_	X	Gloss=the rest, remainder
-17	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+17	.i.	.i.	CCONJ	abbreviation	_	11	cc	X	Gloss=id est, it is
 18	.	.	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2772
