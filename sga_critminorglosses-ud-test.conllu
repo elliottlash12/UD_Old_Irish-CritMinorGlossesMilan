@@ -32392,28 +32392,32 @@
 5	dia	día 2	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=god, deity, God
 6	·	·	PUNCT	punctuation	_	_	_	_	_
 
-# sent_id = S0006-2428
+# sent_id = S0006-2428 - line 4 - mark:prt|mark
 # text = .i. bacumdubart in étaste fanaic trisnaguidi aní rogaidsom .i. asoirad..,
 # text_en = i.e. it is doubtful whether or not that which he prayed for, i.e. his deliverance, would be obtained through the prayers.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2-3	bacumdubart	_	_	_	_	_	_	_	_
-2	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-3	cumdubart	cumtubart	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=doubt, uncertainty, perplexity
-4	in·	in 2	PRON	particle_interrogative	_	_	_	X	Gloss=question particle
-5	·étaste	ad·cota	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to get, to obtain, to receive
+2	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	cop	X	Gloss=to be
+3	cumdubart	cumtubart	NOUN	noun	Case=Nom|Number=Sing	0	root	X	Gloss=doubt, uncertainty, perplexity
+4	in·	in 2	PRON	particle_interrogative	_	5	mark:prt	X	Gloss=question particle
+5	·étaste	ad·cota	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Cond|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans	3	ccomp	X	Gloss=to get, to obtain, to receive
 6-7	fanaic	_	_	_	_	_	_	_	_
-6	fa	fa	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: introduces the second of two alternatives in interrogative clauses: or, introduces the second of three alternatives in interrogative clauses: or, introduces the third of three alternatives in interrogative clauses:
-7	naic	nacc	INTJ	interjection	_	_	_	X	Gloss=no, not
-8	tri	tre	ADP	preposition	Case=Acc	10	case	X	Gloss=through (time or space), by means of, be reason of
+6	fa	fa	CCONJ	conjunction	_	10	cc	X	Gloss=disjunctive: introduces the second of two alternatives in interrogative clauses: or, introduces the second of three alternatives in interrogative clauses: or, introduces the third of three alternatives in interrogative clauses:
+7	naic	nacc	INTJ	interjection	_	10	discourse	X	Gloss=no, not
+8-10	trisnaguidi	_	_	_	_	_	_	_	_
+8	tris	tre	ADP	preposition	Case=Acc	10	case	Typo=Yes	Gloss=through (time or space), by means of, be reason of|CorrectForm=tri
 9	na	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Fem|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	guidi	guide	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of praying; prayer
+10	guidi	guide	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun	5	conj	X	Gloss=the act of praying; prayer
+11-12	aní	_	_	_	_	_	_	_	_
 11	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	12	det	X	Gloss=the
-12	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
-13	ro·gaid	guidid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to beseech, to pray to, to entreat; to desire
-14	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
-15	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-16	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	17	_	X	Gloss=his, its
-17	soirad	sóerad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of freeing, delivering; deliverance
+12	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	5	nsubj	13:obj|5:nsubj	Gloss=substantivizing particle
+13-14	rogaidsom	_	_	_	_	_	_	_	_
+13	ro·gaid	guidid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	12	acl:relcl	X	Gloss=to beseech, to pray to, to entreat; to desire
+14	som	nota augens	PRON	particle_pronominal	PronType=Prs	13	nsubj	X	Gloss=emphasising particle
+15	.i.	.i.	CCONJ	abbreviation	_	17	cc	X	Gloss=id est, it is
+16-17	asoirad	_	_	_	_	_	_	_	_
+16	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	17	obj:poss	X	Gloss=his, its
+17	soirad	sóerad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	3	conj	X	Gloss=the act of freeing, delivering; deliverance
 18	..,	..,	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2429
@@ -32630,26 +32634,26 @@
 # sent_id = S0006-2449
 # text = .i. inna arma dorataissiu doibsom is fri frithorcuin dait siu dosratsat som adi· a dǽ··
 # text_en = i.e. the arms that You (sg) gave them, it is for offending You (sg) that they have applied them, O God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
 2	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	arma	arm	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=armour, battle-equipment, panoply, etc., weapon
+3	arma	arm	NOUN	noun	Case=Nom|Number=Plur	10	dislocated	4:obj|10:dislocated	Gloss=armour, battle-equipment, panoply, etc., weapon
 4-5	dorataissiu	_	_	_	_	_	_	_	_
-4	do·ratais	do·beir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-5	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
+4	do·ratais	do·beir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Len	3	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+5	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	4	nsubj	X	Gloss=emphasising particle
 6-7	doibsom	_	_	_	_	_	_	_	_
-6	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=to, for, by etc.
-7	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
-8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
+6	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat	7	case	X	Gloss=to, for, by etc.
+7	som	nota augens	PRON	particle_pronominal	PronType=Prs	4	obl	X	Gloss=emphasising particle
+8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
 9	fri	fri	ADP	preposition	Case=Acc	10	case	X	Gloss=towards, against, standard of comparison
-10	frithorcuin	frithorgun	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of molesting, harassing; offense, injury, annoyance
-11	dait	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	_	_	X	Gloss=to, for, by etc.
-12	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-13	dos·ratsat	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-14	som	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
-15	adi	-side	PRON	particle_anaphoric	Case=Acc|Number=Plur|Gender=Neut	_	_	X	Gloss=that one, he, she, it, they
-16	a	a 1	PART	particle_vocative	_	_	_	X	Gloss=O! ; oh
+10	frithorcuin	frithorgun	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	0	root	X	Gloss=the act of molesting, harassing; offense, injury, annoyance
+11	dait	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat	12	case	X	Gloss=to, for, by etc.
+12	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	10	obl	X	Gloss=emphasising particle
+13	dos·ratsat	do·beir	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA|Aspect=Perf	10	csubj:cleft	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+14	som	nota augens	PRON	particle_pronominal	PronType=Prs	13	nsubj	X	Gloss=emphasising particle
+15	adi	-side	PRON	particle_anaphoric	Case=Acc|Number=Plur|Gender=Neut	13	obj	X	Gloss=that one, he, she, it, they
+16	a	a 1	PART	particle_vocative	_	18	case:voc	X	Gloss=O! ; oh
 17	·	·	PUNCT	punctuation	_	_	_	_	_
-18	dǽ	día 2	NOUN	noun	Number=Sing	_	_	X	Gloss=god, deity, God
+18	dǽ	día 2	NOUN	noun	Number=Sing	10	vocative	X	Gloss=god, deity, God
 19	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2450
@@ -34476,25 +34480,27 @@
 # sent_id = S0006-2594
 # text = .i. dun huiliu iarbunatattu· 7 is ilar són huacheill ciasu huathatae ho sun
 # text_en = i.e. to all posterity, and it is plural in sense, though it is singular in sound.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	dun	_	_	_	_	_	_	_	_
-2	du	do 1	ADP	preposition	Case=Dat	_	case	X	Gloss=to, for, by etc.
-3	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	huiliu	uile	ADJ	adjective_quantifier	Case=Dat|Number=Sing|Gender=Masc	_	_	X	Gloss=all, every, the whole
-5	iarbunatattu	íarbunatattu	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=posterity
+2	du	do 1	ADP	preposition	Case=Dat	5	case	X	Gloss=to, for, by etc.
+3	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	5	det	X	Gloss=the
+4	huiliu	uile	ADJ	adjective_quantifier	Case=Dat|Number=Sing|Gender=Masc	5	amod	X	Gloss=all, every, the whole
+5	iarbunatattu	íarbunatattu	NOUN	noun	Case=Dat|Number=Sing	0	root	X	Gloss=posterity
 6	·	·	PUNCT	punctuation	_	_	_	_	_
-7	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
-8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-9	ilar	ilar	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=multitude, abundance, plural (grammatical)
-10	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
-11	hua	ó 1	ADP	preposition	Case=Dat	12	case	X	Gloss=from, out of, by
-12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	12	_	X	Gloss=his, its
-13	cheill	cíall	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=sense, intelligence, mind, thought, meaning, interpretation, wisdom, good sense
-14	cia	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-15	su	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-16	huathatae	úathatae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=singular (grammatical) ; belonging to a gramm. singular
+7	7	ocus 2	CCONJ	conjunction	_	9	cc	X	Gloss=coordinating: and, since
+8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
+9	ilar	ilar	NOUN	noun	Case=Nom|Number=Sing	5	conj	X	Gloss=multitude, abundance, plural (grammatical)
+10	són	-són	PRON	particle_anaphoric	_	9	discourse	X	Gloss=that (mentioned above) that is
+11-13	huacheill	_	_	_	_	_	_	_	_
+11	hua	ó 1	ADP	preposition	Case=Dat	13	case	X	Gloss=from, out of, by
+12	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	13	nmod:poss	X	Gloss=his, its
+13	cheill	cíall	NOUN	noun	Case=Dat|Number=Sing	9	obl	X	Gloss=sense, intelligence, mind, thought, meaning, interpretation, wisdom, good sense
+14-15	ciasu	_	_	_	_	_	_	_	_
+14	cia	cía 2	SCONJ	conjunction	_	16	mark	X	Gloss=concessive and explicative: even, although
+15	su	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	16	cop	X	Gloss=to be
+16	huathatae	úathatae	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	5	advcl	X	Gloss=singular (grammatical) ; belonging to a gramm. singular
 17	ho	ó 1	ADP	preposition	Case=Dat	17	case	X	Gloss=from, out of, by
-18	sun	son 1	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=sound, word, name
+18	sun	son 1	NOUN	noun	Case=Dat|Number=Sing	16	obl	X	Gloss=sound, word, name
 
 # sent_id = S0006-2595
 # text = inpopuil
