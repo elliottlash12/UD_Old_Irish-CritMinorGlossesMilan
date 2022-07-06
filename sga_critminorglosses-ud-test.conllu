@@ -18624,29 +18624,29 @@
 # sent_id = S0006-1181
 # text = .i. dathluchethar intintliucht cenidleci inmetur tabairt indanmae triuin frisanainm nadiacht
 # text_en = i.e. the sense demands it, although the meter does not allow the substantive to be added to the adjective.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	da·thluchethar	do·tluichethar	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA	_	_	X	Gloss=to ask, to beseech, to desire, to crave
+1	.i.	.i.	CCONJ	abbreviation	_	2	cc	X	Gloss=id est, it is
+2	da·thluchethar	do·tluichethar	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfA	0	root	X	Gloss=to ask, to beseech, to desire, to crave
 3-4	intintliucht	_	_	_	_	_	_	_	_
-3	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	intliucht	intliucht	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=meaning, signification, mind
+3	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	4	det	X	Gloss=the
+4	intliucht	intliucht	NOUN	noun	Case=Nom|Number=Sing	2	nsubj	X	Gloss=meaning, signification, mind
 5-8	cenidleci	_	_	_	_	_	_	_	_
-5	ce	cía 2	SCONJ	conjunction	_	_	mark	X	Gloss=concessive and explicative: even, although
-6	ni	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-7	d·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
-8	·leci	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to leave (behind), to allow to remain; to let go, to release
+5	ce	cía 2	SCONJ	conjunction	_	8	mark	X	Gloss=concessive and explicative: even, although
+6	ni	ní 3	PART	particle_negative_main	_	8	advmod:neg	X	Gloss=not
+7	d·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	8	inf:obj	X	Gloss=it
+8	·leci	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	2	advcl	X	Gloss=to leave (behind), to allow to remain; to let go, to release
 9-10	inmetur	_	_	_	_	_	_	_	_
 9	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	metur	metar 1	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=meter (in verse)
-11	tabairt	tabart 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+10	metur	metar 1	NOUN	noun	Case=Nom|Number=Sing	8	nsubj	X	Gloss=meter (in verse)
+11	tabairt	tabart 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	8	xcomp	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
 12-13	indanmae	_	_	_	_	_	_	_	_
 12	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	anmae	ainm	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=name, noun (gramm)
-14	triuin	trén	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=strong, gramm. substantive, subst.: strong man, hero
+13	anmae	ainm	NOUN	noun	Case=Gen|Number=Sing	11	obj	X	Gloss=name, noun (gramm)
+14	triuin	trén	ADJ	adjective	Case=Gen|Number=Sing|Gender=Neut|Degree=Pos	13	amod	X	Gloss=strong, gramm. substantive, subst.: strong man, hero
 15-17	frisanainm	_	_	_	_	_	_	_	_
 15	fri	fri	ADP	preposition	Case=Acc	17	case	X	Gloss=towards, against, standard of comparison
 16	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	17	det	X	Gloss=the
-17	nainm	ainm	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=name, noun (gramm)
-18	nadiacht	adiacht	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=gramm.: adjective
+17	nainm	ainm	NOUN	noun	Case=Acc|Number=Sing	11	obl	X	Gloss=name, noun (gramm)
+18	nadiacht	adiacht	ADJ	adjective	Case=Acc|Number=Sing|Gender=Neut|Degree=Pos	17	amod	X	Gloss=gramm.: adjective
 
 # sent_id = S0006-1182
 # text = .i. anainm nadiacht·
@@ -21601,30 +21601,30 @@
 2	dam·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs	3	inf:obj	X	Gloss=me, myself
 3	·chrocha	crochaid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other	0	root	X	Gloss=to crucify, to hang
 
-# sent_id = S0006-1454
+# sent_id = S0006-1454 - line 3 - ccomp?
 # text = ceine no soifesiu .i. is ed aerat fritammiurat inna huli remiærbartmar ceine nosoisiu huáim··
 # text_en = as long as You (sg) will turn, i.e. that is its duration. All the things that we mentioned above will afflict me as long as You (sg) turn from me.
-1	ceine	cían	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
-2	no·	no·	SCONJ	particle_preverb	_	_	mark:prt	X	Gloss=empty particle
+1	ceine	cían	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem|Degree=Pos	0	root	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
+2	no·	no·	SCONJ	particle_preverb	_	3	mark:prt	X	Gloss=empty particle
 3-4	soifesiu	_	_	_	_	_	_	_	_
-3	·soife	soïd	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to turn, to return
-4	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-7	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=it
+3	·soife	soïd	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	1	ccomp	X	Gloss=to turn, to return
+4	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	3	nsubj	X	Gloss=emphasising particle
+5	.i.	.i.	CCONJ	abbreviation	_	9	cc	X	Gloss=id est, it is
+6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
+7	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	9	nmod	X	Gloss=it
 8-9	aerat	_	_	_	_	_	_	_	_
-8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Neut|Poss=Yes|PronType=Prs|Person=3	9	_	X	Gloss=his, its
-9	erat	airet	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=length, interval, space (of time, sometimes of space)
-10	fritamm·iurat	fris·oirg	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	_	_	X	Gloss=to molest, to offend, to injure
-11	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-12	huli	uile	ADJ	adjective_quantifier	Case=Nom|Number=Plur|Gender=Neut	_	_	X	Gloss=all, every, the whole
-13	remi·ærbartmar	remi·eipir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to say beforehand, to say previously
-14	ceine	cían	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
+8	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Gender=Neut|Poss=Yes|PronType=Prs|Person=3	9	nmod:poss	X	Gloss=his, its
+9	erat	airet	NOUN	noun	Case=Nom|Number=Sing	1	conj	X	Gloss=length, interval, space (of time, sometimes of space)
+10	fritamm·iurat	fris·oirg	VERB	verb	Person[Obj]=1|Number[Obj]=Sing|Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB	0	root	X	Gloss=to molest, to offend, to injure
+11	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	12	det	X	Gloss=the
+12	huli	uile	ADJ	adjective_quantifier	Case=Nom|Number=Plur|Gender=Neut	10	nsubj	13:obj|10:nsubj	Gloss=all, every, the whole
+13	remi·ærbartmar	remi·eipir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len	12	acl:relcl	X	Gloss=to say beforehand, to say previously
+14	ceine	cían	ADJ	adjective	Case=Gen|Number=Sing|Gender=Fem|Degree=Pos	10	parataxis	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
 15-17	nosoisiu	_	_	_	_	_	_	_	_
-15	no·	no·	SCONJ	particle_preverb	_	_	mark:prt	X	Gloss=empty particle
-16	·soi	soïd	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to turn, to return
-17	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	_	_	X	Gloss=emphasising particle
-18	huáim	ó 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	_	_	X	Gloss=from, out of, by
+15	no·	no·	SCONJ	particle_preverb	_	16	mark:prt	X	Gloss=empty particle
+16	·soi	soïd	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	14	ccomp	X	Gloss=to turn, to return
+17	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs	16	nsubj	X	Gloss=emphasising particle
+18	huáim	ó 1	ADP	preposition	Person=1|Number=Sing|Case=Dat	16	obl:prep	X	Gloss=from, out of, by
 19	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-1455
@@ -21654,27 +21654,27 @@
 # sent_id = S0006-1458
 # text = ɫ. .i. cein nadṁbid fortacht dé desom ní boi ní nogabad díbsom tabart fochaide foir
 # text_en = or, i.e. as long as there was not the help of God for him, there was not anything that could have prevented them from inflicting tribulations on him.
-1	ɫ	nó 1	CCONJ	conjunction	_	_	cc	X	Gloss=disjunctive: or
-2	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-3	cein	cían	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
+1	ɫ	nó 1	CCONJ	conjunction	_	3	cc	X	Gloss=disjunctive: or
+2	.i.	.i.	CCONJ	abbreviation	_	3	cc	X	Gloss=id est, it is
+3	cein	cían	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	11	advcl	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
 4-5	nadṁbid	_	_	_	_	_	_	_	_
-4	nad·	nád 1	PART	particle_negative_subordinate	_	_	advmod:neg	X	Gloss=that...not
-5	·ṁbid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be, to exist,
-6	fortacht	fortacht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of aiding, helping
-7	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=god, deity, God
+4	nad·	nád 1	PART	particle_negative_subordinate	_	5	advmod:neg	X	Gloss=that...not
+5	·ṁbid	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	3	ccomp	X	Gloss=to be, to exist,
+6	fortacht	fortacht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	5	csubj	X	Gloss=the act of aiding, helping
+7	dé	día 2	NOUN	noun	Case=Gen|Number=Sing	6	obj	X	Gloss=god, deity, God
 8-9	desom	_	_	_	_	_	_	_	_
-8	de	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	_	_	X	Gloss=to, for, by etc.
-9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	_	_	X	Gloss=emphasising particle
-10	ní	ní 3	PART	particle_negative_main	_	_	advmod:neg	X	Gloss=not
-11	·boi	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
-12	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	_	_	X	Gloss=something; nothing, anything ; not
-13	no·gabad	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+8	de	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat	9	case	X	Gloss=to, for, by etc.
+9	som	nota augens	PRON	particle_pronominal	Person=3|Number=Sing|Gender=Masc|PronType=Prs	5	xcomp:pred	X	Gloss=emphasising particle
+10	ní	ní 3	PART	particle_negative_main	_	11	advmod:neg	X	Gloss=not
+11	·boi	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	0	root	X	Gloss=to be, to exist,
+12	ní	ní 1	PRON	pronoun_quantifier	Case=Nom|Number=Sing	11	nsubj	13:nsubj|11:nsubj	Gloss=something; nothing, anything ; not
+13	no·gabad	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Len	12	acl:relcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 14-15	díbsom	_	_	_	_	_	_	_	_
-14	díb	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=away, from, cause or reason, by
-15	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	_	_	X	Gloss=emphasising particle
-16	tabart	tabart 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
-17	fochaide	fochaid	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	_	_	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
-18	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=upon, over, on
+14	díb	di	ADP	preposition	Person=3|Number=Plur|Case=Dat	15	case	X	Gloss=away, from, cause or reason, by
+15	som	nota augens	PRON	particle_pronominal	Person=3|Number=Plur|PronType=Prs	13	obl	X	Gloss=emphasising particle
+16	tabart	tabart 1	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	13	xcomp	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+17	fochaide	fochaid	NOUN	verbal_noun	Case=Gen|Number=Plur|VerbForm=VNoun	16	obj	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+18	foir	for	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	16	obl:prep	X	Gloss=upon, over, on
 
 # sent_id = S0006-1459
 # text = dufuiarctis
