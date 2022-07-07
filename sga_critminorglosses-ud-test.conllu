@@ -32170,29 +32170,29 @@
 # sent_id = S0006-2409
 # text = .i. intan asrubart sum frimmaccu israhel imbói dioinachdaib leu robeth fordib milib ech
 # text_en = i.e. when he said to the Children of Israel, whether there were riders among them for two thousand horses.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	intan	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	3	det	X	Gloss=the
-3	tan	tan	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=time
-4	as·rubart	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	_	_	X	Gloss=to say, to speak, to call , mention
-5	sum	nota augens	PRON	particle_pronominal	PronType=Prs	_	_	X	Gloss=emphasising particle
+3	tan	tan	NOUN	noun	Case=Acc|Number=Sing	4	obl:tmod	X	Gloss=time
+4	as·rubart	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other	0	root	X	Gloss=to say, to speak, to call , mention
+5	sum	nota augens	PRON	particle_pronominal	PronType=Prs	4	nsubj	X	Gloss=emphasising particle
 6-7	frimmaccu	_	_	_	_	_	_	_	_
 6	fri	fri	ADP	preposition	Case=Acc	7	case	X	Gloss=towards, against, standard of comparison
-7	mmaccu	macc 1	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
-8	israhel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	_	_	X	Gloss=Israel
+7	mmaccu	macc 1	NOUN	noun	Case=Acc|Number=Plur	4	obl	X	Gloss=son, male descendent, young man, son, The Son (i.e. Christ), young male animal, boy, male descendant
+8	israhel	Israël	PROPN	proper_noun	Case=Gen|Number=Sing	7	nmod	X	Gloss=Israel
 9-10	imbói	_	_	_	_	_	_	_	_
-9	i·	in 2	PRON	particle_interrogative	_	_	_	X	Gloss=question particle
-10	·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	_	X	Gloss=to be, to exist,
+9	i·	in 2	PRON	particle_interrogative	_	10	mark:prt	X	Gloss=question particle
+10	·mbói	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	advcl	X	Gloss=to be, to exist,
 11-12	dioinachdaib	_	_	_	_	_	_	_	_
-11	di	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-12	oinachdaib	óenachdae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=pertaining to an oínach; jockey, horse racer, rider
-13	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-14	ro·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to be, to exist,
+11	di	di	ADP	preposition	Case=Dat	12	case	X	Gloss=away, from, cause or reason, by
+12	oinachdaib	óenachdae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos	10	xcomp:pred	X	Gloss=pertaining to an oínach; jockey, horse racer, rider
+13	leu	la	ADP	preposition	Person=3|Number=Plur|Case=Acc	10	obl:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+14	ro·beth	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other	10	ccomp	X	Gloss=to be, to exist,
 15-16	fordib	_	_	_	_	_	_	_	_
-15	for	for	ADP	preposition	Case=Dat	_	case	X	Gloss=upon, over, on
-16	dib	da	NUM	adjective_numeral	Case=Dat|Gender=Fem	_	nummod	X	Gloss=two
-17	milib	míle	NUM	noun_numeral	Case=Dat	_	_	X	Gloss=thousand
-18	ech	ech	NOUN	noun	Case=Gen|Number=Plur	_	_	X	Gloss=horse
+15	for	for	ADP	preposition	Case=Dat	18	case	X	Gloss=upon, over, on
+16	dib	da	NUM	adjective_numeral	Case=Dat|Gender=Fem	18	nummod	X	Gloss=two
+17	milib	míle	NUM	noun_numeral	Case=Dat	18	nummod	X	Gloss=thousand
+18	ech	ech	NOUN	noun	Case=Gen|Number=Plur	14	xcomp:pred	X	Gloss=horse
 
 # sent_id = S0006-2410
 # text = .i. rabsacian
@@ -32567,27 +32567,27 @@
 # sent_id = S0006-2445
 # text = .i. arnaib cétnaib coiteicthib .i. immefolangar dundsíl ferdu iarná esfoít isin m broin mathardi
 # text_en = i.e. for the first congealings, i.e. which is made out of the semen virile after its emission into the maternal womb.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	5	cc	X	Gloss=id est, it is
 2-3	arnaib	_	_	_	_	_	_	_	_
-2	ar	ar 1	ADP	preposition	Case=Dat	_	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	_	det	X	Gloss=the
-4	cétnaib	cétnae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	_	_	X	Gloss=same (with preceding noun), first (with following noun)
-5	coiteicthib	coiteicthe	ADJ	verbal_participle	Case=Dat|Number=Plur|Gender=Neut	_	_	X	Gloss=congealed, solidified
-6	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-7	imme·folangar	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to cause, to produce, to make, to effect, to support
+2	ar	ar 1	ADP	preposition	Case=Dat	5	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+3	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	5	det	X	Gloss=the
+4	cétnaib	cétnae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Neut|Degree=Pos	5	amod	X	Gloss=same (with preceding noun), first (with following noun)
+5	coiteicthib	coiteicthe	ADJ	verbal_participle	Case=Dat|Number=Plur|Gender=Neut	0	root	X	Gloss=congealed, solidified
+6	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
+7	imme·folangar	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	4	conj	X	Gloss=to cause, to produce, to make, to effect, to support
 8-10	dundsíl	_	_	_	_	_	_	_	_
 8	du	di	ADP	preposition	Case=Dat	10	case	X	Gloss=away, from, cause or reason, by
 9	nd	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	10	det	X	Gloss=the
-10	síl	síl	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=seed, origin, offspring; the seed of plants and animals
-11	ferdu	ferdae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=male, masculine, belonging to a man
+10	síl	síl	NOUN	noun	Case=Dat|Number=Sing	7	obl	X	Gloss=seed, origin, offspring; the seed of plants and animals
+11	ferdu	ferdae	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos	10	amod	X	Gloss=male, masculine, belonging to a man
 12-13	iarná	_	_	_	_	_	_	_	_
 12	iar	íar 1	ADP	preposition	Case=Dat	14	case	X	Gloss=after, behind, across, along, beyond, according to
-13	ná	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	14	_	X	Gloss=his, its
-14	esfóit	esfóet	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of sending out; emission,
+13	ná	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	14	obj:poss	X	Gloss=his, its
+14	esfóit	esfóet	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	7	advcl	X	Gloss=the act of sending out; emission,
 15	i	i	ADP	preposition	Case=Acc	17	case	X	Gloss=in, into
 16	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art	17	det	X	Gloss=the
-17	mbroin	brú 1	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=womb, belly, abdomen, bowels, entrails, edge, bank
-18	mathardi	máthardae	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=maternal
+17	mbroin	brú 1	NOUN	noun	Case=Acc|Number=Sing	14	obl	X	Gloss=womb, belly, abdomen, bowels, entrails, edge, bank
+18	mathardi	máthardae	ADJ	adjective	Case=Acc|Number=Sing|Gender=Fem|Degree=Pos	17	amod	X	Gloss=maternal
 
 # sent_id = S0006-2446
 # text = .i. intan dofuissemar sechtair a sil sin 7 gainethar honmathir is and is ainm do fructus.,
@@ -32709,28 +32709,28 @@
 # sent_id = S0006-2454
 # text = .i. amal bid nech tochorad adruim frianaimtea forteched remib is samlid insin rotachatar··
 # text_en = i.e. as though it were one who turned his back to his enemies in flight before them, it is thus that they fled.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	amal	amail 2	SCONJ	conjunction	_	_	mark	X	Gloss=as, like; translating Latin ut
-3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	_	_	X	Gloss=anyone, one, someone
-5	to·chorad	do·cuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other	_	_	X	Gloss=to put, to cast, to produce, to happens, to invites, to summons
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	amal	amail 2	SCONJ	conjunction	_	4	mark	X	Gloss=as, like; translating Latin ut
+3	bid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind	17	advcl	5:nsubj|17:advcl	Gloss=anyone, one, someone
+5	to·chorad	do·cuirethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len	4	acl:relcl	X	Gloss=to put, to cast, to produce, to happens, to invites, to summons
 6-7	adruim	_	_	_	_	_	_	_	_
-6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	_	X	Gloss=his, its
-7	druim	druimm	NOUN	noun	Case=Acc|Number=Sing	_	_	X	Gloss=back, ridge
+6	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	7	nmod:poss	X	Gloss=his, its
+7	druim	druimm	NOUN	noun	Case=Acc|Number=Sing	5	obj	X	Gloss=back, ridge
 8-10	frianaimtea	_	_	_	_	_	_	_	_
 8	fri	fri	ADP	preposition	Case=Acc	10	case	X	Gloss=towards, against, standard of comparison
-9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	_	X	Gloss=his, its
-10	naimtea	námae	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=enemy, foe
+9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3	10	nmod:poss	X	Gloss=his, its
+10	naimtea	námae	NOUN	noun	Case=Acc|Number=Plur	5	obl	X	Gloss=enemy, foe
 11-12	forteched	_	_	_	_	_	_	_	_
 11	for	for	ADP	preposition	Case=Acc	12	case	X	Gloss=upon, over, on
-12	teched	teiched	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of fleeing, escaping; flight
-13	remib	re	ADP	preposition	Person=3|Number=Plur|Case=Dat	_	_	X	Gloss=before, in front of
-14	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-15	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	_	_	X	Gloss=as, like
+12	teched	teiched	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun	5	advcl	X	Gloss=the act of fleeing, escaping; flight
+13	remib	re	ADP	preposition	Person=3|Number=Plur|Case=Dat	12	obl:prep	X	Gloss=before, in front of
+14	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	17	cop	X	Gloss=to be
+15	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc	17	case	X	Gloss=as, like
 16-17	insin	_	_	_	_	_	_	_	_
 16	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	17	det	X	Gloss=the
-17	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-18	ro·tachatar	teichid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	_	X	Gloss=to flee, to run away, to retreat
+17	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem	0	root	X	Gloss=that one, those ones, the one in there ; that, those
+18	ro·tachatar	teichid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	17	csubj:cleft	X	Gloss=to flee, to run away, to retreat
 19	··	··	PUNCT	punctuation	_	_	_	_	_
 
 # sent_id = S0006-2455
