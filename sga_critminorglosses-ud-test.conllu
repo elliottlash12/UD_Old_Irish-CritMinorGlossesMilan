@@ -33424,33 +33424,33 @@
 3	hǽ	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3	_	_	X	Gloss=they, them
 4	foraitmitig	foraithmetach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos|Typo=Yes	_	_	X	Gloss=that remembers, mindful|CorrectForm=foraithmitig
 
-# sent_id = S0006-2499
+# sent_id = S0006-2499 - line 17 - obl|advcl
 # text = .i. robu annumothaigtis .i. mocharait bá brón disuidib maicsin inimniud iarmbuith socumail
 # text_en = i.e. either when they used to be amazed, namely, my friends; seeing me in trouble after being happy was a grief to them.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	robu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	_	cop	X	Gloss=to be
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	robu	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Aspect=Perf	4	cop	X	Gloss=to be
 3-4	annumothaigtis	_	_	_	_	_	_	_	_
-3	a	a 6	SCONJ	conjunction	_	_	mark	X	Gloss=temporal: when, since
-4	nnu·mothaigtis	mothaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to be amazed
-5	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+3	a	a 6	SCONJ	conjunction	_	4	mark	X	Gloss=temporal: when, since
+4	nnu·mothaigtis	mothaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other	0	root	X	Gloss=to be amazed
+5	.i.	.i.	CCONJ	abbreviation	_	7	cc	X	Gloss=id est, it is
 6-7	mocharait	_	_	_	_	_	_	_	_
-6	mo	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	7	_	X	Gloss=my
-7	charait	carae 1	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=friend, relative
-8	bá	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-9	brón	brón	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=sorrow, grief, grieving, lamentation; distress, burden
+6	mo	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	7	nmod:poss	X	Gloss=my
+7	charait	carae 1	NOUN	noun	Case=Nom|Number=Plur	4	conj	X	Gloss=friend, relative
+8	bá	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	9	cop	X	Gloss=to be
+9	brón	brón	NOUN	noun	Case=Nom|Number=Sing	4	parataxis	X	Gloss=sorrow, grief, grieving, lamentation; distress, burden
 10-11	disuidib	_	_	_	_	_	_	_	_
-10	di	di	ADP	preposition	Case=Dat	_	case	X	Gloss=away, from, cause or reason, by
-11	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Masc	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+10	di	di	ADP	preposition	Case=Dat	11	case	X	Gloss=away, from, cause or reason, by
+11	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Masc	9	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 12-13	maicsin	_	_	_	_	_	_	_	_
-12	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	13	_	X	Gloss=my
-13	aicsin	aicsiu	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of seeing
+12	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1	13	obj:poss	X	Gloss=my
+13	aicsin	aicsiu	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun	9	csubj	X	Gloss=the act of seeing
 14-15	inimniud	_	_	_	_	_	_	_	_
 14	i	i	ADP	preposition	Case=Dat	15	case	X	Gloss=in, into
-15	nimniud	imned	NOUN	noun	Case=Dat|Number=Sing	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
+15	nimniud	imned	NOUN	noun	Case=Dat|Number=Sing	9	obl	X	Gloss=tribulation, anxiety, suffering, sorrow
 16-17	iarmbuith	_	_	_	_	_	_	_	_
 16	iar	íar 1	ADP	preposition	Case=Dat	17	case	X	Gloss=after, behind, across, along, beyond, according to
-17	mbuith	both 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	_	_	X	Gloss=the act of being, existing, being hungry
-18	socumail	socamail	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	_	_	X	Gloss=cheerful, pleasant, easy
+17	mbuith	both 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun	9	obl	X	Gloss=the act of being, existing, being hungry
+18	socumail	socamail	ADJ	adjective	Case=Dat|Number=Sing|Gender=Fem|Degree=Pos	17	amod	X	Gloss=cheerful, pleasant, easy
 
 # sent_id = S0006-2500
 # text = .i. monait són
@@ -36235,26 +36235,26 @@
 # sent_id = S0006-2719
 # text = .i. sech is dolega inna pecthi són mad ainnetach fondamtar inna imneda inbetha frecndairc ar dia
 # text_en = i.e. that is, it destroys the sins, if it should be patiently that the troubles of the present world are borne for God.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
-2	sech	sech 2	X	conjunction	_	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	do·lega	do·lega	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	_	_	X	Gloss=to destroy, to abolish, to cancel
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
+2	sech	sech 2	X	conjunction	_	4	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	do·lega	do·lega	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans	0	root	X	Gloss=to destroy, to abolish, to cancel
 5	inna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	pecthi	peccad	NOUN	noun	Case=Acc|Number=Plur	_	_	X	Gloss=sin
-7	són	-són	PRON	particle_anaphoric	_	_	_	X	Gloss=that (mentioned above) that is
+6	pecthi	peccad	NOUN	noun	Case=Acc|Number=Plur	4	obj	X	Gloss=sin
+7	són	-són	PRON	particle_anaphoric	_	4	discourse	X	Gloss=that (mentioned above) that is
 8-9	mad	_	_	_	_	_	_	_	_
-8	ma	ma	SCONJ	conjunction	_	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-9	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-10	ainnetach	ainmnetach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos|Typo=Yes	_	_	X	Gloss=patient, forbearing|CorrectForm=ainmnetach
-11	fo·ndamtar	fo·daim	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	_	_	X	Gloss=to suffer, to endure
+8	ma	ma	SCONJ	conjunction	_	10	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+9	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans	10	cop	X	Gloss=to be
+10	ainnetach	ainmnetach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos|Typo=Yes	4	advcl	X	Gloss=patient, forbearing|CorrectForm=ainmnetach
+11	fo·ndamtar	fo·daim	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other	10	csubj:cleft	X	Gloss=to suffer, to endure
 12	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art	13	det	X	Gloss=the
-13	imneda	imned	NOUN	noun	Case=Nom|Number=Plur	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
+13	imneda	imned	NOUN	noun	Case=Nom|Number=Plur	11	nsubj	X	Gloss=tribulation, anxiety, suffering, sorrow
 14-15	inbetha	_	_	_	_	_	_	_	_
 14	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	15	det	X	Gloss=the
-15	betha	bith	NOUN	noun	Case=Gen|Number=Sing	_	_	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
-16	frecndairc	frecndairc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	_	_	X	Gloss=gramm. present (tense)
+15	betha	bith	NOUN	noun	Case=Gen|Number=Sing	13	nmod	X	Gloss=the world, land, territory, as adjective: lasting, permanent, perpetual
+16	frecndairc	frecndairc	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos	15	amod	X	Gloss=gramm. present (tense)
 17	ar	ar 1	ADP	preposition	Case=Acc	18	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-18	dia	día 2	NOUN	noun	Case=Dat	_	_	X	Gloss=god, deity, God
+18	dia	día 2	NOUN	noun	Case=Dat	11	obl	X	Gloss=god, deity, God
 
 # sent_id = S0006-2720
 # text = forásat·
@@ -39032,29 +39032,29 @@
 # sent_id = S0006-2981
 # text = .i. aris cosmail aní fuandrogab infaith 7 fuanrogab crist
 # text_en = i.e. for that with reference to which the prophet uttered it and that with reference to which Christ uttered it are alike.
-1	.i.	.i.	CCONJ	abbreviation	_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	_	4	cc	X	Gloss=id est, it is
 2-3	aris	_	_	_	_	_	_	_	_
-2	ar	ar 2	SCONJ	conjunction	_	_	mark	X	Gloss=causal: since, for; final: so that
-3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	_	cop	X	Gloss=to be
-4	cosmail	cosmail	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	_	_	X	Gloss=like, similar, equal, probable
+2	ar	ar 2	SCONJ	conjunction	_	4	mark	X	Gloss=causal: since, for; final: so that
+3	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans	4	cop	X	Gloss=to be
+4	cosmail	cosmail	ADJ	adjective	Case=Nom|Number=Sing|Gender=Neut|Degree=Pos	0	root	X	Gloss=like, similar, equal, probable
 5-6	aní	_	_	_	_	_	_	_	_
 5	a	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art	6	det	X	Gloss=the
-6	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	_	_	X	Gloss=substantivizing particle
+6	ní	í 1	PRON	pronoun_propword	Case=Nom|Number=Sing|Gender=Neut	4	nsubj	X	Gloss=substantivizing particle
 7-10	fuandrogab	_	_	_	_	_	_	_	_
-7	fu	fo	ADP	preposition	Case=Acc	_	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-8	a	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-9	nd·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
-10	·rogab	gaibid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+7	fu	fo	ADP	preposition	Case=Acc	8	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+8	a	-(s)a·	PRON	pronoun_relative	PronType=Rel	10	obl	X	Gloss=which, who, whose
+9	nd·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	10	inf:obj	X	Gloss=it
+10	·rogab	gaibid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	4	acl:relcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 11-12	infaith	_	_	_	_	_	_	_	_
 11	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art	12	det	X	Gloss=the
-12	faith	fáith	NOUN	noun	Case=Nom|Number=Sing	_	_	X	Gloss=seer, prophet
-13	7	ocus 2	CCONJ	conjunction	_	_	cc	X	Gloss=coordinating: and, since
+12	faith	fáith	NOUN	noun	Case=Nom|Number=Sing	10	nsubj	X	Gloss=seer, prophet
+13	7	ocus 2	CCONJ	conjunction	_	17	cc	X	Gloss=coordinating: and, since
 14-17	fuanrogab	_	_	_	_	_	_	_	_
-14	fu	fo	ADP	preposition	Case=Acc	_	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
-15	a	-(s)a·	PRON	pronoun_relative	PronType=Rel	_	_	X	Gloss=which, who, whose
-16	n·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	_	_	X	Gloss=it
-17	·rogab	gaibid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
-18	crist	Críst	PROPN	proper_noun	Case=Nom|Number=Sing	_	_	X	Gloss=the Anointed, Jesus Christ
+14	fu	fo	ADP	preposition	Case=Acc	17	case	X	Gloss=under, of direction towards, into, through, on, about, beneath
+15	a	-(s)a·	PRON	pronoun_relative	PronType=Rel	17	conj	X	Gloss=which, who, whose
+16	n·	3sg.neut.inf.pron.	PRON	pronoun_infixed	PronType=Prs	17	inf:obj	X	Gloss=it
+17	·rogab	gaibid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other	10	conj	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+18	crist	Críst	PROPN	proper_noun	Case=Nom|Number=Sing	17	nsubj	X	Gloss=the Anointed, Jesus Christ
 
 # sent_id = S0006-2982
 # text = .i. duadradaib idal
