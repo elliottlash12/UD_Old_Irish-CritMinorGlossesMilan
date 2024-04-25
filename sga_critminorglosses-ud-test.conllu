@@ -70336,11 +70336,11 @@
 # text_en = i.e. as the course of the sun is everlasting, the name of Solomon will be as everlasting as that.
 1	.i.	.i.	CCONJ	abbreviation	Lang=	4	cc	X	Gloss=id est, it is
 2	amal	amail 2	SCONJ	conjunction	Lang=Irish	4	mark	X	Gloss=as, like; translating Latin ut
-3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	4	cop	X	Gloss=to be
+3	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas|Lang=Irish	4	cop	X	Gloss=to be
 4	suthain	suthain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	9	advcl	X	Gloss=everlasting, eternal, perpetual
-5	riuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	4	csubj	X	Gloss=the act of running; a run, rapid course
-6	grene	grían	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	5	obj	X	Gloss=sun
-7	síc	sīc	ADV	adverb	Lang=Latin	_	mark	X	Gloss=thus, so, like that
+5	riuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	4	nsubj	X	Gloss=the act of running; a run, rapid course
+6	grene	grían	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	5	nmod	X	Gloss=sun
+7	síc	sīc	ADV	adverb	Lang=Latin	9	mark	X	Gloss=thus, so, like that
 8	bith	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	9	cop	X	Gloss=to be
 9	suthainidir	suthain	ADJ	adjective	Degree=Equ|Lang=Irish	0	root	X	Gloss=everlasting, eternal, perpetual
 10	sin	sin	PRON	pronoun_demonstrative_distal	Case=Acc|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem|Lang=Irish	9	obj	X	Gloss=that one, those ones, the one in there ; that, those
@@ -70414,16 +70414,16 @@
 26	suidib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Masc|Lang=Irish	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 
 # sent_id = S0006-5569
-# text = .i. buide lesom [leg. do ?] taidbse neich immeforlaing dudia
+# text = .i. buide lesom [do] taidbse neich immeforlaing dudia
 # text_en = i.e. he is thankful for the showing of all that he has effected to God.
 1	.i.	.i.	CCONJ	abbreviation	Lang=	2	cc	X	Gloss=id est, it is
 2	buide	buide 2	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	0	root	X	Gloss=favor, gratitude, thanks; good-will
 3	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc|Lang=Irish	4	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 4	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	2	obl	X	Gloss=emphasising particle
-5	do	do 1	ADP	preposition	Case=Dat|Lang=Irish	6	mark:prt	X	Gloss=to, for, by etc.
+5	[do]	do 1	ADP	preposition	Case=Dat|Typo=Yes|Lang=Irish	6	mark:prt	X	Gloss=to, for, by etc.|Addition=Yes
 6	taidbse	taidbsiu	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	2	xcomp	X	Gloss=the act of showing, pointing out, manifesting, demonstrating; appearance, form
 7	neich	ní 1	PRON	pronoun_quantifier	Case=Gen|Number=Sing|Lang=Irish	6	obj	8:obj|6:obj	Gloss=something; nothing, anything ; not
-8	imme·forlaing	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Nas|Lang=Irish	7	acl:relcl	X	Gloss=to cause, to produce, to make, to effect, to support
+8	imme·forlaing	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Len|Lang=Irish	7	acl:relcl	X	Gloss=to cause, to produce, to make, to effect, to support
 9	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	10	case	X	Gloss=to, for, by etc.
 10	dia	día 2	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	6	obl	X	Gloss=god, deity, God
 
@@ -70466,23 +70466,23 @@
 8	hua	ó 1	ADP	preposition	Case=Dat|Lang=Irish	9	case	X	Gloss=from, out of, by
 9	dia	día 2	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	_	_	X	Gloss=god, deity, God
 
-# sent_id = S0006-5572
+# sent_id = S0006-5572 - N+do+VN where N is subj
 # text = .i. dorusluindset són remdéicsin dæ dubuith díib· dianícc
 # text_en = i.e. that is, they had denied that there was any providence of God for them to save them.
 1	.i.	.i.	CCONJ	abbreviation	Lang=	2	cc	X	Gloss=id est, it is
 2	doru·sluindset	do·sluindi	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Lang=Irish	0	root	X	Gloss=to deny (refuse to believe), to reject; to renounce; to refuse
 3	són	-són	PRON	particle_anaphoric	Lang=Irish	2	discourse	X	Gloss=that (mentioned above) that is
-4	remdéicsin	remdéicsiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	2	csubj	X	Gloss=the act of anticipating; providence, foresight, anticipation
-5	dæ	día 2	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	2	obj	X	Gloss=god, deity, God
+4	remdéicsin	remdéicsiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	7	nsubj	X	Gloss=the act of anticipating; providence, foresight, anticipation
+5	dæ	día 2	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	4	nmod	X	Gloss=god, deity, God
 6-7	dubuith	_	_	_	_	_	_	_	_
 6	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	7	mark:prt	X	Gloss=to, for, by etc.
 7	buith	both 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	2	xcomp	X	Gloss=the act of being, existing, being hungry
 8	díib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat|Lang=Irish	7	obl:prep	X	Gloss=away, from, cause or reason, by
 9	·	·	PUNCT	punctuation	Lang=	_	_	_	_
-10	di	do 1	ADP	preposition	Case=Dat|Lang=Irish	12	case	X	Gloss=to, for, by etc.
+10	di	do 1	ADP	preposition	Case=Dat|Lang=Irish	12	mark:prt	X	Gloss=to, for, by etc.
 11-12	dianícc	_	_	_	_	_	_	_	_
 11	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	12	obj:poss	X	Gloss=their
-12	nícc	ícc	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	7	xcomp	X	Gloss=the act of healing, saving, curing, paying for, enduring; salvation, cure, redress, satisfaction, solution, answer (to a question or problem), requital, atonement, revenge, salvation
+12	nícc	ícc	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	7	advcl	X	Gloss=the act of healing, saving, curing, paying for, enduring; salvation, cure, redress, satisfaction, solution, answer (to a question or problem), requital, atonement, revenge, salvation
 
 # sent_id = S0006-5573
 # text = .i. assindethar són..,
@@ -71822,11 +71822,11 @@
 5	cutuim	cutaimm	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	2	csubj	X	Gloss=the act of collapsing, falling down
 6	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat|Lang=Irish	6	obl:prep	X	Gloss=to, for, by etc.
 7	la	la	ADP	preposition	Case=Acc|Lang=Irish	8	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-8	mmeit	méit	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	5	obl	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
+8	mmeit	méit	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	2	obl	X	Gloss=size, quantity, as rel. adv. introducing a subord. clause: as much as, as far as, to the extent that amount, so much, Greatness, magnitude (of size, quantity, number, extent, degree)
 9	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	10	det	X	Gloss=the
 10	soinmige	soinmige	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	8	nmod	X	Gloss=prosperity, affluence, happiness
 11	hi	i	ADP	preposition	Case=Acc|Lang=Irish	12	xcomp:pred:prep	X	Gloss=in, into
-12	ro·batar	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Lang=Irish	2	acl:relcl	X	Gloss=to be, to exist,
+12	ro·batar	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Lang=Irish	10	acl:relcl	X	Gloss=to be, to exist,
 
 # sent_id = S0006-5680
 # text = .i. ásainemlaib ón
@@ -71906,19 +71906,18 @@
 # text = it hé innallathar asbeir innandiad .i. qualiter rl.
 # text_en = these are the dispensations that he mentions afterwards.
 1	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	4	cop	X	Gloss=to be
-2	hé	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	4	nmod	X	Gloss=they, them
+2	hé	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	0	root	X	Gloss=they, them
 3-4	innallathar	_	_	_	_	_	_	_	_
 3	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	4	det	X	Gloss=the
-4	llathar	láthar	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	0	root	X	Gloss=arrangement, disposition, interpretation, appointment, design; machination, wiles; vigour, energy, power; place, position, point, space
-5	as·beir	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other|Lang=Irish	4	csubj:cleft	X	Gloss=to say, to speak, to call , mention
+4	llathar	láthar	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	2	nsubj	5:obj|2:nsubj	Gloss=arrangement, disposition, interpretation, appointment, design; machination, wiles; vigour, energy, power; place, position, point, space
+5	as·beir	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Len|Lang=Irish	4	acl:relcl	X	Gloss=to say, to speak, to call , mention
 6-8	innandiad	_	_	_	_	_	_	_	_
 6	i	i	ADP	preposition	Case=Acc|Lang=Irish	8	case	X	Gloss=in, into
 7	nna	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	8	nmod:poss	X	Gloss=their
 8	ndiad	deäd	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	5	obl	X	Gloss=end, conclusion
 9	.i.	.i.	CCONJ	abbreviation	Lang=	10	cc	X	Gloss=id est, it is
-10	qualiter	qualiter	ADV	adverb	Lang=Latin	4	parataxis	X	Gloss=_
-11	rl.	reliqua	NOUN	noun	Lang=Latin	_	_	X	Gloss=the rest, remainder
-12	.	.	PUNCT	punctuation	Lang=	_	_	_	_
+10	qualiter	qualiter	ADV	adverb	Lang=Latin	2	parataxis	X	Gloss=_
+11	rl.	reliqua	NOUN	noun	Lang=Latin	10	appos	X	Gloss=the rest, remainder
 
 # sent_id = S0006-5688
 # text = .i. diandamchondelc fritsu adǽ nita ferr indaas cethir
@@ -72048,7 +72047,7 @@
 2	ní	ní 3	PART	particle_negative_main	Lang=Irish	3	advmod:neg	X	Gloss=not
 3	·fail	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	0	root	X	Gloss=to be, to exist,
 4	ní	ní 1	PRON	pronoun_quantifier	Case=Acc|Number=Sing|Lang=Irish	3	nsubj	3:nsubj|6:subj	Gloss=something; nothing, anything ; not
-5	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	6	cop	X	Gloss=to be
+5	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Len|Lang=Irish	6	cop	X	Gloss=to be
 6	huilliu	oll	ADJ	adjective	Degree=Cmp|Lang=Irish	4	acl:relcl	X	Gloss=great, ample
 7-8	oldaas	_	_	_	_	_	_	_	_
 7	ol·	ol 3	X	conjunction	Lang=Irish	8	mark	X	Gloss=comparative: than
@@ -73025,21 +73024,21 @@
 5	sin	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	6	det	X	Gloss=the
 6	doiri	doíre	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	3	obl	X	Gloss=slavery, bondage, captivity
 
-# sent_id = S0006-5780
+# sent_id = S0006-5780 - headless relative clause
 # text = .i. airbaed baicned dusudib soirthe retha·
 # text_en = i.e. for it was this that was their nature: swiftness of running.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	4	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=	6	cc	X	Gloss=id est, it is
 2-4	airbaed	_	_	_	_	_	_	_	_
-2	air	ar 2	SCONJ	conjunction	Lang=Irish	4	mark	X	Gloss=causal: since, for; final: so that
-3	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	4	cop	X	Gloss=to be
-4	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	0	root	X	Gloss=it
+2	air	ar 2	SCONJ	conjunction	Lang=Irish	6	mark	X	Gloss=causal: since, for; final: so that
+3	ba	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	6	cop	X	Gloss=to be
+4	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	6	nmod	X	Gloss=it
 5-6	baicned	_	_	_	_	_	_	_	_
-5	b'	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	6	cop	X	Gloss=to be
-6	aicned	aicned	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	4	nsubj	X	Gloss=nature, inherent quality, essence
+5	b	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len|Lang=Irish	6	cop	X	Gloss=to be
+6	aicned	aicned	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	0	root	X	Gloss=nature, inherent quality, essence
 7-8	dusudib	_	_	_	_	_	_	_	_
 7	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	8	case	X	Gloss=to, for, by etc.
-8	sudib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Neut|Lang=Irish	4	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
-9	soirthe	soirthe	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	4	dislocated	X	Gloss=smoothness, swiftness, ease
+8	sudib	suide 1	PRON	pronoun_anaphoric	Case=Dat|Number=Plur|Gender=Neut|Lang=Irish	6	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+9	soirthe	soirthe	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	6	nsubj	X	Gloss=smoothness, swiftness, ease
 10	retha	riuth	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	9	nmod	X	Gloss=the act of running; a run, rapid course
 11	·	·	PUNCT	punctuation	Lang=	_	_	_	_
 
@@ -73435,14 +73434,14 @@
 # text = .i. dílmaine aisndísnen [leg. aisndísen] atannaigni do 7 nifil iar fír·
 # text_en = i.e. license of narration impels us to it, and it is not truly.
 1	.i.	.i.	CCONJ	abbreviation	Lang=	2	cc	X	Gloss=id est, it is
-2	dílmaine	dílmaine	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	0	root	X	Gloss=license, liberty, freedom
+2	dílmaine	dílmaine	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	4	dislocated	X	Gloss=license, liberty, freedom
 3	aisndísen	aisndís	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	2	nmod	X	Gloss=the act of relating, telling, explaining, giving information; narration, pronunciation, biblical passage
-4	atann·aig	ad·aig	VERB	verb	Person[Obj]=1|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB|Lang=Irish	2	xcomp	X	Gloss=to drive, to impel to
+4	atann·aig	ad·aig	VERB	verb	Person[Obj]=1|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB|Lang=Irish	0	root	X	Gloss=to drive, to impel to
 5	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs|Lang=Irish	4	obj	X	Gloss=emphasising particle
 6	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	4	obl:prep	X	Gloss=to, for, by etc.
 7	7	ocus 2	CCONJ	conjunction	Lang=Irish	9	cc	X	Gloss=coordinating: and, since
 8	ni	ní 3	PART	particle_negative_main	Lang=Irish	9	advmod:neg	X	Gloss=not
-9	·fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	2	parataxis	X	Gloss=to be, to exist,
+9	·fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	4	parataxis	X	Gloss=to be, to exist,
 10	iar	íar 1	ADP	preposition	Case=Dat|Lang=Irish	11	case	X	Gloss=after, behind, across, along, beyond, according to
 11	fír	fír	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos|Lang=Irish	9	xcomp:pred	X	Gloss=true, veracious, real
 12	·	·	PUNCT	punctuation	Lang=	_	_	_	_
@@ -73763,18 +73762,18 @@
 18	operibus	opus	NOUN	noun	Lang=Latin	_	_	X	Gloss=_
 
 # sent_id = S0006-5846
-# text = dei trachtad inbeus [leg. inso beus] forsan iustitias iudicabo remiærbart
+# text = dei trachtad in[so] beus forsan iustitias iudicabo remiærbart
 # text_en = this is still a commentary on the (phrase) iustitias iudicabo which he has used above.
-1	dei	Deus	PROPN	proper_noun	Lang=Latin	2	nmod	X	Gloss=God
-2	trachtad	tráchtad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	0	root	X	Gloss=the act of discussing; commentary, interpretation
+1	dei	Deus	PROPN	proper_noun	Lang=Latin	0	root	X	Gloss=God
+2	trachtad	tráchtad	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	1	parataxis	X	Gloss=the act of discussing; commentary, interpretation
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	4	det	X	Gloss=the
-4	so	só	PRON	pronoun_demonstrative_proximate	Deixis=Prox|PronType=Dem|Lang=Irish	2	nsubj	X	Gloss=this one, these ones ; this, these
+4	[so]	só	PRON	pronoun_demonstrative_proximate	Deixis=Prox|PronType=Dem|Lang=Irish	2	nsubj	X	Gloss=this one, these ones ; this, these
 5	beus	beös	ADV	adverb	Lang=Irish	2	advmod	X	Gloss=still, yet, further, moreover, again, besides, also, in addition
 6	for	for	ADP	preposition	Case=Acc|Lang=Irish	8	case	X	Gloss=upon, over, on
 7	sa	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	8	det	X	Gloss=the
 8	iustitias	iūstitia	NOUN	noun	Lang=Latin	2	obl	10:obj|2:obl	Gloss=_
 9	iudicabo	iūdicō	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	8	flat	X	Gloss=_
-10	remi·ærbart	remi·eipir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other|Lang=Irish	8	acl:relcl	X	Gloss=to say beforehand, to say previously
+10	remi·ærbart	remi·eipir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Len|Lang=Irish	8	acl:relcl	X	Gloss=to say beforehand, to say previously
 
 # sent_id = S0006-5847
 # text = .i. indaisndís 〈ṅdís〉 .i. intan asnindet dia 7 forcongair dudóinib comallad afírinne islour doib insin diafalgud arní cumgat comallad innafirinne sin inógai· amal forndacongair dia doib 7 imfolṅgai son legad doibsom 7 techt hipiana huare nand chumgat
