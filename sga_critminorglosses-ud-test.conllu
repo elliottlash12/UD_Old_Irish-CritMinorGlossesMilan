@@ -69680,21 +69680,21 @@
 # sent_id = S0006-5517
 # text = .i. bias hiflaith solman bith suthin side didiu amal as suthin riuth grene
 # text_en = i.e. which shall be in the rule of Solomon.  It will be everlasting, then, even as the course of the sun is everlasting.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	bias	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to be, to exist,
+1	.i.	.i.	CCONJ	abbreviation	Lang=	2	cc	X	Gloss=id est, it is
+2	bias	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	0	root	X	Gloss=to be, to exist,
 3-4	hiflaith	_	_	_	_	_	_	_	_
 3	hi	i	ADP	preposition	Case=Acc|Lang=Irish	4	case	X	Gloss=in, into
-4	flaith	flaith 1	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	_	_	X	Gloss=a ruler, prince, chief, lord, lordship, sovereignty
-5	solman	Solam 2	PROPN	proper_noun	Case=Gen|Number=Sing|Lang=Irish	_	_	X	Gloss=Solomon
-6	bith	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-7	suthin	suthain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=everlasting, eternal, perpetual
-8	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc|Lang=Irish	_	_	X	Gloss=that one, he, she, it, they
-9	didiu	didiu	ADV	particle_discourse	Lang=Irish	_	_	X	Gloss=in logical sequence, drawing a conclusion: therefore, then; referring to preceding, introducing additional detail or explanation; hence
-10	amal	amail 2	SCONJ	conjunction	Lang=Irish	_	mark	X	Gloss=as, like; translating Latin ut
-11	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	cop	X	Gloss=to be
-12	suthin	suthain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=everlasting, eternal, perpetual
-13	riuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of running; a run, rapid course
-14	grene	grían	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	_	_	X	Gloss=sun
+4	flaith	flaith 1	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	2	xcomp:pred	X	Gloss=a ruler, prince, chief, lord, lordship, sovereignty
+5	solman	Solam 2	PROPN	proper_noun	Case=Gen|Number=Sing|Lang=Irish	4	nmod	X	Gloss=Solomon
+6	bith	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	7	cop	X	Gloss=to be
+7	suthin	suthain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	2	parataxis	X	Gloss=everlasting, eternal, perpetual
+8	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc|Lang=Irish	7	nsubj	X	Gloss=that one, he, she, it, they
+9	didiu	didiu	ADV	particle_discourse	Lang=Irish	8	advmod	X	Gloss=in logical sequence, drawing a conclusion: therefore, then; referring to preceding, introducing additional detail or explanation; hence
+10	amal	amail 2	SCONJ	conjunction	Lang=Irish	12	mark	X	Gloss=as, like; translating Latin ut
+11	as	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	12	cop	X	Gloss=to be
+12	suthin	suthain	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	7	advcl	X	Gloss=everlasting, eternal, perpetual
+13	riuth	riuth	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	12	nsubj	X	Gloss=the act of running; a run, rapid course
+14	grene	grían	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	13	nmod	X	Gloss=sun
 
 # sent_id = S0006-5518
 # text = .i. mani roima fora cenn ní mema forsna bullu
@@ -70141,24 +70141,24 @@
 # sent_id = S0006-5551
 # text = ɫ. fit in aliis libris· regis namque. Et inponentem modum. bís and· amalsodin·
 # text_en = or in other books it is regis namque; and [it is] inponentem modum which is there in that case.
-1	ɫ.	uel	CCONJ	conjunction	Lang=Latin	_	cc	X	Gloss=or, even
-2	fit	fiō	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=to occur, to happen to become
-3	in	in (Lat)	ADP	preposition	Case=Unk|Lang=Latin	_	case	X	Gloss=in, into
-4	aliis	alius	ADJ	adjective	Degree=Pos|Lang=Latin	_	_	X	Gloss=other, the other
-5	libris·	liber	NOUN	noun	Lang=Latin	_	_	X	Gloss=book
+1	ɫ.	uel	CCONJ	conjunction	Lang=Latin	2	cc	X	Gloss=or, even
+2	fit	fiō	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	0	root	X	Gloss=to occur, to happen to become
+3	in	in (Lat)	ADP	preposition	Case=Unk|Lang=Latin	5	case	X	Gloss=in, into
+4	aliis	alius	ADJ	adjective	Degree=Pos|Lang=Latin	5	amod	X	Gloss=other, the other
+5	libris·	liber	NOUN	noun	Lang=Latin	2	obl	X	Gloss=book
 6	·	·	PUNCT	punctuation	Lang=	_	_	_	_
-7	regis	rēx	NOUN	noun	Lang=Latin	_	_	X	Gloss=king
-8	namque.	namque	X	conjunction	Lang=Latin	_	_	X	Gloss=_
+7	regis	rēx	NOUN	noun	Lang=Latin	5	appos	X	Gloss=king
+8	namque.	namque	X	conjunction	Lang=Latin	7	flat	X	Gloss=_
 9	.	.	PUNCT	punctuation	Lang=	_	_	_	_
-10	Et	et	CCONJ	conjunction	Lang=Latin	_	cc	X	Gloss=and
-11	inponentem	inpōnēns	ADJ	verbal_participle	Lang=Latin	_	_	X	Gloss=_
-12	modum.	modus	NOUN	noun	Lang=Latin	_	_	X	Gloss=measure, boundary, limit, manner, mood
+10	Et	et	CCONJ	conjunction	Lang=Latin	11	cc	X	Gloss=and
+11	inponentem	inpōnēns	ADJ	verbal_participle	Lang=Latin	2	parataxis	14:nsubj|2:parataxis	Gloss=_
+12	modum.	modus	NOUN	noun	Lang=Latin	11	flat	X	Gloss=measure, boundary, limit, manner, mood
 13	.	.	PUNCT	punctuation	Lang=	_	_	_	_
-14	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to be, to exist,
-15	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	_	_	X	Gloss=in, into
+14	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	11	acl:relcl	X	Gloss=to be, to exist,
+15	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	14	xcomp:pred:prep	X	Gloss=in, into
 16	·	·	PUNCT	punctuation	Lang=	_	_	_	_
-17	amal	amail 1	ADP	preposition	Case=Acc|Lang=Irish	_	case	X	Gloss=as, like
-18	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut|Lang=Irish	_	_	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
+17	amal	amail 1	ADP	preposition	Case=Acc|Lang=Irish	18	case	X	Gloss=as, like
+18	sodin	suide 1	PRON	pronoun_anaphoric	Case=Acc|Number=Sing|Gender=Neut|Lang=Irish	14	obl	X	Gloss=that (aforementioned), then; points to something already mentioned here the escape ; substantivised anaphorical pronominal adjective
 19	·	·	PUNCT	punctuation	Lang=	_	_	_	_
 
 # sent_id = S0006-5552
@@ -71548,20 +71548,21 @@
 # sent_id = S0006-5655
 # text = .i. pactum .i. trén 7 mór inchairdine dorigni [leg. dorignis] friu hitossuch· 7 cotascrais iarum
 # text_en = i.e. pactum, i.e. strong and great (was) the covenant which You (sg) had made with them at first and You (sg) annulled it afterwards.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-3	trén	trén	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos|Lang=Irish	_	_	X	Gloss=strong, gramm. substantive, subst.: strong man, hero
-4	7	ocus 2	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=coordinating: and, since
-5	mór	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos|Lang=Irish	_	_	X	Gloss=great, big, ample, tall, large
-6	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	7	det	X	Gloss=the
-7	chairdine	cairdine	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=friendship, amity; pact, alliance
-8	do·rignis	do·gní	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other|Lang=Irish	_	_	X	Gloss=to do, to make
-9	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc|Lang=Irish	_	_	X	Gloss=towards, against, standard of comparison
-10	hi	i	ADP	preposition	Case=Dat|Lang=Irish	11	case	X	Gloss=in, into
-11	tossuch	tosach	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	_	_	X	Gloss=beginning, precedence
-12	7	ocus 2	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=coordinating: and, since
-13	cota·ascrais	con·scara	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB|Aspect=Perf|Lang=Irish	_	_	X	Gloss=to destroy, to kill, to break
-14	iarum	íarum	ADV	adverb	Lang=Irish	_	_	X	Gloss=thereafter, afterwards
+1	.i.	.i.	CCONJ	abbreviation	Lang=	2	cc	X	Gloss=id est, it is
+2	pactum	_	_	_	Lang=Latin	0	root	X	Gloss=
+3	.i.	.i.	CCONJ	abbreviation	Lang=	4	cc	X	Gloss=id est, it is
+4	trén	trén	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos|Lang=Irish	2	parataxis	X	Gloss=strong, gramm. substantive, subst.: strong man, hero
+5	7	ocus 2	CCONJ	conjunction	Lang=Irish	6	cc	X	Gloss=coordinating: and, since
+6	mór	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos|Lang=Irish	4	conj	X	Gloss=great, big, ample, tall, large
+7	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	8	det	X	Gloss=the
+8	chairdine	cairdine	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	4	nsubj	9:obj|4:nsubj	Gloss=friendship, amity; pact, alliance
+9	do·rignis	do·gní	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Len|Lang=Irish	8	acl:relcl	X	Gloss=to do, to make
+10	friu	fri	ADP	preposition	Person=3|Number=Plur|Case=Acc|Lang=Irish	9	obl:prep	X	Gloss=towards, against, standard of comparison
+11	hi	i	ADP	preposition	Case=Dat|Lang=Irish	11	case	X	Gloss=in, into
+12	tossuch	tosach	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	9	obl	X	Gloss=beginning, precedence
+13	7	ocus 2	CCONJ	conjunction	Lang=Irish	14	cc	X	Gloss=coordinating: and, since
+14	cota·ascrais	con·scara	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Fem|Person[Subj]=2|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|PronType=InfB|Aspect=Perf|Lang=Irish	9	conj	X	Gloss=to destroy, to kill, to break
+15	iarum	íarum	ADV	adverb	Lang=Irish	14	advcl	X	Gloss=thereafter, afterwards
 
 # sent_id = S0006-5656
 # text = .i. inna cairde
@@ -71922,25 +71923,25 @@
 # sent_id = S0006-5688
 # text = .i. diandamchondelc fritsu adǽ nita ferr indaas cethir
 # text_en = i.e. if I compare myself to You (sg), O God, I am no better than a beast.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=	4	cc	X	Gloss=id est, it is
 2-4	diandamchondelc	_	_	_	_	_	_	_	_
-2	dia	día 1	SCONJ	complementiser	Lang=Irish	_	mark:prt	X	Gloss=when, if
-3	ndam·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs|Lang=Irish	_	_	X	Gloss=me, myself
-4	·chondelc	con·delga	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|Lang=Irish	_	_	X	Gloss=to compare
+2	dia	día 1	SCONJ	complementiser	Lang=Irish	4	mark:prt	X	Gloss=when, if
+3	ndam·	1sg.inf.pron.	PRON	pronoun_infixed	PronType=Prs|Lang=Irish	4	inf:obj	X	Gloss=me, myself
+4	·chondelc	con·delga	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|Lang=Irish	11	advcl	X	Gloss=to compare
 5-6	fritsu	_	_	_	_	_	_	_	_
-5	frit	fri	ADP	preposition	Person=2|Number=Sing|Case=Acc|Lang=Irish	_	_	X	Gloss=towards, against, standard of comparison
-6	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
+5	frit	fri	ADP	preposition	Person=2|Number=Sing|Case=Acc|Lang=Irish	6	case	X	Gloss=towards, against, standard of comparison
+6	su	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs|Lang=Irish	4	obl	X	Gloss=emphasising particle
 7-8	adǽ	_	_	_	_	_	_	_	_
-7	a	a 1	PART	particle_vocative	Lang=Irish	_	_	X	Gloss=O! ; oh
-8	dǽ	día 2	NOUN	noun	Number=Sing|Lang=Irish	_	_	X	Gloss=god, deity, God
+7	a	a 1	PART	particle_vocative	Lang=Irish	8	case:voc	X	Gloss=O! ; oh
+8	dǽ	día 2	NOUN	noun	Number=Sing|Lang=Irish	4	vocative	X	Gloss=god, deity, God
 9-10	nita	_	_	_	_	_	_	_	_
-9	ni	ní 3	PART	particle_negative_main	Lang=Irish	_	advmod:neg	X	Gloss=not
-10	ta	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-11	ferr	maith	ADJ	adjective	Degree=Cmp|Lang=Irish	_	_	X	Gloss=good, right, noble
+9	ni	ní 3	PART	particle_negative_main	Lang=Irish	11	advmod:neg	X	Gloss=not
+10	ta	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	11	cop	X	Gloss=to be
+11	ferr	maith	ADJ	adjective	Degree=Cmp|Lang=Irish	0	root	X	Gloss=good, right, noble
 12-13	indaas	_	_	_	_	_	_	_	_
-12	in·	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	_	det	X	Gloss=the
-13	·daas	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to be, to exist,
-14	cethir	cethir	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=four-footed animal, beast ; four
+12	in·	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	13	mark	X	Gloss=the
+13	·daas	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas|Lang=Irish	11	advcl	X	Gloss=to be, to exist,
+14	cethir	cethir	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	13	nsubj	X	Gloss=four-footed animal, beast ; four
 
 # sent_id = S0006-5689
 # text = .i. adæ
@@ -74331,20 +74332,20 @@
 # sent_id = S0006-5884
 # text = .i. deug mór du óul dindigail condib lán inderidech
 # text_en = i.e. to drink a great draught of the punishment, that the cup may be full.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	deug	deug	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=drink
-3	mór	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos|Lang=Irish	_	_	X	Gloss=great, big, ample, tall, large
-4	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	5	case	X	Gloss=to, for, by etc.
-5	óul	oöl	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of drinking; a measure of capacity used for liquids
+1	.i.	.i.	CCONJ	abbreviation	Lang=	2	cc	X	Gloss=id est, it is
+2	deug	deug	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	0	root	X	Gloss=drink
+3	mór	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos|Lang=Irish	2	amod	X	Gloss=great, big, ample, tall, large
+4	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	5	mark:prt	X	Gloss=to, for, by etc.
+5	óul	oöl	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	2	xcomp	X	Gloss=the act of drinking; a measure of capacity used for liquids
 6-8	dindigail	_	_	_	_	_	_	_	_
 6	di	di	ADP	preposition	Case=Dat|Lang=Irish	8	case	X	Gloss=away, from, cause or reason, by
 7	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	8	det	X	Gloss=the
-8	digail	dígal	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of avenging, punishing, vengeance
-9	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-10	co	co 4	SCONJ	complementiser	Lang=Irish	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-11	lán	lán	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos|Lang=Irish	_	_	X	Gloss=full of, filled with, complete, whole
+8	digail	dígal	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	5	obl	X	Gloss=the act of avenging, punishing, vengeance
+9	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	10	cop	X	Gloss=to be
+10	co	co 4	SCONJ	complementiser	Lang=Irish	11	mark:prt	X	Gloss=so that, until (+independent, leniting)
+11	lán	lán	ADJ	adjective	Case=Nom|Number=Sing|Gender=Fem|Degree=Pos|Lang=Irish	5	advcl	X	Gloss=full of, filled with, complete, whole
 12	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	13	det	X	Gloss=the
-13	eridech	airedech	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=cup, vessel
+13	eridech	airedech	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	11	nsubj	X	Gloss=cup, vessel
 
 # sent_id = S0006-5885
 # text = aithbeim forais lesom anisiu forauini meri· remiærbart.,
@@ -75294,20 +75295,20 @@
 # sent_id = S0006-5967
 # text = ɫ. estus .i. indesgal .i. inchutubart [leg. inchumtubart] ón inícfider fanacc
 # text_en = i.e. the commotion, i.e. that is, the doubt whether he will be saved or not.
-1	ɫ.	uel	CCONJ	conjunction	Lang=Latin	_	cc	X	Gloss=or, even
-2	estus	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=to be
-3	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+1	ɫ.	uel	CCONJ	conjunction	Lang=Latin	2	cc	X	Gloss=or, even
+2	estus	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	0	root	X	Gloss=to be
+3	.i.	.i.	CCONJ	abbreviation	Lang=	5	cc	X	Gloss=id est, it is
 4-5	indesgal	_	_	_	_	_	_	_	_
 4	ind	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	5	det	X	Gloss=the
-5	esgal	esgal	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=noise, roar; storm, commotion
-6	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+5	esgal	esgal	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	2	parataxis	X	Gloss=noise, roar; storm, commotion
+6	.i.	.i.	CCONJ	abbreviation	Lang=	8	cc	X	Gloss=id est, it is
 7	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	8	det	X	Gloss=the
-8	chumtubart	cumtubart	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=doubt, uncertainty, perplexity
-9	ón	-ón	PRON	particle_anaphoric	Lang=Irish	_	_	X	Gloss=that (aforementioned)
-10	in·	in 2	PRON	particle_interrogative	Lang=Irish	_	_	X	Gloss=question particle
-11	·ícfider	íccaid 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	_	X	Gloss=to cure, to heal; to save, to redeem; to solve
-12	fa	fa	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=disjunctive: introduces the second of two alternatives in interrogative clauses: or, introduces the second of three alternatives in interrogative clauses: or, introduces the third of three alternatives in interrogative clauses:
-13	nacc	nacc	INTJ	interjection	Lang=Irish	_	_	X	Gloss=no, not
+8	chumtubart	cumtubart	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	5	parataxis	X	Gloss=doubt, uncertainty, perplexity
+9	ón	-ón	PRON	particle_anaphoric	Lang=Irish	8	discourse	X	Gloss=that (aforementioned)
+10	in·	in 2	PRON	particle_interrogative	Lang=Irish	11	mark:prt	X	Gloss=question particle
+11	·ícfider	íccaid 1	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	8	ccomp	X	Gloss=to cure, to heal; to save, to redeem; to solve
+12	fa	fa	CCONJ	conjunction	Lang=Irish	13	cc	X	Gloss=disjunctive: introduces the second of two alternatives in interrogative clauses: or, introduces the second of three alternatives in interrogative clauses: or, introduces the third of three alternatives in interrogative clauses:
+13	nacc	nacc	INTJ	interjection	Lang=Irish	8	conj	X	Gloss=no, not
 
 # sent_id = S0006-5968
 # text = .i. lobraigedar
