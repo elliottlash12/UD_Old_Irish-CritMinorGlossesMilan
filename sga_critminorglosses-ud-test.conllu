@@ -71474,21 +71474,21 @@
 # sent_id = S0006-5650
 # text = .i. is do dugníinn se anisin combin cosmail fri encu
 # text_en = i.e. it is to that end that I used to do that, that I might be like the innocent ones.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-3	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	_	_	X	Gloss=to, for, by etc.
-4	du·gníinn	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Lang=Irish	_	_	X	Gloss=to do, to make
-5	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	3	cop	X	Gloss=to be
+3	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	0	root	X	Gloss=to, for, by etc.
+4	du·gníinn	do·gní	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Lang=Irish	3	advcl	X	Gloss=to do, to make
+5	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs|Lang=Irish	4	nsubj	X	Gloss=emphasising particle
 6-8	anisin	_	_	_	_	_	_	_	_
-6	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	_	det	X	Gloss=the
-7	ni	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut|Lang=Irish	_	_	X	Gloss=substantivizing particle
-8	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem|Lang=Irish	_	_	X	Gloss=that one, those ones, the one in there ; that, those
+6	a	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	7	det	X	Gloss=the
+7	ni	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Neut|Lang=Irish	4	obj	X	Gloss=substantivizing particle
+8	sin	sin	PRON	pronoun_demonstrative_distal	Case=Dat|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem|Lang=Irish	appos	7	X	Gloss=that one, those ones, the one in there ; that, those
 9-10	combin	_	_	_	_	_	_	_	_
-9	co	co 4	SCONJ	complementiser	Lang=Irish	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-10	mbin	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-11	cosmail	cosmail	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=like, similar, equal, probable
-12	fri	fri	ADP	preposition	Case=Acc|Lang=Irish	_	case	X	Gloss=towards, against, standard of comparison
-13	encu	ennac	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=innocent, sinless, harmless, guiltless
+9	co	co 4	SCONJ	complementiser	Lang=Irish	11	mark:prt	X	Gloss=so that, until (+independent, leniting)
+10	mbin	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	11	cop	X	Gloss=to be
+11	cosmail	cosmail	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	4	advcl	X	Gloss=like, similar, equal, probable
+12	fri	fri	ADP	preposition	Case=Acc|Lang=Irish	13	case	X	Gloss=towards, against, standard of comparison
+13	encu	ennac	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	11	obl	X	Gloss=innocent, sinless, harmless, guiltless
 
 # sent_id = S0006-5651
 # text = .i. interrogatiuus .i. non ɫ. raglanus
@@ -71734,20 +71734,20 @@
 # sent_id = S0006-5671
 # text = .i. excipiant .i. ausús 7 affluentia ithe persain fil iarn a chul
 # text_en = i.e. excipiant, i.e. ausus and affluentia, these are the subjects that are behind it.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	excipiant	excipiō	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=_
-3	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-4	ausús	ausus	ADJ	verbal_participle	Lang=Latin	_	_	X	Gloss=_
-5	7	et	CCONJ	conjunction	Lang=Latin	_	cc	X	Gloss=and
-6	affluentia	affluentia	NOUN	noun	Lang=Latin	_	_	X	Gloss=_
+1	.i.	.i.	CCONJ	abbreviation	Lang=	2	cc	X	Gloss=id est, it is
+2	excipiant	excipiō	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	0	root	X	Gloss=_
+3	.i.	.i.	CCONJ	abbreviation	Lang=	4	cc	X	Gloss=id est, it is
+4	ausús	ausus	ADJ	verbal_participle	Lang=Latin	8	dislocated	X	Gloss=_
+5	7	et	CCONJ	conjunction	Lang=Latin	6	cc	X	Gloss=and
+6	affluentia	affluentia	NOUN	noun	Lang=Latin	4	conj	X	Gloss=_
 7-8	ithe	_	_	_	_	_	_	_	_
-7	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-8	he	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	_	_	X	Gloss=they, them
-9	persain	persan	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	_	_	X	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
-10	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to be, to exist,
+7	it	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	8	cop	X	Gloss=to be
+8	he	3pl.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	2	parataxis	X	Gloss=they, them
+9	persain	persan	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	8	nsubj	10:nsubj|8:nsubj	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
+10	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Len|Lang=Irish	9	acl:relcl	X	Gloss=to be, to exist,
 11	iar	íar 1	ADP	preposition	Case=Dat|Lang=Irish	13	case	X	Gloss=after, behind, across, along, beyond, according to
-12	na	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	13	_	X	Gloss=his, its
-13	chul	cúl 1	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	_	_	X	Gloss=back, rear, back of head, neck
+12	na	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	13	nmod:poss	X	Gloss=his, its
+13	chul	cúl 1	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	10	xcomp:pred	X	Gloss=back, rear, back of head, neck
 
 # sent_id = S0006-5672
 # text = .i. cechasoinmech ón
@@ -72543,20 +72543,22 @@
 # sent_id = S0006-5738
 # text = .i. afodba .i. sechis ar fodba ní ón iarnartabairt indoiri··
 # text_en = i.e. their spoils, i.e. that is, our spoils after our having been brought into captivity.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	_	_	X	Gloss=their
-3	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-4	sech	sech 2	X	conjunction	Lang=Irish	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-5	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-6	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Lang=Irish	_	_	X	Gloss=our
-7	ní	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
-8	ón	-ón	PRON	particle_anaphoric	Lang=Irish	_	_	X	Gloss=that (aforementioned)
-9	iar	íar 1	ADP	preposition	Case=Dat|Lang=Irish	11	case	X	Gloss=after, behind, across, along, beyond, according to
-10	nar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Lang=Irish	11	_	X	Gloss=our
-11	tabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
-12	i	i	ADP	preposition	Case=Acc|Lang=Irish	13	case	X	Gloss=in, into
-13	ndoiri	doíre	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	_	_	X	Gloss=slavery, bondage, captivity
-14	··	··	PUNCT	punctuation	Lang=	_	_	_	_
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
+2	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	3	nmod:poss	X	Gloss=their
+3	fodba	_	NOUN	noun	Lang=Irish	0	root	X	Gloss=
+4	.i.	.i.	CCONJ	abbreviation	Lang=	8	cc	X	Gloss=id est, it is
+5	sech	sech 2	X	conjunction	Lang=Irish	8	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	8	cop	X	Gloss=to be
+7	ar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Lang=Irish	8	nmod:poss	X	Gloss=our
+8	fodba	_	NOUN	noun	Lang=Irish	3	parataxis	X	Gloss=
+9	ní	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs|Lang=Irish	8	nsubj	X	Gloss=emphasising particle
+10	ón	-ón	PRON	particle_anaphoric	Lang=Irish	8	discourse	X	Gloss=that (aforementioned)
+11	iar	íar 1	ADP	preposition	Case=Dat|Lang=Irish	13	case	X	Gloss=after, behind, across, along, beyond, according to
+12	nar	1pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Lang=Irish	13	nmod:poss	X	Gloss=our
+13	tabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	8	advcl	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+14	i	i	ADP	preposition	Case=Acc|Lang=Irish	15	case	X	Gloss=in, into
+15	ndoiri	doíre	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	13	obl	X	Gloss=slavery, bondage, captivity
+16	··	··	PUNCT	punctuation	Lang=	_	_	_	_
 
 # sent_id = S0006-5739
 # text = .i. fid [leg. fiad]
@@ -72794,20 +72796,20 @@
 # sent_id = S0006-5759
 # text = .i. bed tudrachti .i. bed chuintechti són .i. duthabirt diglae forru són·
 # text_en = i.e. it is to be enticed, i.e. that is, it is to be sought, i.e. that is, to inflict punishment on them.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-3	tudrachti	tudrachtai	X	verbal_of_necessity	Lang=Irish	_	_	X	Gloss=to be enticed, to be excited
-4	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-5	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-6	chuintechti	cuintechtai	X	verbal_of_necessity	Lang=Irish	_	_	X	Gloss=to be sought
-7	són	-són	PRON	particle_anaphoric	Lang=Irish	_	_	X	Gloss=that (mentioned above) that is
-8	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
+2	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	3	cop	X	Gloss=to be
+3	tudrachti	tudrachtai	X	verbal_of_necessity	Lang=Irish	0	root	X	Gloss=to be enticed, to be excited
+4	.i.	.i.	CCONJ	abbreviation	Lang=	6	cc	X	Gloss=id est, it is
+5	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	6	cop	X	Gloss=to be
+6	chuintechti	cuintechtai	X	verbal_of_necessity	Lang=Irish	3	parataxis	X	Gloss=to be sought
+7	són	-són	PRON	particle_anaphoric	Lang=Irish	6	discourse	X	Gloss=that (mentioned above) that is
+8	.i.	.i.	CCONJ	abbreviation	Lang=	10	cc	X	Gloss=id est, it is
 9-10	duthabirt	_	_	_	_	_	_	_	_
-9	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	10	case	X	Gloss=to, for, by etc.
-10	thabirt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
-11	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of avenging, punishing, vengeance
-12	forru	for	ADP	preposition	Person=3|Number=Plur|Case=Acc|Lang=Irish	_	_	X	Gloss=upon, over, on
-13	són	-són	PRON	particle_anaphoric	Lang=Irish	_	_	X	Gloss=that (mentioned above) that is
+9	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	10	mark:prt	X	Gloss=to, for, by etc.
+10	thabirt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	6	parataxis	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+11	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	10	obj	X	Gloss=the act of avenging, punishing, vengeance
+12	forru	for	ADP	preposition	Person=3|Number=Plur|Case=Acc|Lang=Irish	10	obl:prep	X	Gloss=upon, over, on
+13	són	-són	PRON	particle_anaphoric	Lang=Irish	10	discourse	X	Gloss=that (mentioned above) that is
 14	·	·	PUNCT	punctuation	Lang=	_	_	_	_
 
 # sent_id = S0006-5760
@@ -73069,20 +73071,20 @@
 
 # sent_id = S0006-5784
 # text = .i. dingarthæ infrao [leg. infarao] .i. lebedan .i. ised ainm forán laezechiál
-# text_en = i.e. (he was) called the Pharaoh, to wit, Leviathan; that is the name of  Pharaoh in Ezechiel.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	dingarthæ	dingarthae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc|Lang=Irish	_	_	X	Gloss=called
+# text_en = i.e. (he was) called the Pharaoh, to wit, Leviathan; that is the name of Pharaoh in Ezechiel.
+1	.i.	.i.	CCONJ	abbreviation	Lang=	2	cc	X	Gloss=id est, it is
+2	dingarthæ	dingarthae	ADJ	verbal_participle	Case=Nom|Number=Sing|Gender=Masc|Lang=Irish	0	root	X	Gloss=called
 3	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	4	det	X	Gloss=the
-4	farao	Farao	PROPN	proper_noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=Pharaoh
-5	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-6	lebedan	Lebedán	PROPN	proper_noun	Lang=Irish	_	_	X	Gloss=Leviathan
-7	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-9	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	_	_	X	Gloss=it
-10	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=name, noun (gramm)
-11	forán	Farao	PROPN	proper_noun	Case=Gen|Number=Sing|Lang=Irish	_	_	X	Gloss=Pharaoh
+4	farao	Farao	PROPN	proper_noun	Case=Nom|Number=Sing|Lang=Irish	2	nsubj	X	Gloss=Pharaoh
+5	.i.	.i.	CCONJ	abbreviation	Lang=	6	cc	X	Gloss=id est, it is
+6	lebedan	Lebedán	PROPN	proper_noun	Lang=Irish	3	parataxis	X	Gloss=Leviathan
+7	.i.	.i.	CCONJ	abbreviation	Lang=	9	cc	X	Gloss=id est, it is
+8	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	9	cop	X	Gloss=to be
+9	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	2	parataxis	X	Gloss=it
+10	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	9	nsubj	X	Gloss=name, noun (gramm)
+11	forán	Farao	PROPN	proper_noun	Case=Gen|Number=Sing|Lang=Irish	10	nmod	X	Gloss=Pharaoh
 12	la	la	ADP	preposition	Case=Acc|Lang=Irish	13	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-13	ezechiál	Ezechial	PROPN	proper_noun	Case=Acc|Number=Sing|Lang=Irish	_	_	X	Gloss=Ezechiel
+13	ezechiál	Ezechial	PROPN	proper_noun	Case=Acc|Number=Sing|Lang=Irish	9	obl	X	Gloss=Ezechiel
 
 # sent_id = S0006-5785
 # text = innaimbed
@@ -73573,19 +73575,19 @@
 # sent_id = S0006-5832
 # text = .i. bes ṅ duthrachtach .i. duarngirsom betan duthrachtaig agnimai som dodia
 # text_en = i.e. that he will be devoted, i.e. he promises that his deeds will be devoted to God.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	bes	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	cop	X	Gloss=to be
-3	ṅduthrachtach	dúthrachtach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=desired, longed for, desirable; devout, devoted
-4	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-5	du·arngir	do·airngir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Lang=Irish	_	_	X	Gloss=to promise, to prophesy
-6	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
-7	beta	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	cop	X	Gloss=to be
-8	nduthrachtaig	dúthrachtach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=desired, longed for, desirable; devout, devoted
-9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	10	_	X	Gloss=his, its
-10	gnimai	gním	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-11	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
+2	bes	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	3	cop	X	Gloss=to be
+3	ṅduthrachtach	dúthrachtach	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	0	root	X	Gloss=desired, longed for, desirable; devout, devoted
+4	.i.	.i.	CCONJ	abbreviation	Lang=	5	cc	X	Gloss=id est, it is
+5	du·arngir	do·airngir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Lang=Irish	3	parataxis	X	Gloss=to promise, to prophesy
+6	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	5	nsubj	X	Gloss=emphasising particle
+7	beta	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	8	cop	X	Gloss=to be
+8	nduthrachtaig	dúthrachtach	ADJ	adjective	Case=Nom|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	5	ccomp	X	Gloss=desired, longed for, desirable; devout, devoted
+9	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	10	nmod:poss	X	Gloss=his, its
+10	gnimai	gním	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun|Lang=Irish	8	nsubj	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+11	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	10	nmod	X	Gloss=emphasising particle
 12	do	do 1	ADP	preposition	Case=Dat|Lang=Irish	13	case	X	Gloss=to, for, by etc.
-13	dia	día 2	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	_	_	X	Gloss=god, deity, God
+13	dia	día 2	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	8	obl	X	Gloss=god, deity, God
 
 # sent_id = S0006-5833
 # text = [Marg.] coirbre ɫ. betan duthrachtaig
