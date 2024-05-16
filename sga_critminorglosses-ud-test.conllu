@@ -70614,24 +70614,24 @@
 # sent_id = S0006-5584
 # text = .i. epert nadrobae remcaissiu dæ diib 7 roleicthea cen fortacht duthabairt doib a deo.,
 # text_en = i.e. the saying that there was no providence of God for them, and that they had been left without help being given to them a Deo.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	epert	eipert	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of saying; speech, statement, word
+1	.i.	.i.	CCONJ	abbreviation	Lang=	2	cc	X	Gloss=id est, it is
+2	epert	eipert	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	0	root	X	Gloss=the act of saying; speech, statement, word
 3-4	nadrobae	_	_	_	_	_	_	_	_
-3	nad·	nád 1	PART	particle_negative_subordinate	Lang=Irish	_	advmod:neg	X	Gloss=that...not
-4	·robae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Lang=Irish	_	_	X	Gloss=to be, to exist,
-5	remcaissiu	remcaisiu	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=“looking before”; providence, foresight
-6	dæ	día 2	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	_	_	X	Gloss=god, deity, God
-7	diib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat|Lang=Irish	_	_	X	Gloss=away, from, cause or reason, by
-8	7	ocus 2	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=coordinating: and, since
-9	ro·leicthea	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|Lang=Irish	_	_	X	Gloss=to leave (behind), to allow to remain; to let go, to release
+3	nad·	nád 1	PART	particle_negative_subordinate	Lang=Irish	4	advmod:neg	X	Gloss=that...not
+4	·robae	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Nas|Lang=Irish	2	ccomp	X	Gloss=to be, to exist,
+5	remcaissiu	remcaisiu	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	4	nsubj	X	Gloss=“looking before”; providence, foresight
+6	dæ	día 2	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	5	nmod	X	Gloss=god, deity, God
+7	diib	di	ADP	preposition	Person=3|Number=Plur|Case=Dat|Lang=Irish	4	xcomp:pred:prep	X	Gloss=away, from, cause or reason, by
+8	7	ocus 2	CCONJ	conjunction	Lang=Irish	9	cc	X	Gloss=coordinating: and, since
+9	ro·leicthea	léicid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|Lang=Irish	4	parataxis	X	Gloss=to leave (behind), to allow to remain; to let go, to release
 10	cen	cen	ADP	preposition	Case=Acc|Lang=Irish	11	case	X	Gloss=without, not having, -less, on this side, apart from, besides, except
-11	fortacht	fortacht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of aiding, helping
+11	fortacht	fortacht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	9	advcl	X	Gloss=the act of aiding, helping
 12-13	duthabairt	_	_	_	_	_	_	_	_
-12	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	13	case	X	Gloss=to, for, by etc.
-13	thabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
-14	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat|Lang=Irish	_	_	X	Gloss=to, for, by etc.
+12	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	13	mark:prt	X	Gloss=to, for, by etc.
+13	thabairt	tabart 1	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	11	xcomp	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+14	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat|Lang=Irish	13	obl:prep	X	Gloss=to, for, by etc.
 15	a	ab (Lat)	ADP	preposition	Case=Dat|Lang=Latin	13	case	X	Gloss=from, away from, out of, down from, since, after, by, at, in, on, etc.
-16	deo.,	deus	PROPN	proper_noun	Lang=Latin	_	_	X	Gloss=god, deity, God
+16	deo.,	deus	PROPN	proper_noun	Lang=Latin	13	obl	X	Gloss=god, deity, God
 17	.,	.,	PUNCT	punctuation	Lang=	_	_	_	_
 
 # sent_id = S0006-5585
@@ -70752,27 +70752,27 @@
 # sent_id = S0006-5593
 # text = .i. intan nad tarat dia fortachtain dam ón· dumsoirad dilamaib munamat
 # text_en = i.e. that is, when God had not given me help to deliver me from the hands of my enemies.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
 2-3	intan	_	_	_	_	_	_	_	_
 2	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	3	det	X	Gloss=the
-3	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	_	_	X	Gloss=time
-4	nad·	nád 1	PART	particle_negative_subordinate	Lang=Irish	_	advmod:neg	X	Gloss=that...not
-5	·tarat	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other|Lang=Irish	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-6	dia	día 2	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=god, deity, God
-7	fortachtain	fortacht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of aiding, helping
-8	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat|Lang=Irish	_	_	X	Gloss=to, for, by etc.
-9	ón	-ón	PRON	particle_anaphoric	Lang=Irish	_	_	X	Gloss=that (aforementioned)
+3	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	0	root	X	Gloss=time
+4	nad·	nád 1	PART	particle_negative_subordinate	Lang=Irish	5	advmod:neg	X	Gloss=that...not
+5	·tarat	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|RelType=Other|Lang=Irish	3	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+6	dia	día 2	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	5	nsubj	X	Gloss=god, deity, God
+7	fortachtain	fortacht	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	5	xcomp	X	Gloss=the act of aiding, helping
+8	dam	do 1	ADP	preposition	Person=1|Number=Sing|Case=Dat|Lang=Irish	7	obl:prep	X	Gloss=to, for, by etc.
+9	ón	-ón	PRON	particle_anaphoric	Lang=Irish	3	discourse	X	Gloss=that (aforementioned)
 10	·	·	PUNCT	punctuation	Lang=	_	_	_	_
-11	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	12	case	X	Gloss=to, for, by etc.
+11	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	13	mark:prt	X	Gloss=to, for, by etc.
 12-13	dumsoirad	_	_	_	_	_	_	_	_
-12	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Lang=Irish	12	_	X	Gloss=my
-13	soirad	sóerad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of freeing, delivering; deliverance
+12	m	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Lang=Irish	13	obj:poss	X	Gloss=my
+13	soirad	sóerad	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	7	xcomp	X	Gloss=the act of freeing, delivering; deliverance
 14-15	dilamaib	_	_	_	_	_	_	_	_
-14	di	di	ADP	preposition	Case=Dat|Lang=Irish	14	case	X	Gloss=away, from, cause or reason, by
-15	lamaib	lám	NOUN	noun	Case=Dat|Number=Plur|Lang=Irish	_	_	X	Gloss=hand, arm
+14	di	di	ADP	preposition	Case=Dat|Lang=Irish	15	case	X	Gloss=away, from, cause or reason, by
+15	lamaib	lám	NOUN	noun	Case=Dat|Number=Plur|Lang=Irish	13	obl	X	Gloss=hand, arm
 16-17	munamat	_	_	_	_	_	_	_	_
-16	mu	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Lang=Irish	16	_	X	Gloss=my
-17	namat	námae	NOUN	noun	Case=Gen|Number=Plur|Lang=Irish	_	_	X	Gloss=enemy, foe
+16	mu	1sg.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=1|Lang=Irish	17	nmod:poss	X	Gloss=my
+17	namat	námae	NOUN	noun	Case=Gen|Number=Plur|Lang=Irish	15	nmod	X	Gloss=enemy, foe
 
 # sent_id = S0006-5594
 # text = .i. nífetar in damsoirfad dia fanacc
@@ -72310,23 +72310,23 @@
 # sent_id = S0006-5717
 # text = .i. istraitiu adcotar fortacht dǽ trisinnedbair [leg. edbairt] dugnither in hierusalem quam in aliis locis
 # text_en = i.e. it is more quickly that the help of God is obtained through the offering which is made in Jerusalem than in other places.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
 2-3	istraitiu	_	_	_	_	_	_	_	_
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-3	traitiu	trait	ADJ	adjective	Degree=Cmp|Lang=Irish	_	_	X	Gloss=quick
-4	ad·cotar	ad·cota	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to get, to obtain, to receive
-5	fortacht	fortacht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of aiding, helping
-6	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	_	_	X	Gloss=god, deity, God
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	3	cop	X	Gloss=to be
+3	traitiu	trait	ADJ	adjective	Degree=Cmp|Lang=Irish	0	root	X	Gloss=quick
+4	ad·cotar	ad·cota	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	3	csubj:cleft	X	Gloss=to get, to obtain, to receive
+5	fortacht	fortacht	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	4	nsubj	X	Gloss=the act of aiding, helping
+6	dǽ	día 2	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	5	nmod	X	Gloss=god, deity, God
 7	tri	tre	ADP	preposition	Case=Acc|Lang=Irish	9	case	X	Gloss=through (time or space), by means of, be reason of
 8	sin	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	9	det	X	Gloss=the
-9	nedbairt	audpart	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of offering; sacrifice
-10	du·gnither	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to do, to make
-11	in	in (Lat)	ADP	preposition	Case=Unk|Lang=Latin	_	case	X	Gloss=in, into
-12	hierusalem	Hierūsalēm	PROPN	proper_noun	Lang=Irish	_	_	X	Gloss=Jerusalem
-13	quam	quam	SCONJ	conjunction	Lang=Latin	_	mark	X	Gloss=how, than
-14	in	in (Lat)	ADP	preposition	Case=Unk|Lang=Latin	_	case	X	Gloss=in, into
-15	aliis	alius	ADJ	adjective	Degree=Pos|Lang=Latin	_	_	X	Gloss=other, the other
-16	locis	locus	NOUN	noun	Lang=Latin	_	_	X	Gloss=place, spot
+9	nedbairt	audpart	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	4	obl	10:nsubj|4:obl	Gloss=the act of offering; sacrifice
+10	du·gnither	do·gní	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	9	acl:relcl	X	Gloss=to do, to make
+11	in	in (Lat)	ADP	preposition	Case=Unk|Lang=Latin	12	case	X	Gloss=in, into
+12	hierusalem	Hierūsalēm	PROPN	proper_noun	Lang=Irish	10	obl	X	Gloss=Jerusalem
+13	quam	quam	SCONJ	conjunction	Lang=Latin	16	mark	X	Gloss=how, than
+14	in	in (Lat)	ADP	preposition	Case=Unk|Lang=Latin	16	case	X	Gloss=in, into
+15	aliis	alius	ADJ	adjective	Degree=Pos|Lang=Latin	16	amod	X	Gloss=other, the other
+16	locis	locus	NOUN	noun	Lang=Latin	10	obl	X	Gloss=place, spot
 
 # sent_id = S0006-5718
 # text = .i. ní iarfaigid coneregim dungnisom híc
