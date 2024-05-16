@@ -70433,27 +70433,27 @@
 # sent_id = S0006-5570
 # text = .i. ní hærogab insalmso ɫ. ni as apersain fessin rogab insalmso
 # text_en = i.e. it was not he who sang this psalm; or, it was not in his own person that he sang this psalm.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	ní	ní 3	PART	particle_negative_main	Lang=Irish	_	advmod:neg	X	Gloss=not
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
+2	ní	ní 3	PART	particle_negative_main	Lang=Irish	3	advmod:neg	X	Gloss=not
 3-4	hærogab	_	_	_	_	_	_	_	_
-3	hæ	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	_	_	X	Gloss=he, him, it
-4	ro·gab	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other|Lang=Irish	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+3	hæ	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	0	root	4:nsubj|0:root	Gloss=he, him, it
+4	ro·gab	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|RelType=Other|Lang=Irish	3	acl:relcl	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 5-7	insalmso	_	_	_	_	_	_	_	_
 5	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	6	det	X	Gloss=the
-6	salm	salm	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	_	_	X	Gloss=psalm
-7	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox|Lang=Irish	_	_	X	Gloss=this, these
-8	ɫ	nó 1	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=disjunctive: or
-9	ni	ní 3	PART	particle_negative_main	Lang=Irish	_	advmod:neg	X	Gloss=not
+6	salm	salm	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	4	obj	X	Gloss=psalm
+7	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox|Lang=Irish	6	det	X	Gloss=this, these
+8	ɫ	nó 1	CCONJ	conjunction	Lang=Irish	12	cc	X	Gloss=disjunctive: or
+9	ni	ní 3	PART	particle_negative_main	Lang=Irish	12	advmod:neg	X	Gloss=not
 10	as	a 7	ADP	preposition	Case=Dat|Lang=Irish	12	case	X	Gloss=out of, from
 11-12	apersain	_	_	_	_	_	_	_	_
-11	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	12	_	X	Gloss=his, its
-12	persain	persan	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	_	_	X	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
-13	fessin	fadesin	PRON	pronoun_emphatic	PronType=Emp|Lang=Irish	_	_	X	Gloss=self
-14	ro·gab	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|Lang=Irish	_	_	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
+11	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	12	nmod:poss	X	Gloss=his, its
+12	persain	persan	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	3	conj	X	Gloss=person, character, quality; gramm. individual; appearance; person of the Trinity
+13	fessin	fadesin	PRON	pronoun_emphatic	PronType=Emp|Lang=Irish	12	nmod	X	Gloss=self
+14	ro·gab	gaibid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Aspect=Perf|Lang=Irish	12	csubj:cleft	X	Gloss=to take hold of, to put, to capture, to sing (of a psalm), to recite, to utter
 15-17	insalmso	_	_	_	_	_	_	_	_
 15	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	16	det	X	Gloss=the
-16	salm	salm	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	_	_	X	Gloss=psalm
-17	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox|Lang=Irish	_	_	X	Gloss=this, these
+16	salm	salm	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	14	obj	X	Gloss=psalm
+17	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox|Lang=Irish	16	det	X	Gloss=this, these
 
 # sent_id = S0006-5571
 # text = .i. cia indas ɔaittechtatar aníc són hua dia
@@ -72391,22 +72391,22 @@
 # sent_id = S0006-5725
 # text = .i. combad mou de aserc ladia 〈aserc〉 triepert dosom adruthreb side indib
 # text_en = i.e. that God’s love for them might be the greater through his saying that He had dwelt in them.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	mbad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-3	co	co 4	SCONJ	complementiser	Lang=Irish	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-4	mou	mór	ADJ	adjective	Degree=Cmp|Lang=Irish	_	_	X	Gloss=great, big, ample, tall, large
-5	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	_	_	X	Gloss=away, from, cause or reason, by
-6	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	7	_	X	Gloss=their
-7	serc	serc	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of loving; love, affection
+1	.i.	.i.	CCONJ	abbreviation	Lang=	4	cc	X	Gloss=id est, it is
+2	mbad	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	4	cop	X	Gloss=to be
+3	co	co 4	SCONJ	complementiser	Lang=Irish	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
+4	mou	mór	ADJ	adjective	Degree=Cmp|Lang=Irish	0	root	X	Gloss=great, big, ample, tall, large
+5	de	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	7	case	X	Gloss=away, from, cause or reason, by
+6	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	7	obj:poss	X	Gloss=their
+7	serc	serc	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	4	advcl	X	Gloss=the act of loving; love, affection
 8	la	la	ADP	preposition	Case=Acc|Lang=Irish	9	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-9	dia	día 2	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	_	_	X	Gloss=god, deity, God
+9	dia	día 2	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	7	obl	X	Gloss=god, deity, God
 10	tri	tre	ADP	preposition	Case=Acc|Lang=Irish	11	case	X	Gloss=through (time or space), by means of, be reason of
-11	epert	eipert	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of saying; speech, statement, word
-12	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	_	_	X	Gloss=to, for, by etc.
-13	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
-14	adru·threb	ad·treba	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Lang=Irish	_	_	X	Gloss=to possess, to inhabit, to dwell in, to have
-15	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc|Lang=Irish	_	_	X	Gloss=that one, he, she, it, they
-16	indib	i	ADP	preposition	Person=3|Number=Plur|Case=Dat|Lang=Irish	_	_	X	Gloss=in, into
+11	epert	eipert	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	7	advcl	X	Gloss=the act of saying; speech, statement, word
+12	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	13	case	X	Gloss=to, for, by etc.
+13	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	11	obl	X	Gloss=emphasising particle
+14	adru·threb	ad·treba	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Lang=Irish	13	acl:relcl	X	Gloss=to possess, to inhabit, to dwell in, to have
+15	side	-side	PRON	particle_anaphoric	Case=Nom|Number=Sing|Gender=Masc|Lang=Irish	14	nsubj	X	Gloss=that one, he, she, it, they
+16	indib	i	ADP	preposition	Person=3|Number=Plur|Case=Dat|Lang=Irish	16	obl:prep	X	Gloss=in, into
 
 # sent_id = S0006-5726
 # text = .i. amal asned as moam serc linnai adchotadsam triar saithar saindiles síc ised as moam serc ladia maicc israhél frissarusaithraigestar oc a tuididen di cech imniud
@@ -75052,22 +75052,22 @@
 # sent_id = S0006-5950
 # text = .i. no dúfobi .i. connachadánaigfea ón· 7 is diltud tabairte trocaire fil sunt
 # text_en = i.e. or He will cut, i.e. that is, so that He will not bestow it, and it is denial of the giving of mercy that is there.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	no	nó 1	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=disjunctive: or
-3	dú·fobi	do·fuiben	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Lang=Irish	_	_	X	Gloss=to cut, to destroy
-4	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-5	co	co 4	SCONJ	complementiser	Lang=Irish	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-6	nach	nach 3	PART	particle_negative_subordinate	Lang=Irish	_	advmod:neg	X	Gloss=that not ; not
-7	a·	3sg.fem.inf.pron.	PRON	pronoun_infixed	PronType=Prs|Lang=Irish	_	_	X	Gloss=her
-8	·dánaigfea	dánaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Lang=Irish	_	_	X	Gloss=to endow, to give, to bestow
-9	ón	-ón	PRON	particle_anaphoric	Lang=Irish	_	_	X	Gloss=that (aforementioned)
-10	7	ocus 2	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=coordinating: and, since
-11	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-12	diltud	díltud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of rejecting, denying, refusing to acknowledge; gramm. negation
-13	tabairte	tabart 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
-14	trocaire	trócaire	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	_	_	X	Gloss=mercy
-15	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to be, to exist,
-16	sunt	sund	ADV	adverb	Lang=Irish	_	_	X	Gloss=here, in this place; hither, to this place
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
+2	no	nó 1	CCONJ	conjunction	Lang=Irish	3	cc	X	Gloss=disjunctive: or
+3	dú·fobi	do·fuiben	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Lang=Irish	0	root	X	Gloss=to cut, to destroy
+4	.i.	.i.	CCONJ	abbreviation	Lang=	8	cc	X	Gloss=id est, it is
+5	co	co 4	SCONJ	complementiser	Lang=Irish	8	mark:prt	X	Gloss=so that, until (+independent, leniting)
+6	nach	nach 3	PART	particle_negative_subordinate	Lang=Irish	8	advmod:neg	X	Gloss=that not ; not
+7	a·	3sg.fem.inf.pron.	PRON	pronoun_infixed	PronType=Prs|Lang=Irish	8	inf:obj	X	Gloss=her
+8	·dánaigfea	dánaigidir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Lang=Irish	3	conj	X	Gloss=to endow, to give, to bestow
+9	ón	-ón	PRON	particle_anaphoric	Lang=Irish	8	discourse	X	Gloss=that (aforementioned)
+10	7	ocus 2	CCONJ	conjunction	Lang=Irish	12	cc	X	Gloss=coordinating: and, since
+11	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	12	cop	X	Gloss=to be
+12	diltud	díltud	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	8	conj	X	Gloss=the act of rejecting, denying, refusing to acknowledge; gramm. negation
+13	tabairte	tabart 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	12	xcomp	X	Gloss=the act of giving, bringing, taking, placing; the act of imposing on, putting on, inflicting
+14	trocaire	trócaire	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	13	obj	15:nsubj|13:obj	Gloss=mercy
+15	fil	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	14	acl:relcl	X	Gloss=to be, to exist,
+16	sunt	sund	ADV	adverb	Lang=Irish	15	advmod	X	Gloss=here, in this place; hither, to this place
 
 # sent_id = S0006-5951
 # text = huanchomacnabud nephindlachtu .i. ní indail atrocairi 7 nídignea aerscailiud du danaigiud neich dúnni di..,
