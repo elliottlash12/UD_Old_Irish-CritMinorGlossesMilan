@@ -74287,26 +74287,26 @@
 # sent_id = S0006-5881
 # text = .i. dicit .i. plenus est mixto .i. air lani ind lestair .i. sechis ar lani indiglae [leg. inna-] sín.,
 # text_en = i.e. for the fullness of the vessel, that is, namely, for the fullness of that punishment.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	dicit	dīcō	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=to say, to declare, to call
-3	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-4	plenus	plēnus	ADJ	adjective	Degree=Pos|Lang=Latin	_	_	X	Gloss=_
-5	est	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=to be
-6	mixto	mixtus	ADJ	verbal_participle	Lang=Latin	_	_	X	Gloss=_
-7	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=	2	cc	X	Gloss=id est, it is
+2	dicit	dīcō	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	0	root	X	Gloss=to say, to declare, to call
+3	.i.	.i.	CCONJ	abbreviation	Lang=	4	cc	X	Gloss=id est, it is
+4	plenus	plēnus	ADJ	adjective	Degree=Pos|Lang=Latin	2	parataxis	X	Gloss=_
+5	est	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	4	flat	X	Gloss=to be
+6	mixto	mixtus	ADJ	verbal_participle	Lang=Latin	4	flat	X	Gloss=_
+7	.i.	.i.	CCONJ	abbreviation	Lang=	9	cc	X	Gloss=id est, it is
 8	air	ar 1	ADP	preposition	Case=Acc|Lang=Irish	9	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-9	lani	lánae	NOUN	noun	Case=Dat|Lang=Irish	_	_	X	Gloss=fullness, completeness
+9	lani	lánae	NOUN	noun	Case=Dat|Lang=Irish	2	parataxis	X	Gloss=fullness, completeness
 10	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	11	det	X	Gloss=the
-11	lestair	lestar	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	_	_	X	Gloss=vessel, container
-12	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+11	lestair	lestar	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	9	nmod	X	Gloss=vessel, container
+12	.i.	.i.	CCONJ	abbreviation	Lang=	16	cc	X	Gloss=id est, it is
 13-14	sechis	_	_	_	_	_	_	_	_
-13	sech	sech 2	X	conjunction	Lang=Irish	_	_	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
-14	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
+13	sech	sech 2	X	conjunction	Lang=Irish	16	mark	X	Gloss=accumulative and adversative: and moreover, and besides; although, (and) yet, in spite of the fact that, namely, that is to say
+14	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	16	cop	X	Gloss=to be
 15	ar	ar 1	ADP	preposition	Case=Acc|Lang=Irish	16	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-16	lani	lánae	NOUN	noun	Case=Dat|Lang=Irish	_	_	X	Gloss=fullness, completeness
+16	lani	lánae	NOUN	noun	Case=Dat|Lang=Irish	2	parataxis	X	Gloss=fullness, completeness
 17	inna	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	18	det	X	Gloss=the
-18	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of avenging, punishing, vengeance
-19	sín	-sin	DET	particle_demonstrative_distal	Deixis=Remt|Lang=Irish	_	_	X	Gloss=that, those
+18	diglae	dígal	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	16	nmod	X	Gloss=the act of avenging, punishing, vengeance
+19	sín	-sin	DET	particle_demonstrative_distal	Deixis=Remt|Lang=Irish	18	det	X	Gloss=that, those
 20	.,	.,	PUNCT	punctuation	Lang=	_	_	_	_
 
 # sent_id = S0006-5882
@@ -74411,29 +74411,29 @@
 # sent_id = S0006-5889
 # text = .i. ciadurat som digail forassaru ata digal aile les forpecthachu dano intan bes náil do
 # text_en = i.e. though He has inflicted punishment on the Assyrians, He has still other punishment for sinners when it is a desire for Him.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
 2-3	ciadurat	_	_	_	_	_	_	_	_
-2	cia	cía 2	SCONJ	conjunction	Lang=Irish	_	mark	X	Gloss=concessive and explicative: even, although
-3	du·rat	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Lang=Irish	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-4	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
-5	digail	dígal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of avenging, punishing, vengeance
+2	cia	cía 2	SCONJ	conjunction	Lang=Irish	3	mark	X	Gloss=concessive and explicative: even, although
+3	du·rat	do·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Lang=Irish	8	advcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+4	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	3	nsubj	X	Gloss=emphasising particle
+5	digail	dígal	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	3	xcomp	X	Gloss=the act of avenging, punishing, vengeance
 6-7	forassaru	_	_	_	_	_	_	_	_
 6	for	for	ADP	preposition	Case=Acc|Lang=Irish	7	case	X	Gloss=upon, over, on
-7	assaru	Asar	PROPN	proper_noun	Case=Acc|Number=Plur|Lang=Irish	_	_	X	Gloss=Assyrian
-8	a·ta	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	_	X	Gloss=to be, to exist,
-9	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of avenging, punishing, vengeance
-10	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem|Lang=Irish	_	_	X	Gloss=other, another, else, second
-11	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc|Lang=Irish	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+7	assaru	Asar	PROPN	proper_noun	Case=Acc|Number=Plur|Lang=Irish	5	obl	X	Gloss=Assyrian
+8	a·ta	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	0	root	X	Gloss=to be, to exist,
+9	digal	dígal	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	8	nsubj	X	Gloss=the act of avenging, punishing, vengeance
+10	aile	aile 1	X	adjective_pronominal	Case=Nom|Number=Sing|Gender=Fem|Lang=Irish	9	amod	X	Gloss=other, another, else, second
+11	les	la	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc|Lang=Irish	8	xcomp:pred:prep	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
 12-13	forpecthachu	_	_	_	_	_	_	_	_
-12	for	for	ADP	preposition	Case=Acc|Lang=Irish	_	case	X	Gloss=upon, over, on
-13	pecthachu	pecthach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=sinful, committing sin
-14	dano	danó	ADV	particle_discourse	Lang=Irish	_	_	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
+12	for	for	ADP	preposition	Case=Acc|Lang=Irish	13	case	X	Gloss=upon, over, on
+13	pecthachu	pecthach	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	9	obl	X	Gloss=sinful, committing sin
+14	dano	danó	ADV	particle_discourse	Lang=Irish	8	advmod	X	Gloss=also, further, in addition, besides, as well, too; therefore, then, accordingly
 15-16	intan	_	_	_	_	_	_	_	_
 15	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	16	det	X	Gloss=the
-16	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	_	_	X	Gloss=time
-17	bes	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	cop	X	Gloss=to be
-18	náil	áil	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=the act of asking, request, wish ; hook, point
-19	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	_	_	X	Gloss=to, for, by etc.
+16	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	18	obl:tmod	X	Gloss=time
+17	bes	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	18	cop	X	Gloss=to be
+18	náil	áil	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	8	acl:relcl	X	Gloss=the act of asking, request, wish ; hook, point
+19	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	8	obl:prep	X	Gloss=to, for, by etc.
 
 # sent_id = S0006-5890
 # text = .i. nirrufoircneda
@@ -75551,30 +75551,30 @@
 # sent_id = S0006-5988
 # text = amal focerdatar saichtea fornaimtea issamlid insin rosengatar intainid 7 intorainn forsna egiptacdu·
 # text_en = as arrows are cast on enemies, it is even so that the lightnings and the thunders have poured down onto the Egyptians.
-1	amal	amail 2	SCONJ	conjunction	Lang=Irish	_	mark	X	Gloss=as, like; translating Latin ut
-2	fo·cerdatar	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
-3	saichtea	saiget	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	_	_	X	Gloss=arrow
+1	amal	amail 2	SCONJ	conjunction	Lang=Irish	2	mark	X	Gloss=as, like; translating Latin ut
+2	fo·cerdatar	fo·ceird	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	7	advcl	X	Gloss=to put, to place, to set, to throw, to apply, to explain, to happen upon, case
+3	saichtea	saiget	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	2	nsubj	X	Gloss=arrow
 4-5	fornaimtea	_	_	_	_	_	_	_	_
 4	for	for	ADP	preposition	Case=Acc|Lang=Irish	5	case	X	Gloss=upon, over, on
-5	naimtea	námae	NOUN	noun	Case=Acc|Number=Plur|Lang=Irish	_	_	X	Gloss=enemy, foe
+5	naimtea	námae	NOUN	noun	Case=Acc|Number=Plur|Lang=Irish	2	obl	X	Gloss=enemy, foe
 6-7	issamlid	_	_	_	_	_	_	_	_
-6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-7	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc|Lang=Irish	_	_	X	Gloss=as, like
+6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	7	cop	X	Gloss=to be
+7	samlid	amail 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc|Lang=Irish	9	case	X	Gloss=as, like
 8-9	insin	_	_	_	_	_	_	_	_
 8	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	9	det	X	Gloss=the
-9	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem|Lang=Irish	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-10	ro·sengatar	snigid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Lang=Irish	_	_	X	Gloss=to pour down, to flow, to drip, to drop
+9	sin	sin	PRON	pronoun_demonstrative_distal	Case=Nom|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem|Lang=Irish	2	parataxis	X	Gloss=that one, those ones, the one in there ; that, those
+10	ro·sengatar	snigid	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Lang=Irish	2	acl:relcl	X	Gloss=to pour down, to flow, to drip, to drop
 11-12	intainid	_	_	_	_	_	_	_	_
 11	in	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	12	det	X	Gloss=the
-12	tainid	teine 1	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	_	_	X	Gloss=fire, lightning; gen. as attributive adj. blazing
-13	7	ocus 2	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=coordinating: and, since
+12	tainid	teine 1	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	10	nsubj	X	Gloss=fire, lightning; gen. as attributive adj. blazing
+13	7	ocus 2	CCONJ	conjunction	Lang=Irish	15	cc	X	Gloss=coordinating: and, since
 14-15	intorainn	_	_	_	_	_	_	_	_
 14	in	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	15	det	X	Gloss=the
-15	torainn	torann	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	_	_	X	Gloss=thunder, noise
+15	torainn	torann	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	12	conj	X	Gloss=thunder, noise
 16-17	forsna	_	_	_	_	_	_	_	_
-16	for	for	ADP	preposition	Case=Acc|Lang=Irish	_	case	X	Gloss=upon, over, on
-17	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	_	det	X	Gloss=the
-18	egiptacdu	égeptachdae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=Egyptian
+16	for	for	ADP	preposition	Case=Acc|Lang=Irish	18	case	X	Gloss=upon, over, on
+17	sna	in 1	DET	definite_article	Case=Acc|Number=Plur|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	18	det	X	Gloss=the
+18	egiptacdu	égeptachdae	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	10	obl	X	Gloss=Egyptian
 19	·	·	PUNCT	punctuation	Lang=	_	_	_	_
 
 # sent_id = S0006-5989
