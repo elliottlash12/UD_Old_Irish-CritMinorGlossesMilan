@@ -12670,33 +12670,34 @@
 # sent_id = S0006-636
 # text = ɫ. maní be tempus hifoitsecht hic est ordo uerborum .i. quoniam terminatur finibus uitae nostrae confitendi .i. pro confitere. id est penitendi .i. pro confitere··
 # text_en = or if tempus should not be understood, this is the order of the words: .i. quoniam terminatur finibus etc.
-1	ɫ	nó 1	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=disjunctive: or
-2	ní·	ní 3	PART	particle_negative_main	Lang=Irish	_	advmod:neg	X	Gloss=not
-3	·be	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	_	X	Gloss=to be, to exist,
-4	hi	i	ADP	preposition	Case=Acc|Lang=Irish	5	case	X	Gloss=in, into
-5	foitsecht	foéitsecht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of understanding
-6	tempus	tempus	NOUN	noun	Lang=Latin	_	_	X	Gloss=time, period
-7	hic	hīc 1	X	pronoun_demonstrative	Lang=Latin	_	_	X	Gloss=this, these, that, those
-8	est	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=to be
-9	ordo	ordō	NOUN	noun	Lang=Latin	_	_	X	Gloss=methodical series, arrangement, order
-10	uerborum	uerbum	NOUN	noun	Lang=Latin	_	_	X	Gloss=word, verb
-11	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-12	quoniam	quoniam	X	conjunction	Lang=Latin	_	_	X	Gloss=_
-13	nostrae	noster	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Lang=Latin	_	_	X	Gloss=our
-14	terminatur	terminō	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=_
-15	finibus	fīnis	NOUN	noun	Lang=Latin	_	_	X	Gloss=limit, boundary
-16	uitae	uīta	NOUN	noun	Lang=Latin	_	_	X	Gloss=life, lifetime; existence
-17	nostrae	noster	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Lang=Latin	_	_	X	Gloss=our
-18	confitendi	cōnfiteor	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=_
-19	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-20	pro	prō	ADP	preposition	Case=Unk|Lang=Latin	_	case	X	Gloss=for, on behalf of, before
-21	confitere	cōnfiteor	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=_
-22	id	is (Lat)	PRON	pronoun_independent	PronType=Prs|Lang=Latin	_	_	X	Gloss=he, it, him, she, her, they, them
-23	est	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=to be
-24	penitendi	paeniteō	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=_
-25	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-26	pro	prō	ADP	preposition	Case=Unk|Lang=Latin	_	case	X	Gloss=for, on behalf of, before
-27	confitere	cōnfiteor	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=_
+1	ɫ	nó 1	CCONJ	conjunction	Lang=Irish	3	cc	X	Gloss=disjunctive: or
+2	ní·	ní 3	PART	particle_negative_main	Lang=Irish	3	advmod:neg	X	Gloss=not
+3	·be	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	0	root	X	Gloss=to be, to exist,
+4	tempus	tempus	NOUN	noun	Lang=Latin	3	nsubj	X	Gloss=time, period
+5-6	hifoitsecht	_	_	_	_	_	_	_	_
+5	hi	i	ADP	preposition	Case=Acc|Lang=Irish	6	case	X	Gloss=in, into
+6	foitsecht	foéitsecht	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	3	xcomp:pred	X	Gloss=the act of understanding
+7	hic	hīc 1	X	pronoun_demonstrative	Lang=Latin	6	flat	X	Gloss=this, these, that, those
+8	est	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	6	flat	X	Gloss=to be
+9	ordo	ordō	NOUN	noun	Lang=Latin	6	flat	X	Gloss=methodical series, arrangement, order
+10	uerborum	uerbum	NOUN	noun	Lang=Latin	6	flat	X	Gloss=word, verb
+11	.i.	.i.	CCONJ	abbreviation	Lang=	12	cc	X	Gloss=id est, it is
+12	quoniam	quoniam	X	conjunction	Lang=Latin	9	parataxis	X	Gloss=_
+13	nostrae	noster	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Lang=Latin	12	flat	X	Gloss=our
+14	terminatur	terminō	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	12	flat	X	Gloss=_
+15	finibus	fīnis	NOUN	noun	Lang=Latin	12	flat	X	Gloss=limit, boundary
+16	uitae	uīta	NOUN	noun	Lang=Latin	12	flat	X	Gloss=life, lifetime; existence
+17	nostrae	noster	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Lang=Latin	12	flat	X	Gloss=our
+18	confitendi	cōnfiteor	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	12	flat	X	Gloss=_
+19	.i.	.i.	CCONJ	abbreviation	Lang=	21	cc	X	Gloss=id est, it is
+20	pro	prō	ADP	preposition	Case=Unk|Lang=Latin	21	case	X	Gloss=for, on behalf of, before
+21	confitere	cōnfiteor	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	12	parataxis	X	Gloss=_
+22	id	is (Lat)	PRON	pronoun_independent	PronType=Prs|Lang=Latin	21	flat	X	Gloss=he, it, him, she, her, they, them
+23	est	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	21	flat	X	Gloss=to be
+24	penitendi	paeniteō	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	21	flat	X	Gloss=_
+25	.i.	.i.	CCONJ	abbreviation	Lang=	27	cc	X	Gloss=id est, it is
+26	pro	prō	ADP	preposition	Case=Unk|Lang=Latin	27	case	X	Gloss=for, on behalf of, before
+27	confitere	cōnfiteor	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	21	parataxis	X	Gloss=_
 28	··	··	PUNCT	punctuation	Lang=	_	_	_	_
 
 # sent_id = S0006-637
@@ -31537,40 +31538,40 @@
 # sent_id = S0006-2306
 # text = .i. innatimthrechta ind labrada innid eula nech 7 innabriathra radas imfolngai són amlabar inní frissarater do aneulchaib inbelraisin·
 # text_en = i.e. the services of the speech in which someone may be skilled and the words which he speaks, that makes dumb the one of the non-knowers of that language to whom it is said.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
 2-3	innatimthrechta	_	_	_	_	_	_	_	_
 2	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	3	det	X	Gloss=the
-3	timthrechta	timmthirecht	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of serving, ministering to; ministration
+3	timthrechta	timmthirecht	NOUN	verbal_noun	Case=Nom|Number=Plur|VerbForm=VNoun|Lang=Irish	0	root	X	Gloss=the act of serving, ministering to; ministration
 4	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	5	det	X	Gloss=the
-5	labrada	labrad	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of speaking; speech, utterance
+5	labrada	labrad	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	3	nsubj	X	Gloss=the act of speaking; speech, utterance
 6-7	innid	_	_	_	_	_	_	_	_
-6	i	i	ADP	preposition	Case=Acc|Lang=Irish	_	case	X	Gloss=in, into
-7	nnid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	cop	X	Gloss=to be
-8	eula	éola	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=knowing, learned, skilled in, acquainted with; known, familiar
-9	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind|Lang=Irish	_	_	X	Gloss=anyone, one, someone
-10	7	ocus 2	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=coordinating: and, since
+6	i	i	ADP	preposition	Case=Acc|Lang=Irish	8	case	X	Gloss=in, into
+7	nnid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	8	cop	X	Gloss=to be
+8	eula	éola	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	8	acl:relcl	X	Gloss=knowing, learned, skilled in, acquainted with; known, familiar
+9	nech	nech	PRON	pronoun_quantifier	Case=Nom|Number=Sing|PronType=Ind|Lang=Irish	8	nsubj	X	Gloss=anyone, one, someone
+10	7	ocus 2	CCONJ	conjunction	Lang=Irish	12	cc	X	Gloss=coordinating: and, since
 11-12	innabriathra	_	_	_	_	_	_	_	_
 11	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	12	det	X	Gloss=the
-12	briathra	bríathar	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	_	_	X	Gloss=word,
-13	radas	ráidid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas|Lang=Irish	_	_	X	Gloss=to speak, to say, to tell
-14	im·folngai	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Lang=Irish	_	_	X	Gloss=to cause, to produce, to make, to effect, to support
-15	són	-són	PRON	particle_anaphoric	Lang=Irish	_	_	X	Gloss=that (mentioned above) that is
-16	amlabar	amlabar	NOUN	noun	Case=Acc|Number=Sing|Gender=Masc|Lang=Irish	_	_	X	Gloss=dumb, mute
+12	briathra	bríathar	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	3	conj	13:obj|3:conj	Gloss=word,
+13	radas	ráidid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Nas|Lang=Irish	12	acl:relcl	X	Gloss=to speak, to say, to tell
+14	im·folngai	imm·folngai	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Lang=Irish	13	xcomp	X	Gloss=to cause, to produce, to make, to effect, to support
+15	són	-són	PRON	particle_anaphoric	Lang=Irish	14	nsubj	X	Gloss=that (mentioned above) that is
+16	amlabar	amlabar	NOUN	noun	Case=Acc|Number=Sing|Gender=Masc|Lang=Irish	14	obj	X	Gloss=dumb, mute
 17-18	inní	_	_	_	_	_	_	_	_
 17	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	18	det	X	Gloss=the
-18	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Masc|Lang=Irish	_	_	X	Gloss=substantivizing particle
+18	ní	í 1	PRON	pronoun_propword	Case=Acc|Number=Sing|Gender=Masc|Lang=Irish	16	appos	X	Gloss=substantivizing particle
 19-21	frissarater	_	_	_	_	_	_	_	_
-19	fri	fri	ADP	preposition	Case=Acc|Lang=Irish	_	case	X	Gloss=towards, against, standard of comparison
-20	ssa·	-(s)a·	PRON	pronoun_relative	PronType=Rel|Lang=Irish	_	_	X	Gloss=which, who, whose
-21	·rater	ráidid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to speak, to say, to tell
-22	do	di	ADP	preposition	Case=Dat|Lang=Irish	_	case	X	Gloss=away, from, cause or reason, by
+19	fri	fri	ADP	preposition	Case=Acc|Lang=Irish	20	case	X	Gloss=towards, against, standard of comparison
+20	ssa·	-(s)a·	PRON	pronoun_relative	PronType=Rel|Lang=Irish	21	obl	X	Gloss=which, who, whose
+21	·rater	ráidid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	16	acl:relcl	X	Gloss=to speak, to say, to tell
+22	do	di	ADP	preposition	Case=Dat|Lang=Irish	24	case	X	Gloss=away, from, cause or reason, by
 23-24	aneulchaib	_	_	_	_	_	_	_	_
 23	an	an-	X	particle_prefix	Lang=Irish	24	advmod:neg	X	Gloss=negative: non-, un-
-24	eulchaib	éola	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=knowing, learned, skilled in, acquainted with; known, familiar
+24	eulchaib	éola	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	21	obl	X	Gloss=knowing, learned, skilled in, acquainted with; known, familiar
 25-27	inbelraisin·	_	_	_	_	_	_	_	_
 25	in	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	26	det	X	Gloss=the
-26	belrai	bélrae	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	_	_	X	Gloss=speech, language; dialect
-27	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt|Lang=Irish	_	_	X	Gloss=that, those
+26	belrai	bélrae	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	24	nmod	X	Gloss=speech, language; dialect
+27	sin	-sin	DET	particle_demonstrative_distal	Deixis=Remt|Lang=Irish	26	det	X	Gloss=that, those
 28	·	·	PUNCT	punctuation	Lang=	_	_	_	_
 
 # sent_id = S0006-2307
@@ -75391,39 +75392,39 @@
 # sent_id = S0006-5974
 # text = .i. arna tomainte bednísel som tritaidbsin afuilliuchtae hisleb sina hominibus· isairi asbeirsom quis est deus· 7 tu es deus
 # text_en = i.e. lest it be supposed that He was lowly through the showing of His footprints to men on Mount Sinai; it is therefore that he says etc.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=	4	cc	X	Gloss=id est, it is
 2-3	arna	_	_	_	_	_	_	_	_
-2	ar	ara	SCONJ	complementiser	Lang=Irish	_	mark:prt	X	Gloss=in order that, so that
-3	na·	ná 2	PART	particle_negative_subordinate	Lang=Irish	_	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
-4	·tomainte	do·moinethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to think, to suppose, to conjecture
+2	ar	ara	SCONJ	complementiser	Lang=Irish	4	mark:prt	X	Gloss=in order that, so that
+3	na·	ná 2	PART	particle_negative_subordinate	Lang=Irish	4	advmod:neg	X	Gloss=introducing subordinate neg. clause ; not
+4	·tomainte	do·moinethar	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	0	root	X	Gloss=to think, to suppose, to conjecture
 5-6	bednísel	_	_	_	_	_	_	_	_
-5	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	cop	X	Gloss=to be
-6	nísel	ísel	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
-7	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
+5	bed	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	6	cop	X	Gloss=to be
+6	nísel	ísel	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	4	ccomp	X	Gloss=low, of low stature, low-lying; metaphorical: lowly, humble, mean, of low degree
+7	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	6	nsubj	X	Gloss=emphasising particle
 8-9	tritaidbsin	_	_	_	_	_	_	_	_
-8	tri	tre	ADP	preposition	Case=Acc|Lang=Irish	9	case	X	Gloss=through (time or space), by means of, be reason of
-9	taidbsin	taidbsiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of showing, pointing out, manifesting, demonstrating; appearance, form
+8	tri	tre	ADP	preposition	Case=Acc|Lang=Irish	9	mark:prt	X	Gloss=through (time or space), by means of, be reason of
+9	taidbsin	taidbsiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	6	advcl	X	Gloss=the act of showing, pointing out, manifesting, demonstrating; appearance, form
 10-11	afuilliuchtae	_	_	_	_	_	_	_	_
-10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	11	_	X	Gloss=his, its
-11	fuilliuchtae	fuilliucht	NOUN	noun	Case=Gen|Number=Plur|Lang=Irish	_	_	X	Gloss=trace, impress, mark
+10	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	11	nmod:poss	X	Gloss=his, its
+11	fuilliuchtae	fuilliucht	NOUN	noun	Case=Gen|Number=Plur|Lang=Irish	9	obj	X	Gloss=trace, impress, mark
 12-13	hisleb	_	_	_	_	_	_	_	_
 12	hi	i	ADP	preposition	Case=Dat|Lang=Irish	13	case	X	Gloss=in, into
-13	sleb	slíab	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	_	_	X	Gloss=mountain, moor, mountain range
-14	sina	Sina	PROPN	proper_noun	Case=Dat|Number=Sing|Lang=Irish	_	_	X	Gloss=Sinai
-15	hominibus·	homō	NOUN	noun	Lang=Latin	_	_	X	Gloss=human being, person, man
+13	sleb	slíab	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	9	obl	X	Gloss=mountain, moor, mountain range
+14	sina	Sina	PROPN	proper_noun	Case=Dat|Number=Sing|Lang=Irish	13	appos	X	Gloss=Sinai
+15	hominibus·	homō	NOUN	noun	Lang=Latin	9	flat	X	Gloss=human being, person, man
 16	·	·	PUNCT	punctuation	Lang=	_	_	_	_
 17-18	isairi	_	_	_	_	_	_	_	_
-17	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-18	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc|Lang=Irish	_	_	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-19	as·beir	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Lang=Irish	_	_	X	Gloss=to say, to speak, to call , mention
-20	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
-21	quis	quis	X	pronoun_interrogative	Lang=Latin	_	_	X	Gloss=who? which one?
-22	est	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=to be
-23	deus·	deus	PROPN	proper_noun	Lang=Latin	_	_	X	Gloss=god, deity, God
-24	7	et	CCONJ	conjunction	Lang=Latin	_	cc	X	Gloss=and
-25	tu	tū	X	pronoun	Lang=Latin	_	_	X	Gloss=you (sg.)
-26	es	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	_	_	X	Gloss=to be
-27	deus	deus	PROPN	proper_noun	Lang=Latin	_	_	X	Gloss=god, deity, God
+17	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	18	cop	X	Gloss=to be
+18	airi	ar 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Acc|Lang=Irish	4	parataxis	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+19	as·beir	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Lang=Irish	18	csubj:cleft	X	Gloss=to say, to speak, to call , mention
+20	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	19	nsubj	X	Gloss=emphasising particle
+21	quis	quis	X	pronoun_interrogative	Lang=Latin	19	flat	X	Gloss=who? which one?
+22	est	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	19	flat	X	Gloss=to be
+23	deus·	deus	PROPN	proper_noun	Lang=Latin	19	flat	X	Gloss=god, deity, God
+24	7	et	CCONJ	conjunction	Lang=Latin	19	flat	X	Gloss=and
+25	tu	tū	X	pronoun	Lang=Latin	19	flat	X	Gloss=you (sg.)
+26	es	sum	VERB	verb	Voice=Act|Mood=Ind|Lang=Latin	19	flat	X	Gloss=to be
+27	deus	deus	PROPN	proper_noun	Lang=Latin	19	flat	X	Gloss=god, deity, God
 
 # sent_id = S0006-5975
 # text = .i. indfissid
