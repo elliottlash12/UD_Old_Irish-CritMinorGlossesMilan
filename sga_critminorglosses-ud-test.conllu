@@ -22536,7 +22536,7 @@
 # text_en = the great weight, i.e. David did not have the boldness, i.e. that he should say by his own prophecy that there was no one without sin.
 1-3	inmorthomus	_	_	_	_	_	_	_	_
 1	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	3	det	X	Gloss=the
-2	mor	mór	ADJ	adjective	Degree=Pos|Lang=Irish	_	3	X	Gloss=great, big, ample, tall, large
+2	mor	mór	ADJ	adjective	Degree=Pos|Lang=Irish	3	amod	X	Gloss=great, big, ample, tall, large
 3	thomus	tomus	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	0	root	X	Gloss=the act of weighing, measuring, considering; quantity, amount
 4	.i.	.i.	CCONJ	abbreviation	Lang=	6	cc	X	Gloss=id est, it is
 5	ní	ní 3	PART	particle_negative_main	Lang=Irish	6	advmod:neg	X	Gloss=not
@@ -70168,43 +70168,43 @@
 # sent_id = S0006-5552
 # text = .i. condid étrummu dæ ón in bochtae bís triairchellad donaib sommaib ananae airnaib bochtaib trifrescissin messa· firiein indríg doib iarum
 # text_en = i.e. that is, so that the poverty, which is a result of the rich taking their riches from the poor, is the lighter through the expectation by them of the just judgment of the king afterwards.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=	5	cc	X	Gloss=id est, it is
 2-3	condid	_	_	_	_	_	_	_	_
-2	co	co 4	SCONJ	complementiser	Lang=Irish	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-3	ndid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
+2	co	co 4	SCONJ	complementiser	Lang=Irish	5	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	ndid	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	5	cop	X	Gloss=to be
 4-5	étrummu	_	_	_	_	_	_	_	_
-4	é	an-	X	particle_prefix	Lang=Irish	_	_	X	Gloss=negative: non-, un-
-5	trummu	tromm 3	ADJ	adjective	Degree=Cmp|Lang=Irish	_	_	X	Gloss=heavy, grave, serious, great, mighty, severe
-6	dæ	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	_	_	X	Gloss=away, from, cause or reason, by
-7	ón	-ón	PRON	particle_anaphoric	Lang=Irish	_	_	X	Gloss=that (aforementioned)
+4	é	an-	X	particle_prefix	Lang=Irish	5	advmod:neg	X	Gloss=negative: non-, un-
+5	trummu	tromm 3	ADJ	adjective	Degree=Cmp|Lang=Irish	0	root	X	Gloss=heavy, grave, serious, great, mighty, severe
+6	dæ	di	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	5	obl:prep	X	Gloss=away, from, cause or reason, by
+7	ón	-ón	PRON	particle_anaphoric	Lang=Irish	5	discourse	X	Gloss=that (aforementioned)
 8	in	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	9	det	X	Gloss=the
-9	bochtae	bochtae	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=poverty, want
-10	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to be, to exist,
+9	bochtae	bochtae	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	5	nsubj	10:nsubj|5:nsubj	Gloss=poverty, want
+10	bís	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Hab|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	9	acl:relcl	X	Gloss=to be, to exist,
 11-12	triairchellad	_	_	_	_	_	_	_	_
-11	tri	tre	ADP	preposition	Case=Acc|Lang=Irish	12	case	X	Gloss=through (time or space), by means of, be reason of
-12	airchellad	airchelad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of taking away, stealing, carrying off
+11	tri	tre	ADP	preposition	Case=Acc|Lang=Irish	12	mark:prt	X	Gloss=through (time or space), by means of, be reason of
+12	airchellad	airchelad	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	10	xcomp:pred	X	Gloss=the act of taking away, stealing, carrying off
 13-14	donaib	_	_	_	_	_	_	_	_
-13	do	do 1	ADP	preposition	Case=Dat|Lang=Irish	_	case	X	Gloss=to, for, by etc.
-14	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	_	det	X	Gloss=the
-15	sommaib	sommae 2	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=rich, wealthy
+13	do	do 1	ADP	preposition	Case=Dat|Lang=Irish	15	case	X	Gloss=to, for, by etc.
+14	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	15	det	X	Gloss=the
+15	sommaib	sommae 2	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	12	obl	X	Gloss=rich, wealthy
 16-17	ananae	_	_	_	_	_	_	_	_
-16	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	17	_	X	Gloss=their
-17	nanae	anae	NOUN	noun	Case=Gen|Number=Plur|Lang=Irish	_	_	X	Gloss=wealth, riches, prosperity
+16	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	17	nmod:poss	X	Gloss=their
+17	nanae	anae	NOUN	noun	Case=Gen|Number=Plur|Lang=Irish	15	nmod	X	Gloss=wealth, riches, prosperity
 18-19	airnaib	_	_	_	_	_	_	_	_
-18	air	ar 1	ADP	preposition	Case=Dat|Lang=Irish	_	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
-19	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	_	det	X	Gloss=the
-20	bochtaib	bocht	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=poor
+18	air	ar 1	ADP	preposition	Case=Dat|Lang=Irish	20	case	X	Gloss=in front of, for the sake of, in return for, on account of, because of; against (as protection); abstract: by virtue of, by means of, through
+19	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	20	det	X	Gloss=the
+20	bochtaib	bocht	ADJ	adjective	Case=Dat|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	12	obl	X	Gloss=poor
 21-22	trifrescissin	_	_	_	_	_	_	_	_
-21	tri	tre	ADP	preposition	Case=Acc|Lang=Irish	22	case	X	Gloss=through (time or space), by means of, be reason of
-22	frescissin	frescisiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of expecting, looking forward to, anticipating; expectation, hope
-23	messa	mes 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
+21	tri	tre	ADP	preposition	Case=Acc|Lang=Irish	22	mark:prt	X	Gloss=through (time or space), by means of, be reason of
+22	frescissin	frescisiu	NOUN	verbal_noun	Case=Acc|Number=Sing|VerbForm=VNoun|Lang=Irish	12	xcomp	X	Gloss=the act of expecting, looking forward to, anticipating; expectation, hope
+23	messa	mes 1	NOUN	verbal_noun	Case=Gen|Number=Sing|VerbForm=VNoun|Lang=Irish	22	obj	X	Gloss=the act of judging, correcting; emendation, opinion, verdict
 24	·	·	PUNCT	punctuation	Lang=	_	_	_	_
-25	firiein	fírían	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=just, righteous, fitting, truthful
+25	firiein	fírían	ADJ	adjective	Case=Gen|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	23	amod	X	Gloss=just, righteous, fitting, truthful
 26-27	indríg	_	_	_	_	_	_	_	_
 26	ind	in 1	DET	definite_article	Case=Gen|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	26	det	X	Gloss=the
-27	ríg	rí	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	_	_	X	Gloss=king
-28	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat|Lang=Irish	_	_	X	Gloss=to, for, by etc.
-29	iarum	íarum	ADV	adverb	Lang=Irish	_	_	X	Gloss=thereafter, afterwards
+27	ríg	rí	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	23	nmod	X	Gloss=king
+28	doib	do 1	ADP	preposition	Person=3|Number=Plur|Case=Dat|Lang=Irish	27	obl:prep	X	Gloss=to, for, by etc.
+29	iarum	íarum	ADV	adverb	Lang=Irish	28	advmod	X	Gloss=thereafter, afterwards
 
 # sent_id = S0006-5553
 # text = 7 issí persann fil and amal sodin paupertas
@@ -71630,35 +71630,35 @@
 # sent_id = S0006-5661
 # text = .i. noscrutainse intan nombiinn isnaib fochaidib dús in retarscar cairde ṅ dæ 7 aremcaissiu 7 nítucussa insin· inruetarscar fanaic.,
 # text_en = i.e. I used to consider, when I was in tribulations, whether the covenant of God and His Providence had departed, and I did not understand that:  whether it had departed or not.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=	2	cc	X	Gloss=id est, it is
 2-3	noscrutainse	_	_	_	_	_	_	_	_
-2	no·scrutain	scrútaid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Lang=Irish	_	_	X	Gloss=to examine, to scrutinize, to investigate, to search
-3	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
+2	no·scrutain	scrútaid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|Lang=Irish	0	root	X	Gloss=to examine, to scrutinize, to investigate, to search
+3	se	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs|Lang=Irish	2	nsubj	X	Gloss=emphasising particle
 4-5	intan	_	_	_	_	_	_	_	_
 4	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	5	det	X	Gloss=the
-5	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	_	_	X	Gloss=time
-6	no·mbiin	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to be, to exist,
+5	tan	tan	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	2	obl:tmod	X	Gloss=time
+6	no·mbiin	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Impf|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Nas|Lang=Irish	5	acl:relcl	X	Gloss=to be, to exist,
 7	i	i	ADP	preposition	Case=Dat|Lang=Irish	9	case	X	Gloss=in, into
 8	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	9	det	X	Gloss=the
-9	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
-10	dús	duus	X	conjunction	Lang=Irish	_	_	X	Gloss=interrogative: in order to know, find out, ascertain; (to see) whether, if
-11	in·	in 2	PRON	particle_interrogative	Lang=Irish	_	_	X	Gloss=question particle
-12	·retarscar	eter·scara	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|Lang=Irish	_	_	X	Gloss=to separate, to divide, to leave, to dissolve, to depart from
-13	cairde	cairde	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=pact, covenant, peace
-14	ṅdæ	día 2	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	_	_	X	Gloss=god, deity, God
-15	7	ocus 2	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=coordinating: and, since
-16	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	17	_	X	Gloss=his, its
-17	remcaissiu	remcaisiu	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=“looking before”; providence, foresight
-18	7	ocus 2	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=coordinating: and, since
-19	ní·	ní 3	PART	particle_negative_main	Lang=Irish	_	advmod:neg	X	Gloss=not
-20	·tucus	do·uccai	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Lang=Irish	_	_	X	Gloss=to understand
-21	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
+9	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun|Lang=Irish	6	xcomp:pred	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+10	dús	duus	X	conjunction	Lang=Irish	12	mark:prt	X	Gloss=interrogative: in order to know, find out, ascertain; (to see) whether, if
+11	in·	in 2	PRON	particle_interrogative	Lang=Irish	12	mark:prt	X	Gloss=question particle
+12	·retarscar	eter·scara	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|Lang=Irish	6	advcl	X	Gloss=to separate, to divide, to leave, to dissolve, to depart from
+13	cairde	cairde	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	12	nsubj	X	Gloss=pact, covenant, peace
+14	ṅdæ	día 2	NOUN	noun	Case=Gen|Number=Sing|Lang=Irish	13	nmod	X	Gloss=god, deity, God
+15	7	ocus 2	CCONJ	conjunction	Lang=Irish	17	cc	X	Gloss=coordinating: and, since
+16	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	17	nmod:poss	X	Gloss=his, its
+17	remcaissiu	remcaisiu	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	13	conj	X	Gloss=“looking before”; providence, foresight
+18	7	ocus 2	CCONJ	conjunction	Lang=Irish	20	cc	X	Gloss=coordinating: and, since
+19	ní·	ní 3	PART	particle_negative_main	Lang=Irish	20	advmod:neg	X	Gloss=not
+20	·tucus	do·uccai	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Lang=Irish	9	conj	X	Gloss=to understand
+21	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs|Lang=Irish	20	nsubj	X	Gloss=emphasising particle
 22	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	23	det	X	Gloss=the
-23	sin	sin	PRON	pronoun_demonstrative_distal	Case=Acc|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem|Lang=Irish	_	_	X	Gloss=that one, those ones, the one in there ; that, those
-24	in	in 2	PRON	particle_interrogative	Lang=Irish	_	_	X	Gloss=question particle
-25	ru·etarscar	eter·scara	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|Lang=Irish	_	_	X	Gloss=to separate, to divide, to leave, to dissolve, to depart from
-26	fa	fa	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=disjunctive: introduces the second of two alternatives in interrogative clauses: or, introduces the second of three alternatives in interrogative clauses: or, introduces the third of three alternatives in interrogative clauses:
-27	naic	nacc	INTJ	interjection	Lang=Irish	_	_	X	Gloss=no, not
+23	sin	sin	PRON	pronoun_demonstrative_distal	Case=Acc|Number=Sing|Gender=Neut|Deixis=Remt|PronType=Dem|Lang=Irish	20	obj	X	Gloss=that one, those ones, the one in there ; that, those
+24	in	in 2	PRON	particle_interrogative	Lang=Irish	25	mark:prt	X	Gloss=question particle
+25	ru·etarscar	eter·scara	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|Lang=Irish	20	advcl	X	Gloss=to separate, to divide, to leave, to dissolve, to depart from
+26	fa	fa	CCONJ	conjunction	Lang=Irish	27	cc	X	Gloss=disjunctive: introduces the second of two alternatives in interrogative clauses: or, introduces the second of three alternatives in interrogative clauses: or, introduces the third of three alternatives in interrogative clauses:
+27	naic	nacc	INTJ	interjection	Lang=Irish	25	discourse	X	Gloss=no, not
 28	.,	.,	PUNCT	punctuation	Lang=	_	_	_	_
 
 # sent_id = S0006-5662
