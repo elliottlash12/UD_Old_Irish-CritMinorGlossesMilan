@@ -72673,38 +72673,38 @@
 # sent_id = S0006-5748
 # text = .i. ní do is ainm dugrés pullutum dunelled asslentar huanaib salaib corptaib [leg. corpthaib] acht is ainm caclacein [leg. cachlacein] du cach escmun aslentar hua drochgnimaib
 # text_en = i.e. it is not for that that pollutum is always a name: for the pollution whereby a man is defiled by bodily stains, but it is a name alternately to every one impure who is defiled by evil deeds.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	ní	ní 3	PART	particle_negative_main	Lang=Irish	_	advmod:neg	X	Gloss=not
-3	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	_	_	X	Gloss=to, for, by etc.
-4	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-5	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=name, noun (gramm)
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
+2	ní	ní 3	PART	particle_negative_main	Lang=Irish	3	advmod:neg	X	Gloss=not
+3	do	do 1	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	0	root	X	Gloss=to, for, by etc.
+4	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	5	cop	X	Gloss=to be
+5	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	3	ccomp	X	Gloss=name, noun (gramm)
 6-7	dugrés	_	_	_	_	_	_	_	_
 6	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	7	case	X	Gloss=to, for, by etc.
-7	grés	grés 2	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	_	_	X	Gloss=continance, continuation, practice
-8	pullutum	pollūtus	ADJ	verbal_participle	Lang=Latin	_	_	X	Gloss=_
+7	grés	grés 2	NOUN	noun	Case=Dat|Number=Sing|Lang=Irish	5	obl	X	Gloss=continance, continuation, practice
+8	pullutum	pollūtus	ADJ	verbal_participle	Lang=Latin	5	nsubj	X	Gloss=_
 9-11	dunelled	_	_	_	_	_	_	_	_
 9	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	11	case	X	Gloss=to, for, by etc.
 10	n	in 1	DET	definite_article	Case=Dat|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	11	det	X	Gloss=the
-11	elled	éilned	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of polluting, corrupting; pollution, defilement, corruption
-12	ass·lentar	as·lena	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to pollute, to defy, to violate
+11	elled	éilned	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	3	parataxis	X	Gloss=the act of polluting, corrupting; pollution, defilement, corruption
+12	ass·lentar	as·lena	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	11	acl:relcl	X	Gloss=to pollute, to defy, to violate
 13-14	huanaib	_	_	_	_	_	_	_	_
 13	hua	ó 1	ADP	preposition	Case=Dat|Lang=Irish	15	case	X	Gloss=from, out of, by
 14	naib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	15	det	X	Gloss=the
-15	salaib	sal	NOUN	noun	Case=Dat|Number=Plur|Lang=Irish	_	_	X	Gloss=sin, stain; dirt, filth, impurity, dross
-16	corpthaib	corpdae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Fem|Degree=Pos|Lang=Irish	_	_	X	Gloss=corporeal, bodily, physical, actual
-17	acht	acht 1	PART	particle_focus	Lang=Irish	_	_	X	Gloss=except, but, provided that, save that
-18	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-19	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=name, noun (gramm)
+15	salaib	sal	NOUN	noun	Case=Dat|Number=Plur|Lang=Irish	12	obl	X	Gloss=sin, stain; dirt, filth, impurity, dross
+16	corpthaib	corpdae	ADJ	adjective	Case=Dat|Number=Plur|Gender=Fem|Degree=Pos|Lang=Irish	15	amod	X	Gloss=corporeal, bodily, physical, actual
+17	acht	acht 1	CCONJ	conjunction	Lang=Irish	19	cc	X	Gloss=except, but, provided that, save that
+18	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	19	cop	X	Gloss=to be
+19	ainm	ainm	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	11	conj	X	Gloss=name, noun (gramm)
 20	cach	cach	DET	adjective_quantifier	Case=Acc|Number=Sing|Gender=Fem|PronType=Tot|Lang=Irish	21	det	X	Gloss=every, each, all, any
-21	'la	ala	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Fem|Lang=Irish	_	_	X	Gloss=the other, one another ; else; second
-22	cein	cían	ADJ	adjective	Case=Acc|Number=Sing|Degree=Pos|Lang=Irish	_	_	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
-23	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	_	case	X	Gloss=to, for, by etc.
-24	cach	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Masc|PronType=Tot|Lang=Irish	_	det	X	Gloss=every, each, all, any
-25	escmun	escmon	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=polluted, unclean
-26	as·lentar	as·lena	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	_	_	X	Gloss=to pollute, to defy, to violate
+21	la	ala	X	adjective_pronominal	Case=Acc|Number=Sing|Gender=Fem|Lang=Irish	21	amod	X	Gloss=the other, one another ; else; second
+22	cein	cían	ADJ	adjective	Case=Acc|Number=Sing|Degree=Pos|Lang=Irish	19	obl:tmod	X	Gloss=far, distant, long, enduring; as conjunction: while, as long as
+23	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	25	case	X	Gloss=to, for, by etc.
+24	cach	cach	DET	adjective_quantifier	Case=Dat|Number=Sing|Gender=Masc|PronType=Tot|Lang=Irish	25	det	X	Gloss=every, each, all, any
+25	escmun	escmon	ADJ	adjective	Case=Dat|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	19	obl	26:nsubj|19:obl	Gloss=polluted, unclean
+26	as·lentar	as·lena	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Pass|Mood=Ind|VerbForm=Fin|Subcat=Intrans|RelType=Other|Lang=Irish	25	acl:relcl	X	Gloss=to pollute, to defy, to violate
 27	hua	ó 1	ADP	preposition	Case=Dat|Lang=Irish	29	case	X	Gloss=from, out of, by
-28	droch	droch-	X	particle_prefix	Lang=Irish	_	_	X	Gloss=evil, bad, wrong
-29	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+28	droch	droch-	X	particle_prefix	Lang=Irish	29	amod	X	Gloss=evil, bad, wrong
+29	gnimaib	gním	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun|Lang=Irish	26	obl	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
 
 # sent_id = S0006-5749
 # text = .i. nidat nescmana
@@ -73481,37 +73481,37 @@
 # sent_id = S0006-5823
 # text = .i. is ed asberat som is gau dúnni innahi adfidam [leg. adfiadam] dichrisst huare nadnacat hifrecndairc· gnímu cosmaili dudenum duchrist indas asṅdafiadam ni dundarigni..,
 # text_en = i.e. it is this that they say: the things that we declare of Christ are a lie of ours, because they do not see Christ do like deeds at the present, such as we declare that He did them.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	_	_	X	Gloss=it
-4	as·berat	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other|Lang=Irish	_	_	X	Gloss=to say, to speak, to call , mention
-5	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
-6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-7	gau	gáu	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=falsehood, lie
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
+2	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	3	cop	X	Gloss=to be
+3	ed	3sg.neut.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	0	root	X	Gloss=it
+4	as·berat	as·beir	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other|Lang=Irish	3	csubj:cleft	X	Gloss=to say, to speak, to call , mention
+5	som	nota augens	PRON	particle_pronominal	PronType=Prs|Lang=Irish	4	nsubj	X	Gloss=emphasising particle
+6	is	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	7	cop	X	Gloss=to be
+7	gau	gáu	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	3	parataxis	X	Gloss=falsehood, lie
 8-9	dúnni	_	_	_	_	_	_	_	_
-8	dún	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat|Lang=Irish	_	_	X	Gloss=to, for, by etc.
-9	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
+8	dún	do 1	ADP	preposition	Person=1|Number=Plur|Case=Dat|Lang=Irish	9	case	X	Gloss=to, for, by etc.
+9	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs|Lang=Irish	7	obl	X	Gloss=emphasising particle
 10-11	innahi	_	_	_	_	_	_	_	_
 10	inna	in 1	DET	definite_article	Case=Nom|Number=Plur|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	11	det	X	Gloss=the
-11	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Neut|Lang=Irish	_	_	X	Gloss=substantivizing particle
-12	ad·fiadam	ad·fét	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other|Lang=Irish	_	_	X	Gloss=to tell, to relate, to describe
+11	hi	í 1	PRON	pronoun_propword	Case=Nom|Number=Plur|Gender=Neut|Lang=Irish	7	nsubj	12:obj|7:nsubj	Gloss=substantivizing particle
+12	ad·fiadam	ad·fét	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Len|Lang=Irish	11	acl:relcl	X	Gloss=to tell, to relate, to describe
 13	di	di	ADP	preposition	Case=Dat|Lang=Irish	14	case	X	Gloss=away, from, cause or reason, by
-14	chrisst	Críst	PROPN	proper_noun	Case=Dat|Number=Sing|Lang=Irish	_	_	X	Gloss=the Anointed, Jesus Christ
-15	huare	úaire	SCONJ	conjunction	Lang=Irish	_	mark	X	Gloss=causal; coordinating and subordinating: when, since
-16	nad·	nád 1	PART	particle_negative_subordinate	Lang=Irish	_	advmod:neg	X	Gloss=that...not
-17	·nacat	ad·cí	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other|Lang=Irish	_	_	X	Gloss=to see, to observe
-18	hi	i	ADP	preposition	Case=Acc|Lang=Irish	_	case	X	Gloss=in, into
-19	frecndairc	frecndairc	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos|Lang=Irish	_	_	X	Gloss=gramm. present (tense)
-20	gnímu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
-21	cosmaili	cosmail	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=like, similar, equal, probable
-22	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	23	case	X	Gloss=to, for, by etc.
-23	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of doing, making, creating; deed, work, activity
+14	chrisst	Críst	PROPN	proper_noun	Case=Dat|Number=Sing|Lang=Irish	12	obl	X	Gloss=the Anointed, Jesus Christ
+15	huare	úaire	SCONJ	conjunction	Lang=Irish	17	mark	X	Gloss=causal; coordinating and subordinating: when, since
+16	nad·	nád 1	PART	particle_negative_subordinate	Lang=Irish	17	advmod:neg	X	Gloss=that...not
+17	·nacat	ad·cí	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Trans|RelType=Other|Lang=Irish	12	advcl	X	Gloss=to see, to observe
+18	hi	i	ADP	preposition	Case=Acc|Lang=Irish	19	case	X	Gloss=in, into
+19	frecndairc	frecndairc	ADJ	adjective	Case=Dat|Number=Sing|Gender=Neut|Degree=Pos|Lang=Irish	20	amod	X	Gloss=gramm. present (tense)
+20	gnímu	gním	NOUN	verbal_noun	Case=Acc|Number=Plur|VerbForm=VNoun|Lang=Irish	17	obl	X	Gloss=the act of doing, acting, performing, executing; gramm. the active voice; an active verb, fact, deed, action, activity
+21	cosmaili	cosmail	ADJ	adjective	Case=Acc|Number=Plur|Gender=Masc|Degree=Pos|Lang=Irish	20	acl:relcl	X	Gloss=like, similar, equal, probable
+22	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	23	mark:prt	X	Gloss=to, for, by etc.
+23	denum	dénum	NOUN	verbal_noun	Case=Dat|Number=Sing|VerbForm=VNoun|Lang=Irish	21	xcomp	X	Gloss=the act of doing, making, creating; deed, work, activity
 24	du	do 1	ADP	preposition	Case=Dat|Lang=Irish	25	case	X	Gloss=to, for, by etc.
-25	christ	Críst	PROPN	proper_noun	Case=Dat|Number=Sing|Lang=Irish	_	_	X	Gloss=the Anointed, Jesus Christ
+25	christ	Críst	PROPN	proper_noun	Case=Dat|Number=Sing|Lang=Irish	23	obl	X	Gloss=the Anointed, Jesus Christ
 26	indas	indas	NOUN	verbal_noun	Case=Nom|Number=Sing|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of pointing out; manner, kind, nature, appearance, condition, method, way
 27	asṅda·fiadam	ad·fét	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|RelType=Other|Lang=Irish	_	_	X	Gloss=to tell, to relate, to describe
-28	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
-29	dunda·rigni	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|Aspect=Perf|RelType=Other|Lang=Irish	_	_	X	Gloss=to do, to make
+28	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs|Lang=Irish	27	nsubj	X	Gloss=emphasising particle
+29	dunda·rigni	do·gní	VERB	verb	Person[Obj]=3|Number[Obj]=Plur|Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfC|Aspect=Perf|RelType=Other|Lang=Irish	27	ccomp	X	Gloss=to do, to make
 30	..,	..,	PUNCT	punctuation	Lang=	_	_	_	_
 
 # sent_id = S0006-5824
@@ -75115,42 +75115,42 @@
 # sent_id = S0006-5953
 # text = .i. robú mór ahomun liumsa ón mad and atbelmaisni isnaib fochaidib 7 isnaib imnedaib hirobammar 7 maninsoerthae riam
 # text_en = i.e. that is, my fear of it was great that it would be there that we would die in the tribulations and afflictions in which we were, provided that we should not be delivered previously.
-1	.i.	.i.	CCONJ	abbreviation	Lang=	_	cc	X	Gloss=id est, it is
-2	robú	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|Lang=Irish	_	cop	X	Gloss=to be
-3	mór	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	_	_	X	Gloss=great, big, ample, tall, large
+1	.i.	.i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
+2	robú	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|Lang=Irish	3	cop	X	Gloss=to be
+3	mór	mór	ADJ	adjective	Case=Nom|Number=Sing|Gender=Masc|Degree=Pos|Lang=Irish	0	root	X	Gloss=great, big, ample, tall, large
 4-5	ahomun	_	_	_	_	_	_	_	_
-4	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	5	_	X	Gloss=his, its
-5	homun	omun	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=fear, the state of being afraid
+4	a	3sg.masc./neut.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	5	nmod:poss	X	Gloss=his, its
+5	homun	omun	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	3	nsubj	X	Gloss=fear, the state of being afraid
 6-7	liumsa	_	_	_	_	_	_	_	_
-6	lium	la	ADP	preposition	Person=1|Number=Sing|Case=Acc|Lang=Irish	_	_	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
-7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
-8	ón	-ón	PRON	particle_anaphoric	Lang=Irish	_	_	X	Gloss=that (aforementioned)
+6	lium	la	ADP	preposition	Person=1|Number=Sing|Case=Acc|Lang=Irish	7	case	X	Gloss=with, by, along with, and, in addition to, as well as, on account of, because of, by reason of
+7	sa	nota augens	PRON	particle_pronominal	Person=1|Number=Sing|PronType=Prs|Lang=Irish	3	obl	X	Gloss=emphasising particle
+8	ón	-ón	PRON	particle_anaphoric	Lang=Irish	3	discourse	X	Gloss=that (aforementioned)
 9-10	mad	_	_	_	_	_	_	_	_
-9	ma	ma	SCONJ	conjunction	Lang=Irish	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-10	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-11	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	_	_	X	Gloss=in, into
+9	ma	ma	SCONJ	conjunction	Lang=Irish	12	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+10	d	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	12	cop	X	Gloss=to be
+11	and	i	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	12	case	X	Gloss=in, into
 12-13	atbelmaisni	_	_	_	_	_	_	_	_
-12	at·belmais	at·baill	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Plur|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB|Lang=Irish	_	_	X	Gloss=to die, to perish, to vanish
-13	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
+12	at·belmais	at·baill	VERB	verb	Person[Obj]=3|Number[Obj]=Sing|Gender[Obj]=Neut|Person[Subj]=1|Number[Subj]=Plur|Tense=Cond|Voice=Act|Mood=Ind|VerbForm=Fin|PronType=InfB|Lang=Irish	3	advcl	X	Gloss=to die, to perish, to vanish
+13	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs|Lang=Irish	12	nsubj	X	Gloss=emphasising particle
 14-15	isnaib	_	_	_	_	_	_	_	_
 14	i	i	ADP	preposition	Case=Dat|Lang=Irish	16	case	X	Gloss=in, into
 15	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	16	det	X	Gloss=the
-16	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun|Lang=Irish	_	_	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
-17	7	ocus 2	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=coordinating: and, since
+16	fochaidib	fochaid	NOUN	verbal_noun	Case=Dat|Number=Plur|VerbForm=VNoun|Lang=Irish	12	xcomp	X	Gloss=the act of suffering, trying, attempting; trial, tribulation, affliction, anxiety, sorrow
+17	7	ocus 2	CCONJ	conjunction	Lang=Irish	20	cc	X	Gloss=coordinating: and, since
 18-19	isnaib	_	_	_	_	_	_	_	_
 18	i	i	ADP	preposition	Case=Dat|Lang=Irish	20	case	X	Gloss=in, into
 19	snaib	in 1	DET	definite_article	Case=Dat|Number=Plur|Gender=Neut|Definite=Def|PronType=Art|Lang=Irish	20	det	X	Gloss=the
-20	imnedaib	imned	NOUN	noun	Case=Dat|Number=Plur|Lang=Irish	_	_	X	Gloss=tribulation, anxiety, suffering, sorrow
+20	imnedaib	imned	NOUN	noun	Case=Dat|Number=Plur|Lang=Irish	16	conj	X	Gloss=tribulation, anxiety, suffering, sorrow
 21-22	hirobammar	_	_	_	_	_	_	_	_
-21	hi	i	ADP	preposition	Case=Acc|Lang=Irish	_	case	X	Gloss=in, into
-22	ro·bammar	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Lang=Irish	_	_	X	Gloss=to be, to exist,
-23	7	ocus 2	CCONJ	conjunction	Lang=Irish	_	cc	X	Gloss=coordinating: and, since
+21	hi	i	ADP	preposition	Case=Acc|Lang=Irish	22	xcomp:pred:prep	X	Gloss=in, into
+22	ro·bammar	ad·tá	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Lang=Irish	16	acl:relcl	X	Gloss=to be, to exist,
+23	7	ocus 2	CCONJ	conjunction	Lang=Irish	27	cc	X	Gloss=coordinating: and, since
 24-27	maninsoerthae	_	_	_	_	_	_	_	_
-24	ma	ma	SCONJ	conjunction	Lang=Irish	_	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
-25	ni	ní 3	PART	particle_negative_main	Lang=Irish	_	advmod:neg	X	Gloss=not
-26	n·	1pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs|Lang=Irish	_	_	X	Gloss=we, us, ourselves
-27	·soerthae	sóeraid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	_	X	Gloss=to set free, to deliver
-28	riam	re	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	_	_	X	Gloss=before, in front of
+24	ma	ma	SCONJ	conjunction	Lang=Irish	27	mark	X	Gloss=conditional: if, according to; "unless" with negative and subjunctive verb
+25	ni	ní 3	PART	particle_negative_main	Lang=Irish	27	advmod:neg	X	Gloss=not
+26	n·	1pl.inf.pron.	PRON	pronoun_infixed	PronType=Prs|Lang=Irish	27	inf:obj	X	Gloss=we, us, ourselves
+27	·soerthae	sóeraid	VERB	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Past|Voice=Pass|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	3	advcl	X	Gloss=to set free, to deliver
+28	riam	re	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	27	obl:prep	X	Gloss=before, in front of
 
 # sent_id = S0006-5954
 # text = arossa .i. fil archinn
