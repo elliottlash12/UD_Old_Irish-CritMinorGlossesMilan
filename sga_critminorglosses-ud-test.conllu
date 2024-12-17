@@ -73650,17 +73650,17 @@
 # sent_id = S0006-5834
 # text = .i. asberamni ammi muntar dait siu adæ
 # text_en = i.e. we will say that we are Your (sg) people, O God.
-1	.i.	.i.	CCONJ	abbreviation	Lang=_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=_	2	cc	X	Gloss=id est, it is
 2-3	asberamni	_	_	_	_	_	_	_	_
-2	as·beram	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other|Lang=Irish	_	_	X	Gloss=to say, to speak, to call , mention
-3	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
-4	ammi	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-5	muntar	muinter	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
-6	dait	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat|Lang=Irish	_	_	X	Gloss=to, for, by etc.
-7	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs|Lang=Irish	_	_	X	Gloss=emphasising particle
+2	as·beram	as·beir	VERB	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Fut|Voice=Act|Mood=Ind|VerbForm=Fin|RelType=Other|Lang=Irish	0	root	X	Gloss=to say, to speak, to call , mention
+3	ni	nota augens	PRON	particle_pronominal	Person=1|Number=Plur|PronType=Prs|Lang=Irish	2	nsubj	X	Gloss=emphasising particle
+4	ammi	is 1	AUX	verb	Person[Subj]=1|Number[Subj]=Plur|Tense=Pres|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Lang=Irish	5	cop	X	Gloss=to be
+5	muntar	muinter	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	2	parataxis	X	Gloss=family, household, followers, adherents, attendents, troops, party, a community or group of persons connected by some common bond
+6	dait	do 1	ADP	preposition	Person=2|Number=Sing|Case=Dat|Lang=Irish	7	case	X	Gloss=to, for, by etc.
+7	siu	nota augens	PRON	particle_pronominal	Person=2|Number=Sing|PronType=Prs|Lang=Irish	5	obl	X	Gloss=emphasising particle
 8-9	adæ	_	_	_	_	_	_	_	_
-8	a	a 1	PART	particle_vocative	Lang=Irish	_	case:voc	X	Gloss=O! ; oh
-9	dæ	día 2	NOUN	noun	Number=Sing|Lang=Irish	_	_	X	Gloss=god, deity, God
+8	a	a 1	PART	particle_vocative	Lang=Irish	9	case:voc	X	Gloss=O! ; oh
+9	dæ	día 2	NOUN	noun	Number=Sing|Lang=Irish	2	vocative	X	Gloss=god, deity, God
 
 # sent_id = S0006-5835
 # text = .i. tuáth dæ 7 popul dǽ
@@ -74521,17 +74521,18 @@ i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
 4	assair	Asar	PROPN	proper_noun	Case=Nom|Number=Plur|Lang=Irish	3	nsubj	X	Gloss=Assyrian
 
 # sent_id = S0006-5896
-# text = .i. condib hé intliucht so [leg. int intliucht so]· domberae as
+# text = .i. condib hé [int] intliucht so· domberae as
 # text_en = i.e. that this may be the sense that you (sg) get from it.
-1	.i.	.i.	CCONJ	abbreviation	Lang=_	_	cc	X	Gloss=id est, it is
-2	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	_	cop	X	Gloss=to be
-3	co	co 4	SCONJ	complementiser	Lang=Irish	_	mark:prt	X	Gloss=so that, until (+independent, leniting)
-4	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	_	_	X	Gloss=he, him, it
-5	int	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Lang=Irish	6	det	X	Gloss=the
-6	intliucht	intliucht	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	_	_	X	Gloss=meaning, signification, mind
-7	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox|Lang=Irish	_	_	X	Gloss=this, these
-8	do·mberae	do·beir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Other|Lang=Irish	_	_	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
-9	as	a 7	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	_	_	X	Gloss=out of, from
+1	.i.	.i.	CCONJ	abbreviation	Lang=_	4	cc	X	Gloss=id est, it is
+2-3	condib	_	_	_	_	_	_	_	_
+2	co	co 4	SCONJ	complementiser	Lang=Irish	4	mark:prt	X	Gloss=so that, until (+independent, leniting)
+3	ndib	is 1	AUX	verb	Person[Subj]=3|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Intrans|Lang=Irish	4	cop	X	Gloss=to be
+4	hé	3sg.masc.indp.pron.	PRON	pronoun_independent	PronType=Prs|Person=3|Lang=Irish	0	root	X	Gloss=he, him, it
+5	[int]	in 1	DET	definite_article	Case=Nom|Number=Sing|Gender=Masc|Definite=Def|PronType=Art|Typo=Yes|Lang=Irish	6	det	X	Gloss=the|Addition=Yes
+6	intliucht	intliucht	NOUN	noun	Case=Nom|Number=Sing|Lang=Irish	4	nsubj	8:obj|4:nsubj	Gloss=meaning, signification, mind
+7	so	-so	DET	particle_demonstrative_proximate	Deixis=Prox|Lang=Irish	6	det	X	Gloss=this, these
+8	do·mberae	do·beir	VERB	verb	Person[Subj]=2|Number[Subj]=Sing|Tense=Pres|Voice=Act|Mood=Subj|VerbForm=Fin|Subcat=Trans|RelType=Nas|Lang=Irish	6	acl:relcl	X	Gloss=to give, to place, to bring, to get, to cite, to impose on, to put on, to inflict on
+9	as	a 7	ADP	preposition	Person=3|Number=Sing|Gender=Masc|Case=Dat|Lang=Irish	8	obl:prep	X	Gloss=out of, from
 
 # sent_id = S0006-5897
 # text = fíu
@@ -74700,17 +74701,17 @@ i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
 # sent_id = S0006-5912
 # text = .i. lase rombatar ananai innalamaib ón
 # text_en = i.e. that is, when their riches were in their hands.
-1	.i.	.i.	CCONJ	abbreviation	Lang=_	_	cc	X	Gloss=id est, it is
-2	lase	lasé	X	conjunction	Lang=Irish	_	_	X	Gloss=temporal: when, while
-3	ro·mbatar	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Lang=Irish	_	_	X	Gloss=to be, to exist,
+1	.i.	.i.	CCONJ	abbreviation	Lang=_	3	cc	X	Gloss=id est, it is
+2	lase	lasé	X	conjunction	Lang=Irish	3	mark	X	Gloss=temporal: when, while
+3	ro·mbatar	ad·tá	VERB	verb	Person[Subj]=3|Number[Subj]=Plur|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Subcat=Intrans|Aspect=Perf|RelType=Other|Lang=Irish	0	root	X	Gloss=to be, to exist,
 4-5	ananai	_	_	_	_	_	_	_	_
-4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	5	_	X	Gloss=their
-5	nanai	anae	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	_	_	X	Gloss=wealth, riches, prosperity
+4	a	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	5	nmod:poss	X	Gloss=their
+5	nanai	anae	NOUN	noun	Case=Nom|Number=Plur|Lang=Irish	3	nsubj	X	Gloss=wealth, riches, prosperity
 6-8	innalamaib	_	_	_	_	_	_	_	_
 6	i	i	ADP	preposition	Case=Dat|Lang=Irish	8	case	X	Gloss=in, into
-7	nna	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	8	_	X	Gloss=their
-8	lamaib	lám	NOUN	noun	Case=Dat|Number=Plur|Lang=Irish	_	_	X	Gloss=hand, arm
-9	ón	-ón	PRON	particle_anaphoric	Lang=Irish	_	_	X	Gloss=that (aforementioned)
+7	nna	3pl.poss.pron.	DET	pronoun_possessive	Poss=Yes|PronType=Prs|Person=3|Lang=Irish	8	nmod:poss	X	Gloss=their
+8	lamaib	lám	NOUN	noun	Case=Dat|Number=Plur|Lang=Irish	3	xcomp:pred	X	Gloss=hand, arm
+9	ón	-ón	PRON	particle_anaphoric	Lang=Irish	3	discourse	X	Gloss=that (aforementioned)
 
 # sent_id = S0006-5913
 # text = intoracht
@@ -74946,18 +74947,19 @@ i.	CCONJ	abbreviation	Lang=	3	cc	X	Gloss=id est, it is
 # sent_id = S0006-5938
 # text = .i. tarcenn alanaile .i. roairius innaithchi n uili..,
 # text_en = i.e. for others, i.e. I have watched the whole night.
-1	.i.	.i.	CCONJ	abbreviation	Lang=_	_	cc	X	Gloss=id est, it is
+1	.i.	.i.	CCONJ	abbreviation	Lang=_	3	cc	X	Gloss=id est, it is
 2-3	tarcenn	_	_	_	_	_	_	_	_
 2	tar	tar 1	ADP	preposition	Case=Acc|Lang=Irish	3	case	X	Gloss=over, across, covering
-3	cenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	_	_	X	Gloss=head; end-point, termination, exchange, purchase
-4	alanaile	alaile	X	adjective_pronominal	Case=Gen|Number=Plur|Gender=Masc|Lang=Irish	_	_	X	Gloss=other, the other
-5	.i.	.i.	CCONJ	abbreviation	Lang=_	_	cc	X	Gloss=id est, it is
-6	ro·airius	airid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Lang=Irish	_	_	X	Gloss=to guard, to keep watch over
+3	cenn	cenn 1	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	0	root	X	Gloss=head; end-point, termination, exchange, purchase
+4	alanaile	alaile	X	adjective_pronominal	Case=Gen|Number=Plur|Gender=Masc|Lang=Irish	3	nmod	X	Gloss=other, the other
+5	.i.	.i.	CCONJ	abbreviation	Lang=_	6	cc	X	Gloss=id est, it is
+6	ro·airius	airid	VERB	verb	Person[Subj]=1|Number[Subj]=Sing|Tense=Pret|Voice=Act|Mood=Ind|VerbForm=Fin|Aspect=Perf|Lang=Irish	3	parataxis	X	Gloss=to guard, to keep watch over
 7-8	innaithchi	_	_	_	_	_	_	_	_
 7	in	in 1	DET	definite_article	Case=Acc|Number=Sing|Gender=Fem|Definite=Def|PronType=Art|Lang=Irish	8	det	X	Gloss=the
-8	naithchi	adaig	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	_	_	X	Gloss=night, eve of a day or festival
-9	nuili	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing|Gender=Fem|Lang=Irish	_	_	X	Gloss=all, every, the whole
-10	..,	..,	PUNCT	punctuation	Lang=_	_	_	_	_
+8	naithchi	adaig	NOUN	noun	Case=Acc|Number=Sing|Lang=Irish	6	obj	X	Gloss=night, eve of a day or festival
+9	n	uile	ADJ	adjective_quantifier	Case=Acc|Number=Sing|Gender=Fem|Typo=Yes|Lang=Irish	8	amod	X	Gloss=all, every, the whole|CorrectForm=nuili
+10	uili	_	X	_	Lang=_	9	goeswith	X	_
+11	..,	..,	PUNCT	punctuation	Lang=_	_	_	_	_
 
 # sent_id = S0006-5939
 # text = .i. aire inna aithche huile·
